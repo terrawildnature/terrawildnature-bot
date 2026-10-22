@@ -1,0 +1,89 @@
+{
+  "name": "toprak kurdu",
+  "title": [
+    [
+      [
+        "BU HAYVAN BİR",
+        "W"
+      ]
+    ],
+    [
+      [
+        "GECEDE",
+        "W"
+      ],
+      [
+        "250.000'E",
+        "R"
+      ]
+    ],
+    [
+      [
+        "KADAR TERMİT YER",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "TOPRAK KURDU",
+  "card_top": [
+    "Sırtlan ailesinin en küçük",
+    "üyesi; adı kurt ama sırtlan."
+  ],
+  "card_bottom": [
+    "Tehlikede yelesini kabartır,",
+    "kötü kokulu bir sıvı da",
+    "salabilir."
+  ],
+  "right": [
+    "Doğu ve Güney Afrika'nın",
+    "açık, kuru ovalarında yaşar.",
+    "Gündüz yuvasında uyur,",
+    "geceleri termit avlar.",
+    "Ağırlığı yalnızca 7-10 kg."
+  ],
+  "loc": "Doğu ve Güney Afrika",
+  "photos": {
+    "cover": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "zoom": 1.0
+    },
+    "top": {
+      "file": "photo_inner.jpg",
+      "cx": 0.55,
+      "cy": 0.45,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_top.jpg",
+      "cx": 0.55,
+      "cy": 0.45,
+      "zoom": 2.0
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Aardwolf, Proteles cristata, at Lion and Rhino Reserve, Gauteng, South Africa (47987259696).jpg",
+      "author": "Derek Keats from Johannesburg, South Africa",
+      "license": "CC BY 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Aardwolf, Proteles cristata, at Lion and Rhino Reserve, Gauteng, South Africa (47987207608).jpg",
+      "author": "Derek Keats from Johannesburg, South Africa",
+      "license": "CC BY 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Aardwolf, Proteles cristata, at Lion and Rhino Reserve, Gauteng, South Africa (47987259696).jpg",
+      "author": "Derek Keats from Johannesburg, South Africa",
+      "license": "CC BY 2.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Adı kurt ama aslında sırtlan ailesinin en küçük üyesi olan toprak kurdu, tek bir gecede 250 bine kadar termit yiyebiliyor. 🐺🌙\n\n#terrawildnature #ilginçbilgiler #toprakkurdu\n\n📷 Derek Keats (CC BY 2.0) / Wikimedia Commons"
+}
