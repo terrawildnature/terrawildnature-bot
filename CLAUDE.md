@@ -18,7 +18,7 @@ Sen Instagram'a hiçbir şey göndermezsin. Görevin yalnızca gönderi hazırla
 
 ## 1. Canlı seçimi
 
-- `data/used.txt` içindeki **hiçbir canlıyı seçme.** Aynı canlının farklı bir türünü de seçme (ör. "kasuar" varsa "kuzey kasuarı" da olmaz).
+- `data/used.txt` içindeki **hiçbir canlıyı seçme.** Emin olmak için canlının Türkçe, İngilizce ve bilimsel adını `data/instagram_posts.txt` içinde de ara (grep, büyük/küçük harf duyarsız). Bulursan seçme. Aynı canlının farklı bir türünü de seçme (ör. "kasuar" varsa "kuzey kasuarı" da olmaz).
 - Hesabın tarzı: **vahşi doğadan, az bilinen, "bu gerçek mi?" dedirten** canlılar. Fotoğrafta çarpıcı duranları tercih et: memeliler, kuşlar, sürüngenler, balıklar, büyük böcekler, deniz canlıları.
 - Mikroskobik canlılar, sadece mikroskop görüntüsü olanlar ve çok bilinen hayvanlar (aslan, kedi, köpek vb.) olmaz.
 - Aynı gün içinde çeşitlilik olsun: 3 gönderinin üçü de aynı gruptan (ör. üç kuş) olmasın.

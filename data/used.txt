@@ -1,6 +1,6 @@
 # Daha önce yapılmış veya önerilmiş canlılar. Bunları ASLA tekrar seçme.
 # Yeni bir canlı hazırladığında adını bu dosyanın sonuna ekle (Türkçe ad | bilimsel ad).
-# --- Instagram'da paylaşılmış olanlar (2026-10-22 itibarıyla) ---
+# --- Instagram'da paylaşılmış olanlar (140 gönderi, 2026-10-22 itibarıyla; ham liste: data/instagram_posts.txt) ---
 örümcek yengeç (dev Japon örümcek yengeci dahil, tüm örümcek yengeçleri) | Majidae / Macrocheira kaempferi
 zorilla (çizgili kokarca sansarı) | Ictonyx striatus
 Kongo tavus kuşu | Afropavo congensis
@@ -10,6 +10,100 @@ dev altın köstebek | Chrysospalax trevelyani
 Cyphoderris monstrosa (kambur çalı çekirgesi) | Cyphoderris monstrosa
 Mary River kaplumbağası | Elusor macrurus
 tüylü kurbağa | Trichobatrachus robustus
+vampir kalamarı | Vampyroteuthis infernalis
+ova pakası | Cuniculus paca
+yakalı kertenkele (frilled lizard) | Chlamydosaurus kingii
+deniz kurbağa balığı (Chaunacops coloratus) | Chaunacops coloratus
+Patagonya marası | Dolichotis patagonum
+sekreter kuşu | Sagittarius serpentarius
+hickory boynuzlu şeytan tırtılı | Citheronia regalis
+alaycı saçaklı balık (sarcastic fringehead) | Neoclinus blanchardi
+sakallı domuz | Sus barbatus
+çizgili tenrek | Hemicentetes semispinosus
+miğferli boynuzgaga | Rhinoplax vigil
+güneş ışını yılanı | Xenopeltis unicolor
+battaniye ahtapotu | Tremoctopus
+kedi tırtılı (puss caterpillar) | Megalopyge opercularis
+mor kurbağa | Nasikabatrachus sahyadrensis
+uzun sakallı şemsiye kuşu | Cephalopterus penduliger
+ağ kanatlı böcek | Lycidae
+suikastçı böcek | Reduviidae
+çalı engereği | Atheris
+şeytani çobanaldatan | Eurostopodus diabolicus
+miğferli basilisk | Basiliscus plumifrons
+ateş salyangozu | Platymma tweediei
+Gabon engereği | Bitis gabonica
+dev weta | Deinacrida
+tavus çalı çekirgesi | Pterochroza ocellata
+timsah kaplumbağası | Macrochelys temminckii
+Jackson bukalemunu | Trioceros jacksonii
+kamçılı akrep | Thelyphonida
+mücevher tırtılı | Acraga / Dalceridae
+deniz tavşanı (sea bunny) | Jorunna parva
+yosun kurbağası | Theloderma corticale
+Picasso böceği | Sphaerocoris annulus
+orkide arısı | Euglossini
+ponpon yengeci | Lybia
+yaprak koyunu | Costasiella kuroshimae
+diken böceği | Umbonia crassicornis
+fener böceği / bitki piresi (planthopper) | Fulgoridae
+mavi çubuk böceği | Achrioptera fallax
+tripod balığı | Bathypterois grallator
+ejder müren | Enchelycore pardalis
+wobbegong köpekbalığı | Orectolobidae
+kurbağa ağızlı (tawny frogmouth) | Podargus strigoides
+köstebek cırcır böceği | Gryllotalpidae
+ogre yüzlü örümcek | Deinopis
+Honduras beyaz yarasası | Ectophylla alba
+kadife karınca | Mutillidae
+yeleli sıçan | Lophiomys imhausi
+yalancı su samuru | (kullanıcı gönderisi, tür belirsiz)
+binturong | Arctictis binturong
+Hint gavyali | Gavialis gangeticus
+fırkateyn kuşu | Fregatidae
+kinkaju | Potos flavus
+Çin su geyiği | Hydropotes inermis
+çizgili sırtlan | Hyaena hyaena
+pudu | Pudu
+dikdik | Madoqua
+sitatunga | Tragelaphus spekii
+misk öküzü | Ovibos moschatus
+dev karıncayiyen | Myrmecophaga tridactyla
+markhor | Capra falconeri
+bigfin kalamarı | Magnapinna
+mimik ahtapot | Thaumoctopus mimicus
+hindistan cevizi yengeci | Birgus latro
+hortumlu maymun | Nasalis larvatus
+öpücük böceği | Triatominae
+Cape yağmur kurbağası | Breviceps gibbosus
+ağaçkakan | Picidae
+sepet yıldızı | Gorgonocephalidae
+koluga (uçan lemur) | Dermoptera
+karakulak | Caracal caracal
+at nalı yengeci | Limulidae
+pelikan | Pelecanus
+ibibik | Upupa epops
+zürafa böceği | Trachelophorus giraffa
+leopar | Panthera pardus
+büyük boynuzlu baykuş | Bubo virginianus
+balık kartalı | Pandion haliaetus / Haliaeetus vocifer
+kara mamba | Dendroaspis polylepis
+ağaç kurbağası (donan ağaç kurbağaları) | Hyla / Dryophytes
+dikenli şeytan | Moloch horridus
+dumbo ahtapotu | Grimpoteuthis
+ilkel karınca soyu (Dracula karıncası vb.) | Amblyoponinae / Martialis
+sarı akrep | Leiurus quinquestriatus
+kutup gelinciği (as kakım) | Mustela erminea
+cırboğa (jerboa) | Dipodidae
+mavi ayaklı sümsük kuşu | Sula nebouxii
+kırmızı dudaklı yarasa balığı | Ogcocephalus darwini
+ok zehirli kurbağa | Dendrobatidae
+tarsier | Tarsiidae
+muz örümceği / Brezilya gezgin örümceği | Phoneutria
+boomslang | Dispholidus typus
+semerli tırtıl | Acharia stimulea
+fossa | Cryptoprocta ferox
+kızılgerdan | Erithacus rubecula
 # --- Hazırlanmış veya önerilmiş olanlar ---
 pul ayaklı salyangoz | Chrysomallon squamiferum
 mantis karidesi | Odontodactylus scyllarus
