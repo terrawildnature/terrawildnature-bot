@@ -11,6 +11,7 @@ import json
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -59,18 +60,38 @@ def search(query, min_width=1600):
         print(r[2])
 
 
+def fetch(url, out, retries=5):
+    """Download with backoff; Wikimedia answers 429 when it wants us to slow down."""
+    for i in range(retries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=180) as r, open(out, "wb") as f:
+                f.write(r.read())
+            return True
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or i == retries - 1:
+                print(f"  {url[:90]}... -> HTTP {e.code}", file=sys.stderr)
+                return False
+            wait = int(e.headers.get("Retry-After") or 0) or 15 * (i + 1)
+            time.sleep(min(wait, 90))
+        except Exception as e:
+            print(f"  {url[:90]}... -> {e}", file=sys.stderr)
+            return False
+    return False
+
+
 def download(title, out):
     if not title.startswith("File:"):
         title = "File:" + title
+    # 1920 is one of Wikimedia's standard thumbnail widths; non-standard widths get rate-limited.
     data = get({"action": "query", "titles": title, "prop": "imageinfo",
-                "iiprop": "url|extmetadata", "iiurlwidth": 2400,
+                "iiprop": "url|size|extmetadata", "iiurlwidth": 1920,
                 "iiextmetadatafilter": "LicenseShortName|Artist"})
     page = next(iter(data["query"]["pages"].values()))
     ii = page["imageinfo"][0]
-    url = ii.get("thumburl") or ii["url"]
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=120) as r, open(out, "wb") as f:
-        f.write(r.read())
+    urls = [u for u in (ii.get("thumburl"), ii["url"]) if u]
+    if not any(fetch(u, out) for u in urls):
+        sys.exit(f"download failed: {title}")
     lic, artist = meta(ii)
     print(json.dumps({"title": page["title"], "license": lic, "author": artist,
                       "public_domain": bool(PD_RE.search(lic)),
