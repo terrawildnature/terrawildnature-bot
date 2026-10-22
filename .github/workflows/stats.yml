@@ -1,0 +1,34 @@
+name: Hesap istatistikleri
+
+on:
+  workflow_dispatch: {}
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch account and post stats
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
+        run: |
+          source tools/token.sh load
+          python tools/publish.py --stats
+      - name: Commit
+        run: |
+          git config user.name "terrawildnature-bot"
+          git config user.email "terrawildnature-bot@users.noreply.github.com"
+          git add data/stats.json
+          git commit -m "Hesap istatistikleri güncellendi" || exit 0
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done

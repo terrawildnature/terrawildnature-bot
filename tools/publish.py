@@ -65,6 +65,34 @@ def main():
     if "--check" in sys.argv:
         print(f"token OK for @{me['username']} (id {me['user_id']})")
         return
+    if "--stats" in sys.argv:
+        acct = call("GET", "me", fields="username,followers_count,follows_count,media_count")
+        posts, page = [], call("GET", "me/media", limit="100",
+                               fields="id,timestamp,media_type,like_count,comments_count,caption,permalink")
+        while True:
+            posts += page.get("data", [])
+            nxt = page.get("paging", {}).get("next")
+            if not nxt:
+                break
+            with urllib.request.urlopen(nxt, timeout=120) as r:
+                page = json.load(r)
+        for p in posts:  # insights need instagram_business_manage_insights; skip quietly if missing
+            p["caption"] = (p.get("caption") or "")[:120]
+            try:
+                req = urllib.request.Request(f"{GRAPH}/{p['id']}/insights?metric=reach,views,saved,shares,total_interactions&access_token={os.environ['IG_TOKEN']}")
+                with urllib.request.urlopen(req, timeout=60) as r:
+                    p["insights"] = {m["name"]: m["values"][0]["value"] for m in json.load(r)["data"]}
+            except Exception as e:
+                p["insights_error"] = str(e)[:80]
+        try:
+            req = urllib.request.Request(f"{GRAPH}/me/insights?metric=follower_count,reach&period=day&access_token={os.environ['IG_TOKEN']}")
+            with urllib.request.urlopen(req, timeout=60) as r:
+                acct["daily"] = json.load(r)["data"]
+        except Exception as e:
+            acct["daily_error"] = str(e)[:80]
+        (ROOT / "data" / "stats.json").write_text(json.dumps({"account": acct, "posts": posts}, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"stats for {len(posts)} posts written to data/stats.json")
+        return
     if "--list-posts" in sys.argv:
         lines, page = [], call("GET", "me/media", fields="timestamp,caption,permalink", limit="100")
         while True:
