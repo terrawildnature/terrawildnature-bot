@@ -8,6 +8,7 @@ Exit code 2 when the queue is empty (so the workflow run shows as failed and you
   python tools/publish.py            publish next post
   python tools/publish.py --check    only verify token and show account
   python tools/publish.py --refresh  refresh the long-lived token, print new token to stdout
+  python tools/publish.py --list-posts  write every existing post's date + caption to data/instagram_posts.txt
 """
 import json
 import os
@@ -63,6 +64,20 @@ def main():
     me = call("GET", "me", fields="user_id,username")
     if "--check" in sys.argv:
         print(f"token OK for @{me['username']} (id {me['user_id']})")
+        return
+    if "--list-posts" in sys.argv:
+        lines, page = [], call("GET", "me/media", fields="timestamp,caption,permalink", limit="100")
+        while True:
+            for m in page.get("data", []):
+                cap = (m.get("caption") or "").replace("\n", " ")
+                lines.append(f"{m['timestamp'][:10]} | {m['permalink']} | {cap}")
+            nxt = page.get("paging", {}).get("next")
+            if not nxt:
+                break
+            with urllib.request.urlopen(nxt, timeout=120) as r:
+                page = json.load(r)
+        (ROOT / "data" / "instagram_posts.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
+        print(f"{len(lines)} posts written to data/instagram_posts.txt")
         return
 
     post_dir = next_post()

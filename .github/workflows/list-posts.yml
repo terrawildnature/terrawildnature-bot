@@ -1,0 +1,27 @@
+name: Instagram gönderilerini listele
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch all post captions
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python tools/publish.py --list-posts
+      - name: Commit list
+        run: |
+          git config user.name "terrawildnature-bot"
+          git config user.email "terrawildnature-bot@users.noreply.github.com"
+          git add data/instagram_posts.txt
+          git commit -m "Instagram gönderi listesi güncellendi" || exit 0
+          git pull --rebase && git push
