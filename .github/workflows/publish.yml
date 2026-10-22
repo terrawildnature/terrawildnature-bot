@@ -26,8 +26,11 @@ jobs:
       - name: Publish next post
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
           RAW_BASE: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}
-        run: python tools/publish.py
+        run: |
+          source tools/token.sh load
+          python tools/publish.py
       - name: Move post to posted/
         run: |
           git config user.name "terrawildnature-bot"

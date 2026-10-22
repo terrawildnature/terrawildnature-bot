@@ -5,6 +5,13 @@ on:
     - cron: "0 3 * * 1"   # her pazartesi
   workflow_dispatch: {}
 
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -13,12 +20,20 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Refresh and store token
+      - name: Refresh and store encrypted token
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
-          GH_TOKEN: ${{ secrets.GH_PAT }}
+          TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
         run: |
+          source tools/token.sh load
           NEW=$(python tools/publish.py --refresh)
           echo "::add-mask::$NEW"
-          gh secret set IG_TOKEN --repo "${{ github.repository }}" --body "$NEW"
           IG_TOKEN="$NEW" python tools/publish.py --check
+          bash tools/token.sh save "$NEW"
+      - name: Commit
+        run: |
+          git config user.name "terrawildnature-bot"
+          git config user.email "terrawildnature-bot@users.noreply.github.com"
+          git add data/ig_token.enc
+          git commit -m "Instagram anahtarı yenilendi" || exit 0
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
