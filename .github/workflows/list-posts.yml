@@ -1,6 +1,8 @@
 name: Instagram gönderilerini listele
 
 on:
+  schedule:
+    - cron: "0 2 * * *"   # 05:00 Türkiye — günlük hazırlıktan (05:30) önce
   workflow_dispatch: {}
 
 permissions:
