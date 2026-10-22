@@ -1,0 +1,102 @@
+# Terra Wild Nature — günlük içerik üretimi
+
+Bu depo @terrawildnature Instagram hesabı için otomatik gönderi üretir.
+- **Sen (Claude, bulut görevi):** Her gün günün 3 gönderisini hazırlayıp `queue/` klasörüne eklersin.
+- **GitHub Actions (`.github/workflows/publish.yml`):** 09:00, 13:00 ve 21:00'de (Türkiye) `queue/` içindeki en eski gönderiyi paylaşır.
+
+Sen Instagram'a hiçbir şey göndermezsin. Görevin yalnızca gönderi hazırlamak, commit'lemek ve push'lamak.
+
+## Her çalıştırmada
+
+1. `queue/` içindeki gönderi klasörlerini say. **6 veya daha fazlaysa** hiçbir şey üretme, "kuyruk dolu" yazıp bitir.
+2. Değilse **3 yeni gönderi** hazırla (aşağıdaki adımlar).
+3. Her gönderiyi `python tools/render.py queue/<klasör>` ile üret. `OVERFLOW` hatası verirse metni kısaltıp tekrar dene.
+4. Üretilen `a.jpg` ve `b.jpg` dosyalarını **Read aracıyla açıp gözle kontrol et:** Fotoğrafta hayvan net görünmeli, kesilmemeli ve yazılarla çakışmamalı. Sorun varsa kırpmayı (`cx`, `cy`, `zoom`) ya da fotoğrafı değiştir.
+5. Kaynak fotoğrafları (`photo_*.jpg`) sil. Depoda sadece `post.json`, `a.jpg` ve `b.jpg` kalmalı.
+6. Canlıların adlarını `data/used.txt` sonuna ekle.
+7. `git add -A && git commit -m "Yeni gönderiler: <adlar>" && git push` (çakışma olursa `git pull --rebase` sonra tekrar push).
+
+## 1. Canlı seçimi
+
+- `data/used.txt` içindeki **hiçbir canlıyı seçme.** Aynı canlının farklı bir türünü de seçme (ör. "kasuar" varsa "kuzey kasuarı" da olmaz).
+- Hesabın tarzı: **vahşi doğadan, az bilinen, "bu gerçek mi?" dedirten** canlılar. Fotoğrafta çarpıcı duranları tercih et: memeliler, kuşlar, sürüngenler, balıklar, büyük böcekler, deniz canlıları.
+- Mikroskobik canlılar, sadece mikroskop görüntüsü olanlar ve çok bilinen hayvanlar (aslan, kedi, köpek vb.) olmaz.
+- Aynı gün içinde çeşitlilik olsun: 3 gönderinin üçü de aynı gruptan (ör. üç kuş) olmasın.
+- Önce fotoğraf durumunu kontrol et (adım 2). Uygun fotoğrafı yoksa başka canlı seç.
+
+## 2. Fotoğraflar (telif kuralları — çok önemli)
+
+`python tools/commons.py search "<bilimsel ad>"` ile Wikimedia Commons'ta ara. Liste önce `[PD]` (kamu malı) olanları gösterir.
+
+- **Öncelik kamu malı (`[PD]`, CC0, PD-USGov, NOAA, USFWS, NPS).** Bunlarda kaynak yazma zorunluluğu yok.
+- Kamu malı yoksa **CC BY** veya **CC BY-SA** kullanılabilir. Bu durumda açıklamaya kaynak satırı ZORUNLU (aşağıda).
+- **ASLA kullanma:** NC (ticari olmayan), ND (türetilemez), "fair use", lisansı belirsiz olan, filigranlı, müze/hayvanat bahçesi tabelası görünen, ölü/doldurulmuş hayvan, çizim/illüstrasyon.
+- En az 1600 px genişlik. Hayvan net ve odakta olmalı.
+- 3 fotoğraf seç: `cover` (kapak, en çarpıcı), `top` (bilgi sayfası üstü), `inner` (küçük kutu, yakın plan). Mümkünse 3 farklı fotoğraf olsun. Yeterli fotoğraf yoksa aynı fotoğraf farklı kırpmayla kullanılabilir.
+- İndir: `python tools/commons.py download "File:..." queue/<klasör>/photo_cover.jpg`. Çıktıdaki lisans ve yazar bilgisini `post.json` içindeki `credits` alanına kaydet.
+- İndirdiğin her fotoğrafı Read ile aç ve doğru canlı olduğunu kontrol et. Commons aramaları bazen alakasız sonuç döndürür.
+
+## 3. Bilgiler (doğruluk — çok önemli)
+
+- Her iddiayı güvenilir kaynaktan doğrula: Wikipedia (İngilizce), IUCN, Britannica, üniversite veya müze sayfaları. Emin olmadığın sayıyı yazma.
+- Abartma: "mermi hızında", "en ölümcül" gibi ifadeleri sadece kaynak öyle diyorsa kullan.
+- Kapak başlığı, hayvanın en şaşırtıcı ve doğrulanmış tek özelliği olmalı.
+
+## 4. post.json formatı
+
+Klasör adı: `queue/<YYYYMMDD>-<n>_<ad>` (ör. `queue/20261024-1_babirusa`). Burada n=1,2,3, ad küçük harf ve Türkçe karaktersiz. Tarih, gönderinin hazırlandığı gün.
+
+```json
+{
+  "name": "kasuar",
+  "title": [
+    [["BU KUŞUN AYAĞINDA", "W"]],
+    [["12 CM'LİK", "W"], ["HANÇER", "R"]],
+    [["VAR", "R"]]
+  ],
+  "card_title": "GÜNEY KASUARI",
+  "card_top": ["İç parmağında 12 cm'lik", "hançer gibi bir pençe var."],
+  "card_bottom": ["Tehlikede tek tekmeyle ciddi", "yaralar açabilir. Dünyanın en", "tehlikeli kuşu sayılır."],
+  "right": ["Avustralya ve Yeni Gine'nin", "yağmur ormanlarında yaşar.", "Uçamaz ama saatte 50 km", "hızla koşar ve iyi yüzer.", "Yavrulara babaları bakar."],
+  "loc": "Avustralya, Yeni Gine",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.55, "cy": 0.5, "zoom": 1.3},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.55, "cy": 0.5, "zoom": 1.3},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.44, "cy": 0.42, "zoom": 2.2}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:...", "author": "...", "license": "CC BY-SA 4.0", "public_domain": false}
+  ],
+  "caption": "..."
+}
+```
+
+Kurallar:
+- **title:** Tam 3 satır, büyük harf (Türkçe İ/I'ya dikkat). Her satır `[metin, renk]` parçalarından oluşur. Renk `W` (beyaz) veya `R` (kırmızı). Kalıp: 1. satır beyaz giriş ("BU KUŞUN", "BU HAYVANIN"...), 2. satırda vurucu kısım kırmızıya döner, 3. satır kırmızı ve kısa. Satır başına en fazla yaklaşık 18-20 karakter.
+- **card_title:** Canlının Türkçe adı, büyük harf, en fazla yaklaşık 24 karakter.
+- **card_top:** Tam 2 satır. **card_bottom:** Tam 3 satır. Satır başına en fazla yaklaşık 28 karakter.
+- **right:** Tam 5 satır, satır başına en fazla yaklaşık 29 karakter. Yaşam alanı ve ek ilginç bilgiler.
+- **loc:** Kısa coğrafi bölge (ör. "Amazon", "Doğu Afrika", "Hint-Pasifik").
+- **cx/cy:** Hayvanın fotoğraftaki merkezi (0-1). **zoom:** 1 = olabildiğince geniş. Kapakta alt %40 siyaha kararır, bu yüzden hayvanın başı/gövdesi üst yarıda kalmalı.
+- Cümleleri satırlara doğal yerlerden böl.
+
+## 5. Açıklama (caption) stili
+
+Hesabın kendi tarzı: tek uzun cümle + 2 emoji + boş satır + 3 etiket. Örnek:
+
+```
+Avustralya'nın sevimli kazıcısı çıplak burunlu vombat, bağırsaklarının özel yapısı sayesinde küp şeklinde dışkı üretip bunlarla bölgesini işaretliyor. 🧱🐾
+
+#terrawildnature #ilginçbilgiler #vombat
+```
+
+- Üçüncü etiket canlının Türkçe adı (boşluksuz, küçük harf).
+- **Herhangi bir fotoğraf kamu malı DEĞİLSE**, etiketlerden sonra boş satır bırakıp kaynak satırı ekle:
+  `📷 <Yazar> (<Lisans>), <Yazar> (<Lisans>) / Wikimedia Commons`
+  Aynı yazar birden fazla fotoğrafta varsa bir kez yaz. Tamamı kamu malıysa kaynak satırı ekleme.
+
+## Asla yapma
+
+- Instagram'a doğrudan paylaşım yapma. `tools/publish.py` dosyasını çalıştırma.
+- `queue/` içinde var olan gönderileri silme veya değiştirme (sen bu çalıştırmada eklemediysen).
+- `assets/`, `tools/` ve `.github/` dosyalarını değiştirme. Bir hata bulursan son mesajında açıkla.

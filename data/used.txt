@@ -1,0 +1,112 @@
+# Daha önce yapılmış veya önerilmiş canlılar. Bunları ASLA tekrar seçme.
+# Yeni bir canlı hazırladığında adını bu dosyanın sonuna ekle (Türkçe ad | bilimsel ad).
+pul ayaklı salyangoz | Chrysomallon squamiferum
+mantis karidesi | Odontodactylus scyllarus
+vombat | Vombatus ursinus
+mavi ejder | Glaucus atlanticus
+dil yiyen parazit | Cymothoa exigua
+kasuar | Casuarius casuarius
+aksolotl | Ambystoma mexicanum
+tardigrad (su ayısı) | Tardigrada
+ölümsüz denizanası | Turritopsis dohrnii
+ahtapot | Octopoda
+bombardıman böceği | Brachininae
+fener balığı | Lophiiformes
+okapi | Okapia johnstoni
+tabanca karidesi | Alpheidae
+kutup kurbağası | Lithobates sylvaticus
+narval | Monodon monoceros
+ornitorenk | Ornithorhynchus anatinus
+boynuzlu kertenkele | Phrynosoma
+cam kurbağası | Centrolenidae
+Grönland köpekbalığı | Somniosus microcephalus
+elektrikli yılan balığı | Electrophorus electricus
+lir kuşu | Menura
+çıplak köstebek faresi | Heterocephalus glaber
+pangolin | Pholidota
+okçu balığı | Toxotes
+aye-aye | Daubentonia madagascariensis
+yeşil deniz salyangozu | Elysia chlorotica
+deniz samuru | Enhydra lutris
+gökdoğan | Falco peregrinus
+sümüklü balık (hagfish) | Myxini
+bukalemun | Chamaeleonidae
+kutup sumrusu | Sterna paradisaea
+deniz yıldızı | Asteroidea
+sinek kuşu | Trochilidae
+kutup ayısı | Ursus maritimus
+su aygırı | Hippopotamus amphibius
+basilisk kertenkelesi | Basiliscus
+tembel hayvan | Folivora
+fil | Elephantidae
+bal porsuğu | Mellivora capensis
+uçan yılan | Chrysopelea
+yaprak kesen karınca | Atta
+hoatzin | Opisthocomus hoazin
+deniz hıyarı | Holothuroidea
+zürafa | Giraffa
+kakapo | Strigops habroptila
+mürekkep balığı (sepya) | Sepiida
+deniz atı | Hippocampus
+kivi | Apteryx
+vampir yarasa | Desmodus rotundus
+kanguru faresi | Dipodomys
+flamingo | Phoenicopteridae
+kutup yer sincabı | Urocitellus parryii
+baykuş | Strigiformes
+periyodik ağustos böceği | Magicicada
+mavi balina | Balaenoptera musculus
+ateş böceği | Lampyridae
+imparator penguen | Aptenodytes forsteri
+Surinam kurbağası | Pipa pipa
+zombi karınca mantarı | Ophiocordyceps unilateralis
+mücevher eşek arısı | Ampulex compressa
+Bobbit solucanı | Eunice aphroditois
+kemik yiyen solucan | Osedax
+ceset giyen suikastçı böcek | Acanthaspis petax
+şeytani yaprak kuyruklu geko | Uroplatus phantasticus
+yıldız burunlu köstebek | Condylura cristata
+matamata kaplumbağası | Chelus fimbriata
+pabuç gagalı leylek | Balaeniceps rex
+cam kanatlı kelebek | Greta oto
+saiga antilobu | Saiga tatarica
+varil gözlü balık | Macropinna microstoma
+mola mola | Mola mola
+kıllı kurbağa | Trichobatrachus robustus
+İber semenderi | Pleurodeles waltl
+pembe peri armadillosu | Chlamyphorus truncatus
+gerenuk | Litocranius walleri
+yeti yengeci | Kiwa hirsuta
+deniz domuzu | Scotoplanes
+Kitti'nin domuz burunlu yarasası | Craseonycteris thonglongyai
+Venezuela kaniş güvesi | Artace
+leopar fok | Hydrurga leptonyx
+salyangoz göz paraziti | Leucochloridium paradoxum
+goblin köpekbalığı | Mitsukurina owstoni
+sakallı akbaba | Gypaetus barbatus
+deniz örümceği | Pycnogonida
+orkide mantisi | Hymenopus coronatus
+su örümceği | Argyroneta aquatica
+taş emen balık | Petromyzontiformes
+ölü başlı güve | Acherontia atropos
+armadillo kertenkelesi | Ouroborus cataphractus
+bolas örümceği | Mastophora
+yengeç paraziti | Sacculina carcini
+Epomis böceği | Epomis
+deniz fışkırtanı | Ascidiacea
+inci balığı | Carapus
+şerit solucan | Lineus longissimus
+Venüs çiçek sepeti | Euplectella aspergillum
+kadife solucan | Onychophora
+Darwin kurbağası | Rhinoderma darwinii
+patlayan termit | Neocapritermes taracua
+domuz burunlu yılan | Heterodon
+Afrika yaban köpeği | Lycaon pictus
+siyah ayaklı kedi | Felis nigripes
+harpi kartalı | Harpia harpyja
+babirusa | Babyrousa
+Komodo ejderi | Varanus komodoensis
+yeleli kurt | Chrysocyon brachyurus
+saola | Pseudoryx nghetinhensis
+Tazmanya canavarı | Sarcophilus harrisii
+wolverine (ayı sansarı) | Gulo gulo

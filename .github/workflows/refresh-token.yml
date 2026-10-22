@@ -1,0 +1,24 @@
+name: Instagram anahtarını yenile
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"   # her pazartesi
+  workflow_dispatch: {}
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh and store token
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          NEW=$(python tools/publish.py --refresh)
+          echo "::add-mask::$NEW"
+          gh secret set IG_TOKEN --repo "${{ github.repository }}" --body "$NEW"
+          IG_TOKEN="$NEW" python tools/publish.py --check
