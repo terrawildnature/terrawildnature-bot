@@ -215,3 +215,6 @@ yeleli kurt | Chrysocyon brachyurus
 saola | Pseudoryx nghetinhensis
 Tazmanya canavarı | Sarcophilus harrisii
 wolverine (ayı sansarı) | Gulo gulo
+yer kurdu (aardwolf) | Proteles cristata
+kagu | Rhynochetos jubatus
+çamur balığı (mudskipper) | Oxudercinae / Periophthalmus
