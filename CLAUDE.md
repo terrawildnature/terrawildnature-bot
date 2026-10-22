@@ -8,6 +8,7 @@ Sen Instagram'a hiçbir şey göndermezsin. Görevin yalnızca gönderi hazırla
 
 ## Her çalıştırmada
 
+0. Kurulum: `python3 -m pip install -q --break-system-packages --ignore-installed pillow numpy` (sistemdeki PIL bozuk, düz `pip install` yetmiyor). Commons istekleri arasında birkaç saniye bekle; 429 alırsan araç kendisi bekleyip tekrar dener.
 1. `queue/` içindeki gönderi klasörlerini say. **6 veya daha fazlaysa** hiçbir şey üretme, "kuyruk dolu" yazıp bitir.
 2. Değilse **3 yeni gönderi** hazırla (aşağıdaki adımlar).
 3. Her gönderiyi `python tools/render.py queue/<klasör>` ile üret. `OVERFLOW` hatası verirse metni kısaltıp tekrar dene.
@@ -39,6 +40,7 @@ Sen Instagram'a hiçbir şey göndermezsin. Görevin yalnızca gönderi hazırla
 ## 3. Bilgiler (doğruluk — çok önemli)
 
 - Her iddiayı güvenilir kaynaktan doğrula: Wikipedia (İngilizce), IUCN, Britannica, üniversite veya müze sayfaları. Emin olmadığın sayıyı yazma.
+- Doğrulama ZORUNLU: Her canlı için en az İngilizce Wikipedia sayfasını oku (WebFetch aracıyla `https://en.wikipedia.org/wiki/<Bilimsel_ad>`, olmazsa `curl`). Kapak başlığındaki ve kartlardaki her sayı ve iddia o sayfada (veya başka güvenilir kaynakta) geçmeli. Hiçbir kaynağa erişemiyorsan o gün gönderi üretme ve son mesajında bunu açıkça yaz.
 - Abartma: "mermi hızında", "en ölümcül" gibi ifadeleri sadece kaynak öyle diyorsa kullan.
 - Kapak başlığı, hayvanın en şaşırtıcı ve doğrulanmış tek özelliği olmalı.
 

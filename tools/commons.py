@@ -21,14 +21,18 @@ PD_RE = re.compile(r"public domain|^pd|cc0", re.I)
 ALLOWED_RE = re.compile(r"public domain|^pd|cc0|^cc by(-sa)? \d", re.I)
 
 
-def get(params, retries=4):
+def get(params, retries=6):
     url = API + "?" + urllib.parse.urlencode({**params, "format": "json"})
     for i in range(retries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
             with urllib.request.urlopen(req, timeout=60) as r:
                 return json.load(r)
-        except Exception as e:  # rate limits: back off and retry
+        except urllib.error.HTTPError as e:  # 429 = slow down; honour Retry-After
+            if e.code != 429 or i == retries - 1:
+                raise
+            time.sleep(min(int(e.headers.get("Retry-After") or 0) or 20 * (i + 1), 90))
+        except Exception:
             if i == retries - 1:
                 raise
             time.sleep(5 * (i + 1))
