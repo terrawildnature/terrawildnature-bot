@@ -1,5 +1,16 @@
 # Daha önce yapılmış veya önerilmiş canlılar. Bunları ASLA tekrar seçme.
 # Yeni bir canlı hazırladığında adını bu dosyanın sonuna ekle (Türkçe ad | bilimsel ad).
+# --- Instagram'da paylaşılmış olanlar (2026-10-22 itibarıyla) ---
+örümcek yengeç (dev Japon örümcek yengeci dahil, tüm örümcek yengeçleri) | Majidae / Macrocheira kaempferi
+zorilla (çizgili kokarca sansarı) | Ictonyx striatus
+Kongo tavus kuşu | Afropavo congensis
+mavi halkalı ahtapot | Hapalochlaena
+Barbados ip yılanı | Tetracheilostoma carlae
+dev altın köstebek | Chrysospalax trevelyani
+Cyphoderris monstrosa (kambur çalı çekirgesi) | Cyphoderris monstrosa
+Mary River kaplumbağası | Elusor macrurus
+tüylü kurbağa | Trichobatrachus robustus
+# --- Hazırlanmış veya önerilmiş olanlar ---
 pul ayaklı salyangoz | Chrysomallon squamiferum
 mantis karidesi | Odontodactylus scyllarus
 vombat | Vombatus ursinus
