@@ -42,7 +42,7 @@ def tr_hour(ts):
 def main():
     stats = json.loads((ROOT / "data" / "stats.json").read_text(encoding="utf-8"))
     meta = load_meta()
-    now = dt.datetime.utcnow()
+    now = dt.datetime.now(dt.timezone.utc).replace(tzinfo=None)
     rows = []
     for p in stats["posts"]:
         ins = p.get("insights")
@@ -63,6 +63,9 @@ def main():
             "shares": ins.get("shares", 0), "watch": ins.get("ig_reels_avg_watch_time"),
             "eng": ((ins.get("saved", 0) or 0) + 2 * (ins.get("shares", 0) or 0)) / reach * 100 if reach else 0})
 
+    # only posts made by this system (current template); the user's older posts used other designs
+    rows = [r for r in rows if r["auto"]]
+
     # relative reach: reach / median reach of the same format (1.0 = typical)
     for kind in ("gönderi", "reels"):
         same = [r["reach"] for r in rows if r["kind"] == kind]
@@ -72,7 +75,7 @@ def main():
                 r["rel"] = r["reach"] / med if med else 0
 
     out = [f"# Performans raporu ({now:%Y-%m-%d})", "",
-           f"Son 45 gün, en az {SETTLE_H} saatlik {len(rows)} paylaşım. **Göreli erişim** = erişim / aynı türdeki "
+           f"Sadece sistemin attığı (güncel şablonlu) paylaşımlar: son 45 günde, en az {SETTLE_H} saatlik {len(rows)} paylaşım. **Göreli erişim** = erişim / aynı türdeki "
            "paylaşımların medyan erişimi (1,00 = tipik; 1,30 = %30 daha iyi). **Etkileşim** = (kaydetme + 2×paylaşım) / erişim, %.", ""]
 
     def table(key, title, kinds=("gönderi", "reels")):

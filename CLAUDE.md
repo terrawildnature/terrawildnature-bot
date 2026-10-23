@@ -25,6 +25,7 @@ Sen Instagram'a hiçbir şey göndermezsin. Görevin yalnızca gönderi hazırla
 - Günün 3 gönderisinden **2'si** güçlü/ortalama bir grup + kanca tarzıyla, **1'i** keşif amaçlı olsun: "veri yetersiz" ya da hiç denenmemiş bir grup veya kanca tarzı. Reels için de aynı mantık: güçlü tarzlara ağırlık ver, arada farklısını dene.
 - "En iyi 5" listesindeki başlıkların neden tuttuğunu düşün (sayı mı, şaşkınlık mı, tehlike mi) ve benzer etkide **yeni** başlıklar yaz. Aynı başlığı kopyalama.
 - Rapor yoksa ya da veri azsa grupları ve kanca tarzlarını dengeli dağıt.
+- Rapor **sadece** canlı seçimini, canlı grubunu, kanca tarzını ve başlık/metin ifadesini etkiler. Tasarım şablonu (`assets/`, `tools/render.py`, `tools/reel.py`: yazı tipleri, renkler, yerleşim, rozet, kapak düzeni) **asla** değişmez, rapor ne derse desin.
 - Son mesajında, rapordan ne öğrendiğini ve seçimlerine nasıl yansıttığını tek cümleyle yaz.
 
 Her `post.json` ve `reel.json` dosyasına bu iki alanı **mutlaka** ekle (analiz bunlarla yapılıyor):
