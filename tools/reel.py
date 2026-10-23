@@ -370,7 +370,20 @@ def preview(spec, reel_dir):
 
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
-    if len(sys.argv) == 3 and sys.argv[1] in ("--cover", "--preview"):
+    if len(sys.argv) == 3 and sys.argv[1] == "--voice":
+        # pre-record narration into _tts_cache (run hours before publishing; the voice service is flaky)
+        d = Path(sys.argv[2])
+        spec = json.loads((d / "reel.json").read_text(encoding="utf-8"))
+        tmp, missing = d / "_voice_tmp.mp3", 0
+        for s in spec["segments"]:
+            try:
+                tts(s["text"], spec.get("voice", "tr-TR-AhmetNeural"), spec.get("rate", "+0%"), tmp, d / "_tts_cache", retries=4)
+            except Exception as e:
+                missing += 1
+                print(f"not yet: {s['text'][:50]} ({type(e).__name__})")
+        tmp.unlink(missing_ok=True)
+        print(f"voice: {len(spec['segments']) - missing}/{len(spec['segments'])} sentences ready")
+    elif len(sys.argv) == 3 and sys.argv[1] in ("--cover", "--preview"):
         d = Path(sys.argv[2])
         spec = json.loads((d / "reel.json").read_text(encoding="utf-8"))
         fetch_photos(spec, d)
