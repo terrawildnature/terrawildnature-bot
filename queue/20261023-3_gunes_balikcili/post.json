@@ -1,0 +1,89 @@
+{
+  "name": "güneş balıkçılı",
+  "title": [
+    [
+      [
+        "BU KUŞUN KANADINDA",
+        "W"
+      ]
+    ],
+    [
+      [
+        "SAKLI",
+        "W"
+      ],
+      [
+        " GÖZLER",
+        "R"
+      ]
+    ],
+    [
+      [
+        "VAR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "GÜNEŞ BALIKÇILI",
+  "card_top": [
+    "Kanatlarını açınca kırmızı,",
+    "sarı, siyah gözler belirir."
+  ],
+  "card_bottom": [
+    "Bu desenleri tehdit ve kur",
+    "yapma sırasında gösterir;",
+    "avcıları şaşırtmak için de."
+  ],
+  "right": [
+    "Guatemala'dan Brezilya'ya",
+    "uzanan nemli ormanlarda,",
+    "akarsu kıyısında yaşar.",
+    "Esarette yem kullanıp balık",
+    "avladığı gözlemlenmiş."
+  ],
+  "loc": "Orta ve Güney Amerika",
+  "photos": {
+    "cover": {
+      "file": "photo_top.jpg",
+      "cx": 0.55,
+      "cy": 0.5,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_inner.jpg",
+      "cx": 0.7,
+      "cy": 0.3,
+      "zoom": 1.1
+    },
+    "inner": {
+      "file": "photo_cover.jpg",
+      "cx": 0.38,
+      "cy": 0.3,
+      "zoom": 2.3
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Sunbittern (Eurypyga helias) (48424227991).jpg",
+      "author": "Bernard DUPONT from FRANCE",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Sunbittern (Eurypyga helias) calling.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Sunbittern (Eurypyga helias) (28916645542).jpg",
+      "author": "Bernard DUPONT from FRANCE",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Orta ve Güney Amerika ormanlarının gizemli kuşu güneş balıkçılı, tehlikede kanatlarını açıp kırmızı, sarı ve siyah göz desenlerini göstererek avcıları şaşırtıyor. 🐦👀\n\n#terrawildnature #ilginçbilgiler #güneşbalıkçılı\n\n📷 Bernard Dupont (CC BY-SA 2.0) / Wikimedia Commons"
+}

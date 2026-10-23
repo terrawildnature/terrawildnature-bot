@@ -1,0 +1,89 @@
+{
+  "name": "deniz iguanası",
+  "title": [
+    [
+      [
+        "BU KERTENKELE",
+        "W"
+      ]
+    ],
+    [
+      [
+        "SUALTINDA",
+        "W"
+      ],
+      [
+        " 1 SAATE",
+        "R"
+      ]
+    ],
+    [
+      [
+        "KADAR KALABİLİR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "DENİZ İGUANASI",
+  "card_top": [
+    "Galápagos'a özgü, denizde",
+    "beslenen tek kertenkele."
+  ],
+  "card_bottom": [
+    "30 metreye kadar dalıp bir",
+    "saate kadar su altında",
+    "kalabilir."
+  ],
+  "right": [
+    "Sadece Galápagos'ta, kayalık",
+    "kıyılarda koloniler kurar.",
+    "Neredeyse sadece yosun yer.",
+    "Yuttuğu tuzu burnundaki",
+    "bezlerle hapşırır gibi atar."
+  ],
+  "loc": "Galápagos",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.3,
+      "cy": 0.55,
+      "zoom": 1.0
+    },
+    "top": {
+      "file": "photo_inner.jpg",
+      "cx": 0.55,
+      "cy": 0.55,
+      "zoom": 1.0
+    },
+    "inner": {
+      "file": "photo_top.jpg",
+      "cx": 0.25,
+      "cy": 0.5,
+      "zoom": 2.2
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Amblyrhynchus cristatus wikelskii 128308848.jpg",
+      "author": "Don Johnston",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Iguana marina (Amblyrhynchus cristatus), isla Lobos, islas Galápagos, Ecuador, 2015-07-25, DD 44.JPG",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Marine iguana 02.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Galápagos'ın yosun avcısı deniz iguanası, 30 metreye kadar dalıp bir saate kadar su altında kalabiliyor ve yuttuğu tuzu burnundan hapşırır gibi atıyor. 🦎🌊\n\n#terrawildnature #ilginçbilgiler #denizigunası\n\n📷 Bernard Gagnon (CC BY-SA 4.0), Diego Delso (CC BY-SA 4.0) / Wikimedia Commons"
+}

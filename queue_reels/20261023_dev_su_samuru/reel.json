@@ -1,0 +1,140 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Ancient_Rite.ogg",
+    "start": 0,
+    "loudness": -27
+  },
+  "photos": {
+    "p1.jpg": "File:Giant otters (Pteronura brasiliensis).jpg",
+    "p2.jpg": "File:139 Giant otter swimming in Encontro das Águas State Park Photo by Giles Laurent.jpg",
+    "p3.jpg": "File:Giant Otter (Pteronura brasiliensis) eating a Vermiculated Sailfin Catfish (Pterygoplichthys disjunctivus) (28597043744).jpg",
+    "p4.jpg": "File:Giant Otters (Pteronura brasiliensis) resting in the sun ... - Flickr - berniedup.jpg",
+    "p5.jpg": "File:Giant otter (Pteronura brasiliensis) juvenile.jpg",
+    "p6.jpg": "File:Giant Otter (Pteronura brasiliensis), Parque Estadual Encontro das Águas Thomas-Fuhrmann 02.jpg",
+    "p7.jpg": "File:Giant Otter (Pteronura brasiliensis) (28929231040).jpg",
+    "p8.jpg": "File:Giant Otter (Pteronura brasiliensis) with an Oscar (Astronotus ocellatus) - Flickr - berniedup.jpg",
+    "p9.jpg": "File:Giant Otters (Pteronura brasiliensis) quarelling ... (31724375471).jpg"
+  },
+  "segments": [
+    {
+      "text": "Brezilyalılar ona \"su jaguarı\" diyor.",
+      "image": "p6.jpg",
+      "cx": 0.4,
+      "cy": 0.4,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Karşınızda dev su samuru: Amazon'un nehir avcısı.",
+      "image": "p2.jpg",
+      "cx": 0.35,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Boyu 1,8 metreye kadar çıkıyor; sansargiller ailesinin en uzun üyesi.",
+      "image": "p1.jpg",
+      "cx": 0.7,
+      "cy": 0.75,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Kürkü o kadar yoğun ki su derisine hiç ulaşamıyor.",
+      "image": "p5.jpg",
+      "cx": 0.65,
+      "cy": 0.38,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Diğer su samurlarının aksine, üç ila sekiz kişilik aile grupları halinde yaşıyor.",
+      "image": "p4.jpg",
+      "cx": 0.45,
+      "cy": 0.5,
+      "motion": "zoom_out"
+    },
+    {
+      "text": "Balıkların yanında, birlikte avlanınca küçük anakondaları ve genç kaymanları bile yakalayabiliyor.",
+      "image": "p3.jpg",
+      "cx": 0.42,
+      "cy": 0.4,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Dokuz ayrı ses çıkarıyor ve belki de en gürültülü su samuru.",
+      "image": "p9.jpg",
+      "cx": 0.5,
+      "cy": 0.55,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Kürkü için yapılan avcılık yüzünden sayısı azaldı; vahşide beş binin altında kaldığı tahmin ediliyor.",
+      "image": "p7.jpg",
+      "cx": 0.3,
+      "cy": 0.55,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p8.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "motion": "zoom_in"
+    }
+  ],
+  "cover": {
+    "image": "p5.jpg",
+    "cx": 0.65,
+    "cy": 0.42,
+    "title": [
+      [
+        [
+          "SU JAGUARI",
+          "R"
+        ]
+      ],
+      [
+        [
+          "DİYE ANILAN",
+          "W"
+        ]
+      ],
+      [
+        [
+          "DEV",
+          "W"
+        ]
+      ],
+      [
+        [
+          "SAMUR",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "credits": [
+    {
+      "author": "Giles Laurent",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Thomas Fuhrmann",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Brezilyalıların \"su jaguarı\" dediği dev su samuru, 1,8 metreye varan boyuyla sansargiller ailesinin en uzun üyesi. 🦦🌊\n\n#terrawildnature #devsusamuru\n\n📷 Charles J. Sharp (CC BY-SA 4.0), Giles Laurent (CC BY-SA 4.0), Thomas Fuhrmann (CC BY-SA 4.0), Bernard Dupont (CC BY-SA 2.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)"
+}

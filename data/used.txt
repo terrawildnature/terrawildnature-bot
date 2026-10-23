@@ -219,3 +219,7 @@ toprak kurdu (aardwolf, yer kurdu) | Proteles cristata
 kagu | Rhynochetos jubatus
 çamur balığı (mudskipper) | Oxudercinae / Periophthalmus
 takin (Reels) | Budorcas taxicolor
+çatalboynuz (pronghorn) | Antilocapra americana
+deniz iguanası | Amblyrhynchus cristatus
+güneş balıkçılı (sunbittern) | Eurypyga helias
+dev su samuru (Reels) | Pteronura brasiliensis
