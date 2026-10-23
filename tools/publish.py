@@ -60,7 +60,7 @@ def publish_reel(me, reel_dir):
     cover_url = f"{base}/{reel_dir.relative_to(ROOT).as_posix()}/cover.jpg"
     c = call("POST", f"{me['user_id']}/media", media_type="REELS", upload_type="resumable",
              caption=spec["caption"], cover_url=cover_url,
-             share_to_feed="true", is_ai_generated="true")
+             share_to_feed="false", is_ai_generated="true")  # Reels tab only, not the profile grid
     video = (reel_dir / "reel.mp4").read_bytes()
     req = urllib.request.Request(c["uri"], data=video, method="POST", headers={
         "Authorization": f"OAuth {os.environ['IG_TOKEN']}", "offset": "0", "file_size": str(len(video))})
