@@ -54,7 +54,7 @@ def wait_ready(container_id):
 def publish_reel(me, reel_dir):
     """Upload reel.mp4 straight to Instagram (resumable upload, no public video URL needed),
     with cover.jpg (served from the repo) as the custom cover."""
-    reel_dir = Path(reel_dir)
+    reel_dir = Path(reel_dir).resolve()
     spec = json.loads((reel_dir / "reel.json").read_text(encoding="utf-8"))
     base = os.environ["RAW_BASE"].rstrip("/")
     cover_url = f"{base}/{reel_dir.relative_to(ROOT).as_posix()}/cover.jpg"
