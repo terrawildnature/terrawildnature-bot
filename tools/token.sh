@@ -1,23 +1,25 @@
 #!/usr/bin/env bash
-# Instagram token storage. The current token lives encrypted in data/ig_token.enc
-# (AES-256, key = TOKEN_KEY secret). Falls back to the IG_TOKEN secret if the file is missing.
-#   source tools/token.sh load   -> exports IG_TOKEN (masked in logs)
-#   tools/token.sh save "$NEW"   -> writes data/ig_token.enc
+# Token storage. Each current token lives encrypted in data/<name>_token.enc
+# (AES-256, key = TOKEN_KEY secret). Falls back to the <NAME>_TOKEN secret if the file is missing.
+#   source tools/token.sh load [ig|threads]   -> exports IG_TOKEN / THREADS_TOKEN (masked in logs)
+#   tools/token.sh save "$NEW" [ig|threads]   -> writes data/<name>_token.enc
 set -euo pipefail
-ENC_FILE="$(dirname "${BASH_SOURCE[0]}")/../data/ig_token.enc"
+_dir="$(dirname "${BASH_SOURCE[0]}")/../data"
 
 case "${1:-}" in
   load)
-    if [ -f "$ENC_FILE" ] && [ -n "${TOKEN_KEY:-}" ]; then
-      IG_TOKEN=$(openssl enc -d -aes-256-cbc -pbkdf2 -a -A -pass env:TOKEN_KEY < "$ENC_FILE")
+    _name="${2:-ig}"; _var="$(echo "$_name" | tr a-z A-Z)_TOKEN"; _file="$_dir/${_name}_token.enc"
+    if [ -f "$_file" ] && [ -n "${TOKEN_KEY:-}" ]; then
+      printf -v "$_var" '%s' "$(openssl enc -d -aes-256-cbc -pbkdf2 -a -A -pass env:TOKEN_KEY < "$_file")"
     fi
-    if [ -z "${IG_TOKEN:-}" ]; then echo "no Instagram token available" >&2; exit 1; fi
-    echo "::add-mask::$IG_TOKEN"
-    export IG_TOKEN
+    if [ -z "${!_var:-}" ]; then echo "no $_var available" >&2; return 1 2>/dev/null || exit 1; fi
+    echo "::add-mask::${!_var}"
+    export "$_var"
     ;;
   save)
-    printf '%s' "$2" | openssl enc -e -aes-256-cbc -pbkdf2 -salt -a -A -pass env:TOKEN_KEY > "$ENC_FILE"
+    _name="${3:-ig}"
+    printf '%s' "$2" | openssl enc -e -aes-256-cbc -pbkdf2 -salt -a -A -pass env:TOKEN_KEY > "$_dir/${_name}_token.enc"
     ;;
   *)
-    echo "usage: source tools/token.sh load | tools/token.sh save TOKEN" >&2; exit 2 ;;
+    echo "usage: source tools/token.sh load [ig|threads] | tools/token.sh save TOKEN [ig|threads]" >&2; exit 2 ;;
 esac

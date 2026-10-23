@@ -27,9 +27,11 @@ jobs:
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
           RAW_BASE: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}
         run: |
           source tools/token.sh load
+          source tools/token.sh load threads || echo "Threads anahtarı yok, Threads atlanacak"
           python tools/publish.py
       - name: Move post to posted/
         run: |

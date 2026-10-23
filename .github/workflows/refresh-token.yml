@@ -30,10 +30,21 @@ jobs:
           echo "::add-mask::$NEW"
           IG_TOKEN="$NEW" python tools/publish.py --check
           bash tools/token.sh save "$NEW"
+      - name: Refresh Threads token (never blocks Instagram)
+        continue-on-error: true
+        env:
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
+        run: |
+          source tools/token.sh load threads
+          NEW=$(python tools/threads.py --refresh)
+          echo "::add-mask::$NEW"
+          THREADS_TOKEN="$NEW" python tools/threads.py --check
+          bash tools/token.sh save "$NEW" threads
       - name: Commit
         run: |
           git config user.name "terrawildnature-bot"
           git config user.email "terrawildnature-bot@users.noreply.github.com"
-          git add data/ig_token.enc
-          git commit -m "Instagram anahtarı yenilendi" || exit 0
+          git add data/*_token.enc
+          git commit -m "Instagram ve Threads anahtarları yenilendi" || exit 0
           for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done

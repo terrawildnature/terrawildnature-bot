@@ -52,6 +52,7 @@ jobs:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
           GH_TOKEN: ${{ github.token }}
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
           RAW_BASE: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}
         run: |
           # Instagram downloads the video from a public URL: park it as a temporary release asset
@@ -61,6 +62,7 @@ jobs:
           gh release upload reel-media "$NAME" --clobber
           export VIDEO_URL="https://github.com/${{ github.repository }}/releases/download/reel-media/$NAME"
           source tools/token.sh load
+          source tools/token.sh load threads || echo "Threads anahtarı yok, Threads atlanacak"
           python tools/publish.py --reel "${{ steps.pick.outputs.dir }}"
           gh release delete-asset reel-media "$NAME" -y || true
       - name: Commit

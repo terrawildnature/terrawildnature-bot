@@ -21,6 +21,8 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+import threads  # cross-posting; never fatal
+
 ROOT = Path(__file__).resolve().parent.parent
 GRAPH = "https://graph.instagram.com"
 
@@ -72,6 +74,7 @@ def publish_reel(me, reel_dir):
         sys.exit("reel not processed after 15 minutes")
     pub = call("POST", f"{me['user_id']}/media_publish", creation_id=c["id"])
     print(f"published reel media id {pub['id']}")
+    threads.safe(threads.post_video, os.environ["VIDEO_URL"], spec["caption"])
     dest = ROOT / "posted_reels" / reel_dir.name
     dest.parent.mkdir(exist_ok=True)
     shutil.move(str(reel_dir), str(dest))
@@ -168,6 +171,7 @@ def main():
     wait_ready(carousel["id"])
     pub = call("POST", f"{me['user_id']}/media_publish", creation_id=carousel["id"])
     print(f"published media id {pub['id']}")
+    threads.safe(threads.post_images, [f"{base}/a.jpg", f"{base}/b.jpg"], post["caption"])
 
     dest = ROOT / "posted" / post_dir.name
     shutil.move(str(post_dir), str(dest))
