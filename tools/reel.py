@@ -1,15 +1,21 @@
 """Terra Wild Nature reel builder: narrated photo documentary, 1080x1920.
 
-Usage: python tools/reel.py <reel_dir>
-Reads <reel_dir>/reel.json, writes <reel_dir>/reel.mp4 (+ voice.mp3, subs.ass).
+Usage:
+  python tools/reel.py <reel_dir>             video (reel.mp4) + cover (cover.jpg)
+  python tools/reel.py --cover <reel_dir>     cover only
+  python tools/reel.py --preview <reel_dir>   preview.jpg: first/last frame of every shot (no voice)
 
 reel.json:
 {
-  "voice": "tr-TR-AhmetNeural", "rate": "+0%",
+  "voice": "tr-TR-AhmetNeural", "rate": "+8%",
+  "music": {"file": "assets/music/Reawakening.mp3", "loudness": -27},
+  "photos": {"p1.jpg": "File:Some photo on Commons.jpg", ...},   # downloaded when missing
   "segments": [
     {"text": "Bir cümle.", "image": "p1.jpg", "cx": 0.5, "cy": 0.5, "motion": "zoom_in"},
     ...
-  ]
+  ],
+  "cover": {"image": "p6.jpg", "cx": 0.5, "cy": 0.45, "title": [[["350 KİLO", "R"]], [["AMA İKİ", "W"]]]},
+  "caption": "..."
 }
 motion: zoom_in | zoom_out | pan_right | pan_left  (pan = camera slides across a wide photo)
 
@@ -25,7 +31,6 @@ import sys
 import time
 from pathlib import Path
 
-import edge_tts
 import numpy as np
 from PIL import Image, ImageFont
 
@@ -43,6 +48,7 @@ def ffmpeg_bin(name):
 
 # ---------------- voice ----------------
 async def _tts(text, voice, rate, out):
+    import edge_tts
     com = edge_tts.Communicate(text, voice, rate=rate, boundary="WordBoundary")
     words = []
     with open(out, "wb") as f:
@@ -62,11 +68,12 @@ def tts(text, voice, rate, out, cache_dir, retries=8):
     if cached_mp3.exists() and cached_json.exists():
         shutil.copy(cached_mp3, out)
         return [tuple(w) for w in json.loads(cached_json.read_text(encoding="utf-8"))]
+    import edge_tts
     for i in range(retries):
         try:
             words = asyncio.run(_tts(text, voice, rate, out))
             break
-        except edge_tts.exceptions.NoAudioReceived:
+        except (edge_tts.exceptions.NoAudioReceived, edge_tts.exceptions.WebSocketError, OSError):
             if i == retries - 1:
                 raise
             time.sleep(min(3 + 4 * i, 25))
@@ -180,6 +187,70 @@ def render_shot(img, r0, r1, n):
         yield np.asarray(img.resize((W, H), Image.BICUBIC, box=(x, y, x + w, y + h)))
 
 
+# ---------------- cover ----------------
+def render_cover(spec, reel_dir):
+    """Full-screen photo, dark fade behind a big centred headline (white + red), brand badge and logo.
+    The title block sits inside the 3:4 centre area so the profile grid crop keeps it whole."""
+    from PIL import ImageDraw
+    c = spec["cover"]
+    img = Image.open(reel_dir / c["image"]).convert("RGB")
+    r0, _ = shot_rects(img, c.get("cx", 0.5), c.get("cy", 0.5), "zoom_in")
+    x, y, w, h = r0
+    canvas = img.resize((W, H), Image.LANCZOS, box=(x, y, x + w, y + h))
+
+    from PIL import ImageFilter
+    lines = c["title"]
+    font_path = str(ASSETS / "fonts" / "Anton-Regular.ttf")
+    gap = 30
+
+    def widths(size):
+        f = ImageFont.truetype(font_path, size)
+        return f, [sum(f.getlength(t) for t, _ in parts) + gap * (len(parts) - 1) for parts in lines]
+
+    size = 230
+    f, ws = widths(size)
+    while max(ws) > 990 and size > 110:   # as big as possible while the widest line keeps a margin
+        size -= 4
+        f, ws = widths(size)
+    line_h = int(size * 1.16)
+    block_h = line_h * len(lines)
+    top = 1180 - block_h // 2           # block centred inside the 3:4 profile-grid area
+
+    # darken behind the title block (and a little towards the bottom) so it always reads
+    arr = np.asarray(canvas).astype(np.float32)
+    ys = np.arange(H)[:, None, None]
+    centre, half = top + block_h / 2, block_h / 2 + 260
+    band = np.clip(1 - np.abs(ys - centre) / half, 0, 1) ** 0.8 * 0.72
+    bottom = np.clip((ys - 1300) / 620, 0, 1) * 0.6
+    canvas = Image.fromarray((arr * (1 - np.maximum(band, bottom))).astype(np.uint8))
+
+    tmpl = Image.open(ASSETS / "template_a.jpeg").convert("RGB")
+    badge = tmpl.crop((390, 835, 731, 902))
+    badge = badge.resize((int(badge.width * 1.25), int(badge.height * 1.25)), Image.LANCZOS)
+    mask = Image.new("L", badge.size, 0)
+    ImageDraw.Draw(mask).rounded_rectangle([0, 0, badge.width - 1, badge.height - 1], radius=35, fill=255)
+    canvas.paste(badge, ((W - badge.width) // 2, top - badge.height - 50), mask)
+
+    # soft drop shadow, then the text with a heavy black outline
+    shadow = Image.new("L", (W, H), 0)
+    sd = ImageDraw.Draw(shadow)
+    pos = []
+    for i, (parts, lw) in enumerate(zip(lines, ws)):
+        xx, yy = (W - lw) / 2, top + i * line_h
+        for t, col in parts:
+            pos.append((xx, yy, t, col))
+            sd.text((xx + 8, yy + 12), t, font=f, fill=200, stroke_width=10, stroke_fill=200)
+            xx += f.getlength(t) + gap
+    shadow = shadow.filter(ImageFilter.GaussianBlur(14))
+    canvas = Image.composite(Image.new("RGB", (W, H), (0, 0, 0)), canvas, shadow)
+    d = ImageDraw.Draw(canvas)
+    for xx, yy, t, col in pos:
+        d.text((xx, yy), t, font=f, fill=(255, 255, 255) if col == "W" else (254, 0, 0),
+               stroke_width=6, stroke_fill=(0, 0, 0))
+    canvas.save(reel_dir / "cover.jpg", quality=93)
+    print(f"OK: {reel_dir / 'cover.jpg'} (title size {size})")
+
+
 def main(reel_dir):
     reel_dir = Path(reel_dir)
     spec = json.loads((reel_dir / "reel.json").read_text(encoding="utf-8"))
@@ -273,7 +344,43 @@ def main(reel_dir):
     print(f"OK: {reel_dir / 'reel.mp4'} ({total:.1f}s)")
 
 
+def fetch_photos(spec, reel_dir):
+    """Download any photo listed in spec["photos"] that isn't in reel_dir yet."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import commons
+    for name, title in spec.get("photos", {}).items():
+        if not (reel_dir / name).exists():
+            commons.download(title, str(reel_dir / name))
+
+
+def preview(spec, reel_dir):
+    """Contact sheet: start and end frame of every shot, so crops can be checked without rendering."""
+    th_w, th_h = 270, 480
+    segs = spec["segments"]
+    sheet = Image.new("RGB", (th_w * 2 * 5 + 40, (th_h + 10) * ((len(segs) + 4) // 5)), (60, 60, 60))
+    for i, s in enumerate(segs):
+        img = Image.open(reel_dir / s["image"]).convert("RGB")
+        r0, r1 = shot_rects(img, s.get("cx", 0.5), s.get("cy", 0.5), s.get("motion", "zoom_in"))
+        for k, (x, y, w, h) in enumerate((r0, r1)):
+            fr = img.resize((th_w, th_h), Image.BICUBIC, box=(x, y, x + w, y + h))
+            sheet.paste(fr, ((i % 5) * (th_w * 2 + 8) + k * th_w, (i // 5) * (th_h + 10)))
+    sheet.save(reel_dir / "preview.jpg", quality=85)
+    print(f"OK: {reel_dir / 'preview.jpg'}")
+
+
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
+    sys.stdout.reconfigure(encoding="utf-8")
+    if len(sys.argv) == 3 and sys.argv[1] in ("--cover", "--preview"):
+        d = Path(sys.argv[2])
+        spec = json.loads((d / "reel.json").read_text(encoding="utf-8"))
+        fetch_photos(spec, d)
+        (render_cover if sys.argv[1] == "--cover" else preview)(spec, d)
+    elif len(sys.argv) == 2:
+        d = Path(sys.argv[1])
+        fetch_photos(json.loads((d / "reel.json").read_text(encoding="utf-8")), d)
+        main(d)
+        spec = json.loads((d / "reel.json").read_text(encoding="utf-8"))
+        if "cover" in spec:
+            render_cover(spec, d)
+    else:
         sys.exit(__doc__)
-    main(sys.argv[1])

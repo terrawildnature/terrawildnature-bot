@@ -1,0 +1,140 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Reawakening.mp3",
+    "start": 0,
+    "loudness": -27
+  },
+  "photos": {
+    "p1.jpg": "File:Nyíregyháza Zoo, Budorcas taxicolor taxicolor (2).jpg",
+    "p2.jpg": "File:Budorcas taxicolor (2).jpg",
+    "p3.jpg": "File:Budorcas taxicolor Bouillon 31082014 3.jpg",
+    "p4.jpg": "File:Mishmi-Takin Budorcas taxicolor taxicolor Zoo Augsburg-04.jpg",
+    "p5.jpg": "File:Mishmi-Takin Budorcas taxicolor taxicolor Zoo Augsburg-03.jpg",
+    "p6.jpg": "File:Takin Budorcas taxicolor Tierpark Hellabrunn-19.jpg",
+    "p7.jpg": "File:Takin Budorcas taxicolor Tierpark Hellabrunn-28.jpg",
+    "p8.jpg": "File:Takin Budorcas taxicolor Tierpark Hellabrunn-15.jpg",
+    "p9.jpg": "File:Mishmi-Takin Budorcas taxicolor taxicolor Zoo Augsburg-01.jpg"
+  },
+  "segments": [
+    {
+      "text": "Ünlü bir biyolog onu, arı sokmuş bir Kanada geyiğine benzetti.",
+      "image": "p1.jpg",
+      "cx": 0.3,
+      "cy": 0.6,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Karşınızda takin: Himalayaların gizemli devi.",
+      "image": "p3.jpg",
+      "cx": 0.72,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Erkekleri 350 kiloya kadar çıkabiliyor.",
+      "image": "p8.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Yine de yüksekteki yapraklara uzanmak için arka ayakları üzerinde dikilebiliyor.",
+      "image": "p6.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Vücudu, keskin kokulu yağlı bir salgıyla kaplı.",
+      "image": "p7.jpg",
+      "cx": 0.55,
+      "cy": 0.55,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Yazın 300 bireye varan dev sürüler kuruyor.",
+      "image": "p9.jpg",
+      "cx": 0.5,
+      "cy": 0.55,
+      "motion": "pan_left"
+    },
+    {
+      "text": "4500 metreye kadar yükselen dağlarda yaşıyor.",
+      "image": "p4.jpg",
+      "cx": 0.55,
+      "cy": 0.5,
+      "motion": "zoom_out"
+    },
+    {
+      "text": "Bhutan'ın ulusal hayvanı, bugün kaçak avcılık yüzünden tehdit altında.",
+      "image": "p2.jpg",
+      "cx": 0.65,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p5.jpg",
+      "cx": 0.5,
+      "cy": 0.55,
+      "motion": "zoom_in"
+    }
+  ],
+  "cover": {
+    "image": "p6.jpg",
+    "cx": 0.5,
+    "cy": 0.45,
+    "title": [
+      [
+        [
+          "350 KİLO",
+          "R"
+        ]
+      ],
+      [
+        [
+          "AMA İKİ",
+          "W"
+        ]
+      ],
+      [
+        [
+          "AYAK ÜSTÜNDE",
+          "W"
+        ]
+      ],
+      [
+        [
+          "DURABİLİYOR",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "credits": [
+    {
+      "author": "Szilas",
+      "license": "Public domain"
+    },
+    {
+      "author": "TimVickers",
+      "license": "Public domain"
+    },
+    {
+      "author": "Vassil",
+      "license": "CC0"
+    },
+    {
+      "author": "Rufus46",
+      "license": "CC BY-SA 3.0 / 4.0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Himalayaların gizemli devi takin, 350 kiloya ulaşan cüssesine rağmen yüksekteki yapraklara uzanmak için arka ayakları üzerinde dikilebiliyor. 🐂🏔️\n\n#terrawildnature #takin\n\n📷 Rufus46 (CC BY-SA) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)"
+}

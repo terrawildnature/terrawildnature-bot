@@ -2,7 +2,8 @@
 
 Bu depo @terrawildnature Instagram hesabı için otomatik gönderi üretir.
 - **Sen (Claude, bulut görevi):** Her gün günün 3 gönderisini hazırlayıp `queue/` klasörüne eklersin.
-- **GitHub Actions (`.github/workflows/publish.yml`):** 09:00, 13:00 ve 21:00'de (Türkiye) `queue/` içindeki en eski gönderiyi paylaşır.
+- **GitHub Actions (`.github/workflows/publish.yml`):** 09:00, 18:00 ve 22:00'de (Türkiye) `queue/` içindeki en eski gönderiyi paylaşır.
+- **GitHub Actions (`.github/workflows/publish-reel.yml`):** Pazartesi, Çarşamba, Cuma, Pazar 20:00'de `queue_reels/` içindeki en eski Reels tarifinden videoyu üretip paylaşır (bkz. bölüm 6).
 
 Sen Instagram'a hiçbir şey göndermezsin. Görevin yalnızca gönderi hazırlamak, commit'lemek ve push'lamak.
 
@@ -96,6 +97,23 @@ Avustralya'nın sevimli kazıcısı çıplak burunlu vombat, bağırsaklarının
 - **Herhangi bir fotoğraf kamu malı DEĞİLSE**, etiketlerden sonra boş satır bırakıp kaynak satırı ekle:
   `📷 <Yazar> (<Lisans>), <Yazar> (<Lisans>) / Wikimedia Commons`
   Aynı yazar birden fazla fotoğrafta varsa bir kez yaz. Tamamı kamu malıysa kaynak satırı ekleme.
+
+## 6. Reels (Pazartesi, Çarşamba, Cuma, Pazar 20:00)
+
+Gönderilerden sonra `queue_reels/` klasörüne bak. **2'den az Reels varsa 1 yeni Reels tarifi hazırla.** Videoyu sen üretmiyorsun; GitHub Actions paylaşımdan hemen önce `tools/reel.py` ile üretiyor. Sen tarifi (`reel.json`) ve kapağı (`cover.jpg`) hazırlarsın.
+
+- **Canlı:** Aynı yasak listesi (`data/used.txt` + `data/instagram_posts.txt`). Bu çalıştırmada gönderiler için seçtiğin canlılardan da farklı olmalı. En az 7 iyi fotoğrafı olan canlı seç (mümkünse doğal ortamda çekilmiş). Telif kuralları gönderilerle aynı.
+- **Klasör:** `queue_reels/<YYYYMMDD>_<ad>` (Türkçe karaktersiz, küçük harf).
+- **Metin:** 8-9 cümle, toplam 85-100 kelime (yaklaşık 40 saniye). Her bilgi Wikipedia'dan doğrulanmış olmalı. 1. cümle kanca: en şaşırtıcı bilgi. **Son cümle her zaman aynen:** `Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.` Belgesel anlatıcısı tonu; kısa, akıcı cümleler.
+- **Sahneler:** Her cümle bir sahne, her sahnede farklı fotoğraf. Yatay fotoğraflarda `pan_left`/`pan_right` (kamera hayvanın üzerinde kayar), dikey fotoğraflarda `zoom_in`/`zoom_out`. `cx`, `cy` hayvanın (tercihen başının) konumu.
+- **Müzik:** Ruh haline göre biri: `assets/music/Reawakening.mp3` (sakin, görkemli), `assets/music/Investigations.mp3` (gizemli), `assets/music/Ancient_Rite.ogg` (vahşi, enerjik). `"loudness": -27`.
+- **Kapak:** Hayvanın net ve büyük göründüğü fotoğraf. Başlık 3-4 satır, satır başına en fazla ~12 karakter, büyük harf; ilk ve/veya son satır kırmızı (`R`), diğerleri beyaz (`W`). Kısa, çarpıcı bir kanca (ör. `350 KİLO / AMA İKİ / AYAK ÜSTÜNDE / DURABİLİYOR`).
+- **Açıklama (`caption`):** Tek cümle + 2 emoji, boş satır, `#terrawildnature #<canlıadı>`, boş satır; kamu malı olmayan fotoğraf varsa `📷 <Yazar> (<Lisans>) / Wikimedia Commons`; son satır her zaman `🎵 Kevin MacLeod (CC BY)`.
+- `credits` alanına her fotoğrafın yazarını ve lisansını yaz.
+- **Kontrol:** `python tools/reel.py --preview queue_reels/<klasör>` ve `python tools/reel.py --cover queue_reels/<klasör>` çalıştır (fotoğrafları `photos` listesinden kendisi indirir). `preview.jpg` ve `cover.jpg` dosyalarını Read ile aç: hayvan her karede görünmeli, başı kesilmemeli, kapak başlığı okunaklı ve ortada olmalı. Sorun varsa düzelt ve tekrar üret.
+- Sonra `p*.jpg` ve `preview.jpg` dosyalarını sil. Klasörde sadece `reel.json` ve `cover.jpg` kalmalı. `data/used.txt` sonuna `<ad> (Reels) | <bilimsel ad>` ekle.
+
+Örnek: `queue_reels/20261023_takin/reel.json` (bu dosya paylaşılınca `posted_reels/` altına taşınır; orada da bakabilirsin).
 
 ## Asla yapma
 

@@ -9,6 +9,7 @@ Exit code 2 when the queue is empty (so the workflow run shows as failed and you
   python tools/publish.py --check    only verify token and show account
   python tools/publish.py --refresh  refresh the long-lived token, print new token to stdout
   python tools/publish.py --list-posts  write every existing post's date + caption to data/instagram_posts.txt
+  python tools/publish.py --reel <dir>  publish <dir>/reel.mp4 as a Reel with <dir>/cover.jpg, move <dir> to posted_reels/
 """
 import json
 import os
@@ -50,6 +51,45 @@ def wait_ready(container_id):
     sys.exit(f"container {container_id} not ready after 5 minutes")
 
 
+def publish_reel(me, reel_dir):
+    """Upload reel.mp4 straight to Instagram (resumable upload, no public video URL needed),
+    with cover.jpg (served from the repo) as the custom cover."""
+    reel_dir = Path(reel_dir)
+    spec = json.loads((reel_dir / "reel.json").read_text(encoding="utf-8"))
+    base = os.environ["RAW_BASE"].rstrip("/")
+    cover_url = f"{base}/{reel_dir.relative_to(ROOT).as_posix()}/cover.jpg"
+    c = call("POST", f"{me['user_id']}/media", media_type="REELS", upload_type="resumable",
+             caption=spec["caption"], cover_url=cover_url,
+             share_to_feed="true", is_ai_generated="true")
+    video = (reel_dir / "reel.mp4").read_bytes()
+    req = urllib.request.Request(c["uri"], data=video, method="POST", headers={
+        "Authorization": f"OAuth {os.environ['IG_TOKEN']}", "offset": "0", "file_size": str(len(video))})
+    try:
+        with urllib.request.urlopen(req, timeout=600) as r:
+            print("upload:", r.read().decode()[:200])
+    except urllib.error.HTTPError as e:
+        sys.exit(f"video upload failed: {e.code} {e.read().decode(errors='replace')}")
+    for _ in range(60):   # video processing can take several minutes
+        st = call("GET", c["id"], fields="status_code,status").get("status_code")
+        if st == "FINISHED":
+            break
+        if st in ("ERROR", "EXPIRED"):
+            sys.exit(f"reel container {c['id']} status {st}: {call('GET', c['id'], fields='status')}")
+        time.sleep(15)
+    else:
+        sys.exit("reel not processed after 15 minutes")
+    pub = call("POST", f"{me['user_id']}/media_publish", creation_id=c["id"])
+    print(f"published reel media id {pub['id']}")
+    dest = ROOT / "posted_reels" / reel_dir.name
+    dest.parent.mkdir(exist_ok=True)
+    shutil.move(str(reel_dir), str(dest))
+    for f in dest.iterdir():   # keep only the recipe; media lives on Instagram now
+        if f.name != "reel.json":
+            shutil.rmtree(f) if f.is_dir() else f.unlink()
+    (dest / "published.json").write_text(json.dumps(
+        {"media_id": pub["id"], "published_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}, indent=2))
+
+
 def next_post():
     posts = sorted(p for p in (ROOT / "queue").iterdir() if (p / "post.json").exists()
                    and (p / "a.jpg").exists() and (p / "b.jpg").exists())
@@ -64,6 +104,9 @@ def main():
     me = call("GET", "me", fields="user_id,username")
     if "--check" in sys.argv:
         print(f"token OK for @{me['username']} (id {me['user_id']})")
+        return
+    if "--reel" in sys.argv:
+        publish_reel(me, sys.argv[sys.argv.index("--reel") + 1])
         return
     if "--stats" in sys.argv:
         acct = call("GET", "me", fields="username,followers_count,follows_count,media_count")
