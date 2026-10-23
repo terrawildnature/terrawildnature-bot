@@ -89,11 +89,12 @@ def download(title, out):
         title = "File:" + title
     # 1920 is one of Wikimedia's standard thumbnail widths; non-standard widths get rate-limited.
     data = get({"action": "query", "titles": title, "prop": "imageinfo",
-                "iiprop": "url|size|extmetadata", "iiurlwidth": 1920,
+                "iiprop": "url|size|mime|extmetadata", "iiurlwidth": 1920,
                 "iiextmetadatafilter": "LicenseShortName|Artist"})
     page = next(iter(data["query"]["pages"].values()))
     ii = page["imageinfo"][0]
-    urls = [u for u in (ii.get("thumburl"), ii["url"]) if u]
+    thumb = ii.get("thumburl") if ii.get("mime", "").startswith("image/") else None  # audio/video: original only
+    urls = [u for u in (thumb, ii["url"]) if u]
     if not any(fetch(u, out) for u in urls):
         sys.exit(f"download failed: {title}")
     lic, artist = meta(ii)

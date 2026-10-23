@@ -90,6 +90,12 @@ def main():
                 acct["daily"] = json.load(r)["data"]
         except Exception as e:
             acct["daily_error"] = str(e)[:80]
+        try:  # followers online per hour (account time zone is UTC in the API: PST/UTC offsets vary)
+            req = urllib.request.Request(f"{GRAPH}/me/insights?metric=online_followers&period=lifetime&access_token={os.environ['IG_TOKEN']}")
+            with urllib.request.urlopen(req, timeout=60) as r:
+                acct["online_followers"] = json.load(r)["data"]
+        except Exception as e:
+            acct["online_followers_error"] = str(e)[:200]
         (ROOT / "data" / "stats.json").write_text(json.dumps({"account": acct, "posts": posts}, ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"stats for {len(posts)} posts written to data/stats.json")
         return
