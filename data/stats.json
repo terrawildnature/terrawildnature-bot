@@ -32,13 +32,57 @@
       "end_time": "2026-10-21T07:00:00+0000"
      },
      {
-      "value": 153,
+      "value": 154,
       "end_time": "2026-10-22T07:00:00+0000"
      }
     ],
     "title": "Reach",
     "description": "Total number of times the Business Account's media objects have been uniquely viewed",
     "id": "17841424935544845/insights/reach/day"
+   }
+  ],
+  "online_followers": [
+   {
+    "name": "online_followers",
+    "period": "lifetime",
+    "values": [
+     {
+      "value": {
+       "0": 410,
+       "1": 439,
+       "2": 437,
+       "3": 419,
+       "4": 407,
+       "5": 441,
+       "6": 448,
+       "7": 443,
+       "8": 485,
+       "9": 504,
+       "10": 526,
+       "11": 557,
+       "12": 542,
+       "13": 484,
+       "14": 392,
+       "15": 222,
+       "16": 136,
+       "17": 89,
+       "18": 76,
+       "19": 84,
+       "20": 176,
+       "21": 269,
+       "22": 333,
+       "23": 385
+      },
+      "end_time": "2026-10-21T07:00:00+0000"
+     },
+     {
+      "value": {},
+      "end_time": "2026-10-22T07:00:00+0000"
+     }
+    ],
+    "title": "Online Followers",
+    "description": "Total number of this profile's followers that were online during the specified period",
+    "id": "17841424935544845/insights/online_followers/lifetime"
    }
   ]
  },
@@ -52,8 +96,8 @@
    "caption": "Avustralya’nın sevimli kazıcısı çıplak burunlu vombat, bağırsaklarının özel yapısı sayesinde küp şeklinde dışkı üretip b",
    "permalink": "https://www.instagram.com/p/DezO4ufCC3s/",
    "insights": {
-    "reach": 90,
-    "views": 154,
+    "reach": 91,
+    "views": 156,
     "saved": 1,
     "shares": 0,
     "total_interactions": 5
