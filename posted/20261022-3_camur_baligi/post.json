@@ -1,89 +1,91 @@
 {
- "name": "mudskipper",
- "title": [
-  [
-   [
-    "BU BALIK",
-    "W"
-   ]
+  "name": "mudskipper",
+  "title": [
+    [
+      [
+        "BU BALIK",
+        "W"
+      ]
+    ],
+    [
+      [
+        "SUDAN ÇIKIP",
+        "W"
+      ],
+      [
+        "KARADA",
+        "R"
+      ]
+    ],
+    [
+      [
+        "YÜRÜYOR",
+        "R"
+      ]
+    ]
   ],
-  [
-   [
-    "SUDAN ÇIKIP",
-    "W"
-   ],
-   [
-    "KARADA",
-    "R"
-   ]
+  "card_title": "ÇAMUR BALIĞI",
+  "card_top": [
+    "Göğüs yüzgeçleriyle çamurda",
+    "sekerek yürüyebilir."
   ],
-  [
-   [
-    "YÜRÜYOR",
-    "R"
-   ]
-  ]
- ],
- "card_title": "ÇAMUR BALIĞI",
- "card_top": [
-  "Göğüs yüzgeçleriyle çamurda",
-  "sekerek yürüyebilir."
- ],
- "card_bottom": [
-  "Karada nemli derisi ve",
-  "ağız-boğaz zarı üzerinden",
-  "nefes alabilir."
- ],
- "right": [
-  "Hint-Pasifik ve Afrika'nın",
-  "Atlantik kıyısındaki gelgit",
-  "alanlarında yaşar. Gözleri",
-  "başının üstündedir. Türüne",
-  "göre 30 cm'ye kadar uzar."
- ],
- "loc": "Hint-Pasifik, Afrika",
- "photos": {
-  "cover": {
-   "file": "photo_top.jpg",
-   "cx": 0.4,
-   "cy": 0.35,
-   "zoom": 1.0
+  "card_bottom": [
+    "Karada nemli derisi ve",
+    "ağız-boğaz zarı üzerinden",
+    "nefes alabilir."
+  ],
+  "right": [
+    "Hint-Pasifik ve Afrika'nın",
+    "Atlantik kıyısındaki gelgit",
+    "alanlarında yaşar. Gözleri",
+    "başının üstündedir. Türüne",
+    "göre 30 cm'ye kadar uzar."
+  ],
+  "loc": "Hint-Pasifik, Afrika",
+  "photos": {
+    "cover": {
+      "file": "photo_top.jpg",
+      "cx": 0.4,
+      "cy": 0.35,
+      "zoom": 1.0
+    },
+    "top": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom": 1.0
+    },
+    "inner": {
+      "file": "photo_top.jpg",
+      "cx": 0.3,
+      "cy": 0.55,
+      "zoom": 2.2
+    }
   },
-  "top": {
-   "file": "photo_inner.jpg",
-   "cx": 0.5,
-   "cy": 0.5,
-   "zoom": 1.0
-  },
-  "inner": {
-   "file": "photo_top.jpg",
-   "cx": 0.3,
-   "cy": 0.55,
-   "zoom": 2.2
-  }
- },
- "credits": [
-  {
-   "use": "cover",
-   "title": "File:Barred Mudskipper (Periophthalmus argentilineatus) (15562370969).jpg",
-   "author": "Bernard DUPONT from FRANCE",
-   "license": "CC BY-SA 2.0",
-   "public_domain": false
-  },
-  {
-   "use": "top",
-   "title": "File:Silver-lined Mudskipper (Periophthalmus argentilineatus) (8220661691).jpg",
-   "author": "Bernard DUPONT from FRANCE",
-   "license": "CC BY-SA 2.0",
-   "public_domain": false
-  },
-  {
-   "use": "inner",
-   "title": "File:Barred Mudskipper (Periophthalmus argentilineatus) (15562370969).jpg",
-   "author": "Bernard DUPONT from FRANCE",
-   "license": "CC BY-SA 2.0",
-   "public_domain": false
-  }
- ],
- "caption": "Sudan çıkıp göğüs yüzgeçleriyle çamurda sekerek ilerleyen çamur balığı (mudskipper), nemli derisi ve ağzı-boğazı üzerinden karada bile nefes alabiliyor. 🐟🌿\n\n#terrawildnature #ilginçbilgiler #çamurbalığı\n\n📷 Bernard DUPONT (CC BY-SA 2.0) / Wikimedia Commons"
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Barred Mudskipper (Periophthalmus argentilineatus) (15562370969).jpg",
+      "author": "Bernard DUPONT from FRANCE",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Silver-lined Mudskipper (Periophthalmus argentilineatus) (8220661691).jpg",
+      "author": "Bernard DUPONT from FRANCE",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Barred Mudskipper (Periophthalmus argentilineatus) (15562370969).jpg",
+      "author": "Bernard DUPONT from FRANCE",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Sudan çıkıp göğüs yüzgeçleriyle çamurda sekerek ilerleyen çamur balığı (mudskipper), nemli derisi ve ağzı-boğazı üzerinden karada bile nefes alabiliyor. 🐟🌿\n\n#terrawildnature #ilginçbilgiler #çamurbalığı\n\n📷 Bernard DUPONT (CC BY-SA 2.0) / Wikimedia Commons",
+  "group": "balık",
+  "hook_style": "tuhaf yetenek"
 }

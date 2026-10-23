@@ -1,6 +1,8 @@
 name: Hesap istatistikleri
 
 on:
+  schedule:
+    - cron: "5 2 * * *"   # 05:05 Türkiye — sabah hazırlığından (05:30) önce
   workflow_dispatch: {}
 
 concurrency:
@@ -25,10 +27,11 @@ jobs:
         run: |
           source tools/token.sh load
           python tools/publish.py --stats
+          python tools/analyze.py
       - name: Commit
         run: |
           git config user.name "terrawildnature-bot"
           git config user.email "terrawildnature-bot@users.noreply.github.com"
-          git add data/stats.json
-          git commit -m "Hesap istatistikleri güncellendi" || exit 0
+          git add data/stats.json data/insights.md data/followers.csv
+          git commit -m "İstatistikler ve performans raporu güncellendi" || exit 0
           for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done

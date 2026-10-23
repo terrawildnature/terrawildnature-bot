@@ -18,6 +18,19 @@ Sen Instagram'a hiçbir şey göndermezsin. Görevin yalnızca gönderi hazırla
 6. Canlıların adlarını `data/used.txt` sonuna ekle.
 7. `git add -A && git commit -m "Yeni gönderiler: <adlar>" && git push` (çakışma olursa `git pull --rebase` sonra tekrar push).
 
+## 0. Önce performans raporunu oku
+
+`data/insights.md` her sabah 05:05'te gerçek Instagram istatistiklerinden yeniden üretilir. Canlı seçmeden ve başlık yazmadan **önce** oku ve şöyle kullan:
+- Rapordaki **"güçlü — daha sık kullan"** grup ve kanca tarzlarına öncelik ver. **"zayıf"** olanları daha seyrek kullan (tamamen bırakma).
+- Günün 3 gönderisinden **2'si** güçlü/ortalama bir grup + kanca tarzıyla, **1'i** keşif amaçlı olsun: "veri yetersiz" ya da hiç denenmemiş bir grup veya kanca tarzı. Reels için de aynı mantık: güçlü tarzlara ağırlık ver, arada farklısını dene.
+- "En iyi 5" listesindeki başlıkların neden tuttuğunu düşün (sayı mı, şaşkınlık mı, tehlike mi) ve benzer etkide **yeni** başlıklar yaz. Aynı başlığı kopyalama.
+- Rapor yoksa ya da veri azsa grupları ve kanca tarzlarını dengeli dağıt.
+- Son mesajında, rapordan ne öğrendiğini ve seçimlerine nasıl yansıttığını tek cümleyle yaz.
+
+Her `post.json` ve `reel.json` dosyasına bu iki alanı **mutlaka** ekle (analiz bunlarla yapılıyor):
+- `"group"`: `memeli` | `kuş` | `sürüngen` | `amfibi` | `balık` | `deniz omurgasızı` | `böcek/örümcek` | `diğer`
+- `"hook_style"`: `sayı` (rakamlı iddia: "350 KİLO") | `süperlatif` ("dünyanın en...") | `tuhaf yetenek` (beklenmedik davranış/yetenek) | `tehlike` (zehir, ölümcül, saldırı) | `gizem` (az bilinen, yeni keşif, kayıp tür) | `benzetme` ("X gibi ama Y") | `tuhaf görünüm` (garip vücut, organ)
+
 ## 1. Canlı seçimi
 
 - `data/used.txt` içindeki **hiçbir canlıyı seçme.** Emin olmak için canlının Türkçe, İngilizce ve bilimsel adını `data/instagram_posts.txt` içinde de ara (grep, büyük/küçük harf duyarsız). Bulursan seçme. Aynı canlının farklı bir türünü de seçme (ör. "kasuar" varsa "kuzey kasuarı" da olmaz).

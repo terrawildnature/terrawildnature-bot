@@ -106,7 +106,7 @@ def main():
     if "--stats" in sys.argv:
         acct = call("GET", "me", fields="username,followers_count,follows_count,media_count")
         posts, page = [], call("GET", "me/media", limit="100",
-                               fields="id,timestamp,media_type,like_count,comments_count,caption,permalink")
+                               fields="id,timestamp,media_type,media_product_type,like_count,comments_count,caption,permalink")
         while True:
             posts += page.get("data", [])
             nxt = page.get("paging", {}).get("next")
@@ -114,14 +114,22 @@ def main():
                 break
             with urllib.request.urlopen(nxt, timeout=120) as r:
                 page = json.load(r)
-        for p in posts:  # insights need instagram_business_manage_insights; skip quietly if missing
+        cutoff = time.strftime("%Y-%m-%d", time.gmtime(time.time() - 45 * 86400))
+        for p in posts:  # insights only for the last 45 days: keeps the daily API call count bounded
             p["caption"] = (p.get("caption") or "")[:120]
+            if p["timestamp"][:10] < cutoff:
+                continue
+            metrics = "reach,views,saved,shares,total_interactions"
+            if p.get("media_product_type") == "REELS":
+                metrics += ",ig_reels_avg_watch_time"
             try:
-                req = urllib.request.Request(f"{GRAPH}/{p['id']}/insights?metric=reach,views,saved,shares,total_interactions&access_token={os.environ['IG_TOKEN']}")
+                req = urllib.request.Request(f"{GRAPH}/{p['id']}/insights?metric={metrics}&access_token={os.environ['IG_TOKEN']}")
                 with urllib.request.urlopen(req, timeout=60) as r:
                     p["insights"] = {m["name"]: m["values"][0]["value"] for m in json.load(r)["data"]}
             except Exception as e:
                 p["insights_error"] = str(e)[:80]
+        with open(ROOT / "data" / "followers.csv", "a", encoding="utf-8") as f:   # follower history
+            f.write(f"{time.strftime('%Y-%m-%d')},{acct.get('followers_count')}\n")
         try:
             req = urllib.request.Request(f"{GRAPH}/me/insights?metric=follower_count,reach&period=day&access_token={os.environ['IG_TOKEN']}")
             with urllib.request.urlopen(req, timeout=60) as r:

@@ -1,89 +1,91 @@
 {
- "name": "kagu",
- "title": [
-  [
-   [
-    "BU KUŞUN BURNUNDA",
-    "W"
-   ]
+  "name": "kagu",
+  "title": [
+    [
+      [
+        "BU KUŞUN BURNUNDA",
+        "W"
+      ]
+    ],
+    [
+      [
+        "BAŞKA KUŞTA",
+        "W"
+      ],
+      [
+        "OLMAYAN",
+        "R"
+      ]
+    ],
+    [
+      [
+        "BİR YAPI VAR",
+        "R"
+      ]
+    ]
   ],
-  [
-   [
-    "BAŞKA KUŞTA",
-    "W"
-   ],
-   [
-    "OLMAYAN",
-    "R"
-   ]
+  "card_title": "KAGU",
+  "card_top": [
+    "Burnunu örten yapı başka",
+    "hiçbir kuşta bulunmuyor."
   ],
-  [
-   [
-    "BİR YAPI VAR",
-    "R"
-   ]
-  ]
- ],
- "card_title": "KAGU",
- "card_top": [
-  "Burnunu örten yapı başka",
-  "hiçbir kuşta bulunmuyor."
- ],
- "card_bottom": [
-  "Toprakta yem ararken burnuna",
-  "toz girmesini önlediği",
-  "düşünülüyor."
- ],
- "right": [
-  "Yalnızca Yeni Kaledonya'da,",
-  "Grande Terre adasında yaşar.",
-  "Neredeyse uçamaz, süzülür.",
-  "Solucan ve salyangoz yer.",
-  "Doğada ~250-1000 kuş kaldı."
- ],
- "loc": "Yeni Kaledonya",
- "photos": {
-  "cover": {
-   "file": "photo_cover.jpg",
-   "cx": 0.5,
-   "cy": 0.4,
-   "zoom": 1.0
+  "card_bottom": [
+    "Toprakta yem ararken burnuna",
+    "toz girmesini önlediği",
+    "düşünülüyor."
+  ],
+  "right": [
+    "Yalnızca Yeni Kaledonya'da,",
+    "Grande Terre adasında yaşar.",
+    "Neredeyse uçamaz, süzülür.",
+    "Solucan ve salyangoz yer.",
+    "Doğada ~250-1000 kuş kaldı."
+  ],
+  "loc": "Yeni Kaledonya",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "zoom": 1.0
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.55,
+      "cy": 0.45,
+      "zoom": 1.1
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.25,
+      "zoom": 2.4
+    }
   },
-  "top": {
-   "file": "photo_top.jpg",
-   "cx": 0.55,
-   "cy": 0.45,
-   "zoom": 1.1
-  },
-  "inner": {
-   "file": "photo_inner.jpg",
-   "cx": 0.5,
-   "cy": 0.25,
-   "zoom": 2.4
-  }
- },
- "credits": [
-  {
-   "use": "cover",
-   "title": "File:Kagu 0A2A2595.jpg",
-   "author": "JJ Harrison",
-   "license": "CC BY-SA 3.0",
-   "public_domain": false
-  },
-  {
-   "use": "top",
-   "title": "File:Kagu 0A2A2738.jpg",
-   "author": "JJ Harrison",
-   "license": "CC BY-SA 3.0",
-   "public_domain": false
-  },
-  {
-   "use": "inner",
-   "title": "File:Kagu 0A2A3921.jpg",
-   "author": "JJ Harrison",
-   "license": "CC BY-SA 3.0",
-   "public_domain": false
-  }
- ],
- "caption": "Yeni Kaledonya'ya özgü kagu, burun deliklerini örten ve başka hiçbir kuşta bulunmayan yapısıyla tanınan, doğada yalnızca 250 ile 1000 arası bireyi kalmış nadir bir kuş. 🐦🌿\n\n#terrawildnature #ilginçbilgiler #kagu\n\n📷 JJ Harrison (CC BY-SA 3.0) / Wikimedia Commons"
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Kagu 0A2A2595.jpg",
+      "author": "JJ Harrison",
+      "license": "CC BY-SA 3.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Kagu 0A2A2738.jpg",
+      "author": "JJ Harrison",
+      "license": "CC BY-SA 3.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Kagu 0A2A3921.jpg",
+      "author": "JJ Harrison",
+      "license": "CC BY-SA 3.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Yeni Kaledonya'ya özgü kagu, burun deliklerini örten ve başka hiçbir kuşta bulunmayan yapısıyla tanınan, doğada yalnızca 250 ile 1000 arası bireyi kalmış nadir bir kuş. 🐦🌿\n\n#terrawildnature #ilginçbilgiler #kagu\n\n📷 JJ Harrison (CC BY-SA 3.0) / Wikimedia Commons",
+  "group": "kuş",
+  "hook_style": "tuhaf görünüm"
 }
