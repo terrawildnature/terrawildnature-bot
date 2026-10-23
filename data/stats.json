@@ -1,9 +1,9 @@
 {
  "account": {
   "username": "terrawildnature",
-  "followers_count": 1244,
+  "followers_count": 1243,
   "follows_count": 18,
-  "media_count": 140,
+  "media_count": 143,
   "id": "29086642960932360",
   "daily": [
    {
@@ -11,12 +11,12 @@
     "period": "day",
     "values": [
      {
-      "value": 70,
-      "end_time": "2026-10-21T07:00:00+0000"
+      "value": 0,
+      "end_time": "2026-10-22T07:00:00+0000"
      },
      {
       "value": 0,
-      "end_time": "2026-10-22T07:00:00+0000"
+      "end_time": "2026-10-23T07:00:00+0000"
      }
     ],
     "title": "Follower Count",
@@ -28,12 +28,12 @@
     "period": "day",
     "values": [
      {
-      "value": 3173,
-      "end_time": "2026-10-21T07:00:00+0000"
+      "value": 179,
+      "end_time": "2026-10-22T07:00:00+0000"
      },
      {
-      "value": 154,
-      "end_time": "2026-10-22T07:00:00+0000"
+      "value": 517,
+      "end_time": "2026-10-23T07:00:00+0000"
      }
     ],
     "title": "Reach",
@@ -47,37 +47,12 @@
     "period": "lifetime",
     "values": [
      {
-      "value": {
-       "0": 410,
-       "1": 439,
-       "2": 437,
-       "3": 419,
-       "4": 407,
-       "5": 441,
-       "6": 448,
-       "7": 443,
-       "8": 485,
-       "9": 504,
-       "10": 526,
-       "11": 557,
-       "12": 542,
-       "13": 484,
-       "14": 392,
-       "15": 222,
-       "16": 136,
-       "17": 89,
-       "18": 76,
-       "19": 84,
-       "20": 176,
-       "21": 269,
-       "22": 333,
-       "23": 385
-      },
-      "end_time": "2026-10-21T07:00:00+0000"
+      "value": {},
+      "end_time": "2026-10-22T07:00:00+0000"
      },
      {
       "value": {},
-      "end_time": "2026-10-22T07:00:00+0000"
+      "end_time": "2026-10-23T07:00:00+0000"
      }
     ],
     "title": "Online Followers",
@@ -88,16 +63,86 @@
  },
  "posts": [
   {
+   "id": "18098390987103163",
+   "timestamp": "2026-10-23T19:24:05+0000",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "like_count": 0,
+   "comments_count": 0,
+   "caption": "Sudan çıkıp göğüs yüzgeçleriyle çamurda sekerek ilerleyen çamur balığı (mudskipper), nemli derisi ve ağzı-boğazı üzerind",
+   "permalink": "https://www.instagram.com/p/De2TSB7oOFB/",
+   "insights": {
+    "reach": 32,
+    "views": 52,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0
+   }
+  },
+  {
+   "id": "18345531037254447",
+   "timestamp": "2026-10-23T18:53:19+0000",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "like_count": 2,
+   "comments_count": 0,
+   "caption": "Himalayaların gizemli devi takin, 350 kiloya ulaşan cüssesine rağmen yüksekteki yapraklara uzanmak için arka ayakları üz",
+   "permalink": "https://www.instagram.com/reel/De2Pt9xEr6T/",
+   "insights": {
+    "reach": 257,
+    "views": 300,
+    "saved": 1,
+    "shares": 0,
+    "total_interactions": 3,
+    "ig_reels_avg_watch_time": 11027
+   }
+  },
+  {
+   "id": "18634221511018124",
+   "timestamp": "2026-10-23T15:31:06+0000",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "like_count": 6,
+   "comments_count": 0,
+   "caption": "Yeni Kaledonya'ya özgü kagu, burun deliklerini örten ve başka hiçbir kuşta bulunmayan yapısıyla tanınan, doğada yalnızca",
+   "permalink": "https://www.instagram.com/p/De14ny6m8uS/",
+   "insights": {
+    "reach": 88,
+    "views": 154,
+    "saved": 1,
+    "shares": 0,
+    "total_interactions": 7
+   }
+  },
+  {
+   "id": "18100106387384105",
+   "timestamp": "2026-10-23T06:25:24+0000",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "like_count": 4,
+   "comments_count": 0,
+   "caption": "Adı kurt ama aslında sırtlan ailesinin en küçük üyesi olan toprak kurdu, tek bir gecede 250 bine kadar termit yiyebiliyo",
+   "permalink": "https://www.instagram.com/p/De06K6xFSBM/",
+   "insights": {
+    "reach": 223,
+    "views": 333,
+    "saved": 3,
+    "shares": 5,
+    "total_interactions": 12
+   }
+  },
+  {
    "id": "18117122459084665",
    "timestamp": "2026-10-22T14:47:52+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 3,
    "comments_count": 1,
    "caption": "Avustralya’nın sevimli kazıcısı çıplak burunlu vombat, bağırsaklarının özel yapısı sayesinde küp şeklinde dışkı üretip b",
    "permalink": "https://www.instagram.com/p/DezO4ufCC3s/",
    "insights": {
-    "reach": 91,
-    "views": 156,
+    "reach": 127,
+    "views": 227,
     "saved": 1,
     "shares": 0,
     "total_interactions": 5
@@ -107,13 +152,14 @@
    "id": "18023783885713126",
    "timestamp": "2026-10-21T18:58:49+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 6,
    "comments_count": 0,
    "caption": "Örümcek gibi ama o bir yengeç 🦀",
    "permalink": "https://www.instagram.com/p/DexGz3xDo02/",
    "insights": {
-    "reach": 122,
-    "views": 228,
+    "reach": 142,
+    "views": 259,
     "saved": 2,
     "shares": 5,
     "total_interactions": 13
@@ -123,29 +169,31 @@
    "id": "18030172421880925",
    "timestamp": "2026-10-20T18:05:13+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 6,
    "comments_count": 0,
    "caption": "Kuyruğu neredeyse vücudu kadar uzun olan Zorilla 🦨\n\n#terrawildnature \n\nHergün yeni canlıları sizlerle buluşturuyoruz. Bu",
    "permalink": "https://www.instagram.com/p/Deub4aYDjnI/",
    "insights": {
-    "reach": 184,
-    "views": 316,
-    "saved": 2,
+    "reach": 191,
+    "views": 331,
+    "saved": 3,
     "shares": 0,
-    "total_interactions": 8
+    "total_interactions": 9
    }
   },
   {
    "id": "18123312754844077",
    "timestamp": "2026-10-19T15:46:25+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 10,
    "comments_count": 0,
    "caption": "Okyanusların küçük savaşçısı Demir Zırhlı Salyangoz🐌",
    "permalink": "https://www.instagram.com/p/DernM97DsCo/",
    "insights": {
-    "reach": 279,
-    "views": 445,
+    "reach": 284,
+    "views": 452,
     "saved": 2,
     "shares": 0,
     "total_interactions": 12
@@ -155,13 +203,14 @@
    "id": "17885701935504755",
    "timestamp": "2026-10-18T13:43:30+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 17,
    "comments_count": 0,
    "caption": "Afrika’nın sık yağmur ormanlarında saklanan Kongo tavus kuşu 🦚 \n\n#terrawildnature \n\nCanlılar hakkında daha fazla bilgi s",
    "permalink": "https://www.instagram.com/p/Deo0VyHjswU/",
    "insights": {
-    "reach": 395,
-    "views": 577,
+    "reach": 400,
+    "views": 586,
     "saved": 6,
     "shares": 1,
     "total_interactions": 24
@@ -171,13 +220,14 @@
    "id": "18125011301298692",
    "timestamp": "2026-10-17T18:50:56+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 9,
    "comments_count": 0,
    "caption": "En zehirli canlılar listesinde olan Mavi Halkalı Ahtapot 🔵🐙\n\n#terrawildnature \n\nToplam uzunluğu yaklaşık 12 cm olmasına ",
    "permalink": "https://www.instagram.com/p/DemyunvjppO/",
    "insights": {
-    "reach": 430,
-    "views": 622,
+    "reach": 433,
+    "views": 629,
     "saved": 3,
     "shares": 0,
     "total_interactions": 13
@@ -187,13 +237,14 @@
    "id": "18568226515073170",
    "timestamp": "2026-10-13T14:36:46+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 15,
    "comments_count": 0,
    "caption": "Barbados ip yılanının yeniden doğuşu 🐍 yıllarca kayıplara karışıp türü yok oldu sanılırken yeniden keşfedildi. #terrawil",
    "permalink": "https://www.instagram.com/p/DecCdmvCHB2/",
    "insights": {
     "reach": 650,
-    "views": 974,
+    "views": 976,
     "saved": 4,
     "shares": 1,
     "total_interactions": 20
@@ -203,13 +254,14 @@
    "id": "18117265007057336",
    "timestamp": "2026-10-05T19:32:19+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 15,
    "comments_count": 0,
    "caption": "Yeraltının en ilginç canlılarından olan Giant Golden Mole. \n\n#enteresanbilgiler \n\nDaha fazla bilgi için bizi takip etmey",
    "permalink": "https://www.instagram.com/p/DeH97O4lSkd/",
    "insights": {
     "reach": 583,
-    "views": 862,
+    "views": 864,
     "saved": 3,
     "shares": 1,
     "total_interactions": 19
@@ -219,13 +271,14 @@
    "id": "18007913597976388",
    "timestamp": "2026-09-12T20:38:03+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 14,
    "comments_count": 0,
    "caption": "Cyphoderris monstrosa, Kuzey Amerika’nın dağlık ormanlarında yaşayan bu sıra dışı çekirge, çiftleşme sırasında dişinin e",
    "permalink": "https://www.instagram.com/p/DdM3KmFjn7y/",
    "insights": {
-    "reach": 546,
-    "views": 772,
+    "reach": 547,
+    "views": 775,
     "saved": 2,
     "shares": 0,
     "total_interactions": 16
@@ -235,2097 +288,1311 @@
    "id": "17958100899214309",
    "timestamp": "2026-09-03T18:03:15+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 18,
    "comments_count": 0,
    "caption": "Suyun üzerinde koşabilen bu sıra dışı kertenkele, özel ayak yapısı sayesinde batmadan birkaç metre boyunca su yüzeyinde ",
-   "permalink": "https://www.instagram.com/p/Dc1aS6_DoN4/",
-   "insights": {
-    "reach": 524,
-    "views": 758,
-    "saved": 7,
-    "shares": 1,
-    "total_interactions": 26
-   }
+   "permalink": "https://www.instagram.com/p/Dc1aS6_DoN4/"
   },
   {
    "id": "17920230198427173",
    "timestamp": "2026-08-30T19:02:20+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 24,
    "comments_count": 1,
    "caption": "Dünyanın en garip canınlılarından biri olan tüylü kurbağa 🐸\n\n#enteresanbilgiler #terrawildnature",
-   "permalink": "https://www.instagram.com/p/DcrN4Gpjlzp/",
-   "insights": {
-    "reach": 676,
-    "views": 1047,
-    "saved": 6,
-    "shares": 6,
-    "total_interactions": 37
-   }
+   "permalink": "https://www.instagram.com/p/DcrN4Gpjlzp/"
   },
   {
    "id": "18120923168482451",
    "timestamp": "2026-08-26T19:34:09+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 12,
    "comments_count": 0,
    "caption": "Suyun altında, yaşayan yosun parçasına dönüşen Mary River kaplumbağası 🐢\n\n#ilgincbilgiler \n\nDaha fazla bilgi için bizi t",
-   "permalink": "https://www.instagram.com/p/Dcg-VnSjjMx/",
-   "insights": {
-    "reach": 464,
-    "views": 646,
-    "saved": 2,
-    "shares": 1,
-    "total_interactions": 15
-   }
+   "permalink": "https://www.instagram.com/p/Dcg-VnSjjMx/"
   },
   {
    "id": "18619090087001111",
    "timestamp": "2026-08-24T19:02:12+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 10,
    "comments_count": 0,
    "caption": "Okyanusun en karanlık yerlerini aydınlatan o canlı. Vampir Kalamarı..🐙\n\n#vampirkalamarı \n\nDaha fazla canlı hakkında bilg",
-   "permalink": "https://www.instagram.com/p/DcbxF3-DkBS/",
-   "insights": {
-    "reach": 409,
-    "views": 573,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 10
-   }
+   "permalink": "https://www.instagram.com/p/DcbxF3-DkBS/"
   },
   {
    "id": "18145622065558758",
    "timestamp": "2026-08-23T19:10:36+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 23,
    "comments_count": 0,
    "caption": "İşte Hoatzin.. Ağaçlara tırmanabilen,pençeleri olan o kuş 🦅\n\n#hoatzin \n\nVahşi doğanın tüm gerçekleri için bizi takip etm",
-   "permalink": "https://www.instagram.com/p/DcZNQhiDrsc/",
-   "insights": {
-    "reach": 478,
-    "views": 706,
-    "saved": 3,
-    "shares": 6,
-    "total_interactions": 32
-   }
+   "permalink": "https://www.instagram.com/p/DcZNQhiDrsc/"
   },
   {
    "id": "18091062998544695",
    "timestamp": "2026-08-21T20:15:17+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 14,
    "comments_count": 0,
    "caption": "Lowland Paca, ilk bakışta tavşanı andırsa da aslında güçlü dişleri ve sağlam yapısıyla oldukça farklı bir kemirgen. 🐾 Ge",
-   "permalink": "https://www.instagram.com/p/DcULEgjDmJF/",
-   "insights": {
-    "reach": 357,
-    "views": 495,
-    "saved": 3,
-    "shares": 2,
-    "total_interactions": 19
-   }
+   "permalink": "https://www.instagram.com/p/DcULEgjDmJF/"
   },
   {
    "id": "18108582899042632",
    "timestamp": "2026-08-16T20:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 7,
    "comments_count": 0,
    "caption": "Frilled Lizard, sakin durduğunda sıradan bir kertenkele gibi görünürken tehdit edildiği anda bambaşka bir canlıya dönüşü",
-   "permalink": "https://www.instagram.com/p/DcHRarZDhEv/",
-   "insights": {
-    "reach": 327,
-    "views": 488,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 8
-   }
+   "permalink": "https://www.instagram.com/p/DcHRarZDhEv/"
   },
   {
    "id": "18087486197427474",
    "timestamp": "2026-08-14T20:00:01+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 12,
    "comments_count": 1,
    "caption": "Chaunacops coloratus, denizin karanlıklarında yaşayan ve görünüşüyle bile başlı başına şaşırtan bir balık. 🐟 Yüzgeçlerin",
-   "permalink": "https://www.instagram.com/p/DcCH1UyDrPI/",
-   "insights": {
-    "reach": 509,
-    "views": 542,
-    "saved": 2,
-    "shares": 2,
-    "total_interactions": 18
-   }
+   "permalink": "https://www.instagram.com/p/DcCH1UyDrPI/"
   },
   {
    "id": "17942001348294001",
    "timestamp": "2026-08-11T21:59:18+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 14,
    "comments_count": 0,
    "caption": "Patagonian Mara, tavşana benzeyen görünüşüyle ilk bakışta herkesi yanıltıyor ama aslında dünyanın en ilginç kemirgenleri",
-   "permalink": "https://www.instagram.com/p/Db6nBnFjphG/",
-   "insights": {
-    "reach": 334,
-    "views": 510,
-    "saved": 4,
-    "shares": 2,
-    "total_interactions": 20
-   }
+   "permalink": "https://www.instagram.com/p/Db6nBnFjphG/"
   },
   {
    "id": "18110806306812518",
    "timestamp": "2026-08-06T22:22:52+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 12,
    "comments_count": 0,
    "caption": "Secretary Bird, uzun bacakları ve güçlü tekmeleri sayesinde yılan avlamada uzmanlaşmış sıra dışı bir yırtıcı kuştur. Avı",
-   "permalink": "https://www.instagram.com/p/Dbtxv6eCGaY/",
-   "insights": {
-    "reach": 284,
-    "views": 411,
-    "saved": 2,
-    "shares": 1,
-    "total_interactions": 15
-   }
+   "permalink": "https://www.instagram.com/p/Dbtxv6eCGaY/"
   },
   {
    "id": "18084653471208333",
    "timestamp": "2026-08-05T20:25:43+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 12,
    "comments_count": 0,
    "caption": "Hickory Horned Devil, ürkütücü görünümüne rağmen insanlar için zararsız olan dünyanın en büyük tırtıllarından biridir. B",
-   "permalink": "https://www.instagram.com/p/Dbq_i9Qjss6/",
-   "insights": {
-    "reach": 278,
-    "views": 462,
-    "saved": 1,
-    "shares": 1,
-    "total_interactions": 15
-   }
+   "permalink": "https://www.instagram.com/p/Dbq_i9Qjss6/"
   },
   {
    "id": "18086630843194932",
    "timestamp": "2026-08-03T15:53:05+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 6,
    "comments_count": 0,
    "caption": "Saola, 1992 yılında keşfedilen ve hâlâ dünyanın en gizemli memelilerinden biri olarak kabul edilen son derece nadir bir ",
-   "permalink": "https://www.instagram.com/p/DblWwWmCFuj/",
-   "insights": {
-    "reach": 242,
-    "views": 350,
-    "saved": 2,
-    "shares": 1,
-    "total_interactions": 9
-   }
+   "permalink": "https://www.instagram.com/p/DblWwWmCFuj/"
   },
   {
    "id": "18451516030189746",
    "timestamp": "2026-08-01T17:44:43+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 7,
    "comments_count": 0,
    "caption": "Sarcastic Fringehead, küçük boyutuna rağmen ağzını vücuduna oranla inanılmaz derecede açabilen sıra dışı bir deniz balığ",
-   "permalink": "https://www.instagram.com/p/DbgZ8UxCLKA/",
-   "insights": {
-    "reach": 247,
-    "views": 394,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 8
-   }
+   "permalink": "https://www.instagram.com/p/DbgZ8UxCLKA/"
   },
   {
    "id": "18086035985187695",
    "timestamp": "2026-07-30T15:48:49+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 6,
    "comments_count": 0,
    "caption": "Bearded Pig, yüzündeki uzun sakalları sayesinde diğer yaban domuzlarından kolayca ayrılan sıra dışı bir memelidir. Bu kı",
-   "permalink": "https://www.instagram.com/p/DbbDFtNCN6W/",
-   "insights": {
-    "reach": 247,
-    "views": 381,
-    "saved": 4,
-    "shares": 0,
-    "total_interactions": 10
-   }
+   "permalink": "https://www.instagram.com/p/DbbDFtNCN6W/"
   },
   {
    "id": "18088789925651638",
    "timestamp": "2026-07-29T20:39:54+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 10,
    "comments_count": 0,
    "caption": "Lowland Streaked Tenrec, dikenlerini birbirine sürterek ses çıkarabilen çok nadir memelilerden biridir. Bu sesi; tehlike",
-   "permalink": "https://www.instagram.com/p/DbY_ms3jg2S/",
-   "insights": {
-    "reach": 225,
-    "views": 392,
-    "saved": 2,
-    "shares": 1,
-    "total_interactions": 13
-   }
+   "permalink": "https://www.instagram.com/p/DbY_ms3jg2S/"
   },
   {
    "id": "17888307783600479",
    "timestamp": "2026-07-27T08:39:05+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 7,
    "comments_count": 0,
    "caption": "Helmeted Hornbill, erkek bireylerin havada birbirlerine kafa atarak bölge ve eş mücadelesi yaptığı sıra dışı bir kuştur.",
-   "permalink": "https://www.instagram.com/p/DbSjhlKDjHt/",
-   "insights": {
-    "reach": 255,
-    "views": 367,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 7
-   }
+   "permalink": "https://www.instagram.com/p/DbSjhlKDjHt/"
   },
   {
    "id": "17937040305089611",
    "timestamp": "2026-07-26T20:42:50+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 11,
    "comments_count": 0,
    "caption": "Sunbeam Snake, ışık altında gökkuşağı gibi parlayan pullarıyla dünyanın en etkileyici yılanlarından biridir. Bu büyüleyi",
-   "permalink": "https://www.instagram.com/p/DbRRjiPDvd5/",
-   "insights": {
-    "reach": 245,
-    "views": 314,
-    "saved": 3,
-    "shares": 1,
-    "total_interactions": 15
-   }
+   "permalink": "https://www.instagram.com/p/DbRRjiPDvd5/"
   },
   {
    "id": "17927551434365434",
    "timestamp": "2026-07-25T15:50:31+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 15,
    "comments_count": 0,
    "caption": "Blanket Octopus, okyanusun en sıra dışı ahtapotlarından biridir. Tehlike hissettiğinde kolları arasındaki ince ve renkli",
-   "permalink": "https://www.instagram.com/p/DbOLTyLiGG8/",
-   "insights": {
-    "reach": 384,
-    "views": 349,
-    "saved": 2,
-    "shares": 2,
-    "total_interactions": 19
-   }
+   "permalink": "https://www.instagram.com/p/DbOLTyLiGG8/"
   },
   {
    "id": "17953270287238280",
    "timestamp": "2026-07-21T21:58:59+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 12,
    "comments_count": 2,
    "caption": "Puss Caterpillar, yumuşacık tüyleri nedeniyle masum görünse de, bu tüylerin altında güçlü zehir taşıyan ince dikenler gi",
-   "permalink": "https://www.instagram.com/p/DbEiS-piL-5/",
-   "insights": {
-    "reach": 479,
-    "views": 756,
-    "saved": 2,
-    "shares": 0,
-    "total_interactions": 16
-   }
+   "permalink": "https://www.instagram.com/p/DbEiS-piL-5/"
   },
   {
    "id": "18095360795018286",
    "timestamp": "2026-07-10T09:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 11,
    "comments_count": 0,
    "caption": "Purple Frog, yaşamının büyük bölümünü toprağın altında geçiren ve yalnızca muson yağmurları sırasında kısa bir süreliğin",
-   "permalink": "https://www.instagram.com/p/Dam0fPQDvNQ/",
-   "insights": {
-    "reach": 475,
-    "views": 714,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 12
-   }
+   "permalink": "https://www.instagram.com/p/Dam0fPQDvNQ/"
   },
   {
    "id": "18106321028110324",
    "timestamp": "2026-07-09T20:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 11,
    "comments_count": 0,
    "caption": "Long-Wattled Umbrellabird, erkek bireylerin boynundan sarkan uzun deri uzantısıyla dünyanın en dikkat çekici kuşlarından",
-   "permalink": "https://www.instagram.com/p/DalbN0sCM5B/",
-   "insights": {
-    "reach": 466,
-    "views": 674,
-    "saved": 4,
-    "shares": 1,
-    "total_interactions": 16
-   }
+   "permalink": "https://www.instagram.com/p/DalbN0sCM5B/"
   },
   {
    "id": "18001133525954178",
    "timestamp": "2026-07-09T14:00:01+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 6,
    "comments_count": 0,
    "caption": "Net-Winged Beetle, kanatlarındaki ağ benzeri damar yapısıyla yalnızca dikkat çekici görünmekle kalmaz, aynı zamanda avcı",
-   "permalink": "https://www.instagram.com/p/DakPoC-CDUL/",
-   "insights": {
-    "reach": 397,
-    "views": 537,
-    "saved": 2,
-    "shares": 0,
-    "total_interactions": 8
-   }
+   "permalink": "https://www.instagram.com/p/DakPoC-CDUL/"
   },
   {
    "id": "17869845384628903",
    "timestamp": "2026-07-09T09:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Assassin Bug, avını yakalamak için uzun hortumunu kullanarak önce güçlü sindirim enzimleri enjekte eder, ardından avın i",
-   "permalink": "https://www.instagram.com/p/DakPsk6iM_H/",
-   "insights": {
-    "reach": 341,
-    "views": 467,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 5
-   }
+   "permalink": "https://www.instagram.com/p/DakPsk6iM_H/"
   },
   {
    "id": "18182779885403468",
    "timestamp": "2026-07-08T20:00:01+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 5,
    "comments_count": 0,
    "caption": "Hairy Frog, tehlike anında arka ayak parmaklarındaki kemikleri derisini delerek dışarı çıkarabilen, dünyadaki en sıra dı",
-   "permalink": "https://www.instagram.com/p/Dahq7VJCADH/",
-   "insights": {
-    "reach": 320,
-    "views": 445,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 6
-   }
+   "permalink": "https://www.instagram.com/p/Dahq7VJCADH/"
   },
   {
    "id": "17990379896823527",
    "timestamp": "2026-07-08T14:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 6,
    "comments_count": 0,
    "caption": "Bush Viper, dikeni andıran pullarıyla yalnızca dikkat çekici görünmekle kalmaz; bu özel yapı, orman bitki örtüsü arasınd",
-   "permalink": "https://www.instagram.com/p/DaiNMVrjibB/",
-   "insights": {
-    "reach": 295,
-    "views": 418,
-    "saved": 3,
-    "shares": 0,
-    "total_interactions": 9
-   }
+   "permalink": "https://www.instagram.com/p/DaiNMVrjibB/"
   },
   {
    "id": "18198077140364123",
    "timestamp": "2026-07-08T09:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 9,
    "comments_count": 0,
    "caption": "Satanic Nightjar, ürkütücü görünümüne rağmen insanlara zararsız olan ve geceleri aktif yaşayan sıra dışı bir kuştur. Tüy",
-   "permalink": "https://www.instagram.com/p/Dahq0kPiFOF/",
-   "insights": {
-    "reach": 293,
-    "views": 443,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 9
-   }
+   "permalink": "https://www.instagram.com/p/Dahq0kPiFOF/"
   },
   {
    "id": "18134678854598381",
    "timestamp": "2026-07-07T20:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 9,
    "comments_count": 0,
    "caption": "Velvet Worm, avını yakalamak için ağ ören değil, yapışkan bir sıvıyı yüksek basınçla fırlatan dünyanın en sıra dışı kara",
-   "permalink": "https://www.instagram.com/p/DagRnFICO6r/",
-   "insights": {
-    "reach": 281,
-    "views": 386,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 10
-   }
+   "permalink": "https://www.instagram.com/p/DagRnFICO6r/"
   },
   {
    "id": "17950997067199076",
    "timestamp": "2026-07-07T14:00:01+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 5,
    "comments_count": 0,
    "caption": "Plumed Basilisk, suyun üzerinde koşabilme yeteneği sayesinde “İsa Kertenkelesi” olarak da bilinen sıra dışı bir sürüngen",
-   "permalink": "https://www.instagram.com/p/DafoW0NjpXw/",
-   "insights": {
-    "reach": 241,
-    "views": 335,
-    "saved": 3,
-    "shares": 0,
-    "total_interactions": 8
-   }
+   "permalink": "https://www.instagram.com/p/DafoW0NjpXw/"
   },
   {
    "id": "17934689013086648",
    "timestamp": "2026-07-07T09:00:04+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 5,
    "comments_count": 0,
    "caption": "Fire Snail, parlak kırmızı gövdesi ve siyah kabuğuyla dünyanın en dikkat çekici kara salyangozlarından biridir. Bu çarpı",
-   "permalink": "https://www.instagram.com/p/DafGGRNDq7_/",
-   "insights": {
-    "reach": 229,
-    "views": 311,
-    "saved": 2,
-    "shares": 0,
-    "total_interactions": 7
-   }
+   "permalink": "https://www.instagram.com/p/DafGGRNDq7_/"
   },
   {
    "id": "18065790368531163",
    "timestamp": "2026-07-06T20:00:01+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 5,
    "comments_count": 0,
    "caption": "Gaboon Viper, yaklaşık 5 santimetreye ulaşabilen zehir dişleriyle yılanlar arasında en uzun dişlere sahip türlerden biri",
-   "permalink": "https://www.instagram.com/p/DadsynLjqf-/",
-   "insights": {
-    "reach": 212,
-    "views": 291,
-    "saved": 2,
-    "shares": 0,
-    "total_interactions": 7
-   }
+   "permalink": "https://www.instagram.com/p/DadsynLjqf-/"
   },
   {
    "id": "18108842584972302",
    "timestamp": "2026-07-06T14:00:03+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Giant Weta, Yeni Zelanda’ya özgü ve dünyanın en ağır böcekleri arasında yer alan sıra dışı bir türdür. Bazı bireyleri 70",
-   "permalink": "https://www.instagram.com/p/DadDmLJjvfA/",
-   "insights": {
-    "reach": 211,
-    "views": 286,
-    "saved": 2,
-    "shares": 0,
-    "total_interactions": 6
-   }
+   "permalink": "https://www.instagram.com/p/DadDmLJjvfA/"
   },
   {
    "id": "18114485318499595",
    "timestamp": "2026-07-06T09:00:01+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 8,
    "comments_count": 0,
    "caption": "Peacock Katydid, renkli arka kanatları ve yaprağı andıran görünümü sayesinde doğanın en etkileyici böceklerinden biridir",
-   "permalink": "https://www.instagram.com/p/DachSewDkjX/",
-   "insights": {
-    "reach": 199,
-    "views": 278,
-    "saved": 1,
-    "shares": 2,
-    "total_interactions": 11
-   }
+   "permalink": "https://www.instagram.com/p/DachSewDkjX/"
   },
   {
    "id": "18100950632177415",
    "timestamp": "2026-07-05T20:00:03+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 5,
    "comments_count": 0,
    "caption": "Alligator Snapping Turtle, dünyanın en güçlü çenelerinden birine sahip tatlı su kaplumbağalarından biridir. Saatlerce hi",
-   "permalink": "https://www.instagram.com/p/DabIC1jiH7S/",
-   "insights": {
-    "reach": 201,
-    "views": 276,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 5
-   }
+   "permalink": "https://www.instagram.com/p/DabIC1jiH7S/"
   },
   {
    "id": "18134165791581618",
    "timestamp": "2026-07-05T14:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Jackson’s Chameleon, üç belirgin boynuzuyla tanınan ve yalnızca Doğu Afrika’nın dağlık ormanlarında yaşayan sıra dışı bi",
-   "permalink": "https://www.instagram.com/p/DaaeyGpDph_/",
-   "insights": {
-    "reach": 185,
-    "views": 276,
-    "saved": 2,
-    "shares": 0,
-    "total_interactions": 6
-   }
+   "permalink": "https://www.instagram.com/p/DaaeyGpDph_/"
   },
   {
    "id": "18107557369975381",
    "timestamp": "2026-07-05T09:00:03+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 5,
    "comments_count": 0,
    "caption": "Whip Scorpion, akrebe benzese de aslında ne gerçek bir akreptir ne de zehirlidir; örümceğimsiler sınıfının kendine özgü ",
-   "permalink": "https://www.instagram.com/p/DaZ8eOTiKSz/",
-   "insights": {
-    "reach": 165,
-    "views": 220,
-    "saved": 2,
-    "shares": 1,
-    "total_interactions": 8
-   }
+   "permalink": "https://www.instagram.com/p/DaZ8eOTiKSz/"
   },
   {
    "id": "18322999867259645",
    "timestamp": "2026-07-04T20:00:01+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 5,
    "comments_count": 0,
    "caption": "Surinam Toad (Pipa pipa), yavrularını sırtındaki özel odacıklarda geliştiren, dünyanın en sıra dışı üreme stratejilerind",
-   "permalink": "https://www.instagram.com/p/DaYjMrxCISO/",
-   "insights": {
-    "reach": 169,
-    "views": 245,
-    "saved": 2,
-    "shares": 1,
-    "total_interactions": 8
-   }
+   "permalink": "https://www.instagram.com/p/DaYjMrxCISO/"
   },
   {
    "id": "18212282311341091",
    "timestamp": "2026-07-04T14:00:04+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Lowland Streaked Tenrec, yalnızca Madagaskar’da yaşayan ve kirpiye benzese de onunla yakın akraba olmayan sıra dışı bir ",
-   "permalink": "https://www.instagram.com/p/DaX6DqwDjNj/",
-   "insights": {
-    "reach": 148,
-    "views": 225,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 5
-   }
+   "permalink": "https://www.instagram.com/p/DaX6DqwDjNj/"
   },
   {
    "id": "18156775396477558",
    "timestamp": "2026-07-04T09:00:05+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 1,
    "caption": "Jewel Caterpillar, sırtındaki kristali andıran şeffaf çıkıntılarıyla doğanın en dikkat çekici tırtıllarından biridir. Bu",
-   "permalink": "https://www.instagram.com/p/DaXXt7tiPfS/",
-   "insights": {
-    "reach": 156,
-    "views": 234,
-    "saved": 0,
-    "shares": 1,
-    "total_interactions": 6
-   }
+   "permalink": "https://www.instagram.com/p/DaXXt7tiPfS/"
   },
   {
    "id": "18068593544395502",
    "timestamp": "2026-07-03T20:00:04+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 3,
    "comments_count": 0,
    "caption": "Sea Bunny (Jorunna parva), sevimli görünümüyle tavşanı andırsa da aslında minik bir deniz salyangozudur. Tavşan kulağına",
-   "permalink": "https://www.instagram.com/p/DaV-eDwDobv/",
-   "insights": {
-    "reach": 175,
-    "views": 253,
-    "saved": 1,
-    "shares": 2,
-    "total_interactions": 6
-   }
+   "permalink": "https://www.instagram.com/p/DaV-eDwDobv/"
   },
   {
    "id": "18607270735040115",
    "timestamp": "2026-07-03T14:00:03+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Mossy Frog (Theloderma corticale), yosunla kaplı kayaları ve ağaç gövdelerini kusursuz şekilde taklit eden sıra dışı bir",
-   "permalink": "https://www.instagram.com/p/DaVVLvxjg6O/",
-   "insights": {
-    "reach": 170,
-    "views": 259,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 5
-   }
+   "permalink": "https://www.instagram.com/p/DaVVLvxjg6O/"
   },
   {
    "id": "18103155262864924",
    "timestamp": "2026-07-03T09:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 7,
    "comments_count": 0,
    "caption": "Picasso Bug (Sphaerocoris annulus), sırtındaki kusursuz geometrik desenleriyle doğanın en dikkat çekici böceklerinden bi",
-   "permalink": "https://www.instagram.com/p/DaUy5uPiHEV/",
-   "insights": {
-    "reach": 181,
-    "views": 244,
-    "saved": 3,
-    "shares": 2,
-    "total_interactions": 12
-   }
+   "permalink": "https://www.instagram.com/p/DaUy5uPiHEV/"
   },
   {
    "id": "18406854907159666",
    "timestamp": "2026-07-02T20:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 2,
    "comments_count": 0,
    "caption": "Orchid Bee, metalik yeşil, mavi ve mor tonlarındaki parlak vücuduyla dünyanın en göz alıcı arı türlerinden biridir. Erke",
-   "permalink": "https://www.instagram.com/p/DaTZpfxiE6_/",
-   "insights": {
-    "reach": 128,
-    "views": 192,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 2
-   }
+   "permalink": "https://www.instagram.com/p/DaTZpfxiE6_/"
   },
   {
    "id": "18097926430946665",
    "timestamp": "2026-07-02T14:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Pom-Pom Crab, kıskaçlarında taşıdığı deniz şakayıkları sayesinde okyanusun en ilginç yengeçlerinden biridir. Bu canlılar",
-   "permalink": "https://www.instagram.com/p/DaSwfT_CF2f/",
-   "insights": {
-    "reach": 128,
-    "views": 207,
-    "saved": 2,
-    "shares": 1,
-    "total_interactions": 7
-   }
+   "permalink": "https://www.instagram.com/p/DaSwfT_CF2f/"
   },
   {
    "id": "18124541812655813",
    "timestamp": "2026-07-02T09:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 5,
    "comments_count": 0,
    "caption": "Leaf Sheep (Costasiella kuroshimae), yaprağı andıran görünümüyle okyanusun en sıra dışı canlılarından biridir. Beslendiğ",
-   "permalink": "https://www.instagram.com/p/DaSOGT5CCIm/",
-   "insights": {
-    "reach": 130,
-    "views": 195,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 6
-   }
+   "permalink": "https://www.instagram.com/p/DaSOGT5CCIm/"
   },
   {
    "id": "18089232086377017",
    "timestamp": "2026-07-01T20:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 1,
    "comments_count": 0,
    "caption": "Thorn Bug (Umbonia spinosa), sırtındaki diken benzeri çıkıntısıyla avcıları şaşırtan en ilginç böceklerden biridir. Bu s",
-   "permalink": "https://www.instagram.com/p/DaQ04zeiNtY/",
-   "insights": {
-    "reach": 133,
-    "views": 214,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 1
-   }
+   "permalink": "https://www.instagram.com/p/DaQ04zeiNtY/"
   },
   {
    "id": "17894293002513158",
    "timestamp": "2026-07-01T14:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Venezuelan Poodle Moth, yoğun beyaz tüyleri sayesinde küçük bir köpeği andıran görünümüyle dünyanın en ilginç güve türle",
-   "permalink": "https://www.instagram.com/p/DaQLlbNCLs8/",
-   "insights": {
-    "reach": 133,
-    "views": 203,
-    "saved": 1,
-    "shares": 1,
-    "total_interactions": 6
-   }
+   "permalink": "https://www.instagram.com/p/DaQLlbNCLs8/"
   },
   {
    "id": "18534915559073428",
    "timestamp": "2026-07-01T09:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 3,
    "comments_count": 0,
    "caption": "Cam kanatlı kelebek (Glasswing Butterfly), neredeyse tamamen şeffaf kanatlarıyla dünyanın en sıra dışı kelebeklerinden b",
-   "permalink": "https://www.instagram.com/p/DaPpXEOCBK8/",
-   "insights": {
-    "reach": 111,
-    "views": 183,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 4
-   }
+   "permalink": "https://www.instagram.com/p/DaPpXEOCBK8/"
   },
   {
    "id": "17955711234171633",
    "timestamp": "2026-06-30T20:00:01+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 5,
    "comments_count": 0,
    "caption": "Planthopper böceği, sıra dışı görünümü ve dikkat çekici renkleriyle böcek dünyasının en ilginç üyelerinden biridir. Bazı",
-   "permalink": "https://www.instagram.com/p/DaOP_uljnog/",
-   "insights": {
-    "reach": 107,
-    "views": 176,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 5
-   }
+   "permalink": "https://www.instagram.com/p/DaOP_uljnog/"
   },
   {
    "id": "18105637757091735",
    "timestamp": "2026-06-30T14:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 3,
    "comments_count": 0,
    "caption": "Sekreter kuşu, Afrika savanlarının en etkileyici avcılarından biridir ve özellikle yılan avlama yeteneğiyle tanınır. Güç",
-   "permalink": "https://www.instagram.com/p/DaNm2nLCA38/",
-   "insights": {
-    "reach": 139,
-    "views": 178,
-    "saved": 3,
-    "shares": 1,
-    "total_interactions": 7
-   }
+   "permalink": "https://www.instagram.com/p/DaNm2nLCA38/"
   },
   {
    "id": "18103420964034637",
    "timestamp": "2026-06-30T09:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 5,
    "comments_count": 0,
    "caption": "Mavi çubuk böceği, doğadaki en sıra dışı böceklerden biridir ve dikkat çekici mavi rengiyle diğer çubuk böceklerinden ay",
-   "permalink": "https://www.instagram.com/p/DaNEeXviMno/",
-   "insights": {
-    "reach": 120,
-    "views": 184,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 6
-   }
+   "permalink": "https://www.instagram.com/p/DaNEeXviMno/"
   },
   {
    "id": "18096152900264652",
    "timestamp": "2026-06-29T20:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Tripod balığı, derin okyanusların karanlık tabanında yaşayan en sıra dışı balıklardan biridir. Uzun yüzgeçlerini adeta a",
-   "permalink": "https://www.instagram.com/p/DaLrNVuiEUS/",
-   "insights": {
-    "reach": 103,
-    "views": 152,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 5
-   }
+   "permalink": "https://www.instagram.com/p/DaLrNVuiEUS/"
   },
   {
    "id": "17868968457687549",
    "timestamp": "2026-06-29T14:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Dragon Moray Eel, okyanusların en sıra dışı avcılarından biridir ve avını yakalamak için ikinci bir çene kullanır. Bu gi",
-   "permalink": "https://www.instagram.com/p/DaLCCweiAok/",
-   "insights": {
-    "reach": 110,
-    "views": 153,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 4
-   }
+   "permalink": "https://www.instagram.com/p/DaLCCweiAok/"
   },
   {
    "id": "18132647836596678",
    "timestamp": "2026-06-29T09:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 3,
    "comments_count": 0,
    "caption": "Demir kabuklu salyangoz, okyanusun derinliklerindeki hidrotermal bacaların çevresinde yaşayan sıra dışı bir canlıdır. Ka",
-   "permalink": "https://www.instagram.com/p/DaKfvSUCLuP/",
-   "insights": {
-    "reach": 88,
-    "views": 132,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 3
-   }
+   "permalink": "https://www.instagram.com/p/DaKfvSUCLuP/"
   },
   {
    "id": "18223867717319030",
    "timestamp": "2026-06-28T20:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 2,
    "comments_count": 0,
    "caption": "Wobbegong köpekbalığı, deniz tabanındaki kayalar ve mercanlarla neredeyse kusursuz şekilde bütünleşebilen bir kamuflaj u",
-   "permalink": "https://www.instagram.com/p/DaJGaGEiAUV/",
-   "insights": {
-    "reach": 132,
-    "views": 144,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 2
-   }
+   "permalink": "https://www.instagram.com/p/DaJGaGEiAUV/"
   },
   {
    "id": "18134002453598399",
    "timestamp": "2026-06-28T14:00:03+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 3,
    "comments_count": 0,
    "caption": "Tawny Frogmouth, görünüşü nedeniyle sık sık baykuş sanılsa da aslında farklı bir kuş grubuna aittir. Ağaç kabuğunu andır",
-   "permalink": "https://www.instagram.com/p/DaIdQyaDjKd/",
-   "insights": {
-    "reach": 89,
-    "views": 132,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 4
-   }
+   "permalink": "https://www.instagram.com/p/DaIdQyaDjKd/"
   },
   {
    "id": "18050099159547144",
    "timestamp": "2026-06-28T09:00:03+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Köstebek cırcır böceği, hayatının büyük bölümünü toprağın altında geçiren sıra dışı bir böcektir. Kürek şeklindeki güçlü",
-   "permalink": "https://www.instagram.com/p/DaH65_eDjRH/",
-   "insights": {
-    "reach": 116,
-    "views": 183,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 5
-   }
+   "permalink": "https://www.instagram.com/p/DaH65_eDjRH/"
   },
   {
    "id": "18099813317333093",
    "timestamp": "2026-06-27T20:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Ogre örümceği, avlanma yöntemiyle diğer örümceklerden tamamen ayrılan sıra dışı bir avcıdır. Ağını bir ağ tuzağı gibi ön",
-   "permalink": "https://www.instagram.com/p/DaGhpWzjlbf/",
-   "insights": {
-    "reach": 98,
-    "views": 165,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 5
-   }
+   "permalink": "https://www.instagram.com/p/DaGhpWzjlbf/"
   },
   {
    "id": "18591093046016670",
    "timestamp": "2026-06-27T14:00:03+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 6,
    "comments_count": 0,
    "caption": "Honduras beyaz yarasası, dünyadaki en sıra dışı yarasa türlerinden biridir. Gündüzleri büyük yaprakları kesip oluşturduğ",
-   "permalink": "https://www.instagram.com/p/DaF4eBKjlVg/",
-   "insights": {
-    "reach": 105,
-    "views": 193,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 7
-   }
+   "permalink": "https://www.instagram.com/p/DaF4eBKjlVg/"
   },
   {
    "id": "18048475082788070",
    "timestamp": "2026-06-27T09:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 7,
    "comments_count": 0,
    "caption": "Ayakkabı gagalı leylek, görünüşüyle tarih öncesi çağlardan çıkmış gibi duran sıra dışı bir kuştur. Saatlerce hiç hareket",
-   "permalink": "https://www.instagram.com/p/DaFWK6ejtzY/",
-   "insights": {
-    "reach": 153,
-    "views": 191,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 7
-   }
+   "permalink": "https://www.instagram.com/p/DaFWK6ejtzY/"
   },
   {
    "id": "18354005083241473",
    "timestamp": "2026-06-26T20:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 5,
    "comments_count": 0,
    "caption": "Velvet Ant, görünüşü nedeniyle karınca sanılsa da aslında kanatsız bir eşekarısıdır. Özellikle dişileri, böcekler dünyas",
-   "permalink": "https://www.instagram.com/p/DaD82tXDnh_/",
-   "insights": {
-    "reach": 119,
-    "views": 178,
-    "saved": 2,
-    "shares": 1,
-    "total_interactions": 8
-   }
+   "permalink": "https://www.instagram.com/p/DaD82tXDnh_/"
   },
   {
    "id": "18103929965101445",
    "timestamp": "2026-06-26T14:00:06+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 5,
    "comments_count": 2,
    "caption": "Yeleli sıçan, doğadaki en sıra dışı savunma yöntemlerinden birine sahip memelilerden biridir. Kendi zehrini üretmek yeri",
-   "permalink": "https://www.instagram.com/p/DaDTr02Do4b/",
-   "insights": {
-    "reach": 123,
-    "views": 234,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 8
-   }
+   "permalink": "https://www.instagram.com/p/DaDTr02Do4b/"
   },
   {
    "id": "17888353131571441",
    "timestamp": "2026-06-26T09:00:01+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 3,
    "comments_count": 0,
    "caption": "Yalancı su samuru, ismine rağmen gerçek su samurlarıyla yakın akraba olmayan sıra dışı bir memelidir. Güneydoğu Asya’nın",
-   "permalink": "https://www.instagram.com/p/DaCxUQyDg5F/",
-   "insights": {
-    "reach": 83,
-    "views": 155,
-    "saved": 1,
-    "shares": 1,
-    "total_interactions": 5
-   }
+   "permalink": "https://www.instagram.com/p/DaCxUQyDg5F/"
   },
   {
    "id": "18446240434184919",
    "timestamp": "2026-06-25T20:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 6,
    "comments_count": 0,
    "caption": "Binturong, Güneydoğu Asya’nın yağmur ormanlarında yaşayan ve görünümüyle birçok kişiyi şaşırtan sıra dışı bir memelidir.",
-   "permalink": "https://www.instagram.com/p/DaBYE_4CMyD/",
-   "insights": {
-    "reach": 105,
-    "views": 181,
-    "saved": 2,
-    "shares": 1,
-    "total_interactions": 10
-   }
+   "permalink": "https://www.instagram.com/p/DaBYE_4CMyD/"
   },
   {
    "id": "18086292791114711",
    "timestamp": "2026-06-25T14:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Hint gavyali, günümüzde yaşayan en sıra dışı timsah türlerinden biridir. Uzun ve ince çenesi sayesinde hızlı hareket ede",
-   "permalink": "https://www.instagram.com/p/DaAu1wUCJuK/",
-   "insights": {
-    "reach": 91,
-    "views": 182,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 4
-   }
+   "permalink": "https://www.instagram.com/p/DaAu1wUCJuK/"
   },
   {
    "id": "18417315733182152",
    "timestamp": "2026-06-25T09:00:03+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 6,
    "comments_count": 0,
    "caption": "Fırkateyn kuşu, tropikal okyanuslarda yaşayan ve zamanının büyük bölümünü havada geçiren sıra dışı bir deniz kuşudur. Er",
-   "permalink": "https://www.instagram.com/p/DaAMfwFCEwI/",
-   "insights": {
-    "reach": 88,
-    "views": 151,
-    "saved": 4,
-    "shares": 0,
-    "total_interactions": 10
-   }
+   "permalink": "https://www.instagram.com/p/DaAMfwFCEwI/"
   },
   {
    "id": "17894086086521310",
    "timestamp": "2026-06-24T20:00:03+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Kinkajou, görünüşü nedeniyle çoğu zaman maymun sanılsa da aslında rakunlarla daha yakın akrabadır. En dikkat çekici özel",
-   "permalink": "https://www.instagram.com/p/DZ-zS5OCLdz/",
-   "insights": {
-    "reach": 80,
-    "views": 133,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 4
-   }
+   "permalink": "https://www.instagram.com/p/DZ-zS5OCLdz/"
   },
   {
    "id": "17944069314212422",
    "timestamp": "2026-06-24T14:00:06+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 5,
    "comments_count": 0,
    "caption": "Kakapo, dünyanın uçamayan tek papağan türlerinden biridir ve yalnızca Yeni Zelanda’da yaşar. Gece aktif olan bu sıra dış",
-   "permalink": "https://www.instagram.com/p/DZ-KEA4iHnl/",
-   "insights": {
-    "reach": 92,
-    "views": 149,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 6
-   }
+   "permalink": "https://www.instagram.com/p/DZ-KEA4iHnl/"
   },
   {
    "id": "17897387172331940",
    "timestamp": "2026-06-24T09:00:03+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 3,
    "comments_count": 0,
    "caption": "Çin Su Geyiği, boynuzları olmayan nadir geyik türlerinden biridir. Ancak erkeklerinde bulunan uzun köpek dişleri, onu di",
-   "permalink": "https://www.instagram.com/p/DZ9nvWEiD0y/",
-   "insights": {
-    "reach": 99,
-    "views": 156,
-    "saved": 2,
-    "shares": 0,
-    "total_interactions": 5
-   }
+   "permalink": "https://www.instagram.com/p/DZ9nvWEiD0y/"
   },
   {
    "id": "18086646737547359",
    "timestamp": "2026-06-23T20:00:01+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 6,
    "comments_count": 0,
    "caption": "Çizgili sırtlan, çoğu insanın düşündüğünün aksine yalnızca leşle beslenen bir hayvan değildir. Güçlü çeneleri sayesinde ",
-   "permalink": "https://www.instagram.com/p/DZ7lQSVCBNC/",
-   "insights": {
-    "reach": 359,
-    "views": 193,
-    "saved": 3,
-    "shares": 0,
-    "total_interactions": 10
-   }
+   "permalink": "https://www.instagram.com/p/DZ7lQSVCBNC/"
   },
   {
    "id": "18328168093281182",
    "timestamp": "2026-06-23T14:00:07+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Pudu, dünyanın en küçük geyik türü olmasına rağmen yaşadığı ormanlarda hayatta kalmayı ustalıkla başarır. Küçük boyutu v",
-   "permalink": "https://www.instagram.com/p/DZ7lOzJiPIc/",
-   "insights": {
-    "reach": 103,
-    "views": 162,
-    "saved": 2,
-    "shares": 0,
-    "total_interactions": 6
-   }
+   "permalink": "https://www.instagram.com/p/DZ7lOzJiPIc/"
   },
   {
    "id": "17943856230038679",
    "timestamp": "2026-06-23T09:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 5,
    "comments_count": 0,
    "caption": "Dikdik, dünyanın en küçük antiloplarından biri olmasına rağmen hayatta kalma konusunda oldukça başarılıdır. Tehlike anın",
-   "permalink": "https://www.instagram.com/p/DZ7C6hNiBAk/",
-   "insights": {
-    "reach": 100,
-    "views": 183,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 5
-   }
+   "permalink": "https://www.instagram.com/p/DZ7C6hNiBAk/"
   },
   {
    "id": "18112773649899722",
    "timestamp": "2026-06-22T20:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 2,
    "comments_count": 0,
    "caption": "Sitatunga’nın en dikkat çekici özelliği, bataklık yaşamına uyum sağlamış uzun ve ayrık toynaklarıdır. Bu özel yapı, ağır",
-   "permalink": "https://www.instagram.com/p/DZ5pqiRiNVa/",
-   "insights": {
-    "reach": 122,
-    "views": 199,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 3
-   }
+   "permalink": "https://www.instagram.com/p/DZ5pqiRiNVa/"
   },
   {
    "id": "18109821490788770",
    "timestamp": "2026-06-22T14:00:03+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 6,
    "comments_count": 0,
    "caption": "Misk öküzünün kalın kürkü, dünyanın en soğuk bölgelerinde hayatta kalabilmesinin en büyük nedenlerinden biridir. Dıştaki",
-   "permalink": "https://www.instagram.com/p/DZ5AfDZiIsa/",
-   "insights": {
-    "reach": 147,
-    "views": 223,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 7
-   }
+   "permalink": "https://www.instagram.com/p/DZ5AfDZiIsa/"
   },
   {
    "id": "17899674795460731",
    "timestamp": "2026-06-22T09:00:04+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 7,
    "comments_count": 0,
    "caption": "Yeleli kurtun uzun bacakları ona sadece sıra dışı bir görünüm kazandırmaz. Güney Amerika’nın geniş otlaklarında yaşayan ",
-   "permalink": "https://www.instagram.com/p/DZ4eNBFCDG6/",
-   "insights": {
-    "reach": 157,
-    "views": 229,
-    "saved": 2,
-    "shares": 1,
-    "total_interactions": 10
-   }
+   "permalink": "https://www.instagram.com/p/DZ4eNBFCDG6/"
   },
   {
    "id": "18085755797110870",
    "timestamp": "2026-06-21T20:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 6,
    "comments_count": 0,
    "caption": "Dev karınca yiyenin uzun burnu, karınca ve termit yuvalarının en derin noktalarına ulaşabilmesi için evrimleşmiştir. Yap",
-   "permalink": "https://www.instagram.com/p/DZ3E7S7Dv-a/",
-   "insights": {
-    "reach": 167,
-    "views": 254,
-    "saved": 2,
-    "shares": 0,
-    "total_interactions": 8
-   }
+   "permalink": "https://www.instagram.com/p/DZ3E7S7Dv-a/"
   },
   {
    "id": "17923639134145456",
    "timestamp": "2026-06-21T14:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 19,
    "comments_count": 0,
    "caption": "Markhor’un devasa spiral boynuzları sadece gösteriş için değildir. Erkekler çiftleşme döneminde bu boynuzları kullanarak",
-   "permalink": "https://www.instagram.com/p/DZ2bpGwjrBm/",
-   "insights": {
-    "reach": 546,
-    "views": 736,
-    "saved": 4,
-    "shares": 5,
-    "total_interactions": 28
-   }
+   "permalink": "https://www.instagram.com/p/DZ2bpGwjrBm/"
   },
   {
    "id": "18220931848322853",
    "timestamp": "2026-06-21T09:00:03+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 17,
    "comments_count": 0,
    "caption": "Deniz Domuzu, okyanusun binlerce metre derinliğinde yaşayan sıra dışı bir deniz canlısıdır. Görünüşü nedeniyle bir domuz",
-   "permalink": "https://www.instagram.com/p/DZ15XbaiPYu/",
-   "insights": {
-    "reach": 674,
-    "views": 906,
-    "saved": 9,
-    "shares": 6,
-    "total_interactions": 32
-   }
+   "permalink": "https://www.instagram.com/p/DZ15XbaiPYu/"
   },
   {
    "id": "17956343949154764",
    "timestamp": "2026-06-20T20:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Yeti Yengeci, okyanusun en derin ve en tehlikeli bölgelerinde yaşayan sıra dışı bir canlıdır. Kıskaçlarını kaplayan yoğu",
-   "permalink": "https://www.instagram.com/p/DZ0gCw1iNXE/",
-   "insights": {
-    "reach": 164,
-    "views": 260,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 5
-   }
+   "permalink": "https://www.instagram.com/p/DZ0gCw1iNXE/"
   },
   {
    "id": "18326558917257314",
    "timestamp": "2026-06-20T14:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 13,
    "comments_count": 0,
    "caption": "Barreleye Balığı, okyanusların derinliklerinde yaşayan ve şeffaf kafasıyla dikkat çeken sıra dışı bir türdür. Kafasının ",
-   "permalink": "https://www.instagram.com/p/DZz28ThCH93/",
-   "insights": {
-    "reach": 522,
-    "views": 837,
-    "saved": 5,
-    "shares": 4,
-    "total_interactions": 22
-   }
+   "permalink": "https://www.instagram.com/p/DZz28ThCH93/"
   },
   {
    "id": "18055882109517827",
    "timestamp": "2026-06-20T09:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 1,
    "comments_count": 0,
    "caption": "Bigfin Kalamarı, okyanusların en gizemli ve en az gözlemlenen canlılarından biridir. Vücuduna kıyasla olağanüstü uzun ko",
-   "permalink": "https://www.instagram.com/p/DZwvxT6ju08/",
-   "insights": {
-    "reach": 145,
-    "views": 214,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 2
-   }
+   "permalink": "https://www.instagram.com/p/DZwvxT6ju08/"
   },
   {
    "id": "18100726586041421",
    "timestamp": "2026-06-19T20:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Mimik ahtapot, tehlike anında başka deniz canlılarını taklit ederek kendini koruyabilen sıra dışı bir türdür. Deniz yıla",
-   "permalink": "https://www.instagram.com/p/DZx7R7yiNjg/",
-   "insights": {
-    "reach": 137,
-    "views": 200,
-    "saved": 2,
-    "shares": 0,
-    "total_interactions": 6
-   }
+   "permalink": "https://www.instagram.com/p/DZx7R7yiNjg/"
   },
   {
    "id": "18110209495939205",
    "timestamp": "2026-06-19T14:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 2,
    "comments_count": 0,
    "caption": "Mata Mata kaplumbağası, yapraklara benzeyen görünümü sayesinde bulunduğu ortamda neredeyse görünmez olur. Avını kovalama",
-   "permalink": "https://www.instagram.com/p/DZxSJ6liFmY/",
-   "insights": {
-    "reach": 120,
-    "views": 185,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 2
-   }
+   "permalink": "https://www.instagram.com/p/DZxSJ6liFmY/"
   },
   {
    "id": "18104522174515191",
    "timestamp": "2026-06-19T09:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 2,
    "comments_count": 0,
    "caption": "🥥 Bir yengeç gerçekten hindistan cevizi kırabilir mi?\n\nHindistan cevizi yengeci, dünyanın en büyük kara eklembacaklısıdı",
-   "permalink": "https://www.instagram.com/p/DZwvwM1CFWd/",
-   "insights": {
-    "reach": 132,
-    "views": 199,
-    "saved": 1,
-    "shares": 1,
-    "total_interactions": 4
-   }
+   "permalink": "https://www.instagram.com/p/DZwvwM1CFWd/"
   },
   {
    "id": "18086495885382858",
    "timestamp": "2026-06-18T20:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 5,
    "comments_count": 2,
    "caption": "Cam kurbağaları, şeffaf karın bölgeleri sayesinde iç organlarının görülebildiği doğanın en sıra dışı canlılarından birid",
-   "permalink": "https://www.instagram.com/p/DZvWfmTiKgq/",
-   "insights": {
-    "reach": 124,
-    "views": 200,
-    "saved": 4,
-    "shares": 1,
-    "total_interactions": 12
-   }
+   "permalink": "https://www.instagram.com/p/DZvWfmTiKgq/"
   },
   {
    "id": "18093337553255963",
    "timestamp": "2026-06-18T14:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Okapi, yalnızca Demokratik Kongo Cumhuriyeti’nin yoğun yağmur ormanlarında yaşayan, dünyanın en gizemli memelilerinden b",
-   "permalink": "https://www.instagram.com/p/DZutQZoiNkE/",
-   "insights": {
-    "reach": 113,
-    "views": 168,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 4
-   }
+   "permalink": "https://www.instagram.com/p/DZutQZoiNkE/"
   },
   {
    "id": "17874215685511135",
    "timestamp": "2026-06-18T09:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Proboscis maymunu, yalnızca Borneo Adası’nda yaşayan ve sıra dışı görünümüyle dikkat çeken eşsiz bir primat türüdür. Öze",
-   "permalink": "https://www.instagram.com/p/DZuK8nNCLsf/",
-   "insights": {
-    "reach": 95,
-    "views": 173,
-    "saved": 3,
-    "shares": 0,
-    "total_interactions": 7
-   }
+   "permalink": "https://www.instagram.com/p/DZuK8nNCLsf/"
   },
   {
    "id": "17976992268020518",
    "timestamp": "2026-06-17T20:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 7,
    "comments_count": 0,
    "caption": "Şeytan Yaprak Kuyruklu Geko (Uroplatus phantasticus), dünyanın en etkileyici kamuflaj ustalarından biridir. Vücudu ve ku",
-   "permalink": "https://www.instagram.com/p/DZsxs1vCEbO/",
-   "insights": {
-    "reach": 103,
-    "views": 166,
-    "saved": 2,
-    "shares": 0,
-    "total_interactions": 9
-   }
+   "permalink": "https://www.instagram.com/p/DZsxs1vCEbO/"
   },
   {
    "id": "18114678562895604",
    "timestamp": "2026-06-17T14:00:04+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Öpücük böceği, küçük boyutuna rağmen ciddi sağlık sorunlarına yol açabilen dikkat çekici bir canlıdır. Gece aktif olan b",
-   "permalink": "https://www.instagram.com/p/DZsIhBICKH4/",
-   "insights": {
-    "reach": 118,
-    "views": 208,
-    "saved": 2,
-    "shares": 0,
-    "total_interactions": 6
-   }
+   "permalink": "https://www.instagram.com/p/DZsIhBICKH4/"
   },
   {
    "id": "17940972198246702",
    "timestamp": "2026-06-17T09:00:02+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 7,
    "comments_count": 0,
    "caption": "Babirusa, Endonezya’nın Sulawesi adasına özgü, görünümüyle dikkat çeken sıra dışı bir yabani domuz türüdür. Özellikle er",
-   "permalink": "https://www.instagram.com/p/DZrmJE3iEUf/",
-   "insights": {
-    "reach": 136,
-    "views": 238,
-    "saved": 3,
-    "shares": 0,
-    "total_interactions": 10
-   }
+   "permalink": "https://www.instagram.com/p/DZrmJE3iEUf/"
   },
   {
    "id": "17952734748179410",
    "timestamp": "2026-06-16T19:08:17+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Peygamberdevesi karidesi, okyanusların en renkli olduğu kadar en acımasız ve donanımlı avcılarından biridir. Avını etkis",
-   "permalink": "https://www.instagram.com/p/DZqG8EpjqSQ/",
-   "insights": {
-    "reach": 90,
-    "views": 142,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 5
-   }
+   "permalink": "https://www.instagram.com/p/DZqG8EpjqSQ/"
   },
   {
    "id": "18603857101052501",
    "timestamp": "2026-06-16T16:01:48+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 6,
    "comments_count": 0,
    "caption": "Cape yağmur kurbağası (Breviceps gibbosus), Güney Afrika’nın Cape Yarımadası’na özgü, amfibi dünyasının en sıra dışı üye",
-   "permalink": "https://www.instagram.com/p/DZpxmSHCHNV/",
-   "insights": {
-    "reach": 102,
-    "views": 159,
-    "saved": 2,
-    "shares": 0,
-    "total_interactions": 8
-   }
+   "permalink": "https://www.instagram.com/p/DZpxmSHCHNV/"
   },
   {
    "id": "18341593786217145",
    "timestamp": "2026-06-15T22:05:41+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 5,
    "comments_count": 0,
    "caption": "🪵🐦 Ağaçkakanlar, doğanın en yetenekli kuşlarından biridir. Güçlü gagalarıyla ağaç gövdelerini delerken, özel kafatası ya",
-   "permalink": "https://www.instagram.com/p/DZn2cfFCNle/",
-   "insights": {
-    "reach": 90,
-    "views": 143,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 6
-   }
+   "permalink": "https://www.instagram.com/p/DZn2cfFCNle/"
   },
   {
    "id": "18141232849532294",
    "timestamp": "2026-06-15T15:50:25+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Laboratuvarda balıklara bilgisayar ekranında farklı insan yüzleri gösterilmiş ve belirli bir yüze su fışkırtmaları durum",
-   "permalink": "https://www.instagram.com/p/DZnLgANiBHG/",
-   "insights": {
-    "reach": 82,
-    "views": 103,
-    "saved": 2,
-    "shares": 0,
-    "total_interactions": 6
-   }
+   "permalink": "https://www.instagram.com/p/DZnLgANiBHG/"
   },
   {
    "id": "18322442089280629",
    "timestamp": "2026-06-14T20:19:40+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 2,
    "comments_count": 0,
    "caption": "Sepet yıldızları, okyanusların karanlık derinliklerinde ve resiflerde yaşayan, binlerce daldan oluşan sıra dışı kollara ",
-   "permalink": "https://www.instagram.com/p/DZlFhOSjiTg/",
-   "insights": {
-    "reach": 69,
-    "views": 110,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 2
-   }
+   "permalink": "https://www.instagram.com/p/DZlFhOSjiTg/"
   },
   {
    "id": "18065808206439738",
    "timestamp": "2026-06-14T14:55:21+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 5,
    "comments_count": 0,
    "caption": "Güneydoğu Asya’nın gizemli sakinleri olan kolugalar ile tanışın! Bu canlılar, vücutlarını saran özel bir deri esnekliği ",
-   "permalink": "https://www.instagram.com/p/DZkgZ20CD-f/",
-   "insights": {
-    "reach": 126,
-    "views": 236,
-    "saved": 2,
-    "shares": 0,
-    "total_interactions": 7
-   }
+   "permalink": "https://www.instagram.com/p/DZkgZ20CD-f/"
   },
   {
    "id": "18233179804311794",
    "timestamp": "2026-06-13T19:50:45+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 4,
    "comments_count": 0,
    "caption": "Karakulak, doğanın en çevik ve gizemli avcılarından biridir. Siyah kulak püskülleriyle dikkat çeken bu yabani kedi, tek ",
-   "permalink": "https://www.instagram.com/p/DZidajajrH5/",
-   "insights": {
-    "reach": 94,
-    "views": 144,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 4
-   }
+   "permalink": "https://www.instagram.com/p/DZidajajrH5/"
   },
   {
    "id": "17877586836479437",
    "timestamp": "2026-06-12T19:29:32+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 5,
    "comments_count": 0,
    "caption": "Doğu Afrika’nın kurak savanlarında yaşayan gerenuk, upuzun boynu ve ince bacakları nedeniyle “zürafa ceylanı” olarak da ",
-   "permalink": "https://www.instagram.com/p/DZf2MLRjj1E/",
-   "insights": {
-    "reach": 81,
-    "views": 123,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 5
-   }
+   "permalink": "https://www.instagram.com/p/DZf2MLRjj1E/"
   },
   {
    "id": "18155202340470865",
    "timestamp": "2026-06-09T18:21:22+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 3,
    "comments_count": 0,
    "caption": "At nalı yengeci, yaklaşık 450 milyon yıldır Dünya’da varlığını sürdüren ve bu nedenle “yaşayan fosil” olarak anılan sıra",
-   "permalink": "https://www.instagram.com/p/DZYAAXSjrVQ/",
-   "insights": {
-    "reach": 119,
-    "views": 165,
-    "saved": 2,
-    "shares": 1,
-    "total_interactions": 6
-   }
+   "permalink": "https://www.instagram.com/p/DZYAAXSjrVQ/"
   },
   {
    "id": "17936723412067182",
    "timestamp": "2026-06-09T07:13:39+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 3,
    "comments_count": 1,
    "caption": "Pelikanlar, midelerinin üç katı kadar su alabilen devasa boğaz keseleriyle kuş dünyasının en sıra dışı avcıları arasında",
-   "permalink": "https://www.instagram.com/p/DZWzl4GiEbC/",
-   "insights": {
-    "reach": 113,
-    "views": 105,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 5
-   }
+   "permalink": "https://www.instagram.com/p/DZWzl4GiEbC/"
   },
   {
    "id": "18114544622507453",
    "timestamp": "2026-06-08T21:21:55+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 5,
    "comments_count": 0,
    "caption": "İbibik, kafasındaki yelpaze gibi açılan göz alıcı tacı ve dalgalı kelebek uçuşuyla doğanın en karakteristik kuşlarından ",
-   "permalink": "https://www.instagram.com/p/DZVv356jmtG/",
-   "insights": {
-    "reach": 230,
-    "views": 127,
-    "saved": 4,
-    "shares": 1,
-    "total_interactions": 10
-   }
+   "permalink": "https://www.instagram.com/p/DZVv356jmtG/"
   },
   {
    "id": "18206151943353580",
    "timestamp": "2026-06-07T18:16:26+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 2,
    "comments_count": 0,
    "caption": "Madagaskar ormanlarından gelen bu arkadaş, böcekler aleminin en sıra dışı üyesi: Zürafa Böceği! 🦒🪲 Erkeklerinin o upuzun",
-   "permalink": "https://www.instagram.com/p/DZS12ZwDt-n/",
-   "insights": {
-    "reach": 55,
-    "views": 69,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 3
-   }
+   "permalink": "https://www.instagram.com/p/DZS12ZwDt-n/"
   },
   {
    "id": "18104527022286596",
    "timestamp": "2026-06-06T22:44:06+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 3,
    "comments_count": 0,
    "caption": "🐆 Leopar, gücünü hızından çok zekâsı ve gizliliğinden alan kusursuz bir avcıdır. Avlarını diğer yırtıcılardan korumak iç",
-   "permalink": "https://www.instagram.com/p/DZQvsFdDS90/",
-   "insights": {
-    "reach": 48,
-    "views": 58,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 3
-   }
+   "permalink": "https://www.instagram.com/p/DZQvsFdDS90/"
   },
   {
    "id": "18008718431728990",
    "timestamp": "2026-06-05T17:49:36+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 3,
    "comments_count": 0,
    "caption": "Büyük Boynuzlu Baykuş, gecenin en etkileyici avcılarından biridir. Uçarken neredeyse hiç ses çıkarmayan özel tüy yapısı ",
-   "permalink": "https://www.instagram.com/p/DZNpMHvCHT0/",
-   "insights": {
-    "reach": 52,
-    "views": 59,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 3
-   }
+   "permalink": "https://www.instagram.com/p/DZNpMHvCHT0/"
   },
   {
    "id": "18121877728679838",
    "timestamp": "2026-06-05T12:47:31+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 1,
    "comments_count": 0,
    "caption": "Mükemmel aerodinamik taşıma teknolojisine sahip balık kartalı, bir balığı yakaladığında, onu rastgele taşımaz. Havada uç",
-   "permalink": "https://www.instagram.com/p/DZNGnqzCOD6/",
-   "insights": {
-    "reach": 48,
-    "views": 66,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 1
-   }
+   "permalink": "https://www.instagram.com/p/DZNGnqzCOD6/"
   },
   {
    "id": "18117798559744627",
    "timestamp": "2026-06-04T14:37:33+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 3,
    "comments_count": 0,
    "caption": "Adını simsiyah derisinden değil, tehdit anında ardına kadar açtığı kömür karası ağzından alan doğanın en karizmatik canl",
-   "permalink": "https://www.instagram.com/p/DZKuapfiJTf/",
-   "insights": {
-    "reach": 87,
-    "views": 63,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 3
-   }
+   "permalink": "https://www.instagram.com/p/DZKuapfiJTf/"
   },
   {
    "id": "18017817623814665",
    "timestamp": "2026-06-04T09:03:14+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 1,
    "comments_count": 0,
    "caption": "Kış aylarında bazı ağaç kurbağası türleri (özellikle Kuzey Amerika’dakiler) kelimenin tam anlamıyla donarlar. Vücutların",
-   "permalink": "https://www.instagram.com/p/DZKIKC2DiiL/",
-   "insights": {
-    "reach": 47,
-    "views": 66,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 1
-   }
+   "permalink": "https://www.instagram.com/p/DZKIKC2DiiL/"
   },
   {
    "id": "18074929895457332",
    "timestamp": "2026-06-03T20:11:48+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 2,
    "comments_count": 0,
    "caption": "İlk bakışta küçük bir ejderhayı andıran Dikenli Şeytan (Thorny Devil), Avustralya çöllerinde yaşayan sıra dışı bir kerte",
-   "permalink": "https://www.instagram.com/p/DZIv360Dktq/",
-   "insights": {
-    "reach": 48,
-    "views": 70,
-    "saved": 2,
-    "shares": 0,
-    "total_interactions": 4
-   }
+   "permalink": "https://www.instagram.com/p/DZIv360Dktq/"
   },
   {
    "id": "18077649236652835",
    "timestamp": "2026-05-26T17:51:36+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 1,
    "comments_count": 0,
    "caption": "Bu armadillonun pembe görünümü sadece dış kaplama değildir; altındaki damarlar nedeniyle daha belirgin görünebilir. Kürk",
-   "permalink": "https://www.instagram.com/p/DYz5eBbiKTp/",
-   "insights": {
-    "reach": 48,
-    "views": 74,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 2
-   }
+   "permalink": "https://www.instagram.com/p/DYz5eBbiKTp/"
   },
   {
    "id": "18094798162948990",
    "timestamp": "2026-05-22T09:15:49+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 2,
    "comments_count": 0,
    "caption": "En gizemli tarafı ise şu: İnsanlar Ay yüzeyini derin okyanuslardan daha ayrıntılı haritalandırmış durumda. Bu yüzden bil",
-   "permalink": "https://www.instagram.com/p/DYorQ5FCGpA/",
-   "insights": {
-    "reach": 62,
-    "views": 68,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 3
-   }
+   "permalink": "https://www.instagram.com/p/DYorQ5FCGpA/"
   },
   {
    "id": "18360662923226620",
    "timestamp": "2026-05-21T10:07:18+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 2,
    "comments_count": 0,
    "caption": "Evrimsel açıdan en eski karınca soylarından biridirler (bu yüzden bazen “yaşayan fosiller” olarak adlandırılırlar). Diğe",
-   "permalink": "https://www.instagram.com/p/DYmMXD8lRfF/",
-   "insights": {
-    "reach": 53,
-    "views": 62,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 3
-   }
+   "permalink": "https://www.instagram.com/p/DYmMXD8lRfF/"
   },
   {
    "id": "18104722597972402",
    "timestamp": "2026-05-20T22:06:24+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 2,
    "comments_count": 0,
    "caption": "Zehrinin içinde klorotoksin adı verilen bir peptid bulunur. Bu madde, insan beynindeki kanserli hücrelere (glioma) doğru",
-   "permalink": "https://www.instagram.com/p/DYk53DjCEnF/",
-   "insights": {
-    "reach": 41,
-    "views": 52,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 2
-   }
+   "permalink": "https://www.instagram.com/p/DYk53DjCEnF/"
   },
   {
    "id": "18008657750913401",
    "timestamp": "2026-05-20T11:00:41+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 2,
    "comments_count": 0,
    "caption": "“Kutup gelinciği” denince çoğu kişi tamamen kutuplarda yaşayan ayrı bir tür sanıyor ama genellikle insanların kastettiği",
-   "permalink": "https://www.instagram.com/p/DYjtrOWiMYc/",
-   "insights": {
-    "reach": 43,
-    "views": 52,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 3
-   }
+   "permalink": "https://www.instagram.com/p/DYjtrOWiMYc/"
   },
   {
    "id": "17866273416653334",
    "timestamp": "2026-05-19T19:32:44+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 1,
    "comments_count": 0,
    "caption": "“Cırboğa”, aslında çölde yaşayan sıçrayıcı bir kemirgen grubu olan jerboa (çöl sıçanı / Arap tavşanı benzeri kemirgen) i",
-   "permalink": "https://www.instagram.com/p/DYiDeukjlBd/",
-   "insights": {
-    "reach": 48,
-    "views": 60,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 2
-   }
+   "permalink": "https://www.instagram.com/p/DYiDeukjlBd/"
   },
   {
    "id": "18065225366403108",
    "timestamp": "2026-05-19T11:33:38+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 1,
    "comments_count": 0,
    "caption": "Havadan avı görüp neredeyse mızrak gibi suya girebilirler.Dalış sırasında vücutlarını çok aerodinamik hale getirirler.Gr",
-   "permalink": "https://www.instagram.com/p/DYhMpoJiKuk/",
-   "insights": {
-    "reach": 38,
-    "views": 53,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 2
-   }
+   "permalink": "https://www.instagram.com/p/DYhMpoJiKuk/"
   },
   {
    "id": "18084701033087794",
    "timestamp": "2026-05-18T20:31:57+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 2,
    "comments_count": 0,
    "caption": "Bu balık yüzmek yerine deniz tabanında yürür gibi hareket eder. Yüzgeçleri, adeta küçük bacaklar gibi davranarak ona “yü",
-   "permalink": "https://www.instagram.com/p/DYfldivDgDa/",
-   "insights": {
-    "reach": 54,
-    "views": 45,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 3
-   }
+   "permalink": "https://www.instagram.com/p/DYfldivDgDa/"
   },
   {
    "id": "18060965855466451",
    "timestamp": "2026-05-18T16:06:41+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 1,
    "comments_count": 0,
    "caption": "Bu kurbağa kendi zehirine karşı bağışıktır. Zehiri doğuştan üretmez; beslenme yoluyla kazanır. Doğada zehirli karıncalar",
-   "permalink": "https://www.instagram.com/p/DYfHGqoCOoY/",
-   "insights": {
-    "reach": 34,
-    "views": 48,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 1
-   }
+   "permalink": "https://www.instagram.com/p/DYfHGqoCOoY/"
   },
   {
    "id": "18066920921354257",
    "timestamp": "2026-05-18T10:05:42+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 1,
    "comments_count": 0,
    "caption": "Başını 360 dereceye kadar çevirerek etrafı tarayabilen Tersiyerler böcek, örümcek, küçük kertenkeleler,küçük kuşlar ile ",
-   "permalink": "https://www.instagram.com/p/DYedyw9CKb_/",
-   "insights": {
-    "reach": 42,
-    "views": 47,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 1
-   }
+   "permalink": "https://www.instagram.com/p/DYedyw9CKb_/"
   },
   {
    "id": "17901734925432703",
    "timestamp": "2026-05-17T21:32:17+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 2,
    "comments_count": 0,
    "caption": "Bombardıman böcekleri tehdit altında kaldığında, karın bölgesindeki iki özel hazneden hidrokinon ve hidrojen peroksit ka",
-   "permalink": "https://www.instagram.com/p/DYdHkfFiH54/",
-   "insights": {
-    "reach": 47,
-    "views": 41,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 3
-   }
+   "permalink": "https://www.instagram.com/p/DYdHkfFiH54/"
   },
   {
    "id": "17907058398410206",
    "timestamp": "2026-05-17T14:30:50+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 2,
    "comments_count": 0,
    "caption": "Burunları sayesinde dünyanın en hızlı av bulan memelilerinden biri kabul edilen Yıldız burunlu köstebekler karanlıkta ne",
-   "permalink": "https://www.instagram.com/p/DYcXVy3iAQP/",
-   "insights": {
-    "reach": 39,
-    "views": 55,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 3
-   }
+   "permalink": "https://www.instagram.com/p/DYcXVy3iAQP/"
   },
   {
    "id": "17994875210957395",
    "timestamp": "2026-05-17T10:10:26+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 3,
    "comments_count": 0,
    "caption": "Dünyanın en güler yüzlü canlısı Aksolotl 🦦en önemli özelliği ise kaybettiği uzuvlarını, kalp dokusunu, omuriliğini ve ha",
-   "permalink": "https://www.instagram.com/p/DYb5ijuCAwT/",
-   "insights": {
-    "reach": 51,
-    "views": 60,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 3
-   }
+   "permalink": "https://www.instagram.com/p/DYb5ijuCAwT/"
   },
   {
    "id": "18152176306467042",
    "timestamp": "2026-05-16T20:18:12+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 2,
    "comments_count": 0,
    "caption": "Pangolinler, genellikle tek eşlilik yapar ve eşlerden biri ölürse öbürü de uzun süre yaşayamaz. Tüm vücutları, insan tır",
-   "permalink": "https://www.instagram.com/p/DYaaTClDqco/",
-   "insights": {
-    "reach": 38,
-    "views": 56,
-    "saved": 0,
-    "shares": 1,
-    "total_interactions": 3
-   }
+   "permalink": "https://www.instagram.com/p/DYaaTClDqco/"
   },
   {
    "id": "18077134193242086",
    "timestamp": "2026-05-16T14:28:22+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 1,
    "comments_count": 0,
    "caption": "Tropik bölgelerde muz kasalarında bulunabildiği için zaman zaman “muz örümceği” diye de anılan bu örümceğin zehri nedeni",
-   "permalink": "https://www.instagram.com/p/DYZyQv2CDqi/",
-   "insights": {
-    "reach": 39,
-    "views": 53,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 1
-   }
+   "permalink": "https://www.instagram.com/p/DYZyQv2CDqi/"
   },
   {
    "id": "18166954696438753",
    "timestamp": "2026-05-16T10:33:46+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 1,
    "comments_count": 0,
    "caption": "Ağaçlarda yaşamaya inanılmaz uyumlu olan Boomslang yılanının zehri çok güçlü “hemotoksik” yapıdadır; kanın pıhtılaşma si",
-   "permalink": "https://www.instagram.com/p/DYZXagxCGfa/",
-   "insights": {
-    "reach": 34,
-    "views": 47,
-    "saved": 0,
-    "shares": 1,
-    "total_interactions": 2
-   }
+   "permalink": "https://www.instagram.com/p/DYZXagxCGfa/"
   },
   {
    "id": "17877365808598555",
    "timestamp": "2026-05-15T14:26:33+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 1,
    "comments_count": 0,
    "caption": "Sırtındaki yeşil desen bir “eyer”e benzediği için bu adı alan semerli tırtılın en tehlikeli özelliği ciddi anlamda zehir",
-   "permalink": "https://www.instagram.com/p/DYXNQmiCOML/",
-   "insights": {
-    "reach": 34,
-    "views": 46,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 1
-   }
+   "permalink": "https://www.instagram.com/p/DYXNQmiCOML/"
   },
   {
    "id": "18182298190387496",
    "timestamp": "2026-05-15T10:22:58+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 2,
    "comments_count": 0,
    "caption": "Karşınızda gece görüşü inanılmaz güçlü olan Aye-aye canlısı. Madagaskar’ın doğu kıyısında ki yağmur ormanlarında yaşayan",
-   "permalink": "https://www.instagram.com/p/DYWxYkbCIa_/",
-   "insights": {
-    "reach": 36,
-    "views": 53,
-    "saved": 0,
-    "shares": 1,
-    "total_interactions": 3
-   }
+   "permalink": "https://www.instagram.com/p/DYWxYkbCIa_/"
   },
   {
    "id": "18078733883538884",
    "timestamp": "2026-05-14T19:33:41+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 1,
    "comments_count": 0,
    "caption": "Mantis Shrimp deniz canlısının darbesi .22 kalibre mermi hızına yakın ölçülmüş durumda. Vuruş yaptığı anda su anlık olar",
-   "permalink": "https://www.instagram.com/p/DYVLnOSjs93/",
-   "insights": {
-    "reach": 34,
-    "views": 50,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 1
-   }
+   "permalink": "https://www.instagram.com/p/DYVLnOSjs93/"
   },
   {
    "id": "18094648883590129",
    "timestamp": "2026-05-14T14:55:05+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 1,
    "comments_count": 0,
    "caption": "Küçücük olmasına rağmen insanlar için tehlikeli olabilir. ☠️ Çünkü depoladığı zehir dokunulduğunda ciddi acı verebilir. ",
-   "permalink": "https://www.instagram.com/p/DYUrusUiLfv/",
-   "insights": {
-    "reach": 39,
-    "views": 46,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 1
-   }
+   "permalink": "https://www.instagram.com/p/DYUrusUiLfv/"
   },
   {
    "id": "17879807082439860",
    "timestamp": "2026-05-14T10:52:22+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 1,
    "comments_count": 0,
    "caption": "Erkek narvalların o uzun “boynuzu” aslında dişidir.🦷 Bu diş sadece süs değil.İçinde milyonlarca sinir ucu vardır. Yani s",
-   "permalink": "https://www.instagram.com/p/DYUP89oiJj_/",
-   "insights": {
-    "reach": 39,
-    "views": 39,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 1
-   }
+   "permalink": "https://www.instagram.com/p/DYUP89oiJj_/"
   },
   {
    "id": "18107543377923579",
    "timestamp": "2026-05-13T21:11:24+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 1,
    "comments_count": 0,
    "caption": "Sayga Antilobu ile ilgili en ürkütücü olaylardan biri 2015’te yaşandı: birkaç hafta içinde yaklaşık 200 bin sayga öldü. ",
-   "permalink": "https://www.instagram.com/p/DYSyAH4DoDS/",
-   "insights": {
-    "reach": 41,
-    "views": 53,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 1
-   }
+   "permalink": "https://www.instagram.com/p/DYSyAH4DoDS/"
   },
   {
    "id": "17935917675406445",
    "timestamp": "2026-05-13T14:56:11+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 1,
    "comments_count": 0,
    "caption": "Halk tarafından Fossa olarak bilinen, madagaskarın agresif yırtıcılarından “Cryptoprocta ferox“ hakkında bazı bilgiler 👁",
-   "permalink": "https://www.instagram.com/p/DYSHD4FCJKN/",
-   "insights": {
-    "reach": 45,
-    "views": 74,
-    "saved": 0,
-    "shares": 0,
-    "total_interactions": 1
-   }
+   "permalink": "https://www.instagram.com/p/DYSHD4FCJKN/"
   },
   {
    "id": "17976445824043034",
    "timestamp": "2026-05-13T00:11:10+0000",
    "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
    "like_count": 2,
    "comments_count": 0,
    "caption": "Kızılgerdan kuşu 🌳\n\nBilim insanları, kızılgerdanların gözlerinde kuantum fiziğiyle ilişkili olabilecek bir yön bulma sis",
-   "permalink": "https://www.instagram.com/p/DYQhx3eiEnP/",
-   "insights": {
-    "reach": 53,
-    "views": 69,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 3
-   }
+   "permalink": "https://www.instagram.com/p/DYQhx3eiEnP/"
   }
  ]
 }
