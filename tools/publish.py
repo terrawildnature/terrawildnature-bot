@@ -52,23 +52,15 @@ def wait_ready(container_id):
 
 
 def publish_reel(me, reel_dir):
-    """Upload reel.mp4 straight to Instagram (resumable upload, no public video URL needed),
-    with cover.jpg (served from the repo) as the custom cover."""
+    """Publish a Reel. Instagram fetches the video from VIDEO_URL (a temporary public copy,
+    see publish-reel.yml) and the custom cover from cover.jpg in the repo."""
     reel_dir = Path(reel_dir).resolve()
     spec = json.loads((reel_dir / "reel.json").read_text(encoding="utf-8"))
     base = os.environ["RAW_BASE"].rstrip("/")
     cover_url = f"{base}/{reel_dir.relative_to(ROOT).as_posix()}/cover.jpg"
-    c = call("POST", f"{me['user_id']}/media", media_type="REELS", upload_type="resumable",
+    c = call("POST", f"{me['user_id']}/media", media_type="REELS", video_url=os.environ["VIDEO_URL"],
              caption=spec["caption"], cover_url=cover_url,
              share_to_feed="false", is_ai_generated="true")  # Reels tab only, not the profile grid
-    video = (reel_dir / "reel.mp4").read_bytes()
-    req = urllib.request.Request(c["uri"], data=video, method="POST", headers={
-        "Authorization": f"OAuth {os.environ['IG_TOKEN']}", "offset": "0", "file_size": str(len(video))})
-    try:
-        with urllib.request.urlopen(req, timeout=600) as r:
-            print("upload:", r.read().decode()[:200])
-    except urllib.error.HTTPError as e:
-        sys.exit(f"video upload failed: {e.code} {e.read().decode(errors='replace')}")
     for _ in range(60):   # video processing can take several minutes
         st = call("GET", c["id"], fields="status_code,status").get("status_code")
         if st == "FINISHED":

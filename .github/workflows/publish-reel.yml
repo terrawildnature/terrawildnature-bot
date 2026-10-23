@@ -51,10 +51,18 @@ jobs:
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
+          GH_TOKEN: ${{ github.token }}
           RAW_BASE: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}
         run: |
+          # Instagram downloads the video from a public URL: park it as a temporary release asset
+          NAME="$(basename "${{ steps.pick.outputs.dir }}").mp4"
+          cp "${{ steps.pick.outputs.dir }}/reel.mp4" "$NAME"
+          gh release view reel-media >/dev/null 2>&1 || gh release create reel-media --title "Reels (geçici video dosyaları)" --notes "Paylaşım sırasında geçici olarak tutulur, sonra silinir."
+          gh release upload reel-media "$NAME" --clobber
+          export VIDEO_URL="https://github.com/${{ github.repository }}/releases/download/reel-media/$NAME"
           source tools/token.sh load
           python tools/publish.py --reel "${{ steps.pick.outputs.dir }}"
+          gh release delete-asset reel-media "$NAME" -y || true
       - name: Commit
         if: ${{ !inputs.test }}
         run: |
