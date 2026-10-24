@@ -1,0 +1,87 @@
+{
+  "name": "yaprak deniz ejderi",
+  "group": "balık",
+  "hook_style": "tuhaf yetenek",
+  "title": [
+    [
+      [
+        "BU BALIKTA YUMURTAYI",
+        "W"
+      ]
+    ],
+    [
+      [
+        "ANNE DEĞİL",
+        "R"
+      ]
+    ],
+    [
+      [
+        "BABA TAŞIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "YAPRAK DENİZ EJDERİ",
+  "card_top": [
+    "Dişi, yumurtalarını erkeğin",
+    "kuyruğuna bırakır."
+  ],
+  "card_bottom": [
+    "Erkek yumurtaları yaklaşık 9",
+    "hafta taşır. Yumurtaların",
+    "yalnızca %5'i hayatta kalır."
+  ],
+  "right": [
+    "Yalnızca Güney Avustralya",
+    "sularında yaşar. Vücudundaki",
+    "yaprak benzeri uzantılar onu",
+    "yosun gibi gösterir. Deniz",
+    "atlarının akrabasıdır."
+  ],
+  "loc": "Güney Avustralya",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.6
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Phycodurus eques P2023144.JPG",
+      "author": "Peter Southwood",
+      "license": "CC BY-SA 3.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Phycodurus eques Laslovarga01.JPG",
+      "author": "Laslovarga",
+      "license": "CC BY-SA 3.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Phycodurus eques Gunther.jpg",
+      "author": "sarahemcc",
+      "license": "CC BY 2.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Yaprak deniz ejderinde dişi en fazla 250 yumurtayı erkeğin kuyruğuna bırakıyor ve yavrular çıkana kadar yaklaşık 9 hafta boyunca onları baba taşıyor. 🐉🌊\n\n#terrawildnature #ilginçbilgiler #yaprakdenizejderi\n\n📷 Peter Southwood (CC BY-SA 3.0), Laslovarga (CC BY-SA 3.0), sarahemcc (CC BY 2.0) / Wikimedia Commons"
+}

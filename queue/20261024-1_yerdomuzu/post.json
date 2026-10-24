@@ -1,0 +1,25 @@
+{
+  "name": "yerdomuzu",
+  "group": "memeli",
+  "hook_style": "sayı",
+  "title": [
+    [["BU HAYVAN BİR GECEDE", "W"]],
+    [["50.000 BÖCEK", "R"]],
+    [["YİYEBİLİYOR", "R"]]
+  ],
+  "card_title": "YERDOMUZU",
+  "card_top": ["Uzun yapışkan diliyle bir gecede", "50.000'e kadar böcek yiyebilir."],
+  "card_bottom": ["Domuzla akraba değil; kendi", "takımının yaşayan tek üyesi.", "Adı \"toprak domuzu\" demek."],
+  "right": ["Sahra altı Afrika'nın savan ve", "çalılık alanlarında yaşar.", "Gündüz karanlık yuvasında uyur.", "Güçlü pençeleriyle termit", "höyüklerini kolayca yarar."],
+  "loc": "Sahra Altı Afrika",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.4, "cy": 0.4, "zoom": 1.2},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.55, "cy": 0.5, "zoom": 1.3},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.3, "cy": 0.55, "zoom": 2.0}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Aardvark (Orycteropus afer).jpg", "author": "Theo Kruse Burgers' Zoo", "license": "CC BY-SA 4.0", "public_domain": false},
+    {"use": "top", "title": "File:Southern Aardvark 1.jpg", "author": "Nick Helme", "license": "CC BY-SA 4.0", "public_domain": false}
+  ],
+  "caption": "Adı \"toprak domuzu\" anlamına gelse de domuzla akraba olmayan yerdomuzu, uzun ve yapışkan diliyle tek bir gecede 50.000'e kadar böcek yiyebiliyor. 🐜🌙\n\n#terrawildnature #ilginçbilgiler #yerdomuzu\n\n📷 Theo Kruse Burgers' Zoo (CC BY-SA 4.0), Nick Helme (CC BY-SA 4.0) / Wikimedia Commons"
+}

@@ -1,0 +1,84 @@
+{
+  "name": "quetzal",
+  "group": "kuş",
+  "hook_style": "gizem",
+  "title": [
+    [
+      [
+        "MAYALAR BU KUŞUN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "TÜYÜNÜ PARA",
+        "R"
+      ],
+      [
+        "OLARAK",
+        "W"
+      ]
+    ],
+    [
+      [
+        "KULLANDI",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "GÖRKEMLİ QUETZAL",
+  "card_top": [
+    "Tüyleri Maya ve Aztekler için",
+    "altın kadar değerliydi."
+  ],
+  "card_bottom": [
+    "Tüyleri bir değişim aracı olarak",
+    "kullanıldı; Guatemala'nın para",
+    "birimi de adını bu kuştan alır."
+  ],
+  "right": [
+    "Orta Amerika'nın bulut",
+    "ormanlarında yaşar. Çürümüş",
+    "ağaçlarda oyduğu deliğe",
+    "yuva yapar. Erkeğin uzun",
+    "kuyruğu 3 yılda gelişir."
+  ],
+  "loc": "Orta Amerika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.3,
+      "zoom": 1.3
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.45,
+      "cy": 0.2,
+      "zoom": 1.1
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.42,
+      "cy": 0.14,
+      "zoom": 3.0
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Resplendent quetzal in Costa Rica 01.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Pharomachrus mocinno -male.jpg",
+      "author": "Peter Förster",
+      "license": "Public domain",
+      "public_domain": true
+    }
+  ],
+  "caption": "Orta Amerika'nın bulut ormanlarında yaşayan görkemli quetzalın yeşil kuyruk tüyleri Maya uygarlığında o kadar değerliydi ki bir değişim aracı olarak kullanıldı ve Guatemala'nın para birimi bugün hâlâ bu kuşun adını taşıyor. 🪶🌿\n\n#terrawildnature #ilginçbilgiler #quetzal"
+}

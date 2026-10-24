@@ -223,3 +223,6 @@ takin (Reels) | Budorcas taxicolor
 deniz iguanası | Amblyrhynchus cristatus
 güneş balıkçılı (sunbittern) | Eurypyga helias
 dev su samuru (Reels) | Pteronura brasiliensis
+yerdomuzu (aardvark) | Orycteropus afer
+görkemli quetzal | Pharomachrus mocinno
+yaprak deniz ejderi | Phycodurus eques
