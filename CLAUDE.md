@@ -3,7 +3,7 @@
 Bu depo @terrawildnature Instagram hesabı için otomatik gönderi üretir.
 - **Sen (Claude, bulut görevi):** Her gün günün 3 gönderisini hazırlayıp `queue/` klasörüne eklersin.
 - **GitHub Actions (`.github/workflows/publish.yml`):** 09:00, 18:00 ve 22:00'de (Türkiye) `queue/` içindeki en eski gönderiyi paylaşır.
-- **GitHub Actions (`.github/workflows/publish-reel.yml`):** Pazartesi, Çarşamba, Cuma, Pazar 20:00'de `queue_reels/` içindeki en eski Reels tarifinden videoyu üretip paylaşır (bkz. bölüm 6).
+- **GitHub Actions (`.github/workflows/publish-reel.yml`):** her gün 20:00'de `queue_reels/` içindeki en eski Reels tarifinden videoyu üretip paylaşır (bkz. bölüm 6).
 
 Sen Instagram'a hiçbir şey göndermezsin. Görevin yalnızca gönderi hazırlamak, commit'lemek ve push'lamak.
 
@@ -112,7 +112,7 @@ Avustralya'nın sevimli kazıcısı çıplak burunlu vombat, bağırsaklarının
   `📷 <Yazar> (<Lisans>), <Yazar> (<Lisans>) / Wikimedia Commons`
   Aynı yazar birden fazla fotoğrafta varsa bir kez yaz. Tamamı kamu malıysa kaynak satırı ekleme.
 
-## 6. Reels (Pazartesi, Çarşamba, Cuma, Pazar 20:00)
+## 6. Reels (her gün 20:00)
 
 Gönderilerden sonra `queue_reels/` klasörüne bak. **2'den az Reels varsa 1 yeni Reels tarifi hazırla.** Videoyu sen üretmiyorsun; GitHub Actions paylaşımdan hemen önce `tools/reel.py` ile üretiyor. Sen tarifi (`reel.json`) ve kapağı (`cover.jpg`) hazırlarsın.
 
