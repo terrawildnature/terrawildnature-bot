@@ -32,7 +32,7 @@
       "end_time": "2026-10-22T07:00:00+0000"
      },
      {
-      "value": 517,
+      "value": 683,
       "end_time": "2026-10-23T07:00:00+0000"
      }
     ],
@@ -47,7 +47,32 @@
     "period": "lifetime",
     "values": [
      {
-      "value": {},
+      "value": {
+       "0": 433,
+       "1": 416,
+       "2": 444,
+       "3": 455,
+       "4": 446,
+       "5": 425,
+       "6": 438,
+       "7": 452,
+       "8": 461,
+       "9": 488,
+       "10": 538,
+       "11": 527,
+       "12": 525,
+       "13": 470,
+       "14": 358,
+       "15": 214,
+       "16": 125,
+       "17": 81,
+       "18": 68,
+       "19": 84,
+       "20": 181,
+       "21": 283,
+       "22": 342,
+       "23": 373
+      },
       "end_time": "2026-10-22T07:00:00+0000"
      },
      {
@@ -72,8 +97,8 @@
    "caption": "Sudan çıkıp göğüs yüzgeçleriyle çamurda sekerek ilerleyen çamur balığı (mudskipper), nemli derisi ve ağzı-boğazı üzerind",
    "permalink": "https://www.instagram.com/p/De2TSB7oOFB/",
    "insights": {
-    "reach": 32,
-    "views": 52,
+    "reach": 54,
+    "views": 79,
     "saved": 0,
     "shares": 0,
     "total_interactions": 0
@@ -89,12 +114,12 @@
    "caption": "Himalayaların gizemli devi takin, 350 kiloya ulaşan cüssesine rağmen yüksekteki yapraklara uzanmak için arka ayakları üz",
    "permalink": "https://www.instagram.com/reel/De2Pt9xEr6T/",
    "insights": {
-    "reach": 257,
-    "views": 300,
+    "reach": 387,
+    "views": 423,
     "saved": 1,
     "shares": 0,
     "total_interactions": 3,
-    "ig_reels_avg_watch_time": 11027
+    "ig_reels_avg_watch_time": 11748
    }
   },
   {
@@ -107,8 +132,8 @@
    "caption": "Yeni Kaledonya'ya özgü kagu, burun deliklerini örten ve başka hiçbir kuşta bulunmayan yapısıyla tanınan, doğada yalnızca",
    "permalink": "https://www.instagram.com/p/De14ny6m8uS/",
    "insights": {
-    "reach": 88,
-    "views": 154,
+    "reach": 102,
+    "views": 176,
     "saved": 1,
     "shares": 0,
     "total_interactions": 7
@@ -124,8 +149,8 @@
    "caption": "Adı kurt ama aslında sırtlan ailesinin en küçük üyesi olan toprak kurdu, tek bir gecede 250 bine kadar termit yiyebiliyo",
    "permalink": "https://www.instagram.com/p/De06K6xFSBM/",
    "insights": {
-    "reach": 223,
-    "views": 333,
+    "reach": 237,
+    "views": 353,
     "saved": 3,
     "shares": 5,
     "total_interactions": 12
@@ -136,16 +161,16 @@
    "timestamp": "2026-10-22T14:47:52+0000",
    "media_type": "CAROUSEL_ALBUM",
    "media_product_type": "FEED",
-   "like_count": 3,
+   "like_count": 4,
    "comments_count": 1,
    "caption": "Avustralya’nın sevimli kazıcısı çıplak burunlu vombat, bağırsaklarının özel yapısı sayesinde küp şeklinde dışkı üretip b",
    "permalink": "https://www.instagram.com/p/DezO4ufCC3s/",
    "insights": {
-    "reach": 127,
-    "views": 227,
+    "reach": 129,
+    "views": 231,
     "saved": 1,
     "shares": 0,
-    "total_interactions": 5
+    "total_interactions": 6
    }
   },
   {
@@ -158,7 +183,7 @@
    "caption": "Örümcek gibi ama o bir yengeç 🦀",
    "permalink": "https://www.instagram.com/p/DexGz3xDo02/",
    "insights": {
-    "reach": 142,
+    "reach": 143,
     "views": 259,
     "saved": 2,
     "shares": 5,
@@ -175,8 +200,8 @@
    "caption": "Kuyruğu neredeyse vücudu kadar uzun olan Zorilla 🦨\n\n#terrawildnature \n\nHergün yeni canlıları sizlerle buluşturuyoruz. Bu",
    "permalink": "https://www.instagram.com/p/Deub4aYDjnI/",
    "insights": {
-    "reach": 191,
-    "views": 331,
+    "reach": 192,
+    "views": 333,
     "saved": 3,
     "shares": 0,
     "total_interactions": 9

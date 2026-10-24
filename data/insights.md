@@ -1,4 +1,4 @@
-# Performans raporu (2026-10-23)
+# Performans raporu (2026-10-24)
 
 Sadece sistemin attığı (güncel şablonlu) paylaşımlar: son 45 günde, en az 72 saatlik 0 paylaşım. **Göreli erişim** = erişim / aynı türdeki paylaşımların medyan erişimi (1,00 = tipik; 1,30 = %30 daha iyi). **Etkileşim** = (kaydetme + 2×paylaşım) / erişim, %.
 
@@ -16,4 +16,8 @@ Sadece sistemin attığı (güncel şablonlu) paylaşımlar: son 45 günde, en a
 
 | Tür | Değer | Adet | Göreli erişim | Etkileşim % | Karar |
 |---|---|---|---|---|---|
+
+## Takipçi
+
+Şu an 1243; son 7 günde +0.
 
