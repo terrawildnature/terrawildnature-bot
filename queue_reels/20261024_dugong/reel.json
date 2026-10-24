@@ -1,0 +1,142 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Reawakening.mp3",
+    "start": 0,
+    "loudness": -27
+  },
+  "photos": {
+    "p1.jpg": "File:Dugong dugon in Egypt 168378319.jpg",
+    "p2.jpg": "File:Dugong.jpg",
+    "p3.jpg": "File:Dugong. Seekuh. Дюгонь..Rotes Meer.. DSCF1083WI.jpg",
+    "p4.jpg": "File:Dugong. Seekuh. Дюгонь. Rotes Meer.. DSCF1085WI.jpg",
+    "p5.jpg": "File:Seekuh. Дюгонь.Dugong DSCF1084WI.jpg",
+    "p6.jpg": "File:Dugong dugon. Seekuh. Дюгонь..Rotes Meer.. DSCF9601WI.jpg",
+    "p7.jpg": "File:Dugong (Dugong dugon) (Ifremer 00617-72913).jpg",
+    "p8.jpg": "File:Dugong Marsa Alam.jpg",
+    "p9.jpg": "File:Dugong in Andaman Islands.jpg"
+  },
+  "segments": [
+    {
+      "text": "Deniz kızı efsanelerine ilham verdiği düşünülen hayvan: dugong.",
+      "image": "p1.jpg",
+      "cx": 0.76,
+      "cy": 0.4,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Dugong, tamamen denizde yaşayan tek otçul memeli.",
+      "image": "p3.jpg",
+      "cx": 0.72,
+      "cy": 0.36,
+      "motion": "zoom_out"
+    },
+    {
+      "text": "Kayıtlardaki en büyük birey dört metreden uzundu ve yaklaşık bir ton ağırlığındaydı.",
+      "image": "p8.jpg",
+      "cx": 0.55,
+      "cy": 0.6,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Akrabalık bakımından balinalara değil, fillere daha yakın.",
+      "image": "p6.jpg",
+      "cx": 0.25,
+      "cy": 0.33,
+      "motion": "zoom_out"
+    },
+    {
+      "text": "Aşağı dönük burnuyla deniz çayırlarını otluyor.",
+      "image": "p4.jpg",
+      "cx": 0.82,
+      "cy": 0.6,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Dugongun kemikleri hayvanlar âleminin en yoğunları arasında.",
+      "image": "p7.jpg",
+      "cx": 0.6,
+      "cy": 0.62,
+      "motion": "zoom_out"
+    },
+    {
+      "text": "Yakın akrabası Steller deniz ineği, on sekizinci yüzyılda avlanarak yok edildi.",
+      "image": "p9.jpg",
+      "cx": 0.33,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Tek bir yavruyu on üç ila on beş ay karnında taşıyor; ömrü ise yetmiş yılı aşabiliyor.",
+      "image": "p5.jpg",
+      "cx": 0.82,
+      "cy": 0.4,
+      "motion": "zoom_out"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p2.jpg",
+      "cx": 0.65,
+      "cy": 0.45,
+      "motion": "zoom_in"
+    }
+  ],
+  "cover": {
+    "image": "p3.jpg",
+    "cx": 0.72,
+    "cy": 0.36,
+    "title": [
+      [
+        [
+          "DENİZ KIZI",
+          "R"
+        ]
+      ],
+      [
+        [
+          "EFSANESİNE",
+          "W"
+        ]
+      ],
+      [
+        [
+          "İLHAM VERDİ",
+          "W"
+        ]
+      ],
+      [
+        [
+          "DUGONG",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "credits": [
+    {
+      "author": "Kora27",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Julien Willem",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "author": "Vardhanjp",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Jerome Paillet (IFREMER)",
+      "license": "CC BY 4.0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Deniz kızı efsanelerine ilham verdiği düşünülen dugong, tamamen denizde yaşayan tek otçul memeli ve akrabalık bakımından balinalara değil, fillere daha yakın. 🌊🐘\n\n#terrawildnature #dugong\n\n📷 Kora27 (CC BY-SA 4.0), Julien Willem (CC BY-SA 3.0), Vardhanjp (CC BY-SA 4.0), Jerome Paillet (CC BY 4.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+  "group": "memeli",
+  "hook_style": "gizem"
+}

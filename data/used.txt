@@ -226,3 +226,4 @@ dev su samuru (Reels) | Pteronura brasiliensis
 yerdomuzu (aardvark) | Orycteropus afer
 görkemli quetzal | Pharomachrus mocinno
 yaprak deniz ejderi | Phycodurus eques
+dugong (Reels) | Dugong dugon
