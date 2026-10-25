@@ -1,0 +1,91 @@
+{
+  "name": "malay tapiri",
+  "group": "memeli",
+  "hook_style": "benzetme",
+  "title": [
+    [
+      [
+        "BU HAYVAN UYURKEN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "KAYA GİBİ",
+        "R"
+      ],
+      [
+        "GÖRÜNÜR",
+        "W"
+      ]
+    ],
+    [
+      [
+        "AVCILAR ANLAMAZ",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "MALAY TAPİRİ",
+  "card_top": [
+    "Siyah beyaz rengi gövdesini",
+    "bölüp onu kamufle eder."
+  ],
+  "card_bottom": [
+    "Yatarken avcılar onu büyük",
+    "bir kayayla karıştırabilir.",
+    "Yavruları çizgili ve benekli doğar."
+  ],
+  "right": [
+    "Malay Yarımadası ve Sumatra'nın",
+    "ormanlarında yaşar. 250-320 kilo",
+    "gelir, hortumu esnektir.",
+    "Gebelik yaklaşık 390 gün sürer.",
+    "Nesli tehlike altındadır."
+  ],
+  "loc": "Güneydoğu Asya",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "zoom": 1.4
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.45,
+      "cy": 0.45,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.3,
+      "cy": 0.5,
+      "zoom": 1.5
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Tapirus indicus - Maleise tapir - Diergaarde Blijdorp - Rotterdam - facing right.jpg",
+      "author": "AgainErick",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Tapirus indicus 20230407.jpg",
+      "author": "1841Hongkong",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Malayan Tapir (Tapirus indicus) (8729168612).jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Güneydoğu Asya ormanlarının siyah beyaz devi Malay tapirinin bölünmüş rengi siluetini bozuyor ve yatarken avcıların onu koca bir kaya sanmasına yol açabiliyor. 🪨🐾\n\n#terrawildnature #ilginçbilgiler #malaytapiri\n\n📷 AgainErick (CC BY-SA 4.0), Bernard DUPONT (CC BY-SA 2.0), 1841Hongkong (CC BY-SA 4.0) / Wikimedia Commons"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "napolyon balığı",
+  "group": "balık",
+  "hook_style": "sayı",
+  "title": [
+    [
+      [
+        "BU BALIK 2 METREYİ",
+        "W"
+      ]
+    ],
+    [
+      [
+        "AŞIP 191 KİLOYA",
+        "R"
+      ]
+    ],
+    [
+      [
+        "ULAŞABİLİYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "NAPOLYON BALIĞI",
+  "card_top": [
+    "Dünyanın en büyük lapin",
+    "balığı (wrasse) türüdür."
+  ],
+  "card_bottom": [
+    "Zehirli deniz yıldızlarını bile",
+    "yer. Deniz kestanelerini kayaya",
+    "vurarak kırar."
+  ],
+  "right": [
+    "Hint-Pasifik mercan",
+    "resiflerinde yaşar.",
+    "Yaklaşık 30 yıl yaşar.",
+    "Bazı bireyler 9 yaşında",
+    "erkeğe dönüşür."
+  ],
+  "loc": "Hint-Pasifik",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.35,
+      "cy": 0.4,
+      "zoom": 1.4
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.55,
+      "cy": 0.5,
+      "zoom": 1.5
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.2,
+      "cy": 0.5,
+      "zoom": 2.2
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Cheilinus undulatus 420752470.jpg",
+      "author": "Jean-Paul Boerekamps",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Cheilinus undulatus 435718364.jpg",
+      "author": "Justin Philbois",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Mercan resiflerinin devi napolyon balığı 229 santimetreye ve 191 kiloya kadar büyüyebiliyor, zehirli deniz yıldızlarını bile yiyip kestaneleri kayaya vurarak kırıyor. 🐟🌊\n\n#terrawildnature #ilginçbilgiler #napolyonbalığı"
+}

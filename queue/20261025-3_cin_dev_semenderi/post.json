@@ -1,0 +1,91 @@
+{
+  "name": "çin dev semenderi",
+  "group": "amfibi",
+  "hook_style": "tuhaf yetenek",
+  "title": [
+    [
+      [
+        "BU CANLI BEBEK",
+        "W"
+      ]
+    ],
+    [
+      [
+        "GİBİ AĞLIYOR",
+        "R"
+      ],
+      [
+        "ÇİNCE",
+        "W"
+      ]
+    ],
+    [
+      [
+        "ADI: BEBEK BALIĞI",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "ÇİN DEV SEMENDERİ",
+  "card_top": [
+    "Havlama, inleme ve çocuk",
+    "ağlamasına benzer sesler çıkarır."
+  ],
+  "card_bottom": [
+    "Çincede 'bebek balığı' denir.",
+    "Ortalama 25-30 kilo gelir,",
+    "1,8 metreye kadar uzar."
+  ],
+  "right": [
+    "Yangtze havzasındaki dağ",
+    "derelerinde yaşar. Tamamen",
+    "suda yaşar, görüşü zayıftır.",
+    "Titreşimleri vücudundaki",
+    "duyu düğümleriyle algılar."
+  ],
+  "loc": "Çin",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.6,
+      "cy": 0.4,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.4,
+      "cy": 0.6,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.3,
+      "cy": 0.6,
+      "zoom": 1.5
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Velemlok čínský zoo praha 2.jpg",
+      "author": "Petr Hamerník",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:2009 Andrias davidianus.JPG",
+      "author": "J. Patrick Fischer",
+      "license": "CC BY-SA 3.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Velemlok čínský zoo praha 1.jpg",
+      "author": "Petr Hamerník",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Çin'in dağ derelerinde yaşayan dev semender, çocuk ağlamasına benzeyen sesler çıkardığı için Çincede 'bebek balığı' diye anılıyor. 👶🌊\n\n#terrawildnature #ilginçbilgiler #çindevsemenderi\n\n📷 Petr Hamerník (CC BY-SA 4.0), J. Patrick Fischer (CC BY-SA 3.0) / Wikimedia Commons"
+}
