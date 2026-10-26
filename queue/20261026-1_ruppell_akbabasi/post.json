@@ -1,0 +1,87 @@
+{
+  "name": "Rüppell akbabası",
+  "group": "kuş",
+  "hook_style": "sayı",
+  "title": [
+    [
+      [
+        "BU KUŞ UÇAK MOTORUNA",
+        "W"
+      ]
+    ],
+    [
+      [
+        "11.300 METREDE",
+        "R"
+      ]
+    ],
+    [
+      [
+        "ÇARPTI",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "RÜPPELL AKBABASI",
+  "card_top": [
+    "Bilinen en yüksek uçan kuş:",
+    "11.300 metrede kayıt altında."
+  ],
+  "card_bottom": [
+    "Kanındaki özel hemoglobin, seyrek",
+    "havada oksijeni verimli taşır.",
+    "Kanat açıklığı 2,6 metreye çıkar."
+  ],
+  "right": [
+    "Sahel ve Doğu Afrika'da yaşar.",
+    "Leşle beslenir, dili geriye",
+    "dönük dikenlerle kaplıdır.",
+    "Ömür boyu eşiyle kalır, kayalıkta",
+    "yuva yapar. Nesli kritik."
+  ],
+  "loc": "Sahel, Doğu Afrika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.55,
+      "zoom": 1.3
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.55,
+      "cy": 0.45,
+      "zoom": 1.6
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Gyps rueppelli 320147265.jpg",
+      "author": "Henggang Cui",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Rüppell's griffon vulture (Gyps rueppelli rueppelli) Serengeti.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Masai Mara National Reserve 03 - Rüppell's vulture (Gyps rueppelli).jpg",
+      "author": "Thomas Fuhrmann",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Doğu Afrika'nın Rüppell akbabası, 1973'te Fildişi Sahili üzerinde 11.300 metre irtifada bir uçağın motoruna girerek kayıtlara geçen, bilinen en yüksek uçan kuş. 🦅✈️\n\n#terrawildnature #ilginçbilgiler #rüppellakbabası\n\n📷 Charles J. Sharp (CC BY-SA 4.0), Thomas Fuhrmann (CC BY-SA 4.0) / Wikimedia Commons"
+}

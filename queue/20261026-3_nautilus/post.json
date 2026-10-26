@@ -1,0 +1,91 @@
+{
+  "name": "nautilus",
+  "group": "deniz omurgasızı",
+  "hook_style": "tuhaf görünüm",
+  "title": [
+    [
+      [
+        "BU CANLININ GÖZÜNDE",
+        "W"
+      ]
+    ],
+    [
+      [
+        "MERCEK",
+        "R"
+      ],
+      [
+        "YOK",
+        "W"
+      ]
+    ],
+    [
+      [
+        "İĞNE DELİĞİYLE GÖRÜR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "İNCİ NAUTİLUS",
+  "card_top": [
+    "Gözünde mercek yok; göz,",
+    "iğne delikli kameraya benzer."
+  ],
+  "card_bottom": [
+    "Yaklaşık 90 dokunacağının",
+    "hiçbirinde vantuz bulunmaz.",
+    "Kokuyla yemek bulur."
+  ],
+  "right": [
+    "Güney Pasifik'te Avustralya,",
+    "Japonya, Mikronezya açıkları.",
+    "Kabuğu içten sedef kaplıdır.",
+    "Beş yaşında erişkin olur.",
+    "Aşırı avlanma tehdit ediyor."
+  ],
+  "loc": "Güney Pasifik",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.55,
+      "cy": 0.3,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.45,
+      "cy": 0.4,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.6,
+      "cy": 0.4,
+      "zoom": 1.7
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Nautilus pompilius (head).jpg",
+      "author": "Hans Hillewaert",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Nautilus pompilius at Monterey Bay Aquarium 2014-2.jpg",
+      "author": "Bill Abbott",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Nautilus pompilius (detail).jpg",
+      "author": "Hans Hillewaert",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Güney Pasifik'in nautilusunun gözünde mercek yok, bu yüzden dünyayı iğne delikli bir kamera gibi görüyor ve yaklaşık 90 dokunacağının hiçbirinde vantuz bulunmuyor. 🐚👁️\n\n#terrawildnature #ilginçbilgiler #nautilus\n\n📷 Hans Hillewaert (CC BY-SA 4.0), Bill Abbott (CC BY-SA 2.0) / Wikimedia Commons"
+}

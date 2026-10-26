@@ -1,0 +1,91 @@
+{
+  "name": "Gila canavarı",
+  "group": "sürüngen",
+  "hook_style": "tehlike",
+  "title": [
+    [
+      [
+        "BU KERTENKELENİN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "ZEHRİ BİR",
+        "W"
+      ],
+      [
+        "DİYABET",
+        "R"
+      ]
+    ],
+    [
+      [
+        "İLACINA TEMEL OLDU",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "GİLA CANAVARI",
+  "card_top": [
+    "ABD'nin tek zehirli",
+    "yerli kertenkelesi."
+  ],
+  "card_bottom": [
+    "Zehrindeki exendin-4 maddesi",
+    "diyabet ve obezite ilaçlarının",
+    "geliştirilmesine temel oldu."
+  ],
+  "right": [
+    "ABD'nin güneybatısında ve",
+    "Meksika'nın Sonora eyaletinde",
+    "yaşar. Ömrünün %90'ını yer",
+    "altında geçirir. 56 cm'ye",
+    "ulaşır, ısırığı çok acıtır."
+  ],
+  "loc": "Kuzey Amerika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.7,
+      "cy": 0.35,
+      "zoom": 1.3
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.65,
+      "cy": 0.55,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.75,
+      "cy": 0.55,
+      "zoom": 2.0
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:RETICULATE GILA MONSTER (Heloderma suspectum suspectum) (5-17-11) patagonia lake, scc, az -04 (5731530095).jpg",
+      "author": "ALAN SCHMIERER",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:RETICULATE GILA MONSTER (Heloderma suspectum) (5-17-11) patagonia lake, scc, az -02 (5731511803).jpg",
+      "author": "ALAN SCHMIERER",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "File:RETICULATE GILA MONSTER (Heloderma suspectum) (5-17-11) patagonia lake, scc, az -03 (5732065658).jpg",
+      "author": "ALAN SCHMIERER",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Amerika'nın tek zehirli yerli kertenkelesi Gila canavarının zehrindeki exendin-4 maddesi, tip 2 diyabet ve obezite tedavisinde kullanılan ilaçların geliştirilmesine temel oldu. 🦎💊\n\n#terrawildnature #ilginçbilgiler #gilacanavarı"
+}

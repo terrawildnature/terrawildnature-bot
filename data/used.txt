@@ -230,3 +230,7 @@ dugong (Reels) | Dugong dugon
 Malay tapiri | Tapirus indicus
 napolyon balığı | Cheilinus undulatus (Crassilabrus undulatus)
 Çin dev semenderi | Andrias davidianus
+Rüppell akbabası | Gyps rueppelli
+Gila canavarı | Heloderma suspectum
+inci nautilus | Nautilus pompilius
+gelada (Reels) | Theropithecus gelada
