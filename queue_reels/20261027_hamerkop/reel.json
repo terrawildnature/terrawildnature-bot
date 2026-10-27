@@ -1,0 +1,133 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Ancient_Rite.ogg",
+    "start": 0,
+    "loudness": -27
+  },
+  "photos": {
+    "p1.jpg": "File:Hamerkop (Scopus umbretta umbretta) collecting for nest.jpg",
+    "p2.jpg": "File:Hamerkop (Scopus umbretta) Kruger.jpg",
+    "p3.jpg": "File:Hamerkop (Scopus umbretta) Namibia.jpg",
+    "p4.jpg": "File:Hamerkop (Scopus umbretta umbretta) Arusha.jpg",
+    "p6.jpg": "File:Hamerkop (Scopus umbretta umbretta).jpg",
+    "p7.jpg": "File:Hamerkop (Scopus umbretta) iSimangaliso.jpg",
+    "p8.jpg": "File:Hamerkop (Scopus umbretta umbretta) 2.jpg",
+    "p9.jpg": "File:Hamerkop (Scopus umbretta), Kenya.jpg"
+  },
+  "segments": [
+    {
+      "text": "Bu kuşun yuvası bir insanın ağırlığını taşıyacak kadar sağlam.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Çekiç başlı kuş ya da hamerkop, adını başının çekiç gibi görünen şeklinden alıyor.",
+      "image": "p2.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Yuvası bir buçuk metreden geniş olabiliyor; çamurla sıvanmış giriş tüneli altmış santimetreye kadar uzuyor.",
+      "image": "p3.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Çiftler sopaları çamurla tutturup duvarlar ve kubbeli bir çatı örüyor.",
+      "image": "p4.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "motion": "zoom_out"
+    },
+    {
+      "text": "Her yıl üç ila beş yuva yapıyor, üstelik üremese bile.",
+      "image": "p6.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Boş kalan yuvaları baykuşlar, yılanlar ve başka hayvanlar kullanıyor.",
+      "image": "p7.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Sığ sularda balık ve kurbağa avlıyor; su aygırlarının sırtından balık tuttuğu bile görülmüş.",
+      "image": "p8.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "motion": "zoom_out"
+    },
+    {
+      "text": "Bazı kültürlerde yıldırım kuşu diye anılıyor ve yuvasını bozmak uğursuzluk sayılıyor.",
+      "image": "p9.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p2.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "motion": "zoom_out"
+    }
+  ],
+  "cover": {
+    "image": "p1.jpg",
+    "cx": 0.5,
+    "cy": 0.4,
+    "title": [
+      [
+        [
+          "İNSAN",
+          "R"
+        ]
+      ],
+      [
+        [
+          "AĞIRLIĞINI",
+          "W"
+        ]
+      ],
+      [
+        [
+          "TAŞIYAN",
+          "W"
+        ]
+      ],
+      [
+        [
+          "YUVA",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "credits": [
+    {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Hobbyfotowiki",
+      "license": "CC0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Afrika sulak alanlarının çekiç başlı kuşu hamerkop, bir insanın ağırlığını taşıyacak kadar sağlam ve bir buçuk metreyi aşan yuvalar örüyor. 🐦🪹\n\n#terrawildnature #hamerkop\n\n📷 Charles J. Sharp (CC BY-SA 4.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+  "group": "kuş",
+  "hook_style": "sayı"
+}

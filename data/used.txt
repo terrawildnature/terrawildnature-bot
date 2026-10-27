@@ -234,3 +234,7 @@ Rüppell akbabası | Gyps rueppelli
 Gila canavarı | Heloderma suspectum
 inci nautilus | Nautilus pompilius
 gelada (Reels) | Theropithecus gelada
+güney fil foku | Mirounga leonina
+tuatara | Sphenodon punctatus
+arapaima | Arapaima gigas
+hamerkop (Reels) | Scopus umbretta

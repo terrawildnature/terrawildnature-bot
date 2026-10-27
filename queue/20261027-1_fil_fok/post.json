@@ -1,0 +1,91 @@
+{
+  "name": "güney fil foku",
+  "group": "memeli",
+  "hook_style": "sayı",
+  "title": [
+    [
+      [
+        "BU HAYVAN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "2.388 METRE",
+        "W"
+      ],
+      [
+        "DERİNE",
+        "R"
+      ]
+    ],
+    [
+      [
+        "DALABİLİYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "GÜNEY FİL FOKU",
+  "card_top": [
+    "Balinalar hariç, nefes alan",
+    "en derin dalgıç: 2.388 m."
+  ],
+  "card_bottom": [
+    "Dalışlar 20 dakikadan uzun",
+    "sürer, yüzeyde ise sadece",
+    "birkaç dakika kalır."
+  ],
+  "right": [
+    "Güney Okyanusu'nda avlanır.",
+    "Foklar ve etoburlar içinde",
+    "en büyük türdür.",
+    "Erkekler karada üç aydan uzun",
+    "süre yemeden kalabilir."
+  ],
+  "loc": "Güney Okyanusu",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.45,
+      "cy": 0.55,
+      "zoom": 1.4
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.4,
+      "cy": 0.45,
+      "zoom": 1.8
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:2020-11 Kerguelen Islands - Southern elephant seal 25.jpg",
+      "author": "Antoine Lamielle",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:2020-11 Kerguelen Islands - Southern elephant seal 15.jpg",
+      "author": "Antoine Lamielle",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:2020-11 Kerguelen Islands - Southern elephant seal 01.jpg",
+      "author": "Antoine Lamielle",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Güney Okyanusu'nun dev avcısı güney fil foku, balina olmayan nefes alan canlılar arasında en derin dalgıç olarak 2.388 metreye kadar inebiliyor. 🦭🌊\n\n#terrawildnature #ilginçbilgiler #filfoku\n\n📷 Antoine Lamielle (CC BY-SA 4.0) / Wikimedia Commons"
+}

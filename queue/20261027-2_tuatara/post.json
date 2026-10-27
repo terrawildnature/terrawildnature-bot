@@ -1,0 +1,91 @@
+{
+  "name": "tuatara",
+  "group": "sürüngen",
+  "hook_style": "tuhaf görünüm",
+  "title": [
+    [
+      [
+        "BU SÜRÜNGENİN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "KAFASINDA",
+        "W"
+      ],
+      [
+        "ÜÇÜNCÜ",
+        "R"
+      ]
+    ],
+    [
+      [
+        "GÖZ VAR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "TUATARA",
+  "card_top": [
+    "Başının üstünde parietal göz",
+    "denen üçüncü bir göz taşır."
+  ],
+  "card_bottom": [
+    "Yaşayan türler arasında bu",
+    "göz en belirgin olarak",
+    "tuatarada görülür."
+  ],
+  "right": [
+    "Yalnızca Yeni Zelanda'nın",
+    "kıyı adalarında yaşar.",
+    "Yavruların cinsiyeti yumurta",
+    "sıcaklığına göre belirlenir.",
+    "Ömrü ortalama 60 yıl kadar."
+  ],
+  "loc": "Yeni Zelanda",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.4,
+      "cy": 0.4,
+      "zoom": 1.3
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.4,
+      "cy": 0.45,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.3,
+      "cy": 0.4,
+      "zoom": 2.0
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Sphenodon punctatus head.jpg",
+      "author": "TimVickers",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Sphenodon punctatus (3).jpg",
+      "author": "TimVickers",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "File:Sphenodon punctatus (5).jpg",
+      "author": "TimVickers",
+      "license": "Public domain",
+      "public_domain": true
+    }
+  ],
+  "caption": "Yeni Zelanda adalarının tuatarası, başının üstündeki parietal gözle yaşayan canlılar arasında bu üçüncü gözü en belirgin taşıyan tür. 🦎👁️\n\n#terrawildnature #ilginçbilgiler #tuatara"
+}

@@ -1,0 +1,84 @@
+{
+  "name": "arapaima",
+  "group": "balık",
+  "hook_style": "tuhaf yetenek",
+  "title": [
+    [
+      [
+        "BU DEV BALIK",
+        "W"
+      ]
+    ],
+    [
+      [
+        "HAVADAN",
+        "W"
+      ],
+      [
+        "NEFES",
+        "R"
+      ]
+    ],
+    [
+      [
+        "ALIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "ARAPAİMA",
+  "card_top": [
+    "Kan damarı dolu bir organla",
+    "doğrudan havadan soluyor."
+  ],
+  "card_bottom": [
+    "Bu yüzden yüzeye çıkmak",
+    "zorunda. 2 metreyi aşar,",
+    "rekor ağırlığı 200 kilo."
+  ],
+  "right": [
+    "Amazon ve Essequibo",
+    "havzalarında yaşar.",
+    "Pulları tırnak törpüsü olarak",
+    "kullanılır. Eti, 'Amazon'un",
+    "morinası' diye bilinir."
+  ],
+  "loc": "Amazon",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.6,
+      "cy": 0.4,
+      "zoom": 1.1
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.6,
+      "cy": 0.5,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.6,
+      "cy": 0.5,
+      "zoom": 2.0
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Arapaima gigas at National Zoo.jpg",
+      "author": "Jeff Kubina",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Arapaima face.JPG",
+      "author": "Michael Crossroad",
+      "license": "CC BY-SA 3.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Amazon'un dev balığı arapaima, kan damarlarıyla dolu özel bir organı sayesinde havadan nefes aldığı için sık sık yüzeye çıkmak zorunda kalıyor. 🐟💨\n\n#terrawildnature #ilginçbilgiler #arapaima\n\n📷 Jeff Kubina (CC BY-SA 2.0), Michael Crossroad (CC BY-SA 3.0) / Wikimedia Commons"
+}
