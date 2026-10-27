@@ -188,6 +188,10 @@ def render_shot(img, r0, r1, n):
 
 
 # ---------------- cover ----------------
+COVER_TITLE_SIZE = 182   # px, identical on every cover
+COVER_TITLE_TOP = 758    # y of the first title line
+COVER_BADGE_Y = 624      # y of the "Terra Wild Nature" badge
+COVER_MAX_W = 990        # widest allowed title line
 def render_cover(spec, reel_dir):
     """Full-screen photo, dark fade behind a big centred headline (white + red), brand badge and logo.
     The title block sits inside the 3:4 centre area so the profile grid crop keeps it whole."""
@@ -207,19 +211,25 @@ def render_cover(spec, reel_dir):
         f = ImageFont.truetype(font_path, size)
         return f, [sum(f.getlength(t) for t, _ in parts) + gap * (len(parts) - 1) for parts in lines]
 
-    size = 230
+    # Fixed layout on every cover (the takin cover the user approved): same title size, badge and
+    # title start position no matter how long the title is. A title that doesn't fit must be shortened.
+    size = COVER_TITLE_SIZE
     f, ws = widths(size)
-    while max(ws) > 990 and size > 110:   # as big as possible while the widest line keeps a margin
-        size -= 4
-        f, ws = widths(size)
+    if not 1 <= len(lines) <= 4:
+        raise ValueError(f"cover title needs 1-4 lines, got {len(lines)}")
+    for parts, w in zip(lines, ws):
+        if w > COVER_MAX_W:
+            raise ValueError(f"COVER OVERFLOW: line '{' '.join(t for t, _ in parts)}' is {w:.0f}px wide "
+                             f"(max {COVER_MAX_W}); shorten it (about 11 characters per line)")
     line_h = int(size * 1.16)
     block_h = line_h * len(lines)
-    top = 1180 - block_h // 2           # block centred inside the 3:4 profile-grid area
+    top = COVER_TITLE_TOP
 
-    # darken behind the title block (and a little towards the bottom) so it always reads
+    # darken behind the title area (and a little towards the bottom) so it always reads
     arr = np.asarray(canvas).astype(np.float32)
     ys = np.arange(H)[:, None, None]
-    centre, half = top + block_h / 2, block_h / 2 + 260
+    full_h = line_h * 4
+    centre, half = top + full_h / 2, full_h / 2 + 260
     band = np.clip(1 - np.abs(ys - centre) / half, 0, 1) ** 0.8 * 0.72
     bottom = np.clip((ys - 1300) / 620, 0, 1) * 0.6
     canvas = Image.fromarray((arr * (1 - np.maximum(band, bottom))).astype(np.uint8))
@@ -229,7 +239,7 @@ def render_cover(spec, reel_dir):
     badge = badge.resize((int(badge.width * 1.25), int(badge.height * 1.25)), Image.LANCZOS)
     mask = Image.new("L", badge.size, 0)
     ImageDraw.Draw(mask).rounded_rectangle([0, 0, badge.width - 1, badge.height - 1], radius=35, fill=255)
-    canvas.paste(badge, ((W - badge.width) // 2, top - badge.height - 50), mask)
+    canvas.paste(badge, ((W - badge.width) // 2, COVER_BADGE_Y), mask)
 
     # soft drop shadow, then the text with a heavy black outline
     shadow = Image.new("L", (W, H), 0)
