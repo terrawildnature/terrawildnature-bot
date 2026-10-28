@@ -3,7 +3,7 @@
   "username": "terrawildnature",
   "followers_count": 1246,
   "follows_count": 18,
-  "media_count": 152,
+  "media_count": 155,
   "id": "29086642960932360",
   "daily": [
    {
@@ -12,11 +12,11 @@
     "values": [
      {
       "value": 2,
-      "end_time": "2026-10-25T07:00:00+0000"
+      "end_time": "2026-10-26T07:00:00+0000"
      },
      {
       "value": 0,
-      "end_time": "2026-10-26T07:00:00+0000"
+      "end_time": "2026-10-27T07:00:00+0000"
      }
     ],
     "title": "Follower Count",
@@ -28,12 +28,12 @@
     "period": "day",
     "values": [
      {
-      "value": 2178,
-      "end_time": "2026-10-25T07:00:00+0000"
+      "value": 4744,
+      "end_time": "2026-10-26T07:00:00+0000"
      },
      {
-      "value": 4425,
-      "end_time": "2026-10-26T07:00:00+0000"
+      "value": 1815,
+      "end_time": "2026-10-27T07:00:00+0000"
      }
     ],
     "title": "Reach",
@@ -48,36 +48,36 @@
     "values": [
      {
       "value": {
-       "0": 389,
-       "1": 418,
-       "2": 461,
-       "3": 440,
-       "4": 448,
-       "5": 435,
-       "6": 450,
-       "7": 454,
+       "0": 425,
+       "1": 437,
+       "2": 458,
+       "3": 427,
+       "4": 419,
+       "5": 459,
+       "6": 444,
+       "7": 480,
        "8": 469,
-       "9": 509,
-       "10": 536,
-       "11": 541,
-       "12": 529,
-       "13": 486,
-       "14": 362,
-       "15": 224,
-       "16": 125,
-       "17": 90,
-       "18": 71,
-       "19": 80,
-       "20": 162,
-       "21": 291,
-       "22": 334,
-       "23": 355
+       "9": 511,
+       "10": 519,
+       "11": 547,
+       "12": 526,
+       "13": 488,
+       "14": 421,
+       "15": 244,
+       "16": 130,
+       "17": 99,
+       "18": 72,
+       "19": 83,
+       "20": 174,
+       "21": 293,
+       "22": 339,
+       "23": 374
       },
-      "end_time": "2026-10-25T07:00:00+0000"
+      "end_time": "2026-10-26T07:00:00+0000"
      },
      {
       "value": {},
-      "end_time": "2026-10-26T07:00:00+0000"
+      "end_time": "2026-10-27T07:00:00+0000"
      }
     ],
     "title": "Online Followers",
@@ -88,6 +88,75 @@
  },
  "posts": [
   {
+   "id": "18098567906364792",
+   "timestamp": "2026-10-27T19:31:28+0000",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "like_count": 1,
+   "comments_count": 0,
+   "caption": "Güney Pasifik'in nautilusunun gözünde mercek yok, bu yüzden dünyayı iğne delikli bir kamera gibi görüyor ve yaklaşık 90 ",
+   "permalink": "https://www.instagram.com/p/DfAnTyZlC89/",
+   "insights": {
+    "reach": 44,
+    "views": 74,
+    "saved": 1,
+    "shares": 0,
+    "total_interactions": 2
+   }
+  },
+  {
+   "id": "18140355964617537",
+   "timestamp": "2026-10-27T18:16:32+0000",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "like_count": 1,
+   "comments_count": 0,
+   "caption": "Etiyopya yaylalarının gelada maymunu, göğsündeki kırmızı kum saati şeklindeki deri nedeniyle \"kanayan kalpli maymun\" diy",
+   "permalink": "https://www.instagram.com/reel/DfAeqNoDOVi/",
+   "insights": {
+    "reach": 331,
+    "views": 367,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 1,
+    "ig_reels_avg_watch_time": 10266
+   }
+  },
+  {
+   "id": "18184470268424079",
+   "timestamp": "2026-10-27T15:42:47+0000",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "like_count": 3,
+   "comments_count": 0,
+   "caption": "Amerika'nın tek zehirli yerli kertenkelesi Gila canavarının zehrindeki exendin-4 maddesi, tip 2 diyabet ve obezite tedav",
+   "permalink": "https://www.instagram.com/p/DfANHzDlLqA/",
+   "insights": {
+    "reach": 60,
+    "views": 100,
+    "saved": 1,
+    "shares": 4,
+    "total_interactions": 8
+   }
+  },
+  {
+   "id": "17912041791487954",
+   "timestamp": "2026-10-27T06:28:07+0000",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "like_count": 2,
+   "comments_count": 0,
+   "caption": "Doğu Afrika'nın Rüppell akbabası, 1973'te Fildişi Sahili üzerinde 11.300 metre irtifada bir uçağın motoruna girerek kayı",
+   "permalink": "https://www.instagram.com/p/De_NqbxFt8y/",
+   "insights": {
+    "reach": 122,
+    "views": 198,
+    "saved": 1,
+    "shares": 0,
+    "total_interactions": 3
+   }
+  },
+  {
    "id": "18118283285589723",
    "timestamp": "2026-10-26T19:30:55+0000",
    "media_type": "CAROUSEL_ALBUM",
@@ -97,8 +166,8 @@
    "caption": "Çin'in dağ derelerinde yaşayan dev semender, çocuk ağlamasına benzeyen sesler çıkardığı için Çincede 'bebek balığı' diye",
    "permalink": "https://www.instagram.com/p/De-Cc1MiS_6/",
    "insights": {
-    "reach": 65,
-    "views": 101,
+    "reach": 111,
+    "views": 178,
     "saved": 3,
     "shares": 0,
     "total_interactions": 6
@@ -109,17 +178,17 @@
    "timestamp": "2026-10-26T17:06:13+0000",
    "media_type": "VIDEO",
    "media_product_type": "REELS",
-   "like_count": 17,
+   "like_count": 30,
    "comments_count": 0,
    "caption": "Deniz kızı efsanelerine ilham verdiği düşünülen dugong, tamamen denizde yaşayan tek otçul memeli ve akrabalık bakımından",
    "permalink": "https://www.instagram.com/reel/De9x0OtAFyw/",
    "insights": {
-    "reach": 2246,
-    "views": 2450,
-    "saved": 1,
-    "shares": 0,
-    "total_interactions": 18,
-    "ig_reels_avg_watch_time": 14638
+    "reach": 3926,
+    "views": 4230,
+    "saved": 3,
+    "shares": 1,
+    "total_interactions": 34,
+    "ig_reels_avg_watch_time": 15662
    }
   },
   {
@@ -132,8 +201,8 @@
    "caption": "Mercan resiflerinin devi napolyon balığı 229 santimetreye ve 191 kiloya kadar büyüyebiliyor, zehirli deniz yıldızlarını ",
    "permalink": "https://www.instagram.com/p/De9qT6noC3k/",
    "insights": {
-    "reach": 61,
-    "views": 109,
+    "reach": 86,
+    "views": 146,
     "saved": 1,
     "shares": 0,
     "total_interactions": 3
@@ -149,8 +218,8 @@
    "caption": "Güneydoğu Asya ormanlarının siyah beyaz devi Malay tapirinin bölünmüş rengi siluetini bozuyor ve yatarken avcıların onu ",
    "permalink": "https://www.instagram.com/p/De8o89_FT0x/",
    "insights": {
-    "reach": 112,
-    "views": 211,
+    "reach": 133,
+    "views": 264,
     "saved": 1,
     "shares": 0,
     "total_interactions": 4
@@ -166,11 +235,11 @@
    "caption": "Yaprak deniz ejderinde dişi en fazla 250 yumurtayı erkeğin kuyruğuna bırakıyor ve yavrular çıkana kadar yaklaşık 9 hafta",
    "permalink": "https://www.instagram.com/p/De7b-9tD8fC/",
    "insights": {
-    "reach": 83,
-    "views": 148,
-    "saved": 1,
+    "reach": 94,
+    "views": 164,
+    "saved": 3,
     "shares": 0,
-    "total_interactions": 5
+    "total_interactions": 7
    }
   },
   {
@@ -183,12 +252,12 @@
    "caption": "Brezilyalıların \"su jaguarı\" dediği dev su samuru, 1,8 metreye varan boyuyla sansargiller ailesinin en uzun üyesi. 🦦🌊\n\n#",
    "permalink": "https://www.instagram.com/reel/De7LknSDXeP/",
    "insights": {
-    "reach": 3989,
-    "views": 4344,
+    "reach": 4003,
+    "views": 4366,
     "saved": 0,
     "shares": 1,
     "total_interactions": 40,
-    "ig_reels_avg_watch_time": 13875
+    "ig_reels_avg_watch_time": 13867
    }
   },
   {
@@ -201,8 +270,8 @@
    "caption": "Orta Amerika'nın bulut ormanlarında yaşayan görkemli quetzalın yeşil kuyruk tüyleri Maya uygarlığında o kadar değerliydi",
    "permalink": "https://www.instagram.com/p/De7BWx4lAA5/",
    "insights": {
-    "reach": 91,
-    "views": 168,
+    "reach": 100,
+    "views": 182,
     "saved": 3,
     "shares": 0,
     "total_interactions": 9
@@ -218,8 +287,8 @@
    "caption": "Adı \"toprak domuzu\" anlamına gelse de domuzla akraba olmayan yerdomuzu, uzun ve yapışkan diliyle tek bir gecede 50.000'e",
    "permalink": "https://www.instagram.com/p/De6DapMm0i6/",
    "insights": {
-    "reach": 89,
-    "views": 156,
+    "reach": 93,
+    "views": 166,
     "saved": 1,
     "shares": 0,
     "total_interactions": 4
@@ -235,8 +304,8 @@
    "caption": "Orta ve Güney Amerika ormanlarının gizemli kuşu güneş balıkçılı, tehlikede kanatlarını açıp kırmızı, sarı ve siyah göz d",
    "permalink": "https://www.instagram.com/p/De43IMFn2uQ/",
    "insights": {
-    "reach": 93,
-    "views": 154,
+    "reach": 98,
+    "views": 160,
     "saved": 1,
     "shares": 0,
     "total_interactions": 5
@@ -252,8 +321,8 @@
    "caption": "Galápagos'ın yosun avcısı deniz iguanası, 30 metreye kadar dalıp bir saate kadar su altında kalabiliyor ve yuttuğu tuzu ",
    "permalink": "https://www.instagram.com/p/De4cjgclsIL/",
    "insights": {
-    "reach": 100,
-    "views": 187,
+    "reach": 103,
+    "views": 192,
     "saved": 2,
     "shares": 0,
     "total_interactions": 7
@@ -269,8 +338,8 @@
    "caption": "Saatte 88 kilometreye varan hızıyla Amerika'nın en hızlı kara memelisi olan çatalboynuz, görünüşüne rağmen antilop değil",
    "permalink": "https://www.instagram.com/p/De3ef4SFKmf/",
    "insights": {
-    "reach": 87,
-    "views": 161,
+    "reach": 91,
+    "views": 165,
     "saved": 1,
     "shares": 0,
     "total_interactions": 3
@@ -286,8 +355,8 @@
    "caption": "Sudan çıkıp göğüs yüzgeçleriyle çamurda sekerek ilerleyen çamur balığı (mudskipper), nemli derisi ve ağzı-boğazı üzerind",
    "permalink": "https://www.instagram.com/p/De2TSB7oOFB/",
    "insights": {
-    "reach": 103,
-    "views": 163,
+    "reach": 105,
+    "views": 166,
     "saved": 1,
     "shares": 0,
     "total_interactions": 3
@@ -303,12 +372,12 @@
    "caption": "Himalayaların gizemli devi takin, 350 kiloya ulaşan cüssesine rağmen yüksekteki yapraklara uzanmak için arka ayakları üz",
    "permalink": "https://www.instagram.com/reel/De2Pt9xEr6T/",
    "insights": {
-    "reach": 466,
-    "views": 513,
+    "reach": 469,
+    "views": 516,
     "saved": 2,
     "shares": 0,
     "total_interactions": 6,
-    "ig_reels_avg_watch_time": 12455
+    "ig_reels_avg_watch_time": 12449
    }
   },
   {
@@ -321,8 +390,8 @@
    "caption": "Yeni Kaledonya'ya özgü kagu, burun deliklerini örten ve başka hiçbir kuşta bulunmayan yapısıyla tanınan, doğada yalnızca",
    "permalink": "https://www.instagram.com/p/De14ny6m8uS/",
    "insights": {
-    "reach": 148,
-    "views": 265,
+    "reach": 151,
+    "views": 269,
     "saved": 3,
     "shares": 0,
     "total_interactions": 10
@@ -338,8 +407,8 @@
    "caption": "Adı kurt ama aslında sırtlan ailesinin en küçük üyesi olan toprak kurdu, tek bir gecede 250 bine kadar termit yiyebiliyo",
    "permalink": "https://www.instagram.com/p/De06K6xFSBM/",
    "insights": {
-    "reach": 299,
-    "views": 442,
+    "reach": 307,
+    "views": 458,
     "saved": 3,
     "shares": 5,
     "total_interactions": 12
@@ -355,8 +424,8 @@
    "caption": "Avustralya’nın sevimli kazıcısı çıplak burunlu vombat, bağırsaklarının özel yapısı sayesinde küp şeklinde dışkı üretip b",
    "permalink": "https://www.instagram.com/p/DezO4ufCC3s/",
    "insights": {
-    "reach": 143,
-    "views": 252,
+    "reach": 144,
+    "views": 253,
     "saved": 1,
     "shares": 0,
     "total_interactions": 6
@@ -372,8 +441,8 @@
    "caption": "Örümcek gibi ama o bir yengeç 🦀",
    "permalink": "https://www.instagram.com/p/DexGz3xDo02/",
    "insights": {
-    "reach": 148,
-    "views": 266,
+    "reach": 149,
+    "views": 268,
     "saved": 2,
     "shares": 5,
     "total_interactions": 13
@@ -389,8 +458,8 @@
    "caption": "Kuyruğu neredeyse vücudu kadar uzun olan Zorilla 🦨\n\n#terrawildnature \n\nHergün yeni canlıları sizlerle buluşturuyoruz. Bu",
    "permalink": "https://www.instagram.com/p/Deub4aYDjnI/",
    "insights": {
-    "reach": 199,
-    "views": 346,
+    "reach": 200,
+    "views": 349,
     "saved": 4,
     "shares": 0,
     "total_interactions": 10
@@ -418,16 +487,16 @@
    "timestamp": "2026-10-18T13:43:30+0000",
    "media_type": "CAROUSEL_ALBUM",
    "media_product_type": "FEED",
-   "like_count": 17,
+   "like_count": 18,
    "comments_count": 0,
    "caption": "Afrika’nın sık yağmur ormanlarında saklanan Kongo tavus kuşu 🦚 \n\n#terrawildnature \n\nCanlılar hakkında daha fazla bilgi s",
    "permalink": "https://www.instagram.com/p/Deo0VyHjswU/",
    "insights": {
     "reach": 402,
-    "views": 589,
+    "views": 591,
     "saved": 6,
     "shares": 1,
-    "total_interactions": 24
+    "total_interactions": 25
    }
   },
   {
@@ -489,14 +558,7 @@
    "like_count": 14,
    "comments_count": 0,
    "caption": "Cyphoderris monstrosa, Kuzey Amerika’nın dağlık ormanlarında yaşayan bu sıra dışı çekirge, çiftleşme sırasında dişinin e",
-   "permalink": "https://www.instagram.com/p/DdM3KmFjn7y/",
-   "insights": {
-    "reach": 547,
-    "views": 775,
-    "saved": 2,
-    "shares": 0,
-    "total_interactions": 16
-   }
+   "permalink": "https://www.instagram.com/p/DdM3KmFjn7y/"
   },
   {
    "id": "17958100899214309",
