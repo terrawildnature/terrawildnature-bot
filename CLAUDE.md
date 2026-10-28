@@ -18,15 +18,30 @@ Sen Instagram'a hiçbir şey göndermezsin. Görevin yalnızca gönderi hazırla
 6. Canlıların adlarını `data/used.txt` sonuna ekle.
 7. `git add -A && git commit -m "Yeni gönderiler: <adlar>" && git push` (çakışma olursa `git pull --rebase` sonra tekrar push).
 
-## 0. Önce performans raporunu oku
+## 0. Önce performans raporunu ve öğrenme günlüğünü oku
 
-`data/insights.md` her sabah 05:05'te gerçek Instagram istatistiklerinden yeniden üretilir. Canlı seçmeden ve başlık yazmadan **önce** oku ve şöyle kullan:
-- Rapordaki **"güçlü — daha sık kullan"** grup ve kanca tarzlarına öncelik ver. **"zayıf"** olanları daha seyrek kullan (tamamen bırakma).
-- Günün 3 gönderisinden **2'si** güçlü/ortalama bir grup + kanca tarzıyla, **1'i** keşif amaçlı olsun: "veri yetersiz" ya da hiç denenmemiş bir grup veya kanca tarzı. Reels için de aynı mantık: güçlü tarzlara ağırlık ver, arada farklısını dene.
-- "En iyi 5" listesindeki başlıkların neden tuttuğunu düşün (sayı mı, şaşkınlık mı, tehlike mi) ve benzer etkide **yeni** başlıklar yaz. Aynı başlığı kopyalama.
+`data/insights.md` her sabah 05:05'te gerçek Instagram istatistiklerinden yeniden üretilir; `data/learnings.md` senin önceki günlerde çıkardığın derslerdir. Canlı seçmeden ve metin yazmadan **önce** ikisini de oku.
+
+Raporu doğru yorumla:
+- **"İçerik" sütunu esastır.** Bir paylaşımın erişimi yüksekse önce **"Gün"** sütununa bak: gün etkisi ≥1,30 ise o gün her şey iyi gitmiştir (hareketli gün, reklam, algoritma). O paylaşımın başarısını içeriğe yazma. İçerik değeri ≥1,20 olanlar gerçekten etkileyici içeriktir.
+- **Skor** paylaşım, kaydetme, beğeni ve (Reels'te) izlenme süresini de içerir. Büyüme için en değerli sinyaller sırasıyla: takip/1000, paylaşım/1000, kaydetme/1000, izlenme süresi, beğeni.
+- Tablolardaki **"güçlü — daha sık kullan"** değerlere (canlı grubu, kanca tarzı, gün, saat, müzik, Reels süresi) ağırlık ver; **"zayıf"** olanları daha seyrek kullan (tamamen bırakma). "Veri yetersiz" olanları denemeye devam et.
+- **Öne çıkan bulgular** listesini uygula. Örneğin "en çok paylaşılan Reels'in kancası X" diyorsa bugün o etkide yeni bir kanca dene; "Reels süresi >50 sn zayıf" diyorsa metni kısa tut.
+- Günün 3 gönderisinden **2'si** güçlü/ortalama tarzlarla, **1'i** keşif amaçlı (az denenmiş grup veya kanca) olsun. Reels'te de güçlü tarzlara ağırlık ver, arada farklısını dene.
+- "En iyi 5" başlıklarının **neden** tuttuğunu düşün (rakam mı, şaşkınlık mı, tehlike mi, benzetme mi) ve benzer etkide **yeni** başlıklar yaz. Kopyalama. "En zayıf 5"teki hatalardan kaçın.
 - Rapor yoksa ya da veri azsa grupları ve kanca tarzlarını dengeli dağıt.
-- Rapor **sadece** canlı seçimini, canlı grubunu, kanca tarzını ve başlık/metin ifadesini etkiler. Tasarım şablonu (`assets/`, `tools/render.py`, `tools/reel.py`: yazı tipleri, renkler, yerleşim, rozet, kapak düzeni) **asla** değişmez, rapor ne derse desin.
-- Son mesajında, rapordan ne öğrendiğini ve seçimlerine nasıl yansıttığını tek cümleyle yaz.
+- Rapor **sadece** canlı seçimini, canlı grubunu, kanca tarzını, başlık/metin ifadesini, Reels metin uzunluğunu ve müzik seçimini etkiler. Tasarım şablonu (`assets/`, `tools/render.py`, `tools/reel.py`: yazı tipleri, renkler, yerleşim, rozet, kapak düzeni) **asla** değişmez, rapor ne derse desin.
+
+**Öğrenme günlüğü:** Her çalıştırmanın sonunda `data/learnings.md` dosyasının **sonuna** 2-4 satır ekle ve commit'le:
+```
+## <YYYY-MM-DD>
+- Rapordan öğrenilen: <en önemli 1-2 bulgu, sayılarıyla>
+- Bugün uygulanan: <seçimlere nasıl yansıttın>
+- Sonra kontrol et: <bu değişikliğin işe yarayıp yaramadığını görmek için neye bakılmalı>
+```
+Önceki günlerin "Sonra kontrol et" notlarına raporda bak; işe yaramayan bir değişikliği geri al, işe yarayanı sürdür. Dosya 60 günlük girdiyi aşarsa en eski girdileri tek bir "Özet" bölümünde birleştir.
+
+Son mesajında, rapordan ne öğrendiğini ve seçimlerine nasıl yansıttığını kısaca yaz.
 
 Her `post.json` ve `reel.json` dosyasına bu iki alanı **mutlaka** ekle (analiz bunlarla yapılıyor):
 - `"group"`: `memeli` | `kuş` | `sürüngen` | `amfibi` | `balık` | `deniz omurgasızı` | `böcek/örümcek` | `diğer`

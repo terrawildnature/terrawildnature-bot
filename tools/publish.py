@@ -14,6 +14,7 @@ Exit code 2 when the queue is empty (so the workflow run shows as failed and you
 import json
 import os
 import shutil
+import subprocess
 import sys
 import time
 import urllib.error
@@ -74,6 +75,12 @@ def publish_reel(me, reel_dir):
         sys.exit("reel not processed after 15 minutes")
     pub = call("POST", f"{me['user_id']}/media_publish", creation_id=c["id"])
     print(f"published reel media id {pub['id']}")
+    try:   # video length, for the analysis (does length change watch time / reach?)
+        duration_s = round(float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of",
+                                                  "default=nw=1:nk=1", str(reel_dir / "reel.mp4")],
+                                                 capture_output=True, text=True).stdout.strip()), 1)
+    except Exception:
+        duration_s = None
     threads.safe(threads.post_video, os.environ["VIDEO_URL"], spec["caption"])
     dest = ROOT / "posted_reels" / reel_dir.name
     dest.parent.mkdir(exist_ok=True)
@@ -82,7 +89,8 @@ def publish_reel(me, reel_dir):
         if f.name != "reel.json":
             shutil.rmtree(f) if f.is_dir() else f.unlink()
     (dest / "published.json").write_text(json.dumps(
-        {"media_id": pub["id"], "published_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}, indent=2))
+        {"media_id": pub["id"], "published_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+         "duration_s": duration_s}, indent=2))
 
 
 def next_post():
@@ -119,19 +127,25 @@ def main():
             p["caption"] = (p.get("caption") or "")[:120]
             if p["timestamp"][:10] < cutoff:
                 continue
-            metrics = "reach,views,saved,shares,total_interactions"
+            base_m = "reach,views,likes,comments,saved,shares,total_interactions"
             if p.get("media_product_type") == "REELS":
-                metrics += ",ig_reels_avg_watch_time"
-            try:
-                req = urllib.request.Request(f"{GRAPH}/{p['id']}/insights?metric={metrics}&access_token={os.environ['IG_TOKEN']}")
-                with urllib.request.urlopen(req, timeout=60) as r:
-                    p["insights"] = {m["name"]: m["values"][0]["value"] for m in json.load(r)["data"]}
-            except Exception as e:
-                p["insights_error"] = str(e)[:80]
+                tries = [base_m + ",ig_reels_avg_watch_time,ig_reels_video_view_total_time", base_m + ",ig_reels_avg_watch_time"]
+            else:
+                tries = [base_m + ",follows,profile_visits", base_m]
+            tries.append("reach,views,saved,shares,total_interactions")   # always-available fallback
+            for metrics in tries:   # not every metric exists for every media type: fall back step by step
+                try:
+                    req = urllib.request.Request(f"{GRAPH}/{p['id']}/insights?metric={metrics}&access_token={os.environ['IG_TOKEN']}")
+                    with urllib.request.urlopen(req, timeout=60) as r:
+                        p["insights"] = {m["name"]: m["values"][0]["value"] for m in json.load(r)["data"]}
+                    p.pop("insights_error", None)
+                    break
+                except Exception as e:
+                    p["insights_error"] = str(e)[:80]
         with open(ROOT / "data" / "followers.csv", "a", encoding="utf-8") as f:   # follower history
             f.write(f"{time.strftime('%Y-%m-%d')},{acct.get('followers_count')}\n")
         try:
-            req = urllib.request.Request(f"{GRAPH}/me/insights?metric=follower_count,reach&period=day&access_token={os.environ['IG_TOKEN']}")
+            req = urllib.request.Request(f"{GRAPH}/me/insights?metric=follower_count,reach&period=day&since={int(time.time()) - 29 * 86400}&until={int(time.time())}&access_token={os.environ['IG_TOKEN']}")
             with urllib.request.urlopen(req, timeout=60) as r:
                 acct["daily"] = json.load(r)["data"]
         except Exception as e:
