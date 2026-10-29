@@ -1,9 +1,9 @@
 {
  "account": {
   "username": "terrawildnature",
-  "followers_count": 1246,
+  "followers_count": 1247,
   "follows_count": 18,
-  "media_count": 157,
+  "media_count": 158,
   "id": "29086642960932360",
   "daily": [
    {
@@ -248,7 +248,7 @@
       "end_time": "2026-10-27T07:00:00+0000"
      },
      {
-      "value": 276,
+      "value": 492,
       "end_time": "2026-10-28T07:00:00+0000"
      }
     ],
@@ -263,7 +263,32 @@
     "period": "lifetime",
     "values": [
      {
-      "value": {},
+      "value": {
+       "0": 435,
+       "1": 430,
+       "2": 471,
+       "3": 457,
+       "4": 421,
+       "5": 454,
+       "6": 410,
+       "7": 426,
+       "8": 477,
+       "9": 498,
+       "10": 535,
+       "11": 541,
+       "12": 546,
+       "13": 483,
+       "14": 369,
+       "15": 246,
+       "16": 137,
+       "17": 96,
+       "18": 69,
+       "19": 89,
+       "20": 155,
+       "21": 280,
+       "22": 342,
+       "23": 376
+      },
       "end_time": "2026-10-27T07:00:00+0000"
      },
      {
@@ -279,24 +304,45 @@
  },
  "posts": [
   {
+   "id": "18341038426278992",
+   "timestamp": "2026-10-28T19:34:03+0000",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "like_count": 2,
+   "comments_count": 0,
+   "caption": "Amazon'un dev balığı arapaima, kan damarlarıyla dolu özel bir organı sayesinde havadan nefes aldığı için sık sık yüzeye ",
+   "permalink": "https://www.instagram.com/p/DfDMZetAY2z/",
+   "insights": {
+    "reach": 43,
+    "views": 72,
+    "likes": 2,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 2,
+    "follows": 0,
+    "profile_visits": 17
+   }
+  },
+  {
    "id": "18194266783405230",
    "timestamp": "2026-10-28T17:12:07+0000",
    "media_type": "VIDEO",
    "media_product_type": "REELS",
-   "like_count": 0,
+   "like_count": 2,
    "comments_count": 0,
    "caption": "Afrika sulak alanlarının çekiç başlı kuşu hamerkop, bir insanın ağırlığını taşıyacak kadar sağlam ve bir buçuk metreyi a",
    "permalink": "https://www.instagram.com/reel/DfC8DyOCsKZ/",
    "insights": {
-    "reach": 151,
-    "views": 172,
-    "likes": 0,
+    "reach": 342,
+    "views": 367,
+    "likes": 2,
     "comments": 0,
     "saved": 0,
     "shares": 0,
-    "total_interactions": 0,
-    "ig_reels_avg_watch_time": 11129,
-    "ig_reels_video_view_total_time": 1702780
+    "total_interactions": 2,
+    "ig_reels_avg_watch_time": 11844,
+    "ig_reels_video_view_total_time": 4086210
    }
   },
   {
@@ -309,8 +355,8 @@
    "caption": "Yeni Zelanda adalarının tuatarası, başının üstündeki parietal gözle yaşayan canlılar arasında bu üçüncü gözü en belirgin",
    "permalink": "https://www.instagram.com/p/DfCyTRAkaun/",
    "insights": {
-    "reach": 45,
-    "views": 93,
+    "reach": 55,
+    "views": 109,
     "likes": 3,
     "comments": 0,
     "saved": 1,
@@ -330,8 +376,8 @@
    "caption": "Güney Okyanusu'nun dev avcısı güney fil foku, balina olmayan nefes alan canlılar arasında en derin dalgıç olarak 2.388 m",
    "permalink": "https://www.instagram.com/p/DfBy73nlqMD/",
    "insights": {
-    "reach": 63,
-    "views": 115,
+    "reach": 65,
+    "views": 118,
     "likes": 2,
     "comments": 0,
     "saved": 1,
@@ -351,8 +397,8 @@
    "caption": "Güney Pasifik'in nautilusunun gözünde mercek yok, bu yüzden dünyayı iğne delikli bir kamera gibi görüyor ve yaklaşık 90 ",
    "permalink": "https://www.instagram.com/p/DfAnTyZlC89/",
    "insights": {
-    "reach": 93,
-    "views": 166,
+    "reach": 97,
+    "views": 171,
     "likes": 4,
     "comments": 0,
     "saved": 3,
@@ -372,15 +418,15 @@
    "caption": "Etiyopya yaylalarının gelada maymunu, göğsündeki kırmızı kum saati şeklindeki deri nedeniyle \"kanayan kalpli maymun\" diy",
    "permalink": "https://www.instagram.com/reel/DfAeqNoDOVi/",
    "insights": {
-    "reach": 350,
-    "views": 388,
+    "reach": 352,
+    "views": 389,
     "likes": 3,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 3,
-    "ig_reels_avg_watch_time": 10221,
-    "ig_reels_video_view_total_time": 3751314
+    "ig_reels_avg_watch_time": 10223,
+    "ig_reels_video_view_total_time": 3772331
    }
   },
   {
@@ -393,8 +439,8 @@
    "caption": "Amerika'nın tek zehirli yerli kertenkelesi Gila canavarının zehrindeki exendin-4 maddesi, tip 2 diyabet ve obezite tedav",
    "permalink": "https://www.instagram.com/p/DfANHzDlLqA/",
    "insights": {
-    "reach": 82,
-    "views": 144,
+    "reach": 84,
+    "views": 149,
     "likes": 4,
     "comments": 0,
     "saved": 2,
@@ -414,8 +460,8 @@
    "caption": "Doğu Afrika'nın Rüppell akbabası, 1973'te Fildişi Sahili üzerinde 11.300 metre irtifada bir uçağın motoruna girerek kayı",
    "permalink": "https://www.instagram.com/p/De_NqbxFt8y/",
    "insights": {
-    "reach": 138,
-    "views": 229,
+    "reach": 140,
+    "views": 234,
     "likes": 2,
     "comments": 0,
     "saved": 1,
@@ -435,8 +481,8 @@
    "caption": "Çin'in dağ derelerinde yaşayan dev semender, çocuk ağlamasına benzeyen sesler çıkardığı için Çincede 'bebek balığı' diye",
    "permalink": "https://www.instagram.com/p/De-Cc1MiS_6/",
    "insights": {
-    "reach": 116,
-    "views": 189,
+    "reach": 119,
+    "views": 193,
     "likes": 3,
     "comments": 0,
     "saved": 3,
@@ -456,15 +502,15 @@
    "caption": "Deniz kızı efsanelerine ilham verdiği düşünülen dugong, tamamen denizde yaşayan tek otçul memeli ve akrabalık bakımından",
    "permalink": "https://www.instagram.com/reel/De9x0OtAFyw/",
    "insights": {
-    "reach": 3942,
-    "views": 4250,
+    "reach": 3944,
+    "views": 4252,
     "likes": 30,
     "comments": 0,
     "saved": 3,
     "shares": 1,
     "total_interactions": 35,
-    "ig_reels_avg_watch_time": 15651,
-    "ig_reels_video_view_total_time": 61870915
+    "ig_reels_avg_watch_time": 15644,
+    "ig_reels_video_view_total_time": 61904996
    }
   },
   {
@@ -477,8 +523,8 @@
    "caption": "Mercan resiflerinin devi napolyon balığı 229 santimetreye ve 191 kiloya kadar büyüyebiliyor, zehirli deniz yıldızlarını ",
    "permalink": "https://www.instagram.com/p/De9qT6noC3k/",
    "insights": {
-    "reach": 92,
-    "views": 157,
+    "reach": 94,
+    "views": 160,
     "likes": 2,
     "comments": 0,
     "saved": 1,
@@ -498,8 +544,8 @@
    "caption": "Güneydoğu Asya ormanlarının siyah beyaz devi Malay tapirinin bölünmüş rengi siluetini bozuyor ve yatarken avcıların onu ",
    "permalink": "https://www.instagram.com/p/De8o89_FT0x/",
    "insights": {
-    "reach": 144,
-    "views": 281,
+    "reach": 147,
+    "views": 285,
     "likes": 3,
     "comments": 0,
     "saved": 1,
@@ -519,8 +565,8 @@
    "caption": "Yaprak deniz ejderinde dişi en fazla 250 yumurtayı erkeğin kuyruğuna bırakıyor ve yavrular çıkana kadar yaklaşık 9 hafta",
    "permalink": "https://www.instagram.com/p/De7b-9tD8fC/",
    "insights": {
-    "reach": 96,
-    "views": 167,
+    "reach": 97,
+    "views": 169,
     "likes": 4,
     "comments": 0,
     "saved": 3,
@@ -561,8 +607,8 @@
    "caption": "Orta Amerika'nın bulut ormanlarında yaşayan görkemli quetzalın yeşil kuyruk tüyleri Maya uygarlığında o kadar değerliydi",
    "permalink": "https://www.instagram.com/p/De7BWx4lAA5/",
    "insights": {
-    "reach": 102,
-    "views": 184,
+    "reach": 103,
+    "views": 185,
     "likes": 6,
     "comments": 0,
     "saved": 3,
@@ -687,7 +733,7 @@
    "caption": "Himalayaların gizemli devi takin, 350 kiloya ulaşan cüssesine rağmen yüksekteki yapraklara uzanmak için arka ayakları üz",
    "permalink": "https://www.instagram.com/reel/De2Pt9xEr6T/",
    "insights": {
-    "reach": 469,
+    "reach": 470,
     "views": 516,
     "likes": 4,
     "comments": 0,
@@ -708,8 +754,8 @@
    "caption": "Yeni Kaledonya'ya özgü kagu, burun deliklerini örten ve başka hiçbir kuşta bulunmayan yapısıyla tanınan, doğada yalnızca",
    "permalink": "https://www.instagram.com/p/De14ny6m8uS/",
    "insights": {
-    "reach": 152,
-    "views": 270,
+    "reach": 153,
+    "views": 271,
     "likes": 7,
     "comments": 0,
     "saved": 3,
@@ -897,7 +943,7 @@
    "caption": "Yeraltının en ilginç canlılarından olan Giant Golden Mole. \n\n#enteresanbilgiler \n\nDaha fazla bilgi için bizi takip etmey",
    "permalink": "https://www.instagram.com/p/DeH97O4lSkd/",
    "insights": {
-    "reach": 585,
+    "reach": 587,
     "views": 864,
     "likes": 15,
     "comments": 0,
