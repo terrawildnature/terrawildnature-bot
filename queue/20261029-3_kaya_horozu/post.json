@@ -1,0 +1,91 @@
+{
+  "name": "and kaya horozu",
+  "group": "kuş",
+  "hook_style": "tuhaf yetenek",
+  "title": [
+    [
+      [
+        "BU KUŞUN ERKEKLERİ",
+        "W"
+      ]
+    ],
+    [
+      [
+        "DİŞİ İÇİN",
+        "W"
+      ],
+      [
+        "TOPLANIP",
+        "R"
+      ]
+    ],
+    [
+      [
+        "GÖSTERİ YAPIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "ANDLAR KAYA HOROZU",
+  "card_top": [
+    "Erkekler toplanıp zıplar, ses",
+    "çıkarır, parlak tüyünü sergiler."
+  ],
+  "card_bottom": [
+    "Dişi kayalık bir çıkıntının",
+    "altına yuva yapar ve yavruya",
+    "tek başına bakar."
+  ],
+  "right": [
+    "Peru'nun milli kuşudur.",
+    "And Dağları'nın bulut",
+    "ormanlarında yaşar.",
+    "Çoğunlukla meyve yer;",
+    "böcek ve kurbağa da yer."
+  ],
+  "loc": "And Dağları",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.43,
+      "cy": 0.45,
+      "zoom": 1.3
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.55,
+      "cy": 0.42,
+      "zoom": 1.6
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Andean cock-of-the-rock (Rupicola peruvianus sanguinolentus) male Antioquia 2.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Andean cock-of-the-rock (Rupicola peruvianus) Antioquia 4.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Andean cock-of-the-rock (Rupicola peruvianus sanguinolentus) male Antioquia.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "And Dağları'nın turuncu tüylü Andlar kaya horozu, erkeklerin dişiyi etkilemek için toplanıp zıplayarak gösteri yapmasıyla ünlü ve Peru'nun milli kuşu sayılıyor. 🐦🧡\n\n#terrawildnature #ilginçbilgiler #kayahorozu\n\n📷 Charles J. Sharp (CC BY-SA 4.0) / Wikimedia Commons"
+}

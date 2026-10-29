@@ -1,0 +1,91 @@
+{
+  "name": "atlas güvesi",
+  "group": "böcek/örümcek",
+  "hook_style": "tuhaf görünüm",
+  "title": [
+    [
+      [
+        "BU GÜVENİN KANAT",
+        "W"
+      ]
+    ],
+    [
+      [
+        "UÇLARI",
+        "W"
+      ],
+      [
+        "YILAN",
+        "R"
+      ]
+    ],
+    [
+      [
+        "BAŞINA BENZİYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "ATLAS GÜVESİ",
+  "card_top": [
+    "Kanat açıklığı 25-30 cm'yi",
+    "bulabilen dev bir ipek güvesi."
+  ],
+  "card_bottom": [
+    "Yetişkinin ağzı gelişmemiş,",
+    "hiç yemek yemez; larvadan",
+    "kalan yağla 1-2 hafta yaşar."
+  ],
+  "right": [
+    "Asya'nın tropik ormanlarında",
+    "yaşar. Dişi, kokusuyla erkeği",
+    "kilometrelerce uzaktan çeker.",
+    "Tırtılı 11 cm'ye ulaşır.",
+    "Hindistan'da ipeği kullanılır."
+  ],
+  "loc": "Asya",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.55,
+      "zoom": 1.1
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom": 1.1
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.6,
+      "zoom": 1.5
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Atlas moth.(Attacus atlas) (25738742888).jpg",
+      "author": "Bernard Spragg",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Atlas moth.(Attacus atlas) (37127800310).jpg",
+      "author": "Bernard Spragg",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "File:Attacus atlas, the Atlas moth...jpg",
+      "author": "Raghith",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Asya ormanlarının dev ipek güvesi atlas güvesinin kanat uçları yılan başına benziyor ve yetişkini hiç yemek yemeden yalnızca 1-2 hafta yaşıyor. 🦋🐍\n\n#terrawildnature #ilginçbilgiler #atlasgüvesi"
+}

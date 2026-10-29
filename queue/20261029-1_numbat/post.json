@@ -1,0 +1,91 @@
+{
+  "name": "numbat",
+  "group": "memeli",
+  "hook_style": "sayı",
+  "title": [
+    [
+      [
+        "BU ÇİZGİLİ HAYVAN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "GÜNDE",
+        "W"
+      ],
+      [
+        "20.000",
+        "R"
+      ]
+    ],
+    [
+      [
+        "TERMİT YİYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "NUMBAT",
+  "card_top": [
+    "Çoğu küçük keselinin aksine",
+    "gündüz aktif; neredeyse hep termit."
+  ],
+  "card_bottom": [
+    "Uzun, yapışkan diliyle termit",
+    "toplar. Çenesinde 50'ye kadar",
+    "işlevsiz minik diş bulunur."
+  ],
+  "right": [
+    "Batı Avustralya'nın simgesidir.",
+    "Bir zamanlar güney Avustralya'da",
+    "yaygındı, şimdi nesli tehlikede.",
+    "Tilkiler popülasyonunu yok etti.",
+    "Kışın 15 saate dek uyuşur."
+  ],
+  "loc": "Batı Avustralya",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.33,
+      "cy": 0.5,
+      "zoom": 1.3
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.6,
+      "cy": 0.5,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.6,
+      "cy": 0.62,
+      "zoom": 2.2
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Numbat 0A2A0187.jpg",
+      "author": "JJ Harrison",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Numbat, Dryandra Woodland, Western Australia.jpg",
+      "author": "JJ Harrison",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Numbat gnangarra 01.jpg",
+      "author": "Gnangarra",
+      "license": "CC BY 2.5 au",
+      "public_domain": false
+    }
+  ],
+  "caption": "Batı Avustralya'nın çizgili sembolü numbat, gün boyu uzun yapışkan diliyle termit toplayıp günde 20.000'e kadar termit yiyebiliyor. 🐜🦘\n\n#terrawildnature #ilginçbilgiler #numbat\n\n📷 JJ Harrison (CC BY-SA 4.0), Gnangarra (CC BY 2.5 au) / Wikimedia Commons"
+}

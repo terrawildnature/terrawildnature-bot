@@ -1,0 +1,137 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Investigations.mp3",
+    "start": 0,
+    "loudness": -27
+  },
+  "photos": {
+    "p1.jpg": "File:Ophiophagus hannah head (3).jpg",
+    "p2.jpg": "File:Ophiophagus hannah head.jpg",
+    "p3.jpg": "File:Ophiophagus hannah (4).jpg",
+    "p4.jpg": "File:Ophiophagus hannah 381373252.jpg",
+    "p5.jpg": "File:Ophiophagus hannah head (4).jpg",
+    "p6.jpg": "File:Ophiophagus hannah Genève 24102014 1.jpg",
+    "p7.jpg": "File:Ophiophagus hannah.jpg",
+    "p8.jpg": "File:Ophiophagus hannah (3).jpg"
+  },
+  "segments": [
+    {
+      "text": "Bu yılan 5,85 metreye kadar uzanabiliyor ve dünyanın en uzun zehirli yılanı.",
+      "image": "p1.jpg",
+      "cx": 0.3,
+      "cy": 0.4,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Adı kral kobra ama aslında gerçek bir kobra değil.",
+      "image": "p2.jpg",
+      "cx": 0.3,
+      "cy": 0.4,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Başlıca yılanlarla, hatta kendi türünün bireyleriyle beslenir.",
+      "image": "p3.jpg",
+      "cx": 0.4,
+      "cy": 0.6,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Tehdit altında gövdesinin ön kısmını kaldırıp boynunu açıyor.",
+      "image": "p4.jpg",
+      "cx": 0.59,
+      "cy": 0.35,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Tıslaması o kadar alçak ki, insan sesine yakın bir hırıltıya benziyor.",
+      "image": "p5.jpg",
+      "cx": 0.45,
+      "cy": 0.45,
+      "motion": "zoom_out"
+    },
+    {
+      "text": "Yumurtaları için kuru yapraklardan yuva yapan tek yılan türü bu.",
+      "image": "p6.jpg",
+      "cx": 0.6,
+      "cy": 0.6,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Dişi, yuvanın başında iki günden yetmiş yedi güne kadar bekliyor.",
+      "image": "p7.jpg",
+      "cx": 0.36,
+      "cy": 0.62,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Vahşi doğadaki ortalama ömrü yaklaşık yirmi yıl.",
+      "image": "p8.jpg",
+      "cx": 0.42,
+      "cy": 0.4,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p1.jpg",
+      "cx": 0.3,
+      "cy": 0.4,
+      "motion": "zoom_out"
+    }
+  ],
+  "cover": {
+    "image": "p4.jpg",
+    "cx": 0.58,
+    "cy": 0.4,
+    "title": [
+      [
+        [
+          "5,85 METRE",
+          "R"
+        ]
+      ],
+      [
+        [
+          "UZUNLUĞUNDA",
+          "W"
+        ]
+      ],
+      [
+        [
+          "ZEHİRLİ",
+          "W"
+        ]
+      ],
+      [
+        [
+          "YILAN",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "credits": [
+    {
+      "author": "TimVickers",
+      "license": "Public domain"
+    },
+    {
+      "author": "Max Tibby",
+      "license": "CC0"
+    },
+    {
+      "author": "Vassil",
+      "license": "CC0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Dünyanın en uzun zehirli yılanı kral kobra, 5,85 metreye kadar uzayabiliyor ve yumurtaları için yaprak yığınından yuva yapan tek yılan türü. 🐍🍃\n\n#terrawildnature #kralkobra\n\n🎵 Kevin MacLeod (CC BY)",
+  "group": "sürüngen",
+  "hook_style": "sayı"
+}
