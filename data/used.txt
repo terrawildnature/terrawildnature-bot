@@ -242,3 +242,7 @@ numbat | Myrmecobius fasciatus
 atlas güvesi | Attacus atlas
 Andlar kaya horozu | Rupicola peruvianus
 kral kobra (Reels) | Ophiophagus hannah
+yarasa kulaklı tilki | Otocyon megalotis
+katip kuşu | Sagittarius serpentarius
+dev Pasifik ahtapotu | Enteroctopus dofleini
+balina köpekbalığı (Reels) | Rhincodon typus

@@ -1,0 +1,129 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Reawakening.mp3",
+    "start": 0,
+    "loudness": -27
+  },
+  "photos": {
+    "p1.jpg": "File:Rhincodon typus 420227783.jpg",
+    "p5.jpg": "File:Rhincodon typus 420227823.jpg",
+    "p6.jpg": "File:Rhincodon typus 420227906.jpg",
+    "p7.jpg": "File:Rhincodon typus fgbnms (cropped).jpg"
+  },
+  "segments": [
+    {
+      "text": "Tek bir balina köpekbalığının karnında yaklaşık 300 yavru bulundu.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Bu dev, bilinen en büyük balık türü.",
+      "image": "p7.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Plankton, krill ve sardalya gibi küçük balıklarla besleniyor.",
+      "image": "p5.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Süzerek beslenen yalnızca üç köpekbalığı türünden biri.",
+      "image": "p6.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Ağzında 300'den fazla sıra minik diş var.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Üzerindeki benek deseni her bireyde farklı.",
+      "image": "p7.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Kaydedilen en derin dalışı 1.928 metre.",
+      "image": "p5.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_out"
+    },
+    {
+      "text": "Ömrünün 80 ile 130 yıl arasında olduğu tahmin ediliyor.",
+      "image": "p6.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_out"
+    }
+  ],
+  "cover": {
+    "image": "p7.jpg",
+    "cx": 0.5,
+    "cy": 0.3,
+    "title": [
+      [
+        [
+          "BİR BALIĞIN",
+          "R"
+        ]
+      ],
+      [
+        [
+          "KARNINDA",
+          "W"
+        ]
+      ],
+      [
+        [
+          "300 YAVRU",
+          "W"
+        ]
+      ],
+      [
+        [
+          "ÇIKTI",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "credits": [
+    {
+      "author": "Jean-Paul Boerekamps",
+      "license": "CC0"
+    },
+    {
+      "author": "FGBNMS/Eckert (NOAA)",
+      "license": "Public domain"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Yaklaşık 300 yavruyla yakalanan bir dişi, bilinen en büyük balık olan balina köpekbalığının ne kadar üretken olduğunu gösterdi. 🦈🌊\n\n#terrawildnature #balinaköpekbalığı\n\n🎵 Kevin MacLeod (CC BY)",
+  "group": "balık",
+  "hook_style": "sayı"
+}

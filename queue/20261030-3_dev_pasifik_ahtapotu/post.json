@@ -1,0 +1,26 @@
+{
+  "name": "dev Pasifik ahtapotu",
+  "group": "deniz omurgasızı",
+  "hook_style": "sayı",
+  "title": [
+    [["BU DEV AHTAPOT", "W"]],
+    [["5 CM'LİK", "R"], ["DELİKTEN", "W"]],
+    [["GEÇEBİLİYOR", "R"]]
+  ],
+  "card_title": "DEV PASİFİK AHTAPOTU",
+  "card_top": ["Dünyanın en büyük ahtapot", "türü; kol açıklığı 4,3 m'ye varır."],
+  "card_bottom": ["Gagası geçebildiği yeri belirler:", "Vücudu 5 cm'lik aralıklara", "kadar sıkışabilir."],
+  "right": ["Kuzey Pasifik'in soğuk", "sularında yaşar.", "Bir dişi 120.000-400.000", "yumurta bırakabilir.", "Ömrü 3-5 yıl sürer."],
+  "loc": "Kuzey Pasifik",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.45, "cy": 0.45, "zoom": 1.2},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.5, "cy": 0.6, "zoom": 1.3},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.5, "cy": 0.6, "zoom": 1.5}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Enteroctopus dofleini in aquarium rotated.jpg", "author": "Bachrach44", "license": "CC0", "public_domain": true},
+    {"use": "top", "title": "File:Seattle Aquarium's Giant Pacific Octopus.jpg", "author": "Sophiegeary", "license": "CC0", "public_domain": true},
+    {"use": "inner", "title": "File:Sanc1689 - Flickr - NOAA Photo Library.jpg", "author": "Linda Snook", "license": "Public domain", "public_domain": true}
+  ],
+  "caption": "Kuzey Pasifik'in dev yumuşakçası dev Pasifik ahtapotu, vücudunu yalnızca 5 santimlik aralıklardan geçecek kadar sıkıştırabiliyor ve kolları 4,3 metreye kadar açılabiliyor. 🐙🌊\n\n#terrawildnature #ilginçbilgiler #devpasifikahtapotu"
+}

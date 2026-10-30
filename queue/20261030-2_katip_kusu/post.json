@@ -1,0 +1,26 @@
+{
+  "name": "katip kuşu",
+  "group": "kuş",
+  "hook_style": "tehlike",
+  "title": [
+    [["BU KUŞUN TEKMESİ", "W"]],
+    [["VÜCUT AĞIRLIĞININ", "R"]],
+    [["5 KATI", "R"]]
+  ],
+  "card_title": "KATİP KUŞU",
+  "card_top": ["Avını tekmeleyip ezerek", "öldürür; vuruş 10-15 ms sürer."],
+  "card_bottom": ["Yılan ve kertenkele avlar.", "Zehirli engerek ve kobralar", "da menüsünde yer alır."],
+  "right": ["Afrika'nın açık savan ve", "otlaklarında yaşar.", "Boyu 1,3 metreye ulaşır.", "Dünyanın en uzun boylu", "yırtıcı kuşu sayılır."],
+  "loc": "Sahra altı Afrika",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.5, "cy": 0.3, "zoom": 1.0},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.6, "cy": 0.45, "zoom": 1.3},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.45, "cy": 0.5, "zoom": 1.6}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Secretary bird (Sagittarius serpentarius), Buffalo Springs National Reserve.jpg", "author": "Hobbyfotowiki", "license": "CC0", "public_domain": true},
+    {"use": "top", "title": "File:Secretarybird (Sagittarius serpentarius).jpg", "author": "Bernard DUPONT", "license": "CC BY-SA 4.0", "public_domain": false},
+    {"use": "inner", "title": "File:Day 33 Secretarybird (Sagittarius serpentarius) stomping on locust ... (53589310638).jpg", "author": "Bernard DUPONT", "license": "CC BY-SA 2.0", "public_domain": false}
+  ],
+  "caption": "Afrika savanlarının uzun bacaklı avcısı katip kuşu, saldırısında vücut ağırlığının beş katı güçle tekme atıp avını daha 10-15 milisaniyede etkisiz hale getirebiliyor. 🦅🐍\n\n#terrawildnature #ilginçbilgiler #katipkuşu\n\n📷 Bernard DUPONT (CC BY-SA 4.0 / CC BY-SA 2.0) / Wikimedia Commons"
+}

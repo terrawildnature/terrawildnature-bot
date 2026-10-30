@@ -1,0 +1,26 @@
+{
+  "name": "yarasa kulaklı tilki",
+  "group": "memeli",
+  "hook_style": "sayı",
+  "title": [
+    [["BU TİLKİNİN", "W"]],
+    [["50'YE YAKIN", "R"], ["DİŞİ", "W"]],
+    [["VAR", "R"]]
+  ],
+  "card_title": "YARASA KULAKLI TİLKİ",
+  "card_top": ["46-50 dişiyle, kara memelileri", "arasında rekora sahip."],
+  "card_bottom": ["Yavrulara çoğunlukla erkek bakar:", "Onları temizler, korur ve", "yuvalar arasında taşır."],
+  "right": ["Doğu ve Güney Afrika'nın", "kurak bozkırlarında yaşar.", "Beslenmesinin büyük kısmı", "hasatçı termitlerden oluşur.", "Kulakları 11-13 cm uzunlukta."],
+  "loc": "Doğu ve Güney Afrika",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.55, "cy": 0.35, "zoom": 1.5},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.7, "cy": 0.5, "zoom": 1.4},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.55, "cy": 0.5, "zoom": 1.8}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Kalahari the bat-eared fox at the Cincinnati Zoo.jpg", "author": "HAV0Xunderscore", "license": "CC0", "public_domain": true},
+    {"use": "top", "title": "File:'Bat Eared Fox'.JPG", "author": "Rudolph.A.furtado", "license": "CC0", "public_domain": true},
+    {"use": "inner", "title": "File:Bat-eared fox, Otocyon megalotis, at Kgalagadi Transfrontier Park, Northern Cape, South Africa (34905054911).jpg", "author": "Derek Keats", "license": "CC BY 2.0", "public_domain": false}
+  ],
+  "caption": "Afrika bozkırlarının dev kulaklı avcısı yarasa kulaklı tilki, 46-50 diş sayısıyla kara memeleri arasında bir rekora sahip ve yavrularına bakma işini çoğunlukla erkek üstleniyor. 🦊🦷\n\n#terrawildnature #ilginçbilgiler #yarasakulaklıtilki\n\n📷 Derek Keats (CC BY 2.0) / Wikimedia Commons"
+}
