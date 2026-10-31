@@ -1,0 +1,82 @@
+{
+  "name": "cehennem semenderi",
+  "group": "amfibi",
+  "hook_style": "tuhaf görünüm",
+  "title": [
+    [
+      [
+        "BU SEMENDER NEFESİNİ",
+        "W"
+      ]
+    ],
+    [
+      [
+        "DERİSİNDEKİ",
+        "R"
+      ]
+    ],
+    [
+      [
+        "KIVRIMLARLA ALIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "CEHENNEM SEMENDERİ",
+  "card_top": [
+    "Kuzey Amerika'nın en büyük",
+    "semenderi, 74 cm'ye varabilir."
+  ],
+  "card_bottom": [
+    "Yanlarındaki gevşek deri",
+    "kıvrımları yüzeyi genişletir;",
+    "oksijeni derisinden alır."
+  ],
+  "right": [
+    "Doğu ABD'nin temiz, akıntılı",
+    "derelerinde yaşar. Yaşam alanı",
+    "kaybı yüzünden sayısı azalıyor.",
+    "Hayvanat bahçesinde 30 yıl",
+    "yaşayabilir; lakabı snot otter."
+  ],
+  "loc": "Doğu ABD",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.42,
+      "cy": 0.45,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.4,
+      "cy": 0.5,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.2,
+      "cy": 0.45,
+      "zoom": 1.8
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "iNaturalist 431751445",
+      "author": "sunny tyson",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "iNaturalist"
+    },
+    {
+      "use": "top",
+      "title": "iNaturalist 431751494",
+      "author": "sunny tyson",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "iNaturalist"
+    }
+  ],
+  "caption": "Kuzey Amerika'nın en büyük semenderi olan cehennem semenderi, yanlarındaki gevşek deri kıvrımları sayesinde oksijeni doğrudan derisinden alabiliyor. 🦎💧\n\n#terrawildnature #ilginçbilgiler #cehennemsemenderi"
+}

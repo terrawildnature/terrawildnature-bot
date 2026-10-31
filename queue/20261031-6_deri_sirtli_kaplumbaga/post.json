@@ -1,0 +1,73 @@
+{
+  "name": "deri sırtlı kaplumbağa",
+  "group": "sürüngen",
+  "hook_style": "süperlatif",
+  "title": [
+    [
+      [
+        "DÜNYANIN EN BÜYÜK",
+        "W"
+      ]
+    ],
+    [
+      [
+        "KAPLUMBAĞASININ",
+        "W"
+      ]
+    ],
+    [
+      [
+        "KABUĞU DERİ GİBİ",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "DERİ SIRTLI KAPLUMBAĞA",
+  "card_top": [
+    "Boyu 2,7 metreye, ağırlığı",
+    "500 kiloya ulaşabilir."
+  ],
+  "card_bottom": [
+    "Kabuğu sert plakalar yerine",
+    "yağlı, deri gibi esnek bir",
+    "dokuyla kaplıdır."
+  ],
+  "right": [
+    "Tüm tropik ve subtropik",
+    "okyanuslarda yaşar. 1.280 m",
+    "derine dalan kayıtlar var.",
+    "Besini denizanasıdır. Vücudu",
+    "sudan 18 °C sıcak olabilir."
+  ],
+  "loc": "Tüm okyanuslar",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.4,
+      "cy": 0.45,
+      "zoom": 1.1
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.4,
+      "cy": 0.55,
+      "zoom": 1.0
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.35,
+      "zoom": 1.6
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Dermochelys coriacea leatherback turtle.jpg",
+      "author": "Rabon David, U.S. Fish and Wildlife Service",
+      "license": "Public domain",
+      "public_domain": true
+    }
+  ],
+  "caption": "Dünyanın yaşayan en büyük kaplumbağası olan deri sırtlı kaplumbağanın kabuğu sert plakalar yerine yağlı, deri gibi esnek bir dokuyla kaplı. 🐢🌊\n\n#terrawildnature #ilginçbilgiler #derisirtlikaplumbaga"
+}

@@ -1,0 +1,77 @@
+{
+  "name": "opah",
+  "group": "balık",
+  "hook_style": "tuhaf yetenek",
+  "title": [
+    [
+      [
+        "BU BALIK TÜM",
+        "W"
+      ]
+    ],
+    [
+      [
+        "VÜCUDUNU ",
+        "W"
+      ],
+      [
+        "ISITAN",
+        "R"
+      ]
+    ],
+    [
+      [
+        "TEK BALIK",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "OPAH",
+  "card_top": [
+    "Tüm iç organlarını suyun",
+    "sıcaklığından yüksek tutar."
+  ],
+  "card_bottom": [
+    "Solungaçlarındaki özel damar",
+    "ağı ısı kaybını önler. Beyni",
+    "ve gözleri daha da sıcaktır."
+  ],
+  "right": [
+    "Açık okyanusta 50-500 m",
+    "derinlikte yaşar. Göğüs",
+    "yüzgeçlerini çırparak yüzer.",
+    "Küçük balıklar, kalamar ve",
+    "krill ile beslenir."
+  ],
+  "loc": "Açık okyanus",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom": 1.1
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom": 1.0
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.3,
+      "cy": 0.5,
+      "zoom": 2.2
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Lampris guttatus NOAA2.jpg",
+      "author": "Ralph Pace (NOAA Fisheries)",
+      "license": "Public domain",
+      "public_domain": true
+    }
+  ],
+  "caption": "Okyanusun derinliklerinde yaşayan opah, tüm vücudunu çevresindeki sudan daha sıcak tutabilen bilinen tek balık olarak kabul ediliyor. 🐟🔥\n\n#terrawildnature #ilginçbilgiler #opah"
+}

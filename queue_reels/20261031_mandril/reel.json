@@ -1,0 +1,143 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Ancient_Rite.ogg",
+    "start": 0,
+    "loudness": -27
+  },
+  "group": "memeli",
+  "hook_style": "süperlatif",
+  "photos": {
+    "p1.jpg": "File:Mandrill Mandrillus sphinx Zoo Augsburg-13.jpg",
+    "p2.jpg": "File:Mandrill July 2019-1.jpg",
+    "p4.jpg": "File:Mandrill Mandrillus sphinx Zoo Augsburg-14.jpg",
+    "p5.jpg": "File:Mandrillus sphinx portrait.jpg",
+    "p6.jpg": "File:Mandrill at SF Zoo.jpg",
+    "p7.jpg": "File:Young-Mandrill.jpg"
+  },
+  "segments": [
+    {
+      "text": "Mandril, dünyadaki en büyük maymun türü.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Yüzündeki kırmızı ve mavi renkler onu en renkli memelilerden biri yapıyor.",
+      "image": "p2.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Kırmızı renk, deriye yakın damarlardan geliyor.",
+      "image": "p6.jpg",
+      "cx": 0.62,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Mavi renk ise kolajen liflerinin dizilişinden oluşuyor.",
+      "image": "p4.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Erkekler 19 ile 30 kilo, dişiler 10 ile 15 kilo ağırlığında.",
+      "image": "p5.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Batı-orta Afrika'nın yağmur ormanlarında yaşıyorlar.",
+      "image": "p6.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Gabon'da sürüler yüzlerce, hatta 800'den fazla bireye ulaşabiliyor.",
+      "image": "p7.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_out"
+    },
+    {
+      "text": "Meyve ve tohum yiyor, ama böcek ve küçük geyik yavrularını da yiyor.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p2.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    }
+  ],
+  "cover": {
+    "image": "p6.jpg",
+    "cx": 0.5,
+    "cy": 0.7,
+    "title": [
+      [
+        [
+          "DÜNYANIN",
+          "R"
+        ]
+      ],
+      [
+        [
+          "EN BÜYÜK",
+          "W"
+        ]
+      ],
+      [
+        [
+          "MAYMUNU",
+          "W"
+        ]
+      ],
+      [
+        [
+          "MANDRİL",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "credits": [
+    {
+      "author": "Rufus46",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "author": "Alvesgaspar",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "matt sabbath from URTH, U.S.",
+      "license": "CC BY 2.0"
+    },
+    {
+      "author": "Sanjay Acharya",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "TopHatRhino",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Dünyanın en büyük maymunu mandril, yüzündeki kırmızı ve mavi renklerle doğadaki en renkli memelilerden biri sayılıyor. 🎨🐒\n\n#terrawildnature #mandril\n\n📷 Rufus46 (CC BY-SA 3.0), Alvesgaspar (CC BY-SA 4.0), matt sabbath (CC BY 2.0), Sanjay Acharya (CC BY-SA 4.0), TopHatRhino (CC BY-SA 4.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)"
+}
