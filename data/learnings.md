@@ -13,3 +13,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Bugün uygulanan: 2 gönderi sayı kancası (yarasa kulaklı tilki 46-50 diş, dev Pasifik ahtapotu 5 cm delik), 1 keşif (katip kuşu tekme gücü, tehlike); gruplar memeli/kuş/deniz omurgasızı; Reels balina köpekbalığı, sayı kancası, 73 kelime, Reawakening müziği.
 - Sonra kontrol et: sayı kancalı gönderilerin içerik değeri ≥1,2 mi; deniz omurgasızı grubu ilk veri; 73 kelimelik Reels'in izlenme süresi.
 - Not: Commons hız sınırı yüzünden Reels 6 fotoğrafla (7 gerekirdi) hazırlandı; sahneler fotoğrafları tekrar kullanıyor.
+
+## 2026-10-31
+- Rapordan öğrenilen: Reels'te memeli grubu güçlü (skor 2,59, içerik 3,15); gönderide memeli zayıf (0,74), 09:00 saati zayıf (0,75); sayı kancası içerik 1,23 ama skor ortalama.
+- Bugün uygulanan: Reels memeli (kısa gagalı ekidna, tuhaf yetenek kancası, 70 kelime, Investigations); gönderiler: sayı (Goliat örümceği 175 g), tuhaf görünüm (taç dikenli deniz yıldızı, keşif), tuhaf yetenek (yağ kuşu, ekolokasyon); gönderide memeli kullanılmadı.
+- Sonra kontrol et: tuhaf görünüm/deniz omurgasızı ve böcek/örümcek gönderi içerik değerleri; kısa (≈70 kelime) Reels'in izlenme süresi.

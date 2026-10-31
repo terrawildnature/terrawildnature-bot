@@ -1,0 +1,91 @@
+{
+  "name": "dikenli taç deniz yıldızı",
+  "group": "deniz omurgasızı",
+  "hook_style": "tuhaf görünüm",
+  "title": [
+    [
+      [
+        "BU DENİZ YILDIZI",
+        "W"
+      ]
+    ],
+    [
+      [
+        "ZEHİRLİ ",
+        "W"
+      ],
+      [
+        "4-5 CM'LİK",
+        "R"
+      ]
+    ],
+    [
+      [
+        "DİKENLERLE KAPLI",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "DİKENLİ TAÇ YILDIZI",
+  "card_top": [
+    "25-35 cm boyunda, 21 kola",
+    "kadar sahip dev bir yıldız."
+  ],
+  "card_bottom": [
+    "Yüzeyini kaplayan zehirli",
+    "dikenler 4-5 cm uzunluğunda",
+    "ve yumuşak yüzeyi deler."
+  ],
+  "right": [
+    "Hint-Pasifik resiflerinde",
+    "mercan polipleriyle beslenir.",
+    "Bir birey yılda 6 metrekareye",
+    "kadar canlı mercan yiyebilir.",
+    "Görüntü oluşturan gözleri var."
+  ],
+  "loc": "Hint-Pasifik",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.42,
+      "zoom": 1.0
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.48,
+      "cy": 0.7,
+      "zoom": 2.4
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.55,
+      "cy": 0.5,
+      "zoom": 1.2
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Corona de espinas (Acanthaster planci), Anilao, Filipinas, 2023-08-24, DD 217.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Crown-of-thorns starfish Acanthaster planci (7569625822).jpg",
+      "author": "Paul Asman and Jill Lenoble",
+      "license": "CC BY 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Acanthaster planci 262828076.jpg",
+      "author": "wingwatcher48",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Hint-Pasifik resiflerinin dikenli yıkıcısı taç dikenli deniz yıldızı, 21 kola kadar çıkan gövdesi ve 4-5 cm'lik zehirli dikenleriyle yılda 6 metrekareye kadar mercan yiyebiliyor. 🌊⭐\n\n#terrawildnature #ilginçbilgiler #dikenlitaçyıldızı\n\n📷 Paul Asman and Jill Lenoble (CC BY 2.0), Diego Delso (CC BY-SA 4.0) / Wikimedia Commons"
+}

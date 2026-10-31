@@ -1,0 +1,84 @@
+{
+  "name": "Goliat kuşyiyen örümcek",
+  "group": "böcek/örümcek",
+  "hook_style": "sayı",
+  "title": [
+    [
+      [
+        "BU ÖRÜMCEĞİN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "AĞIRLIĞI ",
+        "W"
+      ],
+      [
+        "175 GRAM",
+        "R"
+      ]
+    ],
+    [
+      [
+        "BACAĞI 30 CM",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "GOLYAT TARANTULASI",
+  "card_top": [
+    "Bacak açıklığı 30 cm'ye,",
+    "ağırlığı 175 grama ulaşır."
+  ],
+  "card_bottom": [
+    "Adı kuş yiyen ama nadiren",
+    "kuş avlar. Çoğunlukla büyük",
+    "böcek, kurbağa ve kurt yer."
+  ],
+  "right": [
+    "Güney Amerika'nın kuzeyinde,",
+    "yağmur ormanlarında derin",
+    "yuvalarda yaşar, geceleri",
+    "avlanır. Tehdit edilince",
+    "kıllarını sürterek ses verir."
+  ],
+  "loc": "Amazon Havzası",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.45,
+      "cy": 0.5,
+      "zoom": 1.5
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.45,
+      "cy": 0.6,
+      "zoom": 1.15
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.43,
+      "cy": 0.62,
+      "zoom": 1.8
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Goliath Tarantula (Theraphosa blondi) menacing attitude ... (26154428107).jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Theraphosa blondi III.JPG",
+      "author": "Rjcastillo",
+      "license": "CC BY-SA 3.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Güney Amerika yağmur ormanlarının dev avcısı Goliat kuşyiyen örümceği, 175 grama kadar çıkan ağırlığıyla dünyanın en ağır örümceği sayılıyor. 🕷️🌿\n\n#terrawildnature #ilginçbilgiler #golyattarantulası\n\n📷 Bernard DUPONT (CC BY-SA 2.0), Rjcastillo (CC BY-SA 3.0) / Wikimedia Commons"
+}

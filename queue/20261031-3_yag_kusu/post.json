@@ -1,0 +1,77 @@
+{
+  "name": "yağ kuşu",
+  "group": "kuş",
+  "hook_style": "tuhaf yetenek",
+  "title": [
+    [
+      [
+        "BU KUŞ YARASA GİBİ",
+        "W"
+      ]
+    ],
+    [
+      [
+        "KARANLIKTA ",
+        "W"
+      ],
+      [
+        "SESLE",
+        "R"
+      ]
+    ],
+    [
+      [
+        "YÖN BULUYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "YAĞ KUŞU",
+  "card_top": [
+    "Mağarada yaşar, karanlıkta",
+    "yarasa gibi sesle yön bulur."
+  ],
+  "card_bottom": [
+    "Geceleri yağ palmesi ve defne",
+    "meyvelerini yer. Dünyada gece",
+    "uçan tek meyve yiyen kuştur."
+  ],
+  "right": [
+    "Güney Amerika'da, Guyana'dan",
+    "Bolivya'ya kadar mağaralarda",
+    "koloniler hâlinde yuva yapar.",
+    "Adı, eskiden civcivlerinden",
+    "yağ elde edilmesinden gelir."
+  ],
+  "loc": "Güney Amerika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.6,
+      "cy": 0.45,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.55,
+      "cy": 0.45,
+      "zoom": 1.05
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.7,
+      "cy": 0.5,
+      "zoom": 2.4
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Oilbird (17370415445).jpg",
+      "author": "Alastair Rae",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Güney Amerika mağaralarında yaşayan yağ kuşu, yarasalar gibi ekolokasyonla karanlıkta yönünü bulabilen nadir kuşlardan biri ve gece uçan tek meyve yiyen kuş olarak biliniyor. 🌙🪶\n\n#terrawildnature #ilginçbilgiler #yağkuşu\n\n📷 Alastair Rae (CC BY-SA 2.0) / Wikimedia Commons"
+}

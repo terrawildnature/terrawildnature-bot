@@ -1,0 +1,147 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Investigations.mp3",
+    "start": 0,
+    "loudness": -27
+  },
+  "photos": {
+    "p1.jpg": "File:Tachyglossus aculeatus aculeatus 358475387.jpg",
+    "p2.jpg": "File:Short-beaked echidna (Tachyglossus aculeatus) Freycinet.jpg",
+    "p3.jpg": "File:Short-beaked echidna (Tachyglossus aculeatus) in Serpentine National Park, May 2021 01.jpg",
+    "p4.jpg": "File:Healesville Tachyglossus aculeatus in Healesville Sanctuary 01.jpg",
+    "p5.jpg": "File:Short-beaked Echidna - Tachyglossus aculeatus (51749103282).jpg",
+    "p7.jpg": "File:Tachyglossus aculeatus (23598816752).jpg"
+  },
+  "segments": [
+    {
+      "text": "Bu hayvan memeli olduğu hâlde yumurta bırakıyor.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Kısa gagalı ekidna, Avustralya'nın en yaygın yerli memelisi.",
+      "image": "p2.jpg",
+      "cx": 0.4,
+      "cy": 0.6,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Yumurtlayan memeliler dünyada yalnızca bir grup oluşturuyor.",
+      "image": "p3.jpg",
+      "cx": 0.42,
+      "cy": 0.6,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Yumurtadan çıkan yavru yalnızca 1,5 santim boyunda.",
+      "image": "p4.jpg",
+      "cx": 0.5,
+      "cy": 0.6,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Özel dilini kullanarak böcekleri büyük bir hızla yakalıyor.",
+      "image": "p5.jpg",
+      "cx": 0.62,
+      "cy": 0.55,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Burnundaki elektrik alıcıları çevresini algılamasına yardım ediyor.",
+      "image": "p1.jpg",
+      "cx": 0.55,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Kışın derin uykuya yatıp enerjisini koruyor.",
+      "image": "p7.jpg",
+      "cx": 0.3,
+      "cy": 0.6,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Bir hayvanat bahçesinde 49 yıl yaşayan bir birey kaydedildi.",
+      "image": "p2.jpg",
+      "cx": 0.4,
+      "cy": 0.6,
+      "motion": "zoom_out"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p3.jpg",
+      "cx": 0.42,
+      "cy": 0.6,
+      "motion": "pan_left"
+    }
+  ],
+  "cover": {
+    "image": "p1.jpg",
+    "cx": 0.4,
+    "cy": 0.4,
+    "title": [
+      [
+        [
+          "YUMURTLAYAN",
+          "R"
+        ]
+      ],
+      [
+        [
+          "BİR MEMELİ",
+          "W"
+        ]
+      ],
+      [
+        [
+          "KISA GAGALI",
+          "W"
+        ]
+      ],
+      [
+        [
+          "EKİDNA",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "credits": [
+    {
+      "author": "Max Tibby",
+      "license": "CC0"
+    },
+    {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Calistemon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Ymblanter",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Gregory Smith",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "author": "Donald Hobern",
+      "license": "CC BY 2.0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Yumurtlayan memeli grubunun yaşayan üyelerinden kısa gagalı ekidna, Avustralya'nın en yaygın yerli memelisi olmasının yanında kışın derin uykuya da yatıyor. 🥚🌿\n\n#terrawildnature #ekidna\n\n📷 Charles J. Sharp (CC BY-SA 4.0), Calistemon (CC BY-SA 4.0), Ymblanter (CC BY-SA 4.0), Gregory Smith (CC BY-SA 2.0), Donald Hobern (CC BY 2.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+  "group": "memeli",
+  "hook_style": "tuhaf yetenek"
+}
