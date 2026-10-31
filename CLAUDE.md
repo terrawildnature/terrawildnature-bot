@@ -66,6 +66,8 @@ Her `post.json` ve `reel.json` dosyasına bu iki alanı **mutlaka** ekle (analiz
 - 3 fotoğraf seç: `cover` (kapak, en çarpıcı), `top` (bilgi sayfası üstü), `inner` (küçük kutu, yakın plan). Mümkünse 3 farklı fotoğraf olsun. Yeterli fotoğraf yoksa aynı fotoğraf farklı kırpmayla kullanılabilir.
 - İndir: `python tools/commons.py download "File:..." queue/<klasör>/photo_cover.jpg`. Çıktıdaki lisans ve yazar bilgisini `post.json` içindeki `credits` alanına kaydet.
 - İndirdiğin her fotoğrafı Read ile aç ve doğru canlı olduğunu kontrol et. Commons aramaları bazen alakasız sonuç döndürür.
+- **Yedek kaynak: iNaturalist.** Commons hız sınırına takılırsa (429, `download failed`, bir indirme ~3 dakikada bitmiyorsa) Commons'ta ısrar etme ve bekleme; hemen `python tools/commons.py inat "<bilimsel ad>"` ile iNaturalist'te ara. Commons'ta canlının yeterli iyi fotoğrafı yoksa da buraya bak. Liste yalnızca türü topluluk tarafından doğrulanmış (research grade) gözlemlerden CC0 / CC BY / CC BY-SA fotoğrafları gösterir; CC0 olanlar `[PD]` işaretlidir. Satırın sonundaki adresi indir: `python tools/commons.py download "https://inaturalist-open-data.s3.amazonaws.com/photos/.../original.jpeg" queue/<klasör>/photo_cover.jpg`. Yazar ve lisansı arama satırından alıp `credits`'e yaz (kaynak: iNaturalist). Aynı telif kuralları geçerli; tuzak, kafes, elde tutulan veya ölü hayvan fotoğrafını kullanma. Reels'te `photos` listesine `File:...` yerine bu adres yazılabilir.
+- Bir gün fotoğraf sorunu yüzünden kuyruğu boş bırakmak yerine kaynakları birlikte kullan: aynı gönderide Commons ve iNaturalist fotoğrafları karışık olabilir.
 
 ## 3. Bilgiler (doğruluk — çok önemli)
 
@@ -125,6 +127,7 @@ Avustralya'nın sevimli kazıcısı çıplak burunlu vombat, bağırsaklarının
 - Üçüncü etiket canlının Türkçe adı (boşluksuz, küçük harf).
 - **Herhangi bir fotoğraf kamu malı DEĞİLSE**, etiketlerden sonra boş satır bırakıp kaynak satırı ekle:
   `📷 <Yazar> (<Lisans>), <Yazar> (<Lisans>) / Wikimedia Commons`
+  Fotoğraf iNaturalist'tense sonu `/ iNaturalist` olur; ikisi karışıksa `📷 <Yazar> (<Lisans>) / Wikimedia Commons, <Yazar> (<Lisans>) / iNaturalist`.
   Aynı yazar birden fazla fotoğrafta varsa bir kez yaz. Tamamı kamu malıysa kaynak satırı ekleme.
 
 ## 6. Reels (her gün 20:00)
@@ -137,7 +140,7 @@ Gönderilerden sonra `queue_reels/` klasörüne bak. **2'den az Reels varsa 1 ye
 - **Sahneler:** Her cümle bir sahne, her sahnede farklı fotoğraf. Yatay fotoğraflarda `pan_left`/`pan_right` (kamera hayvanın üzerinde kayar), dikey fotoğraflarda `zoom_in`/`zoom_out`. `cx`, `cy` hayvanın (tercihen başının) konumu.
 - **Müzik:** Ruh haline göre biri: `assets/music/Reawakening.mp3` (sakin, görkemli), `assets/music/Investigations.mp3` (gizemli), `assets/music/Ancient_Rite.ogg` (vahşi, enerjik). `"loudness": -27`.
 - **Kapak:** Hayvanın net ve büyük göründüğü fotoğraf. Başlık **tam 4 satır** (bütün kapaklar aynı görünsün diye), satır başına en fazla **~11 karakter**, büyük harf; ilk ve/veya son satır kırmızı (`R`), diğerleri beyaz (`W`). Kısa, çarpıcı bir kanca (ör. `350 KİLO / AMA İKİ / AYAK ÜSTÜNDE / DURABİLİYOR`). Kapak düzeni sabittir: yazı boyutu, rozet ve başlığın yeri her kapakta aynı, küçülmez. `--cover` komutu `COVER OVERFLOW` hatası verirse o satırı kısalt ya da kelimeyi alt satıra al.
-- **Açıklama (`caption`):** Tek cümle + 2 emoji, boş satır, `#terrawildnature #<canlıadı>`, boş satır; kamu malı olmayan fotoğraf varsa `📷 <Yazar> (<Lisans>) / Wikimedia Commons`; son satır her zaman `🎵 Kevin MacLeod (CC BY)`.
+- **Açıklama (`caption`):** Tek cümle + 2 emoji, boş satır, `#terrawildnature #<canlıadı>`, boş satır; kamu malı olmayan fotoğraf varsa `📷 <Yazar> (<Lisans>) / Wikimedia Commons` (iNaturalist fotoğrafıysa `/ iNaturalist`); son satır her zaman `🎵 Kevin MacLeod (CC BY)`.
 - `credits` alanına her fotoğrafın yazarını ve lisansını yaz.
 - **Kontrol:** `python tools/reel.py --preview queue_reels/<klasör>` ve `python tools/reel.py --cover queue_reels/<klasör>` çalıştır (fotoğrafları `photos` listesinden kendisi indirir). `preview.jpg` ve `cover.jpg` dosyalarını Read ile aç: hayvan her karede görünmeli, başı kesilmemeli, kapak başlığı okunaklı ve ortada olmalı. Sorun varsa düzelt ve tekrar üret.
 - Sonra `p*.jpg` ve `preview.jpg` dosyalarını sil. Klasörde sadece `reel.json` ve `cover.jpg` kalmalı. `data/used.txt` sonuna `<ad> (Reels) | <bilimsel ad>` ekle.

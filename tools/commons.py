@@ -1,11 +1,15 @@
-"""Wikimedia Commons helper.
+"""Free-licensed photo helper: Wikimedia Commons, with iNaturalist as the fallback.
 
   python tools/commons.py search "<query>" [--min-width 1600]
-      Lists candidate photos: width x height | license | author | title
+      Lists Commons candidates: width x height | license | author | title
+  python tools/commons.py inat "<scientific name>"
+      Lists iNaturalist research-grade photos (species verified): width x height | license | author | url
   python tools/commons.py download "<File:Title.jpg>" <out.jpg>
-      Downloads a 2400px-wide version and prints its license/author as JSON.
+      Downloads a 1920px-wide Commons version and prints its license/author as JSON.
+  python tools/commons.py download "<https://... url>" <out.jpg>
+      Downloads a url printed by inat (take credit from the search line).
 
-Public-domain licenses (no credit required) are marked with [PD].
+Public-domain licenses (no credit required) are marked with [PD]. Only CC0 / PD / CC BY / CC BY-SA are listed.
 """
 import json
 import re
@@ -21,7 +25,7 @@ PD_RE = re.compile(r"public domain|^pd|cc0", re.I)
 ALLOWED_RE = re.compile(r"public domain|^pd|cc0|^cc by(-sa)? \d", re.I)
 
 
-def get(params, retries=6):
+def get(params, retries=4):
     url = API + "?" + urllib.parse.urlencode({**params, "format": "json"})
     for i in range(retries):
         try:
@@ -64,7 +68,7 @@ def search(query, min_width=1600):
         print(r[2])
 
 
-def fetch(url, out, retries=5):
+def fetch(url, out, retries=3):
     """Download with backoff; Wikimedia answers 429 when it wants us to slow down."""
     for i in range(retries):
         try:
@@ -84,7 +88,37 @@ def fetch(url, out, retries=5):
     return False
 
 
+def get_json(url):
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        return json.load(r)
+
+
+def inat(name, min_width=1200):
+    """Research-grade observations: the species is confirmed by the community, so the photo shows the right animal."""
+    q = urllib.parse.urlencode({"taxon_name": name, "quality_grade": "research", "photos": "true",
+                                "photo_license": "cc0,cc-by,cc-by-sa", "order_by": "votes", "per_page": 60})
+    rows, seen = [], set()
+    for o in get_json(f"https://api.inaturalist.org/v1/observations?{q}")["results"]:
+        for ph in o["photos"]:
+            lic, dim = (ph.get("license_code") or ""), ph.get("original_dimensions") or {}
+            if ph["id"] in seen or lic not in ("cc0", "cc-by", "cc-by-sa") or dim.get("width", 0) < min_width:
+                continue
+            seen.add(ph["id"])
+            author = o["user"].get("name") or o["user"]["login"]
+            tag = "[PD] " if lic == "cc0" else ""
+            rows.append((lic != "cc0", -dim["width"], f"{tag}{dim['width']}x{dim['height']} | {lic.upper().replace('-', ' ')} | "
+                         f"{author[:50]} | iNaturalist | {ph['url'].replace('/square.', '/original.')}"))
+    for r in sorted(rows)[:40]:
+        print(r[2])
+
+
 def download(title, out):
+    if title.startswith("http"):   # inat result: credit comes from the search line
+        if not fetch(title, out):
+            sys.exit(f"download failed: {title}")
+        print(json.dumps({"url": title, "saved": out}))
+        return
     if not title.startswith("File:"):
         title = "File:" + title
     # 1920 is one of Wikimedia's standard thumbnail widths; non-standard widths get rate-limited.
@@ -110,6 +144,8 @@ if __name__ == "__main__":
     if len(sys.argv) >= 3 and sys.argv[1] == "search":
         mw = int(sys.argv[sys.argv.index("--min-width") + 1]) if "--min-width" in sys.argv else 1600
         search(sys.argv[2], mw)
+    elif len(sys.argv) >= 3 and sys.argv[1] == "inat":
+        inat(sys.argv[2])
     elif len(sys.argv) == 4 and sys.argv[1] == "download":
         download(sys.argv[2], sys.argv[3])
     else:
