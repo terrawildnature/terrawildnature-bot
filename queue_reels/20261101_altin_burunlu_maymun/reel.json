@@ -1,0 +1,137 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Reawakening.mp3",
+    "start": 0,
+    "loudness": -27
+  },
+  "group": "memeli",
+  "hook_style": "tuhaf yetenek",
+  "photos": {
+    "p1.jpg": "File:Moupin Golden Snub-nosed Monkey, Mianyang, China.jpg",
+    "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/519130882/original.jpg",
+    "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/519132339/original.jpg",
+    "p4.jpg": "File:Golden Snub-nosed Monkeys.jpg",
+    "p5.jpg": "File:Jinsihou xi'an.jpg",
+    "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/519130790/original.jpg",
+    "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/519130809/original.jpg",
+    "p9.jpg": "File:RHINOPITHECUS ROXELLANA IN SHENZHEN SAFARI PARK (4).jpg"
+  },
+  "segments": [
+    {
+      "text": "Altın burunlu maymun, insan dışında en soğuğa dayanan primat.",
+      "image": "p1.jpg",
+      "cx": 0.25,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Çin'in dağlık ormanlarında, 1.500 ile 3.400 metre arasında yaşıyor.",
+      "image": "p2.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Yaşadığı bölgeye sık sık kar yağıyor.",
+      "image": "p3.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Ana besini, ağaçlarda biten likenler.",
+      "image": "p4.jpg",
+      "cx": 0.3,
+      "cy": 0.3,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Kümelenerek uyumalarının nedeni, ısıyı korumak olabilir.",
+      "image": "p5.jpg",
+      "cx": 0.65,
+      "cy": 0.45,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Gruplar beş on bireyden, yaklaşık altı yüz bireylik sürülere kadar değişiyor.",
+      "image": "p7.jpg",
+      "cx": 0.8,
+      "cy": 0.65,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Yavrulara anneler kadar diğer dişiler de bakıyor.",
+      "image": "p7.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Yaşam alanı kaybı yüzünden nesli tehlike altında.",
+      "image": "p8.jpg",
+      "cx": 0.69,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p9.jpg",
+      "cx": 0.5,
+      "cy": 0.3,
+      "motion": "pan_left"
+    }
+  ],
+  "cover": {
+    "image": "p3.jpg",
+    "cx": 0.69,
+    "cy": 0.3,
+    "title": [
+      [
+        [
+          "İNSAN DIŞI",
+          "R"
+        ]
+      ],
+      [
+        [
+          "EN SOĞUĞA",
+          "W"
+        ]
+      ],
+      [
+        [
+          "DAYANAN",
+          "W"
+        ]
+      ],
+      [
+        [
+          "PRİMAT",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "credits": [
+    {
+      "author": "Jack Hynes",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "author": "Danielinblue",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "author": "Dinkun Chen",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "use": "music"
+    }
+  ],
+  "caption": "İnsan dışında en soğuğa dayanan primat olan altın burunlu maymun, karların sık yağdığı Çin dağlarında likenlerle besleniyor. ❄️🐒\n\n#terrawildnature #altınburunlumaymun\n\n📷 Jack Hynes (CC BY-SA 2.0), Danielinblue (CC BY-SA 3.0), Dinkun Chen (CC BY-SA 4.0) / Wikimedia Commons, iNaturalist\n🎵 Kevin MacLeod (CC BY)"
+}

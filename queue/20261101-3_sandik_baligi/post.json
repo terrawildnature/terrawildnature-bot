@@ -1,0 +1,91 @@
+{
+  "name": "boynuzlu sandık balığı",
+  "group": "balık",
+  "hook_style": "tuhaf görünüm",
+  "title": [
+    [
+      [
+        "BU BALIĞIN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "KUTU GİBİ ",
+        "W"
+      ],
+      [
+        "ZIRHI",
+        "R"
+      ]
+    ],
+    [
+      [
+        "VE BOYNUZU VAR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "BOYNUZLU SANDIK BALIĞI",
+  "card_top": [
+    "Altıgen plakaları kaynaşıp",
+    "kutu biçimli zırh oluşturur."
+  ],
+  "card_bottom": [
+    "Boynuzları yutulmayı zor",
+    "kılmış olabilir. Kırılırsa",
+    "birkaç ayda yeniden uzar."
+  ],
+  "right": [
+    "Hint-Pasifik resiflerinde",
+    "yaşar. Çok strese girerse",
+    "derisinden zehirli madde",
+    "salgılayabilir. Yavaş yüzer,",
+    "elle bile yakalanabilir."
+  ],
+  "loc": "Hint-Pasifik",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.4,
+      "cy": 0.4,
+      "zoom": 1.1
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.4,
+      "cy": 0.5,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.3,
+      "cy": 0.5,
+      "zoom": 1.8
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "iNaturalist 472497112",
+      "author": "Justin Philbois",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "iNaturalist 472497174",
+      "author": "Justin Philbois",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "iNaturalist 472497146",
+      "author": "Justin Philbois",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Uzun boynuzlu sandık balığı, altıgen plakalarının kaynaşmasıyla oluşan kutu biçimli zırhı ve boynuzlarıyla avcılara karşı kendini koruyor. 🐟🛡️\n\n#terrawildnature #ilginçbilgiler #sandıkbalığı"
+}

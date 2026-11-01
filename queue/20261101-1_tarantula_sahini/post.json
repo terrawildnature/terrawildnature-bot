@@ -1,0 +1,91 @@
+{
+  "name": "tarantula şahini",
+  "group": "böcek/örümcek",
+  "hook_style": "tehlike",
+  "title": [
+    [
+      [
+        "BU ARI TARANTULAYI",
+        "W"
+      ]
+    ],
+    [
+      [
+        "FELÇ EDİP ",
+        "W"
+      ],
+      [
+        "CANLI",
+        "R"
+      ]
+    ],
+    [
+      [
+        "YEM YAPIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "TARANTULA ŞAHİNİ",
+  "card_top": [
+    "Yaklaşık 6,5 cm'ye varan bu",
+    "dev arı tarantulaları avlar."
+  ],
+  "card_bottom": [
+    "Dişi arı tarantulayı iğneyle",
+    "felç eder, yuvaya sürükler,",
+    "üzerine tek yumurta bırakır."
+  ],
+  "right": [
+    "Yumurtadan çıkan larva",
+    "yaşayan tarantulayı yer.",
+    "Sokması böcekler arasında",
+    "en acı vericilerden; ancak",
+    "yaklaşık 5 dakika sürer."
+  ],
+  "loc": "Amerika kıtası",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.55,
+      "cy": 0.4,
+      "zoom": 1.1
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.55,
+      "zoom": 1.6
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom": 2.5
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Wasp, tarantula (Pepsis) (7-19-10) yard, near Patagonia, AZ -02 (4811892625).jpg",
+      "author": "Alan Schmierer",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Tarantula hawk (Pepsis sp.) (16663150373).jpg",
+      "author": "Joshua Tree National Park",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "File:Tarantula Hawk on creosote (21290408062).jpg",
+      "author": "Joshua Tree National Park",
+      "license": "Public domain",
+      "public_domain": true
+    }
+  ],
+  "caption": "Sokması böcekler arasında en acı vericilerden sayılan tarantula şahini, tarantulayı felç edip yuvasına sürükleyerek yavrusuna canlı yem yapıyor. 🐝🕷️\n\n#terrawildnature #ilginçbilgiler #tarantulaşahini"
+}

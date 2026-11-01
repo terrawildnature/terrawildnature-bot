@@ -23,3 +23,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: Reels'te memeli güçlü (skor 2,59); gönderide sürüngen skoru yüksek (6,04, Gila canavarı), memeli zayıf (0,74).
 - Bugün uygulanan: gönderiler tuhaf görünüm (cehennem semenderi, amfibi), tuhaf yetenek (opah, balık), süperlatif keşif (deri sırtlı kaplumbağa, sürüngen); Reels mandril (memeli, süperlatif, 77 kelime, Ancient_Rite).
 - Sonra kontrol et: sürüngen/amfibi gönderi içerik değerleri; süperlatif kancalı Reels; mandril Reels izlenme süresi. Not: Commons'ta hayvanat bahçesi/kafes fotoğrafları çoktu, bazı canlılar (Goliat kurbağası, Draco, Budgett kurbağası) iyi fotoğraf yüzünden elendi.
+
+## 2026-11-01
+- Rapordan öğrenilen: Reels'te memeli güçlü (skor 2,59, içerik 3,15); gönderide memeli zayıf (0,74), 09:00 zayıf; veri hâlâ az (19 paylaşım).
+- Bugün uygulanan: gönderilerde memeli yok: tehlike (tarantula şahini, böcek/örümcek, keşif), süperlatif (yer boynuzgagası, kuş), tuhaf görünüm (sandık balığı); Reels memeli (altın burunlu maymun, tuhaf yetenek, 71 kelime, Reawakening).
+- Sonra kontrol et: tehlike kancası ve böcek/örümcek grubu içerik değeri (Gila canavarı tehlike skoru yüksekti); 71 kelimelik Reels izlenme süresi. Not: yasak liste çok doldu, yeni canlı bulmak zorlaştı; Commons'ta yabani maymun fotoğrafı az, Reels fotoğrafları iNaturalist/hayvanat bahçesi karışık.

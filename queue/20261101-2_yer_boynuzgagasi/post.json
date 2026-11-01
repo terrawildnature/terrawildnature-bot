@@ -1,0 +1,91 @@
+{
+  "name": "güney yer boynuzgagası",
+  "group": "kuş",
+  "hook_style": "süperlatif",
+  "title": [
+    [
+      [
+        "BU KUŞ YAVRUSUNA",
+        "W"
+      ]
+    ],
+    [
+      [
+        "2 YILA ",
+        "W"
+      ],
+      [
+        "KADAR",
+        "R"
+      ]
+    ],
+    [
+      [
+        "BAKIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "GÜNEY YER BOYNUZGAGASI",
+  "card_top": [
+    "Dünyanın en büyük",
+    "boynuzgagası türüdür."
+  ],
+  "card_bottom": [
+    "Yavrular 1-2 yıl boyunca",
+    "ailesine bağımlı kalır; bu",
+    "süre diğer kuşlardan uzundur."
+  ],
+  "right": [
+    "Kenya'dan Güney Afrika'ya",
+    "uzanan savanlarda yaşar.",
+    "Boyu 90-129 cm'ye ulaşır.",
+    "Yüzü kırmızı, kirpikleri var.",
+    "5-10 kişilik gruplarda yaşar."
+  ],
+  "loc": "Güney ve Doğu Afrika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.4,
+      "cy": 0.3,
+      "zoom": 1.1
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.3,
+      "zoom": 1.1
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.45,
+      "cy": 0.35,
+      "zoom": 1.8
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Southern Ground Hornbill (Bucorvus leadbeateri) male portrait, Kruger NP (52107437080).jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Southern Ground Hornbill (Bucorvus leadbeateri) female.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Southern Ground Hornbill (Bucorvus leadbeateri), male swallowing a dung beetle.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Güney yer boynuzgagası, yavrularına bir ile iki yıl boyunca bakarak bunu başka hiçbir kuştan daha uzun süre yapıyor. 🐦🌍\n\n#terrawildnature #ilginçbilgiler #yerboynuzgagası\n\n📷 Bernard DUPONT (CC BY-SA 2.0) / Wikimedia Commons"
+}
