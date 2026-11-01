@@ -1,19 +1,15 @@
 {
  "account": {
   "username": "terrawildnature",
-  "followers_count": 1250,
+  "followers_count": 1249,
   "follows_count": 18,
-  "media_count": 164,
+  "media_count": 167,
   "id": "29086642960932360",
   "daily": [
    {
     "name": "follower_count",
     "period": "day",
     "values": [
-     {
-      "value": 1,
-      "end_time": "2026-10-02T07:00:00+0000"
-     },
      {
       "value": 0,
       "end_time": "2026-10-03T07:00:00+0000"
@@ -123,8 +119,12 @@
       "end_time": "2026-10-29T07:00:00+0000"
      },
      {
-      "value": 0,
+      "value": 2,
       "end_time": "2026-10-30T07:00:00+0000"
+     },
+     {
+      "value": 0,
+      "end_time": "2026-10-31T07:00:00+0000"
      }
     ],
     "title": "Follower Count",
@@ -135,10 +135,6 @@
     "name": "reach",
     "period": "day",
     "values": [
-     {
-      "value": 185,
-      "end_time": "2026-10-02T07:00:00+0000"
-     },
      {
       "value": 22,
       "end_time": "2026-10-03T07:00:00+0000"
@@ -248,8 +244,12 @@
       "end_time": "2026-10-29T07:00:00+0000"
      },
      {
-      "value": 2022,
+      "value": 2036,
       "end_time": "2026-10-30T07:00:00+0000"
+     },
+     {
+      "value": 1597,
+      "end_time": "2026-10-31T07:00:00+0000"
      }
     ],
     "title": "Reach",
@@ -264,36 +264,36 @@
     "values": [
      {
       "value": {
-       "0": 432,
-       "1": 463,
-       "2": 477,
-       "3": 490,
-       "4": 482,
-       "5": 444,
+       "0": 416,
+       "1": 450,
+       "2": 442,
+       "3": 432,
+       "4": 433,
+       "5": 421,
        "6": 444,
-       "7": 462,
-       "8": 469,
-       "9": 499,
-       "10": 511,
-       "11": 548,
-       "12": 546,
-       "13": 511,
-       "14": 395,
-       "15": 252,
-       "16": 150,
-       "17": 105,
-       "18": 86,
-       "19": 74,
-       "20": 135,
-       "21": 254,
-       "22": 346,
-       "23": 373
+       "7": 442,
+       "8": 474,
+       "9": 507,
+       "10": 518,
+       "11": 522,
+       "12": 525,
+       "13": 499,
+       "14": 387,
+       "15": 258,
+       "16": 179,
+       "17": 106,
+       "18": 71,
+       "19": 107,
+       "20": 112,
+       "21": 200,
+       "22": 283,
+       "23": 344
       },
-      "end_time": "2026-10-29T07:00:00+0000"
+      "end_time": "2026-10-30T07:00:00+0000"
      },
      {
       "value": {},
-      "end_time": "2026-10-30T07:00:00+0000"
+      "end_time": "2026-10-31T07:00:00+0000"
      }
     ],
     "title": "Online Followers",
@@ -304,22 +304,106 @@
  },
  "posts": [
   {
+   "id": "18107022716234764",
+   "timestamp": "2026-10-31T19:27:04+0000",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "like_count": 1,
+   "comments_count": 0,
+   "caption": "Güney Amerika mağaralarında yaşayan yağ kuşu, yarasalar gibi ekolokasyonla karanlıkta yönünü bulabilen nadir kuşlardan b",
+   "permalink": "https://www.instagram.com/p/DfK5_FzD56v/",
+   "insights": {
+    "reach": 25,
+    "views": 47,
+    "likes": 1,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 1,
+    "follows": 0,
+    "profile_visits": 0
+   }
+  },
+  {
+   "id": "17870443002658446",
+   "timestamp": "2026-10-31T16:58:08+0000",
+   "media_type": "VIDEO",
+   "media_product_type": "REELS",
+   "like_count": 12,
+   "comments_count": 0,
+   "caption": "Yumurtlayan memeli grubunun yaşayan üyelerinden kısa gagalı ekidna, Avustralya'nın en yaygın yerli memelisi olmasının ya",
+   "permalink": "https://www.instagram.com/reel/DfKo1XRgCBI/",
+   "insights": {
+    "reach": 1489,
+    "views": 1585,
+    "likes": 12,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 12,
+    "ig_reels_avg_watch_time": 8451,
+    "ig_reels_video_view_total_time": 12635147
+   }
+  },
+  {
+   "id": "18138564379641373",
+   "timestamp": "2026-10-31T15:29:58+0000",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "like_count": 2,
+   "comments_count": 0,
+   "caption": "Hint-Pasifik resiflerinin dikenli yıkıcısı taç dikenli deniz yıldızı, 21 kola kadar çıkan gövdesi ve 4-5 cm'lik zehirli ",
+   "permalink": "https://www.instagram.com/p/DfKe2XGG5JU/",
+   "insights": {
+    "reach": 39,
+    "views": 73,
+    "likes": 2,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 2,
+    "follows": 0,
+    "profile_visits": 0
+   }
+  },
+  {
+   "id": "17995640462845500",
+   "timestamp": "2026-10-31T09:05:48+0000",
+   "media_type": "CAROUSEL_ALBUM",
+   "media_product_type": "FEED",
+   "like_count": 6,
+   "comments_count": 0,
+   "caption": "Güney Amerika yağmur ormanlarının dev avcısı Goliat kuşyiyen örümceği, 175 grama kadar çıkan ağırlığıyla dünyanın en ağı",
+   "permalink": "https://www.instagram.com/p/DfJy4wQmwnV/",
+   "insights": {
+    "reach": 69,
+    "views": 121,
+    "likes": 6,
+    "comments": 0,
+    "saved": 1,
+    "shares": 6,
+    "total_interactions": 13,
+    "follows": 0,
+    "profile_visits": 0
+   }
+  },
+  {
    "id": "18159547138518306",
    "timestamp": "2026-10-30T19:34:22+0000",
    "media_type": "CAROUSEL_ALBUM",
    "media_product_type": "FEED",
-   "like_count": 0,
+   "like_count": 1,
    "comments_count": 0,
    "caption": "Kuzey Pasifik'in dev yumuşakçası dev Pasifik ahtapotu, vücudunu yalnızca 5 santimlik aralıklardan geçecek kadar sıkıştır",
    "permalink": "https://www.instagram.com/p/DfIWBX0n4MZ/",
    "insights": {
-    "reach": 27,
-    "views": 46,
-    "likes": 0,
+    "reach": 40,
+    "views": 78,
+    "likes": 1,
     "comments": 0,
     "saved": 0,
     "shares": 0,
-    "total_interactions": 0,
+    "total_interactions": 1,
     "follows": 0,
     "profile_visits": 1
    }
@@ -334,15 +418,15 @@
    "caption": "Yaklaşık 300 yavruyla yakalanan bir dişi, bilinen en büyük balık olan balina köpekbalığının ne kadar üretken olduğunu gö",
    "permalink": "https://www.instagram.com/reel/DfIE2B_Dweu/",
    "insights": {
-    "reach": 1550,
-    "views": 1688,
+    "reach": 1572,
+    "views": 1709,
     "likes": 12,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 12,
-    "ig_reels_avg_watch_time": 8582,
-    "ig_reels_video_view_total_time": 13166167
+    "ig_reels_avg_watch_time": 8574,
+    "ig_reels_video_view_total_time": 13350641
    }
   },
   {
@@ -355,8 +439,8 @@
    "caption": "Afrika savanlarının uzun bacaklı avcısı katip kuşu, saldırısında vücut ağırlığının beş katı güçle tekme atıp avını daha ",
    "permalink": "https://www.instagram.com/p/DfH7x2-ln1U/",
    "insights": {
-    "reach": 47,
-    "views": 84,
+    "reach": 60,
+    "views": 106,
     "likes": 3,
     "comments": 0,
     "saved": 1,
@@ -376,8 +460,8 @@
    "caption": "Afrika bozkırlarının dev kulaklı avcısı yarasa kulaklı tilki, 46-50 diş sayısıyla kara memeleri arasında bir rekora sahi",
    "permalink": "https://www.instagram.com/p/DfG85D5lG_m/",
    "insights": {
-    "reach": 57,
-    "views": 109,
+    "reach": 62,
+    "views": 118,
     "likes": 3,
     "comments": 0,
     "saved": 0,
@@ -392,20 +476,20 @@
    "timestamp": "2026-10-29T19:35:49+0000",
    "media_type": "CAROUSEL_ALBUM",
    "media_product_type": "FEED",
-   "like_count": 2,
+   "like_count": 3,
    "comments_count": 0,
    "caption": "And Dağları'nın turuncu tüylü Andlar kaya horozu, erkeklerin dişiyi etkilemek için toplanıp zıplayarak gösteri yapmasıyl",
    "permalink": "https://www.instagram.com/p/DfFxZU3Gepi/",
    "insights": {
-    "reach": 57,
-    "views": 104,
-    "likes": 2,
+    "reach": 63,
+    "views": 114,
+    "likes": 3,
     "comments": 0,
     "saved": 1,
     "shares": 0,
-    "total_interactions": 3,
+    "total_interactions": 4,
     "follows": 0,
-    "profile_visits": 1
+    "profile_visits": 3
    }
   },
   {
@@ -413,20 +497,20 @@
    "timestamp": "2026-10-29T17:14:57+0000",
    "media_type": "VIDEO",
    "media_product_type": "REELS",
-   "like_count": 8,
+   "like_count": 9,
    "comments_count": 0,
    "caption": "Dünyanın en uzun zehirli yılanı kral kobra, 5,85 metreye kadar uzayabiliyor ve yumurtaları için yaprak yığınından yuva y",
    "permalink": "https://www.instagram.com/reel/DfFhM0ijfwO/",
    "insights": {
-    "reach": 1064,
-    "views": 1191,
-    "likes": 8,
+    "reach": 1068,
+    "views": 1206,
+    "likes": 9,
     "comments": 0,
     "saved": 1,
     "shares": 0,
-    "total_interactions": 9,
-    "ig_reels_avg_watch_time": 25755,
-    "ig_reels_video_view_total_time": 28022201
+    "total_interactions": 10,
+    "ig_reels_avg_watch_time": 25779,
+    "ig_reels_video_view_total_time": 28356931
    }
   },
   {
@@ -439,8 +523,8 @@
    "caption": "Asya ormanlarının dev ipek güvesi atlas güvesinin kanat uçları yılan başına benziyor ve yetişkini hiç yemek yemeden yaln",
    "permalink": "https://www.instagram.com/p/DfFXWqskWge/",
    "insights": {
-    "reach": 72,
-    "views": 143,
+    "reach": 76,
+    "views": 150,
     "likes": 2,
     "comments": 0,
     "saved": 2,
@@ -460,8 +544,8 @@
    "caption": "Batı Avustralya'nın çizgili sembolü numbat, gün boyu uzun yapışkan diliyle termit toplayıp günde 20.000'e kadar termit y",
    "permalink": "https://www.instagram.com/p/DfEYCc7FaQ1/",
    "insights": {
-    "reach": 63,
-    "views": 125,
+    "reach": 67,
+    "views": 135,
     "likes": 4,
     "comments": 0,
     "saved": 2,
@@ -481,8 +565,8 @@
    "caption": "Amazon'un dev balığı arapaima, kan damarlarıyla dolu özel bir organı sayesinde havadan nefes aldığı için sık sık yüzeye ",
    "permalink": "https://www.instagram.com/p/DfDMZetAY2z/",
    "insights": {
-    "reach": 82,
-    "views": 157,
+    "reach": 84,
+    "views": 160,
     "likes": 2,
     "comments": 0,
     "saved": 0,
@@ -497,20 +581,20 @@
    "timestamp": "2026-10-28T17:12:07+0000",
    "media_type": "VIDEO",
    "media_product_type": "REELS",
-   "like_count": 4,
+   "like_count": 5,
    "comments_count": 0,
    "caption": "Afrika sulak alanlarının çekiç başlı kuşu hamerkop, bir insanın ağırlığını taşıyacak kadar sağlam ve bir buçuk metreyi a",
    "permalink": "https://www.instagram.com/reel/DfC8DyOCsKZ/",
    "insights": {
-    "reach": 369,
-    "views": 393,
-    "likes": 4,
+    "reach": 374,
+    "views": 399,
+    "likes": 5,
     "comments": 0,
     "saved": 1,
     "shares": 0,
-    "total_interactions": 5,
-    "ig_reels_avg_watch_time": 11987,
-    "ig_reels_video_view_total_time": 4459434
+    "total_interactions": 6,
+    "ig_reels_avg_watch_time": 12035,
+    "ig_reels_video_view_total_time": 4561587
    }
   },
   {
@@ -523,8 +607,8 @@
    "caption": "Yeni Zelanda adalarının tuatarası, başının üstündeki parietal gözle yaşayan canlılar arasında bu üçüncü gözü en belirgin",
    "permalink": "https://www.instagram.com/p/DfCyTRAkaun/",
    "insights": {
-    "reach": 75,
-    "views": 147,
+    "reach": 80,
+    "views": 160,
     "likes": 3,
     "comments": 0,
     "saved": 1,
@@ -544,8 +628,8 @@
    "caption": "Güney Okyanusu'nun dev avcısı güney fil foku, balina olmayan nefes alan canlılar arasında en derin dalgıç olarak 2.388 m",
    "permalink": "https://www.instagram.com/p/DfBy73nlqMD/",
    "insights": {
-    "reach": 76,
-    "views": 139,
+    "reach": 79,
+    "views": 143,
     "likes": 3,
     "comments": 0,
     "saved": 1,
@@ -565,8 +649,8 @@
    "caption": "Güney Pasifik'in nautilusunun gözünde mercek yok, bu yüzden dünyayı iğne delikli bir kamera gibi görüyor ve yaklaşık 90 ",
    "permalink": "https://www.instagram.com/p/DfAnTyZlC89/",
    "insights": {
-    "reach": 111,
-    "views": 192,
+    "reach": 113,
+    "views": 197,
     "likes": 4,
     "comments": 0,
     "saved": 3,
@@ -586,15 +670,15 @@
    "caption": "Etiyopya yaylalarının gelada maymunu, göğsündeki kırmızı kum saati şeklindeki deri nedeniyle \"kanayan kalpli maymun\" diy",
    "permalink": "https://www.instagram.com/reel/DfAeqNoDOVi/",
    "insights": {
-    "reach": 354,
-    "views": 396,
+    "reach": 355,
+    "views": 398,
     "likes": 3,
     "comments": 0,
     "saved": 0,
     "shares": 0,
     "total_interactions": 3,
-    "ig_reels_avg_watch_time": 10095,
-    "ig_reels_video_view_total_time": 3795888
+    "ig_reels_avg_watch_time": 10048,
+    "ig_reels_video_view_total_time": 3808286
    }
   },
   {
@@ -607,8 +691,8 @@
    "caption": "Amerika'nın tek zehirli yerli kertenkelesi Gila canavarının zehrindeki exendin-4 maddesi, tip 2 diyabet ve obezite tedav",
    "permalink": "https://www.instagram.com/p/DfANHzDlLqA/",
    "insights": {
-    "reach": 88,
-    "views": 160,
+    "reach": 90,
+    "views": 164,
     "likes": 4,
     "comments": 0,
     "saved": 2,
@@ -628,8 +712,8 @@
    "caption": "Doğu Afrika'nın Rüppell akbabası, 1973'te Fildişi Sahili üzerinde 11.300 metre irtifada bir uçağın motoruna girerek kayı",
    "permalink": "https://www.instagram.com/p/De_NqbxFt8y/",
    "insights": {
-    "reach": 150,
-    "views": 251,
+    "reach": 151,
+    "views": 253,
     "likes": 2,
     "comments": 0,
     "saved": 1,
@@ -649,8 +733,8 @@
    "caption": "Çin'in dağ derelerinde yaşayan dev semender, çocuk ağlamasına benzeyen sesler çıkardığı için Çincede 'bebek balığı' diye",
    "permalink": "https://www.instagram.com/p/De-Cc1MiS_6/",
    "insights": {
-    "reach": 123,
-    "views": 203,
+    "reach": 125,
+    "views": 204,
     "likes": 3,
     "comments": 0,
     "saved": 3,
@@ -670,15 +754,15 @@
    "caption": "Deniz kızı efsanelerine ilham verdiği düşünülen dugong, tamamen denizde yaşayan tek otçul memeli ve akrabalık bakımından",
    "permalink": "https://www.instagram.com/reel/De9x0OtAFyw/",
    "insights": {
-    "reach": 3961,
-    "views": 4273,
+    "reach": 3967,
+    "views": 4280,
     "likes": 30,
     "comments": 0,
     "saved": 4,
     "shares": 1,
     "total_interactions": 36,
-    "ig_reels_avg_watch_time": 15659,
-    "ig_reels_video_view_total_time": 62278245
+    "ig_reels_avg_watch_time": 15672,
+    "ig_reels_video_view_total_time": 62440108
    }
   },
   {
@@ -691,8 +775,8 @@
    "caption": "Mercan resiflerinin devi napolyon balığı 229 santimetreye ve 191 kiloya kadar büyüyebiliyor, zehirli deniz yıldızlarını ",
    "permalink": "https://www.instagram.com/p/De9qT6noC3k/",
    "insights": {
-    "reach": 101,
-    "views": 172,
+    "reach": 104,
+    "views": 174,
     "likes": 2,
     "comments": 0,
     "saved": 1,
@@ -712,8 +796,8 @@
    "caption": "Güneydoğu Asya ormanlarının siyah beyaz devi Malay tapirinin bölünmüş rengi siluetini bozuyor ve yatarken avcıların onu ",
    "permalink": "https://www.instagram.com/p/De8o89_FT0x/",
    "insights": {
-    "reach": 162,
-    "views": 311,
+    "reach": 164,
+    "views": 313,
     "likes": 3,
     "comments": 0,
     "saved": 1,
@@ -775,8 +859,8 @@
    "caption": "Orta Amerika'nın bulut ormanlarında yaşayan görkemli quetzalın yeşil kuyruk tüyleri Maya uygarlığında o kadar değerliydi",
    "permalink": "https://www.instagram.com/p/De7BWx4lAA5/",
    "insights": {
-    "reach": 107,
-    "views": 189,
+    "reach": 108,
+    "views": 190,
     "likes": 6,
     "comments": 0,
     "saved": 3,
@@ -838,8 +922,8 @@
    "caption": "Galápagos'ın yosun avcısı deniz iguanası, 30 metreye kadar dalıp bir saate kadar su altında kalabiliyor ve yuttuğu tuzu ",
    "permalink": "https://www.instagram.com/p/De4cjgclsIL/",
    "insights": {
-    "reach": 107,
-    "views": 199,
+    "reach": 108,
+    "views": 200,
     "likes": 5,
     "comments": 0,
     "saved": 2,
@@ -859,8 +943,8 @@
    "caption": "Saatte 88 kilometreye varan hızıyla Amerika'nın en hızlı kara memelisi olan çatalboynuz, görünüşüne rağmen antilop değil",
    "permalink": "https://www.instagram.com/p/De3ef4SFKmf/",
    "insights": {
-    "reach": 95,
-    "views": 169,
+    "reach": 96,
+    "views": 170,
     "likes": 2,
     "comments": 0,
     "saved": 1,
@@ -880,8 +964,8 @@
    "caption": "Sudan çıkıp göğüs yüzgeçleriyle çamurda sekerek ilerleyen çamur balığı (mudskipper), nemli derisi ve ağzı-boğazı üzerind",
    "permalink": "https://www.instagram.com/p/De2TSB7oOFB/",
    "insights": {
-    "reach": 106,
-    "views": 167,
+    "reach": 107,
+    "views": 168,
     "likes": 2,
     "comments": 0,
     "saved": 1,
@@ -922,8 +1006,8 @@
    "caption": "Yeni Kaledonya'ya özgü kagu, burun deliklerini örten ve başka hiçbir kuşta bulunmayan yapısıyla tanınan, doğada yalnızca",
    "permalink": "https://www.instagram.com/p/De14ny6m8uS/",
    "insights": {
-    "reach": 154,
-    "views": 272,
+    "reach": 155,
+    "views": 273,
     "likes": 7,
     "comments": 0,
     "saved": 3,
@@ -943,8 +1027,8 @@
    "caption": "Adı kurt ama aslında sırtlan ailesinin en küçük üyesi olan toprak kurdu, tek bir gecede 250 bine kadar termit yiyebiliyo",
    "permalink": "https://www.instagram.com/p/De06K6xFSBM/",
    "insights": {
-    "reach": 315,
-    "views": 461,
+    "reach": 319,
+    "views": 469,
     "likes": 4,
     "comments": 0,
     "saved": 3,
@@ -964,7 +1048,7 @@
    "caption": "Avustralya’nın sevimli kazıcısı çıplak burunlu vombat, bağırsaklarının özel yapısı sayesinde küp şeklinde dışkı üretip b",
    "permalink": "https://www.instagram.com/p/DezO4ufCC3s/",
    "insights": {
-    "reach": 145,
+    "reach": 146,
     "views": 259,
     "likes": 4,
     "comments": 1,
@@ -1007,7 +1091,7 @@
    "permalink": "https://www.instagram.com/p/Deub4aYDjnI/",
    "insights": {
     "reach": 204,
-    "views": 352,
+    "views": 353,
     "likes": 6,
     "comments": 0,
     "saved": 4,
@@ -1027,8 +1111,8 @@
    "caption": "Okyanusların küçük savaşçısı Demir Zırhlı Salyangoz🐌",
    "permalink": "https://www.instagram.com/p/DernM97DsCo/",
    "insights": {
-    "reach": 287,
-    "views": 461,
+    "reach": 290,
+    "views": 465,
     "likes": 10,
     "comments": 0,
     "saved": 2,
@@ -1049,7 +1133,7 @@
    "permalink": "https://www.instagram.com/p/Deo0VyHjswU/",
    "insights": {
     "reach": 406,
-    "views": 592,
+    "views": 593,
     "likes": 18,
     "comments": 0,
     "saved": 6,
@@ -1070,7 +1154,7 @@
    "permalink": "https://www.instagram.com/p/DemyunvjppO/",
    "insights": {
     "reach": 443,
-    "views": 633,
+    "views": 634,
     "likes": 9,
     "comments": 0,
     "saved": 3,
@@ -2127,7 +2211,7 @@
    "timestamp": "2026-06-08T21:21:55+0000",
    "media_type": "CAROUSEL_ALBUM",
    "media_product_type": "FEED",
-   "like_count": 5,
+   "like_count": 6,
    "comments_count": 0,
    "caption": "İbibik, kafasındaki yelpaze gibi açılan göz alıcı tacı ve dalgalı kelebek uçuşuyla doğanın en karakteristik kuşlarından ",
    "permalink": "https://www.instagram.com/p/DZVv356jmtG/"
