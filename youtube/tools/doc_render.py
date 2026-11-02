@@ -100,8 +100,7 @@ def timeline(doc):
     spec["journey"] = {**OCEAN, **spec.get("journey", {})}
     blocks, t, prev = [{"kind": "cold", "t0": 0.0, "dur": COLD_OPEN, "d0": 0, "d1": 0}], COLD_OPEN, 0
     for i, s in enumerate(spec["segments"]):
-        jump = abs(s["depth"] - prev)
-        travel = 0.0 if jump == 0 else (3.2 if jump > spec["journey"]["max"] * 0.04 else 2.4)
+        travel = 0.0 if s["depth"] == prev else (3.2 if big_jump(prev, s["depth"], spec["journey"], 0.0366, 0.15) else 2.4)
         if s["type"] == "zone":
             travel = max(travel, 1.2)
         if travel:
@@ -138,12 +137,33 @@ def block_at(blocks, t):
     return blocks[-1]
 
 
-def depth_at(b, t):
+def to_unit(v, j):
+    """Position -> 0..1 along the gauge: sqrt by default (room for the busy start), log for ranges like 1 mm .. 30 m."""
+    if j.get("scale") == "log":
+        lo, hi = math.log10(j["min"]), math.log10(j["max"])
+        return min(max((math.log10(max(v, j["min"])) - lo) / (hi - lo), 0.0), 1.0)
+    return math.sqrt(min(max(v, 0) / j["max"], 1.0))
+
+
+def from_unit(u, j):
+    if j.get("scale") == "log":
+        lo, hi = math.log10(j["min"]), math.log10(j["max"])
+        return 10 ** (lo + (hi - lo) * u)
+    return u * u * j["max"]
+
+
+def big_jump(a, b, j, frac, unit):
+    if j.get("scale") == "log":
+        return abs(to_unit(b, j) - to_unit(a, j)) >= unit
+    return abs(b - a) >= j["max"] * frac
+
+
+def depth_at(b, t, j):
     if b["kind"] != "travel":
         return b["d0"]
     x = ease((t - b["t0"]) / b["dur"])
-    s0, s1 = math.sqrt(max(b["d0"], 0)), math.sqrt(max(b["d1"], 0))
-    return (s0 + (s1 - s0) * x) ** 2
+    u0, u1 = to_unit(b["d0"], j), to_unit(b["d1"], j)
+    return from_unit(u0 + (u1 - u0) * x, j)
 
 
 # ---------------------------------------------------------------- background
@@ -295,24 +315,30 @@ class Scene:
             self.text_cache[key] = fn()
         return self.text_cache[key]
 
-    def meter(self, d, zone_alpha=1.0):
-        return self.text_img(("meter", int(round(d))), lambda: self._meter(d))
+    def meter(self, d, seg_stats=None):
+        key = ("meter", self.fmt_pos(d), json.dumps(seg_stats, ensure_ascii=False))
+        return self.text_img(key, lambda: self._meter(d, seg_stats))
 
-    def _meter(self, d):
+    def _meter(self, d, seg_stats):
         im = Image.new("RGBA", (440, H), (0, 0, 0, 0))
         dr = ImageDraw.Draw(im)
         dr.rounded_rectangle((28, 40, 410, 360), 22, fill=(0, 10, 25, 120), outline=(140, 210, 255, 70), width=2)
-        j, mx = self.j, self.j["max"]
+        j = self.j
         dr.text((56, 58), j["label"], font=font(F_UI, 28), fill=(150, 210, 240, 255))
         dr.text((52, 88), self.fmt_pos(d), font=font(F_ANTON, 92), fill=(255, 255, 255, 255))
-        for k, st in enumerate(j["stats"][:3]):
+        # rows: journey-wide stats interpolated by position, or per-segment facts (ranking documentaries)
+        rows = seg_stats if seg_stats is not None else [(st["name"], fmt_stat(st, d)) for st in j["stats"][:3]]
+        for k, (name, val) in enumerate(rows[:3]):
             y = 222 + k * 42
-            dr.text((56, y), st["name"], font=font(F_UI, 28), fill=(150, 210, 240, 255))
-            dr.text((390, y), fmt_stat(st, d), font=font(F_UI, 30), fill=(255, 255, 255, 255), anchor="ra")
+            dr.text((56, y), name, font=font(F_UI, 28), fill=(150, 210, 240, 255))
+            fv = font(F_UI, 30)
+            while dr.textlength(val, font=fv) > 390 - 56 - dr.textlength(name, font=font(F_UI, 28)) - 16 and fv.size > 18:
+                fv = font(F_UI, fv.size - 2)
+            dr.text((390, y), val, font=fv, fill=(255, 255, 255, 255), anchor="ra")
         # gauge: sqrt scale gives the busy first part room; "up" journeys grow from the bottom
         gx, gt, gb = 96, 420, 1010
         up = j["direction"] == "up"
-        ys = lambda v: (gb - (gb - gt) * math.sqrt(max(v, 0) / mx)) if up else (gt + (gb - gt) * math.sqrt(max(v, 0) / mx))
+        ys = lambda v: (gb - (gb - gt) * to_unit(v, j)) if up else (gt + (gb - gt) * to_unit(v, j))
         zones = j["zones"]
         for (a, b, name), c in zip(zones, zone_colors(j)):
             on = a <= d < b or (b == zones[-1][1] and d >= a)
@@ -322,15 +348,24 @@ class Scene:
         last = None
         for v in sorted([z[1] for z in zones], reverse=True):   # the end value wins over a tick right next to it
             if last is None or abs(ys(v) - last) >= 20:
-                dr.text((gx - 18, ys(v)), fmt_num(v), font=font(F_UI, 18), fill=(170, 200, 220, 170), anchor="rm")
+                dr.text((gx - 18, ys(v)), fmt_num(v, 1 if v < 10 and v != int(v) else 0), font=font(F_UI, 18), fill=(170, 200, 220, 170), anchor="rm")
                 last = ys(v)
-        y = ys(min(max(d, 0), mx))
+        y = ys(d)
         dr.polygon([(gx + 10, y), (gx + 26, y - 10), (gx + 26, y + 10)], fill=(255, 210, 60, 255))
         dr.line((gx - 10, y, gx + 10, y), fill=(255, 210, 60, 255), width=4)
         return im
 
     def fmt_pos(self, d):
-        return fmt_num(round(d)) + " " + self.j["unit"]
+        """Counter text; journey "units" switches unit by size, e.g. [[0, "cm", 1], [100, "m", 0.01]]."""
+        unit, f = self.j["unit"], 1
+        for lim, u, fac in self.j.get("units", []):
+            if d >= lim:
+                unit, f = u, fac
+        v = d * f
+        dec = self.j.get("dec")
+        if dec is None:   # small values keep a decimal (0,5 cm), large ones are whole numbers
+            dec = 1 if abs(v) < 10 and abs(v - round(v)) > 0.05 else 0
+        return fmt_num(round(v, dec), dec) + " " + unit
 
     def photo(self, key):
         if key not in self.img_cache:
@@ -385,7 +420,7 @@ class Scene:
         if seg["type"] == "creature":
             dr.text((44, ch - 150), tr_upper(seg["name"]), font=font(F_ANTON, 70), fill="white")
             dr.text((48, ch - 62), seg["latin"], font=font(F_IT, 32), fill=(205, 225, 235))
-            label = f"YAŞAM ALANI  {seg['range']}"
+            label = f"{self.j.get('range_label', 'YAŞAM ALANI')}  {seg['range']}"
             f = font(F_UI, 28)
             tw = dr.textlength(label, font=f)
             dr.rounded_rectangle((cw - tw - 76, ch - 74, cw - 36, ch - 26), 22, fill=(0, 30, 50, 190), outline=(120, 210, 255, 160), width=2)
@@ -469,16 +504,19 @@ class Scene:
         b = block_at(self.blocks, t)
         if b["kind"] == "cold":
             return self.cold(t)
-        d = depth_at(b, t)
+        d = depth_at(b, t, self.j)
         fr = self.background(d, t)
         img = Image.fromarray(np.clip(fr, 0, 255).astype(np.uint8))
         lt = t - b["t0"]
         meter_a = 1.0 if t > COLD_OPEN + 1.5 else ease((t - COLD_OPEN) / 1.5)
         if b["kind"] != "end":
-            self.paste(img, self.meter(d), (0, 0), meter_a)
+            seg_stats = b["seg"].get("stats") if "seg" in b else None
+            if seg_stats is None and self.j["stats"] == []:
+                seg_stats = []
+            self.paste(img, self.meter(d, seg_stats), (0, 0), meter_a)
         k = b["kind"]
-        if k == "travel" and abs(b["d1"] - b["d0"]) >= self.j["max"] * 0.005:
-            big = self.big_title(("travel", int(round(d))), self.fmt_pos(d), None, 150)
+        if k == "travel" and big_jump(b["d0"], b["d1"], self.j, 0.0046, 0.05):
+            big = self.big_title(("travel", self.fmt_pos(d)), self.fmt_pos(d), None, 150)
             a = math.sin(math.pi * min(1, lt / b["dur"])) * 0.28
             self.paste(img, big, (CARD[0] // 2 - 120, 300), a)
         elif k == "zone":

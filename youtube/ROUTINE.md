@@ -15,24 +15,27 @@ Bu görevde **Instagram işi yapma** (`CLAUDE.md`'deki gönderi/Reels adımları
 
 ## 1. Konu ve format
 
-Format: **dikey yolculuk**. Ekranın solunda bir sayaç (derinlik ya da yükseklik) ilerler, izleyici yol boyunca her seviyede yaşayan canlılarla, bölgelerle ve ölçek karşılaştırmalarıyla (kule, dağ, bina, gemi enkazı gibi tanıdık şeyler) tanışır.
+**Kanalın amacı vahşi doğa ve hayvanlardır (sahibinin kesin kuralı).** Belgeselin konusu her zaman **canlılar**: bir yer, dağ, göl, mağara ya da coğrafya belgeseli **yapma**. Yer/derinlik/boyut sadece canlıları sıralamak için bir çerçevedir. Başlık, kapak ve açıklama da hayvanları öne çıkarmalı ("… yaşayan canlılar", "… hayvanlar").
+
+Format: **sayaçlı yolculuk/sıralama.** Ekranın solundaki sayaç (derinlik, yükseklik, boy, hız, yaşam süresi…) ilerler, her seviyede bir canlı anlatılır. Bölgeler (zone) ve ölçek karşılaştırmaları (landmark) yalnızca kısa geçişlerdir; segmentlerin büyük çoğunluğu canlı (creature) olmalı.
 
 - `published.md`'deki bir konuyu tekrar etme. Oradaki canlıları ana canlı olarak kullanma.
-- Konu, Türkiye'deki izleyicinin merak edeceği, aranabilir bir konu olmalı. Fikirler (yapılmamış olanlardan seç):
-  - Everest'e tırmanış: deniz seviyesinden 8.849 metreye, her yükseklikte yaşayan canlılar (`direction: up`)
-  - Gökyüzüne yolculuk: yerden 11.000 metreye, en yükseğe uçan kuşlar ve böcekler (`up`)
-  - Yağmur ormanının katmanları: orman tabanından 70 metrelik dev ağaçların tepesine (`up`, birim m)
-  - Yerin altına yolculuk: topraktan mağaralara ve madenlerdeki derin yaşama (`down`)
-  - Dünyanın en derin gölü Baykal: yüzeyden 1.642 metreye (`down`)
-  - Dünyanın en derin mağarası: girişten 2.212 metreye (`down`)
+- Konu, Türkiye'deki izleyicinin merak edeceği ve arayacağı bir **hayvan** konusu olmalı. Fikirler (yapılmamış olanlardan seç, benzerlerini de üretebilirsin):
+  - **En küçükten en büyüğe hayvanlar:** milimetrelik canlılardan mavi balinaya (boy sıralaması, `scale: log`, `direction: up`)
+  - **Dünyanın en hızlı hayvanları:** yavaştan en hızlıya, km/sa (hız sıralaması, `up`)
+  - **En uzun yaşayan hayvanlar:** günlerden yüzyıllara (yaşam süresi, `scale: log`, `up`)
+  - **Gökyüzünde en yükseğe uçan hayvanlar:** yerden 11.000 metreye uçan kuşlar ve böcekler (yükseklik, `up`)
+  - **Yerin altında yaşayan hayvanlar:** topraktan mağaraların ve madenlerin derinliklerine (derinlik, `down`)
+  - **Yağmur ormanının hayvanları:** orman tabanından ağaçların tepesine, her katta yaşayan canlılar (yükseklik, `up`)
+  - **En soğuktan en sıcağa:** donan kurbağalardan kaynayan sulardaki canlılara (sıcaklık, `up`)
 - **Fotoğraf kontrolü önce:** Konuyu kesinleştirmeden önce her aday canlı için uygun fotoğraf olup olmadığına bak (bölüm 4). En az 22 canlının iyi fotoğrafı yoksa başka konu seç.
 
 ## 2. Senaryo (`script.json`)
 
 ```json
 {
-  "title": "EVEREST'E TIRMANIŞ",
-  "subtitle": "0'dan 8.849 metreye",
+  "title": "DAĞLARIN HAYVANLARI",
+  "subtitle": "Ormandan 8.849 metreye",
   "journey": {
     "label": "YÜKSEKLİK", "unit": "m", "max": 8849, "direction": "up",
     "zones": [[0, 1000, "ORMAN"], [1000, 3000, "BULUT ORMANI"], [3000, 5000, "ALPİN"], [5000, 8000, "BUZUL"], [8000, 8849, "ÖLÜM BÖLGESİ"]],
@@ -64,6 +67,14 @@ Format: **dikey yolculuk**. Ekranın solunda bir sayaç (derinlik ya da yüksekl
 - `palette`: arka plan rengi, konuma göre `[konum, [R, G, B]]`. İniş: açıktan koyuya. Çıkış (gökyüzü): açık maviden koyu laciverte. Mağara/yer altı: toprak kahvesinden siyaha.
 - `rays`: güneş ışınlarının görüneceği son konum (yoksa 0). `particles`: `marine` (su içi), `snow` (kar), `dust` (toz) ya da `null`. `glow`: bu konumdan sonra biyolüminesans pırıltıları (su altı konularında), yoksa `null`.
 - `music`: iki parça: `Reawakening.mp3` (sakin, görkemli), `Investigations.mp3` (gizemli), `Ancient_Rite.ogg` (vahşi, enerjik). İkinci parça `music_switch: true` olan bölgede başlar.
+
+**Sıralama belgeselleri** (boy, hız, yaşam süresi gibi): sayaç konumu canlının kendi değeridir ve her canlının değerleri farklıdır, bu yüzden:
+- `"stats": []` yap ve her creature segmentine kendi bilgilerini ekle: `"stats": [["AĞIRLIK", "150 ton"], ["YAŞAM", "90 yıl"], ["NEREDE", "Tüm okyanuslar"]]` (3 satır, değer ≤ 16 karakter, doğrulanmış).
+- Değerler çok geniş aralıktaysa (0,1 cm … 30 m) `"scale": "log"` ve `"min": <en küçük değerin altı>` ekle.
+- Birim büyüyünce değişsin: `"units": [[0, "cm", 1], [100, "m", 0.01]]` (100 cm ve üstü metre gösterilir). Hız için `"unit": "km/sa"`.
+- Kartta `range` yerine sıralama değeri görünsün: `"range_label": "BOY"` ve her canlıda `"range": "30 m"`.
+- Zonlar sıralamanın kademeleri olur: `[[0.1, 1, "MİLİMETRİK"], [1, 10, "KÜÇÜK"], …]`.
+- Landmark'lar tanıdık ölçeklerdir (bir otobüs 12 m, insan 1,7 m, bir futbol topu 22 cm).
 
 **segments:**
 - Sıra: `intro` → (zone, creature, landmark karışık) → `outro`. `depth` = yolculuktaki konum (metre). **Sadece aynı yöne ilerler** (0'dan `max`'a doğru, hiç geri gitmez).
@@ -107,16 +118,16 @@ Instagram'daki kuralların aynısı (`CLAUDE.md` bölüm 2): önce kamu malı / 
 
 ```json
 {
-  "title": "Everest'e Tırmandıkça Hayat Nasıl Değişiyor?",
-  "description": "Deniz seviyesinden dünyanın çatısına, 8.849 metreye tırmanıyoruz. ... (2-4 cümle, anahtar kelimeler doğal geçsin)",
+  "title": "Yükseldikçe Hayatta Kalmak Zorlaşıyor: Dağların Hayvanları",
+  "description": "Himalayaların eteklerindeki ormanlardan 8.849 metreye, her yükseklikte hayatta kalmayı başaran hayvanlarla tanışıyoruz. ... (2-4 cümle, anahtar kelimeler doğal geçsin)",
   "sources": "İngilizce Wikipedia, Britannica, National Geographic ve ilgili bilimsel yayınlar.",
-  "hashtags": ["#belgesel", "#everest", "#hayvanlar", "#doğa", "#terrawildnature"],
-  "tags": ["belgesel", "everest", "himalaya", "dağ hayvanları", "kar leoparı", "türkçe belgesel", "doğa belgeseli", "hayvan belgeseli"],
+  "hashtags": ["#belgesel", "#hayvanlar", "#vahşiyaşam", "#doğa", "#terrawildnature"],
+  "tags": ["belgesel", "hayvan belgeseli", "dağ hayvanları", "kar leoparı", "himalaya hayvanları", "vahşi yaşam", "türkçe belgesel", "doğa belgeseli"],
   "thumb": {"lines": ["8.849 METRE", "YUKARIDA", "KİM YAŞIYOR?"], "photo": "21_0", "cx": 0.6, "cy": 0.45, "zoom": 1.0},
-  "story": {"lines": ["EVEREST'E", "TIRMANIYORUZ"], "info": "8.849 metre · 5 bölge · 26 canlı"}
+  "story": {"lines": ["DAĞLARIN", "HAYVANLARI"], "info": "8.849 metre · 5 bölge · 26 canlı"}
 }
 ```
-- **Başlık** (sahibinin kuralı): profesyonel YouTuber tarzı, **kısa (≤60 karakter), merak uyandıran**, duygusal. Bir arama kelimesi içersin (konu adı). `|`, "(Belgesel)" ve "0'dan X metreye" gibi tarif eden kalıplar **yok**. Kapak yazısını tekrar etme, onu tamamlasın. Yalan vaat (clickbait) yok. Örnekler: "Okyanusun Dibine İndikçe Canlılar Daha da Tuhaflaşıyor", "Işığın Hiç Ulaşmadığı Yerde Yaşayan Canlılar".
+- **Başlık** (sahibinin kuralı): profesyonel YouTuber tarzı, **kısa (≤60 karakter), merak uyandıran**, duygusal. Bir arama kelimesi içersin (konu adı). `|`, "(Belgesel)" ve "0'dan X metreye" gibi tarif eden kalıplar **yok**. Kapak yazısını tekrar etme, onu tamamlasın. Yalan vaat (clickbait) yok. Başlıkta mutlaka hayvan/canlı vurgusu olsun. Örnekler: "Okyanusun Dibine İndikçe Canlılar Daha da Tuhaflaşıyor", "Işığın Hiç Ulaşmadığı Yerde Yaşayan Canlılar".
 - **Kapak** (`thumb`): 3 satır, satır başına ≤12 karakter, büyük harf. 1. satır sarı (genelde rakam), diğerleri beyaz. Merak sorusu ("… KİM YAŞIYOR?"). `photo`: en çarpıcı fotoğrafın anahtarı (dosya adı uzantısız); `cx`/`cy` hayvanın konumu (0-1). Hayvan sağ yarıda büyük görünmeli.
 - `story.lines`: Instagram hikâyesi için 2-3 kısa satır (≤11 karakter).
 - Açıklamanın geri kalanı (bölümler, görsel kaynakları, müzik) otomatik eklenir.
