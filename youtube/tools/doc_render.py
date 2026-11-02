@@ -47,6 +47,13 @@ END_SCREEN = 20.0
 
 CARD = (520, 92, 1340, 754)          # x, y, w, h (16:9)
 SUB_CX, SUB_Y, SUB_W = 1180, 905, 1380
+OFFX = 180                            # big titles sit right of the meter
+
+
+def set_layout(meter):
+    """Without the meter (thematic / countdown documentaries) everything is centred."""
+    global CARD, SUB_CX, OFFX
+    CARD, SUB_CX, OFFX = ((520, 92, 1340, 754), 1180, 180) if meter else ((290, 92, 1340, 754), 960, 0)
 
 # The ocean descent is the reference journey; script.json "journey" overrides any of these keys.
 OCEAN = {
@@ -98,6 +105,8 @@ def duration(p):
 def timeline(doc):
     spec = json.loads((doc / "script.json").read_text(encoding="utf-8"))
     spec["journey"] = {**OCEAN, **spec.get("journey", {})}
+    meter = spec["journey"].get("meter", True)
+    set_layout(meter)
     blocks, t, prev = [{"kind": "cold", "t0": 0.0, "dur": COLD_OPEN, "d0": 0, "d1": 0}], COLD_OPEN, 0
     for i, s in enumerate(spec["segments"]):
         travel = 0.0 if s["depth"] == prev else (3.2 if big_jump(prev, s["depth"], spec["journey"], 0.0366, 0.15) else 2.4)
@@ -106,6 +115,9 @@ def timeline(doc):
         if travel:
             blocks.append({"kind": "travel", "t0": t, "dur": travel, "d0": prev, "d1": s["depth"], "i": i})
             t += travel
+        if s.get("rank") is not None:   # countdown: big "#7" before the creature
+            blocks.append({"kind": "rank", "t0": t, "dur": 1.8, "d0": s["depth"], "d1": s["depth"], "i": i, "rank": s["rank"]})
+            t += 1.8
         hold = 3.2 if s["type"] == "zone" else 0.5
         vd = duration(doc / "voice" / f"{i:02d}.mp3")
         words = json.loads((doc / "voice" / f"{i:02d}.json").read_text(encoding="utf-8"))
@@ -417,6 +429,12 @@ class Scene:
         cw, ch = CARD[2], CARD[3]
         im = Image.new("RGBA", (cw, ch), (0, 0, 0, 0))
         dr = ImageDraw.Draw(im)
+        if seg.get("rank") is not None:
+            f = font(F_ANTON, 64)
+            txt = f"#{seg['rank']}"
+            tw = dr.textlength(txt, font=f)
+            dr.rounded_rectangle((28, 24, 28 + tw + 40, 118), 18, fill=(230, 33, 23, 235))
+            dr.text((48, 30), txt, font=f, fill="white")
         if seg["type"] == "creature":
             dr.text((44, ch - 150), tr_upper(seg["name"]), font=font(F_ANTON, 70), fill="white")
             dr.text((48, ch - 62), seg["latin"], font=font(F_IT, 32), fill=(205, 225, 235))
@@ -509,7 +527,7 @@ class Scene:
         img = Image.fromarray(np.clip(fr, 0, 255).astype(np.uint8))
         lt = t - b["t0"]
         meter_a = 1.0 if t > COLD_OPEN + 1.5 else ease((t - COLD_OPEN) / 1.5)
-        if b["kind"] != "end":
+        if b["kind"] != "end" and self.j.get("meter", True):
             seg_stats = b["seg"].get("stats") if "seg" in b else None
             if seg_stats is None and self.j["stats"] == []:
                 seg_stats = []
@@ -522,7 +540,10 @@ class Scene:
         elif k == "zone":
             s = b["seg"]
             a = ease(lt / 0.9) * (1 - 0.65 * ease((lt - 6) / 1.5))
-            self.paste(img, self.big_title(("zone", s["name"]), s["name"], s["range"]), (180, 230), a)
+            self.paste(img, self.big_title(("zone", s["name"]), s["name"], s["range"]), (OFFX, 230), a)
+        elif k == "rank":
+            a = ease(lt / 0.4) * ease((b["dur"] - lt) / 0.4)
+            self.paste(img, self.big_title(("rank", b["rank"]), f"#{b['rank']}", None, 260), (OFFX, 200), a)
         elif k in ("creature", "landmark"):
             self.card(img, b, lt)
         elif k in ("intro", "outro"):
@@ -578,7 +599,7 @@ class Scene:
         metas = self.photos.get(key)
         if not metas:   # landmark without photo: big centred value
             a = alpha
-            self.paste(img, self.big_title(("lm", s["name"]), s["value"], tr_upper(s["name"]), 170), (180, 230), a)
+            self.paste(img, self.big_title(("lm", s["name"]), s["value"], tr_upper(s["name"]), 170), (OFFX, 230), a)
             return
         keys = [m["file"][:-4] for m in metas]
         ph, k = self.card_photo_frame(keys, lt, b["dur"])
@@ -769,6 +790,8 @@ def chapters(doc, blocks):
             lines.append(f"{t // 60}:{t % 60:02d} {tr_title(s['name'])} ({s['range']})")
         elif b["kind"] == "creature" or (b["kind"] == "landmark" and s.get("chapter")):
             name = s["name"] + (f" ({s['value']})" if b["kind"] == "landmark" else "")
+            if s.get("rank") is not None:
+                name = f"#{s['rank']} {name}"
             lines.append(f"{t // 60}:{t % 60:02d} {name}")
     out, last = [], -99
     for l in lines:   # YouTube needs >= 10 s between chapters

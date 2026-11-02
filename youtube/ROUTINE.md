@@ -17,7 +17,13 @@ Bu görevde **Instagram işi yapma** (`CLAUDE.md`'deki gönderi/Reels adımları
 
 **Kanalın amacı vahşi doğa ve hayvanlardır (sahibinin kesin kuralı).** Belgeselin konusu her zaman **canlılar**: bir yer, dağ, göl, mağara ya da coğrafya belgeseli **yapma**. Yer/derinlik/boyut sadece canlıları sıralamak için bir çerçevedir. Başlık, kapak ve açıklama da hayvanları öne çıkarmalı ("… yaşayan canlılar", "… hayvanlar").
 
-Format: **sayaçlı yolculuk/sıralama.** Ekranın solundaki sayaç (derinlik, yükseklik, boy, hız, yaşam süresi…) ilerler, her seviyede bir canlı anlatılır. Bölgeler (zone) ve ölçek karşılaştırmaları (landmark) yalnızca kısa geçişlerdir; segmentlerin büyük çoğunluğu canlı (creature) olmalı.
+**Format çeşitliliği (sahibinin isteği):** Her video aynı görünmesin. Üç format var; **bir önceki belgeselin formatını art arda kullanma** (`published.md`'de her belgeselin formatı yazılı), müziği ve kapak fotoğrafının tarzını da değiştir.
+
+- **A) Sayaçlı yolculuk / sıralama:** Ekranın solundaki sayaç (derinlik, yükseklik, boy, hız, yaşam süresi…) ilerler, her seviyede bir canlı anlatılır. Bölgeler (zone) ve ölçek karşılaştırmaları (landmark) kısa geçişlerdir.
+- **B) Geri sayım (Top 20-30):** Sayaç yok (`"meter": false`). Her canlıda `"rank"` var ve sıra büyükten küçüğe iner (ör. 25 → 1); her canlıdan önce ekranda büyük "#7" görünür. Ör. "Dünyanın en tehlikeli 25 hayvanı", "En tuhaf görünümlü 25 hayvan", "En iyi kamufle olan 25 hayvan". Zone'lar 4-6 bölüm ayracı olarak kullanılabilir (ör. "25-16", "15-6", "İLK 5"). Kapakta `"bar": false`.
+- **C) Tematik belgesel:** Sayaç ve sıra yok (`"meter": false`). Bir tema etrafında bölümler (zone) ve canlılar. Ör. "Taklit ustaları: başka bir şeymiş gibi davranan hayvanlar", "Hayvanlar aleminin en tuhaf ebeveynleri", "Zehir nasıl çalışır: zehirli hayvanlar". Zone `name` bölüm adı, `range` kısa alt başlık olur. Kapakta `"bar": false`.
+
+Sayaçsız formatlarda (B, C) her segmentte `"depth": 0` yaz ve `journey` şöyle olsun: `{"meter": false, "stats": [], "zones": [[0, 1, "-"]], "max": 1, "palette": [[0, [20, 40, 60]], [1, [20, 40, 60]]], "rays": 0, "particles": "dust", "glow": null, "range_label": "YAŞAM ALANI", "music": [...]}` (palette rengini konuya göre seç: orman yeşili, çöl kahvesi, gece laciverti…).
 
 - `published.md`'deki bir konuyu tekrar etme. Oradaki canlıları ana canlı olarak kullanma.
 - Konu, Türkiye'deki izleyicinin merak edeceği ve arayacağı bir **hayvan** konusu olmalı. Fikirler (yapılmamış olanlardan seç, benzerlerini de üretebilirsin):
@@ -137,7 +143,7 @@ Instagram'daki kuralların aynısı (`CLAUDE.md` bölüm 2): önce kamu malı / 
 1. Klasör: `youtube/docs/<YYYYMMDD>_<konu>` (tarih = bugün, konu küçük harf ve Türkçe karaktersiz, ör. `20261110_everest`).
 2. `python youtube/tools/fetch_photos.py youtube/docs/<klasör>` (eksik indirmeleri tamamlar), sonra `python youtube/tools/check_doc.py youtube/docs/<klasör>`. Hata varsa düzelt ve tekrar çalıştır. **OK görmeden commit'leme.**
 3. `python youtube/tools/kapak.py youtube/docs/<klasör>` çalıştır ve `out/kapak.jpg`'yi Read ile aç. Yazı okunaklı mı, hayvan görünüyor mu? Değilse `thumb` ayarlarını değiştir.
-4. `youtube/published.md` sonuna yeni bölüm ekle: `## <tarih> · <başlık> (<aralık>, <yön>)` ve `Canlılar: Ad (bilimsel ad), ...`.
+4. `youtube/published.md` sonuna yeni bölüm ekle: `## <tarih> · <başlık> · Format <A/B/C>` ve `Canlılar: Ad (bilimsel ad), ...`.
 5. `git add youtube/docs/<klasör>/script.json youtube/docs/<klasör>/photos.json youtube/docs/<klasör>/meta.json youtube/published.md && git commit -m "Belgesel: <başlık>" && git push` (çakışmada `git pull --rebase` ve tekrar push).
 6. Son mesajında konuyu, başlığı, canlı sayısını, toplam karakteri ve fotoğraf sorunlarını kısaca yaz.
 
