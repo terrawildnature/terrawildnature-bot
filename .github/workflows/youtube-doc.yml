@@ -139,6 +139,7 @@ jobs:
           python youtube/tools/kapak.py "$DOC"
           python youtube/tools/meta.py "$DOC"
           python youtube/tools/story.py "$DOC"
+          python youtube/tools/captions.py "$DOC"
           ls -la "$DOC/out" | grep -v part_
       - name: Publish time (next Saturday 20:00 Turkey = 17:00 UTC)
         id: when
@@ -163,6 +164,7 @@ jobs:
         run: |
           python youtube/tools/yt_upload.py "$DOC" --publish-at "${{ steps.when.outputs.at }}"
           echo "id=$(cat "$DOC/out/video_id.txt")" >> "$GITHUB_OUTPUT"
+          python youtube/tools/captions.py "$DOC" --upload "$(cat "$DOC/out/video_id.txt")"
       - name: Release package
         id: rel
         run: |
@@ -170,7 +172,7 @@ jobs:
           TAG="belgesel-$SLUG"
           gh release delete "$TAG" -y --cleanup-tag 2>/dev/null || true
           gh release create "$TAG" --title "$(cat "$DOC/out/baslik.txt")" --notes "Haftalık belgesel paketi: $SLUG" \
-            "$DOC/out/belgesel.mp4" "$DOC/out/kapak.jpg" "$DOC/out/story.jpg" "$DOC/out/baslik.txt" "$DOC/out/aciklama.txt"
+            "$DOC/out/belgesel.mp4" "$DOC/out/kapak.jpg" "$DOC/out/story.jpg" "$DOC/out/baslik.txt" "$DOC/out/aciklama.txt" "$DOC/out/altyazi.srt"
           echo "url=https://github.com/${{ github.repository }}/releases/tag/$TAG" >> "$GITHUB_OUTPUT"
       - name: Notify owner (issue -> e-mail)
         run: |
@@ -187,10 +189,11 @@ jobs:
               echo "Video hazır. Önerilen yayın: **${{ steps.when.outputs.tr }}** (Türkiye saati)."
               echo
               echo "**Yükleme (3 dakika):**"
-              echo "1. Paketi indir: $REL (belgesel.mp4, kapak.jpg, story.jpg, baslik.txt, aciklama.txt)"
+              echo "1. Paketi indir: $REL (belgesel.mp4, kapak.jpg, story.jpg, baslik.txt, aciklama.txt, altyazi.srt)"
               echo "2. YouTube Studio → Oluştur → Video yükle → belgesel.mp4"
               echo "3. Başlık: baslik.txt, açıklama: aciklama.txt, küçük resim: kapak.jpg, kitle: çocuklara özel değil, kategori: Eğitim"
-              echo "4. Görünürlük → **Planla** → ${{ steps.when.outputs.tr }}"
+              echo "4. Video öğeleri adımında **Altyazı ekle → Dosya yükle → Zamanlamalı** → altyazi.srt (dil: Türkçe)"
+              echo "5. Görünürlük → **Planla** → ${{ steps.when.outputs.tr }}"
             fi
             echo
             echo "Instagram hikâyesi için: story.jpg (paketin içinde) + bağlantı çıkartması."
