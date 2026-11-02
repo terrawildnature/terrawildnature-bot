@@ -1,0 +1,146 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Ancient_Rite.ogg",
+    "start": 0,
+    "loudness": -27
+  },
+  "group": "memeli",
+  "hook_style": "sayı",
+  "photos": {
+    "p1.jpg": "File:Manul (Otocolobus manul).jpg",
+    "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/748806519/original.jpg",
+    "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/664585488/original.jpg",
+    "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/664645807/original.jpg",
+    "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/593190187/original.jpg",
+    "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/593190379/original.jpg",
+    "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/593190035/original.jpg",
+    "p8.jpg": "File:Otocolobus manul by Henry Söderlund.jpg",
+    "p9.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/593191333/original.jpg"
+  },
+  "segments": [
+    {
+      "text": "Manulun kürkünde santimetrekare başına dokuz bine kadar tüy var.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Orta Asya'dan Moğolistan'a, Tibet Platosu'na kadar uzanan kayalık dağlarda yaşıyor.",
+      "image": "p2.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Kar örtüsünün yirmi santimetreyi geçmediği yerleri seviyor.",
+      "image": "p3.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Yuvarlak kulakları başının yanlarında alçakta durur; böylece kayaların üstünden gözetleyebilir.",
+      "image": "p4.jpg",
+      "cx": 0.72,
+      "cy": 0.72,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Gözbebekleri güneşte küçük, yuvarlak bir noktaya daralır.",
+      "image": "p5.jpg",
+      "cx": 0.3,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Ağırlıklı olarak pika, tavşan ve kemirgenlerle besleniyor.",
+      "image": "p6.jpg",
+      "cx": 0.35,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Avını yuva çıkışlarında bekler, kemirgenleri patisiyle yuvadan çekip çıkarır.",
+      "image": "p7.jpg",
+      "cx": 0.2,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Dişi bir seferde iki ile altı yavru doğurur.",
+      "image": "p8.jpg",
+      "cx": 0.35,
+      "cy": 0.4,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p9.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    }
+  ],
+  "cover": {
+    "image": "p8.jpg",
+    "cx": 0.35,
+    "cy": 0.4,
+    "title": [
+      [
+        [
+          "9.000 TÜY",
+          "R"
+        ]
+      ],
+      [
+        [
+          "BİR TEK",
+          "W"
+        ]
+      ],
+      [
+        [
+          "SANTİMETRE",
+          "W"
+        ]
+      ],
+      [
+        [
+          "KAREDE",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "credits": [
+    {
+      "author": "Lysette Kadakas",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Subash Jeyan",
+      "license": "CC0"
+    },
+    {
+      "author": "Barry Stewart",
+      "license": "CC BY"
+    },
+    {
+      "author": "Sara Navarro",
+      "license": "CC BY"
+    },
+    {
+      "author": "Henry Söderlund",
+      "license": "CC BY 2.0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Orta Asya'nın kayalık dağlarında yaşayan manulun kürkünde santimetrekare başına dokuz bine kadar tüy bulunuyor. 🐱❄️\n\n#terrawildnature #manul\n\n📷 Lysette Kadakas (CC BY-SA 4.0), Henry Söderlund (CC BY 2.0) / Wikimedia Commons, Barry Stewart (CC BY), Sara Navarro (CC BY) / iNaturalist\n🎵 Kevin MacLeod (CC BY)"
+}

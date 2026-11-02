@@ -1,0 +1,91 @@
+{
+  "name": "Portekiz savaş gemisi",
+  "group": "deniz omurgasızı",
+  "hook_style": "sayı",
+  "title": [
+    [
+      [
+        "BU CANLININ",
+        "W"
+      ]
+    ],
+    [
+      [
+        "DOKUNAÇLARI ",
+        "W"
+      ],
+      [
+        "30 M'Yİ",
+        "R"
+      ]
+    ],
+    [
+      [
+        "AŞABİLİYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "PORTEKİZ SAVAŞ GEMİSİ",
+  "card_top": [
+    "Tek hayvan değil, birlikte",
+    "çalışan zooidlerden oluşan koloni."
+  ],
+  "card_bottom": [
+    "Dokunaçları genelde 10 metre;",
+    "sokması 1-3 saat süren şiddetli",
+    "acı ve kırbaç izi bırakır."
+  ],
+  "right": [
+    "Atlantik, Hint ve Pasifik",
+    "okyanuslarında yaşar.",
+    "Gaz dolu şamandırası yelken",
+    "gibi çalışır, rüzgârla sürüklenir.",
+    "Karaya vurunca da sokabilir."
+  ],
+  "loc": "Dünya okyanusları",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.8
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "iNaturalist 177029769",
+      "author": "Tom Kennedy",
+      "license": "CC BY",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "iNaturalist 713264658",
+      "author": "Federico Muñoz",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "iNaturalist 93447985",
+      "author": "Couve",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Aslında tek bir hayvan değil, zooid denen birimlerden oluşan bir koloni olan Portekiz savaş gemisinin dokunaçları 30 metreyi aşabiliyor ve sokması saatlerce acı veriyor. 🪼⚠️\n\n#terrawildnature #ilginçbilgiler #portekizsavaşgemisi\n\n📷 Tom Kennedy (CC BY) / iNaturalist"
+}

@@ -28,3 +28,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: Reels'te memeli güçlü (skor 2,59, içerik 3,15); gönderide memeli zayıf (0,74), 09:00 zayıf; veri hâlâ az (19 paylaşım).
 - Bugün uygulanan: gönderilerde memeli yok: tehlike (tarantula şahini, böcek/örümcek, keşif), süperlatif (yer boynuzgagası, kuş), tuhaf görünüm (sandık balığı); Reels memeli (altın burunlu maymun, tuhaf yetenek, 71 kelime, Reawakening).
 - Sonra kontrol et: tehlike kancası ve böcek/örümcek grubu içerik değeri (Gila canavarı tehlike skoru yüksekti); 71 kelimelik Reels izlenme süresi. Not: yasak liste çok doldu, yeni canlı bulmak zorlaştı; Commons'ta yabani maymun fotoğrafı az, Reels fotoğrafları iNaturalist/hayvanat bahçesi karışık.
+
+## 2026-11-02
+- Rapordan öğrenilen: Reels'te memeli güçlü (skor 2,17, içerik 3,44); gönderide balık (0,61) ve memeli (0,72) zayıf, 09:00 zayıf (0,76); veri hâlâ az (23 paylaşım).
+- Bugün uygulanan: gönderilerde memeli/balık yok: tuhaf görünüm (Wilson cennet kuşu, kuş), benzetme keşif (timsah kertenkelesi, sürüngen), sayı (Portekiz savaş gemisi, deniz omurgasızı); Reels memeli (manul, sayı kancası, 78 kelime, Ancient_Rite — müzik skoru yüksekti).
+- Sonra kontrol et: kuş/sürüngen/deniz omurgasızı gönderi içerik değerleri; manul Reels (sayı kancası + Ancient_Rite) izlenme süresi. Not: Commons'ta Physalia indirmesi zaman aşımına uğradı, iNaturalist'e geçildi; manul fotoğrafları çoğunlukla iNaturalist.

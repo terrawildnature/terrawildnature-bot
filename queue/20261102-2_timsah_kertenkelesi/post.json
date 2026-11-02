@@ -1,0 +1,84 @@
+{
+  "name": "timsah kertenkelesi",
+  "group": "sürüngen",
+  "hook_style": "benzetme",
+  "title": [
+    [
+      [
+        "BU KERTENKELE",
+        "W"
+      ]
+    ],
+    [
+      [
+        "ZIRHLI ",
+        "W"
+      ],
+      [
+        "TİMSAH",
+        "R"
+      ]
+    ],
+    [
+      [
+        "GİBİ GÖRÜNÜYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "TİMSAH KERTENKELESİ",
+  "card_top": [
+    "Sırtındaki sert pullar ona",
+    "timsah görünümü verir."
+  ],
+  "card_bottom": [
+    "Güçlü çeneleriyle salyangoz,",
+    "tatlı su kerevitleri ve",
+    "midyeleri yiyebilir."
+  ],
+  "right": [
+    "Güney Amerika'da bataklık,",
+    "dere ve sel basmış ormanlarda",
+    "yaşar. 1,2 metreye, 4,5 kiloya",
+    "kadar büyür. Şeffaf üçüncü",
+    "göz kapağı dalış gözlüğü gibi."
+  ],
+  "loc": "Güney Amerika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.4,
+      "cy": 0.45,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.6,
+      "cy": 0.5,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.12,
+      "cy": 0.5,
+      "zoom": 2.2
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Gfp-northern-caiman-lizard.jpg",
+      "author": "Yinan Chen",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Dracaena guianensis (4).jpg",
+      "author": "TimVickers",
+      "license": "Public domain",
+      "public_domain": true
+    }
+  ],
+  "caption": "Güney Amerika'nın sulak ormanlarında yaşayan timsah kertenkelesi, sırtındaki zırh gibi pullarla timsaha benzerken güçlü çeneleriyle salyangoz ve midye yiyor. 🦎🐌\n\n#terrawildnature #ilginçbilgiler #timsahkertenkelesi"
+}

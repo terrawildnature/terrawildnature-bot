@@ -1,0 +1,91 @@
+{
+  "name": "Wilson cennet kuşu",
+  "group": "kuş",
+  "hook_style": "tuhaf görünüm",
+  "title": [
+    [
+      [
+        "BU KUŞUN BAŞI",
+        "W"
+      ]
+    ],
+    [
+      [
+        "TÜY DEĞİL, ",
+        "W"
+      ],
+      [
+        "MAVİ",
+        "R"
+      ]
+    ],
+    [
+      [
+        "DERİ",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "WİLSON CENNET KUŞU",
+  "card_top": [
+    "Başındaki mavi renk tüy",
+    "değil, çıplak deri."
+  ],
+  "card_bottom": [
+    "Bu mavi, yapısal renkten gelir;",
+    "başka hiçbir cennet kuşunda",
+    "böyle bir deri rengi yok."
+  ],
+  "right": [
+    "Sadece Endonezya'daki Waigeo",
+    "ve Batanta adalarında yaşar.",
+    "Erkek yere bir 'dans alanı'",
+    "açar, yeşil yakasını kabartıp",
+    "ağzının içini göstererek öter."
+  ],
+  "loc": "Batı Papua, Endonezya",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.3
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "zoom": 2.0
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Wilson's Bird-of-Paradise 0A2A8283.jpg",
+      "author": "JJ Harrison",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Wilson's Bird-of-Paradise 0A2A8564.jpg",
+      "author": "JJ Harrison",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Wilson's Bird-of-Paradise 0A2A1913.jpg",
+      "author": "JJ Harrison",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Batı Papua'nın ormanlarındaki Wilson cennet kuşunun başındaki parlak mavi renk tüy değil, çıplak deri ve bu renk başka hiçbir cennet kuşunda yok. 🦜💙\n\n#terrawildnature #ilginçbilgiler #cennetkuşu\n\n📷 JJ Harrison (CC BY-SA 4.0) / Wikimedia Commons"
+}
