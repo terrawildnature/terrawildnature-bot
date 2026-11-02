@@ -1,0 +1,355 @@
+{
+ "title": "OKYANUSUN DİBİNE YOLCULUK",
+ "subtitle": "0'dan 10.935 metreye",
+ "segments": [
+  {
+   "type": "intro",
+   "depth": 0,
+   "text": "Okyanusun en derin noktası, yaklaşık on bir kilometre aşağıda. Everest Dağı'nı oraya bıraksanız, zirvesi bile suyun iki kilometre altında kalırdı. Bu derinlikte basınç, yüzeydekinin bin katından fazla. Işık yok. Su, donma noktasına yakın. Ve yine de, orada hayat var. Bugün yüzeyden başlayıp okyanusun en dibine, Challenger Çukuru'na kadar ineceğiz. Yol boyunca her derinlikte bizi bekleyen canlılarla tanışacağız. Bazıları hiç ışık görmeden yaşıyor, bazıları kendi ışığını üretiyor. Bazıları ise bilim insanlarının daha yeni yeni tanıdığı türler. Ekranın solundaki göstergeyi takip edin. Ne kadar derine indiğimizi, basıncın nasıl arttığını ve ışığın nasıl kaybolduğunu oradan göreceksiniz. Hazırsanız, dalışa başlıyoruz."
+  },
+  {
+   "type": "zone",
+   "depth": 0,
+   "name": "GÜNEŞ IŞIĞI BÖLGESİ",
+   "range": "0 – 200 m",
+   "text": "Okyanusun ilk iki yüz metresine güneş ışığı bölgesi deniyor. Burası okyanusun en aydınlık, en sıcak ve en kalabalık katmanı. Dünyadaki oksijenin yaklaşık yarısını üreten bitkisel planktonlar burada, güneş ışığıyla besin üretiyor. Okyanustaki besin zincirinin büyük kısmı bu ince katmanda başlıyor. Ama okyanusun toplam derinliği düşünüldüğünde, bu bölge yalnızca ince bir kabuk."
+  },
+  {
+   "type": "creature",
+   "depth": 0,
+   "name": "Portekiz Savaş Gemisi",
+   "latin": "Physalia physalis",
+   "range": "Yüzey",
+   "text": "Yolculuğumuz tam yüzeyde, suyun üstünde başlıyor. Bu canlı bir denizanası gibi görünse de, aslında tek bir hayvan değil. Portekiz savaş gemisi, birbirine bağlı yaşayan küçük bireylerden oluşan bir koloni. Her birey ayrı bir görev üstleniyor: biri yüzer, biri avlanır, biri sindirir. Suyun üstündeki gaz dolu kesesi bir yelken gibi çalışıyor ve koloni rüzgârla okyanusu dolaşıyor. Altında sarkan dokunaçları ise ortalama on metre, bazen otuz metreye kadar uzayabiliyor. Bu dokunaçlar küçük balıkları felç eden güçlü bir zehir taşıyor. İnsanlar için de çok acı verici bir sokması var. Kıyıya vurup öldükten sonra bile sokabildiği için, sahilde görüldüğünde dokunulmaması gerekiyor."
+  },
+  {
+   "type": "creature",
+   "depth": 1,
+   "name": "Uçan Balık",
+   "latin": "Exocoetidae",
+   "range": "0 – 20 m",
+   "text": "Yüzeyin hemen altında, okyanusun en şaşırtıcı akrobatlarından biri yaşıyor: uçan balık. Bir yırtıcıdan kaçarken suyun içinde hızlanıyor ve kendini havaya fırlatıyor. Sonra kanat gibi açılan uzun göğüs yüzgeçleriyle süzülüyor. Kuyruğunun alt kısmını suya değdirip çırparak havada kalma süresini uzatabiliyor. Bu süzülüşler genellikle onlarca metre sürüyor. Japonya açıklarında kameraya alınan bir uçan balık, tam kırk beş saniye boyunca havada kaldı."
+  },
+  {
+   "type": "creature",
+   "depth": 10,
+   "name": "Ay Balığı",
+   "latin": "Mola mola",
+   "range": "0 – 600 m",
+   "text": "Biraz aşağıda, yüzeye yakın sularda tuhaf bir dev süzülüyor. Ay balıkları, dünyanın en ağır kemikli balıkları. Bilinen en ağır birey yaklaşık iki buçuk ton geliyordu. Vücudu sanki yarısı kesilmiş gibi görünüyor, çünkü gerçek bir kuyruk yüzgeci yok. Bunun yerine sırt ve karın yüzgeçlerini kanat gibi çırparak yüzüyor. Ay balığı aslında derinlere de dalıyor. Soğuk sulardan döndükten sonra yüzeye çıkıp yan yatarak güneşleniyor ve vücudunu ısıtıyor. Dişisi bir seferde üç yüz milyon kadar yumurta bırakabiliyor. Bu, bilinen omurgalılar arasındaki en yüksek sayı."
+  },
+  {
+   "type": "landmark",
+   "depth": 40,
+   "name": "Tüplü dalış sınırı",
+   "value": "40 m",
+   "text": "Kırk metre. Eğlence amaçlı tüplü dalış için kabul edilen sınır burası. İnsan bedeni için okyanusun asıl zorlu derinlikleri bu noktadan sonra başlıyor."
+  },
+  {
+   "type": "landmark",
+   "depth": 63,
+   "name": "Galata Kulesi",
+   "value": "63 m",
+   "text": "Altmış üç metre. İstanbul'daki Galata Kulesi'ni denizin dibine koysaydık, tepesi tam burada olurdu. Ve henüz yolun yüzde birini bile tamamlamadık."
+  },
+  {
+   "type": "creature",
+   "depth": 100,
+   "name": "Balina Köpekbalığı",
+   "latin": "Rhincodon typus",
+   "range": "0 – 1.928 m",
+   "text": "Yüz metre civarında, dünyanın en büyük balığıyla karşılaşıyoruz: balina köpekbalığı. Boyu on sekiz metreyi bulabiliyor, yani bir otobüsten bile uzun. Ama bu dev, insanlar için zararsız. Kocaman ağzını açıp suyu süzerek planktonlar ve küçük balıklarla besleniyor. Her balina köpekbalığının sırtındaki beyaz benekler, tıpkı insanların parmak izi gibi kendine özgü. Bilim insanları bu desenleri fotoğraflayarak bireyleri tek tek tanıyabiliyor. Bu dev balık aslında sadece yüzeyde yaşamıyor. Bin dokuz yüz metreden daha derine daldığı kaydedildi."
+  },
+  {
+   "type": "creature",
+   "depth": 150,
+   "name": "Okyanus Mantası",
+   "latin": "Mobula birostris",
+   "range": "0 – 1.000 m",
+   "text": "Yüz elli metreye yaklaşırken suyun içinde dev bir kanat süzülüyor. Okyanus mantası, dünyanın en büyük vatozu. Kanat açıklığı yedi metreye ulaşabiliyor. Tıpkı balina köpekbalığı gibi, planktonla besleniyor. Mantalar, vücut büyüklüğüne oranla balıklar arasındaki en büyük beyinlerden birine sahip. Bazı araştırmacılar, aynadaki yansımalarına ilgi gösterdiklerini bile gözlemledi. Mantalar zaman zaman temizlik istasyonları denen noktalara uğruyor. Burada küçük balıklar, vücutlarındaki parazitleri temizliyor."
+  },
+  {
+   "type": "landmark",
+   "depth": 200,
+   "name": "Işığın sınırı",
+   "value": "200 m",
+   "text": "İki yüz metreye ulaştık. Güneş ışığının çok küçük bir kısmı buraya kadar ulaşabiliyor. Bitkiler artık besin üretemiyor. Alacakaranlık bölgesine giriyoruz."
+  },
+  {
+   "type": "zone",
+   "depth": 200,
+   "name": "ALACAKARANLIK BÖLGESİ",
+   "range": "200 – 1.000 m",
+   "text": "Burada her şey mavinin en koyu tonlarına bürünüyor. Işık o kadar zayıf ki, bizim gözlerimiz için gece sayılır. Ama birçok canlı için bu loş ışık, saklanmak için mükemmel bir ortam. Alacakaranlık bölgesinde yaşayan hayvanların çoğu iki önemli silaha sahip: dev gözler ve kendi ürettikleri ışık. Canlıların ışık üretmesine biyolüminesans deniyor. Derin denizde yaşayan canlıların büyük bir kısmı, bir şekilde ışık üretebiliyor."
+  },
+  {
+   "type": "creature",
+   "depth": 300,
+   "name": "Fener Balıkgilleri",
+   "latin": "Myctophidae",
+   "range": "300 – 1.500 m",
+   "text": "Üç yüz metrede küçük ama çok kalabalık bir aileyle tanışıyoruz: fener balıkgilleri. Gövdelerindeki ışık organları sayesinde loş suda parıldıyorlar. Boyları genellikle birkaç santimetre, ama sayıları akıl almaz. Dünyanın en kalabalık omurgalıları arasında gösteriliyorlar ve derin denizdeki balık kütlesinin büyük kısmını oluşturuyorlar. Bu balıklar her gece büyük bir yolculuk yapıyor. Karanlık çökünce beslenmek için yüzeye doğru yükseliyor, sabah olmadan tekrar derinlere iniyorlar. Sayısız canlının katıldığı bu günlük göç, Dünya'daki en büyük hayvan göçü olarak kabul ediliyor."
+  },
+  {
+   "type": "landmark",
+   "depth": 369,
+   "name": "Çamlıca Kulesi",
+   "value": "369 m",
+   "text": "Üç yüz altmış dokuz metre. Bu, Çamlıca Kulesi'nin yüksekliği. İstanbul'un en yüksek yapısını suya batırsak, tepesi şu an bulunduğumuz noktada olurdu. Etrafımız artık lacivertten siyaha dönüyor."
+  },
+  {
+   "type": "creature",
+   "depth": 400,
+   "name": "Japon Örümcek Yengeci",
+   "latin": "Macrocheira kaempferi",
+   "range": "50 – 600 m",
+   "text": "Dört yüz metrede, bacaklarını açtığında dört metreye yaklaşan bir yengeçle karşılaşıyoruz. Japon örümcek yengeci, bilinen en büyük bacak açıklığına sahip eklembacaklı. Japonya çevresindeki sularda yaşıyor ve yüz yıl kadar yaşayabildiği tahmin ediliyor. Uzun ve ince bacaklarına rağmen oldukça yavaş bir canlı. Daha çok deniz tabanındaki ölü hayvanlar ve yumuşakçalarla besleniyor. Dişisi, bir seferde bir buçuk milyon kadar yumurta taşıyabiliyor."
+  },
+  {
+   "type": "creature",
+   "depth": 500,
+   "name": "İmparator Penguen",
+   "latin": "Aptenodytes forsteri",
+   "range": "0 – 564 m",
+   "text": "Beş yüz metreye yaklaşırken, hiç beklemediğimiz bir ziyaretçi görüyoruz. Bir kuş. İmparator penguen, kuşlar arasında en derine dalan tür. Beş yüz altmış metreyi aşan dalışları kaydedildi. Bir dalışta yirmi dakikadan uzun süre nefesini tutabiliyor. Bunu başarmak için kalp atışını yavaşlatıyor ve hayati olmayan organlarına giden kanı azaltıyor. Penguen buraya balık ve kalamar avlamak için geliyor. Ama ne kadar derine inerse insin, her nefes için yüzeye geri dönmek zorunda."
+  },
+  {
+   "type": "creature",
+   "depth": 550,
+   "name": "Kılıç Balığı",
+   "latin": "Xiphias gladius",
+   "range": "0 – 550 m",
+   "text": "Kılıç balığı da bu derinliklerde avlanıyor. Yassı ve uzun burnunu, avını yaralamak için savuruyor. Asıl sırrı ise kafasında gizli. Gözlerinin hemen yanında, gözlerini ve beynini ısıtan özel bir doku var. Soğuk derin sularda gözlerini sıcak tutması, hızlı hareket eden avları çok daha net görmesini sağlıyor. Gözleri de oldukça büyük, neredeyse bir portakal kadar. Kılıç balığı gündüzleri derinlerde, geceleri ise yüzeye yakın sularda avlanıyor."
+  },
+  {
+   "type": "creature",
+   "depth": 650,
+   "name": "Varil Gözlü Balık",
+   "latin": "Macropinna microstoma",
+   "range": "600 – 800 m",
+   "text": "Altı yüz elli metrede, derin denizin en tuhaf yüzlerinden biri karşımızda. Bu balığın kafası şeffaf, tıpkı bir pilot kabini gibi. Önde gördüğünüz iki küçük nokta aslında göz değil, burun delikleri. Gerçek gözler, şeffaf kafanın içindeki yeşil kubbeler. Bu tüp şeklindeki gözler, yukarıdan süzülen en zayıf ışığı ve avların gölgesini yakalamak için yukarı bakıyor. Uzun yıllar bilim insanları bu gözlerin sabit olduğunu sandı. Ama 2009'da yayımlanan görüntüler, balığın gözlerini şeffaf kafasının içinde döndürüp ileriye de bakabildiğini gösterdi."
+  },
+  {
+   "type": "creature",
+   "depth": 700,
+   "name": "Goblin Köpekbalığı",
+   "latin": "Mitsukurina owstoni",
+   "range": "100 – 1.300 m",
+   "text": "Yedi yüz metrede, yaşayan bir fosil olarak anılan bir köpekbalığı: goblin köpekbalığı. Uzun, yassı burnu ve pembemsi teni ona tuhaf bir görünüm veriyor. Pembe rengi, yarı saydam derisinin altındaki kan damarlarından geliyor. Asıl şaşırtıcı özelliği ise çenesi. Avına yaklaştığında çenesini bir sapan gibi ileri fırlatıp avı yakalıyor. Bu hareket o kadar hızlı ki, ilk kez ancak 2008 yılında kameraya alınabildi."
+  },
+  {
+   "type": "landmark",
+   "depth": 828,
+   "name": "Burj Halife",
+   "value": "828 m",
+   "text": "Sekiz yüz yirmi sekiz metre. Dünyanın en yüksek binası Burj Halife'yi okyanusa batırsaydık, tepesi tam bu derinlikte kalırdı. Burada basınç, yüzeydekinin seksen katını geçti."
+  },
+  {
+   "type": "creature",
+   "depth": 900,
+   "name": "Dev Kalamar",
+   "latin": "Architeuthis dux",
+   "range": "300 – 1.000 m",
+   "text": "Bu derinliklerde, yüzyıllar boyunca denizcilerin efsanelerini besleyen bir canlı yaşıyor: dev kalamar. Uzun dokunaçlarıyla birlikte boyu on iki metreye ulaşabiliyor. Gözleri hayvanlar âleminin en büyükleri arasında. Çapı yirmi yedi santimetreyi bulabiliyor, yani bir futbol topundan büyük. Bu dev gözler, en büyük düşmanı olan ispermeçet balinasını karanlıkta uzaktan fark etmeye yarıyor olabilir. Dev kalamar o kadar gizemli ki, doğal ortamında canlı olarak ilk kez ancak 2004 yılında fotoğraflanabildi. İlk videosu ise 2012'de çekildi."
+  },
+  {
+   "type": "creature",
+   "depth": 950,
+   "name": "Vampir Kalamar",
+   "latin": "Vampyroteuthis infernalis",
+   "range": "600 – 1.200 m",
+   "text": "Adı korkutucu olsa da, vampir kalamar aslında oldukça zararsız. Kırmızı gözleri ve kollarını birbirine bağlayan pelerin benzeri zarı yüzünden bu ismi almış. Okyanusun oksijenin en az olduğu katmanlarında yaşayabiliyor. Yani çoğu hayvanın nefes alamayacağı sularda. Avlanmak yerine, yukarıdan yağan deniz karı denilen ölü organik parçacıklarla besleniyor. Tehdit hissettiğinde pelerinini ters çevirip içine saklanıyor. Kaçarken de mürekkep yerine ışıklı bir sıvı püskürterek düşmanının kafasını karıştırıyor."
+  },
+  {
+   "type": "zone",
+   "depth": 1000,
+   "name": "GECE BÖLGESİ",
+   "range": "1.000 – 4.000 m",
+   "text": "Bin metre. Güneş ışığının son izleri de kayboldu. Bu noktadan sonra okyanusta gece hiç bitmiyor. Basınç, yüzeydekinin yüz katı. Bu bölgede görebileceğiniz tek ışık, canlıların kendi ürettikleri. Yiyecek çok az. Bu yüzden buradaki hayvanların çoğu enerjisini korumak için yavaş hareket ediyor ve önüne çıkan her fırsatı değerlendiriyor."
+  },
+  {
+   "type": "creature",
+   "depth": 1100,
+   "name": "Dişli Balık",
+   "latin": "Anoplogaster cornuta",
+   "range": "500 – 5.000 m",
+   "text": "Bin yüz metrede, korkutucu görünüşlü ama aslında küçük bir avcı var: dişli balık. Boyu yalnızca on altı santimetre civarında. Ama vücut büyüklüğüne oranla okyanustaki en büyük dişlere sahip balık. Alt çenesindeki iki uzun diş o kadar büyük ki, balık ağzını kapatabilmek için onları beyninin iki yanındaki özel yuvalara yerleştiriyor. Karanlıkta görmek yerine, vücudu boyunca uzanan duyu çizgisiyle sudaki titreşimleri hissediyor ve avını böyle buluyor."
+  },
+  {
+   "type": "creature",
+   "depth": 1280,
+   "name": "Deri Sırtlı Kaplumbağa",
+   "latin": "Dermochelys coriacea",
+   "range": "0 – 1.280 m",
+   "text": "Bin iki yüz seksen metre. İnanılmaz ama bu derinliğe bir sürüngen dalabiliyor. Deri sırtlı deniz kaplumbağası, dünyanın en büyük kaplumbağası ve en derine dalan sürüngeni. Ağırlığı beş yüz kilogramı geçebiliyor. Diğer deniz kaplumbağalarından farklı olarak sert bir kabuğu yok. Sırtı, deri gibi esnek bir dokuyla kaplı. Neredeyse sadece denizanasıyla besleniyor ve onları bulmak için okyanusları baştan başa geçiyor."
+  },
+  {
+   "type": "creature",
+   "depth": 1500,
+   "name": "Derin Deniz Fener Balığı",
+   "latin": "Melanocetus johnsonii",
+   "range": "100 – 4.500 m",
+   "text": "Bin beş yüz metrede, karanlığın içinde küçük bir ışık sallanıyor. Bu, derin deniz fener balığının oltası. Başının üstündeki uzantının ucunda, içinde ışık saçan bakterilerin yaşadığı bir organ var. Meraklı küçük balıklar bu ışığa yaklaştığında, kocaman ağız bir anda kapanıyor. Midesi esneyebildiği için kendinden büyük avları bile yutabiliyor. Bazı fener balığı türlerinin üreme şekli ise neredeyse inanılmaz. Çok daha küçük olan erkek, dişiyi bulduğunda onun vücuduna ısırarak tutunuyor ve zamanla onunla kaynaşıyor. Kan dolaşımları birleşiyor ve erkek, dişinin bir parçası hâline geliyor."
+  },
+  {
+   "type": "creature",
+   "depth": 1700,
+   "name": "Dev İzopod",
+   "latin": "Bathynomus giganteus",
+   "range": "170 – 2.140 m",
+   "text": "Bin yedi yüz metrede, deniz tabanına yakın sularda dev bir canlı dolaşıyor. Dev izopod, bahçelerde gördüğümüz küçük tespih böceklerinin akrabası. Ama boyu elli santimetreye kadar ulaşabiliyor. Bu devleşmenin, derin denizin soğuk sularıyla ilişkili olduğu düşünülüyor. Dev izopod, okyanus tabanına düşen ölü hayvanlarla besleniyor. Yiyeceğin çok az olduğu bu ortamda, aç kalmaya olağanüstü dayanıklı. Japonya'daki bir akvaryumda yaşayan bir dev izopod, beş yıldan uzun süre hiçbir şey yemeden yaşadı."
+  },
+  {
+   "type": "creature",
+   "depth": 1800,
+   "name": "Pelikan Yılan Balığı",
+   "latin": "Eurypharynx pelecanoides",
+   "range": "500 – 3.000 m",
+   "text": "Bin sekiz yüz metrede, sanki sadece bir ağızdan ibaret bir canlı süzülüyor: pelikan yılan balığı. Ağzı vücuduna göre o kadar büyük ki, açıldığında kendi gövdesinden çok daha büyük bir hacmi içine alabiliyor. Bu dev ağzı bir pelikanın gagası gibi kullanarak suyu ve içindeki avı tek seferde yutuyor. İnce uzun kuyruğunun ucunda ise ışık saçan küçük bir organ var. Bilim insanları bu ışığın, avları cezbetmek için kullanıldığını düşünüyor."
+  },
+  {
+   "type": "creature",
+   "depth": 2000,
+   "name": "İspermeçet Balinası",
+   "latin": "Physeter macrocephalus",
+   "range": "0 – 2.250 m",
+   "text": "İki bin metre. Burada gezegenin en büyük beynine sahip hayvanla karşılaşıyoruz: ispermeçet balinası. Beyni yaklaşık sekiz kilogram, insan beyninin beş katından fazla. Bir dalışta bir saati aşkın süre su altında kalabiliyor ve iki bin metrenin altına inebiliyor. Bu karanlıkta görmek yerine sesle avlanıyor. Kafasından gönderdiği tıklama sesleri, hayvanlar âleminin en yüksek seslerinden biri. Bu sesler bir nesneye çarpıp geri döndüğünde, balina avının yerini belirliyor. Midelerinde bulunan dev kalamar gagaları, bu iki dev arasındaki karanlık savaşın sessiz kanıtları."
+  },
+  {
+   "type": "creature",
+   "depth": 2100,
+   "name": "Grönland Köpekbalığı",
+   "latin": "Somniosus microcephalus",
+   "range": "0 – 2.200 m",
+   "text": "İki bin iki yüz metreye kadar dalabilen bir köpekbalığı, bilinen en uzun yaşayan omurgalı unvanını taşıyor: Grönland köpekbalığı. Bilim insanları, gözlerinin merceğindeki dokuyu inceleyerek yaşlarını tahmin etti. Sonuçlara göre bu köpekbalıkları en az iki yüz yetmiş yıl, belki de dört yüz yıla yakın yaşayabiliyor. Yani bugün yüzen bazı bireyler, Osmanlı İmparatorluğu döneminde doğmuş olabilir. Soğuk sularda çok yavaş yüzüyor ve çok yavaş büyüyor. Yılda yalnızca yaklaşık bir santimetre uzuyor."
+  },
+  {
+   "type": "creature",
+   "depth": 2200,
+   "name": "Yeti Yengeci",
+   "latin": "Kiwa hirsuta",
+   "range": "2.200 m",
+   "text": "İki bin iki yüz metrede, Pasifik Okyanusu'nun güneyindeki sıcak su bacalarının yakınında, 2005 yılında tüylü bir yengeç keşfedildi. Bilim insanları ona yeti yengeci adını verdi. Kolları sarımsı tüylerle kaplı. Bu tüylerde bakteriler yaşıyor ve yengecin bu bakterilerle beslendiği düşünülüyor. Gözleri neredeyse hiç gelişmemiş. Zifiri karanlıkta zaten işe yaramazdı. Yeti yengeci o kadar farklıydı ki, onun için tamamen yeni bir aile tanımlandı."
+  },
+  {
+   "type": "creature",
+   "depth": 2500,
+   "name": "Dev Tüp Solucanı",
+   "latin": "Riftia pachyptila",
+   "range": "Hidrotermal bacalar",
+   "text": "İki bin beş yüz metrede okyanus tabanında bir şey tütüyor. Bunlar hidrotermal bacalar. Yerin derinliklerinden gelen ve sıcaklığı dört yüz dereceyi bulabilen, mineral yüklü su buradan okyanusa fışkırıyor. Bu kadar yüksek basınç altında su kaynamıyor bile. Ve şaşırtıcı biçimde, bu bacaların etrafında yoğun bir yaşam var. Dev tüp solucanları iki metreden uzun olabiliyor. Ne ağızları ne de sindirim sistemleri var. Bunun yerine vücutlarında yaşayan bakteriler, bacadan çıkan kimyasalları besine dönüştürüyor. Bu, güneş ışığına hiç ihtiyaç duymayan bir ekosistem. 1977'de keşfedilene kadar, böyle bir yaşamın mümkün olduğunu kimse düşünmemişti."
+  },
+  {
+   "type": "creature",
+   "depth": 2992,
+   "name": "Cuvier Gagalı Balinası",
+   "latin": "Ziphius cavirostris",
+   "range": "0 – 2.992 m",
+   "text": "İki bin dokuz yüz doksan iki metre. Bu, bir memelinin dalabildiği bilinen en derin nokta. Rekorun sahibi pek tanınmayan bir balina: Cuvier gagalı balinası. Aynı tür, uzun dalışlarıyla da bilim insanlarını şaşırttı. Bir bireyin üç buçuk saatten uzun süre su altında kaldığı kaydedildi. Bunu, kaslarında olağanüstü miktarda oksijen depolayarak ve dalış sırasında vücudunu adeta tasarruf moduna alarak başarıyor. Bu balinalar yüzeyde o kadar az zaman geçiriyor ki, doğada görmek çok zor."
+  },
+  {
+   "type": "creature",
+   "depth": 3500,
+   "name": "Dumbo Ahtapotu",
+   "latin": "Grimpoteuthis",
+   "range": "1.000 – 7.000 m",
+   "text": "Üç bin beş yüz metrede sevimli bir canlı görüyoruz: Dumbo ahtapotu. Adını, başının iki yanındaki kulağa benzeyen yüzgeçlerinden alıyor. Tıpkı çizgi filmdeki uçan fil gibi. Bu yüzgeçleri çırparak suda süzülüyor. Bilinen en derinde yaşayan ahtapotlar onlar. Bazılarının yedi bin metreye yakın derinlikte görüntülendiği oldu. Avlarını parçalamadan, bütün olarak yutuyorlar."
+  },
+  {
+   "type": "landmark",
+   "depth": 3800,
+   "name": "Titanik'in enkazı",
+   "value": "3.800 m",
+   "text": "Üç bin sekiz yüz metre. Titanik'in enkazı bu derinlikte yatıyor. 1912'de batan gemi, ancak 1985'te bulunabildi. Okyanusların ortalama derinliği de buraya yakın, yaklaşık üç bin yedi yüz metre. Yani bu noktadan sonrası, okyanusun ortalamadan daha derin kısımları."
+  },
+  {
+   "type": "zone",
+   "depth": 4000,
+   "name": "ABİSAL BÖLGE",
+   "range": "4.000 – 6.000 m",
+   "text": "Dört bin metre. Abisal bölgeye girdik. Bu kelime, Yunanca dipsiz anlamına gelen bir sözcükten geliyor. Su sıcaklığı burada sadece birkaç derece. Basınç, yüzeydekinin dört yüz katı. Bu, başparmağınızın üstünde bir otomobilin ağırlığını taşımak gibi. Okyanus tabanının büyük bölümü, bu derinlikte uzanan geniş ve sessiz düzlüklerden oluşuyor."
+  },
+  {
+   "type": "creature",
+   "depth": 4200,
+   "name": "Tripod Balığı",
+   "latin": "Bathypterois grallator",
+   "range": "900 – 4.700 m",
+   "text": "Dört bin iki yüz metrede, okyanus tabanında hareketsiz duran bir balık. Tripod balığı. Yüzgeçlerinden uzanan üç uzun, ince çubuğun üstünde, sanki bir fotoğraf makinesi sehpası gibi duruyor. Bu çubuklar bir metreye kadar uzayabiliyor. Balık akıntıya karşı dönüyor, ağzını açıp bekliyor. Akıntının getirdiği küçük canlılar ağzına yaklaştığında onları yakalıyor. Gözleri neredeyse işlevsiz. Avını, anten gibi kullandığı göğüs yüzgeçleriyle hissederek buluyor."
+  },
+  {
+   "type": "creature",
+   "depth": 4500,
+   "name": "Deniz Domuzu",
+   "latin": "Scotoplanes",
+   "range": "1.000 – 6.000 m",
+   "text": "Dört bin beş yüz metre. Okyanus tabanında yürüyen tuhaf, pembe yaratıklar: deniz domuzları. Aslında bunlar bir tür deniz hıyarı. Vücutlarının altındaki şişkin, bacak benzeri tüp ayakları sayesinde çamurun üzerinde yürüyorlar. Bu ayakları içlerine su pompalayarak şişirip söndürüyorlar. Bazen yüzlerce deniz domuzu bir arada bulunuyor. Dipteki çamuru tarayarak, yukarıdan düşen organik parçacıklarla besleniyorlar."
+  },
+  {
+   "type": "landmark",
+   "depth": 5137,
+   "name": "Ağrı Dağı",
+   "value": "5.137 m",
+   "text": "Beş bin yüz otuz yedi metre. Türkiye'nin en yüksek dağı Ağrı Dağı'nı okyanusun dibine yerleştirseydik, zirvesi tam burada olurdu. Ve yolculuğumuzun henüz yarısına bile gelmedik."
+  },
+  {
+   "type": "creature",
+   "depth": 5500,
+   "name": "Büyük Yüzgeçli Kalamar",
+   "latin": "Magnapinna",
+   "range": "1.900 – 6.200 m",
+   "text": "Beş bin beş yüz metrede, bilim kurgu filmlerinden çıkmış gibi görünen bir canlı: büyük yüzgeçli kalamar. Kolları dirsek gibi kıvrılıp aşağı doğru sarkıyor ve sekiz metreye kadar uzayabiliyor. Bu canlıyı ilk kez yakından görenler, derin deniz araçlarının kameraları oldu. Hakkında hâlâ çok az şey biliyoruz. Nasıl beslendiği ve nasıl ürediği büyük ölçüde bir sır. Altı bin metreyi aşan derinliklerde görüntülendi."
+  },
+  {
+   "type": "zone",
+   "depth": 6000,
+   "name": "HADAL BÖLGE",
+   "range": "6.000 – 10.935 m",
+   "text": "Altı bin metre. Okyanusun en derin bölgesine, hadal bölgeye giriyoruz. Adını Yunan mitolojisindeki yeraltı dünyasının tanrısı Hades'ten alıyor. Burası artık geniş düzlükler değil. Tektonik plakaların birbirinin altına daldığı derin çukurlar. Bu çukurlar okyanus tabanının çok küçük bir kısmını kaplıyor, ama okyanusun derinliğinin neredeyse yarısını oluşturuyor."
+  },
+  {
+   "type": "creature",
+   "depth": 8000,
+   "name": "Salyangoz Balığı",
+   "latin": "Pseudoliparis swirei",
+   "range": "6.000 – 8.336 m",
+   "text": "Sekiz bin metreye yaklaşıyoruz. Bu derinliklerde balık yaşayamayacağı düşünülürdü. Ama salyangoz balıkları bu sınırı zorluyor. Mariana salyangoz balığı yumuşak, neredeyse şeffaf, jöle gibi bir bedene sahip. Kemikleri tam olarak sertleşmemiş. Bu esneklik, ezici basınca dayanmasına yardım ediyor. 2022'de Japonya açıklarında, sekiz bin üç yüz otuz altı metrede yüzen bir salyangoz balığı kameraya alındı. Bu, şimdiye kadar görüntülenen en derin balık. Bilim insanları, balıklar için sekiz bin iki yüz ile sekiz bin dört yüz metre arasında bir sınır olduğunu düşünüyor."
+  },
+  {
+   "type": "landmark",
+   "depth": 8849,
+   "name": "Everest",
+   "value": "8.849 m",
+   "text": "Sekiz bin sekiz yüz kırk dokuz metre. Dünyanın en yüksek dağı Everest'in yüksekliği. Everest'i okyanusun en derin noktasına yerleştirseydik, zirvesinin üstünde hâlâ iki kilometreden fazla su olurdu. Ve biz inmeye devam ediyoruz."
+  },
+  {
+   "type": "creature",
+   "depth": 10000,
+   "name": "Hadal Amfipodu",
+   "latin": "Hirondellea gigas",
+   "range": "6.000 – 10.900 m",
+   "text": "On bin metre. Burada artık balık bile yok. Ama hayat hâlâ devam ediyor. Bu küçük, karides benzeri canlılar amfipodlar. Hirondellea gigas adlı tür, Mariana Çukuru'nun en dibinde yaşıyor. Bilim insanları bu canlıların sindirim sisteminde, odunu şekere dönüştürebilen özel enzimler buldu. Yani yüzeyden çukura batan ağaç parçalarını bile besine çevirebiliyorlar. Bu türün kabuğunda ise alüminyum içeren koruyucu bir katman keşfedildi. Bu katman, onları çevredeki zorlu kimyasal koşullara karşı koruyor olabilir."
+  },
+  {
+   "type": "creature",
+   "depth": 10600,
+   "name": "Ksenofiyofor",
+   "latin": "Xenophyophorea",
+   "range": "500 – 10.600 m",
+   "text": "Çukurun en derin bölgelerinde, tek hücreli devler yaşıyor: ksenofiyoforlar. Tek bir hücreden oluşmalarına rağmen boyları on santimetreyi geçebiliyor. Bu, tek hücreli bir canlı için olağanüstü bir büyüklük. Çevrelerindeki kum ve mineral parçalarını yapıştırarak kendilerine kırılgan bir iskelet örüyorlar. Mariana Çukuru'nda on bin altı yüz metreden derinde bulundular."
+  },
+  {
+   "type": "landmark",
+   "depth": 10935,
+   "name": "Challenger Çukuru",
+   "value": "10.935 m",
+   "text": "Ve işte, on bin dokuz yüz otuz beş metre. Mariana Çukuru'ndaki Challenger Çukuru, okyanusun bilinen en derin noktası. Burada basınç, yüzeydekinin bin katından fazla. Su sıcaklığı bir ila dört derece arasında. İnsanlık bu noktaya ilk kez 1960'ta ulaştı. Jacques Piccard ve Don Walsh, Trieste adlı batiskafla dibe indi. 2012'de film yönetmeni James Cameron buraya tek başına daldı. 2019'da ise kâşif Victor Vescovo, tekrar tekrar dalış yapabilen bir araçla buraya ulaştı. Uzun yıllar boyunca, Ay'a ayak basan insanların sayısı, bu noktaya inen insanlardan daha fazlaydı.",
+   "chapter": true
+  },
+  {
+   "type": "outro",
+   "depth": 10935,
+   "text": "Yüzeyden okyanusun en dibine kadar, yaklaşık on bir kilometre indik. Her derinlikte, koşullara inanılmaz yollarla uyum sağlamış canlılarla karşılaştık. Kendi ışığını üretenler, ağzı vücudundan büyük olanlar, güneşe hiç ihtiyaç duymadan yaşayanlar. Ve en şaşırtıcı olanı şu: okyanus tabanının hâlâ ancak dörtte biri kadarı ayrıntılı olarak haritalanabildi. Yani bu karanlıkta, henüz kimsenin görmediği daha nice canlı bizi bekliyor. Bu yolculuğu beğendiyseniz, kanala abone olmayı ve videoyu beğenmeyi unutmayın. Bir sonraki belgeselde görüşmek üzere."
+  }
+ ]
+}

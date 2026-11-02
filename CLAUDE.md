@@ -7,6 +7,8 @@ Bu depo @terrawildnature Instagram hesabı için otomatik gönderi üretir.
 
 Sen Instagram'a hiçbir şey göndermezsin. Görevin yalnızca gönderi hazırlamak, commit'lemek ve push'lamak.
 
+**YouTube belgeseli ayrı bir haftalık görevdir:** talimatları `youtube/ROUTINE.md`. Instagram görevinde `youtube/` klasörüne dokunma.
+
 ## Her çalıştırmada
 
 0. Kurulum: `python3 -m pip install -q --break-system-packages --ignore-installed pillow numpy` (sistemdeki PIL bozuk, düz `pip install` yetmiyor). Commons istekleri arasında birkaç saniye bekle; 429 alırsan araç kendisi bekleyip tekrar dener.

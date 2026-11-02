@@ -1,0 +1,211 @@
+name: YouTube belgeseli üret
+
+# The weekly routine commits youtube/docs/<slug>/ (script.json, photos.json, meta.json); this builds the video in
+# parallel shards, publishes the package as a GitHub release, opens an issue for the owner and, once the API audit
+# is approved (repo variable YT_AUTO_UPLOAD=true), uploads it to YouTube scheduled for Saturday 20:00 Turkey time.
+on:
+  push:
+    branches: [main]
+    paths: ["youtube/docs/*/meta.json"]
+  workflow_dispatch:
+    inputs:
+      doc:
+        description: "Belgesel klasörü (ör. youtube/docs/20261103_everest). Boşsa sıradaki."
+        required: false
+
+concurrency:
+  group: youtube-doc
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+env:
+  SHARDS: 16
+
+jobs:
+  prep:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    outputs:
+      doc: ${{ steps.pick.outputs.doc }}
+      shards: ${{ steps.pick.outputs.shards }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pick documentary
+        id: pick
+        run: |
+          DOC="${{ inputs.doc }}"
+          if [ -z "$DOC" ]; then
+            for d in $(ls -d youtube/docs/*/ 2>/dev/null | sort); do
+              d=${d%/}
+              if [ -f "$d/meta.json" ] && [ ! -f "$d/status.json" ]; then DOC=$d; break; fi
+            done
+          fi
+          if [ -z "$DOC" ]; then echo "Üretilecek belgesel yok"; exit 1; fi
+          echo "doc=$DOC" >> "$GITHUB_OUTPUT"
+          echo "shards=$(python3 -c "import json;print(json.dumps(list(range($SHARDS))))")" >> "$GITHUB_OUTPUT"
+          echo "Belgesel: $DOC"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q pillow numpy edge-tts
+      - name: Download photos
+        run: python youtube/tools/fetch_photos.py "${{ steps.pick.outputs.doc }}"
+      - name: Narration
+        run: python youtube/tools/voice.py "${{ steps.pick.outputs.doc }}" --rate -4%
+      - uses: actions/upload-artifact@v4
+        with:
+          name: prep
+          path: |
+            ${{ steps.pick.outputs.doc }}/photos
+            ${{ steps.pick.outputs.doc }}/voice
+          retention-days: 3
+
+  render:
+    needs: prep
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: ${{ fromJson(needs.prep.outputs.shards) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install tools
+        run: |
+          pip install -q pillow numpy
+          sudo apt-get install -y -q fonts-liberation fonts-dejavu-core >/dev/null 2>&1 || true
+          if ! command -v ffmpeg >/dev/null; then
+            for i in 1 2 3; do
+              curl -fsSL --retry 3 --max-time 300 -o /tmp/ffmpeg.tar.xz https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz && break
+              sleep 10
+            done
+            mkdir -p /tmp/ffmpeg && tar -xJf /tmp/ffmpeg.tar.xz -C /tmp/ffmpeg --strip-components=1
+            echo "/tmp/ffmpeg/bin" >> "$GITHUB_PATH"
+          fi
+      - uses: actions/download-artifact@v4
+        with:
+          name: prep
+          path: ${{ needs.prep.outputs.doc }}
+      - name: Render shard ${{ matrix.shard }}
+        run: python youtube/tools/doc_render.py "${{ needs.prep.outputs.doc }}" --shard ${{ matrix.shard }}/$SHARDS --workers 4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: parts-${{ matrix.shard }}
+          path: ${{ needs.prep.outputs.doc }}/out/part_*.mp4
+          retention-days: 3
+
+  assemble:
+    needs: [prep, render]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    env:
+      DOC: ${{ needs.prep.outputs.doc }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install tools
+        run: |
+          pip install -q pillow numpy
+          sudo apt-get install -y -q fonts-liberation fonts-dejavu-core >/dev/null 2>&1 || true
+          if ! command -v ffmpeg >/dev/null; then
+            for i in 1 2 3; do
+              curl -fsSL --retry 3 --max-time 300 -o /tmp/ffmpeg.tar.xz https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz && break
+              sleep 10
+            done
+            mkdir -p /tmp/ffmpeg && tar -xJf /tmp/ffmpeg.tar.xz -C /tmp/ffmpeg --strip-components=1
+            echo "/tmp/ffmpeg/bin" >> "$GITHUB_PATH"
+          fi
+      - uses: actions/download-artifact@v4
+        with:
+          name: prep
+          path: ${{ needs.prep.outputs.doc }}
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: parts-*
+          merge-multiple: true
+          path: ${{ needs.prep.outputs.doc }}/out
+      - name: Assemble video, thumbnail, description, story
+        run: |
+          python youtube/tools/doc_render.py "$DOC" --assemble
+          python youtube/tools/kapak.py "$DOC"
+          python youtube/tools/meta.py "$DOC"
+          python youtube/tools/story.py "$DOC"
+          ls -la "$DOC/out" | grep -v part_
+      - name: Publish time (next Saturday 20:00 Turkey = 17:00 UTC)
+        id: when
+        run: |
+          python3 - >> "$GITHUB_OUTPUT" <<'EOF'
+          import datetime as dt
+          now = dt.datetime.now(dt.timezone.utc)
+          d = now + dt.timedelta(days=(5 - now.weekday()) % 7)
+          t = d.replace(hour=17, minute=0, second=0, microsecond=0)
+          if t - now < dt.timedelta(hours=6):
+              t += dt.timedelta(days=7)
+          print(f"at={t.strftime('%Y-%m-%dT%H:%M:%SZ')}")
+          print(f"tr={(t + dt.timedelta(hours=3)).strftime('%d.%m.%Y %H:%M')}")
+          EOF
+      - name: Upload to YouTube
+        id: yt
+        if: ${{ vars.YT_AUTO_UPLOAD == 'true' }}
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          python youtube/tools/yt_upload.py "$DOC" --publish-at "${{ steps.when.outputs.at }}"
+          echo "id=$(cat "$DOC/out/video_id.txt")" >> "$GITHUB_OUTPUT"
+      - name: Release package
+        id: rel
+        run: |
+          SLUG=$(basename "$DOC")
+          TAG="belgesel-$SLUG"
+          gh release delete "$TAG" -y --cleanup-tag 2>/dev/null || true
+          gh release create "$TAG" --title "$(cat "$DOC/out/baslik.txt")" --notes "Haftalık belgesel paketi: $SLUG" \
+            "$DOC/out/belgesel.mp4" "$DOC/out/kapak.jpg" "$DOC/out/story.jpg" "$DOC/out/baslik.txt" "$DOC/out/aciklama.txt"
+          echo "url=https://github.com/${{ github.repository }}/releases/tag/$TAG" >> "$GITHUB_OUTPUT"
+      - name: Notify owner (issue -> e-mail)
+        run: |
+          VID="${{ steps.yt.outputs.id }}"
+          REL="${{ steps.rel.outputs.url }}"
+          {
+            echo "## $(cat "$DOC/out/baslik.txt")"
+            echo
+            if [ -n "$VID" ]; then
+              echo "✅ Video YouTube'a yüklendi ve **${{ steps.when.outputs.tr }}** (Türkiye saati) için planlandı: https://studio.youtube.com/video/$VID/edit"
+              echo
+              echo "İstersen yayından önce Studio'dan izleyip kontrol et. Bir şey yapmazsan zamanı gelince kendiliğinden yayınlanır."
+            else
+              echo "Video hazır. Önerilen yayın: **${{ steps.when.outputs.tr }}** (Türkiye saati)."
+              echo
+              echo "**Yükleme (3 dakika):**"
+              echo "1. Paketi indir: $REL (belgesel.mp4, kapak.jpg, story.jpg, baslik.txt, aciklama.txt)"
+              echo "2. YouTube Studio → Oluştur → Video yükle → belgesel.mp4"
+              echo "3. Başlık: baslik.txt, açıklama: aciklama.txt, küçük resim: kapak.jpg, kitle: çocuklara özel değil, kategori: Eğitim"
+              echo "4. Görünürlük → **Planla** → ${{ steps.when.outputs.tr }}"
+            fi
+            echo
+            echo "Instagram hikâyesi için: story.jpg (paketin içinde) + bağlantı çıkartması."
+          } > /tmp/issue.md
+          gh issue create --title "🎬 Yeni belgesel hazır: $(cat "$DOC/out/baslik.txt")" --body-file /tmp/issue.md
+      - name: Mark as built
+        run: |
+          python3 - <<EOF
+          import json
+          json.dump({"release": "${{ steps.rel.outputs.url }}", "video_id": "${{ steps.yt.outputs.id }}",
+                     "publish_at": "${{ steps.when.outputs.at }}"}, open("$DOC/status.json", "w"), indent=1)
+          EOF
+          cp "$DOC/out/chapters.txt" "$DOC/out/baslik.txt" "$DOC/out/aciklama.txt" "$DOC/" 2>/dev/null || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$DOC/status.json" "$DOC/chapters.txt" "$DOC/baslik.txt" "$DOC/aciklama.txt"
+          git commit -m "Belgesel üretildi: $(basename "$DOC")"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
