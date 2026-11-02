@@ -1,0 +1,58 @@
+name: YouTube Shorts paylaş
+
+# Every evening, after the Instagram Reel is out, re-render the newest posted reel from its recipe and upload it to
+# YouTube as a Short, plus one older reel a day until the backlog is done. Runs only once the API audit is approved
+# (repo variable YT_AUTO_UPLOAD=true); before that YouTube would lock API uploads to private.
+on:
+  schedule:
+    - cron: "30 18 * * *"   # 21:30 Turkey
+  workflow_dispatch: {}
+
+concurrency:
+  group: youtube-shorts
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  shorts:
+    if: ${{ vars.YT_AUTO_UPLOAD == 'true' }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install tools
+        run: |
+          pip install -q pillow numpy edge-tts
+          if ! command -v ffmpeg >/dev/null; then
+            for i in 1 2 3; do
+              curl -fsSL --retry 3 --max-time 300 -o /tmp/ffmpeg.tar.xz https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz && break
+              sleep 10
+            done
+            mkdir -p /tmp/ffmpeg && tar -xJf /tmp/ffmpeg.tar.xz -C /tmp/ffmpeg --strip-components=1
+            echo "/tmp/ffmpeg/bin" >> "$GITHUB_PATH"
+          fi
+      - name: Render and upload
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: |
+          FAIL=0
+          for d in $(python youtube/tools/shorts.py --pick); do
+            echo "== $d"
+            python youtube/tools/shorts.py "$d" || FAIL=1
+          done
+          exit $FAIL
+      - name: Commit
+        if: ${{ always() }}
+        run: |
+          git config user.name "terrawildnature-bot"
+          git config user.email "terrawildnature-bot@users.noreply.github.com"
+          git add posted_reels/*/youtube.json 2>/dev/null || true
+          git commit -m "YouTube Shorts yüklendi" || exit 0
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
