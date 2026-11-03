@@ -1,0 +1,134 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Ancient_Rite.ogg",
+    "start": 0,
+    "loudness": -27
+  },
+  "group": "memeli",
+  "hook_style": "süperlatif",
+  "photos": {
+    "p1.jpg": "File:Serval Ngorongoro 3.jpg",
+    "p2.jpg": "File:Serval Ngorongoro 4.jpg",
+    "p3.jpg": "File:Serval Ngorongoro 2.jpg",
+    "p4.jpg": "File:Serval Ngorongoro 1.jpg",
+    "p5.jpg": "File:Serval (Leptailurus serval), parque nacional de Tarangire, Tanzania, 2024-05-25, DD 53.jpg",
+    "p6.jpg": "File:Serval (Leptailurus serval), parque nacional de Tarangire, Tanzania, 2024-05-25, DD 52.jpg",
+    "p7.jpg": "File:Serval (Leptailurus serval), parque nacional de Tarangire, Tanzania, 2024-05-25, DD 55.jpg",
+    "p8.jpg": "File:Serval (Leptailurus serval), parque nacional Serengueti, Tanzania, 2024-05-26, DD 01.jpg"
+  },
+  "segments": [
+    {
+      "text": "Servalın bacakları, vücut oranına göre bütün kedilerin en uzunudur.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Omuzda yalnızca elli dört ile altmış iki santimetre boyunda.",
+      "image": "p2.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Küçük başının üstünde kocaman kulaklar taşıyor.",
+      "image": "p3.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Kulakları birbirinden bağımsız olarak yüz seksen dereceye kadar dönebiliyor.",
+      "image": "p4.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Avını gözüyle değil, işitmesiyle buluyor.",
+      "image": "p5.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Bazen on beş dakikaya kadar kıpırdamadan bekliyor.",
+      "image": "p6.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Sonra dört metreye kadar havaya sıçrayıp ön patileriyle saldırıyor.",
+      "image": "p7.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Bir çalışmada, avlanma denemelerinin yarısında başarılı olduğu görüldü.",
+      "image": "p8.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    }
+  ],
+  "cover": {
+    "image": "p1.jpg",
+    "cx": 0.68,
+    "cy": 0.35,
+    "title": [
+      [
+        [
+          "KEDİLERİN",
+          "R"
+        ]
+      ],
+      [
+        [
+          "EN UZUN",
+          "W"
+        ]
+      ],
+      [
+        [
+          "BACAKLARI",
+          "W"
+        ]
+      ],
+      [
+        [
+          "BUNDA",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "credits": [
+    {
+      "author": "Naturedata",
+      "license": "CC0"
+    },
+    {
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Afrika savanlarının uzun bacaklı avcısı serval, kulaklarını bağımsız döndürerek avını duyuyor ve dört metreye kadar sıçrayarak saldırıyor. 🐆👂\n\n#terrawildnature #serval\n\n📷 Diego Delso (CC BY-SA 4.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+  "yt_title": "Kedilerin En Uzun Bacaklısı: Serval"
+}

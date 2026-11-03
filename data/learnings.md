@@ -33,3 +33,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: Reels'te memeli güçlü (skor 2,17, içerik 3,44); gönderide balık (0,61) ve memeli (0,72) zayıf, 09:00 zayıf (0,76); veri hâlâ az (23 paylaşım).
 - Bugün uygulanan: gönderilerde memeli/balık yok: tuhaf görünüm (Wilson cennet kuşu, kuş), benzetme keşif (timsah kertenkelesi, sürüngen), sayı (Portekiz savaş gemisi, deniz omurgasızı); Reels memeli (manul, sayı kancası, 78 kelime, Ancient_Rite — müzik skoru yüksekti).
 - Sonra kontrol et: kuş/sürüngen/deniz omurgasızı gönderi içerik değerleri; manul Reels (sayı kancası + Ancient_Rite) izlenme süresi. Not: Commons'ta Physalia indirmesi zaman aşımına uğradı, iNaturalist'e geçildi; manul fotoğrafları çoğunlukla iNaturalist.
+
+## 2026-11-03
+- Rapordan öğrenilen: Reels'te memeli güçlü (skor 2,15, içerik 2,98); gönderide balık (0,60) ve memeli (0,74) zayıf, 09:00/22:00 zayıf; veri hâlâ az (27 paylaşım).
+- Bugün uygulanan: gönderilerde memeli/balık yok: tuhaf yetenek (yaygın potu, kuş), tehlike (Peru dev kırkayağı, böcek/örümcek), sayı keşif (Çin timsah kertenkelesi, sürüngen); Reels memeli (serval, süperlatif kancası, 73 kelime, Ancient_Rite).
+- Sonra kontrol et: tehlike kancalı gönderinin içerik değeri; süperlatif kancalı serval Reels izlenme süresi. Not: Wikipedia API hız sınırına takıldı, normal sayfa curl ile çalıştı; kırkayak fotoğrafları yalnızca iNaturalist'te makul çıktı.

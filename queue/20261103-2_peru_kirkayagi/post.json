@@ -1,0 +1,87 @@
+{
+  "name": "Peru dev kırkayağı",
+  "group": "böcek/örümcek",
+  "hook_style": "tehlike",
+  "title": [
+    [
+      [
+        "BU KIRKAYAK",
+        "W"
+      ]
+    ],
+    [
+      [
+        "MAĞARA TAVANINDA",
+        "W"
+      ]
+    ],
+    [
+      [
+        "YARASA AVLIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "PERU DEV KIRKAYAĞI",
+  "card_top": [
+    "Dünyanın en büyük kırkayağı;",
+    "boyu 30 santimi aşıyor."
+  ],
+  "card_bottom": [
+    "Zehriyle fareleri ve yarasaları",
+    "felç edebilir. Tarantula ve",
+    "küçük yılanları da yer."
+  ],
+  "right": [
+    "Kuzey Güney Amerika'nın",
+    "yağmur ormanlarında yaşar.",
+    "Yaprak yığınlarında, taş ve",
+    "kütük altlarında saklanır.",
+    "Ağaçlara kolayca tırmanır."
+  ],
+  "loc": "Kuzey Güney Amerika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.4,
+      "cy": 0.4,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom": 2.0
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "iNaturalist 630339767",
+      "author": "Elkin Meriño Florez",
+      "license": "CC BY",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "iNaturalist 586172913",
+      "author": "Elkin Meriño Florez",
+      "license": "CC BY",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "iNaturalist 341233595",
+      "author": "Elkin Meriño Florez",
+      "license": "CC BY",
+      "public_domain": false
+    }
+  ],
+  "caption": "Dünyanın en büyük kırkayağı Peru dev kırkayağı, mağara tavanına tutunup birkaç bacağıyla yarasaları yakalayabiliyor ve zehriyle onları etkisiz hale getiriyor. 🦇🐛\n\n#terrawildnature #ilginçbilgiler #perudevkırkayağı\n\n📷 Elkin Meriño Florez (CC BY) / iNaturalist"
+}

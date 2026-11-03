@@ -1,0 +1,87 @@
+{
+  "name": "Çin timsah kertenkelesi",
+  "group": "sürüngen",
+  "hook_style": "sayı",
+  "title": [
+    [
+      [
+        "BU KERTENKELE",
+        "W"
+      ]
+    ],
+    [
+      [
+        "120 MİLYON YILLIK",
+        "R"
+      ]
+    ],
+    [
+      [
+        "SOYUN SON ÜYESİ",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "ÇİN TİMSAH KERTENKELESİ",
+  "card_top": [
+    "Sırtındaki kemikli pullar",
+    "timsahınkini andırıyor."
+  ],
+  "card_bottom": [
+    "Soyunun yaşayan tek türü; bu",
+    "soyun fosilleri 120 milyon yıl",
+    "öncesine kadar uzanıyor."
+  ],
+  "right": [
+    "Güneydoğu Çin ve kuzeydoğu",
+    "Vietnam'ın serin ormanlarında",
+    "yaşar. Dere üstündeki dallarda",
+    "bekleyip av bekler. Tehlike",
+    "altında (IUCN: Endangered)."
+  ],
+  "loc": "Çin, Vietnam",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.35,
+      "zoom": 1.0
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "zoom": 1.1
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.35,
+      "zoom": 1.8
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Shinisaurus crocodilurus (2).jpg",
+      "author": "TimVickers",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Shinisaurus crocodilurus (3).jpg",
+      "author": "TimVickers",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "File:Shinisaurus crocodilurus (4).jpg",
+      "author": "TimVickers",
+      "license": "Public domain",
+      "public_domain": true
+    }
+  ],
+  "caption": "Güneydoğu Çin ve Vietnam ormanlarının nesli tehlikedeki sakini Çin timsah kertenkelesi, fosil kayıtları 120 milyon yıl öncesine uzanan bir soyun yaşayan tek üyesi. 🦎🌏\n\n#terrawildnature #ilginçbilgiler #çintimsahkertenkelesi"
+}

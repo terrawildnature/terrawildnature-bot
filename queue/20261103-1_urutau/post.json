@@ -1,0 +1,87 @@
+{
+  "name": "urutau (yaygın potu)",
+  "group": "kuş",
+  "hook_style": "tuhaf yetenek",
+  "title": [
+    [
+      [
+        "BU KUŞ DAL",
+        "W"
+      ]
+    ],
+    [
+      [
+        "KÜTÜĞÜ GİBİ",
+        "R"
+      ]
+    ],
+    [
+      [
+        "DONUP KALIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "YAYGIN POTU",
+  "card_top": [
+    "Dal kütüğünü taklit edip",
+    "gün boyu hareketsiz durur."
+  ],
+  "card_bottom": [
+    "Göz kapağındaki yarıklar sayesinde",
+    "gözleri kapalıyken bile",
+    "çevresini görebilir."
+  ],
+  "right": [
+    "Orta ve Güney Amerika'nın",
+    "açık ormanlarında yaşar.",
+    "Geceleri ağzını geniş açıp",
+    "böcek yakalar. Tek bir",
+    "yumurta bırakır."
+  ],
+  "loc": "Güney Amerika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.46,
+      "cy": 0.3,
+      "zoom": 1.0
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.6,
+      "cy": 0.4,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.49,
+      "cy": 0.3,
+      "zoom": 2.4
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Urutau (Nyctibius griseus) 01.jpg",
+      "author": "Anselmimuniz",
+      "license": "CC BY-SA 3.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Urutau dia.jpg",
+      "author": "Ikarenn",
+      "license": "CC BY 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Common Potoo (Nyctibius griseus) (9499701976).jpg",
+      "author": "Dominic Sherony",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Orta ve Güney Amerika'nın gece avcısı yaygın potu, dal kütüğü gibi görünerek günü hareketsiz geçiriyor ve göz kapağındaki yarıklardan kapalı gözlerle bile etrafı izleyebiliyor. 🌿👀\n\n#terrawildnature #ilginçbilgiler #yaygınpotu\n\n📷 Anselmimuniz (CC BY-SA 3.0), Ikarenn (CC BY 4.0), Dominic Sherony (CC BY-SA 2.0) / Wikimedia Commons"
+}
