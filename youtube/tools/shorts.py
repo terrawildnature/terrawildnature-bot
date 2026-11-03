@@ -55,6 +55,18 @@ def pick():
     return list(dict.fromkeys(todo[-1:] + todo[:1]))
 
 
+def with_cover(work, sec=0.5):
+    """short.mp4 = the cover for half a second, then the reel. The API thumbnail does not reach the Shorts feed and
+    shelf, which show a frame of the video, so the cover has to be in the video itself."""
+    ff = shutil.which("ffmpeg") or "ffmpeg"
+    subprocess.run([ff, "-y", "-loglevel", "error", "-i", str(work / "reel.mp4"), "-loop", "1", "-t", str(sec), "-i", str(work / "cover.jpg"),
+                    "-filter_complex",
+                    f"[1:v]scale=1080:1920,setsar=1,fps=30,format=yuv420p[c];[0:v]setsar=1,format=yuv420p[v];[c][v]concat=n=2:v=1:a=0[vo];"
+                    f"[0:a]adelay={int(sec * 1000)}:all=1[ao]",
+                    "-map", "[vo]", "-map", "[ao]", "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-c:a", "aac", "-b:a", "160k",
+                    "-movflags", "+faststart", str(work / "short.mp4")], check=True)
+
+
 def set_cover(vid, cover):
     """The Reels cover (1080x1920) as the Short's thumbnail; YouTube wants a JPEG under 2 MB."""
     import io
@@ -81,8 +93,9 @@ def main(reel_dir):
     work.mkdir(parents=True)
     shutil.copy(reel_dir / "reel.json", work / "reel.json")
     subprocess.run([sys.executable, str(ROOT / "tools" / "reel.py"), str(work)], check=True)
+    with_cover(work)
     from yt_upload import access_token, upload
-    vid = upload(work / "reel.mp4", body, access_token())["id"]
+    vid = upload(work / "short.mp4", body, access_token())["id"]
     set_cover(vid, work / "cover.jpg")
     (reel_dir / "youtube.json").write_text(json.dumps({"video_id": vid, "title": body["snippet"]["title"]},
                                                       ensure_ascii=False, indent=1), encoding="utf-8")
