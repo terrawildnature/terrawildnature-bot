@@ -67,6 +67,18 @@ def with_cover(work, sec=0.5):
                     "-movflags", "+faststart", str(work / "short.mp4")], check=True)
 
 
+def wait_processed(vid, minutes=15):
+    import time
+    from yt_upload import access_token, request
+    for _ in range(minutes * 2):
+        r = json.load(request(f"https://www.googleapis.com/youtube/v3/videos?part=processingDetails&id={vid}", access_token(),
+                              method="GET"))
+        if r["items"] and r["items"][0].get("processingDetails", {}).get("processingStatus") == "succeeded":
+            time.sleep(60)
+            return
+        time.sleep(30)
+
+
 def set_cover(vid, cover):
     """The Reels cover (1080x1920) as the Short's thumbnail; YouTube wants a JPEG under 2 MB."""
     import io
@@ -96,6 +108,7 @@ def main(reel_dir):
     with_cover(work)
     from yt_upload import access_token, upload
     vid = upload(work / "short.mp4", body, access_token())["id"]
+    wait_processed(vid)   # a thumbnail set while YouTube is still processing did not show up on the Short
     set_cover(vid, work / "cover.jpg")
     (reel_dir / "youtube.json").write_text(json.dumps({"video_id": vid, "title": body["snippet"]["title"]},
                                                       ensure_ascii=False, indent=1), encoding="utf-8")
