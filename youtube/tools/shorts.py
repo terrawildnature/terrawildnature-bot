@@ -3,7 +3,8 @@ reel from its recipe (posted_reels/<dir>/reel.json, tools/reel.py) and uploads i
 
   python youtube/tools/shorts.py --pick            prints the reel dirs to upload today (newest + one old backfill)
   python youtube/tools/shorts.py <reel_dir> --dry  prints the title/description only
-  python youtube/tools/shorts.py <reel_dir>        renders (reel.py) and uploads, writes <reel_dir>/youtube.json
+  python youtube/tools/shorts.py <reel_dir>        renders (reel.py), uploads with the Reels cover as thumbnail,
+                                                   writes <reel_dir>/youtube.json
 Needs env YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN (GitHub secrets).
 """
 import json
@@ -54,6 +55,18 @@ def pick():
     return list(dict.fromkeys(todo[-1:] + todo[:1]))
 
 
+def set_cover(vid, cover):
+    """The Reels cover (1080x1920) as the Short's thumbnail; YouTube wants a JPEG under 2 MB."""
+    import io
+    from PIL import Image
+    from yt_upload import access_token, request
+    buf = io.BytesIO()
+    Image.open(cover).convert("RGB").save(buf, "JPEG", quality=90)
+    request(f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={vid}", access_token(),
+            buf.getvalue(), headers={"Content-Type": "image/jpeg"})
+    print(f"thumbnail set for {vid}")
+
+
 def main(reel_dir):
     spec = json.loads((reel_dir / "reel.json").read_text(encoding="utf-8"))
     body = {"snippet": {"title": title(spec), "description": description(spec),
@@ -70,6 +83,7 @@ def main(reel_dir):
     subprocess.run([sys.executable, str(ROOT / "tools" / "reel.py"), str(work)], check=True)
     from yt_upload import access_token, upload
     vid = upload(work / "reel.mp4", body, access_token())["id"]
+    set_cover(vid, work / "cover.jpg")
     (reel_dir / "youtube.json").write_text(json.dumps({"video_id": vid, "title": body["snippet"]["title"]},
                                                       ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"https://youtube.com/shorts/{vid}")

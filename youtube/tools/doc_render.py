@@ -6,10 +6,15 @@ while the narration visits creatures, landmarks and zones along the way.
   python doc_render.py <doc_dir> --shard 3/16       only parts k with k % 16 == 3 (parallel CI jobs)
   python doc_render.py <doc_dir> --assemble         concat existing parts + mix audio -> belgesel.mp4
   python doc_render.py <doc_dir> --info             write out/chapters.txt + out/info.json only
+  python doc_render.py <doc_dir> --preview          out/preview.jpg: contact sheet of 12 moments (works without voice/)
+
+script.json "mechanic": "<name>" loads youtube/mechanics/<name>.py, a class Mechanic(scene) that can replace the
+background and draw each frame its own way (see youtube/mechanics/README.md).
 
 Inputs in <doc_dir>: script.json (see youtube/ROUTINE.md), voice/NN.mp3+json (voice.py), photos/ + photos.json.
 Optional 3D intro frames in THREE_D (local machine only); otherwise the cold open is a photo montage.
 """
+import importlib.util
 import json
 import math
 import os
@@ -50,10 +55,14 @@ SUB_CX, SUB_Y, SUB_W = 1180, 905, 1380
 OFFX = 180                            # big titles sit right of the meter
 
 
-def set_layout(meter):
-    """Without the meter (thematic / countdown documentaries) everything is centred."""
+def set_layout(meter, card=None, sub_cx=None):
+    """Without the meter (thematic / countdown documentaries) everything is centred. A mechanic may move the card."""
     global CARD, SUB_CX, OFFX
     CARD, SUB_CX, OFFX = ((520, 92, 1340, 754), 1180, 180) if meter else ((290, 92, 1340, 754), 960, 0)
+    if card:
+        CARD = tuple(card)
+    if sub_cx:
+        SUB_CX = sub_cx
 
 # The ocean descent is the reference journey; script.json "journey" overrides any of these keys.
 OCEAN = {
@@ -106,7 +115,7 @@ def timeline(doc):
     spec = json.loads((doc / "script.json").read_text(encoding="utf-8"))
     spec["journey"] = {**OCEAN, **spec.get("journey", {})}
     meter = spec["journey"].get("meter", True)
-    set_layout(meter)
+    set_layout(meter, spec["journey"].get("card"), spec["journey"].get("sub_cx"))
     blocks, t, prev = [{"kind": "cold", "t0": 0.0, "dur": COLD_OPEN, "d0": 0, "d1": 0}], COLD_OPEN, 0
     for i, s in enumerate(spec["segments"]):
         travel = 0.0 if s["depth"] == prev else (3.2 if big_jump(prev, s["depth"], spec["journey"], 0.0366, 0.15) else 2.4)
@@ -118,9 +127,14 @@ def timeline(doc):
         if s.get("rank") is not None:   # countdown: big "#7" before the creature
             blocks.append({"kind": "rank", "t0": t, "dur": 1.8, "d0": s["depth"], "d1": s["depth"], "i": i, "rank": s["rank"]})
             t += 1.8
-        hold = 3.2 if s["type"] == "zone" else 0.5
-        vd = duration(doc / "voice" / f"{i:02d}.mp3")
-        words = json.loads((doc / "voice" / f"{i:02d}.json").read_text(encoding="utf-8"))
+        hold = s.get("hold", 3.2 if s["type"] == "zone" else 0.5)   # "hold": silent seconds before the voice
+        if (doc / "voice" / f"{i:02d}.mp3").exists():
+            vd = duration(doc / "voice" / f"{i:02d}.mp3")
+            words = json.loads((doc / "voice" / f"{i:02d}.json").read_text(encoding="utf-8"))
+        else:   # no narration yet (preview in the cloud routine): estimate ~0.42 s per word
+            toks = s["text"].split()
+            words = [{"t": k * 0.42, "d": 0.38} for k in range(len(toks))]
+            vd = len(toks) * 0.42
         blocks.append({"kind": s["type"], "t0": t, "dur": hold + vd + 1.0, "d0": s["depth"], "d1": s["depth"], "i": i,
                        "voice": t + hold, "seg": s, "subs": sentences(s["text"], words)})
         t += hold + vd + 1.0
@@ -255,6 +269,14 @@ class Scene:
             self.sprites[rad] = g[..., None]
         self.img_cache = {}
         self.text_cache = {}
+        self.mech = None
+        if spec.get("mechanic"):
+            path = ROOT / "youtube" / "mechanics" / f"{spec['mechanic']}.py"
+            ms = importlib.util.spec_from_file_location(f"mechanic_{spec['mechanic']}", path)
+            mod = importlib.util.module_from_spec(ms)
+            sys.modules["doc_render"] = sys.modules[__name__]   # mechanics share this module's live layout globals
+            ms.loader.exec_module(mod)
+            self.mech = mod.Mechanic(self)
 
     # -- water
     def background(self, d, t):
@@ -523,9 +545,25 @@ class Scene:
         if b["kind"] == "cold":
             return self.cold(t)
         d = depth_at(b, t, self.j)
-        fr = self.background(d, t)
-        img = Image.fromarray(np.clip(fr, 0, 255).astype(np.uint8))
         lt = t - b["t0"]
+        mech = self.mech
+        bg = getattr(mech, "background", None)
+        fr = bg(d, t, b) if bg else self.background(d, t)
+        img = fr.convert("RGB") if isinstance(fr, Image.Image) else Image.fromarray(np.clip(fr, 0, 255).astype(np.uint8))
+        if mech:
+            mech.draw(img, t, b, lt, lambda: self.content(img, t, b, lt, d))
+        else:
+            self.content(img, t, b, lt, d)
+        if "subs" in b and getattr(mech, "subtitles", True):
+            vt = t - b["voice"]
+            for s0, s1, txt in b["subs"]:
+                if s0 - 0.05 <= vt <= s1 + 0.25:
+                    self.paste(img, self.subtitle(txt), (SUB_CX - (SUB_W + 260) // 2, SUB_Y - 30), 1.0)
+                    break
+        return img
+
+    def content(self, img, t, b, lt, d):
+        """The standard layer: meter, zone/rank titles, photo cards, montages, end screen."""
         meter_a = 1.0 if t > COLD_OPEN + 1.5 else ease((t - COLD_OPEN) / 1.5)
         if b["kind"] != "end" and self.j.get("meter", True):
             seg_stats = b["seg"].get("stats") if "seg" in b else None
@@ -550,15 +588,6 @@ class Scene:
             self.montage(img, b, lt, self.montage_keys(k))
         elif k == "end":
             self.end(img, lt)
-        if "subs" in b:
-            vt = t - b["voice"]
-            for s0, s1, txt in b["subs"]:
-                if s0 - 0.05 <= vt <= s1 + 0.25:
-                    self.paste(img, self.subtitle(txt), (SUB_CX - (SUB_W + 260) // 2, SUB_Y - 30), 1.0)
-                    break
-        if b["kind"] == "end":
-            pass
-        return img
 
     def paste(self, img, over, xy, a):
         if a <= 0.01:
@@ -780,19 +809,19 @@ def music_switch(blocks, total):
 
 
 def chapters(doc, blocks):
-    lines = ["0:00 Giriş"]
+    lines = ["00:00 Giriş"]
     for b in blocks:
         s = b.get("seg")
         if not s:
             continue
         t = int(b["t0"])
         if b["kind"] == "zone":
-            lines.append(f"{t // 60}:{t % 60:02d} {tr_title(s['name'])} ({s['range']})")
+            lines.append(f"{t // 60:02d}:{t % 60:02d} {tr_title(s['name'])} ({s['range']})")
         elif b["kind"] == "creature" or (b["kind"] == "landmark" and s.get("chapter")):
             name = s["name"] + (f" ({s['value']})" if b["kind"] == "landmark" else "")
             if s.get("rank") is not None:
                 name = f"#{s['rank']} {name}"
-            lines.append(f"{t // 60}:{t % 60:02d} {name}")
+            lines.append(f"{t // 60:02d}:{t % 60:02d} {name}")
     out, last = [], -99
     for l in lines:   # YouTube needs >= 10 s between chapters
         m, sec = l.split(" ", 1)[0].split(":")
@@ -814,6 +843,21 @@ def main():
     spec, blocks, total = timeline(doc)
     MUSIC = spec["journey"]["music"]
     print(f"total {total / 60:.1f} min, {len(blocks)} blocks")
+    if "--preview" in sys.argv:   # 12 moments: cold open, intro, zones, creatures, landmarks, outro, end
+        _init(doc)
+        pick = [b for b in blocks if b["kind"] not in ("travel",)]
+        step = max(1, len(pick) // 11)
+        times = [b["t0"] + min(b["dur"] * 0.55, b["dur"] - 0.1) for b in pick[::step]][:12]
+        sheet = Image.new("RGB", (4 * 480, 3 * 270 + 3 * 30), (20, 20, 20))
+        dr = ImageDraw.Draw(sheet)
+        for k, tt in enumerate(times):
+            b = block_at(blocks, tt)
+            x, y = k % 4 * 480, k // 4 * 300
+            sheet.paste(frame_rgb(tt).resize((480, 270), Image.LANCZOS), (x, y + 30))
+            dr.text((x + 6, y + 6), f"{tt:.0f}s {b['kind']} {b.get('seg', {}).get('name', '')}"[:60], font=font(F_UI, 20), fill="white")
+        sheet.save(doc / "out" / "preview.jpg", quality=85)
+        print(f"OK {doc / 'out' / 'preview.jpg'}  (times: {', '.join(f'{x:.0f}' for x in times)})")
+        return
     if "--stills" in sys.argv:
         _init(doc)
         for s in arg("--stills").split(","):

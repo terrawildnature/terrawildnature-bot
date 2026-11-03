@@ -2,7 +2,7 @@
 
   python yt_upload.py <doc_dir> --publish-at 2026-11-07T17:00:00Z
 Needs env YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN (GitHub secrets). Prints the video id.
-Until Google's API audit is approved YouTube locks API uploads to private, so publish-at has no effect yet.
+API uploads keep the requested privacy (checked 2026-11-02: no audit lock on this project).
 """
 import json
 import os

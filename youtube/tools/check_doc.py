@@ -4,6 +4,7 @@
 Prints problems and exits 1 if there are any.
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -23,7 +24,7 @@ def main(doc):
     prev = None
     for i, s in enumerate(segs):
         key = f"{i:02d}"
-        if s["type"] not in TYPES:
+        if s["type"] not in TYPES and not spec.get("mechanic"):
             errs.append(f"{key}: bilinmeyen tür {s['type']}")
         if prev is not None and s["depth"] < prev:
             errs.append(f"{key}: depth geriye gidiyor ({prev} -> {s['depth']})")
@@ -52,6 +53,15 @@ def main(doc):
     n_cr = sum(s["type"] == "creature" for s in segs)
     if n_cr < 20:
         errs.append(f"sadece {n_cr} canlı var (en az 20)")
+    mech = spec.get("mechanic")   # owner's rule: every documentary has a new mechanic, never reused
+    root = Path(__file__).resolve().parents[1]
+    used = {m: f for m, f in re.findall(r"^Mekanik:\s*(\S+)\s*\(([^)]*)\)", (root / "published.md").read_text(encoding="utf-8"), re.M)}
+    if not mech:
+        errs.append("script.json: 'mechanic' eksik (her belgesel yeni bir mekanik kullanmalı, bkz. youtube/mechanics/README.md)")
+    elif not (root / "mechanics" / f"{mech}.py").exists():
+        errs.append(f"mekanik dosyası yok: youtube/mechanics/{mech}.py")
+    elif mech in used and used[mech] != doc.name:
+        errs.append(f"'{mech}' mekaniği daha önce kullanıldı ({used[mech]}); yeni bir mekanik seç ya da yaz")
     for k in ("title", "description", "tags", "hashtags", "thumb", "story"):
         if k not in meta:
             errs.append(f"meta.json: '{k}' eksik")

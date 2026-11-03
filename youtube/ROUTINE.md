@@ -17,13 +17,17 @@ Bu görevde **Instagram işi yapma** (`CLAUDE.md`'deki gönderi/Reels adımları
 
 **Kanalın amacı vahşi doğa ve hayvanlardır (sahibinin kesin kuralı).** Belgeselin konusu her zaman **canlılar**: bir yer, dağ, göl, mağara ya da coğrafya belgeseli **yapma**. Yer/derinlik/boyut sadece canlıları sıralamak için bir çerçevedir. Başlık, kapak ve açıklama da hayvanları öne çıkarmalı ("… yaşayan canlılar", "… hayvanlar").
 
-**Format çeşitliliği (sahibinin isteği):** Her video aynı görünmesin. Üç format var; **bir önceki belgeselin formatını art arda kullanma** (`published.md`'de her belgeselin formatı yazılı), müziği ve kapak fotoğrafının tarzını da değiştir.
-
-- **A) Sayaçlı yolculuk / sıralama:** Ekranın solundaki sayaç (derinlik, yükseklik, boy, hız, yaşam süresi…) ilerler, her seviyede bir canlı anlatılır. Bölgeler (zone) ve ölçek karşılaştırmaları (landmark) kısa geçişlerdir.
-- **B) Geri sayım (Top 20-30):** Sayaç yok (`"meter": false`). Her canlıda `"rank"` var ve sıra büyükten küçüğe iner (ör. 25 → 1); her canlıdan önce ekranda büyük "#7" görünür. Ör. "Dünyanın en tehlikeli 25 hayvanı", "En tuhaf görünümlü 25 hayvan", "En iyi kamufle olan 25 hayvan". Zone'lar 4-6 bölüm ayracı olarak kullanılabilir (ör. "25-16", "15-6", "İLK 5"). Kapakta `"bar": false`.
-- **C) Tematik belgesel:** Sayaç ve sıra yok (`"meter": false`). Bir tema etrafında bölümler (zone) ve canlılar. Ör. "Taklit ustaları: başka bir şeymiş gibi davranan hayvanlar", "Hayvanlar aleminin en tuhaf ebeveynleri", "Zehir nasıl çalışır: zehirli hayvanlar". Zone `name` bölüm adı, `range` kısa alt başlık olur. Kapakta `"bar": false`.
-
-Sayaçsız formatlarda (B, C) her segmentte `"depth": 0` yaz ve `journey` şöyle olsun: `{"meter": false, "stats": [], "zones": [[0, 1, "-"]], "max": 1, "palette": [[0, [20, 40, 60]], [1, [20, 40, 60]]], "rays": 0, "particles": "dust", "glow": null, "range_label": "YAŞAM ALANI", "music": [...]}` (palette rengini konuya göre seç: orman yeşili, çöl kahvesi, gece laciverti…).
+**Her belgesel yeni bir konsept ve yeni bir mekanik (sahibinin kesin kuralı):** Sabit formatlar yok. Her hafta videonun
+görsel sistemi de farklı olmalı: sayaç, geri sayım, tablo, harita, turnuva, saat, ağ, bilmece… **Önce `youtube/mechanics/README.md`'yi oku.**
+- `published.md`'deki `Mekanik:` satırlarında geçen hiçbir mekaniği tekrar kullanma. Ya klasördeki henüz kullanılmamış bir mekaniği
+  seç ya da (tercihen) yeni bir mekanik tasarla ve `youtube/mechanics/<ad>.py` olarak yaz.
+- İlham: dünyanın en çok izlenen belgesel ve hayvan kanalları (README'de liste ve fikir havuzu). Birebir kopyalama değil; fikri alıp
+  kendi düzenini, renklerini, animasyonunu kur, eklemeler yap.
+- Konu ve mekanik birbirine uymalı (ör. hız konusu → yarış pisti; dünyanın dört bir yanı → harita turu; gece avcıları → 24 saat saati).
+- Müzik, renk paleti, arka plan ve kapak tarzı da bir öncekinden farklı olsun.
+- Standart katmanlar (sol sayaç `meter`, geri sayım `rank`, foto kartı) mekaniğin bir parçası olarak kullanılabilir ama video bir öncekine
+  benzememeli. Sayaçsız düzende her segmentte `"depth": 0` yaz ve `journey` en az şunu içersin:
+  `{"meter": false, "stats": [], "zones": [[0, 1, "-"]], "max": 1, "palette": [[0, [20, 40, 60]], [1, [20, 40, 60]]], "rays": 0, "particles": "dust", "glow": null, "range_label": "YAŞAM ALANI", "music": [...]}`.
 
 - `published.md`'deki bir konuyu tekrar etme. Oradaki canlıları ana canlı olarak kullanma.
 - Konu, Türkiye'deki izleyicinin merak edeceği ve arayacağı bir **hayvan** konusu olmalı. Fikirler (yapılmamış olanlardan seç, benzerlerini de üretebilirsin):
@@ -37,6 +41,9 @@ Sayaçsız formatlarda (B, C) her segmentte `"depth": 0` yaz ve `journey` şöyl
 - **Fotoğraf kontrolü önce:** Konuyu kesinleştirmeden önce her aday canlı için uygun fotoğraf olup olmadığına bak (bölüm 4). En az 22 canlının iyi fotoğrafı yoksa başka konu seç.
 
 ## 2. Senaryo (`script.json`)
+
+Aşağıdaki örnek sayaçlı bir yolculuktur (yalnız alanları göstermek için). Mekaniğin ihtiyacına göre `"mechanic"`, `journey.card`,
+`journey.sub_cx`, segmentlerde ekstra alanlar (`tier`, `lat`/`lon`, `score`, `hold`…) ve yeni segment türleri ekle.
 
 ```json
 {
@@ -142,13 +149,14 @@ Instagram'daki kuralların aynısı (`CLAUDE.md` bölüm 2): önce kamu malı / 
 
 1. Klasör: `youtube/docs/<YYYYMMDD>_<konu>` (tarih = bugün, konu küçük harf ve Türkçe karaktersiz, ör. `20261110_everest`).
 2. `python youtube/tools/fetch_photos.py youtube/docs/<klasör>` (eksik indirmeleri tamamlar), sonra `python youtube/tools/check_doc.py youtube/docs/<klasör>`. Hata varsa düzelt ve tekrar çalıştır. **OK görmeden commit'leme.**
-3. `python youtube/tools/kapak.py youtube/docs/<klasör>` çalıştır ve `out/kapak.jpg`'yi Read ile aç. Yazı okunaklı mı, hayvan görünüyor mu? Değilse `thumb` ayarlarını değiştir.
-4. `youtube/published.md` sonuna yeni bölüm ekle: `## <tarih> · <başlık> · Format <A/B/C>` ve `Canlılar: Ad (bilimsel ad), ...`.
-5. `git add youtube/docs/<klasör>/script.json youtube/docs/<klasör>/photos.json youtube/docs/<klasör>/meta.json youtube/published.md && git commit -m "Belgesel: <başlık>" && git push` (çakışmada `git pull --rebase` ve tekrar push).
-6. Son mesajında konuyu, başlığı, canlı sayısını, toplam karakteri ve fotoğraf sorunlarını kısaca yaz.
+3. `python youtube/tools/doc_render.py youtube/docs/<klasör> --preview` çalıştır ve `out/preview.jpg`'yi Read ile aç (gerekirse `--stills <saniye>,…` ile tek tek kareler). Mekanik doğru çalışıyor mu, yazılar taşıyor mu, hayvanlar görünüyor mu, video bir öncekinden gerçekten farklı görünüyor mu? Sorun varsa mekaniği/senaryoyu düzelt ve tekrar bak. Hata (traceback) varsa düzeltmeden commit'leme: render bulutta 16 parçada aynı kodla çalışacak.
+4. `python youtube/tools/kapak.py youtube/docs/<klasör>` çalıştır ve `out/kapak.jpg`'yi Read ile aç. Yazı okunaklı mı, hayvan görünüyor mu? Değilse `thumb` ayarlarını değiştir.
+5. `youtube/published.md` sonuna yeni bölüm ekle: `## <tarih> · <başlık>`, `Mekanik: <ad> (<klasör>) — <bir cümle: ekranda ne oluyor>` ve `Canlılar: Ad (bilimsel ad), ...`.
+6. `git add youtube/docs/<klasör>/script.json youtube/docs/<klasör>/photos.json youtube/docs/<klasör>/meta.json youtube/published.md youtube/mechanics/ && git commit -m "Belgesel: <başlık>" && git push` (çakışmada `git pull --rebase` ve tekrar push).
+7. Son mesajında konuyu, mekaniği, başlığı, canlı sayısını, toplam karakteri ve fotoğraf sorunlarını kısaca yaz.
 
 ## Asla yapma
 
 - YouTube'a ya da Instagram'a doğrudan bir şey yükleme. `youtube/tools/yt_upload.py`'yi çalıştırma.
-- `youtube/tools/`, `youtube/assets/`, `tools/`, `assets/`, `.github/` dosyalarını değiştirme. Bir hata bulursan son mesajında açıkla.
+- `youtube/tools/`, `youtube/assets/`, `tools/`, `assets/`, `.github/` dosyalarını değiştirme. Bir hata bulursan son mesajında açıkla. Kod yazabileceğin tek yer `youtube/mechanics/` (yeni dosya); daha önce kullanılmış mekanik dosyalarını değiştirme.
 - Daha önce üretilmiş belgesel klasörlerini (`status.json` olanlar) değiştirme.
