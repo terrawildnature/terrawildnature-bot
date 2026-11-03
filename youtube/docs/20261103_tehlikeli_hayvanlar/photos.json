@@ -1,0 +1,563 @@
+{
+ "02": [
+  {
+   "file": "02_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/346814420/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Oscar Dove"
+  },
+  {
+   "file": "02_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/559082050/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY-SA",
+   "author": "Romain Boisseau"
+  },
+  {
+   "file": "02_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/164533816/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Tim"
+  }
+ ],
+ "03": [
+  {
+   "file": "03_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/312611076/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "steve b"
+  },
+  {
+   "file": "03_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/109439406/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Алексей Логинов"
+  },
+  {
+   "file": "03_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/312611048/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "steve b"
+  }
+ ],
+ "04": [
+  {
+   "file": "04_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/605210105/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "rjtizard"
+  },
+  {
+   "file": "04_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/605210073/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "rjtizard"
+  },
+  {
+   "file": "04_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/466545981/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Henry Hart"
+  }
+ ],
+ "05": [
+  {
+   "file": "05_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/622529310/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY-SA",
+   "author": "Romain Boisseau"
+  },
+  {
+   "file": "05_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/548888624/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Alex Press"
+  },
+  {
+   "file": "05_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/2714753/original.JPG",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Annika Lindqvist"
+  }
+ ],
+ "06": [
+  {
+   "file": "06_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/105534359/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Brooke Smith"
+  },
+  {
+   "file": "06_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/261887052/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Darren Obbard"
+  },
+  {
+   "file": "06_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/27610751/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Wynand Uys"
+  }
+ ],
+ "08": [
+  {
+   "file": "08_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/630770479/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Chris Spain"
+  },
+  {
+   "file": "08_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/33458234/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Roger Rittmaster"
+  },
+  {
+   "file": "08_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/57913213/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY-SA",
+   "author": "Ewout Knoester"
+  }
+ ],
+ "09": [
+  {
+   "file": "09_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/60092276/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Kai Squires"
+  },
+  {
+   "file": "09_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/333173740/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY-SA",
+   "author": "Ewout Knoester"
+  }
+ ],
+ "10": [
+  {
+   "file": "10_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/40594012/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "desertnaturalist"
+  },
+  {
+   "file": "10_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/29176406/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY-SA",
+   "author": "Miguel de Salas"
+  },
+  {
+   "file": "10_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/176859887/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY-SA",
+   "author": "Tim"
+  }
+ ],
+ "11": [
+  {
+   "file": "11_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/168237268/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY-SA",
+   "author": "Ewout Knoester"
+  },
+  {
+   "file": "11_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/18879744/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Bill Levine"
+  },
+  {
+   "file": "11_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/108400263/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Lucy Keith-Diagne"
+  }
+ ],
+ "12": [
+  {
+   "file": "12_0.jpg",
+   "src": "File:Guadalupe Island Great White Shark Underwater.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Sharkcrew"
+  },
+  {
+   "file": "12_1.jpg",
+   "src": "File:Great white shark close up.JPG",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "author": "Brocken Inaglory"
+  },
+  {
+   "file": "12_2.jpg",
+   "src": "File:Surfacing great white.JPG",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "author": "Brocken Inaglory"
+  }
+ ],
+ "14": [
+  {
+   "file": "14_0.jpg",
+   "src": "File:Phyllobates terribilis - Rana Dardo.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 4.0",
+   "author": "Biodiego88"
+  },
+  {
+   "file": "14_1.jpg",
+   "src": "File:Rana dardo dorada sep2023.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 4.0",
+   "author": "LolxTormenta"
+  },
+  {
+   "file": "14_2.jpg",
+   "src": "File:Golden Poison Frog PK.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Praschaya Kaushik"
+  }
+ ],
+ "15": [
+  {
+   "file": "15_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/347223704/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Andrew Orme"
+  },
+  {
+   "file": "15_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/280258779/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "prossington"
+  },
+  {
+   "file": "15_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/54351859/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Thomas Mesaglio"
+  }
+ ],
+ "16": [
+  {
+   "file": "16_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/118027312/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Jean Martins"
+  },
+  {
+   "file": "16_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/139490192/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY-SA",
+   "author": "Sidnei Dantas"
+  },
+  {
+   "file": "16_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/139490133/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY-SA",
+   "author": "Sidnei Dantas"
+  }
+ ],
+ "17": [
+  {
+   "file": "17_0.jpg",
+   "src": "File:Leiurusquinquestriatus.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "RichardMcJimsey"
+  },
+  {
+   "file": "17_1.jpg",
+   "src": "File:Deathstalker (Leiurus quinquestriatus) 9.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "מינוזיג"
+  },
+  {
+   "file": "17_2.jpg",
+   "src": "File:Deathstalker (Leiurus quinquestriatus) 6.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "מינוזיג"
+  }
+ ],
+ "18": [
+  {
+   "file": "18_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/727760044/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Timur Kalininsky"
+  },
+  {
+   "file": "18_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/104822591/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "WATANABE Hitoshi 渡辺仁"
+  },
+  {
+   "file": "18_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/452434592/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "yajapin"
+  }
+ ],
+ "20": [
+  {
+   "file": "20_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/752851240/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Joshua S. Martin"
+  },
+  {
+   "file": "20_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/684528857/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Ramit Singal"
+  },
+  {
+   "file": "20_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/752851204/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Joshua S. Martin"
+  }
+ ],
+ "21": [
+  {
+   "file": "21_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/752123899/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Max Tibby"
+  },
+  {
+   "file": "21_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/241177481/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Lawrence Hylton"
+  },
+  {
+   "file": "21_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/752123858/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Max Tibby"
+  }
+ ],
+ "22": [
+  {
+   "file": "22_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/189495916/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Marius Burger"
+  },
+  {
+   "file": "22_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/87448232/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Ryan van Huyssteen"
+  },
+  {
+   "file": "22_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/274025336/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "novvictan"
+  }
+ ],
+ "23": [
+  {
+   "file": "23_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/169465348/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Aravinth"
+  },
+  {
+   "file": "23_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/139716904/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Chayant Gonsalves"
+  },
+  {
+   "file": "23_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/265872412/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Joel correa"
+  }
+ ],
+ "24": [
+  {
+   "file": "24_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/308385586/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Ashwin A"
+  },
+  {
+   "file": "24_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/438863223/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Teja Yantrapalli"
+  }
+ ],
+ "26": [
+  {
+   "file": "26_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/550814775/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY-SA",
+   "author": "Romain Boisseau"
+  },
+  {
+   "file": "26_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/22073105/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Adam Jackson"
+  },
+  {
+   "file": "26_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/174241093/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Navaneeth Sini George"
+  }
+ ],
+ "27": [
+  {
+   "file": "27_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/57201706/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Angelica María Batista Morales"
+  },
+  {
+   "file": "27_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/57201622/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Angelica María Batista Morales"
+  },
+  {
+   "file": "27_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/248202248/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Alan Manson"
+  }
+ ],
+ "28": [
+  {
+   "file": "28_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/621846407/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Tony King"
+  },
+  {
+   "file": "28_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/621846426/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Tony King"
+  },
+  {
+   "file": "28_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/440970746/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "William Stephens"
+  }
+ ],
+ "29": [
+  {
+   "file": "29_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/322688160/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Marius Burger"
+  },
+  {
+   "file": "29_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/322688176/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Marius Burger"
+  },
+  {
+   "file": "29_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/322786476/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "@dineshphotography7797"
+  }
+ ],
+ "30": [
+  {
+   "file": "30_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/168437882/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Adam Kranz"
+  },
+  {
+   "file": "30_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/390600939/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Scott W. Gavins"
+  },
+  {
+   "file": "30_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/86191143/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Patrick Hacker"
+  }
+ ]
+}
