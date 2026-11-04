@@ -49,14 +49,18 @@
   {
    "type": "intro",
    "depth": 0,
-   "text": "Doğada bazı hayvanlar dişleriyle, bazıları boynuzlarıyla, bazıları ise gözle zor görülen bir damla zehirle öldürebiliyor. Bugün dünyanın en tehlikeli yirmi beş hayvanını geriye doğru sayacağız. Sıralamayı yaparken yalnızca güce ya da zehrin şiddetine bakmadık. Bu hayvanların insanlarla ne sık karşılaştığını ve her yıl ne kadar can aldığını da hesaba kattık. Karşımıza dev timsahlar, tek ısırığında yüz insanı öldürmeye yetecek zehir taşıyan bir yılan ve neredeyse hiç fark edilmeden saldıran minik canlılar çıkacak. Ama bu hayvanların hiçbiri kötü değil. Hepsi yalnızca hayatta kalmaya, kendini ve yavrularını korumaya çalışıyor. Birinci sıradaki hayvan ise sizi şaşırtabilir. Hazırsanız, yirmi beşinci sıradan başlıyoruz."
+   "text": "Doğada bazı hayvanlar dişleriyle, bazıları boynuzlarıyla, bazıları ise gözle zor görülen bir damla zehirle öldürebiliyor. Bugün dünyanın en tehlikeli yirmi beş hayvanını geriye doğru sayacağız. Sıralamayı yaparken yalnızca güce ya da zehrin şiddetine bakmadık. Bu hayvanların insanlarla ne sık karşılaştığını ve her yıl ne kadar can aldığını da hesaba kattık. Karşımıza dev timsahlar, tek ısırığında yüz insanı öldürmeye yetecek zehir taşıyan bir yılan ve neredeyse hiç fark edilmeden saldıran minik canlılar çıkacak. Ama bu hayvanların hiçbiri kötü değil. Hepsi yalnızca hayatta kalmaya, kendini ve yavrularını korumaya çalışıyor. Birinci sıradaki hayvan ise sizi şaşırtabilir. Hazırsanız, yirmi beşinci sıradan başlıyoruz.",
+   "text_en": "In nature, some animals can kill with their teeth, some with their horns, and some with a drop of venom too small to see. Today we will count down the 25 most dangerous animals in the world. In ranking them, we did not look only at strength or the potency of their venom. We also considered how often these animals meet humans and how many lives they take every year. We will meet giant crocodiles, a snake carrying enough venom in a single bite to kill a hundred people, and tiny creatures that strike almost unnoticed. But none of these animals is evil. They are all simply trying to survive and to protect themselves and their young. The animal in first place may surprise you. If you are ready, we begin at number 25."
   },
   {
    "type": "zone",
    "depth": 0,
    "name": "25 – 21",
    "range": "Güç ve cüsse",
-   "text": "İlk bölümde zehri olmayan ama gücüyle, cüssesiyle ve pençeleriyle korku salan hayvanlar var. Bu canlıların çoğu insanlardan kaçmayı tercih ediyor. Ancak yavrularını korurken, aç kaldıklarında ya da köşeye sıkıştırıldıklarında birkaç saniye içinde ölümcül olabiliyorlar. Bu bölümdeki hayvanlarla karşılaşmanın en güvenli yolu, onlara her zaman mesafe bırakmak ve onları asla beslememek."
+   "text": "İlk bölümde zehri olmayan ama gücüyle, cüssesiyle ve pençeleriyle korku salan hayvanlar var. Bu canlıların çoğu insanlardan kaçmayı tercih ediyor. Ancak yavrularını korurken, aç kaldıklarında ya da köşeye sıkıştırıldıklarında birkaç saniye içinde ölümcül olabiliyorlar. Bu bölümdeki hayvanlarla karşılaşmanın en güvenli yolu, onlara her zaman mesafe bırakmak ve onları asla beslememek.",
+   "name_en": "25 – 21",
+   "range_en": "Strength and size",
+   "text_en": "The first section features animals that have no venom but inspire fear with their strength, size and claws. Most of these creatures prefer to avoid people. But when protecting their young, when hungry or when cornered, they can become deadly within seconds. The safest way to encounter the animals in this section is to always keep your distance and never feed them."
   },
   {
    "type": "creature",
@@ -65,7 +69,9 @@
    "name": "Güney Kasuarı",
    "latin": "Casuarius casuarius",
    "range": "Avustralya, Yeni Gine",
-   "text": "Yirmi beşinci sırada, dünyanın en tehlikeli kuşlarından biri olarak anılan güney kasuarı var. Ayağının iç parmağında on iki santimetreye kadar uzayabilen, hançere benzeyen bir pençe taşıyor. Uçamıyor ama saatte elli kilometre hızla koşabiliyor ve neredeyse iki metre yükseğe zıplayabiliyor. Boyu iki metreye, ağırlığı seksen beş kilograma ulaşabiliyor. Yeni Gine ve kuzey Avustralya'nın yağmur ormanlarında, yere düşen meyvelerle besleniyor. İnsanlara yönelik yüz elli saldırıyı inceleyen bir çalışmada, saldırıların dörtte üçünün daha önce insanlar tarafından beslenen kuşlardan geldiği görüldü. Bin dokuz yüzden bu yana bilinen yalnızca iki insan ölümü var. Yani kasuar, ancak rahatsız edildiğinde gerçekten tehlikeli oluyor."
+   "text": "Yirmi beşinci sırada, dünyanın en tehlikeli kuşlarından biri olarak anılan güney kasuarı var. Ayağının iç parmağında on iki santimetreye kadar uzayabilen, hançere benzeyen bir pençe taşıyor. Uçamıyor ama saatte elli kilometre hızla koşabiliyor ve neredeyse iki metre yükseğe zıplayabiliyor. Boyu iki metreye, ağırlığı seksen beş kilograma ulaşabiliyor. Yeni Gine ve kuzey Avustralya'nın yağmur ormanlarında, yere düşen meyvelerle besleniyor. İnsanlara yönelik yüz elli saldırıyı inceleyen bir çalışmada, saldırıların dörtte üçünün daha önce insanlar tarafından beslenen kuşlardan geldiği görüldü. Bin dokuz yüzden bu yana bilinen yalnızca iki insan ölümü var. Yani kasuar, ancak rahatsız edildiğinde gerçekten tehlikeli oluyor.",
+   "name_en": "Southern Cassowary",
+   "text_en": "At number 25 is the southern cassowary, often called one of the most dangerous birds in the world. The inner toe of each foot carries a dagger-like claw up to 12 centimeters long. It cannot fly, but it can run at 50 kilometers per hour and jump almost 2 meters high. It can grow to 2 meters tall and weigh up to 85 kilograms. It lives in the rainforests of New Guinea and northern Australia, feeding on fallen fruit. A study of 150 attacks on humans found that three quarters of them came from birds that people had fed before. Only two human deaths have been recorded since 1900. In other words, the cassowary is truly dangerous only when it is disturbed."
   },
   {
    "type": "creature",
@@ -74,7 +80,9 @@
    "name": "Kutup Ayısı",
    "latin": "Ursus maritimus",
    "range": "Arktik",
-   "text": "Yirmi dördüncü sırada, karada yaşayan en büyük etçil hayvan var: kutup ayısı. Erkekleri üç yüz ile sekiz yüz kilogram arasında geliyor. Kayıtlara geçen en ağır kutup ayısı ise bin iki kilogramdı. Bembeyaz görünen kürkünün altındaki derisi aslında siyah. Dış kılları içi boş olduğu için hem ısıyı tutuyor hem de yüzerken onu suyun üstünde tutmaya yardım ediyor. Asıl avı, deniz buzunun üzerinde nefes deliklerinin başında pusuya yattığı foklar. Bin sekiz yüz yetmiş ile iki bin on dört arasında yetmiş üç kutup ayısı saldırısı ve yirmi ölüm kaydedildi. Bu sayılar düşük, ama iklim değişikliği deniz buzunu eritiyor. Buz azaldıkça ayılar karada daha uzun zaman geçirmek zorunda kalıyor ve insanlarla karşılaşmaları giderek artıyor."
+   "text": "Yirmi dördüncü sırada, karada yaşayan en büyük etçil hayvan var: kutup ayısı. Erkekleri üç yüz ile sekiz yüz kilogram arasında geliyor. Kayıtlara geçen en ağır kutup ayısı ise bin iki kilogramdı. Bembeyaz görünen kürkünün altındaki derisi aslında siyah. Dış kılları içi boş olduğu için hem ısıyı tutuyor hem de yüzerken onu suyun üstünde tutmaya yardım ediyor. Asıl avı, deniz buzunun üzerinde nefes deliklerinin başında pusuya yattığı foklar. Bin sekiz yüz yetmiş ile iki bin on dört arasında yetmiş üç kutup ayısı saldırısı ve yirmi ölüm kaydedildi. Bu sayılar düşük, ama iklim değişikliği deniz buzunu eritiyor. Buz azaldıkça ayılar karada daha uzun zaman geçirmek zorunda kalıyor ve insanlarla karşılaşmaları giderek artıyor.",
+   "name_en": "Polar Bear",
+   "text_en": "At number 24 is the largest land carnivore: the polar bear. Males weigh between 300 and 800 kilograms. The heaviest polar bear on record weighed 1,002 kilograms. Under its snow-white fur, its skin is actually black. Its outer hairs are hollow, which helps keep it warm and helps it stay afloat while swimming. Its main prey is seals, which it ambushes at breathing holes on the sea ice. Between 1870 and 2014, 73 polar bear attacks and 20 deaths were recorded. These numbers are low, but climate change is melting the sea ice. As the ice shrinks, bears must spend more time on land, and their encounters with people are increasing."
   },
   {
    "type": "creature",
@@ -83,7 +91,9 @@
    "name": "Komodo Ejderi",
    "latin": "Varanus komodoensis",
    "range": "Endonezya",
-   "text": "Yirmi üçüncü sırada, yaşayan en büyük kertenkele var: Komodo ejderi. Erkekleri üç metre boya ve yüz elli kilograma ulaşabiliyor. Yalnızca Endonezya'daki birkaç adada yaşıyor. Dilini sürekli dışarı çıkararak havadaki kokuları topluyor ve uygun bir rüzgârla dört ila dokuz buçuk kilometre uzaktaki bir leşi fark edebiliyor. Ağzında, kanın pıhtılaşmasını engelleyen ve kan basıncını düşüren proteinler içeren zehir bezleri var. Uzun yıllar avını ağzındaki bakterilerle öldürdüğü sanıldı, ama bugün bu fikrin bir efsane olduğu düşünülüyor. Bir öğünde vücut ağırlığının yüzde sekseni kadar yiyebiliyor. Genellikle geyik ve yaban domuzu avlıyor, ama nadiren de olsa insanlara saldırdığı biliniyor."
+   "text": "Yirmi üçüncü sırada, yaşayan en büyük kertenkele var: Komodo ejderi. Erkekleri üç metre boya ve yüz elli kilograma ulaşabiliyor. Yalnızca Endonezya'daki birkaç adada yaşıyor. Dilini sürekli dışarı çıkararak havadaki kokuları topluyor ve uygun bir rüzgârla dört ila dokuz buçuk kilometre uzaktaki bir leşi fark edebiliyor. Ağzında, kanın pıhtılaşmasını engelleyen ve kan basıncını düşüren proteinler içeren zehir bezleri var. Uzun yıllar avını ağzındaki bakterilerle öldürdüğü sanıldı, ama bugün bu fikrin bir efsane olduğu düşünülüyor. Bir öğünde vücut ağırlığının yüzde sekseni kadar yiyebiliyor. Genellikle geyik ve yaban domuzu avlıyor, ama nadiren de olsa insanlara saldırdığı biliniyor.",
+   "name_en": "Komodo Dragon",
+   "text_en": "At number 23 is the largest living lizard: the Komodo dragon. Males can reach 3 meters in length and 150 kilograms. It lives only on a few islands in Indonesia. By constantly flicking its tongue it collects scents from the air, and with a favorable wind it can detect a carcass 4 to 9.5 kilometers away. Its mouth has venom glands containing proteins that prevent blood from clotting and lower blood pressure. For many years it was thought to kill its prey with the bacteria in its mouth, but today that idea is considered a myth. It can eat up to 80 percent of its body weight in one meal. It usually hunts deer and wild boar, but it has been known, rarely, to attack people."
   },
   {
    "type": "creature",
@@ -92,7 +102,9 @@
    "name": "Grizzly Ayısı",
    "latin": "Ursus arctos horribilis",
    "range": "Kuzey Amerika",
-   "text": "Yirmi ikinci sırada, Kuzey Amerika'nın boz ayısı, yani grizzly var. Adı, kürkündeki gri uçlu kıllardan geliyor. Ama bu kelime İngilizcede korku salan anlamına gelen başka bir kelimeye de çok benziyor. Alaska kıyılarında yaşayan erkekler ortalama üç yüz seksen dokuz kilogram geliyor. Bu iri gövdeye rağmen Yellowstone'da saatte kırk sekiz kilometre hızla koştuğu ölçüldü. Yani bir insanın koşarak ondan kurtulması imkânsıza yakın. Kış uykusundan önce yüz seksen kilograma kadar kilo alabiliyor ve beş ila yedi ay boyunca hiç yemeden uyuyabiliyor. Onunla karşılaşmanın en tehlikeli hali ise, yavrularını korumaya çalışan bir annenin karşısına çıkmak."
+   "text": "Yirmi ikinci sırada, Kuzey Amerika'nın boz ayısı, yani grizzly var. Adı, kürkündeki gri uçlu kıllardan geliyor. Ama bu kelime İngilizcede korku salan anlamına gelen başka bir kelimeye de çok benziyor. Alaska kıyılarında yaşayan erkekler ortalama üç yüz seksen dokuz kilogram geliyor. Bu iri gövdeye rağmen Yellowstone'da saatte kırk sekiz kilometre hızla koştuğu ölçüldü. Yani bir insanın koşarak ondan kurtulması imkânsıza yakın. Kış uykusundan önce yüz seksen kilograma kadar kilo alabiliyor ve beş ila yedi ay boyunca hiç yemeden uyuyabiliyor. Onunla karşılaşmanın en tehlikeli hali ise, yavrularını korumaya çalışan bir annenin karşısına çıkmak.",
+   "name_en": "Grizzly Bear",
+   "text_en": "At number 22 is North America's brown bear, the grizzly. Its name comes from the gray-tipped hairs in its fur. But the word also sounds very much like 'grisly', meaning horrifying. Males living on the Alaskan coast weigh 389 kilograms on average. Despite that huge body, one was measured running at 48 kilometers per hour in Yellowstone. So outrunning it is close to impossible for a human. Before hibernation it can gain up to 180 kilograms, and it can sleep for five to seven months without eating at all. The most dangerous encounter is meeting a mother trying to protect her cubs."
   },
   {
    "type": "creature",
@@ -101,14 +113,19 @@
    "name": "Afrika Mandası",
    "latin": "Syncerus caffer",
    "range": "Sahra altı Afrika",
-   "text": "Yirmi birinci sırada, Afrika'nın büyük beşlisinden biri var: Afrika mandası. Erkekleri altı yüz elli ile dokuz yüz kilogram arasında geliyor. Boynuzlarının dibi alnında birleşerek kalın, kemikten bir kalkan oluşturuyor. Mandanın en büyük düşmanı aslanlar. Ama manda kolay bir av değil. Sıkıştığında sırtını sık çalılara veriyor ve kendini savunuyor. Hatta zaman zaman aslanları kovaladığı, bazen de öldürdüğü görülüyor. Bir kez kızdığında saldırganlaşması ve iri cüssesi, onu yalnızca çok az yırtıcının avlayabildiği bir hayvan yapıyor. Günde altı buçuk ile on beş kilogram bitki yiyen bu otobur, yine de Afrika'nın en çekinilen hayvanlarından biri."
+   "text": "Yirmi birinci sırada, Afrika'nın büyük beşlisinden biri var: Afrika mandası. Erkekleri altı yüz elli ile dokuz yüz kilogram arasında geliyor. Boynuzlarının dibi alnında birleşerek kalın, kemikten bir kalkan oluşturuyor. Mandanın en büyük düşmanı aslanlar. Ama manda kolay bir av değil. Sıkıştığında sırtını sık çalılara veriyor ve kendini savunuyor. Hatta zaman zaman aslanları kovaladığı, bazen de öldürdüğü görülüyor. Bir kez kızdığında saldırganlaşması ve iri cüssesi, onu yalnızca çok az yırtıcının avlayabildiği bir hayvan yapıyor. Günde altı buçuk ile on beş kilogram bitki yiyen bu otobur, yine de Afrika'nın en çekinilen hayvanlarından biri.",
+   "name_en": "African Buffalo",
+   "text_en": "At number 21 is one of Africa's Big Five: the African buffalo. Males weigh between 650 and 900 kilograms. The bases of their horns meet on the forehead, forming a thick, bony shield. The buffalo's main enemy is the lion. But a buffalo is no easy prey. When cornered, it backs into dense bush and defends itself. It has even been seen chasing lions and sometimes killing them. Its aggression once angered and its massive size make it an animal that very few predators can hunt. This herbivore, which eats 6.5 to 15 kilograms of plants a day, is still one of the most feared animals in Africa."
   },
   {
    "type": "zone",
    "depth": 0,
    "name": "20 – 16",
    "range": "Denizin saklı tehlikeleri",
-   "text": "Şimdi denize giriyoruz. Bu bölümdeki hayvanların bazıları dev yırtıcılar, bazıları ise bir avuç içine sığacak kadar küçük. Ama ortak bir özellikleri var: çoğu zaman onları fark ettiğimizde iş işten geçmiş oluyor. Kayalıkların arasında taş gibi bekleyen bir balık, renkli bir deniz kabuğu ya da sığ ve bulanık sularda dolaşan bir köpekbalığı. Sığ sularda yürürken ayakkabı giymek ve tanımadığımız hiçbir deniz canlısına dokunmamak bu yüzden çok önemli."
+   "text": "Şimdi denize giriyoruz. Bu bölümdeki hayvanların bazıları dev yırtıcılar, bazıları ise bir avuç içine sığacak kadar küçük. Ama ortak bir özellikleri var: çoğu zaman onları fark ettiğimizde iş işten geçmiş oluyor. Kayalıkların arasında taş gibi bekleyen bir balık, renkli bir deniz kabuğu ya da sığ ve bulanık sularda dolaşan bir köpekbalığı. Sığ sularda yürürken ayakkabı giymek ve tanımadığımız hiçbir deniz canlısına dokunmamak bu yüzden çok önemli.",
+   "name_en": "20 – 16",
+   "range_en": "Hidden dangers of the sea",
+   "text_en": "Now we head into the sea. Some of the animals in this section are giant predators, others small enough to fit in the palm of your hand. But they share one thing: often, by the time we notice them, it is already too late. A fish waiting like a stone among the rocks, a colorful seashell, or a shark cruising shallow, murky water. That is why it is so important to wear shoes when walking in shallow water and never to touch a sea creature we do not know."
   },
   {
    "type": "creature",
@@ -117,7 +134,10 @@
    "name": "Taş Balığı",
    "latin": "Synanceia verrucosa",
    "range": "Kızıldeniz, Hint-Pasifik",
-   "text": "Yirminci sırada, dünyanın en zehirli balığı var: resif taş balığı. Pürüzlü ve düzensiz renkli derisiyle mercanların ve kayaların arasında gerçekten bir taş gibi görünüyor. Sırtında on üç sert diken var ve her birinin dibinde iki zehir kesesi bulunuyor. Bu dikenler o kadar sert ki ayakkabı tabanlarını bile delebiliyor. Yalnızca on sekiz miligram zehir bir insanı öldürmeye yetebiliyor. Zehrin etkileri arasında dayanılmaz bir ağrı, şok, felç ve doku ölümü var. Taş balığı avına da şaşırtıcı bir hızla saldırıyor. Bazılarının avını saniyenin yüzde bir buçuğu kadar kısa bir sürede yakaladığı ölçüldü. Kızıldeniz'den Doğu Afrika kıyılarına, oradan Fransız Polinezyası'na kadar sığ tropikal sularda yaşıyor."
+   "text": "Yirminci sırada, dünyanın en zehirli balığı var: resif taş balığı. Pürüzlü ve düzensiz renkli derisiyle mercanların ve kayaların arasında gerçekten bir taş gibi görünüyor. Sırtında on üç sert diken var ve her birinin dibinde iki zehir kesesi bulunuyor. Bu dikenler o kadar sert ki ayakkabı tabanlarını bile delebiliyor. Yalnızca on sekiz miligram zehir bir insanı öldürmeye yetebiliyor. Zehrin etkileri arasında dayanılmaz bir ağrı, şok, felç ve doku ölümü var. Taş balığı avına da şaşırtıcı bir hızla saldırıyor. Bazılarının avını saniyenin yüzde bir buçuğu kadar kısa bir sürede yakaladığı ölçüldü. Kızıldeniz'den Doğu Afrika kıyılarına, oradan Fransız Polinezyası'na kadar sığ tropikal sularda yaşıyor.",
+   "name_en": "Reef Stonefish",
+   "range_en": "Red Sea, Indo-Pacific",
+   "text_en": "At number 20 is the most venomous fish in the world: the reef stonefish. With its rough, blotchy skin it really does look like a stone among the corals and rocks. It has 13 hard spines on its back, each with two venom sacs at its base. These spines are so hard they can even pierce the soles of shoes. Just 18 milligrams of venom can be enough to kill a person. Its effects include unbearable pain, shock, paralysis and tissue death. The stonefish also strikes its prey with astonishing speed. Some have been measured catching prey in just 0.015 seconds. It lives in shallow tropical waters from the Red Sea to the coast of East Africa and all the way to French Polynesia."
   },
   {
    "type": "creature",
@@ -126,7 +146,10 @@
    "name": "Coğrafya Konisi",
    "latin": "Conus geographus",
    "range": "Hint-Pasifik resifleri",
-   "text": "On dokuzuncu sırada, ilk bakışta zararsız görünen bir deniz salyangozu var: coğrafya konisi. Kabuğu on ile on beş santimetre uzunluğunda ve göz alıcı desenlere sahip. Ama bu salyangoz bir avcı. Küçük balıkları avlamak için zıpkına benzeyen, ucu zehirli bir dişi hortumundan fırlatıyor ve felç olan avını bütün olarak yutuyor. Son üç yüz yılda bu türün sokmasıyla yaklaşık otuz altı insanın öldüğü biliniyor. Bu zehrin bir panzehiri yok. Tedavi, zehrin etkisi geçene kadar kurbanı hayatta tutmaktan ibaret. Halk arasında ona sigara salyangozu da deniyor. Çünkü sokulan kişinin ancak bir sigara içecek kadar vakti kaldığı söyleniyor. Gerçekte ölüm bir ile beş saat sürüyor, ama tedavi edilmezse neredeyse kesin."
+   "text": "On dokuzuncu sırada, ilk bakışta zararsız görünen bir deniz salyangozu var: coğrafya konisi. Kabuğu on ile on beş santimetre uzunluğunda ve göz alıcı desenlere sahip. Ama bu salyangoz bir avcı. Küçük balıkları avlamak için zıpkına benzeyen, ucu zehirli bir dişi hortumundan fırlatıyor ve felç olan avını bütün olarak yutuyor. Son üç yüz yılda bu türün sokmasıyla yaklaşık otuz altı insanın öldüğü biliniyor. Bu zehrin bir panzehiri yok. Tedavi, zehrin etkisi geçene kadar kurbanı hayatta tutmaktan ibaret. Halk arasında ona sigara salyangozu da deniyor. Çünkü sokulan kişinin ancak bir sigara içecek kadar vakti kaldığı söyleniyor. Gerçekte ölüm bir ile beş saat sürüyor, ama tedavi edilmezse neredeyse kesin.",
+   "name_en": "Geography Cone Snail",
+   "range_en": "Indo-Pacific reefs",
+   "text_en": "At number 19 is a sea snail that looks harmless at first glance: the geography cone. Its shell is 10 to 15 centimeters long, with striking patterns. But this snail is a hunter. To catch small fish, it fires a harpoon-like venomous tooth from its proboscis and swallows the paralyzed prey whole. About 36 human deaths from this species are known over the last 300 years. There is no antivenom. Treatment means keeping the victim alive until the venom wears off. It is also known as the cigarette snail, because a person who is stung supposedly has only enough time left to smoke a cigarette. In reality death takes one to five hours, but without treatment it is almost certain."
   },
   {
    "type": "creature",
@@ -135,7 +158,10 @@
    "name": "Mavi Halkalı Ahtapot",
    "latin": "Hapalochlaena",
    "range": "Japonya'dan Avustralya'ya",
-   "text": "On sekizinci sırada, en fazla yirmi santimetre boyunda, avuç içine sığacak kadar küçük bir ahtapot var. Mavi halkalı ahtapot rahatsız edildiğinde parlak sarıya dönüyor ve vücudundaki elli ile altmış mavi halka saniyenin üçte birinde yanıp sönmeye başlıyor. Bu bir uyarı, çünkü zehrinde tetrodotoksin adlı çok güçlü bir sinir zehri var. İlginç olan şu: bu zehri ahtapotun kendisi değil, tükürük bezinde yaşayan bakteriler üretiyor. Isırığı çok küçük ve çoğu zaman acısız. Kurbanlar ısırıldıklarını genellikle nefes almakta zorlanmaya başladıklarında fark ediyor. Kişi tamamen bilinçli olduğu halde kımıldayamaz hale gelebiliyor. Bu zehrin de panzehiri yok. Hayat kurtaran tek şey, felç geçene kadar yapılan suni solunum."
+   "text": "On sekizinci sırada, en fazla yirmi santimetre boyunda, avuç içine sığacak kadar küçük bir ahtapot var. Mavi halkalı ahtapot rahatsız edildiğinde parlak sarıya dönüyor ve vücudundaki elli ile altmış mavi halka saniyenin üçte birinde yanıp sönmeye başlıyor. Bu bir uyarı, çünkü zehrinde tetrodotoksin adlı çok güçlü bir sinir zehri var. İlginç olan şu: bu zehri ahtapotun kendisi değil, tükürük bezinde yaşayan bakteriler üretiyor. Isırığı çok küçük ve çoğu zaman acısız. Kurbanlar ısırıldıklarını genellikle nefes almakta zorlanmaya başladıklarında fark ediyor. Kişi tamamen bilinçli olduğu halde kımıldayamaz hale gelebiliyor. Bu zehrin de panzehiri yok. Hayat kurtaran tek şey, felç geçene kadar yapılan suni solunum.",
+   "name_en": "Blue-ringed Octopus",
+   "range_en": "Japan to Australia",
+   "text_en": "At number 18 is an octopus no more than 20 centimeters long, small enough to fit in your palm. When disturbed, the blue-ringed octopus turns bright yellow, and the 50 to 60 blue rings on its body begin flashing within a third of a second. This is a warning, because its venom contains a very powerful nerve toxin called tetrodotoxin. Interestingly, the toxin is not made by the octopus itself but by bacteria living in its salivary glands. Its bite is tiny and often painless. Victims usually realize they have been bitten only when they begin struggling to breathe. A person can become unable to move while fully conscious. There is no antivenom for this toxin either. The only thing that saves lives is artificial respiration until the paralysis passes."
   },
   {
    "type": "creature",
@@ -144,7 +170,10 @@
    "name": "Boğa Köpekbalığı",
    "latin": "Carcharhinus leucas",
    "range": "Sıcak kıyılar ve nehirler",
-   "text": "On yedinci sırada, tatlı suya girmekten çekinmeyen bir köpekbalığı var: boğa köpekbalığı. Adını tıknaz gövdesinden, geniş ve basık burnundan ve öngörülemeyen davranışlarından alıyor. Hem tuzlu hem tatlı suda yaşayabiliyor. Amazon Nehri'nde dört bin kilometre içeriye, Peru'ya kadar çıktığı biliniyor. Vücut ağırlığına oranla, incelenen bütün kıkırdaklı balıklar arasında en güçlü ısırığa sahip. Kaplan köpekbalığı ve büyük beyaz köpekbalığıyla birlikte, insanları en çok ısıran üç türden biri. Sığ ve bulanık kıyı sularını sevmesi onu insanlarla sık sık karşı karşıya getiriyor."
+   "text": "On yedinci sırada, tatlı suya girmekten çekinmeyen bir köpekbalığı var: boğa köpekbalığı. Adını tıknaz gövdesinden, geniş ve basık burnundan ve öngörülemeyen davranışlarından alıyor. Hem tuzlu hem tatlı suda yaşayabiliyor. Amazon Nehri'nde dört bin kilometre içeriye, Peru'ya kadar çıktığı biliniyor. Vücut ağırlığına oranla, incelenen bütün kıkırdaklı balıklar arasında en güçlü ısırığa sahip. Kaplan köpekbalığı ve büyük beyaz köpekbalığıyla birlikte, insanları en çok ısıran üç türden biri. Sığ ve bulanık kıyı sularını sevmesi onu insanlarla sık sık karşı karşıya getiriyor.",
+   "name_en": "Bull Shark",
+   "range_en": "Warm coasts and rivers",
+   "text_en": "At number 17 is a shark that does not hesitate to enter fresh water: the bull shark. It gets its name from its stocky body, its broad, flat snout and its unpredictable behavior. It can live in both salt and fresh water. It is known to travel 4,000 kilometers up the Amazon River, all the way to Peru. Relative to body weight, it has the strongest bite of all cartilaginous fish studied. Together with the tiger shark and the great white, it is one of the three species that bite people most often. Its love of shallow, murky coastal water brings it into frequent contact with people."
   },
   {
    "type": "creature",
@@ -153,14 +182,20 @@
    "name": "Büyük Beyaz Köpekbalığı",
    "latin": "Carcharodon carcharias",
    "range": "Ilıman denizler",
-   "text": "On altıncı sırada, belki de dünyanın en ünlü yırtıcısı var: büyük beyaz köpekbalığı. Dişileri bin ile bin dokuz yüz kilogram arasında geliyor. Ağzında sürekli yenilenen, kenarları testere gibi tırtıklı yaklaşık üç yüz diş var. Güney Afrika açıklarında foklara yirmi metre derinlikten hızla yükselerek saldırıyor ve çoğu zaman tamamen sudan dışarı fırlıyor. Kısa mesafede saatte yirmi dört kilometreye kadar hızlanabiliyor. Ama bir filmin yarattığı imajın aksine, büyük beyaz köpekbalıkları normalde insanları avlamıyor. Isırıkların çoğunun meraktan ya da insanı başka bir avla karıştırmaktan kaynaklandığı düşünülüyor. Yine de bu boyuttaki bir hayvanın tek bir ısırığı bile ölümcül olabiliyor."
+   "text": "On altıncı sırada, belki de dünyanın en ünlü yırtıcısı var: büyük beyaz köpekbalığı. Dişileri bin ile bin dokuz yüz kilogram arasında geliyor. Ağzında sürekli yenilenen, kenarları testere gibi tırtıklı yaklaşık üç yüz diş var. Güney Afrika açıklarında foklara yirmi metre derinlikten hızla yükselerek saldırıyor ve çoğu zaman tamamen sudan dışarı fırlıyor. Kısa mesafede saatte yirmi dört kilometreye kadar hızlanabiliyor. Ama bir filmin yarattığı imajın aksine, büyük beyaz köpekbalıkları normalde insanları avlamıyor. Isırıkların çoğunun meraktan ya da insanı başka bir avla karıştırmaktan kaynaklandığı düşünülüyor. Yine de bu boyuttaki bir hayvanın tek bir ısırığı bile ölümcül olabiliyor.",
+   "name_en": "Great White Shark",
+   "range_en": "Temperate seas",
+   "text_en": "At number 16 is perhaps the most famous predator in the world: the great white shark. Females weigh between 1,000 and 1,900 kilograms. Its mouth holds about 300 constantly replaced teeth with serrated, saw-like edges. Off South Africa it attacks seals by rushing up from 20 meters deep, often launching itself completely out of the water. Over short distances it can reach 24 kilometers per hour. But contrary to the image created by a famous film, great whites do not normally hunt people. Most bites are thought to come from curiosity or from mistaking a person for other prey. Still, a single bite from an animal this size can be fatal."
   },
   {
    "type": "zone",
    "depth": 0,
    "name": "15 – 11",
    "range": "Küçük ama ölümcül",
-   "text": "Üçüncü bölümde boyutları birkaç santimetreyi geçmeyen canlılar var. Bir kurbağa, iki örümcek, bir akrep ve bir eşek arısı. Bunların hiçbiri bir insanı yiyecek kadar büyük değil. Onları tehlikeli yapan, taşıdıkları kimyasal silahlar. Bazıları bu zehri avlanmak için kullanıyor, bazıları ise yalnızca kendini korumak için. Ve bazen bir avuç içine sığan bir canlı, kendisinden binlerce kat büyük bir yırtıcıdan çok daha ölümcül olabiliyor."
+   "text": "Üçüncü bölümde boyutları birkaç santimetreyi geçmeyen canlılar var. Bir kurbağa, iki örümcek, bir akrep ve bir eşek arısı. Bunların hiçbiri bir insanı yiyecek kadar büyük değil. Onları tehlikeli yapan, taşıdıkları kimyasal silahlar. Bazıları bu zehri avlanmak için kullanıyor, bazıları ise yalnızca kendini korumak için. Ve bazen bir avuç içine sığan bir canlı, kendisinden binlerce kat büyük bir yırtıcıdan çok daha ölümcül olabiliyor.",
+   "name_en": "15 – 11",
+   "range_en": "Small but deadly",
+   "text_en": "The third section features creatures no more than a few centimeters long. A frog, two spiders, a scorpion and a hornet. None of them is big enough to eat a person. What makes them dangerous are the chemical weapons they carry. Some use their venom to hunt, others only to defend themselves. And sometimes a creature that fits in the palm of your hand can be far deadlier than a predator thousands of times its size."
   },
   {
    "type": "creature",
@@ -169,7 +204,10 @@
    "name": "Altın Zehirli Ok Kurbağası",
    "latin": "Phyllobates terribilis",
    "range": "Kolombiya",
-   "text": "On beşinci sırada, yeryüzündeki en zehirli hayvan olarak kabul edilen bir kurbağa var. Altın zehirli ok kurbağası yalnızca altı santimetre boyunda ve otuz gramdan hafif. Ama vahşi doğadaki bir kurbağanın derisinde ortalama bir miligram zehir bulunuyor. Bu, on ile yirmi insanı ya da iki erkek Afrika filini öldürmeye yetiyor. Yalnızca Kolombiya'nın Pasifik kıyısındaki yağmur ormanlarında yaşıyor. Parlak sarı rengi, yırtıcılara gönderilen bir uyarı. Zehrini yediği küçük böceklerden elde ettiği düşünülüyor. Bu yüzden esaret altında doğan kurbağalar zehirsiz oluyor. Bölgedeki Emberá halkı, avda kullandığı okların ucunu bu kurbağanın derisinden çıkan zehirle kaplıyor."
+   "text": "On beşinci sırada, yeryüzündeki en zehirli hayvan olarak kabul edilen bir kurbağa var. Altın zehirli ok kurbağası yalnızca altı santimetre boyunda ve otuz gramdan hafif. Ama vahşi doğadaki bir kurbağanın derisinde ortalama bir miligram zehir bulunuyor. Bu, on ile yirmi insanı ya da iki erkek Afrika filini öldürmeye yetiyor. Yalnızca Kolombiya'nın Pasifik kıyısındaki yağmur ormanlarında yaşıyor. Parlak sarı rengi, yırtıcılara gönderilen bir uyarı. Zehrini yediği küçük böceklerden elde ettiği düşünülüyor. Bu yüzden esaret altında doğan kurbağalar zehirsiz oluyor. Bölgedeki Emberá halkı, avda kullandığı okların ucunu bu kurbağanın derisinden çıkan zehirle kaplıyor.",
+   "name_en": "Golden Poison Frog",
+   "range_en": "Colombia",
+   "text_en": "At number 15 is a frog considered the most poisonous animal on Earth. The golden poison frog is only 6 centimeters long and weighs less than 30 grams. But the skin of a wild frog holds about one milligram of poison on average. That is enough to kill 10 to 20 people, or two male African elephants. It lives only in the rainforests of Colombia's Pacific coast. Its bright yellow color is a warning to predators. It is thought to get its poison from the small insects it eats. That is why frogs born in captivity are not poisonous. The Emberá people of the region coat the tips of their hunting darts with poison from this frog's skin."
   },
   {
    "type": "creature",
@@ -178,7 +216,10 @@
    "name": "Sidney Huni Ağı Örümceği",
    "latin": "Atrax robustus",
    "range": "Sidney, Avustralya",
-   "text": "On dördüncü sırada, Avustralya'nın en korkulan örümceklerinden biri var: Sidney huni ağı örümceği. Gövdesi bir ile beş santimetre arasında ve çoğunlukla Sidney'in yüz kilometre çevresinde yaşıyor. Zehrindeki özel bir toksin, insanlar ve diğer primatlar için son derece etkili. Küçük bir çocuğun ısırıldıktan sonra on beş dakika içinde öldüğü bilinen bir vaka var. Sıcak aylarda erkekler dişi aramak için dolaşıyor, bahçelere, evlere ve yüzme havuzlarına düşebiliyor. Suyun içinde, karnındaki kıllara hapsettiği hava kabarcıkları sayesinde yirmi dört saate kadar hayatta kalabiliyor. İyi haber şu: bin dokuz yüz seksen birde panzehir geliştirildiğinden beri bu örümcek yüzünden tek bir ölüm kaydedilmedi."
+   "text": "On dördüncü sırada, Avustralya'nın en korkulan örümceklerinden biri var: Sidney huni ağı örümceği. Gövdesi bir ile beş santimetre arasında ve çoğunlukla Sidney'in yüz kilometre çevresinde yaşıyor. Zehrindeki özel bir toksin, insanlar ve diğer primatlar için son derece etkili. Küçük bir çocuğun ısırıldıktan sonra on beş dakika içinde öldüğü bilinen bir vaka var. Sıcak aylarda erkekler dişi aramak için dolaşıyor, bahçelere, evlere ve yüzme havuzlarına düşebiliyor. Suyun içinde, karnındaki kıllara hapsettiği hava kabarcıkları sayesinde yirmi dört saate kadar hayatta kalabiliyor. İyi haber şu: bin dokuz yüz seksen birde panzehir geliştirildiğinden beri bu örümcek yüzünden tek bir ölüm kaydedilmedi.",
+   "name_en": "Sydney Funnel-web Spider",
+   "range_en": "Sydney, Australia",
+   "text_en": "At number 14 is one of Australia's most feared spiders: the Sydney funnel-web. Its body is 1 to 5 centimeters long, and it lives mostly within 100 kilometers of Sydney. A special toxin in its venom is extremely potent in humans and other primates. In one known case, a small child died within 15 minutes of being bitten. In the warm months, males wander in search of females and can end up in gardens, homes and swimming pools. In water it can survive up to 24 hours thanks to air bubbles trapped in the hairs on its abdomen. The good news: since an antivenom was developed in 1981, not a single death from this spider has been recorded."
   },
   {
    "type": "creature",
@@ -187,7 +228,10 @@
    "name": "Brezilya Gezgin Örümceği",
    "latin": "Phoneutria",
    "range": "Orta ve Güney Amerika",
-   "text": "On üçüncü sırada, ağ örmeyen bir avcı var: Brezilya gezgin örümceği. Adını, geceleri orman tabanında dolaşarak avlanmasından alıyor. Bacak açıklığı on üç ile on sekiz santimetreye ulaşabiliyor. Gündüzleri termit yuvalarına, devrilmiş kütüklerin altına ve muz bitkilerine saklanıyor. Bu yüzden ona muz örümceği de deniyor. Tehdit edildiğinde ön bacaklarını havaya kaldırıp iki yana sallanıyor. Zehri şiddetli ağrıya, kalp çarpıntısına, yüksek tansiyona ve nefes darlığına yol açabiliyor. Ölüm, ısırıktan iki ile altı saat sonra gelebiliyor. Yine de ısırıkların yalnızca üçte birinde zehir enjekte ediyor ve vakaların çok azı panzehir gerektiriyor. Ölümler nadir, ama özellikle küçük çocuklar için gerçek bir tehlike."
+   "text": "On üçüncü sırada, ağ örmeyen bir avcı var: Brezilya gezgin örümceği. Adını, geceleri orman tabanında dolaşarak avlanmasından alıyor. Bacak açıklığı on üç ile on sekiz santimetreye ulaşabiliyor. Gündüzleri termit yuvalarına, devrilmiş kütüklerin altına ve muz bitkilerine saklanıyor. Bu yüzden ona muz örümceği de deniyor. Tehdit edildiğinde ön bacaklarını havaya kaldırıp iki yana sallanıyor. Zehri şiddetli ağrıya, kalp çarpıntısına, yüksek tansiyona ve nefes darlığına yol açabiliyor. Ölüm, ısırıktan iki ile altı saat sonra gelebiliyor. Yine de ısırıkların yalnızca üçte birinde zehir enjekte ediyor ve vakaların çok azı panzehir gerektiriyor. Ölümler nadir, ama özellikle küçük çocuklar için gerçek bir tehlike.",
+   "name_en": "Brazilian Wandering Spider",
+   "range_en": "Central and South America",
+   "text_en": "At number 13 is a hunter that spins no web: the Brazilian wandering spider. It gets its name from roaming the forest floor at night in search of prey. Its leg span can reach 13 to 18 centimeters. By day it hides in termite mounds, under fallen logs and in banana plants. That is why it is also called the banana spider. When threatened, it raises its front legs and sways from side to side. Its venom can cause severe pain, a racing heart, high blood pressure and difficulty breathing. Death can come two to six hours after a bite. Yet it injects venom in only about a third of bites, and very few cases need antivenom. Deaths are rare, but it is a real danger, especially for small children."
   },
   {
    "type": "creature",
@@ -196,7 +240,10 @@
    "name": "Sarı Akrep",
    "latin": "Leiurus quinquestriatus",
    "range": "Kuzey Afrika, Orta Doğu",
-   "text": "On ikinci sırada, en tehlikeli akreplerden biri var. İngilizcede ölüm avcısı anlamına gelen bir adla anılan sarı akrep, ortalama altı santimetre boyunda. Kuzey Afrika'dan Arap Yarımadası'na, Anadolu'dan Orta Asya'ya ve Hindistan'ın batısına kadar çöllerde ve çalılıklarda yaşıyor. Zehri güçlü sinir zehirleri içeriyor ve sokması çok acı verici. Sağlıklı bir yetişkini genellikle öldürmüyor. Ama küçük çocuklar, yaşlılar ve kalp hastaları için ölümcül olabiliyor. Şaşırtıcı olan şu ki, bu zehrin içindeki klorotoksin adlı bir molekül, beyin tümörü ameliyatlarında kanserli hücreleri görünür hale getirmek için araştırılıyor. Yani bu ölümcül zehir bir gün hayat kurtarabilir."
+   "text": "On ikinci sırada, en tehlikeli akreplerden biri var. İngilizcede ölüm avcısı anlamına gelen bir adla anılan sarı akrep, ortalama altı santimetre boyunda. Kuzey Afrika'dan Arap Yarımadası'na, Anadolu'dan Orta Asya'ya ve Hindistan'ın batısına kadar çöllerde ve çalılıklarda yaşıyor. Zehri güçlü sinir zehirleri içeriyor ve sokması çok acı verici. Sağlıklı bir yetişkini genellikle öldürmüyor. Ama küçük çocuklar, yaşlılar ve kalp hastaları için ölümcül olabiliyor. Şaşırtıcı olan şu ki, bu zehrin içindeki klorotoksin adlı bir molekül, beyin tümörü ameliyatlarında kanserli hücreleri görünür hale getirmek için araştırılıyor. Yani bu ölümcül zehir bir gün hayat kurtarabilir.",
+   "name_en": "Deathstalker Scorpion",
+   "range_en": "North Africa, Middle East",
+   "text_en": "At number 12 is one of the most dangerous scorpions. The yellow scorpion, known in English as the deathstalker, is about 6 centimeters long on average. It lives in deserts and scrublands from North Africa to the Arabian Peninsula, and from Anatolia to Central Asia and western India. Its venom contains powerful nerve toxins and its sting is extremely painful. It usually does not kill a healthy adult. But it can be deadly for small children, the elderly and people with heart conditions. Surprisingly, a molecule in this venom called chlorotoxin is being researched to make cancer cells visible during brain tumor surgery. So this deadly venom may one day save lives."
   },
   {
    "type": "creature",
@@ -205,7 +252,10 @@
    "name": "Asya Dev Eşek Arısı",
    "latin": "Vespa mandarinia",
    "range": "Doğu ve Güney Asya",
-   "text": "On birinci sırada, dünyanın en büyük eşek arısı var. Asya dev eşek arısının işçileri dört santimetreye yakın, kraliçeleri ise beş santimetreden uzun olabiliyor. İğnesi altı milimetre uzunluğunda ve büyük miktarda güçlü zehir enjekte ediyor. Birden fazla arı aynı anda sokarsa ya da alerjik bir tepki gelişirse, bu zehir bir insanı öldürebiliyor. Asıl kurbanları ise bal arıları. Elliden az dev eşek arısı, on binlerce bal arısından oluşan bir koloniyi birkaç saat içinde yok edebiliyor. Ama Japon bal arıları buna karşı bir savunma geliştirmiş. Kovana giren eşek arısının etrafını sarıp canlı bir top oluşturuyorlar ve topun içindeki sıcaklığı kırk altı dereceye çıkararak onu öldürüyorlar."
+   "text": "On birinci sırada, dünyanın en büyük eşek arısı var. Asya dev eşek arısının işçileri dört santimetreye yakın, kraliçeleri ise beş santimetreden uzun olabiliyor. İğnesi altı milimetre uzunluğunda ve büyük miktarda güçlü zehir enjekte ediyor. Birden fazla arı aynı anda sokarsa ya da alerjik bir tepki gelişirse, bu zehir bir insanı öldürebiliyor. Asıl kurbanları ise bal arıları. Elliden az dev eşek arısı, on binlerce bal arısından oluşan bir koloniyi birkaç saat içinde yok edebiliyor. Ama Japon bal arıları buna karşı bir savunma geliştirmiş. Kovana giren eşek arısının etrafını sarıp canlı bir top oluşturuyorlar ve topun içindeki sıcaklığı kırk altı dereceye çıkararak onu öldürüyorlar.",
+   "name_en": "Asian Giant Hornet",
+   "range_en": "East and South Asia",
+   "text_en": "At number 11 is the largest hornet in the world. Workers of the Asian giant hornet are almost 4 centimeters long, and queens can exceed 5 centimeters. Its stinger is 6 millimeters long and injects a large amount of potent venom. If several hornets sting at once or an allergic reaction develops, this venom can kill a person. Its main victims, though, are honeybees. Fewer than 50 giant hornets can destroy a colony of tens of thousands of honeybees within a few hours. But Japanese honeybees have evolved a defense. They surround a hornet that enters the hive, forming a living ball, and raise the temperature inside it to 46 degrees, killing it."
   },
   {
    "type": "zone",
@@ -213,7 +263,10 @@
    "name": "10 – 6",
    "range": "Zehirli yılanlar",
    "text": "Şimdi ilk ona giriyoruz ve bu bölümün tamamı yılanlara ait. Dünya Sağlık Örgütü'ne göre her yıl dört buçuk ile beş milyon dört yüz bin kişi yılan tarafından ısırılıyor. Bu ısırıklar her yıl seksen bin ile yüz otuz bin arasında insanın ölümüne yol açıyor. Kurbanların çoğu tropikal ülkelerde tarlada ve açık havada çalışan insanlar. Sıradaki yılanların bazıları dünyanın en güçlü zehrine, bazıları ise en kötü şöhretine sahip.",
-   "music_switch": true
+   "music_switch": true,
+   "name_en": "10 – 6",
+   "range_en": "Venomous snakes",
+   "text_en": "Now we enter the top ten, and this whole section belongs to snakes. According to the World Health Organization, 4.5 to 5.4 million people are bitten by snakes every year. These bites cause between 80,000 and 130,000 deaths each year. Most victims are people working in fields and outdoors in tropical countries. Some of the next snakes have the most powerful venom in the world, others the worst reputation."
   },
   {
    "type": "creature",
@@ -222,7 +275,10 @@
    "name": "İç Taipan",
    "latin": "Oxyuranus microlepidotus",
    "range": "Orta Avustralya",
-   "text": "Onuncu sırada, dünyanın en zehirli yılanı olarak kabul edilen iç taipan var. Laboratuvar testlerine göre zehri, damla damla karşılaştırıldığında test edilen bütün deniz yılanlarından bile çok daha güçlü. Tek bir ısırığında yüzden fazla yetişkin insanı öldürmeye yetecek zehir bulunduğu tahmin ediliyor. Peki neden ilk sırada değil? Çünkü iç taipan utangaç ve sakin bir yılan. Orta Avustralya'nın ıssız bölgelerinde yaşıyor ve insanlarla neredeyse hiç karşılaşmıyor. Zehri özellikle sıcakkanlı avları, yani küçük memelileri öldürmeye uyum sağlamış. Rengi mevsime göre değişiyor. Başı kışın parlak siyah, yazın koyu kahverengi oluyor. Bu koyu renk, yuvasının ağzından başını çıkardığında güneşten daha fazla ısı almasına yardım ediyor."
+   "text": "Onuncu sırada, dünyanın en zehirli yılanı olarak kabul edilen iç taipan var. Laboratuvar testlerine göre zehri, damla damla karşılaştırıldığında test edilen bütün deniz yılanlarından bile çok daha güçlü. Tek bir ısırığında yüzden fazla yetişkin insanı öldürmeye yetecek zehir bulunduğu tahmin ediliyor. Peki neden ilk sırada değil? Çünkü iç taipan utangaç ve sakin bir yılan. Orta Avustralya'nın ıssız bölgelerinde yaşıyor ve insanlarla neredeyse hiç karşılaşmıyor. Zehri özellikle sıcakkanlı avları, yani küçük memelileri öldürmeye uyum sağlamış. Rengi mevsime göre değişiyor. Başı kışın parlak siyah, yazın koyu kahverengi oluyor. Bu koyu renk, yuvasının ağzından başını çıkardığında güneşten daha fazla ısı almasına yardım ediyor.",
+   "name_en": "Inland Taipan",
+   "range_en": "Central Australia",
+   "text_en": "At number 10 is the inland taipan, considered the most venomous snake in the world. According to laboratory tests, drop for drop its venom is far more potent than that of any sea snake tested. A single bite is estimated to contain enough venom to kill more than 100 adult people. So why is it not number one? Because the inland taipan is a shy and calm snake. It lives in the remote regions of central Australia and almost never meets people. Its venom is adapted especially to killing warm-blooded prey, that is, small mammals. Its color changes with the seasons. Its head is glossy black in winter and dark brown in summer. This dark color helps it absorb more heat from the sun when it pokes its head out of its burrow."
   },
   {
    "type": "creature",
@@ -231,7 +287,10 @@
    "name": "Kral Kobra",
    "latin": "Ophiophagus hannah",
    "range": "Güney ve Güneydoğu Asya",
-   "text": "Dokuzuncu sırada, dünyanın en uzun zehirli yılanı var: kral kobra. Ortalama üç ile dört metre boyunda ve kaydedilen en uzun birey beş metre seksen beş santimetreydi. Bilimsel adı yılan yiyen anlamına geliyor. Çünkü asıl besini başka yılanlar, hatta kendi türünün bireyleri. Bir ısırıkta dört yüz miligramın üzerinde zehir enjekte edebiliyor. Tedavi edilmezse ölüm otuz dakika içinde gelebiliyor. Tıslaması diğer yılanlarınkinden çok daha kalın. Bu yüzden insanlar bu sesi bir hırlamaya benzetiyor. Yumurtaları için yerin üstünde yuva kuran tek yılan da o. Dişi, yumurtalarını bu yuvaya bırakıyor ve kuluçka boyunca onları koruyor. Normalde insanlardan kaçıyor, ama yumurtalarını korurken çok hızlı ve saldırgan olabiliyor."
+   "text": "Dokuzuncu sırada, dünyanın en uzun zehirli yılanı var: kral kobra. Ortalama üç ile dört metre boyunda ve kaydedilen en uzun birey beş metre seksen beş santimetreydi. Bilimsel adı yılan yiyen anlamına geliyor. Çünkü asıl besini başka yılanlar, hatta kendi türünün bireyleri. Bir ısırıkta dört yüz miligramın üzerinde zehir enjekte edebiliyor. Tedavi edilmezse ölüm otuz dakika içinde gelebiliyor. Tıslaması diğer yılanlarınkinden çok daha kalın. Bu yüzden insanlar bu sesi bir hırlamaya benzetiyor. Yumurtaları için yerin üstünde yuva kuran tek yılan da o. Dişi, yumurtalarını bu yuvaya bırakıyor ve kuluçka boyunca onları koruyor. Normalde insanlardan kaçıyor, ama yumurtalarını korurken çok hızlı ve saldırgan olabiliyor.",
+   "name_en": "King Cobra",
+   "range_en": "South and Southeast Asia",
+   "text_en": "At number 9 is the longest venomous snake in the world: the king cobra. It is usually 3 to 4 meters long, and the longest individual on record measured 5.85 meters. Its scientific name means snake eater, because its main food is other snakes, even members of its own species. It can inject more than 400 milligrams of venom in one bite. Without treatment, death can come within 30 minutes. Its hiss is much deeper than that of other snakes, so people compare the sound to a growl. It is also the only snake that builds an above-ground nest for its eggs. The female lays her eggs in this nest and guards them throughout incubation. It normally avoids people, but while guarding its eggs it can be very fast and aggressive."
   },
   {
    "type": "creature",
@@ -240,7 +299,10 @@
    "name": "Kara Mamba",
    "latin": "Dendroaspis polylepis",
    "range": "Sahra altı Afrika",
-   "text": "Sekizinci sırada, Afrika'nın en çok korkulan yılanı var: kara mamba. Adına rağmen siyah değil. Rengi griden koyu kahverengiye kadar değişiyor. Adını, tehdit edildiğinde açtığı mürekkep gibi simsiyah ağzının içinden alıyor. Kral kobradan sonra dünyanın en uzun ikinci zehirli yılanı ve sıklıkla üç metreye kadar uzuyor. Uygun zeminde kısa mesafede saatte on altı kilometreye kadar hızlanabiliyor. Uzak bir mesafeden saldırabiliyor ve art arda birkaç kez ısırabiliyor. Zehri çoğunlukla on dakika içinde belirti vermeye başlıyor ve panzehir uygulanmazsa sıklıkla ölümcül oluyor. Yine de ünü kadar saldırgan değil. İnsanlara yalnızca tehdit edildiğinde ya da köşeye sıkıştığında saldırıyor."
+   "text": "Sekizinci sırada, Afrika'nın en çok korkulan yılanı var: kara mamba. Adına rağmen siyah değil. Rengi griden koyu kahverengiye kadar değişiyor. Adını, tehdit edildiğinde açtığı mürekkep gibi simsiyah ağzının içinden alıyor. Kral kobradan sonra dünyanın en uzun ikinci zehirli yılanı ve sıklıkla üç metreye kadar uzuyor. Uygun zeminde kısa mesafede saatte on altı kilometreye kadar hızlanabiliyor. Uzak bir mesafeden saldırabiliyor ve art arda birkaç kez ısırabiliyor. Zehri çoğunlukla on dakika içinde belirti vermeye başlıyor ve panzehir uygulanmazsa sıklıkla ölümcül oluyor. Yine de ünü kadar saldırgan değil. İnsanlara yalnızca tehdit edildiğinde ya da köşeye sıkıştığında saldırıyor.",
+   "name_en": "Black Mamba",
+   "range_en": "Sub-Saharan Africa",
+   "text_en": "At number 8 is Africa's most feared snake: the black mamba. Despite its name, it is not black. Its color ranges from gray to dark brown. It gets its name from the inky black inside of its mouth, which it opens when threatened. After the king cobra it is the second longest venomous snake in the world, often reaching 3 meters. On suitable ground it can reach 16 kilometers per hour over short distances. It can strike from a considerable distance and bite several times in a row. Its venom usually begins causing symptoms within 10 minutes and is often fatal without antivenom. Still, it is not as aggressive as its reputation. It attacks people only when threatened or cornered."
   },
   {
    "type": "creature",
@@ -249,7 +311,10 @@
    "name": "Hint Kobrası",
    "latin": "Naja naja",
    "range": "Hindistan alt kıtası",
-   "text": "Yedinci sırada, yılan oynatıcılarının sepetinden tanıdığımız Hint kobrası var. Tehdit edildiğinde boynundaki geniş başlığı açıyor. Birçoğunun başlığının arkasında gözlüğe benzeyen bir desen bulunuyor. Bu yüzden ona gözlüklü kobra da deniyor. Boyu genellikle bir ile bir buçuk metre arasında. Hindistan ve Sri Lanka'da en çok yılan ısırığı vakasına yol açan dört büyük türden biri. Onu bu kadar tehlikeli yapan şey, insanlara çok yakın yaşaması. Pirinç ve buğday tarlalarında, köylerde ve şehirlerin kenarlarında dolaşıyor. Kemirgen avlamak için zaman zaman evlere bile giriyor. Isırıktan sonra belirtiler on beş dakika ile iki saat arasında başlıyor. Ağır vakalarda birkaç saat içinde solunum felci gelişebiliyor."
+   "text": "Yedinci sırada, yılan oynatıcılarının sepetinden tanıdığımız Hint kobrası var. Tehdit edildiğinde boynundaki geniş başlığı açıyor. Birçoğunun başlığının arkasında gözlüğe benzeyen bir desen bulunuyor. Bu yüzden ona gözlüklü kobra da deniyor. Boyu genellikle bir ile bir buçuk metre arasında. Hindistan ve Sri Lanka'da en çok yılan ısırığı vakasına yol açan dört büyük türden biri. Onu bu kadar tehlikeli yapan şey, insanlara çok yakın yaşaması. Pirinç ve buğday tarlalarında, köylerde ve şehirlerin kenarlarında dolaşıyor. Kemirgen avlamak için zaman zaman evlere bile giriyor. Isırıktan sonra belirtiler on beş dakika ile iki saat arasında başlıyor. Ağır vakalarda birkaç saat içinde solunum felci gelişebiliyor.",
+   "name_en": "Indian Cobra",
+   "range_en": "Indian subcontinent",
+   "text_en": "At number 7 is the Indian cobra, familiar from snake charmers' baskets. When threatened, it spreads the wide hood on its neck. Many have a spectacle-like pattern on the back of the hood. That is why it is also called the spectacled cobra. It is usually 1 to 1.5 meters long. It is one of the big four species responsible for the most snakebites in India and Sri Lanka. What makes it so dangerous is that it lives very close to people. It roams rice and wheat fields, villages and the edges of cities. It sometimes even enters homes to hunt rodents. After a bite, symptoms begin within 15 minutes to two hours. In severe cases, respiratory paralysis can develop within a few hours."
   },
   {
    "type": "creature",
@@ -258,14 +323,20 @@
    "name": "Russell Engereği",
    "latin": "Daboia russelii",
    "range": "Hindistan alt kıtası",
-   "text": "Altıncı sırada, Hindistan'ın dört büyük yılanından bir diğeri var: Russell engereği. Sırtı, zincir halkalarına benzeyen koyu lekelerle kaplı. Tehdit edildiğinde vücudunu S harfi şeklinde kıvırıp ön kısmını kaldırıyor ve muhtemelen bütün yılanlardan daha yüksek bir tıslama çıkarıyor. Asıl besini fareler. Fareler insanların yanında yaşadığı için, bu yılan da köylere, tarlalara ve şehirlere geliyor. Isırığı son derece acı verici. Zehri kanın pıhtılaşma sistemini altüst ediyor. Tedavi edilmeyen ısırıkların yüzde yirmi beş ile otuzunda böbrek yetmezliği gelişiyor. İlginçtir, aynı zehir bugün hastane laboratuvarlarında kanın pıhtılaşmasını ölçen bir testte kullanılıyor."
+   "text": "Altıncı sırada, Hindistan'ın dört büyük yılanından bir diğeri var: Russell engereği. Sırtı, zincir halkalarına benzeyen koyu lekelerle kaplı. Tehdit edildiğinde vücudunu S harfi şeklinde kıvırıp ön kısmını kaldırıyor ve muhtemelen bütün yılanlardan daha yüksek bir tıslama çıkarıyor. Asıl besini fareler. Fareler insanların yanında yaşadığı için, bu yılan da köylere, tarlalara ve şehirlere geliyor. Isırığı son derece acı verici. Zehri kanın pıhtılaşma sistemini altüst ediyor. Tedavi edilmeyen ısırıkların yüzde yirmi beş ile otuzunda böbrek yetmezliği gelişiyor. İlginçtir, aynı zehir bugün hastane laboratuvarlarında kanın pıhtılaşmasını ölçen bir testte kullanılıyor.",
+   "name_en": "Russell's Viper",
+   "range_en": "Indian subcontinent",
+   "text_en": "At number 6 is another of India's big four snakes: Russell's viper. Its back is covered with dark blotches that look like the links of a chain. When threatened, it coils its body into an S shape, raises its front and produces what may be the loudest hiss of any snake. Its main food is rats. Because rats live alongside people, this snake also comes into villages, fields and cities. Its bite is extremely painful. Its venom throws the blood clotting system into chaos. Kidney failure develops in 25 to 30 percent of untreated bites. Interestingly, the same venom is used today in a hospital laboratory test that measures blood clotting."
   },
   {
    "type": "zone",
    "depth": 0,
    "name": "İLK 5",
    "range": "Zirvedeki katiller",
-   "text": "Ve son beşe geldik. Bu bölümdeki hayvanlar yalnızca güçlü ya da zehirli değil. Her yıl gerçekten çok sayıda insanın ölümüne yol açıyorlar. Kimisi nehir kıyısında sabırla bekliyor, kimisi otlakta zararsız görünüyor, kimisi ise ayağımızın dibinde fark edilmeden duruyor. Birinci sıradaki hayvan ise belki de hiç tahmin etmediğiniz kadar küçük. Şimdi bu son beşe yakından bakalım."
+   "text": "Ve son beşe geldik. Bu bölümdeki hayvanlar yalnızca güçlü ya da zehirli değil. Her yıl gerçekten çok sayıda insanın ölümüne yol açıyorlar. Kimisi nehir kıyısında sabırla bekliyor, kimisi otlakta zararsız görünüyor, kimisi ise ayağımızın dibinde fark edilmeden duruyor. Birinci sıradaki hayvan ise belki de hiç tahmin etmediğiniz kadar küçük. Şimdi bu son beşe yakından bakalım.",
+   "name_en": "TOP 5",
+   "range_en": "The killers at the top",
+   "text_en": "And we have reached the final five. The animals in this section are not just strong or venomous. They really do cause a great many human deaths every year. One waits patiently on a riverbank, one looks harmless in a pasture, and one sits unnoticed at our feet. The animal in first place may be far smaller than you ever expected. Now let's take a close look at the final five."
   },
   {
    "type": "creature",
@@ -274,7 +345,10 @@
    "name": "Tuzlu Su Timsahı",
    "latin": "Crocodylus porosus",
    "range": "Hindistan'dan Avustralya'ya",
-   "text": "Beşinci sırada, yaşayan en büyük sürüngen var: tuzlu su timsahı. Erkekleri altı metre boya ve bin ile bin beş yüz kilograma ulaşabiliyor. Bilinen en güçlü ısırık da ona ait. Dört buçuk metrelik bir timsahın ısırığı laboratuvarda on altı bin dört yüz newtonun üzerinde ölçüldü. Hindistan'ın doğu kıyılarından Güneydoğu Asya'ya ve kuzey Avustralya'ya kadar nehir ağızlarında, bataklıklarda ve kıyılarda yaşıyor. Uydu vericisiyle izlenen bir timsah, okyanus akıntılarından da yararlanarak yirmi beş günde beş yüz doksan kilometre yol aldı. Avını pusuya düşürüyor, suya çekip boğuyor. Nil timsahıyla birlikte insan avlamaya en yatkın timsah türü. Avustralya'da her yıl bir ya da iki ölümcül saldırı bildiriliyor, ama Asya'daki kesin sayılar bilinmiyor."
+   "text": "Beşinci sırada, yaşayan en büyük sürüngen var: tuzlu su timsahı. Erkekleri altı metre boya ve bin ile bin beş yüz kilograma ulaşabiliyor. Bilinen en güçlü ısırık da ona ait. Dört buçuk metrelik bir timsahın ısırığı laboratuvarda on altı bin dört yüz newtonun üzerinde ölçüldü. Hindistan'ın doğu kıyılarından Güneydoğu Asya'ya ve kuzey Avustralya'ya kadar nehir ağızlarında, bataklıklarda ve kıyılarda yaşıyor. Uydu vericisiyle izlenen bir timsah, okyanus akıntılarından da yararlanarak yirmi beş günde beş yüz doksan kilometre yol aldı. Avını pusuya düşürüyor, suya çekip boğuyor. Nil timsahıyla birlikte insan avlamaya en yatkın timsah türü. Avustralya'da her yıl bir ya da iki ölümcül saldırı bildiriliyor, ama Asya'daki kesin sayılar bilinmiyor.",
+   "name_en": "Saltwater Crocodile",
+   "range_en": "India to Australia",
+   "text_en": "At number 5 is the largest living reptile: the saltwater crocodile. Males can reach 6 meters in length and 1,000 to 1,500 kilograms. It also has the strongest bite ever measured. The bite of a 4.5-meter crocodile was measured in the lab at more than 16,400 newtons. It lives in estuaries, swamps and coasts from the east coast of India to Southeast Asia and northern Australia. One crocodile tracked by satellite traveled 590 kilometers in 25 days, using ocean currents. It ambushes its prey, drags it into the water and drowns it. Together with the Nile crocodile, it is the crocodile most likely to prey on humans. One or two fatal attacks are reported in Australia every year, but the exact numbers in Asia are unknown."
   },
   {
    "type": "creature",
@@ -283,7 +357,10 @@
    "name": "Su Aygırı",
    "latin": "Hippopotamus amphibius",
    "range": "Sahra altı Afrika",
-   "text": "Dördüncü sırada, ot yiyen bir hayvan var. Ama sakın görünüşüne aldanmayın. Su aygırı, saldırgan ve öngörülemeyen doğası nedeniyle dünyanın en tehlikeli hayvanları arasında sayılıyor. Erkekleri ortalama bir buçuk ton geliyor. Ağzını yüz ile yüz on derece açabiliyor ve alt çenesindeki köpek dişleri elli santimetreye kadar uzayabiliyor. Bu dişleri yemek için değil, dövüşmek için kullanıyor. Gündüzleri suda ya da çamurda serinliyor, geceleri karaya çıkıp üç ile beş kilometre yürüyerek yaklaşık kırk kilogram ot yiyor. Derisinden kırmızı renkli, doğal bir güneş kremi salgılıyor. Su aygırlarının sık sık teknelere saldırdığı biliniyor. İki bin on dörtte Nijer'de bir su aygırı bir tekneyi devirdi ve on üç kişi hayatını kaybetti."
+   "text": "Dördüncü sırada, ot yiyen bir hayvan var. Ama sakın görünüşüne aldanmayın. Su aygırı, saldırgan ve öngörülemeyen doğası nedeniyle dünyanın en tehlikeli hayvanları arasında sayılıyor. Erkekleri ortalama bir buçuk ton geliyor. Ağzını yüz ile yüz on derece açabiliyor ve alt çenesindeki köpek dişleri elli santimetreye kadar uzayabiliyor. Bu dişleri yemek için değil, dövüşmek için kullanıyor. Gündüzleri suda ya da çamurda serinliyor, geceleri karaya çıkıp üç ile beş kilometre yürüyerek yaklaşık kırk kilogram ot yiyor. Derisinden kırmızı renkli, doğal bir güneş kremi salgılıyor. Su aygırlarının sık sık teknelere saldırdığı biliniyor. İki bin on dörtte Nijer'de bir su aygırı bir tekneyi devirdi ve on üç kişi hayatını kaybetti.",
+   "name_en": "Hippopotamus",
+   "range_en": "Sub-Saharan Africa",
+   "text_en": "At number 4 is a grass-eating animal. But do not be fooled by its looks. Because of its aggressive and unpredictable nature, the hippopotamus is counted among the most dangerous animals in the world. Males weigh about 1.5 tonnes on average. It can open its mouth 100 to 110 degrees, and the canines in its lower jaw can grow up to 50 centimeters. It uses these teeth not for eating but for fighting. By day it cools off in water or mud, and at night it comes ashore, walks 3 to 5 kilometers and eats about 40 kilograms of grass. Its skin secretes a red, natural sunscreen. Hippos are known to attack boats frequently. In 2014 in Niger, a hippo overturned a boat and 13 people lost their lives."
   },
   {
    "type": "creature",
@@ -292,7 +369,10 @@
    "name": "Nil Timsahı",
    "latin": "Crocodylus niloticus",
    "range": "Sahra altı Afrika",
-   "text": "Üçüncü sırada, Afrika'nın en büyük yırtıcısı var: Nil timsahı. Erkekleri genellikle üç buçuk ile beş metre boyunda ve yedi yüz elli kilograma kadar ağırlıkta. Altı metreyi ve bir tonu aşan bireyler de kaydedildi. Yirmi altı Afrika ülkesinde göllerde, nehirlerde ve bataklıklarda yaşıyor. Ağzında altmış dört ile altmış sekiz arasında sivri diş var. Avı saldırı mesafesine girene kadar suyun içinde sabırla bekliyor ve sonra şimşek gibi saldırıyor. Yetişkin Afrika mandalarını bile avlayabiliyor. Tuzlu su timsahıyla birlikte insan avlamaya en yatkın timsah türü ve her yıl yüzlerce insanın ölümünden sorumlu. Şaşırtıcı bir ayrıntı daha: Nil timsahlarında yumurtaları yalnızca dişiler değil, erkekler de koruyor."
+   "text": "Üçüncü sırada, Afrika'nın en büyük yırtıcısı var: Nil timsahı. Erkekleri genellikle üç buçuk ile beş metre boyunda ve yedi yüz elli kilograma kadar ağırlıkta. Altı metreyi ve bir tonu aşan bireyler de kaydedildi. Yirmi altı Afrika ülkesinde göllerde, nehirlerde ve bataklıklarda yaşıyor. Ağzında altmış dört ile altmış sekiz arasında sivri diş var. Avı saldırı mesafesine girene kadar suyun içinde sabırla bekliyor ve sonra şimşek gibi saldırıyor. Yetişkin Afrika mandalarını bile avlayabiliyor. Tuzlu su timsahıyla birlikte insan avlamaya en yatkın timsah türü ve her yıl yüzlerce insanın ölümünden sorumlu. Şaşırtıcı bir ayrıntı daha: Nil timsahlarında yumurtaları yalnızca dişiler değil, erkekler de koruyor.",
+   "name_en": "Nile Crocodile",
+   "range_en": "Sub-Saharan Africa",
+   "text_en": "At number 3 is Africa's largest predator: the Nile crocodile. Males are usually 3.5 to 5 meters long and weigh up to 750 kilograms. Individuals over 6 meters and a tonne have also been recorded. It lives in lakes, rivers and swamps in 26 African countries. Its mouth holds 64 to 68 sharp teeth. It waits patiently in the water until prey comes within striking distance, then attacks like lightning. It can even hunt adult African buffalo. Together with the saltwater crocodile, it is the crocodile most likely to prey on humans and is responsible for hundreds of deaths every year. One more surprising detail: in Nile crocodiles, not only females but also males guard the eggs."
   },
   {
    "type": "creature",
@@ -301,7 +381,10 @@
    "name": "Testere Pullu Engerek",
    "latin": "Echis carinatus",
    "range": "Orta Doğu, Hindistan",
-   "text": "İkinci sırada, listedeki en küçük yılan var: testere pullu engerek. Boyu genellikle altmış santimetreyi geçmiyor. Ama Hindistan'da en çok yılan ısırığına ve ölüme yol açan dört büyük türün en küçüğü o. Onu bu kadar tehlikeli yapan, kalabalık bölgelerde sık bulunması ve göze çarpmayan görünüşü. Ait olduğu cinsin türleri, dünyada en çok yılan ısırığına ve ölüme neden olan yılanlar arasında sayılıyor. Tehdit edildiğinde vücudunu yan yana C şeklinde kıvrımlar oluşturacak biçimde büküp pullarını birbirine sürtüyor ve kızgın bir tavaya düşen su gibi cızırdayan bir ses çıkarıyor. Adını da yanlarındaki testere gibi tırtıklı pullardan alıyor. Bir ısırıkta on iki miligrama kadar zehir enjekte edebiliyor. Oysa bir yetişkin için öldürücü dozun yalnızca beş miligram olduğu tahmin ediliyor."
+   "text": "İkinci sırada, listedeki en küçük yılan var: testere pullu engerek. Boyu genellikle altmış santimetreyi geçmiyor. Ama Hindistan'da en çok yılan ısırığına ve ölüme yol açan dört büyük türün en küçüğü o. Onu bu kadar tehlikeli yapan, kalabalık bölgelerde sık bulunması ve göze çarpmayan görünüşü. Ait olduğu cinsin türleri, dünyada en çok yılan ısırığına ve ölüme neden olan yılanlar arasında sayılıyor. Tehdit edildiğinde vücudunu yan yana C şeklinde kıvrımlar oluşturacak biçimde büküp pullarını birbirine sürtüyor ve kızgın bir tavaya düşen su gibi cızırdayan bir ses çıkarıyor. Adını da yanlarındaki testere gibi tırtıklı pullardan alıyor. Bir ısırıkta on iki miligrama kadar zehir enjekte edebiliyor. Oysa bir yetişkin için öldürücü dozun yalnızca beş miligram olduğu tahmin ediliyor.",
+   "name_en": "Saw-scaled Viper",
+   "range_en": "Middle East, India",
+   "text_en": "At number 2 is the smallest snake on the list: the saw-scaled viper. It is usually no longer than 60 centimeters. But it is the smallest of the big four species that cause the most snakebites and deaths in India. What makes it so dangerous is that it is common in crowded areas and easy to overlook. The species of its genus are among the snakes that cause the most snakebites and deaths in the world. When threatened, it bends its body into side-by-side C-shaped coils and rubs its scales together, making a sizzling sound like water dropped on a hot pan. It gets its name from the saw-like serrated scales on its sides. It can inject up to 12 milligrams of venom in one bite, while the lethal dose for an adult is estimated to be only 5 milligrams."
   },
   {
    "type": "creature",
@@ -310,12 +393,16 @@
    "name": "Sıtma Sivrisineği",
    "latin": "Anopheles",
    "range": "Tropikal bölgeler",
-   "text": "Ve birinci sırada, hepimizin tanıdığı ama çoğumuzun hafife aldığı bir canlı var: sivrisinek. Özellikle de sıtma taşıyan Anofel sivrisinekleri. Sivrisineklerin taşıdığı hastalıklar her yıl bir milyondan fazla insanın ölümüne yol açıyor. Bunların en ölümcülü sıtma. İnsanlara sıtmayı yalnızca Anofel cinsi sivrisinekler bulaştırıyor. İki bin yirmi dörtte dünyada iki yüz seksen iki milyon sıtma vakası görüldü ve yaklaşık altı yüz on bin kişi hayatını kaybetti. Bu ölümlerin yüzde doksan beşi Afrika'da yaşandı. Hastalık özellikle beş yaşın altındaki çocuklar için ölümcül. Isıranlar yalnızca dişiler. Kan emen dişiler bizi nefesimizdeki karbondioksiti koklayarak buluyor. Bu minicik böcek, insanlar için dünyanın en ölümcül hayvanı."
+   "text": "Ve birinci sırada, hepimizin tanıdığı ama çoğumuzun hafife aldığı bir canlı var: sivrisinek. Özellikle de sıtma taşıyan Anofel sivrisinekleri. Sivrisineklerin taşıdığı hastalıklar her yıl bir milyondan fazla insanın ölümüne yol açıyor. Bunların en ölümcülü sıtma. İnsanlara sıtmayı yalnızca Anofel cinsi sivrisinekler bulaştırıyor. İki bin yirmi dörtte dünyada iki yüz seksen iki milyon sıtma vakası görüldü ve yaklaşık altı yüz on bin kişi hayatını kaybetti. Bu ölümlerin yüzde doksan beşi Afrika'da yaşandı. Hastalık özellikle beş yaşın altındaki çocuklar için ölümcül. Isıranlar yalnızca dişiler. Kan emen dişiler bizi nefesimizdeki karbondioksiti koklayarak buluyor. Bu minicik böcek, insanlar için dünyanın en ölümcül hayvanı.",
+   "name_en": "Malaria Mosquito",
+   "range_en": "Tropical regions",
+   "text_en": "And at number 1 is a creature we all know but most of us underestimate: the mosquito. In particular, the malaria-carrying Anopheles mosquitoes. Diseases carried by mosquitoes cause more than a million deaths every year. The deadliest of them is malaria. Only mosquitoes of the genus Anopheles transmit malaria to humans. In 2024 there were 282 million cases of malaria worldwide, and about 610,000 people died. 95 percent of these deaths occurred in Africa. The disease is especially deadly for children under five. Only females bite. Blood-feeding females find us by smelling the carbon dioxide in our breath. This tiny insect is the deadliest animal in the world for humans."
   },
   {
    "type": "outro",
    "depth": 0,
-   "text": "Yirmi beş hayvanlık geri sayımımız burada sona eriyor. Bir kuşun hançer gibi pençesinden bir ahtapotun acısız ısırığına, dev timsahlardan bir sivrisineğin iğnesine kadar uzanan bir yolculuk yaptık. Listemizin zirvesindeki canlı minicik, ama her yıl yüz binlerce insanın ölümüne yol açan bir hastalığı taşıyor. Ve unutmayalım: bu hayvanların neredeyse hiçbiri insanı kendiliğinden aramıyor. Çoğu yalnızca kendini, yavrularını ya da yuvasını koruyor. Onlara saygı göstermek ve mesafemizi korumak, hem bizim hem de onların güvenliği için en doğru yol. Bu yolculuğu beğendiyseniz kanala abone olmayı ve videoyu beğenmeyi unutmayın. Bir sonraki belgeselde görüşmek üzere."
+   "text": "Yirmi beş hayvanlık geri sayımımız burada sona eriyor. Bir kuşun hançer gibi pençesinden bir ahtapotun acısız ısırığına, dev timsahlardan bir sivrisineğin iğnesine kadar uzanan bir yolculuk yaptık. Listemizin zirvesindeki canlı minicik, ama her yıl yüz binlerce insanın ölümüne yol açan bir hastalığı taşıyor. Ve unutmayalım: bu hayvanların neredeyse hiçbiri insanı kendiliğinden aramıyor. Çoğu yalnızca kendini, yavrularını ya da yuvasını koruyor. Onlara saygı göstermek ve mesafemizi korumak, hem bizim hem de onların güvenliği için en doğru yol. Bu yolculuğu beğendiyseniz kanala abone olmayı ve videoyu beğenmeyi unutmayın. Bir sonraki belgeselde görüşmek üzere.",
+   "text_en": "Our countdown of 25 animals ends here. We traveled from a bird's dagger-like claw to an octopus's painless bite, from giant crocodiles to the bite of a mosquito. The creature at the top of our list is tiny, but it carries a disease that kills hundreds of thousands of people every year. And let's not forget: almost none of these animals seeks out humans on its own. Most are only protecting themselves, their young or their homes. Respecting them and keeping our distance is the best path for our safety and theirs. If you enjoyed this journey, don't forget to subscribe to the channel and like the video. See you in the next documentary."
   }
  ]
 }

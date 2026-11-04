@@ -44,7 +44,8 @@ def chapters_en(doc, spec):
     out = []
     for line in src.read_text(encoding="utf-8").strip().splitlines():
         t, label = line.split(" ", 1)
-        out.append(f"{t} {labels.get(label, label)}")
+        m, sec = t.split(":")
+        out.append(f"{int(m):02d}:{sec} {labels.get(label, label)}")
     return "\n".join(out)
 
 
