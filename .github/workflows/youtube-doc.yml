@@ -2,7 +2,8 @@ name: YouTube belgeseli üret
 
 # The weekly routine commits youtube/docs/<slug>/ (script.json, photos.json, meta.json); this builds the video in
 # parallel shards, publishes the package as a GitHub release, opens an issue for the owner and, once the API audit
-# is approved (repo variable YT_AUTO_UPLOAD=true), uploads it to YouTube scheduled for Saturday 20:00 Turkey time.
+# is approved (repo variable YT_AUTO_UPLOAD=true), uploads it to YouTube scheduled for the next free
+# Wednesday or Saturday, 20:00 Turkey time.
 on:
   push:
     branches: [main]
@@ -141,16 +142,20 @@ jobs:
           python youtube/tools/story.py "$DOC"
           python youtube/tools/captions.py "$DOC"
           ls -la "$DOC/out" | grep -v part_
-      - name: Publish time (next Saturday 20:00 Turkey = 17:00 UTC)
+      - name: Publish time (next free Wednesday/Saturday 20:00 Turkey = 17:00 UTC)
         id: when
         run: |
           python3 - >> "$GITHUB_OUTPUT" <<'EOF'
-          import datetime as dt
+          import datetime as dt, glob, json
           now = dt.datetime.now(dt.timezone.utc)
-          d = now + dt.timedelta(days=(5 - now.weekday()) % 7)
-          t = d.replace(hour=17, minute=0, second=0, microsecond=0)
-          if t - now < dt.timedelta(hours=6):
-              t += dt.timedelta(days=7)
+          taken = set()
+          for f in glob.glob("youtube/docs/*/status.json"):
+              s = json.load(open(f))
+              if s.get("video_id") and s.get("publish_at"):
+                  taken.add(s["publish_at"])
+          t = now.replace(hour=17, minute=0, second=0, microsecond=0)
+          while t.weekday() not in (2, 5) or t - now < dt.timedelta(hours=6) or t.strftime("%Y-%m-%dT%H:%M:%SZ") in taken:
+              t += dt.timedelta(days=1)
           print(f"at={t.strftime('%Y-%m-%dT%H:%M:%SZ')}")
           print(f"tr={(t + dt.timedelta(hours=3)).strftime('%d.%m.%Y %H:%M')}")
           EOF

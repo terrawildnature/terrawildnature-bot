@@ -2,12 +2,14 @@ name: Reels seslendirmesini hazırla
 
 on:
   schedule:
-    # Her gün 09:00-18:00 (Türkiye) arası her saat; ses hazırsa hiçbir şey yapmaz
-    - cron: "0 6-15 * * *"
+    # Her gün 06:35-19:35 (Türkiye) arası her saat; ses hazırsa hiçbir şey yapmaz
+    - cron: "35 3-16 * * *"
   workflow_dispatch: {}
 
+# Own group: three runs in one concurrency group cancel the pending one, which could be a post. Reel dirs are
+# picked only when they hold reel.json, so cache files pushed into a just-published dir are harmless.
 concurrency:
-  group: publish
+  group: voice
   cancel-in-progress: false
 
 permissions:
@@ -22,12 +24,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Record narration for the next reel
+      - name: Record narration for the queued reels
         run: |
-          DIR=$(ls -d queue_reels/*/ 2>/dev/null | sort | head -1)
-          if [ -z "$DIR" ]; then echo "Reels kuyruğu boş"; exit 0; fi
+          DIRS=$(ls -d queue_reels/*/ 2>/dev/null | sort | while read d; do [ -f "$d/reel.json" ] && echo "${d%/}"; done)
+          if [ -z "$DIRS" ]; then echo "Reels kuyruğu boş"; exit 0; fi
           pip install -q pillow numpy edge-tts
-          python tools/reel.py --voice "${DIR%/}"
+          for d in $DIRS; do python tools/reel.py --voice "$d" || true; done
       - name: Commit
         run: |
           git config user.name "terrawildnature-bot"

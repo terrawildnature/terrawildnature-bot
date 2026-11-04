@@ -2,7 +2,10 @@ name: Reels paylaş
 
 on:
   schedule:
-    # Her gün 19:20 (Türkiye). GitHub zamanlayıcısı 20-30 dk gecikebildiği için erken; yayın ~20:00
+    # Her gün 10:30, 13:30 ve 20:00 (Türkiye). GitHub zamanlayıcısı 20-30 dk gecikebildiği ve video ~10 dk
+    # sürdüğü için 40 dk erken başlar
+    - cron: "50 6 * * *"
+    - cron: "50 9 * * *"
     - cron: "20 16 * * *"
   workflow_dispatch:
     inputs:
@@ -44,7 +47,7 @@ jobs:
       - name: Pick next reel
         id: pick
         run: |
-          DIR=$(ls -d queue_reels/*/ 2>/dev/null | sort | head -1)
+          DIR=$(ls -d queue_reels/*/ 2>/dev/null | sort | while read d; do [ -f "$d/reel.json" ] && echo "$d"; done | head -1)
           if [ -z "$DIR" ]; then echo "Reels kuyruğu boş"; exit 2; fi
           echo "dir=${DIR%/}" >> "$GITHUB_OUTPUT"
       - name: Render video

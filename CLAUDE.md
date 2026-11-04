@@ -1,19 +1,19 @@
 # Terra Wild Nature — günlük içerik üretimi
 
 Bu depo @terrawildnature Instagram hesabı için otomatik gönderi üretir.
-- **Sen (Claude, bulut görevi):** Her gün günün 3 gönderisini hazırlayıp `queue/` klasörüne eklersin.
-- **GitHub Actions (`.github/workflows/publish.yml`):** 09:00, 18:00 ve 22:00'de (Türkiye) `queue/` içindeki en eski gönderiyi paylaşır.
-- **GitHub Actions (`.github/workflows/publish-reel.yml`):** her gün 20:00'de `queue_reels/` içindeki en eski Reels tarifinden videoyu üretip paylaşır (bkz. bölüm 6).
+- **Sen (Claude, bulut görevi):** Günde iki kez (05:30 ve 13:30) çalışır, kuyrukları doldurursun: günde **5 gönderi** (`queue/`) ve **3 Reels** (`queue_reels/`) paylaşılıyor.
+- **GitHub Actions (`.github/workflows/publish.yml`):** 09:00, 12:00, 15:30, 18:00 ve 22:00'de (Türkiye) `queue/` içindeki en eski gönderiyi paylaşır.
+- **GitHub Actions (`.github/workflows/publish-reel.yml`):** her gün 10:30, 13:30 ve 20:00'de `queue_reels/` içindeki en eski Reels tarifinden videoyu üretip paylaşır (bkz. bölüm 6). Aynı videolar YouTube Shorts olarak da yüklenir.
 
 Sen Instagram'a hiçbir şey göndermezsin. Görevin yalnızca gönderi hazırlamak, commit'lemek ve push'lamak.
 
-**YouTube belgeseli ayrı bir haftalık görevdir:** talimatları `youtube/ROUTINE.md`. Instagram görevinde `youtube/` klasörüne dokunma.
+**YouTube belgeseli ayrı bir görevdir (haftada 2):** talimatları `youtube/ROUTINE.md`. Instagram görevinde `youtube/` klasörüne dokunma.
 
 ## Her çalıştırmada
 
 0. Kurulum: `python3 -m pip install -q --break-system-packages --ignore-installed pillow numpy` (sistemdeki PIL bozuk, düz `pip install` yetmiyor). Commons istekleri arasında birkaç saniye bekle; 429 alırsan araç kendisi bekleyip tekrar dener.
-1. `queue/` içindeki gönderi klasörlerini say. **6 veya daha fazlaysa** hiçbir şey üretme, "kuyruk dolu" yazıp bitir.
-2. Değilse **3 yeni gönderi** hazırla (aşağıdaki adımlar).
+1. `queue/` içindeki gönderi klasörlerini say. **8 veya daha fazlaysa** gönderi üretme ("gönderi kuyruğu dolu"), doğrudan Reels'e (bölüm 6) geç.
+2. Değilse kuyruğu 8'e tamamlayacak kadar, **en fazla 5** yeni gönderi hazırla (aşağıdaki adımlar). Ör. kuyrukta 3 varsa 5, 6 varsa 2 gönderi.
 3. Her gönderiyi `python tools/render.py queue/<klasör>` ile üret. `OVERFLOW` hatası verirse metni kısaltıp tekrar dene.
 4. Üretilen `a.jpg` ve `b.jpg` dosyalarını **Read aracıyla açıp gözle kontrol et:** Fotoğrafta hayvan net görünmeli, kesilmemeli ve yazılarla çakışmamalı. Sorun varsa kırpmayı (`cx`, `cy`, `zoom`) ya da fotoğrafı değiştir.
 5. Kaynak fotoğrafları (`photo_*.jpg`) sil. Depoda sadece `post.json`, `a.jpg` ve `b.jpg` kalmalı.
@@ -29,7 +29,7 @@ Raporu doğru yorumla:
 - **Skor** paylaşım, kaydetme, beğeni ve (Reels'te) izlenme süresini de içerir. Büyüme için en değerli sinyaller sırasıyla: takip/1000, paylaşım/1000, kaydetme/1000, izlenme süresi, beğeni.
 - Tablolardaki **"güçlü — daha sık kullan"** değerlere (canlı grubu, kanca tarzı, gün, saat, müzik, Reels süresi) ağırlık ver; **"zayıf"** olanları daha seyrek kullan (tamamen bırakma). "Veri yetersiz" olanları denemeye devam et.
 - **Öne çıkan bulgular** listesini uygula. Örneğin "en çok paylaşılan Reels'in kancası X" diyorsa bugün o etkide yeni bir kanca dene; "Reels süresi >50 sn zayıf" diyorsa metni kısa tut.
-- Günün 3 gönderisinden **2'si** güçlü/ortalama tarzlarla, **1'i** keşif amaçlı (az denenmiş grup veya kanca) olsun. Reels'te de güçlü tarzlara ağırlık ver, arada farklısını dene.
+- Hazırladığın gönderilerin yaklaşık **üçte ikisi** güçlü/ortalama tarzlarla, **üçte biri** keşif amaçlı (az denenmiş grup veya kanca) olsun (5 gönderide 3-4 güçlü, 1-2 keşif). Reels'te de güçlü tarzlara ağırlık ver, arada farklısını dene.
 - "En iyi 5" başlıklarının **neden** tuttuğunu düşün (rakam mı, şaşkınlık mı, tehlike mi, benzetme mi) ve benzer etkide **yeni** başlıklar yaz. Kopyalama. "En zayıf 5"teki hatalardan kaçın.
 - Rapor yoksa ya da veri azsa grupları ve kanca tarzlarını dengeli dağıt.
 - Rapor **sadece** canlı seçimini, canlı grubunu, kanca tarzını, başlık/metin ifadesini, Reels metin uzunluğunu ve müzik seçimini etkiler. Tasarım şablonu (`assets/`, `tools/render.py`, `tools/reel.py`: yazı tipleri, renkler, yerleşim, rozet, kapak düzeni) **asla** değişmez, rapor ne derse desin.
@@ -54,7 +54,7 @@ Her `post.json` ve `reel.json` dosyasına bu iki alanı **mutlaka** ekle (analiz
 - `data/used.txt` içindeki **hiçbir canlıyı seçme.** Emin olmak için canlının Türkçe, İngilizce ve bilimsel adını `data/instagram_posts.txt` içinde de ara (grep, büyük/küçük harf duyarsız). Bulursan seçme. Aynı canlının farklı bir türünü de seçme (ör. "kasuar" varsa "kuzey kasuarı" da olmaz).
 - Hesabın tarzı: **vahşi doğadan, az bilinen, "bu gerçek mi?" dedirten** canlılar. Fotoğrafta çarpıcı duranları tercih et: memeliler, kuşlar, sürüngenler, balıklar, büyük böcekler, deniz canlıları.
 - Mikroskobik canlılar, sadece mikroskop görüntüsü olanlar ve çok bilinen hayvanlar (aslan, kedi, köpek vb.) olmaz.
-- Aynı gün içinde çeşitlilik olsun: 3 gönderinin üçü de aynı gruptan (ör. üç kuş) olmasın.
+- Çeşitlilik olsun: bir çalıştırmada hazırladıkların arasında aynı gruptan en fazla 2 canlı olsun (ör. üç kuş olmaz); kuyruktaki son gönderilerle de art arda aynı grup gelmesin.
 - Önce fotoğraf durumunu kontrol et (adım 2). Uygun fotoğrafı yoksa başka canlı seç.
 
 ## 2. Fotoğraflar (telif kuralları — çok önemli)
@@ -80,7 +80,7 @@ Her `post.json` ve `reel.json` dosyasına bu iki alanı **mutlaka** ekle (analiz
 
 ## 4. post.json formatı
 
-Klasör adı: `queue/<YYYYMMDD>-<n>_<ad>` (ör. `queue/20261024-1_babirusa`). Burada n=1,2,3, ad küçük harf ve Türkçe karaktersiz. Tarih, gönderinin hazırlandığı gün.
+Klasör adı: `queue/<YYYYMMDD>-<nn>_<ad>` (ör. `queue/20261105-01_babirusa`). Burada nn iki haneli sıra numarası (01, 02 …); aynı tarihte klasör varsa kaldığı yerden devam et (sabah 01-05, öğlen 06-07 gibi). Ad küçük harf ve Türkçe karaktersiz. Tarih, gönderinin hazırlandığı gün.
 
 ```json
 {
@@ -132,12 +132,12 @@ Avustralya'nın sevimli kazıcısı çıplak burunlu vombat, bağırsaklarının
   Fotoğraf iNaturalist'tense sonu `/ iNaturalist` olur; ikisi karışıksa `📷 <Yazar> (<Lisans>) / Wikimedia Commons, <Yazar> (<Lisans>) / iNaturalist`.
   Aynı yazar birden fazla fotoğrafta varsa bir kez yaz. Tamamı kamu malıysa kaynak satırı ekleme.
 
-## 6. Reels (her gün 20:00)
+## 6. Reels (her gün 10:30, 13:30, 20:00)
 
-Gönderilerden sonra `queue_reels/` klasörüne bak. **2'den az Reels varsa 1 yeni Reels tarifi hazırla.** Videoyu sen üretmiyorsun; GitHub Actions paylaşımdan hemen önce `tools/reel.py` ile üretiyor. Sen tarifi (`reel.json`) ve kapağı (`cover.jpg`) hazırlarsın.
+Gönderilerden sonra `queue_reels/` klasörüne bak. **4'ten az Reels varsa kuyruğu 4'e tamamlayacak kadar, en fazla 3 yeni Reels tarifi hazırla.** Her biri farklı canlı ve farklı grup olsun (ör. bir memeli, bir kuş, bir sürüngen); kanca tarzlarını ve müzikleri de çeşitlendir. Videoyu sen üretmiyorsun; GitHub Actions paylaşımdan hemen önce `tools/reel.py` ile üretiyor. Sen tarifi (`reel.json`) ve kapağı (`cover.jpg`) hazırlarsın.
 
 - **Canlı:** Aynı yasak listesi (`data/used.txt` + `data/instagram_posts.txt`). Bu çalıştırmada gönderiler için seçtiğin canlılardan da farklı olmalı. En az 7 iyi fotoğrafı olan canlı seç (mümkünse doğal ortamda çekilmiş). Telif kuralları gönderilerle aynı.
-- **Klasör:** `queue_reels/<YYYYMMDD>_<ad>` (Türkçe karaktersiz, küçük harf).
+- **Klasör:** `queue_reels/<YYYYMMDD>-<nn>_<ad>` (nn iki haneli sıra, aynı tarihte varsa devam et; Türkçe karaktersiz, küçük harf).
 - **Metin:** 8-9 kısa cümle, toplam **70-85 kelime** (son cümle dahil). Video 35-45 saniye olmalı; 85 kelimeyi aşma (gelada Reels'i 100+ kelimeyle 54 saniye sürdü, fazla uzun). Her bilgi Wikipedia'dan doğrulanmış olmalı. 1. cümle kanca: en şaşırtıcı bilgi. **Son cümle her zaman aynen:** `Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.` Belgesel anlatıcısı tonu; kısa, akıcı cümleler.
 - **Sahneler:** Her cümle bir sahne, her sahnede farklı fotoğraf. Yatay fotoğraflarda `pan_left`/`pan_right` (kamera hayvanın üzerinde kayar), dikey fotoğraflarda `zoom_in`/`zoom_out`. `cx`, `cy` hayvanın (tercihen başının) konumu.
 - **Müzik:** Ruh haline göre biri: `assets/music/Reawakening.mp3` (sakin, görkemli), `assets/music/Investigations.mp3` (gizemli), `assets/music/Ancient_Rite.ogg` (vahşi, enerjik). `"loudness": -27`.

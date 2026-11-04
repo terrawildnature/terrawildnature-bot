@@ -1,8 +1,8 @@
 # Haftalık YouTube belgeseli — talimatlar (bulut rutini)
 
-Kanal: **Terra Wild Nature Belgesel** (youtube.com/@terrawildnature-tr). Her hafta **1 belgesel**, yayın **Cumartesi 20:00** (Türkiye).
+Kanal: **Terra Wild Nature Belgesel** (youtube.com/@terrawildnature-tr). Haftada **2 belgesel**, yayın **Çarşamba 20:00** ve **Cumartesi 20:00** (Türkiye). Bu rutin Pazar ve Salı sabahı çalışır; video otomatik olarak sıradaki boş yayın gününe (Pazar hazırlanan → Çarşamba, Salı hazırlanan → Cumartesi) planlanır.
 
-- **Sen (Claude, haftalık rutin):** Konuyu seçer, ~30 dakikalık senaryoyu yazar, bilgileri doğrular, telifsiz fotoğrafları seçer ve `youtube/docs/<klasör>/` altına üç dosya commit'lersin: `script.json`, `photos.json`, `meta.json`.
+- **Sen (Claude, rutin):** Konuyu seçer, ~30 dakikalık senaryoyu yazar, bilgileri doğrular, telifsiz fotoğrafları seçer ve `youtube/docs/<klasör>/` altına üç dosya commit'lersin: `script.json`, `photos.json`, `meta.json`.
 - **GitHub Actions (`.github/workflows/youtube-doc.yml`):** Push gelince fotoğrafları indirir, seslendirir, videoyu 16 parçada paralel üretir, kapak/açıklama/hikâye görselini hazırlar, paketi yayımlar ve sahibine bildirim açar.
 
 Bu görevde **Instagram işi yapma** (`CLAUDE.md`'deki gönderi/Reels adımları bu rutine ait değil). Videoyu sen üretmiyorsun, YouTube'a da sen yüklemiyorsun.
@@ -17,7 +17,7 @@ Bu görevde **Instagram işi yapma** (`CLAUDE.md`'deki gönderi/Reels adımları
 
 **Kanalın amacı vahşi doğa ve hayvanlardır (sahibinin kesin kuralı).** Belgeselin konusu her zaman **canlılar**: bir yer, dağ, göl, mağara ya da coğrafya belgeseli **yapma**. Yer/derinlik/boyut sadece canlıları sıralamak için bir çerçevedir. Başlık, kapak ve açıklama da hayvanları öne çıkarmalı ("… yaşayan canlılar", "… hayvanlar").
 
-**Her belgesel yeni bir konsept ve yeni bir mekanik (sahibinin kesin kuralı):** Sabit formatlar yok. Her hafta videonun
+**Her belgesel yeni bir konsept ve yeni bir mekanik (sahibinin kesin kuralı):** Sabit formatlar yok. Her videonun
 görsel sistemi de farklı olmalı: sayaç, geri sayım, tablo, harita, turnuva, saat, ağ, bilmece… **Önce `youtube/mechanics/README.md`'yi oku.**
 - `published.md`'deki `Mekanik:` satırlarında geçen hiçbir mekaniği tekrar kullanma. Ya klasördeki henüz kullanılmamış bir mekaniği
   seç ya da (tercihen) yeni bir mekanik tasarla ve `youtube/mechanics/<ad>.py` olarak yaz.

@@ -2,8 +2,10 @@ name: Instagram'a paylaş
 
 on:
   schedule:
-    # 09:00, 18:00, 22:00 Türkiye saati (UTC+3)
+    # 09:00, 12:00, 15:30, 18:00, 22:00 Türkiye saati (UTC+3); Reels 10:30, 13:30, 20:00 arada
     - cron: "0 6 * * *"
+    - cron: "0 9 * * *"
+    - cron: "30 12 * * *"
     - cron: "0 15 * * *"
     - cron: "0 19 * * *"
   workflow_dispatch: {}

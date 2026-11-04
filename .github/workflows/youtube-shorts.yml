@@ -1,11 +1,13 @@
 name: YouTube Shorts paylaş
 
-# Every evening, after the Instagram Reel is out, re-render the newest posted reel from its recipe and upload it to
-# YouTube as a Short, plus one older reel a day until the backlog is done. Runs only once the API audit is approved
-# (repo variable YT_AUTO_UPLOAD=true); before that YouTube would lock API uploads to private.
+# Three times a day, an hour after each Instagram Reel (10:30, 13:30, 20:00), re-render the newest posted reel from its
+# recipe and upload it to YouTube as a Short; the evening run also uploads one older reel until the backlog is done.
+# Runs only while the repo variable YT_AUTO_UPLOAD=true.
 on:
   schedule:
-    - cron: "30 18 * * *"   # 21:30 Turkey
+    - cron: "30 8 * * *"    # 11:30 Turkey
+    - cron: "30 11 * * *"   # 14:30 Turkey
+    - cron: "30 18 * * *"   # 21:30 Turkey (+ backfill)
   workflow_dispatch: {}
 
 concurrency:
@@ -43,7 +45,9 @@ jobs:
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
         run: |
           FAIL=0
-          for d in $(python youtube/tools/shorts.py --pick); do
+          BACKFILL=""
+          case "${{ github.event.schedule }}" in "30 8 * * *"|"30 11 * * *") ;; *) BACKFILL="--backfill" ;; esac
+          for d in $(python youtube/tools/shorts.py --pick $BACKFILL); do
             echo "== $d"
             python youtube/tools/shorts.py "$d" || FAIL=1
           done

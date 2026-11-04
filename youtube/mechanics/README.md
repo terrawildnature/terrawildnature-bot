@@ -1,6 +1,6 @@
 # Belgesel mekanikleri
 
-Sahibinin kuralı: **her belgesel farklı bir konseptte ve farklı bir görsel mekanikte olmalı.** Sabit formatlar yok. Her hafta
+Sahibinin kuralı: **her belgesel farklı bir konseptte ve farklı bir görsel mekanikte olmalı.** Sabit formatlar yok. Her belgeselde
 yeni bir mekanik tasarlanır, bu klasöre `<ad>.py` olarak eklenir ve `script.json` içinde `"mechanic": "<ad>"` ile kullanılır.
 Bir kez kullanılan mekanik (`youtube/published.md` içindeki `Mekanik:` satırları) bir daha kullanılmaz.
 

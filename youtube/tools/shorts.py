@@ -1,7 +1,8 @@
 """Instagram Reels -> YouTube Shorts. The Reels pipeline deletes its video after posting, so this re-renders the
 reel from its recipe (posted_reels/<dir>/reel.json, tools/reel.py) and uploads it to YouTube as a public Short.
 
-  python youtube/tools/shorts.py --pick            prints the reel dirs to upload today (newest + one old backfill)
+  python youtube/tools/shorts.py --pick            prints the newest posted reel not on YouTube yet
+  python youtube/tools/shorts.py --pick --backfill also the oldest one left over (evening run)
   python youtube/tools/shorts.py <reel_dir> --dry  prints the title/description only
   python youtube/tools/shorts.py <reel_dir>        renders (reel.py), uploads with the Reels cover as thumbnail,
                                                    writes <reel_dir>/youtube.json
@@ -41,18 +42,18 @@ def description(spec):
     credits = "\n".join(l for l in cap.splitlines() if l.startswith(("📷", "🎵")))
     credits = credits.replace("🎵 Kevin MacLeod (CC BY)", "🎵 Müzik: Kevin MacLeod (incompetech.com), CC BY 3.0")
     return (f"{body}\n\n"
-            "Her Cumartesi 20:00'de yeni belgesel: https://www.youtube.com/@terrawildnature-tr\n"
+            "Her Çarşamba ve Cumartesi 20:00'de yeni belgesel: https://www.youtube.com/@terrawildnature-tr\n"
             "Instagram: https://www.instagram.com/terrawildnature\n\n"
             f"{credits}\n\n"
             "Seslendirme yapay zekâ ile üretilmiştir; bilgiler Wikipedia ve bilimsel kaynaklardan derlenmiştir.\n\n"
             f"#shorts #hayvanlar #terrawildnature {tags}").strip()
 
 
-def pick():
-    """Newest posted reel not on YouTube yet, plus the oldest one left over (backfill, one a day)."""
+def pick(backfill=False):
+    """Newest posted reel not on YouTube yet, plus (backfill) the oldest one left over."""
     todo = sorted(d for d in POSTED.iterdir()
                   if d.is_dir() and (d / "reel.json").exists() and not (d / "youtube.json").exists())
-    return list(dict.fromkeys(todo[-1:] + todo[:1]))
+    return list(dict.fromkeys(todo[-1:] + (todo[:1] if backfill else [])))
 
 
 def with_cover(work, sec=0.5):
@@ -117,6 +118,6 @@ def main(reel_dir):
 
 if __name__ == "__main__":
     if sys.argv[1] == "--pick":
-        print("\n".join(d.relative_to(ROOT).as_posix() for d in pick()))
+        print("\n".join(d.relative_to(ROOT).as_posix() for d in pick("--backfill" in sys.argv)))
     else:
         main(Path(sys.argv[1]).resolve())
