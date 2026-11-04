@@ -43,3 +43,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: Reels'te memeli güçlü (skor 1,47), 20:00 ve 40-50 sn güçlü; gönderide memeli/balık ve "sayı" kancası zayıf (0,70/0,68/0,74); benzetme Reels'i (dev su samuru) içerik 4,82.
 - Bugün uygulanan: gönderilerde memeli/balık yok, sayı kancası yalnız bir kez: tehlike (iç taypan, sürüngen), süperlatif/sayı keşif (Goliat böceği, böcek), tuhaf yetenek (saten çardak kuşu, kuş); Reels memeli + benzetme kancası (kaya damanı, 84 kelime, Reawakening).
 - Sonra kontrol et: tehlike kancalı taypan ve böcek/örümcek içerik değeri; benzetme kancalı Reels'in izlenme süresi. Not: Commons'ta fregat kuşu fotoğrafları doldurulmuş (müze) çıktığı için çardak kuşuna geçildi; Reels 84 kelime sınırda.
+
+## 2026-11-04 (ikinci çalıştırma)
+- Rapordan öğrenilen: Reels'te memeli güçlü (skor 1,65), gönderide memeli/balık/sayı kancası zayıf; tehlike ve tuhaf görünüm gönderileri ortalama üstü.
+- Bugün uygulanan: yalnızca 1 gönderi hazırlandı: tuhaf görünüm (Titicaca su kurbağası, amfibi, keşif). Commons indirmeleri zaman aşımına uğradı, iNaturalist fotoğrafları (Herkül böceği, ters denizanası) kalitesizdi, elendi; Reels hazırlanamadı.
+- Sonra kontrol et: amfibi gönderi içerik değeri; kuyruk 5 gönderi / 1 Reels, sonraki çalıştırmada Reels öncelikli doldurulmalı. Not: yerel main dalı origin/main'den ayrışmıştı, 'work' dalından HEAD:main'e push edildi.
