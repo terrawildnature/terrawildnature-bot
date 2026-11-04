@@ -1,0 +1,146 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Reawakening.mp3",
+    "start": 0,
+    "loudness": -27
+  },
+  "group": "memeli",
+  "hook_style": "sayı",
+  "photos": {
+    "p1.jpg": "File:Verreaux’s-sifaka-propithecus-verreauxi-kevin-gepford.jpg",
+    "p2.jpg": "File:Verreaux's sifaka (Propithecus verreauxi) Peyrieras.jpg",
+    "p3.jpg": "File:Verreaux's sifaka (Propithecus verreauxi).jpg",
+    "p4.jpg": "File:Verreaux's Sifaka (Propithecus verreauxi) (8603104141).jpg",
+    "p5.jpg": "File:Verreaux Sifaka (Propithecus verreauxi) (9589714451).jpg",
+    "p6.jpg": "File:Propithecus verreauxi ii.jpg",
+    "p7.jpg": "File:Verreaux's sifaka (Propithecus verreauxi) 2.jpg",
+    "p8.jpg": "File:Verreaux Sifaka (Propithecus verreauxi) (9579442933).jpg"
+  },
+  "segments": [
+    {
+      "text": "Bu primat ağaçlar arasında on metreye varan sıçrayışlar yapabiliyor.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Verreaux sifakası, Madagaskar'a özgü bir lemur türü.",
+      "image": "p2.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Boyu yaklaşık kırk beş santim, ağırlığı üç buçuk kilo.",
+      "image": "p3.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Ağaçlarda dikey tutunup sıçrıyor, yere inince iki ayağı üzerinde dans eder gibi zıplıyor.",
+      "image": "p4.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Gruplarında dişiler baskın olduğu için toplumları anaerkil.",
+      "image": "p5.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Yaprak, meyve, kabuk ve çiçekle besleniyor.",
+      "image": "p6.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Yavrularının yaklaşık yüzde otuzu fossaya yem oluyor.",
+      "image": "p7.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Kritik derecede nesli tehlike altında.",
+      "image": "p8.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_out"
+    }
+  ],
+  "cover": {
+    "image": "p2.jpg",
+    "cx": 0.4,
+    "cy": 0.3,
+    "title": [
+      [
+        [
+          "10 METRE",
+          "R"
+        ]
+      ],
+      [
+        [
+          "SIÇRAYAN",
+          "W"
+        ]
+      ],
+      [
+        [
+          "DANS EDEN",
+          "W"
+        ]
+      ],
+      [
+        [
+          "PRİMAT",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "credits": [
+    {
+      "author": "Kevin Gepford",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Ron Knight",
+      "license": "CC BY 2.0"
+    },
+    {
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "author": "Neil Strickland",
+      "license": "CC BY 2.0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Madagaskar'ın dans eden primatı Verreaux sifakası, ağaçlar arasında on metreye varan sıçrayışlar yapıyor ve yere inince iki ayağı üzerinde zıplayarak ilerliyor. 🌿🐒\n\n#terrawildnature #sifaka\n\n📷 Kevin Gepford (CC BY-SA 4.0), Charles J. Sharp (CC BY-SA 4.0), Ron Knight (CC BY 2.0), Bernard DUPONT (CC BY-SA 2.0), Neil Strickland (CC BY 2.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+  "yt_title": "On Metre Sıçrayan Dansçı Primat: Sifaka"
+}
