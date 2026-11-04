@@ -27,10 +27,10 @@ def srt(doc):
                      for k, (a, z, t) in enumerate(cues, 1))
 
 
-def upload(srt_bytes, video_id):
+def upload(srt_bytes, video_id, lang="tr", name="Türkçe"):
     from yt_upload import access_token, request
     boundary = uuid.uuid4().hex
-    meta = {"snippet": {"videoId": video_id, "language": "tr", "name": "Türkçe", "isDraft": False}}
+    meta = {"snippet": {"videoId": video_id, "language": lang, "name": name, "isDraft": False}}
     body = (f"--{boundary}\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n{json.dumps(meta)}\r\n"
             f"--{boundary}\r\nContent-Type: application/x-subrip\r\n\r\n").encode() + srt_bytes + f"\r\n--{boundary}--".encode()
     r = request("https://www.googleapis.com/upload/youtube/v3/captions?part=snippet&uploadType=multipart", access_token(),

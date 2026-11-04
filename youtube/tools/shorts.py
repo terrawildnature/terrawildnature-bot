@@ -23,8 +23,8 @@ POSTED = ROOT / "posted_reels"
 DOCS = ROOT / "youtube" / "docs"
 QUOTA = 10000            # YouTube Data API units per day, reset at midnight Pacific time
 MARGIN = 600
-SHORT_COST = 1700        # videos.insert 1600 + thumbnails.set 50 + processing polls
-DOC_COST = 2100          # videos.insert 1600 + captions.insert 400 + thumbnails.set 50 + polls
+SHORT_COST = 1750        # videos.insert 1600 + thumbnails.set 50 + English localization 50 + processing polls
+DOC_COST = 2600          # videos.insert 1600 + 2 captions.insert 800 + thumbnails.set 50 + localization 50 + polls
 
 
 def tr_lower(s):
@@ -165,6 +165,12 @@ def main(reel_dir):
         set_cover(vid, work / "cover.jpg")
     except Exception as e:   # the video is up; the cover in its first half second still shows in the feed
         print(f"thumbnail not set for {vid}: {e}")
+    try:
+        from english import localize, short_localization
+        if loc := short_localization(spec):
+            localize(vid, loc)
+    except Exception as e:
+        print(f"English title not set for {vid}: {e}")
     print(f"https://youtube.com/shorts/{vid}")
 
 

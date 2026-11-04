@@ -152,6 +152,7 @@ Avustralya'nın sevimli kazıcısı çıplak burunlu vombat, bağırsaklarının
 - **Açıklama (`caption`):** Tek cümle + 2 emoji, boş satır, `#terrawildnature #<canlıadı>`, boş satır; kamu malı olmayan fotoğraf varsa `📷 <Yazar> (<Lisans>) / Wikimedia Commons` (iNaturalist fotoğrafıysa `/ iNaturalist`); son satır her zaman `🎵 Kevin MacLeod (CC BY)`.
 - `credits` alanına her fotoğrafın yazarını ve lisansını yaz.
 - **`yt_title`:** Aynı video YouTube Shorts olarak da yayınlanıyor. Ona kısa bir başlık yaz (en fazla 60 karakter, ilk harfler büyük, canlının adı geçsin, merak uyandırsın, yalan abartı olmasın). Ör. `"Dünyanın En Büyük Maymunu: Mandril"`, `"Bu Kuşun Yuvası Bir İnsanı Taşıyabiliyor"`. `#shorts` ekleme, araç ekliyor.
+- **`en` (İngilizce başlık/açıklama, zorunlu):** `"en": {"title": "The World's Largest Monkey: Mandrill", "description": "<caption cümlesinin akıcı İngilizcesi, emojisiz>"}`. Başlık ≤60 karakter, İngilizce yaygın adı geçsin, `#shorts` yok. İngilizce YouTube kullanan izleyiciler bunu görür.
 - **Kontrol:** `python tools/reel.py --preview queue_reels/<klasör>` ve `python tools/reel.py --cover queue_reels/<klasör>` çalıştır (fotoğrafları `photos` listesinden kendisi indirir). `preview.jpg` ve `cover.jpg` dosyalarını Read ile aç: hayvan her karede görünmeli, başı kesilmemeli, kapak başlığı okunaklı ve ortada olmalı. Sorun varsa düzelt ve tekrar üret.
 - Sonra `p*.jpg` ve `preview.jpg` dosyalarını sil. Klasörde sadece `reel.json` ve `cover.jpg` kalmalı. `data/used.txt` sonuna `<ad> (Reels) | <bilimsel ad>` ekle.
 

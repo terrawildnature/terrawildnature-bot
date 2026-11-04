@@ -45,6 +45,10 @@ def main(doc):
                     errs.append(f"{key}: {m['file']} '{k}' eksik")
             if any(x in (m.get("license") or "").upper() for x in ("NC", "ND")):
                 errs.append(f"{key}: {m['file']} lisansı yasak ({m['license']})")
+        if not s.get("text_en"):
+            errs.append(f"{key}: 'text_en' (İngilizce altyazı metni) eksik")
+        if s.get("name") and not s.get("name_en"):
+            errs.append(f"{key}: 'name_en' eksik")
         if any(c in s["text"] for c in "()[]<>/") and s["type"] != "landmark":
             errs.append(f"{key}: metinde parantez/özel işaret var (seslendirme bozulur)")
     chars = sum(len(s["text"]) for s in segs)
@@ -65,6 +69,11 @@ def main(doc):
     for k in ("title", "description", "tags", "hashtags", "thumb", "story"):
         if k not in meta:
             errs.append(f"meta.json: '{k}' eksik")
+    en = meta.get("en", {})
+    if not (en.get("title") and en.get("description")):
+        errs.append("meta.json: 'en' {title, description} eksik (İngilizce başlık ve açıklama)")
+    elif len(en["title"]) > 70:
+        errs.append(f"İngilizce başlık çok uzun ({len(en['title'])} kr)")
     t = meta.get("title", "")
     if len(t) > 70 or "|" in t or "(Belgesel)" in t:
         errs.append(f"başlık kurala uymuyor ({len(t)} kr): kısa, merak uyandıran, '|' ve '(Belgesel)' yok")

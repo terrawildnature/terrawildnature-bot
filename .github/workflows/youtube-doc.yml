@@ -170,6 +170,7 @@ jobs:
           python youtube/tools/yt_upload.py "$DOC" --publish-at "${{ steps.when.outputs.at }}"
           echo "id=$(cat "$DOC/out/video_id.txt")" >> "$GITHUB_OUTPUT"
           python youtube/tools/captions.py "$DOC" --upload "$(cat "$DOC/out/video_id.txt")"
+          python youtube/tools/english.py doc "$DOC" --upload "$(cat "$DOC/out/video_id.txt")" || echo "::warning::English title/captions failed"
       - name: Release package
         id: rel
         run: |

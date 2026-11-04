@@ -145,6 +145,11 @@ Instagram'daki kuralların aynısı (`CLAUDE.md` bölüm 2): önce kamu malı / 
 - **Kapak** (`thumb`): 3 satır, satır başına ≤12 karakter, büyük harf. 1. satır sarı (genelde rakam), diğerleri beyaz. Merak sorusu ("… KİM YAŞIYOR?"). `photo`: en çarpıcı fotoğrafın anahtarı (dosya adı uzantısız); `cx`/`cy` hayvanın konumu (0-1). Hayvan sağ yarıda büyük görünmeli.
 - `story.lines`: Instagram hikâyesi için 2-3 kısa satır (≤11 karakter).
 - Açıklamanın geri kalanı (bölümler, görsel kaynakları, müzik) otomatik eklenir.
+- **İngilizce (zorunlu):** Aynı video İngilizce başlık, açıklama ve altyazıyla da sunuluyor (ses Türkçe kalır). `meta.json`'a
+  `"en": {"title": "...", "description": "...", "sources": "English Wikipedia, ..."}` ekle: başlık Türkçenin doğal, merak uyandıran
+  İngilizce karşılığı (≤60 karakter, birebir çeviri şart değil), açıklama 2-4 cümle. `script.json`'da **her segmente** `"text_en"`
+  (metnin akıcı İngilizce çevirisi, aynı bilgiler, sayılar rakamla yazılabilir) ve adı olan her segmente `"name_en"` (hayvanın yaygın
+  İngilizce adı) ekle; zone'larda `range`, landmark'larda `value` Türkçe ise `range_en` / `value_en` da ekle.
 
 ## 6. Kontrol ve commit
 
