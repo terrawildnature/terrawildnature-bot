@@ -1,0 +1,24 @@
+{
+  "name": "ispanyol dansçı",
+  "group": "deniz omurgasızı",
+  "hook_style": "tuhaf yetenek",
+  "title": [
+    [["BU DENİZ SALYANGOZU", "W"]],
+    [["TEHLİKEDE", "W"], ["DANS EDEREK", "R"]],
+    [["YÜZÜYOR", "R"]]
+  ],
+  "card_title": "İSPANYOL DANSÇISI",
+  "card_top": ["Rahatsız edilirse mantosunu", "açar ve vücudunu dalgalandırır."],
+  "card_bottom": ["Bu hareketle yüzerek uzaklaşır.", "Adı da bu savunma dansından", "gelir. 25 cm'ye kadar büyür."],
+  "right": ["Kızıl Deniz, Hint Okyanusu ve", "Batı Pasifik'in resiflerinde", "yaşar. Gündüz kayalıklarda", "saklanır, geceleri çıkar.", "Süngerlerle beslenir."],
+  "loc": "Hint-Pasifik",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.55, "cy": 0.4, "zoom": 1.5},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.5,  "cy": 0.45, "zoom": 1.3},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.3,  "cy": 0.5, "zoom": 2.8}
+  },
+  "credits": [
+    {"use": "cover, top, inner", "title": "File:Spanish Dancer (Hexabranchus sanguineus).... IMG 4577BE.jpg; File:Spanish Dancer (Hexabranchus sanguineus). IMG 4572WI.jpg", "author": "Kora27", "license": "CC BY-SA 4.0", "public_domain": false}
+  ],
+  "caption": "Hint-Pasifik resiflerinde yaşayan ve 25 santime kadar büyüyen İspanyol dansçısı, rahatsız edilince mantosunu açıp vücudunu dalgalandırarak yüzüyor ve adını bu dansından alıyor. 🌊💃\n\n#terrawildnature #ilginçbilgiler #ispanyoldansçısı\n\n📷 Kora27 (CC BY-SA 4.0) / Wikimedia Commons"
+}
