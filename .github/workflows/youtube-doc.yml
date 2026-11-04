@@ -44,19 +44,24 @@ jobs:
               if [ -f "$d/meta.json" ] && [ ! -f "$d/status.json" ]; then DOC=$d; break; fi
             done
           fi
-          if [ -z "$DOC" ]; then echo "Üretilecek belgesel yok"; exit 1; fi
+          if [ -z "$DOC" ]; then echo "Üretilecek belgesel yok (ör. sadece eski bir belgeselin metni güncellendi)"; echo "shards=[0]" >> "$GITHUB_OUTPUT"; exit 0; fi
           echo "doc=$DOC" >> "$GITHUB_OUTPUT"
           echo "shards=$(python3 -c "import json;print(json.dumps(list(range($SHARDS))))")" >> "$GITHUB_OUTPUT"
           echo "Belgesel: $DOC"
       - uses: actions/setup-python@v5
+        if: ${{ steps.pick.outputs.doc != '' }}
         with:
           python-version: "3.12"
       - run: pip install -q pillow numpy edge-tts
+        if: ${{ steps.pick.outputs.doc != '' }}
       - name: Download photos
+        if: ${{ steps.pick.outputs.doc != '' }}
         run: python youtube/tools/fetch_photos.py "${{ steps.pick.outputs.doc }}"
       - name: Narration
+        if: ${{ steps.pick.outputs.doc != '' }}
         run: python youtube/tools/voice.py "${{ steps.pick.outputs.doc }}" --rate -4%
       - uses: actions/upload-artifact@v4
+        if: ${{ steps.pick.outputs.doc != '' }}
         with:
           name: prep
           path: |
@@ -66,6 +71,7 @@ jobs:
 
   render:
     needs: prep
+    if: ${{ needs.prep.outputs.doc != '' }}
     runs-on: ubuntu-24.04
     timeout-minutes: 90
     strategy:
@@ -103,6 +109,7 @@ jobs:
 
   assemble:
     needs: [prep, render]
+    if: ${{ needs.prep.outputs.doc != '' }}
     runs-on: ubuntu-24.04
     timeout-minutes: 60
     env:
