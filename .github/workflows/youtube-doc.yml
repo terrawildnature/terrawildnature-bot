@@ -208,8 +208,10 @@ jobs:
         run: |
           python3 - <<EOF
           import json
+          import datetime as dt
           json.dump({"release": "${{ steps.rel.outputs.url }}", "video_id": "${{ steps.yt.outputs.id }}",
-                     "publish_at": "${{ steps.when.outputs.at }}"}, open("$DOC/status.json", "w"), indent=1)
+                     "publish_at": "${{ steps.when.outputs.at }}",
+                     "uploaded_at": dt.datetime.now(dt.timezone.utc).isoformat()}, open("$DOC/status.json", "w"), indent=1)
           EOF
           cp "$DOC/out/chapters.txt" "$DOC/out/baslik.txt" "$DOC/out/aciklama.txt" "$DOC/" 2>/dev/null || true
           git config user.name "github-actions[bot]"

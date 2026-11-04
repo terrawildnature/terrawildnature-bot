@@ -3,11 +3,13 @@ reel from its recipe (posted_reels/<dir>/reel.json, tools/reel.py) and uploads i
 
   python youtube/tools/shorts.py --pick            prints the newest posted reel not on YouTube yet
   python youtube/tools/shorts.py --pick --backfill also the oldest one left over (evening run)
+                                                   (--pick keeps within the daily API quota, see budget())
   python youtube/tools/shorts.py <reel_dir> --dry  prints the title/description only
   python youtube/tools/shorts.py <reel_dir>        renders (reel.py), uploads with the Reels cover as thumbnail,
                                                    writes <reel_dir>/youtube.json
 Needs env YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN (GitHub secrets).
 """
+import datetime as dt
 import json
 import re
 import shutil
@@ -18,6 +20,11 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 ROOT = Path(__file__).resolve().parents[2]
 POSTED = ROOT / "posted_reels"
+DOCS = ROOT / "youtube" / "docs"
+QUOTA = 10000            # YouTube Data API units per day, reset at midnight Pacific time
+MARGIN = 600
+SHORT_COST = 1700        # videos.insert 1600 + thumbnails.set 50 + processing polls
+DOC_COST = 2100          # videos.insert 1600 + captions.insert 400 + thumbnails.set 50 + polls
 
 
 def tr_lower(s):
@@ -49,11 +56,43 @@ def description(spec):
             f"#shorts #hayvanlar #terrawildnature {tags}").strip()
 
 
+def quota_day_start():
+    """Last midnight in Pacific time, as UTC (approximated as UTC-8 when tzdata is missing)."""
+    now = dt.datetime.now(dt.timezone.utc)
+    try:
+        from zoneinfo import ZoneInfo
+        pt = now.astimezone(ZoneInfo("America/Los_Angeles"))
+    except Exception:
+        pt = now.astimezone(dt.timezone(dt.timedelta(hours=-8)))
+    return pt.replace(hour=0, minute=0, second=0, microsecond=0).astimezone(dt.timezone.utc)
+
+
+def budget():
+    """Units left today: Shorts and documentaries uploaded since the quota reset are spent, and a documentary that is
+    committed but not built yet gets its share reserved, so Shorts never starve a documentary upload."""
+    since = quota_day_start()
+
+    def today(f):
+        try:
+            t = json.loads(f.read_text(encoding="utf-8")).get("uploaded_at")
+            return bool(t) and dt.datetime.fromisoformat(t.replace("Z", "+00:00")) >= since
+        except (OSError, ValueError):
+            return False
+    used = SHORT_COST * sum(today(f) for f in POSTED.glob("*/youtube.json"))
+    used += DOC_COST * sum(today(f) for f in DOCS.glob("*/status.json"))
+    pending = sum(1 for d in DOCS.glob("*/meta.json") if not (d.parent / "status.json").exists())
+    return QUOTA - MARGIN - used - DOC_COST * pending
+
+
 def pick(backfill=False):
-    """Newest posted reel not on YouTube yet, plus (backfill) the oldest one left over."""
+    """Newest posted reel not on YouTube yet, plus (backfill) the oldest one left over, as many as the quota allows."""
     todo = sorted(d for d in POSTED.iterdir()
                   if d.is_dir() and (d / "reel.json").exists() and not (d / "youtube.json").exists())
-    return list(dict.fromkeys(todo[-1:] + (todo[:1] if backfill else [])))
+    want = list(dict.fromkeys(todo[-1:] + (todo[:1] if backfill else [])))
+    n = max(0, budget() // SHORT_COST)
+    if len(want) > n:
+        print(f"quota: {budget()} units left today, uploading {n} of {len(want)}", file=sys.stderr)
+    return want[:n]
 
 
 def with_cover(work, sec=0.5):
@@ -108,10 +147,19 @@ def main(reel_dir):
     subprocess.run([sys.executable, str(ROOT / "tools" / "reel.py"), str(work)], check=True)
     with_cover(work)
     from yt_upload import access_token, upload
-    vid = upload(work / "short.mp4", body, access_token())["id"]
+    import urllib.error
+    try:
+        vid = upload(work / "short.mp4", body, access_token())["id"]
+    except (SystemExit, urllib.error.HTTPError) as e:
+        msg = e.read().decode(errors="replace") if isinstance(e, urllib.error.HTTPError) else str(e)
+        if "quotaExceeded" in msg or "uploadLimitExceeded" in msg:   # not an error: it goes up in a later run
+            print(f"YouTube daily limit reached, {reel_dir.name} waits for a later run")
+            return
+        raise SystemExit(f"upload failed: {msg[:500]}")
     wait_processed(vid)   # a thumbnail set while YouTube is still processing did not show up on the Short
     set_cover(vid, work / "cover.jpg")
-    (reel_dir / "youtube.json").write_text(json.dumps({"video_id": vid, "title": body["snippet"]["title"]},
+    (reel_dir / "youtube.json").write_text(json.dumps({"video_id": vid, "title": body["snippet"]["title"],
+                                                       "uploaded_at": dt.datetime.now(dt.timezone.utc).isoformat()},
                                                       ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"https://youtube.com/shorts/{vid}")
 
