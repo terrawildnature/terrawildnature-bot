@@ -1,0 +1,22 @@
+{
+  "name": "Titicaca su kurbağası",
+  "group": "amfibi",
+  "hook_style": "tuhaf görünüm",
+  "title": [[["BU KURBAĞA","W"]],[["DERİ KIVRIMLARIYLA","R"]],[["NEFES ALIYOR","R"]]],
+  "card_title": "TİTİCACA SU KURBAĞASI",
+  "card_top": ["Akciğerleri benzer boydaki", "kurbağalara göre çok küçük."],
+  "card_bottom": ["Soğuk gölün oksijenini bol", "kan damarlı deri kıvrımlarından", "alır, bazen şınav çekerek."],
+  "right": ["Titicaca Gölü havzasında", "yaşar, ömrü boyunca suda kalır.", "Cousteau 120 metrede gördü:", "bu bir kurbağa derinlik rekoru.", "Nesli tehlike altında."],
+  "loc": "Titicaca Gölü",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.55, "cy": 0.62, "zoom": 1.0},
+    "top": {"file": "photo_top.jpg", "cx": 0.55, "cy": 0.7, "zoom": 1.0},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.35, "cy": 0.35, "zoom": 1.6}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Lake Titicaca Frog (49693722948).jpg", "author": "USFWS Mountain Prairie", "license": "Public domain", "public_domain": true},
+    {"use": "top", "title": "File:Telmatobius culeus 5579.jpg", "author": "LimiEi", "license": "CC0", "public_domain": true},
+    {"use": "inner", "title": "File:Telmatobius culeus VA.jpg", "author": "Bloopityboop", "license": "CC BY-SA 4.0", "public_domain": false}
+  ],
+  "caption": "Titicaca Gölü'nün derinliklerinde yaşayan bu dev kurbağa, küçük akciğerlerini bol kıvrımlı derisiyle destekleyip suyun oksijenini doğrudan deriden alıyor. 🐸💧\n\n#terrawildnature #ilginçbilgiler #titicacakurbağası\n\n📷 Bloopityboop (CC BY-SA 4.0) / Wikimedia Commons"
+}
