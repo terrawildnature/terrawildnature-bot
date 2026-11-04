@@ -20,6 +20,12 @@ Sen Instagram'a hiçbir şey göndermezsin. Görevin yalnızca gönderi hazırla
 6. Canlıların adlarını `data/used.txt` sonuna ekle.
 7. `git add -A && git commit -m "Yeni gönderiler: <adlar>" && git push` (çakışma olursa `git pull --rebase` sonra tekrar push).
 
+**Hedefe ulaşmadan bitirme (sahibinin kuralı):** Günde 5 gönderi ve 3 Reels paylaşılıyor; kuyruk boşalırsa paylaşım kaçar.
+- **Sıra:** `queue_reels/` içinde 2'den az Reels varsa **önce Reels'i** hazırla, sonra gönderileri.
+- Bir aday canlının fotoğrafı kötüyse ya da indirme takılırsa o canlıyı bırak ve **hemen başka bir canlı dene**. Bir canlıyı elemek çalışmayı bitirme sebebi değildir; hedef sayıya ulaşana kadar yeni adaylarla devam et (gerekirse 15-20 aday dene).
+- Commons yavaşsa iNaturalist'e, iNaturalist'te iyi foto yoksa Commons'ta farklı arama sözcüklerine (İngilizce ad, cins adı) geç. Uzun indirmeleri arka plana atma; tek tek, `timeout 120` ile indir.
+- Sadece iki kaynak da 30 dakikadan uzun süre hiç cevap vermiyorsa erken bitirebilirsin; o zaman son mesajında bunu açıkça yaz.
+
 ## 0. Önce performans raporunu ve öğrenme günlüğünü oku
 
 `data/insights.md` her sabah 05:05'te gerçek Instagram istatistiklerinden yeniden üretilir; `data/learnings.md` senin önceki günlerde çıkardığın derslerdir. Canlı seçmeden ve metin yazmadan **önce** ikisini de oku.
