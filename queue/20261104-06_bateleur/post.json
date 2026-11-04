@@ -1,0 +1,73 @@
+{
+  "name": "bateleur",
+  "group": "kuş",
+  "hook_style": "gizem",
+  "title": [
+    [
+      [
+        "BU KARTALIN ADI",
+        "W"
+      ]
+    ],
+    [
+      [
+        "FRANSIZCA'DA",
+        "W"
+      ]
+    ],
+    [
+      [
+        "SOKAK SANATÇISI",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "BATELEUR KARTALI",
+  "card_top": [
+    "Adı Fransızca'da \"sokak",
+    "sanatçısı\" anlamına geliyor."
+  ],
+  "card_bottom": [
+    "Havada gösteri yapar gibi süzülür.",
+    "Tam yetişkinliğe 7-8 yılda",
+    "ulaşır; bu çok uzun bir süredir."
+  ],
+  "right": [
+    "Sahra altı Afrika'nın savan",
+    "ve açık ormanlarında yaşar.",
+    "Leş de yer, canlı av da yakalar.",
+    "Yuvasına yalnızca tek yumurta",
+    "bırakır. Nesli tehlikede."
+  ],
+  "loc": "Sahra altı Afrika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.55,
+      "cy": 0.35,
+      "zoom": 1.5
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.55,
+      "cy": 0.55,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.51,
+      "cy": 0.57,
+      "zoom": 2.6
+    }
+  },
+  "credits": [
+    {
+      "use": "cover, top, inner",
+      "title": "File:Bateleur (Terathopius ecaudatus) male Serengeti.jpg; File:Bateleur (Terathopius ecaudatus) male in flight Serengeti.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Fransızca'da \"sokak sanatçısı\" anlamına gelen adını havadaki gösterişli uçuşundan alan bateleur kartalı, yetişkinliğe ulaşması 7-8 yıl süren ve nesli tehlike altındaki bir Afrika yırtıcısı. 🦅🌍\n\n#terrawildnature #ilginçbilgiler #bateleur\n\n📷 Charles J. Sharp (CC BY-SA 4.0) / Wikimedia Commons"
+}
