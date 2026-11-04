@@ -1,0 +1,142 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Reawakening.mp3",
+    "start": 0,
+    "loudness": -27
+  },
+  "group": "memeli",
+  "hook_style": "benzetme",
+  "photos": {
+    "p1.jpg": "File:190 Rock hyrax family in Damaraland Photo by Giles Laurent.jpg",
+    "p2.jpg": "File:Damán de El Cabo (Procavia capensis), Simon's Town, Sudáfrica, 2018-07-23, DD 48.jpg",
+    "p3.jpg": "File:188 Rock hyrax in Damaraland Photo by Giles Laurent.jpg",
+    "p4.jpg": "File:Rock hyrax (Procavia capensis).jpg",
+    "p5.jpg": "File:Rock Hyrax (Procavia capensis) enjoying sunshine ... (44672843660).jpg",
+    "p6.jpg": "File:189 Rock hyrax climbing a tree in Damaraland Photo by Giles Laurent.jpg",
+    "p7.jpg": "File:Rock Hyrax (Procavia capensis) (46255358441).jpg",
+    "p8.jpg": "File:Rock Hyrax (Procavia capensis) (32932737915).jpg"
+  },
+  "segments": [
+    {
+      "text": "Dört kilo ağırlığındaki bu küçük hayvanın uzak akrabaları filler.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Kaya damanı Afrika ve Orta Doğu'da yaşıyor.",
+      "image": "p2.jpg",
+      "cx": 0.3,
+      "cy": 0.45,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Üst kesici dişleri, filin dişlerini andıran sivri bir çift.",
+      "image": "p3.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Ayak tabanlarındaki yumuşak pedler, ter benzeri bir salgıyla nemli kalıyor.",
+      "image": "p4.jpg",
+      "cx": 0.6,
+      "cy": 0.35,
+      "motion": "pan_left"
+    },
+    {
+      "text": "On ile seksen bireylik gruplar halinde yaşıyor ve birlikte besleniyor.",
+      "image": "p5.jpg",
+      "cx": 0.3,
+      "cy": 0.45,
+      "motion": "pan_right"
+    },
+    {
+      "text": "İçlerinden biri ya da birkaçı yüksek bir noktada nöbet tutuyor.",
+      "image": "p6.jpg",
+      "cx": 0.25,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Tehlike yaklaşınca yüksek tonlu bir trille uyarı veriyor.",
+      "image": "p7.jpg",
+      "cx": 0.8,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Gebelik süresi altı ile yedi ay, boyuna göre oldukça uzun.",
+      "image": "p8.jpg",
+      "cx": 0.3,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    }
+  ],
+  "cover": {
+    "image": "p1.jpg",
+    "cx": 0.6,
+    "cy": 0.3,
+    "title": [
+      [
+        [
+          "FİLİN UZAK",
+          "R"
+        ]
+      ],
+      [
+        [
+          "AKRABASI",
+          "W"
+        ]
+      ],
+      [
+        [
+          "BU KÜÇÜK",
+          "W"
+        ]
+      ],
+      [
+        [
+          "HAYVAN",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "credits": [
+    {
+      "author": "Giles Laurent",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Afrika'nın kayalıklarında yaşayan kaya damanı, filin dişlerini andıran kesici dişleriyle fillerin uzak akrabası ve grup halinde nöbet tutarak birbirini tehlikeye karşı uyarıyor. 🐘🪨\n\n#terrawildnature #kayadamanı\n\n📷 Giles Laurent (CC BY-SA 4.0), Diego Delso (CC BY-SA 4.0), Charles J. Sharp (CC BY-SA 4.0), Bernard DUPONT (CC BY-SA 2.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+  "yt_title": "Filin Uzak Akrabası: Kaya Damanı"
+}

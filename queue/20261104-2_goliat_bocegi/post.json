@@ -1,0 +1,85 @@
+{
+  "name": "Goliat böceği",
+  "group": "böcek/örümcek",
+  "hook_style": "süperlatif",
+  "title": [
+    [
+      [
+        "BU BÖCEĞİN YAVRUSU",
+        "W"
+      ]
+    ],
+    [
+      [
+        "100 GRAMI",
+        "R"
+      ],
+      [
+        "AŞIP",
+        "W"
+      ]
+    ],
+    [
+      [
+        "25 CM'E ULAŞIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "GOLİAT BÖCEĞİ",
+  "card_top": [
+    "Dünyanın en iri böceklerinden",
+    "biri; erkekleri 11 cm'ye kadar uzar."
+  ],
+  "card_bottom": [
+    "Larvası 250 mm'ye ve 100 gramın",
+    "üzerine çıkabilir. Yetişkin böcek",
+    "bunun yaklaşık yarısı kadar tartar."
+  ],
+  "right": [
+    "Afrika'nın tropik ormanlarında",
+    "yaşar. Yetişkinler ağaç özsuyu",
+    "ve meyve ile beslenir.",
+    "Ağır gövdesine rağmen",
+    "uçabilir."
+  ],
+  "loc": "Tropik Afrika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.35,
+      "zoom": 1.0
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.4,
+      "cy": 0.12,
+      "zoom": 1.0
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.45,
+      "cy": 0.4,
+      "zoom": 1.3
+    }
+  },
+  "credits": [
+    {
+      "use": "cover, top",
+      "title": "iNaturalist 660895088, 752476023",
+      "author": "Barry Stewart",
+      "license": "CC BY",
+      "source": "iNaturalist",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Samiec goliathus goliathus.jpg",
+      "author": "Ynnarski",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Tropik Afrika ormanlarının devi goliat böceğinin larvası 25 santimetreye ve 100 gramın üzerine çıkabiliyor, yetişkini ise 11 santimetreye kadar uzayıp uçabiliyor. 🪲🌍\n\n#terrawildnature #ilginçbilgiler #goliatböceği\n\n📷 Barry Stewart (CC BY) / iNaturalist, Ynnarski (CC BY-SA 4.0) / Wikimedia Commons"
+}

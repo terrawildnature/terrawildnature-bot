@@ -1,0 +1,80 @@
+{
+  "name": "saten çardak kuşu",
+  "group": "kuş",
+  "hook_style": "tuhaf yetenek",
+  "title": [
+    [
+      [
+        "BU KUŞ EŞ İÇİN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "MAVİ EŞYALARLA",
+        "R"
+      ]
+    ],
+    [
+      [
+        "SERGİ KURUYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "SATEN ÇARDAK KUŞU",
+  "card_top": [
+    "Erkek, dallardan çardak adı",
+    "verilen bir yapı inşa eder."
+  ],
+  "card_bottom": [
+    "Mavi, sarı ve parlak eşyalarla süsler:",
+    "meyve, çiçek, salyangoz kabuğu",
+    "hatta pipet ve çamaşır mandalı."
+  ],
+  "right": [
+    "Doğu Avustralya'nın ormanlarında",
+    "yaşar. Dişiler çardakları",
+    "gezip eşini seçer.",
+    "Erkekler 7-8 yaşında",
+    "olgunlaşır."
+  ],
+  "loc": "Doğu Avustralya",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.62,
+      "cy": 0.55,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.55,
+      "cy": 0.3,
+      "zoom": 2.0
+    }
+  },
+  "credits": [
+    {
+      "use": "cover, top",
+      "title": "File:Satin bowerbird and bower O'Reilly's Guesthouse Lamington National Park Queensland IMG 0017.jpg; File:Satin bowerbird Bunya Mountains National Park Queensland 1980s IMG 0011.jpg",
+      "author": "John Robert McPherson",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "File:Satin Bowerbird 2 - Brunkerville.jpg",
+      "author": "JJ Harrison",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Doğu Avustralya'nın saten çardak kuşu, eşini etkilemek için dallardan çardak yapıp onu mavi eşyalar, meyveler ve hatta plastik pipetlerle süslüyor. 🐦💙\n\n#terrawildnature #ilginçbilgiler #çardakkuşu\n\n📷 JJ Harrison (CC BY-SA 4.0) / Wikimedia Commons"
+}

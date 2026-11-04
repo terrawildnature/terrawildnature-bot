@@ -1,0 +1,77 @@
+{
+  "name": "iç taypan",
+  "group": "sürüngen",
+  "hook_style": "tehlike",
+  "title": [
+    [
+      [
+        "BU YILANIN TEK",
+        "W"
+      ]
+    ],
+    [
+      [
+        "ISIRIĞI 100 İNSANI",
+        "W"
+      ]
+    ],
+    [
+      [
+        "ÖLDÜRECEK ZEHİR",
+        "R"
+      ],
+      [
+        "İÇERİR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "İÇ TAYPAN",
+  "card_top": [
+    "Laboratuvar farelerinde ölçülen",
+    "zehri, dünyanın en güçlüsü sayılır."
+  ],
+  "card_bottom": [
+    "Bir ısırığındaki zehir 100'den fazla",
+    "yetişkin insanı öldürmeye yeter.",
+    "Ama utangaç ve sakin bir yılandır."
+  ],
+  "right": [
+    "Avustralya'nın ücra, kurak",
+    "iç bölgelerinde yaşar.",
+    "Ortalama 1,8 metre uzar.",
+    "Gün boyu çoğunlukla yer",
+    "altında saklanır."
+  ],
+  "loc": "İç Avustralya",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.82,
+      "cy": 0.43,
+      "zoom": 1.6
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.84,
+      "cy": 0.43,
+      "zoom": 3.0
+    }
+  },
+  "credits": [
+    {
+      "use": "cover, top, inner",
+      "title": "File:Oxyuranus microlepidotus in Queensland, Australia.jpg; File:Oxyuranus microlepidotus head close-up in Australia.jpg",
+      "author": "Ramit Singal",
+      "license": "CC BY 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Avustralya'nın ücra çöllerinde yaşayan iç taypanın tek bir ısırığındaki zehir, 100'den fazla yetişkin insanı öldürecek kadar güçlü, buna rağmen yılan utangaç ve sakin biri. 🐍⚠️\n\n#terrawildnature #ilginçbilgiler #taypan\n\n📷 Ramit Singal (CC BY 4.0) / Wikimedia Commons"
+}

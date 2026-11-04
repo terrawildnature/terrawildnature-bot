@@ -38,3 +38,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: Reels'te memeli güçlü (skor 2,15, içerik 2,98); gönderide balık (0,60) ve memeli (0,74) zayıf, 09:00/22:00 zayıf; veri hâlâ az (27 paylaşım).
 - Bugün uygulanan: gönderilerde memeli/balık yok: tuhaf yetenek (yaygın potu, kuş), tehlike (Peru dev kırkayağı, böcek/örümcek), sayı keşif (Çin timsah kertenkelesi, sürüngen); Reels memeli (serval, süperlatif kancası, 73 kelime, Ancient_Rite).
 - Sonra kontrol et: tehlike kancalı gönderinin içerik değeri; süperlatif kancalı serval Reels izlenme süresi. Not: Wikipedia API hız sınırına takıldı, normal sayfa curl ile çalıştı; kırkayak fotoğrafları yalnızca iNaturalist'te makul çıktı.
+
+## 2026-11-04
+- Rapordan öğrenilen: Reels'te memeli güçlü (skor 1,47), 20:00 ve 40-50 sn güçlü; gönderide memeli/balık ve "sayı" kancası zayıf (0,70/0,68/0,74); benzetme Reels'i (dev su samuru) içerik 4,82.
+- Bugün uygulanan: gönderilerde memeli/balık yok, sayı kancası yalnız bir kez: tehlike (iç taypan, sürüngen), süperlatif/sayı keşif (Goliat böceği, böcek), tuhaf yetenek (saten çardak kuşu, kuş); Reels memeli + benzetme kancası (kaya damanı, 84 kelime, Reawakening).
+- Sonra kontrol et: tehlike kancalı taypan ve böcek/örümcek içerik değeri; benzetme kancalı Reels'in izlenme süresi. Not: Commons'ta fregat kuşu fotoğrafları doldurulmuş (müze) çıktığı için çardak kuşuna geçildi; Reels 84 kelime sınırda.
