@@ -48,3 +48,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: Reels'te memeli güçlü (skor 1,65), gönderide memeli/balık/sayı kancası zayıf; tehlike ve tuhaf görünüm gönderileri ortalama üstü.
 - Bugün uygulanan: yalnızca 1 gönderi hazırlandı: tuhaf görünüm (Titicaca su kurbağası, amfibi, keşif). Commons indirmeleri zaman aşımına uğradı, iNaturalist fotoğrafları (Herkül böceği, ters denizanası) kalitesizdi, elendi; Reels hazırlanamadı.
 - Sonra kontrol et: amfibi gönderi içerik değeri; kuyruk 5 gönderi / 1 Reels, sonraki çalıştırmada Reels öncelikli doldurulmalı. Not: yerel main dalı origin/main'den ayrışmıştı, 'work' dalından HEAD:main'e push edildi.
+
+## 2026-11-04 (üçüncü çalıştırma)
+- Rapordan öğrenilen: Reels'te memeli güçlü (skor 1,65), sayı kancası Reels'te güçlü (1,24) ama gönderide zayıf (0,75); gönderide memeli/balık zayıf.
+- Bugün uygulanan: Reels kuyruğu 1'den 4'e: sifaka (memeli, sayı), dhole (memeli, tuhaf yetenek, Ancient_Rite), gezgin albatros (kuş, sayı); gönderiler: bateleur (kuş, gizem), İspanyol dansçısı (deniz omurgasızı, tuhaf yetenek). Gönderide memeli/balık yok.
+- Sonra kontrol et: gizem kancalı bateleur gönderisi; sayı kancalı Reels'lerin (sifaka, albatros) izlenme süresi. Not: iNaturalist'te CC0 fotoğrafların çoğu yumurta/larva/elde tutulan hayvandı (dobsonfly, İspanyol dansçısı yumurtaları, boynuzlu kurbağa elendi); Commons indirmeleri ~1 dk sürüyor. Gönderi kuyruğu 7'de kaldı (8 hedefi tutmadı).
