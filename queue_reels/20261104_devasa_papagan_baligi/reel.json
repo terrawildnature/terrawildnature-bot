@@ -1,0 +1,119 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Investigations.mp3",
+    "start": 0,
+    "loudness": -27
+  },
+  "group": "balık",
+  "hook_style": "benzetme",
+  "cover": {
+    "image": "p1.jpg",
+    "cx": 0.55,
+    "cy": 0.35,
+    "title": [
+      [
+        [
+          "KAFA KAFAYA",
+          "R"
+        ]
+      ],
+      [
+        [
+          "ÇARPIŞAN",
+          "W"
+        ]
+      ],
+      [
+        [
+          "MERCAN",
+          "W"
+        ]
+      ],
+      [
+        [
+          "DEVİ",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "photos": {
+    "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/537381310/original.jpg",
+    "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/537381343/original.jpg",
+    "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/537381366/original.jpg",
+    "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/260533352/original.jpg",
+    "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/459834451/original.jpg",
+    "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/459833946/original.jpg",
+    "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/537381329/original.jpg",
+    "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/537381382/original.jpg"
+  },
+  "segments": [
+    {
+      "text": "Bu balıklar, dağ koyunları gibi kafa kafaya çarpışıyor.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Yeşil tümsek başlı papağan balığı, papağan balıklarının en büyüğü.",
+      "image": "p2.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Boyu bir metre otuzu, ağırlığı kırk altı kiloyu bulabiliyor.",
+      "image": "p3.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Kızıldeniz'den Samoa'ya kadar Hint ve Pasifik okyanuslarının resiflerinde yaşıyor.",
+      "image": "p4.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Yosunla ve canlı mercanla besleniyor.",
+      "image": "p5.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Bir yetişkin yılda beş tondan fazla resif kayasını sindiriyor.",
+      "image": "p6.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Geceleri mağaralarda ve gemi enkazlarında kalabalık gruplar halinde uyuyor.",
+      "image": "p7.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_out"
+    }
+  ],
+  "credits": [
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Papağan balıklarının en büyüğü olan yeşil tümsek başlı papağan balığı, erkekler arasında dağ koyunları gibi kafa kafaya çarpışarak mücadele ediyor. 🐠🪸\n\n#terrawildnature #papağanbalığı\n\n🎵 Kevin MacLeod (CC BY)",
+  "yt_title": "Kafa Kafaya Çarpışan Dev Balık: Papağan Balığı"
+}
