@@ -1,0 +1,146 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Reawakening.mp3",
+    "start": 0,
+    "loudness": -27
+  },
+  "group": "kuş",
+  "hook_style": "sayı",
+  "photos": {
+    "p1.jpg": "File:Diomedea exulans in flight - SE Tasmania.jpg",
+    "p2.jpg": "File:SGI-2016-South Georgia (Prion Island)–Wandering albatross (Diomedea exulans) 02.jpg",
+    "p3.jpg": "File:Wandering Albatross (37174049305).jpg",
+    "p4.jpg": "File:Wandering Albatross- east of the Tasman Peninsula.jpg",
+    "p5.jpg": "File:Diomedea exulans 01(js).jpg",
+    "p6.jpg": "File:2020-11 Crozet Islands - Wandering albatross 04.jpg",
+    "p7.jpg": "File:Wandering Albatross (25370394244).jpg",
+    "p8.jpg": "File:SGI-2016-South Georgia (Prion Island)–Wandering albatross (Diomedea exulans) 08.jpg"
+  },
+  "segments": [
+    {
+      "text": "Bu kuşun kanatları üç buçuk metreyi aşabiliyor.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Gezgin albatros, yaşayan kuşlar arasında en uzun kanat açıklığına sahip.",
+      "image": "p2.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Bazı bireyler bir yılda Güney Okyanusu'nun çevresini üç kez dolaşıyor.",
+      "image": "p3.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Katettikleri mesafe yüz yirmi bin kilometreyi aşıyor.",
+      "image": "p4.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Çiftler ömür boyu eş kalıyor ve iki yılda bir yavru yetiştiriyor.",
+      "image": "p5.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Kur yaparken kanat açıp gagalarını birbirine vuruyorlar.",
+      "image": "p6.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Yavrular üreme çağına on bir ila on beş yaşında giriyor.",
+      "image": "p7.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Bu kuşlar elli yıldan fazla yaşayabiliyor.",
+      "image": "p8.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_out"
+    }
+  ],
+  "cover": {
+    "image": "p1.jpg",
+    "cx": 0.5,
+    "cy": 0.4,
+    "title": [
+      [
+        [
+          "3,7 METRE",
+          "R"
+        ]
+      ],
+      [
+        [
+          "KANATLI",
+          "W"
+        ]
+      ],
+      [
+        [
+          "OKYANUS",
+          "W"
+        ]
+      ],
+      [
+        [
+          "GEZGİNİ",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "credits": [
+    {
+      "author": "JJ Harrison",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "author": "Godot13",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Antoine Lamielle",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Ed Dunens",
+      "license": "CC BY 2.0"
+    },
+    {
+      "author": "Jerzy Strzelecki",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Yaşayan kuşlar arasında en uzun kanat açıklığına sahip gezgin albatros, Güney Okyanusu'nu yılda yüz yirmi bin kilometreyi aşan yolculuklarla dolaşabiliyor. 🌊🦅\n\n#terrawildnature #gezginalbatros\n\n📷 JJ Harrison (CC BY-SA 3.0), Godot13 (CC BY-SA 4.0), Antoine Lamielle (CC BY-SA 4.0), Ed Dunens (CC BY 2.0), Jerzy Strzelecki (CC BY-SA 3.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+  "yt_title": "3,7 Metrelik Kanatlarıyla Okyanus Gezgini: Albatros"
+}
