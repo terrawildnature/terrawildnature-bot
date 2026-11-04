@@ -1,0 +1,154 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Ancient_Rite.ogg",
+    "start": 0,
+    "loudness": -27
+  },
+  "group": "memeli",
+  "hook_style": "tuhaf yetenek",
+  "photos": {
+    "p1.jpg": "File:Pair of Dholes at Pench National Park, India.jpg",
+    "p2.jpg": "File:Dhole Stroll at Pench National Park, India.jpg",
+    "p3.jpg": "File:Asiatic Wild Dog or Indian Wild Dog or Dhole (Cuon alpinus) (10096965764).jpg",
+    "p4.jpg": "File:Cuon alpinus, Dhole, Asiatic wild dog - Kaeng Krachan National Park (50769296003).jpg",
+    "p5.jpg": "File:Dhole(Asiatic wild dog).jpg",
+    "p6.jpg": "File:Dholes-Cuon alpinus.jpg",
+    "p7.jpg": "File:Dholes Cuon alpinus hunting a Spotted Deer image by Raju Kasambe DSCN4225 01.jpg",
+    "p8.jpg": "File:Ajag Dhole Cuon Alpinus.jpg"
+  },
+  "segments": [
+    {
+      "text": "Bu yabani köpek, tilkiyi andıran ıslıklar çalıyor.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Dhole ya da Asya yabani köpeği, Güney ve Güneydoğu Asya'da yaşıyor.",
+      "image": "p2.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Sürüleri genellikle on iki bireyden oluşuyor, kırktan fazlası da görülmüş.",
+      "image": "p3.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Gündüz avlanıyor ve iri toynaklıları hedef alıyor.",
+      "image": "p4.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Ormanlarda kaplan ve leoparla aynı avlar için yarışıyor.",
+      "image": "p5.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Ağırlığı on ile yirmi bir kilo arasında.",
+      "image": "p6.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Uzun omurgası ve ince bacakları yüzünden kedi gibi de tarif ediliyor.",
+      "image": "p7.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Bugün nesli tehlikede; olgun birey sayısı ikibin beş yüzden az.",
+      "image": "p8.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_out"
+    }
+  ],
+  "cover": {
+    "image": "p1.jpg",
+    "cx": 0.5,
+    "cy": 0.4,
+    "title": [
+      [
+        [
+          "TİLKİ GİBİ",
+          "R"
+        ]
+      ],
+      [
+        [
+          "ISLIK ÇALAN",
+          "W"
+        ]
+      ],
+      [
+        [
+          "VAHŞİ",
+          "W"
+        ]
+      ],
+      [
+        [
+          "KÖPEK",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "credits": [
+    {
+      "author": "Rohit Sharma",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Srikaanth Sekar",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "author": "Rushen",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "author": "Davidvraju",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Anagha devi",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Raju Kasambe",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Sakti Xeno",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Asya'nın ormanlarında yaşayan yabani köpek dhole, tilkiyi andıran ıslıklarla haberleşiyor ve bazen kırktan fazla bireyli sürülerle avlanıyor. 🐺🌲\n\n#terrawildnature #dhole\n\n📷 Rohit Sharma (CC BY-SA 4.0), Srikaanth Sekar (CC BY-SA 2.0), Rushen (CC BY-SA 2.0), Davidvraju (CC BY-SA 4.0), Anagha devi (CC BY-SA 4.0), Raju Kasambe (CC BY-SA 4.0), Sakti Xeno (CC BY-SA 4.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+  "yt_title": "Tilki Gibi Islık Çalan Yabani Köpek: Dhole"
+}
