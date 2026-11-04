@@ -1,0 +1,52 @@
+name: Bekçi (kaçan paylaşımı yakala)
+
+# Every hour: if a post, Reel or Short that was due today has not gone out (skipped cron, failed or cancelled run),
+# start that workflow again. Also restarts a documentary build that failed (at most 3 tries a day).
+on:
+  schedule:
+    - cron: "45 6-20 * * *"   # 09:45-23:45 Turkey
+  workflow_dispatch: {}
+
+concurrency:
+  group: watchdog
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  actions: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      R: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Catch up posts, Reels, Shorts
+        run: |
+          for wf in $(python tools/watchdog.py --show); do
+            busy=$(gh run list -R "$R" --workflow "$wf" -L 5 --json status -q '[.[] | select(.status != "completed")] | length')
+            if [ "$busy" != "0" ]; then echo "$wf zaten çalışıyor"; continue; fi
+            echo "Kaçan paylaşım var, yeniden başlatılıyor: $wf"
+            gh workflow run "$wf" -R "$R"
+          done
+      - name: Retry a failed documentary build
+        run: |
+          DOC=""
+          for d in $(ls -d youtube/docs/*/ 2>/dev/null | sort); do
+            d=${d%/}
+            if [ -f "$d/meta.json" ] && [ ! -f "$d/status.json" ]; then DOC=$d; break; fi
+          done
+          [ -z "$DOC" ] && exit 0
+          runs=$(gh run list -R "$R" --workflow youtube-doc.yml -L 10 --json status,conclusion,createdAt)
+          busy=$(echo "$runs" | jq '[.[] | select(.status != "completed")] | length')
+          [ "$busy" != "0" ] && { echo "belgesel üretimi sürüyor"; exit 0; }
+          since=$(date -u -d '24 hours ago' +%Y-%m-%dT%H:%M:%SZ)
+          fails=$(echo "$runs" | jq --arg s "$since" '[.[] | select(.createdAt > $s and .conclusion != "success")] | length')
+          if [ "$fails" -ge 3 ]; then echo "son 24 saatte $fails başarısız deneme, bekleniyor"; exit 0; fi
+          echo "Belgesel üretilmemiş, yeniden başlatılıyor: $DOC"
+          gh workflow run youtube-doc.yml -R "$R" -f doc="$DOC"

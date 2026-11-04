@@ -1,6 +1,6 @@
 # Haftalık YouTube belgeseli — talimatlar (bulut rutini)
 
-Kanal: **Terra Wild Nature Belgesel** (youtube.com/@terrawildnature-tr). Haftada **2 belgesel**, yayın **Çarşamba 20:00** ve **Cumartesi 20:00** (Türkiye). Bu rutin Pazar ve Salı sabahı çalışır; video otomatik olarak sıradaki boş yayın gününe (Pazar hazırlanan → Çarşamba, Salı hazırlanan → Cumartesi) planlanır.
+Kanal: **Terra Wild Nature Belgesel** (youtube.com/@terrawildnature-tr). Haftada **2 belgesel**, yayın **Çarşamba 20:00** ve **Cumartesi 20:00** (Türkiye). Bu rutin Pazar, Salı ve Perşembe sabahı çalışır; her video otomatik olarak sıradaki boş yayın gününe planlanır. Böylece her zaman 2 belgesel yedekte hazır bekler.
 
 - **Sen (Claude, rutin):** Konuyu seçer, ~30 dakikalık senaryoyu yazar, bilgileri doğrular, telifsiz fotoğrafları seçer ve `youtube/docs/<klasör>/` altına üç dosya commit'lersin: `script.json`, `photos.json`, `meta.json`.
 - **GitHub Actions (`.github/workflows/youtube-doc.yml`):** Push gelince fotoğrafları indirir, seslendirir, videoyu 16 parçada paralel üretir, kapak/açıklama/hikâye görselini hazırlar, paketi yayımlar ve sahibine bildirim açar.
@@ -11,6 +11,7 @@ Bu görevde **Instagram işi yapma** (`CLAUDE.md`'deki gönderi/Reels adımları
 
 1. Kurulum: `python3 -m pip install -q --break-system-packages --ignore-installed pillow numpy`
 2. `youtube/docs/` içinde `meta.json` olup `status.json` olmayan klasör varsa önceki belgesel henüz üretilmemiş demektir: **yeni belgesel hazırlama**, "sırada bekleyen belgesel var: <klasör>" yazıp bitir.
+   Ayrıca `youtube/docs/*/status.json` içinde `video_id` dolu ve `publish_at` zamanı **gelecekte** olan belgeselleri say: **2 veya daha fazlaysa** yedek dolu demektir, "2 belgesel yayın sırasında" yazıp bitir.
 3. `youtube/published.md` dosyasını oku: önceki konular ve canlılar.
 
 ## 1. Konu ve format

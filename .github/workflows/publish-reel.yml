@@ -51,6 +51,7 @@ jobs:
           if [ -z "$DIR" ]; then echo "Reels kuyruğu boş"; exit 2; fi
           echo "dir=${DIR%/}" >> "$GITHUB_OUTPUT"
       - name: Render video
+        id: render
         run: python tools/reel.py "${{ steps.pick.outputs.dir }}"
       - name: Upload test video
         if: ${{ inputs.test }}
@@ -59,6 +60,7 @@ jobs:
           name: reel-test
           path: ${{ steps.pick.outputs.dir }}/reel.mp4
       - name: Publish to Instagram
+        id: pub
         if: ${{ !inputs.test }}
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
@@ -77,6 +79,20 @@ jobs:
           source tools/token.sh load threads || echo "Threads anahtarı yok, Threads atlanacak"
           python tools/publish.py --reel "${{ steps.pick.outputs.dir }}"
           gh release delete-asset reel-media "$NAME" -y || true
+      - name: Requeue on failure (retry later, after the others; a second failure parks it in queue_reels_failed/)
+        if: ${{ failure() && !inputs.test && (steps.render.outcome == 'failure' || steps.pub.outcome == 'failure') }}
+        run: |
+          D="${{ steps.pick.outputs.dir }}"
+          [ -z "$D" ] && exit 0
+          N=$(basename "$D")
+          git config user.name "terrawildnature-bot"
+          git config user.email "terrawildnature-bot@users.noreply.github.com"
+          case "$N" in
+            zz_*) mkdir -p queue_reels_failed && git mv "$D" "queue_reels_failed/$N" ;;
+            *) git mv "$D" "queue_reels/zz_$N" ;;
+          esac
+          git commit -m "Paylaşılamadı, sıranın sonuna alındı: $N"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
       - name: Commit
         if: ${{ !inputs.test }}
         run: |

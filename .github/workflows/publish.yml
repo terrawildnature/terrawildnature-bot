@@ -26,6 +26,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Publish next post
+        id: pub
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
@@ -35,6 +36,20 @@ jobs:
           source tools/token.sh load
           source tools/token.sh load threads || echo "Threads anahtarı yok, Threads atlanacak"
           python tools/publish.py
+      - name: Requeue on failure (retry later, after the others; a second failure parks it in queue_failed/)
+        if: ${{ failure() && steps.pub.outcome == 'failure' }}
+        run: |
+          D="$(ls -d queue/*/ 2>/dev/null | sort | while read d; do [ -f "$d/post.json" ] && [ -f "$d/a.jpg" ] && [ -f "$d/b.jpg" ] && echo "${d%/}"; done | head -1)"
+          [ -z "$D" ] && exit 0
+          N=$(basename "$D")
+          git config user.name "terrawildnature-bot"
+          git config user.email "terrawildnature-bot@users.noreply.github.com"
+          case "$N" in
+            zz_*) mkdir -p queue_failed && git mv "$D" "queue_failed/$N" ;;
+            *) git mv "$D" "queue/zz_$N" ;;
+          esac
+          git commit -m "Paylaşılamadı, sıranın sonuna alındı: $N"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
       - name: Move post to posted/
         run: |
           git config user.name "terrawildnature-bot"

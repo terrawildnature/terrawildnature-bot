@@ -1,7 +1,7 @@
 # Terra Wild Nature — günlük içerik üretimi
 
 Bu depo @terrawildnature Instagram hesabı için otomatik gönderi üretir.
-- **Sen (Claude, bulut görevi):** Günde iki kez (05:30 ve 13:30) çalışır, kuyrukları doldurursun: günde **5 gönderi** (`queue/`) ve **3 Reels** (`queue_reels/`) paylaşılıyor.
+- **Sen (Claude, bulut görevi):** Günde dört kez (05:30, 11:30, 17:30, 23:30) çalışır, kuyrukları **3 günlük yedekle** dolu tutarsın: günde **5 gönderi** (`queue/`) ve **3 Reels** (`queue_reels/`) paylaşılıyor.
 - **GitHub Actions (`.github/workflows/publish.yml`):** 09:00, 12:00, 15:30, 18:00 ve 22:00'de (Türkiye) `queue/` içindeki en eski gönderiyi paylaşır.
 - **GitHub Actions (`.github/workflows/publish-reel.yml`):** her gün 10:30, 13:30 ve 20:00'de `queue_reels/` içindeki en eski Reels tarifinden videoyu üretip paylaşır (bkz. bölüm 6). Aynı videolar YouTube Shorts olarak da yüklenir.
 
@@ -12,8 +12,8 @@ Sen Instagram'a hiçbir şey göndermezsin. Görevin yalnızca gönderi hazırla
 ## Her çalıştırmada
 
 0. Kurulum: `python3 -m pip install -q --break-system-packages --ignore-installed pillow numpy` (sistemdeki PIL bozuk, düz `pip install` yetmiyor). Commons istekleri arasında birkaç saniye bekle; 429 alırsan araç kendisi bekleyip tekrar dener.
-1. `queue/` içindeki gönderi klasörlerini say. **8 veya daha fazlaysa** gönderi üretme ("gönderi kuyruğu dolu"), doğrudan Reels'e (bölüm 6) geç.
-2. Değilse kuyruğu 8'e tamamlayacak kadar, **en fazla 5** yeni gönderi hazırla (aşağıdaki adımlar). Ör. kuyrukta 3 varsa 5, 6 varsa 2 gönderi.
+1. `queue/` içindeki gönderi klasörlerini say. **15 veya daha fazlaysa** (3 günlük yedek) gönderi üretme ("gönderi kuyruğu dolu"), doğrudan Reels'e (bölüm 6) geç.
+2. Değilse kuyruğu 15'e tamamlayacak kadar, **en fazla 5** yeni gönderi hazırla (aşağıdaki adımlar). Ör. kuyrukta 8 varsa 5, 12 varsa 3 gönderi.
 3. Her gönderiyi `python tools/render.py queue/<klasör>` ile üret. `OVERFLOW` hatası verirse metni kısaltıp tekrar dene.
 4. Üretilen `a.jpg` ve `b.jpg` dosyalarını **Read aracıyla açıp gözle kontrol et:** Fotoğrafta hayvan net görünmeli, kesilmemeli ve yazılarla çakışmamalı. Sorun varsa kırpmayı (`cx`, `cy`, `zoom`) ya da fotoğrafı değiştir.
 5. Kaynak fotoğrafları (`photo_*.jpg`) sil. Depoda sadece `post.json`, `a.jpg` ve `b.jpg` kalmalı.
@@ -21,7 +21,8 @@ Sen Instagram'a hiçbir şey göndermezsin. Görevin yalnızca gönderi hazırla
 7. `git add -A && git commit -m "Yeni gönderiler: <adlar>" && git push` (çakışma olursa `git pull --rebase` sonra tekrar push).
 
 **Hedefe ulaşmadan bitirme (sahibinin kuralı):** Günde 5 gönderi ve 3 Reels paylaşılıyor; kuyruk boşalırsa paylaşım kaçar.
-- **Sıra:** `queue_reels/` içinde 2'den az Reels varsa **önce Reels'i** hazırla, sonra gönderileri.
+- **Sıra:** `queue_reels/` içinde 4'ten az Reels varsa **önce Reels'i** hazırla, sonra gönderileri.
+- **Paylaşılamayanlar:** `queue_failed/` ya da `queue_reels_failed/` içinde klasör varsa (Actions iki kez paylaşamayıp oraya koydu), önce onlara bak. Sorun içerikteyse (bozuk fotoğraf adresi, eksik dosya, çok uzun açıklama, ses metni) düzelt ve `git mv` ile `queue/` ya da `queue_reels/` içine adı `zz_` olmadan geri koy; düzeltemiyorsan olduğu gibi bırak, yerine yenisini hazırla ve son mesajında yaz. Sorun içerikte değilse (Instagram geçici hatası) aynen geri koy.
 - Bir aday canlının fotoğrafı kötüyse ya da indirme takılırsa o canlıyı bırak ve **hemen başka bir canlı dene**. Bir canlıyı elemek çalışmayı bitirme sebebi değildir; hedef sayıya ulaşana kadar yeni adaylarla devam et (gerekirse 15-20 aday dene).
 - Commons yavaşsa iNaturalist'e, iNaturalist'te iyi foto yoksa Commons'ta farklı arama sözcüklerine (İngilizce ad, cins adı) geç. Uzun indirmeleri arka plana atma; tek tek, `timeout 120` ile indir.
 - Sadece iki kaynak da 30 dakikadan uzun süre hiç cevap vermiyorsa erken bitirebilirsin; o zaman son mesajında bunu açıkça yaz.
@@ -140,7 +141,7 @@ Avustralya'nın sevimli kazıcısı çıplak burunlu vombat, bağırsaklarının
 
 ## 6. Reels (her gün 10:30, 13:30, 20:00)
 
-Gönderilerden sonra `queue_reels/` klasörüne bak. **4'ten az Reels varsa kuyruğu 4'e tamamlayacak kadar, en fazla 3 yeni Reels tarifi hazırla.** Her biri farklı canlı ve farklı grup olsun (ör. bir memeli, bir kuş, bir sürüngen); kanca tarzlarını ve müzikleri de çeşitlendir. Videoyu sen üretmiyorsun; GitHub Actions paylaşımdan hemen önce `tools/reel.py` ile üretiyor. Sen tarifi (`reel.json`) ve kapağı (`cover.jpg`) hazırlarsın.
+`queue_reels/` klasörüne bak. **9'dan az Reels varsa (3 günlük yedek) kuyruğu 9'a tamamlayacak kadar, en fazla 3 yeni Reels tarifi hazırla.** Her biri farklı canlı ve farklı grup olsun (ör. bir memeli, bir kuş, bir sürüngen); kanca tarzlarını ve müzikleri de çeşitlendir. Videoyu sen üretmiyorsun; GitHub Actions paylaşımdan hemen önce `tools/reel.py` ile üretiyor. Sen tarifi (`reel.json`) ve kapağı (`cover.jpg`) hazırlarsın.
 
 - **Canlı:** Aynı yasak listesi (`data/used.txt` + `data/instagram_posts.txt`). Bu çalıştırmada gönderiler için seçtiğin canlılardan da farklı olmalı. En az 7 iyi fotoğrafı olan canlı seç (mümkünse doğal ortamda çekilmiş). Telif kuralları gönderilerle aynı.
 - **Klasör:** `queue_reels/<YYYYMMDD>-<nn>_<ad>` (nn iki haneli sıra, aynı tarihte varsa devam et; Türkçe karaktersiz, küçük harf).

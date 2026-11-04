@@ -156,11 +156,15 @@ def main(reel_dir):
             print(f"YouTube daily limit reached, {reel_dir.name} waits for a later run")
             return
         raise SystemExit(f"upload failed: {msg[:500]}")
-    wait_processed(vid)   # a thumbnail set while YouTube is still processing did not show up on the Short
-    set_cover(vid, work / "cover.jpg")
+    # written right away: if a later step fails, the Short is not uploaded a second time
     (reel_dir / "youtube.json").write_text(json.dumps({"video_id": vid, "title": body["snippet"]["title"],
                                                        "uploaded_at": dt.datetime.now(dt.timezone.utc).isoformat()},
                                                       ensure_ascii=False, indent=1), encoding="utf-8")
+    try:
+        wait_processed(vid)   # a thumbnail set while YouTube is still processing did not show up on the Short
+        set_cover(vid, work / "cover.jpg")
+    except Exception as e:   # the video is up; the cover in its first half second still shows in the feed
+        print(f"thumbnail not set for {vid}: {e}")
     print(f"https://youtube.com/shorts/{vid}")
 
 
