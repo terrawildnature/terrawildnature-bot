@@ -1,0 +1,77 @@
+{
+  "name": "Herkül böceği",
+  "group": "böcek/örümcek",
+  "hook_style": "süperlatif",
+  "title": [
+    [
+      [
+        "BU BÖCEK DÜNYANIN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "EN UZUN",
+        "W"
+      ],
+      [
+        " BÖCEĞİ",
+        "R"
+      ]
+    ],
+    [
+      [
+        "173 MM",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "HERKÜL BÖCEĞİ",
+  "card_top": [
+    "Boynuzuyla birlikte 173 mm'ye",
+    "ulaşan en uzun böcek türü."
+  ],
+  "card_bottom": [
+    "Erkekler boynuzlarıyla rakibini",
+    "sıkıştırıp fırlatmaya çalışır.",
+    "Tehdit edilince hırıltı çıkarır."
+  ],
+  "right": [
+    "Meksika'dan Güney Amerika'ya",
+    "kadar yağmur ormanlarında yaşar.",
+    "Geceleri meyve ve ağaç özsuyu",
+    "arar. Larvası çürük odunla",
+    "beslenir; 2 yıla kadar sürer."
+  ],
+  "loc": "Orta ve Güney Amerika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.6,
+      "cy": 0.5,
+      "zoom": 1.0
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom": 1.0
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.8,
+      "cy": 0.55,
+      "zoom": 1.8
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Hercules.beetle.arp.jpg",
+      "author": "Adrian Pingstone",
+      "license": "Public domain",
+      "public_domain": true
+    }
+  ],
+  "caption": "Boynuzuyla birlikte 173 milimetreye ulaşabilen Herkül böceği, bilinen en uzun böcek türü ve erkekler rakiplerini boynuzlarıyla sıkıştırıp fırlatmaya çalışıyor. 🪲🌿\n\n#terrawildnature #ilginçbilgiler #herkülböceği"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "domuz burunlu kaplumbağa",
+  "group": "sürüngen",
+  "hook_style": "benzetme",
+  "title": [
+    [
+      [
+        "BU KAPLUMBAĞANIN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "BURNU",
+        "W"
+      ],
+      [
+        " DOMUZ GİBİ",
+        "R"
+      ]
+    ],
+    [
+      [
+        "AYAKLARI YÜZGEÇ",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "FLY NEHRİ KAPLUMBAĞASI",
+  "card_top": [
+    "Burnu, ucunda delikleri olan",
+    "etli bir domuz burnuna benzer."
+  ],
+  "card_bottom": [
+    "Ayakları deniz kaplumbağası",
+    "gibi yüzgeç biçimindedir.",
+    "Kabuğunu deri kaplar."
+  ],
+  "right": [
+    "Kuzey Avustralya ve Güney",
+    "Yeni Gine'nin tatlı sularında",
+    "yaşar. Boyu 70-75 cm'ye, ağırlığı",
+    "20 kg'ın üzerine çıkabilir.",
+    "Bitki ve hayvan, her şeyi yer."
+  ],
+  "loc": "Avustralya, Yeni Gine",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.55,
+      "cy": 0.45,
+      "zoom": 1.3
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.75,
+      "cy": 0.6,
+      "zoom": 1.0
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.85,
+      "cy": 0.4,
+      "zoom": 2.3
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Carettochelys insculpta Dvur zoo 1.jpg",
+      "author": "Karelj",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Pig-Nosed Turtle (24459289256).jpg",
+      "author": "Thomas Quine",
+      "license": "CC BY 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Carettochelys insculpta Dvur zoo 1.jpg",
+      "author": "Karelj",
+      "license": "Public domain",
+      "public_domain": true
+    }
+  ],
+  "caption": "Burnu domuz burnuna benzeyen ve ayakları deniz kaplumbağalarınınki gibi yüzgeç olan domuz burunlu kaplumbağa, tatlı sularda yaşayan alışılmadık bir kaplumbağa. 🐢🐽\n\n#terrawildnature #ilginçbilgiler #domuzburunlukaplumbağa\n\n📷 Thomas Quine (CC BY 2.0) / Wikimedia Commons"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "palmiye kakadusu",
+  "group": "kuş",
+  "hook_style": "tuhaf yetenek",
+  "title": [
+    [
+      [
+        "BU KUŞ DALDAN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "KOPARDIĞI",
+        "W"
+      ],
+      [
+        " ÇUBUKLA",
+        "R"
+      ]
+    ],
+    [
+      [
+        "DAVUL ÇALIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "PALMİYE KAKADUSU",
+  "card_top": [
+    "Erkekler dalı koparıp",
+    "ağaca vurarak davul çalar."
+  ],
+  "card_bottom": [
+    "Sesi 100 metreden duyulur.",
+    "Neden davul çaldığı hâlâ",
+    "tam bilinmiyor."
+  ],
+  "right": [
+    "Yeni Gine, Aru Adaları ve",
+    "Avustralya'nın Cape York'unda",
+    "yaşar. İki yılda yalnızca bir",
+    "yumurta bırakır; üreme başarısı",
+    "çok düşüktür. Alet kullanır."
+  ],
+  "loc": "Yeni Gine, Cape York",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.4,
+      "cy": 0.35,
+      "zoom": 1.4
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.3,
+      "cy": 0.35,
+      "zoom": 1.5
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.4,
+      "cy": 0.35,
+      "zoom": 2.6
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Palm Cockatoo 0A2A7769.jpg",
+      "author": "JJ Harrison",
+      "license": "CC BY-SA 3.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Probosciger aterrimus, Cape York 1.jpg",
+      "author": "Jim Bendon",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Palm Cockatoo 0A2A7769.jpg",
+      "author": "JJ Harrison",
+      "license": "CC BY-SA 3.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Palmiye kakadusu erkekleri koparıp aldıkları dalla ağaca vurarak yüz metreden duyulan davul sesi çıkarıyor, neden davul çaldıkları ise hâlâ tam çözülemedi. 🥁🦜\n\n#terrawildnature #ilginçbilgiler #palmiyekakadusu\n\n📷 JJ Harrison (CC BY-SA 3.0), Jim Bendon (CC BY-SA 2.0) / Wikimedia Commons"
+}

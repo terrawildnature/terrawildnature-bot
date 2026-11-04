@@ -1,0 +1,91 @@
+{
+  "name": "yelkenli kertenkele",
+  "group": "sürüngen",
+  "hook_style": "tuhaf görünüm",
+  "title": [
+    [
+      [
+        "BU KERTENKELENİN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "SIRTINDA",
+        "W"
+      ],
+      [
+        " DEV",
+        "R"
+      ]
+    ],
+    [
+      [
+        "YELKEN VAR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "YELKENLİ KERTENKELE",
+  "card_top": [
+    "Sırtından kuyruğuna uzanan",
+    "yelkeni andıran bir tarak taşır."
+  ],
+  "card_bottom": [
+    "Yavruları basilisk gibi suyun",
+    "üzerinde kısa süre koşabilir.",
+    "Yetişkinler iyi yüzücüdür."
+  ],
+  "right": [
+    "Palawan dışında Filipinler'in",
+    "adalarında nehir kıyısı ve",
+    "mangrovlarda yaşar. Erkekler",
+    "91-120 cm'ye ulaşır. Evcil hayvan",
+    "ticareti yüzünden korunur."
+  ],
+  "loc": "Filipinler",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.7,
+      "cy": 0.35,
+      "zoom": 1.5
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.7,
+      "cy": 0.4,
+      "zoom": 1.4
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.8,
+      "cy": 0.35,
+      "zoom": 1.8
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:PHILIPPINE SAILFIN LIZARD.jpg",
+      "author": "Kirkamon A. Cabello",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Hydrosaurus pustulatus Tropicario 1.JPG",
+      "author": "MKFI",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "File:Hydrosaurus pustulatus Tropicario 2.JPG",
+      "author": "MKFI",
+      "license": "Public domain",
+      "public_domain": true
+    }
+  ],
+  "caption": "Sırtından kuyruğuna uzanan yelkeni andıran tarağıyla dikkat çeken Filipin yelkenli kertenkelesinin yavruları suyun üzerinde kısa süre koşabiliyor. 🦎🌴\n\n#terrawildnature #ilginçbilgiler #yelkenlikertenkele\n\n📷 Kirkamon A. Cabello (CC BY-SA 4.0) / Wikimedia Commons"
+}

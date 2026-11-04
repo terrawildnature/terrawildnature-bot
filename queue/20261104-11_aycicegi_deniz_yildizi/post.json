@@ -1,0 +1,87 @@
+{
+  "name": "ayçiçeği deniz yıldızı",
+  "group": "deniz omurgasızı",
+  "hook_style": "sayı",
+  "title": [
+    [
+      [
+        "BU DENİZ YILDIZININ",
+        "W"
+      ]
+    ],
+    [
+      [
+        "24'E KADAR",
+        "R"
+      ]
+    ],
+    [
+      [
+        "KOLU VAR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "AYÇİÇEĞİ DENİZ YILDIZI",
+  "card_top": [
+    "Kol açıklığı 1 metreye ulaşan",
+    "dev bir deniz yıldızı."
+  ],
+  "card_bottom": [
+    "Yaklaşık 15.000 tüp ayağıyla",
+    "dakikada 1 metre ilerler.",
+    "Deniz kestanesi avlar."
+  ],
+  "right": [
+    "Alaska'dan Kaliforniya'ya kadar",
+    "kuzeydoğu Pasifik'te yaşar.",
+    "Bilinen en ağır deniz yıldızıdır,",
+    "yaklaşık 5 kg gelir. 2013'ten",
+    "beri sayısı çöktü; CR sınıfında."
+  ],
+  "loc": "Kuzeydoğu Pasifik",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.55,
+      "cy": 0.5,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.4,
+      "cy": 0.55,
+      "zoom": 1.8
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Olympic Coast National Marine Sanctuary 2010 Pycnopodia helianthoides.jpg",
+      "author": "Ed Bowlby, NOAA",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Sunflower starfish pycnopodia helianthoides.jpg",
+      "author": "Boughton, USFWS",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "File:Pycnopodia underside.jpg",
+      "author": "Corrner",
+      "license": "Public domain",
+      "public_domain": true
+    }
+  ],
+  "caption": "Kol açıklığı bir metreyi bulan ayçiçeği deniz yıldızı, yaklaşık 15 bin tüp ayağıyla dakikada bir metre ilerleyip deniz kestanesi avlıyor. ⭐🌊\n\n#terrawildnature #ilginçbilgiler #ayçiçeğidenizyıldızı"
+}
