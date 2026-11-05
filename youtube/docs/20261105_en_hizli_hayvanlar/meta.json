@@ -1,0 +1,14 @@
+{
+ "title": "Dünyanın En Hızlı Hayvanı Bir Çita Değil",
+ "description": "Saatte bir buçuk metreyle ilerleyen cüce denizatından, saatte 389 kilometreyle dalan gökdoğana kadar dünyanın en yavaş ve en hızlı hayvanlarını hız sırasına diziyoruz. Suyun üstünde koşan basilisk kertenkelesi, hapşırarak oy veren Afrika yaban köpekleri, tabanca mermisi gibi vuran mantis karidesi, karada en hızlı hayvan çita ve hızlı trenleri geride bırakan yırtıcı kuşlar bu belgeselde. Ekrandaki hız göstergesiyle her hayvanın gerçek hızını Usain Bolt, bir kasırga ve Shinkansen treniyle karşılaştırıyoruz.",
+ "sources": "İngilizce Wikipedia (Fastest animals ve tür sayfaları), Guinness Dünya Rekorları, NOAA Ulusal Kasırga Merkezi ve ilgili bilimsel yayınlar.",
+ "hashtags": ["#belgesel", "#hayvanlar", "#enhızlıhayvanlar", "#vahşiyaşam", "#terrawildnature"],
+ "tags": ["belgesel", "hayvan belgeseli", "en hızlı hayvanlar", "dünyanın en hızlı hayvanı", "en yavaş hayvan", "gökdoğan", "çita", "peregrine falcon", "hayvanların hızları", "vahşi yaşam", "türkçe belgesel", "doğa belgeseli"],
+ "thumb": {"lines": ["389 KM/SA", "HANGİ HAYVAN", "BU HIZDA?"], "photo": "37_0", "cx": 0.5, "cy": 0.45, "zoom": 1.0, "bar": false},
+ "story": {"lines": ["EN HIZLI", "HAYVANLAR"], "info": "Saatte 1,5 metreden 389 km'ye · 6 hız bölgesi · 26 canlı"},
+ "en": {
+  "title": "The Fastest Animal on Earth Is Not the Cheetah",
+  "description": "From the dwarf seahorse, moving at a metre and a half per hour, to the peregrine falcon, diving at 389 kilometres per hour, we rank the slowest and fastest animals in the world by speed. Meet the basilisk lizard that runs on water, African wild dogs that vote by sneezing, the mantis shrimp that strikes like a bullet, the cheetah, fastest animal on land, and birds of prey that outpace bullet trains. An on-screen speedometer compares each animal's real speed with Usain Bolt, a hurricane and the Shinkansen.",
+  "sources": "English Wikipedia (Fastest animals and species pages), Guinness World Records, the NOAA National Hurricane Center and related scientific publications."
+ }
+}

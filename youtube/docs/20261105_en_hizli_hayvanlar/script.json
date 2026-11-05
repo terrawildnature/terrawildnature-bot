@@ -1,0 +1,485 @@
+{
+ "title": "YAVAŞTAN HIZLIYA",
+ "subtitle": "Saatte 1,5 metreden 389 kilometreye",
+ "mechanic": "speed_dial",
+ "journey": {
+  "meter": false,
+  "label": "HIZ",
+  "unit": "km/sa",
+  "units": [
+   [
+    0,
+    "m/sa",
+    1000
+   ],
+   [
+    1,
+    "km/sa",
+    1
+   ]
+  ],
+  "scale": "log",
+  "min": 0.001,
+  "max": 400,
+  "direction": "up",
+  "zones": [
+   [
+    0.001,
+    1,
+    "AĞIR ÇEKİM"
+   ],
+   [
+    1,
+    30,
+    "YÜRÜYÜŞ"
+   ],
+   [
+    30,
+    65,
+    "KOŞU"
+   ],
+   [
+    65,
+    100,
+    "SPRİNT"
+   ],
+   [
+    100,
+    200,
+    "100 KULÜBÜ"
+   ],
+   [
+    200,
+    400,
+    "PİKE"
+   ]
+  ],
+  "stats": [],
+  "range_label": "HIZ",
+  "palette": [
+   [
+    0,
+    [
+     14,
+     34,
+     46
+    ]
+   ],
+   [
+    400,
+    [
+     62,
+     14,
+     22
+    ]
+   ]
+  ],
+  "rays": 0,
+  "particles": null,
+  "glow": null,
+  "card": [
+   40,
+   110,
+   1180,
+   664
+  ],
+  "sub_cx": 960,
+  "music": [
+   "Investigations.mp3",
+   "Ancient_Rite.ogg"
+  ]
+ },
+ "intro_photos": [
+  "37_0",
+  "28_1",
+  "09_0",
+  "04_0"
+ ],
+ "segments": [
+  {
+   "type": "intro",
+   "depth": 0.001,
+   "text": "Bir sümüklüböcekten bile daha yavaş hareket eden bir balık düşünün. Bir de saatte üç yüz seksen dokuz kilometre hızla gökyüzünden aşağı dalan bir kuş. Bugün hayvanlar dünyasının hız sıralamasını en yavaştan en hızlıya doğru tırmanıyoruz. Yolculuk boyunca yirmi altı canlıyla tanışacağız. Arada bazı tanıdık ölçülerle de karşılaştırma yapacağız: yürüyen bir insan, dünyanın en hızlı koşucusu, bir kasırga ve hızlı bir tren. Ekranın sağındaki hız göstergesini takip edin. İbre her yeni canlıyla biraz daha yükselecek, altındaki tabloda da o ana kadar kimin lider olduğunu göreceksiniz. Hazırsanız, göstergenin en dibinden başlıyoruz.",
+   "text_en": "Imagine a fish that moves even more slowly than a slug. And a bird that dives out of the sky at 389 kilometres per hour. Today we climb the animal kingdom's speed rankings, from the slowest to the fastest. Along the way we will meet 26 creatures. We will also compare them with a few familiar speeds: a walking person, the fastest runner in the world, a hurricane and a bullet train. Keep an eye on the speedometer on the right of the screen. The needle will climb with every new animal, and the table below it shows who is in the lead so far. If you are ready, we start at the very bottom of the dial."
+  },
+  {
+   "type": "zone",
+   "depth": 0.001,
+   "name": "AĞIR ÇEKİM",
+   "range": "0 – 1 km/sa",
+   "range_en": "0 – 1 km/h",
+   "name_en": "SLOW MOTION",
+   "text": "İlk bölgemiz ağır çekim dünyası. Burada hızlar saatte bir kilometrenin altında kalıyor, bu yüzden göstergemiz şimdilik metreyle sayıyor. Bu hayvanlar için yavaşlık bir eksiklik değil, bir hayatta kalma yöntemi. Kimi enerji harcamamak için yavaş, kimi avına ya da düşmanına görünmemek için. Kimi de sırtında taşıdığı ağır bir zırh yüzünden hiç acele etmiyor.",
+   "text_en": "Our first zone is the world of slow motion. Speeds here stay below one kilometre per hour, so for now our gauge counts in metres. For these animals slowness is not a weakness but a way to survive. Some are slow to save energy, some to stay invisible to prey or predators. And some carry such heavy armour that they are never in a hurry."
+  },
+  {
+   "type": "creature",
+   "depth": 0.0015,
+   "name": "Cüce Denizatı",
+   "latin": "Hippocampus zosterae",
+   "range": "1,5 m/sa",
+   "name_en": "Dwarf Seahorse",
+   "text": "Sıralamanın en sonunda cüce denizatı var. Guinness Dünya Rekorlarına göre dünyanın en yavaş hareket eden balığı. En yüksek hızı saatte yalnızca bir buçuk metre civarında. Bu hızla yüz metrelik bir mesafeyi geçmesi neredeyse üç gün sürerdi. Boyu ortalama iki, iki buçuk santimetre, en büyükleri bile beş santimetreyi geçmiyor. Meksika Körfezi, Florida ve Bahamalar'ın sığ deniz çayırlarında yaşıyor. Avını kovalamıyor, pusuda bekliyor ve yanından geçen küçük kabukluları burnuyla bir anda içine çekiyor. Günde üç bine kadar tuzla karidesi yiyebiliyor. Diğer denizatlarında olduğu gibi yavruları erkek taşıyor.",
+   "text_en": "At the very bottom of the ranking is the dwarf seahorse. According to Guinness World Records it is the slowest-moving fish in the world. Its top speed is only about 1.5 metres per hour. At that pace, covering 100 metres would take it almost three days. It is on average 2 to 2.5 centimetres long, and even the largest do not exceed 5 centimetres. It lives in the shallow seagrass beds of the Gulf of Mexico, Florida and the Bahamas. It does not chase its prey but lies in wait, sucking passing small crustaceans into its snout in an instant. It can eat up to 3,000 brine shrimp a day. As in other seahorses, it is the male that carries the young."
+  },
+  {
+   "type": "creature",
+   "depth": 0.0099,
+   "name": "Muz Sümüklüböceği",
+   "latin": "Ariolimax columbianus",
+   "range": "9,9 m/sa",
+   "name_en": "Pacific Banana Slug",
+   "text": "Kuzey Amerika'nın Pasifik kıyısındaki nemli ormanlarda, Alaska'nın güneydoğusundan Kaliforniya'ya kadar uzanan bir şeritte, parlak sarı bir canlı yerde süzülüyor: muz sümüklüböceği. Dakikada yaklaşık on altı buçuk santimetre ilerleyebiliyor. Bu da saatte on metreye yakın bir hız demek, yani denizatının altı katından fazla. Pasifik muz sümüklüböceği dünyanın karada yaşayan ikinci büyük sümüklüböceği. Boyu yirmi beş santimetreye, ağırlığı yüz on beş grama ulaşabiliyor. Kurumak en büyük düşmanı. Bu yüzden vücudunu kalın bir sümük tabakasıyla kaplıyor ve çoğunlukla geceleri ya da serin, nemli günlerde ortaya çıkıyor. Başındaki dokunaçlardan birini kaybederse yenisini çıkarabiliyor.",
+   "text_en": "In the damp forests along North America's Pacific coast, in a belt that stretches from southeastern Alaska to California, a bright yellow creature glides over the ground: the banana slug. It can move about 16.5 centimetres per minute. That is close to 10 metres per hour, more than six times as fast as the seahorse. The Pacific banana slug is the second-largest land slug in the world. It can reach 25 centimetres in length and weigh up to 115 grams. Drying out is its greatest enemy. That is why it coats its body in a thick layer of mucus and comes out mostly at night or on cool, damp days. If it loses one of its tentacles, it can grow a new one."
+  },
+  {
+   "type": "creature",
+   "depth": 0.24,
+   "name": "Tembel Hayvan",
+   "latin": "Bradypus",
+   "range": "0,24 km/sa",
+   "name_en": "Three-toed Sloth",
+   "text": "Orta ve Güney Amerika'nın yağmur ormanlarında, ağaçların tepesinde baş aşağı asılı bir memeli yaşıyor: üç parmaklı tembel hayvan. Bilimsel adı Bradypus, eski Yunancada yavaş ayaklı demek. Ortalama hızı saatte iki yüz kırk metre. Küçük bir köpek ya da iri bir kedi büyüklüğünde, ağırlığı üç buçuk ile dört buçuk kilogram arasında. İç organları kaburgalarına bağlı, böylece baş aşağı asılırken akciğerlerini ezmiyor. Yaprakla besleniyor ve metabolizması o kadar yavaş ki tek bir yaprağın sindirim yolunu geçmesi yaklaşık bir ay sürüyor. Haftada yalnızca bir kez tuvalet için yere iniyor. Karada zorlanıyor ama şaşırtıcı biçimde iyi bir yüzücü.",
+   "text_en": "In the rainforests of Central and South America, a mammal hangs upside down in the treetops: the three-toed sloth. Its scientific name, Bradypus, means slow-footed in Ancient Greek. Its average speed is 240 metres per hour. It is the size of a small dog or a large cat and weighs between 3.5 and 4.5 kilograms. Its internal organs are attached to its ribs, so they do not crush its lungs while it hangs upside down. It feeds on leaves, and its metabolism is so slow that a single leaf takes about a month to pass through its digestive tract. It comes down to the ground only once a week to defecate. It struggles on land, but surprisingly it is a good swimmer."
+  },
+  {
+   "type": "creature",
+   "depth": 0.3,
+   "name": "Galápagos Kaplumbağası",
+   "latin": "Chelonoidis niger",
+   "range": "0,3 km/sa",
+   "name_en": "Galápagos Tortoise",
+   "text": "Ağır çekim bölgesinin lideri dünyanın en büyük kara kaplumbağası. Galápagos dev kaplumbağası dört yüz on yedi kilograma kadar çıkabiliyor ve doğada yüz yıldan fazla yaşıyor. Saatte yaklaşık üç yüz metre hızla yürüdüğü gözlendi. Kabuğunun şekli adadan adaya değişiyor. Charles Darwin bin sekiz yüz otuz beşte bu farkları gözlemledi ve bu gözlemler evrim teorisinin gelişmesine katkı sağladı. On altıncı yüzyılda sayıları iki yüz elli bini aşıyordu. Bin dokuz yüz yetmişlerde on beş bin civarına düştü, bugün ise koruma çalışmalarıyla yeniden on dokuz bini geçti.",
+   "text_en": "The leader of the slow-motion zone is the largest tortoise in the world. The Galápagos giant tortoise can weigh up to 417 kilograms and lives for more than 100 years in the wild. It has been observed walking at about 300 metres per hour. Its shell shape varies from island to island. Charles Darwin observed these differences in 1835, and those observations contributed to the development of his theory of evolution. In the 16th century there were more than 250,000 of them. By the 1970s their numbers had fallen to around 15,000; today, thanks to conservation work, they have risen above 19,000 again."
+  },
+  {
+   "type": "zone",
+   "depth": 1,
+   "name": "YÜRÜYÜŞ",
+   "range": "1 – 30 km/sa",
+   "range_en": "1 – 30 km/h",
+   "name_en": "WALKING PACE",
+   "text": "Göstergemiz artık kilometreyle sayıyor. Bu bölge, bizim de günlük hayatta bildiğimiz hızların bölgesi: yürüyüş ve hafif koşu. Burada hız, avlanmanın ve kaçmanın aracı olmaya başlıyor. Su altında yüzen bir memeliyle ve suyun üstünde koşan bir kertenkeleyle tanışacağız. Ama önce kendi hızımıza bakalım. Çünkü bu yolculukta her hayvanı, en iyi tanıdığımız ölçüyle, yani kendimizle de kıyaslayacağız.",
+   "text_en": "Our gauge now counts in kilometres. This is the zone of speeds we know from everyday life: walking and jogging. Here speed starts to become a tool for hunting and escaping. We will meet a mammal that swims underwater and a lizard that runs on the surface of water. But first, let us look at our own speed. On this journey we will compare every animal with the measure we know best: ourselves."
+  },
+  {
+   "type": "landmark",
+   "depth": 5,
+   "name": "Yürüyen bir insan",
+   "value": "~5 km/sa",
+   "value_en": "~5 km/h",
+   "name_en": "A Walking Person",
+   "text": "İnsanların kendiliğinden seçtiği yürüyüş hızı, araştırmalara göre saatte yaklaşık dört ile altı kilometre arasında. Bu, az önce tanıştığımız dev kaplumbağanın en az on üç katı. Ama birazdan göreceğimiz gibi, doğada bu hız oldukça mütevazı kalıyor.",
+   "text_en": "According to research, the walking speed people naturally choose is between about 4 and 6 kilometres per hour. That is at least 13 times as fast as the giant tortoise we just met. But as we will soon see, in nature this speed is rather modest."
+  },
+  {
+   "type": "creature",
+   "depth": 9,
+   "name": "Deniz Samuru",
+   "latin": "Enhydra lutris",
+   "range": "9 km/sa",
+   "name_en": "Sea Otter",
+   "text": "Kuzey Pasifik kıyılarında yaşayan deniz samuru, gelincikgiller ailesinin en ağır üyesi ama deniz memelilerinin en küçüklerinden biri. Suyun altında vücudunun arka kısmını, kuyruğunu ve arka ayaklarını yukarı aşağı oynatarak ilerliyor ve saatte dokuz kilometreye kadar hız yapabiliyor. Çoğu deniz memelisini soğuktan bir yağ tabakası korurken, deniz samurunu hayvanlar âleminin en yoğun kürkü koruyor. Deniz tabanına dalarak deniz kestanesi, yumuşakça ve kabuklu topluyor. Kabukları kırmak için taş kullanıyor, yani alet kullanan az sayıdaki memeliden biri. Kürkü için o kadar avlandı ki bin dokuz yüz on bire gelindiğinde dünyada yalnızca bir iki bin birey kalmıştı. Bugün hâlâ nesli tehlike altında.",
+   "text_en": "The sea otter of the North Pacific coasts is the heaviest member of the weasel family, yet one of the smallest marine mammals. Underwater it moves by beating the rear of its body, its tail and hind feet up and down, reaching speeds of up to 9 kilometres per hour. While most marine mammals are protected from the cold by a layer of blubber, the sea otter is protected by the densest fur in the animal kingdom. It dives to the sea floor to collect sea urchins, molluscs and crustaceans. It uses stones to crack shells, making it one of the few mammals that use tools. It was hunted so heavily for its fur that by 1911 only one or two thousand remained in the world. Today it is still endangered."
+  },
+  {
+   "type": "creature",
+   "depth": 24.1,
+   "name": "Basilisk Kertenkelesi",
+   "latin": "Basiliscus basiliscus",
+   "range": "24 km/sa",
+   "name_en": "Common Basilisk",
+   "text": "Orta ve Güney Amerika'nın yağmur ormanlarında, nehir kenarlarında suyun üstünde koşabilen bir kertenkele yaşıyor. Bu yeteneği yüzünden ona İsa kertenkelesi de deniyor. Suyun üzerinde ortalama saatte yirmi dört kilometre hızla koşuyor ve bu, karadaki hızından yalnızca biraz daha yavaş. Sırrı büyük arka ayaklarında. Parmaklarının kenarındaki deri kıvrımları küçük hava kabarcıklarını yakalayarak ona tutunacak bir yüzey sağlıyor. Gençler suyun üstünde on ile yirmi metre koşabiliyor. Daha ağır olan yetişkinler ise batmadan önce ancak birkaç metre gidebiliyor. Battığında bile sorun yok, çünkü iyi bir yüzücü ve yarım saate kadar su altında kalabiliyor.",
+   "text_en": "In the rainforests of Central and South America, along the riverbanks, lives a lizard that can run on water. Because of this ability it is also called the Jesus Christ lizard. On water it runs at an average of 24 kilometres per hour, only a little slower than its speed on land. The secret lies in its large hind feet. Flaps of skin along its toes trap tiny air bubbles, giving it a surface to push against. Young basilisks can run 10 to 20 metres on water, while the heavier adults manage only a few metres before sinking. Even sinking is no problem, because it is a good swimmer and can stay underwater for up to half an hour."
+  },
+  {
+   "type": "zone",
+   "depth": 30,
+   "name": "KOŞU",
+   "range": "30 – 65 km/sa",
+   "range_en": "30 – 65 km/h",
+   "name_en": "RUNNING",
+   "text": "Şimdi koşu bölgesine giriyoruz. Burada artık bir insanın en iyi hâlinde bile yetişemeyeceği hızlar başlıyor. Uzun bacaklar, esnek omurgalar ve güçlü kaslar burada öne çıkıyor. Bu bölgenin hayvanları hızlarını farklı amaçlarla kullanıyor. Kimi avını yakalamak, kimi kaçmak, kimi de uçsuz bucaksız çöllerde su ve besin bulmak için. Bu bölgede bir penguen, dev bir kuş, bir okyanus avcısı ve iki iri memeli var.",
+   "text_en": "Now we enter the running zone. Here begin speeds that even the best human could not match. Long legs, flexible spines and powerful muscles come to the fore. The animals of this zone use their speed for different purposes: some to catch prey, some to escape, and some to find water and food in vast deserts. In this zone there is a penguin, a giant bird, an ocean hunter and two large mammals."
+  },
+  {
+   "type": "creature",
+   "depth": 36,
+   "name": "Gentoo Pengueni",
+   "latin": "Pygoscelis papua",
+   "range": "36 km/sa",
+   "name_en": "Gentoo Penguin",
+   "text": "Karada paytak paytak yürüyen penguenler suya girince bambaşka hayvanlara dönüşüyor. Gentoo pengueni, bütün penguenler içinde su altında en hızlı yüzen tür. Saatte otuz altı kilometreye kadar hız yapabiliyor. Boyu yetmiş ile doksan santimetre arasında. İmparator ve kral pengueninden sonra dünyanın üçüncü büyük pengueni. Turuncu kırmızı gagası ve başındaki beyaz şeritle kolayca tanınıyor. Falkland Adaları, Güney Georgia ve Kerguelen gibi Antarktika çevresindeki adalarda ve Antarktika Yarımadası'nda kuluçkaya yatıyor. Balık, kril gibi kabuklular ve kalamarla besleniyor.",
+   "text_en": "Penguins that waddle on land turn into completely different animals in the water. The gentoo penguin is the fastest underwater swimmer of all penguins. It can reach speeds of up to 36 kilometres per hour. It stands between 70 and 90 centimetres tall. After the emperor and king penguins, it is the third-largest penguin in the world. It is easy to recognise by its orange-red bill and the white stripe across its head. It breeds on islands around Antarctica such as the Falklands, South Georgia and Kerguelen, and on the Antarctic Peninsula. It feeds on fish, crustaceans such as krill, and squid."
+  },
+  {
+   "type": "landmark",
+   "depth": 44.72,
+   "name": "Usain Bolt",
+   "value": "44,72 km/sa",
+   "value_en": "44.72 km/h",
+   "name_en": "Usain Bolt",
+   "text": "Şimdi bir insan rekoruna bakalım. Usain Bolt yüz metrede dokuz virgül elli sekiz saniyelik dünya rekorunu koşarken, altmışıncı ile sekseninci metreler arasında saniyede on iki virgül kırk iki metreye ulaştı. Bu, saatte yaklaşık kırk beş kilometre. Ölçülmüş en yüksek insan hızlarından biri. Bundan sonraki hayvanların hepsi bu hızı geçiyor.",
+   "text_en": "Let us look at a human record. While setting the 100-metre world record of 9.58 seconds, Usain Bolt reached 12.42 metres per second between the 60 and 80 metre marks. That is about 45 kilometres per hour, one of the highest human speeds ever measured. Every animal from here on is faster.",
+   "chapter": true
+  },
+  {
+   "type": "creature",
+   "depth": 48,
+   "name": "Emu",
+   "latin": "Dromaius novaehollandiae",
+   "range": "48 km/sa",
+   "name_en": "Emu",
+   "text": "Avustralya'nın en uzun boylu yerli kuşu emu, devekuşlarından sonra dünyanın en uzun boylu kuşu. Boyu bir metre doksan santimetreye kadar çıkabiliyor. Uçamıyor ama uzun mesafeler yürüyebilen güçlü bir koşucu ve gerektiğinde saatte kırk sekiz kilometre hızla koşabiliyor. Hem bitkilerle hem böceklerle besleniyor ve haftalarca yemek yemeden dayanabiliyor. Asıl şaşırtıcı olan aile hayatı. Yumurtaları erkek kuluçkaya yatırıyor. Yaklaşık sekiz hafta süren bu dönemde neredeyse hiç yemiyor, içmiyor ve epey kilo kaybediyor. Yavrular çıktıktan sonra da onlara babaları bakıyor.",
+   "text_en": "Australia's tallest native bird, the emu, is the tallest bird in the world after the ostriches. It can stand up to 1.9 metres tall. It cannot fly, but it is a powerful runner that can travel long distances and, when needed, sprint at 48 kilometres per hour. It eats both plants and insects and can go for weeks without food. Its family life is the real surprise. The male incubates the eggs. During this period of about eight weeks he hardly eats or drinks and loses a lot of weight. After the chicks hatch, it is the father who raises them."
+  },
+  {
+   "type": "creature",
+   "depth": 55.8,
+   "name": "Orka",
+   "latin": "Orcinus orca",
+   "range": "56 km/sa",
+   "name_en": "Orca",
+   "text": "Katil balina olarak da bilinen orka, aslında okyanus yunuslarının en büyük üyesi. Saniyede on beş buçuk metreye, yani saatte yaklaşık elli altı kilometreye kadar hız yapabiliyor. Erkekler altı ile sekiz metre uzunluğa ulaşıyor ve altı tondan ağır geliyor. En iri erkekler on tonu aşabiliyor. Her grubun kendine özgü av teknikleri var ve bu teknikler kuşaktan kuşağa aktarılıyor. Bilim insanları bunu bir tür hayvan kültürü olarak görüyor. Antarktika'da bazı orkalar buz kütlesi üstünde dinlenen fokları görünce birlikte yüzüp dalga yaratıyor ve foku buzdan suya düşürüyor. Bazı bölgelerde ise büyük beyaz köpekbalıklarını sırtüstü çevirip hareketsiz bırakarak avladıkları gözlendi.",
+   "text_en": "The orca, also known as the killer whale, is actually the largest member of the oceanic dolphin family. It can reach 15.5 metres per second, or about 56 kilometres per hour. Males grow 6 to 8 metres long and weigh more than 6 tonnes; the largest males can exceed 10 tonnes. Each group has its own hunting techniques, passed down from generation to generation, and scientists see this as a form of animal culture. In Antarctica, some orcas that spot seals resting on ice floes swim together to make waves that wash the seal off the ice into the water. Elsewhere they have been seen hunting great white sharks by flipping them onto their backs, which leaves them motionless."
+  },
+  {
+   "type": "creature",
+   "depth": 60,
+   "name": "Zürafa",
+   "latin": "Giraffa camelopardalis",
+   "range": "60 km/sa",
+   "name_en": "Giraffe",
+   "text": "Karada yaşayan en uzun boylu hayvan olan zürafa, beş virgül yedi metreye kadar boy atabiliyor. Bu kadar uzun bacaklar hantal görünebilir ama zürafa saatte altmış kilometreye kadar koşabiliyor ve saatte elli kilometrelik hızı birkaç kilometre boyunca koruyabiliyor. Afrika'nın savanlarında ve açık ormanlarında yaşıyor. Diğer otçulların ulaşamadığı yükseklikteki dallardan, özellikle akasya ağaçlarından yaprak, meyve ve çiçek koparıyor. Bunun için yaklaşık kırk beş santimetrelik bir dili var. Erkekler boyunlarını bir silah gibi savurarak dövüşüyor. Bu boyun güreşleri sürüdeki hiyerarşiyi belirliyor. Aslanlar, leoparlar, sırtlanlar ve Afrika yaban köpekleri zürafayı avlayabiliyor.",
+   "text_en": "The tallest living land animal, the giraffe can grow up to 5.7 metres tall. Such long legs may look clumsy, but a giraffe can run at up to 60 kilometres per hour and keep up 50 kilometres per hour for several kilometres. It lives in the savannas and open woodlands of Africa. It picks leaves, fruit and flowers, especially from acacia trees, at heights other herbivores cannot reach, using a tongue about 45 centimetres long. Males fight by swinging their necks like weapons, and these necking bouts set the hierarchy of the herd. Lions, leopards, hyenas and African wild dogs can prey on giraffes."
+  },
+  {
+   "type": "creature",
+   "depth": 60,
+   "name": "Kızıl Kanguru",
+   "latin": "Osphranter rufus",
+   "range": "60 km/sa",
+   "name_en": "Red Kangaroo",
+   "text": "Kızıl kanguru hem kanguruların en büyüğü hem de bugün yaşayan en büyük keseli hayvan. Aynı zamanda Avustralya'ya özgü en büyük kara memelisi. Güçlü arka bacaklarıyla zıplayarak ilerliyor ve saatte yaklaşık altmış kilometreye ulaşabiliyor. Kalın ve güçlü kuyruğu dik dururken bir sehpanın üçüncü ayağı gibi destek oluyor. Erkekler genellikle elli beş ile doksan kilogram arasında geliyor ve dişilerin yaklaşık iki katı ağırlığında. Kaydedilen en büyük erkek iki metre on santimetre boyunda ve doksan bir kilogramdı.",
+   "text_en": "The red kangaroo is the largest of all kangaroos and the largest living marsupial. It is also the largest land mammal native to Australia. It moves by hopping on its powerful hind legs and can reach about 60 kilometres per hour. When it stands upright, its thick, strong tail supports it like the third leg of a tripod. Males usually weigh between 55 and 90 kilograms, about twice as much as females. The largest confirmed male was 2.1 metres tall and weighed 91 kilograms."
+  },
+  {
+   "type": "zone",
+   "depth": 65,
+   "name": "SPRİNT",
+   "range": "65 – 100 km/sa",
+   "range_en": "65 – 100 km/h",
+   "name_en": "SPRINT",
+   "text": "Şimdi sprint bölgesindeyiz. Bu hızlarda bir otomobil şehir dışı yolda gidiyor. Burada yarışın iki tarafı var. Bir yanda kovalayanlar, bir yanda kaçanlar. Afrika'nın savanları bu bölgenin asıl sahnesi. Ama burada bir köpekbalığıyla, rekor kıran bir yumrukla ve gökyüzünden süzülen minik bir kuşla da karşılaşacağız. Göstergenin ibresi artık hızla sağa kayıyor.",
+   "text_en": "Now we are in the sprint zone. At these speeds a car is driving on a country road. The race here has two sides: the hunters and the hunted. The savannas of Africa are the main stage of this zone. But we will also meet a shark, a record-breaking punch and a tiny bird that drops out of the sky. The needle is now swinging quickly to the right.",
+   "music_switch": true
+  },
+  {
+   "type": "creature",
+   "depth": 66,
+   "name": "Afrika Yaban Köpeği",
+   "latin": "Lycaon pictus",
+   "range": "66 km/sa",
+   "name_en": "African Wild Dog",
+   "text": "Benekli kürküyle boyanmış köpek olarak da anılan Afrika yaban köpeği, Afrika'nın en büyük yabani köpekgili. Avını saatte altmış altı kilometreye varan hızlarla, on ile altmış dakika boyunca kovalayabiliyor. Asıl gücü hızından çok dayanıklılığı ve takım çalışması. Kovalamacalarının çoğu zaman yüzde altmışından fazlası başarıyla bitiyor, bazen bu oran yüzde doksana çıkıyor. Okavango'da şaşırtıcı bir davranış gözlendi. Sürü ava çıkmadan önce toplanıyor ve hapşırarak oy veriyor. Yeterince köpek hapşırırsa sürü yola koyuluyor. Bugün yalnızca altı bin altı yüz kadar yetişkin kaldı ve nesli tehlike altında.",
+   "text_en": "Also known as the painted dog because of its mottled coat, the African wild dog is the largest wild canine in Africa. It can chase its prey at speeds of up to 66 kilometres per hour for 10 to 60 minutes. Its real strength is not speed but stamina and teamwork. More than 60 percent of their chases often end in a kill, sometimes as many as 90 percent. In the Okavango, a surprising behaviour has been observed: before setting out on a hunt, the pack gathers and votes by sneezing. If enough dogs sneeze, the pack sets off. Only about 6,600 adults remain today, and the species is endangered."
+  },
+  {
+   "type": "creature",
+   "depth": 70,
+   "name": "Avrupa Yabani Tavşanı",
+   "latin": "Lepus europaeus",
+   "range": "70 km/sa",
+   "name_en": "European Hare",
+   "text": "Avrupa ve Asya'nın açık arazilerinde yaşayan Avrupa yabani tavşanı, en büyük tavşan türlerinden biri. Saatte yetmiş kilometreye kadar koşabiliyor. Normalde gece hareket eden ürkek bir hayvan ama ilkbaharda davranışları değişiyor. Gündüz vakti tarlalarda birbirini kovalıyorlar ve bazen ön ayaklarıyla birbirlerine vurarak boks yapıyorlar. Bu dövüşler sadece erkekler arasında değil. Dişiler de çiftleşmeye hazır olmadıklarını göstermek ya da erkeği sınamak için vurabiliyor. Yuva kazmıyor, yerdeki sığ bir çukurda doğuruyor. Yavrular doğar doğmaz hareket edebiliyor. Bir dişi yılda üç kez doğurabiliyor ve tavşanlar on iki yıla kadar yaşayabiliyor.",
+   "text_en": "Living in the open country of Europe and Asia, the European hare is one of the largest hare species. It can run at up to 70 kilometres per hour. Normally it is a shy animal active at night, but in spring its behaviour changes. Hares chase each other across the fields in broad daylight and sometimes strike one another with their front paws, boxing. These fights are not only between males: females may also hit males to show they are not ready to mate or to test them. It does not dig a burrow but gives birth in a shallow hollow on the ground, and the young can move as soon as they are born. A female can give birth three times a year, and hares can live for up to twelve years."
+  },
+  {
+   "type": "creature",
+   "depth": 70,
+   "name": "Devekuşu",
+   "latin": "Struthio camelus",
+   "range": "70 km/sa",
+   "name_en": "Common Ostrich",
+   "text": "Dünyanın en büyük kuşu devekuşu uçamıyor ama iki ayak üstünde koşan en hızlı hayvan. Saatte elli beş kilometre hızı uzun süre koruyabiliyor, kısa atılımlarda ise yetmiş kilometreye ulaşıyor. Tek bir adımda üç ile beş metre mesafe katedebiliyor. Afrika'nın açık arazilerinde, beş ile elli kuştan oluşan gruplar hâlinde dolaşıyor. Esas olarak bitkilerle besleniyor ama böcek ve küçük sürüngenleri de yiyor. Bugün yaşayan bütün kuşlar içinde en büyük yumurtayı devekuşu yumurtluyor. Keskin gözleri, hızı ve tehlikeli tekmeleri yüzünden yırtıcıların çoğu devekuşuyla uğraşmaktan kaçınıyor.",
+   "text_en": "The largest bird in the world, the ostrich cannot fly, but it is the fastest animal on two legs. It can keep up 55 kilometres per hour for a long time and reaches 70 kilometres per hour in short bursts. It can cover 3 to 5 metres in a single stride. It roams the open lands of Africa in groups of 5 to 50 birds. It feeds mainly on plants but also eats insects and small reptiles. Of all living birds, the ostrich lays the largest egg. Because of its sharp eyesight, its speed and its dangerous kick, most predators avoid tangling with an ostrich."
+  },
+  {
+   "type": "creature",
+   "depth": 74,
+   "name": "Kısa Yüzgeçli Mako",
+   "latin": "Isurus oxyrinchus",
+   "range": "74 km/sa",
+   "name_en": "Shortfin Mako Shark",
+   "text": "Okyanusun en hızlı köpekbalığı kısa yüzgeçli mako. Kısa atılımlarda saatte yetmiş dört kilometreye ulaşabiliyor. Dört metreyi aşan boyu ve beş yüz yetmiş kilogramı geçebilen ağırlığıyla hem büyük hem çevik bir avcı. Esas olarak kalamar ve kemikli balıklarla besleniyor. Uzun yolculuklar da yapabiliyor. İşaretlenen bir mako otuz yedi günde iki bin kilometreden fazla yüzdü. Oltaya takıldığında havaya yüksek sıçrayışlarıyla ünlü. Hatta oltaya takılan makoların tekneye atladığı vakalar bile bildirildi. Bugün Uluslararası Doğayı Koruma Birliği tarafından tehlike altında olarak sınıflandırılıyor.",
+   "text_en": "The fastest shark in the ocean is the shortfin mako. In short bursts it can reach 74 kilometres per hour. Growing longer than 4 metres and weighing more than 570 kilograms, it is a large and agile predator. It feeds mainly on squid and bony fish. It can also make long journeys: one tagged mako swam more than 2,000 kilometres in 37 days. It is famous for its high leaps into the air when hooked, and there are even reports of hooked makos jumping into boats. Today it is classified as Endangered by the International Union for Conservation of Nature."
+  },
+  {
+   "type": "creature",
+   "depth": 80,
+   "name": "Tavus Mantis Karidesi",
+   "latin": "Odontodactylus scyllarus",
+   "range": "80+ km/sa",
+   "name_en": "Peacock Mantis Shrimp",
+   "text": "Bu sıradaki canlı kendisi hızlı yüzmüyor. Onu bu sıraya taşıyan şey yumruğu. Hint ve Pasifik okyanuslarının deniz tabanında yaşayan tavus mantis karidesi, saatte seksen kilometreyi aşan bir hızla vuruyor. Bu, kaydedilmiş en hızlı hayvan yumruğu. Vuruşu bir tabancadan çıkan küçük bir mermiye benzetiliyor. İvmesi yerçekiminin on bin katını aşıyor ve her darbe yaklaşık bin beş yüz newton kuvvet taşıyor. Vuruş o kadar hızlı ki suda kabarcıklar oluşuyor. Bu kabarcıklar patlarken ısı açığa çıkıyor ve avının kabuğunu ikinci kez zayıflatıyor. Gözlerinde on iki farklı ışık algılayıcı var. Bu sayede polarize ışığı bile ayırt edebiliyor.",
+   "text_en": "The next creature does not swim fast itself. What earns it this place is its punch. The peacock mantis shrimp, which lives on the sea floor of the Indian and Pacific oceans, strikes at more than 80 kilometres per hour. It is the fastest punch ever recorded for an animal. Its strike has been compared to a small bullet fired from a handgun. Its acceleration exceeds 10,000 times the force of gravity, and each blow carries about 1,500 newtons of force. The strike is so fast that bubbles form in the water. As these bubbles collapse they release heat, weakening the prey's shell a second time. Its eyes have 12 different types of light receptors, which let it distinguish even polarised light."
+  },
+  {
+   "type": "creature",
+   "depth": 80,
+   "name": "Thomson Ceylanı",
+   "latin": "Eudorcas thomsonii",
+   "range": "80 km/sa",
+   "name_en": "Thomson's Gazelle",
+   "text": "Doğu Afrika'nın en yaygın ceylanı Thomson ceylanı. Sayıları iki yüz bini aşıyor ve saatte seksen kilometreye kadar koşabiliyor. Bu küçük antilobun en büyük düşmanı çita. Çita ondan daha hızlı ama ceylanın da kendi kozları var. Uzun kovalamacalarda çitadan daha uzun dayanabiliyor ve çok daha keskin dönüşler yapabiliyor. Böğrü boyunca uzanan siyah şeridi en belirgin özelliği. Zebralar ve mavi antiloplar gibi büyük otçulları izliyor, çünkü onlar uzun otları biçerek ceylanın sevdiği kısa ve taze otları açığa çıkarıyor. Doğada on ile on beş yıl yaşayabiliyor.",
+   "text_en": "The most common gazelle in East Africa is Thomson's gazelle. There are more than 200,000 of them, and they can run at up to 80 kilometres per hour. This small antelope's greatest enemy is the cheetah. The cheetah is faster, but the gazelle has its own advantages: in long chases it can outlast the cheetah, and it can make much sharper turns. Its most distinctive feature is the black stripe along its flank. It follows large grazers such as zebras and wildebeest, because they mow down the tall grass and expose the short, fresh grass the gazelle prefers. In the wild it can live 10 to 15 years."
+  },
+  {
+   "type": "creature",
+   "depth": 88,
+   "name": "Springbok",
+   "latin": "Antidorcas marsupialis",
+   "range": "88 km/sa",
+   "name_en": "Springbok",
+   "text": "Güney Afrika'nın açık arazilerinde yaşayan springbok, saatte seksen sekiz kilometre hızla ölçülmüş çok hızlı bir antilop. Onu en ünlü yapan davranışı ise sıçramaları. Springbok bacaklarını dimdik tutup sırtını kamburlaştırarak art arda havaya, yerden iki metreye kadar zıplıyor. Bu davranışa Afrikaans dilinde gösteriş yapmak anlamına gelen bir sözcükle pronking deniyor. Springbok çalı ve sukulent bitkilerle besleniyor ve sulu bitkilerden aldığı nemle yıllarca su içmeden yaşayabiliyor. Eskiden Kalahari'de ve Karoo'da muazzam sürüler hâlinde göç ederlerdi.",
+   "text_en": "Living in the open lands of southern Africa, the springbok is a very fast antelope that has been clocked at 88 kilometres per hour. What makes it most famous, though, is its leaping. With stiff legs and an arched back, the springbok bounces into the air again and again, up to 2 metres off the ground. This behaviour is called pronking, from an Afrikaans word meaning to show off. The springbok feeds on shrubs and succulents and can live for years without drinking water, getting moisture from juicy plants. In the past, huge herds migrated across the Kalahari and the Karoo."
+  },
+  {
+   "type": "creature",
+   "depth": 88.5,
+   "name": "Çatal Boynuzlu Antilop",
+   "latin": "Antilocapra americana",
+   "range": "88,5 km/sa",
+   "name_en": "Pronghorn",
+   "text": "Kuzey Amerika'nın çayırlarında yaşayan çatal boynuzlu antilop, adına rağmen gerçek bir antilop değil. Kendi ailesinden hayatta kalan tek tür ve en yakın akrabaları zürafa ile okapi. Amerika kıtasının en hızlı kara memelisi. Saatte seksen sekiz buçuk kilometreye kadar koşabiliyor. Ama asıl şaşırtıcı olan dayanıklılığı. Saatte elli altı kilometre hızı altı kilometre boyunca, saatte altmış yedi kilometreyi bir buçuk kilometreden fazla koruyabiliyor. Çok büyük gözleri yaklaşık üç yüz yirmi derecelik bir görüş alanı sağlıyor. Idaho'da yapılan bir çalışma, iki yüz elli kilometreyi aşan bir göç yolu ortaya çıkardı. Araştırmacılar onları Amerikan Batısı'nın gerçek maratoncuları olarak tanımlıyor.",
+   "text_en": "Living on the grasslands of North America, the pronghorn is, despite its nickname, not a true antelope. It is the only surviving member of its family, and its closest living relatives are the giraffe and the okapi. It is the fastest land mammal in the Americas, running at up to 88.5 kilometres per hour. Its stamina is even more surprising: it can hold 56 kilometres per hour for 6 kilometres, and 67 kilometres per hour for more than a kilometre and a half. Its very large eyes give it a field of vision of about 320 degrees. A study in Idaho revealed a migration route of more than 250 kilometres, and researchers describe pronghorns as the true marathoners of the American West."
+  },
+  {
+   "type": "creature",
+   "depth": 97.2,
+   "name": "Anna Sinekkuşu",
+   "latin": "Calypte anna",
+   "range": "97 km/sa",
+   "name_en": "Anna's Hummingbird",
+   "text": "Sprint bölgesinin lideri birkaç gramlık bir kuş. Kuzey Amerika'nın batı kıyılarında yaşayan Anna sinekkuşunun erkeği, kur yaparken gösteri dalışları yapıyor. Dişinin üstünde kırk metre kadar yükseliyor, sonra kendini aşağı bırakıyor. Dalışın sonuna doğru ortalama hızı saniyede yirmi yedi metreye, yani saatte yaklaşık doksan yedi kilometreye ulaşıyor. Bu, saniyede kendi vücut uzunluğunun üç yüz seksen beş katı demek. Dalışın en alt noktasında kuyruk tüyleri patlamaya benzer keskin bir ses çıkarıyor. Çiçek nektarıyla ve havada yakaladığı küçük böceklerle besleniyor.",
+   "text_en": "The leader of the sprint zone is a bird weighing just a few grams. The male Anna's hummingbird, which lives along the west coast of North America, performs display dives during courtship. It rises about 40 metres above the female, then lets itself drop. Near the end of the dive its average speed reaches 27 metres per second, about 97 kilometres per hour. That is 385 of its own body lengths per second. At the lowest point of the dive, its tail feathers produce a sharp, explosive squeak. It feeds on flower nectar and small insects caught in the air."
+  },
+  {
+   "type": "zone",
+   "depth": 100,
+   "name": "100 KULÜBÜ",
+   "range": "100 – 200 km/sa",
+   "range_en": "100 – 200 km/h",
+   "name_en": "THE 100 CLUB",
+   "text": "Göstergemiz üç haneli sayılara geçti. Saatte yüz kilometrenin üstüne çıkabilen hayvan sayısı çok az. Karada bunu yalnızca tek bir hayvan başarabiliyor. Gökyüzünde ise rüzgârı arkasına alan ve hayatının büyük kısmını havada geçiren kuşlar ile bir yarasa bu kulübe giriyor. Bu hızlarda hava direnci en büyük düşman, bu yüzden bu hayvanların gövdeleri ve kanatları birer aerodinamik harika.",
+   "text_en": "Our gauge has moved into three-digit numbers. Very few animals can go faster than 100 kilometres per hour. On land only one animal manages it. In the sky, birds that ride the wind and spend most of their lives in the air, along with one bat, join this club. At these speeds air resistance is the greatest enemy, so the bodies and wings of these animals are aerodynamic marvels."
+  },
+  {
+   "type": "creature",
+   "depth": 104,
+   "name": "Çita",
+   "latin": "Acinonyx jubatus",
+   "range": "104 km/sa",
+   "name_en": "Cheetah",
+   "text": "Karada yaşayan en hızlı hayvan çita. Saatte doksan üç ile yüz dört kilometre arasında koşabiliyor. Güvenilir biçimde ölçülen en yüksek hızı saatte yüz dört kilometre. Durarak saatte doksan yedi kilometreye üç saniyeden kısa sürede çıkabiliyor ama bu hızı ancak kısa bir süre koruyabiliyor. Kuyruğu bir dümen gibi çalışıyor ve keskin dönüşlerde dengesini sağlıyor. Pençeleri diğer kedilerinkinden kısa ve düz, ayrıca tam olarak içeri çekilemiyor. Aslanlar ve sırtlanlar ise sık sık avını elinden alıyor. Afrika'da ve İran'ın ortasında küçük, dağınık topluluklar hâlinde yaşıyor. İki bin yirmi birde dünyada yalnızca altı bin beş yüz on yedi yetişkin çita olduğu tahmin edildi.",
+   "text_en": "The fastest land animal is the cheetah. It can run at between 93 and 104 kilometres per hour, and the highest reliably measured speed is 104 kilometres per hour. From a standstill it can reach 97 kilometres per hour in under three seconds, but it can keep up this speed only briefly. Its tail works like a rudder, keeping it balanced in sharp turns. Its claws are shorter and straighter than those of other cats and only partly retractable. Lions and hyenas often steal its kills. It lives in small, scattered populations in Africa and central Iran. In 2021 there were estimated to be only 6,517 adult cheetahs in the world."
+  },
+  {
+   "type": "creature",
+   "depth": 111.6,
+   "name": "Ebabil",
+   "latin": "Apus apus",
+   "range": "112 km/sa",
+   "name_en": "Common Swift",
+   "text": "Yaz akşamlarında şehirlerin üstünde çığlık atarak dönen ebabiller, yatay uçuşta saatte yüz on bir virgül altı kilometreye kadar ölçülen bir hıza ulaşıyor. Ama ebabili asıl olağanüstü yapan şey havada geçirdiği zaman. Yuva yaptıkları dönem dışında hayatlarını gökyüzünde geçiriyorlar. Havada yakaladıkları böceklerle besleniyor, uçarken su içiyor, çoğu zaman uçarken çiftleşiyor ve hatta uçarken uyuyorlar. Bazı bireylerin on ay boyunca hiç yere inmediği belirlendi. Başka hiçbir kuş hayatının bu kadar büyük kısmını havada geçirmiyor. Bir ebabil ömrü boyunca milyonlarca kilometre yol katedebiliyor.",
+   "text_en": "Common swifts, which wheel screaming over cities on summer evenings, have been measured at up to 111.6 kilometres per hour in level flight. But what makes the swift truly extraordinary is how much time it spends in the air. Apart from the nesting season, swifts live their lives in the sky. They feed on insects caught in flight, drink on the wing, often mate in flight and even sleep while flying. Some individuals have been found to go 10 months without landing. No other bird spends so much of its life in flight. Over its lifetime a swift can travel millions of kilometres."
+  },
+  {
+   "type": "landmark",
+   "depth": 119,
+   "name": "1. kategori kasırga",
+   "value": "119 km/sa",
+   "value_en": "119 km/h",
+   "name_en": "Category 1 Hurricane",
+   "text": "Bir karşılaştırma daha. Saffir Simpson ölçeğine göre bir tropik fırtınanın kasırga sayılabilmesi için sürekli rüzgâr hızının en az saatte yüz on dokuz kilometre olması gerekiyor. Az sonra tanışacağımız iki uçucu, bu kasırga rüzgârından daha hızlı.",
+   "text_en": "Another comparison. On the Saffir-Simpson scale, a tropical cyclone counts as a hurricane only when its sustained winds reach at least 119 kilometres per hour. The two fliers we are about to meet are faster than this hurricane wind."
+  },
+  {
+   "type": "creature",
+   "depth": 153,
+   "name": "Büyük Firkateyn Kuşu",
+   "latin": "Fregata magnificens",
+   "range": "153 km/sa",
+   "name_en": "Magnificent Frigatebird",
+   "text": "Amerika kıtasının tropik denizlerinin üstünde süzülen büyük firkateyn kuşu, saatte yüz elli üç kilometreye kadar uçabiliyor ve dünyanın en hızlı kuşlarından biri sayılıyor. Kanat açıklığı iki metre on yedi santimetre ile iki metre kırk dört santimetre arasında. Firkateyn kuşları, vücut ağırlığına göre bütün kuşlar içinde en geniş kanat alanına sahip. Bu sayede neredeyse hiç kanat çırpmadan haftalarca süzülebiliyorlar. Uydu ile izlenen bir firkateyn kuşu iki ay boyunca havada kaldı. İşin ilginç yanı, bu deniz kuşu yüzemiyor ve sudan kolay havalanamıyor. Balıkları ve kalamarları su yüzeyinden kapıyor, bazen de diğer kuşları taciz ederek yakaladıkları avı kusmaya zorluyor.",
+   "text_en": "Gliding over the tropical seas of the Americas, the magnificent frigatebird can fly at up to 153 kilometres per hour and is counted among the fastest birds in the world. Its wingspan is between 2.17 and 2.44 metres. Frigatebirds have the largest wing area relative to body weight of any bird, which lets them soar for weeks with hardly a wingbeat. One satellite-tracked frigatebird stayed aloft for two months. Oddly, this seabird cannot swim and cannot take off easily from the water. It snatches fish and squid from the surface, and sometimes harasses other birds until they regurgitate their catch."
+  },
+  {
+   "type": "creature",
+   "depth": 160,
+   "name": "Serbest Kuyruklu Yarasa",
+   "latin": "Tadarida brasiliensis",
+   "range": "160 km/sa",
+   "name_en": "Mexican Free-tailed Bat",
+   "text": "Yatay uçuşta hayvanlar âleminin en hızlısı olduğu iddia edilen canlı bir kuş değil, bir yarasa. Meksika serbest kuyruklu yarasası, bir uçak izleme cihazıyla yere göre saatte yüz altmış kilometre hızda ölçüldü. Ölçüm sırasında rüzgâr hızı kaydedilmediği için bu sonuca güçlü rüzgârların da katkısı olmuş olabilir. Yine de bu küçük memeli etkileyici. Boyu yalnızca dokuz santimetre, ağırlığı yedi ile on iki gram. Yarasalar içinde en yükseğe uçan tür, üç bin üç yüz metre civarına kadar çıkabiliyor. Teksas'taki Bracken Mağarası'nda yaklaşık yirmi milyon yarasalık dünyanın bilinen en büyük kolonisi yaşıyor.",
+   "text_en": "The animal claimed to be the fastest in level flight is not a bird but a bat. The Mexican free-tailed bat was measured with an aircraft tracking device at a ground speed of 160 kilometres per hour. Because wind speed was not recorded during the measurement, strong gusts may have contributed to the result. Still, this little mammal is impressive. It is only 9 centimetres long and weighs 7 to 12 grams. It flies higher than any other bat, up to around 3,300 metres. Bracken Cave in Texas holds the largest known colony, with nearly 20 million bats."
+  },
+  {
+   "type": "zone",
+   "depth": 200,
+   "name": "PİKE",
+   "range": "200 – 400 km/sa",
+   "range_en": "200 – 400 km/h",
+   "name_en": "THE STOOP",
+   "text": "Son bölgeye geldik. Bu hızlara hiçbir hayvan kanat çırparak ya da koşarak ulaşamıyor. Burada en büyük yardımcı yerçekimi. Yırtıcı kuşlar yükseğe çıkıyor, kanatlarını gövdelerine yapıştırıyor ve bir mermi gibi aşağı dalıyor. Bu dalışa pike deniyor. Göstergemizin ibresi kırmızı bölgeye giriyor ve burada hızlı trenleri bile geride bırakan avcılarla karşılaşacağız.",
+   "text_en": "We have reached the final zone. No animal reaches these speeds by flapping its wings or running. Here the greatest helper is gravity. Birds of prey climb high, tuck their wings against their bodies and plunge down like a bullet. This is called a stoop. The needle of our gauge is entering the red zone, and here we will meet hunters that leave even bullet trains behind."
+  },
+  {
+   "type": "landmark",
+   "depth": 252,
+   "name": "5. kategori kasırga",
+   "value": "252 km/sa",
+   "value_en": "252 km/h",
+   "name_en": "Category 5 Hurricane",
+   "text": "Saffir Simpson ölçeğinin en üst basamağı olan beşinci kategori kasırgalarda sürekli rüzgâr hızı en az saatte iki yüz elli iki kilometre. Binaları yıkabilen bu rüzgârlar bile bu bölgenin avcılarına yetişemiyor.",
+   "text_en": "In Category 5 hurricanes, the top level of the Saffir-Simpson scale, sustained winds reach at least 252 kilometres per hour. Even these building-wrecking winds cannot keep up with the hunters of this zone."
+  },
+  {
+   "type": "landmark",
+   "depth": 320,
+   "name": "Shinkansen hızlı treni",
+   "value": "320 km/sa",
+   "value_en": "320 km/h",
+   "name_en": "Shinkansen Bullet Train",
+   "text": "Japonya'nın ünlü hızlı tren ağı Shinkansen'de bugün en yüksek işletme hızı saatte üç yüz yirmi kilometre. Bu, dünyanın en hızlı trenlerinden birinin yolcularıyla gidebildiği en yüksek hız. Şimdi tanışacağımız iki kuş, dalışlarında bu hıza ulaşabiliyor, hatta geçebiliyor.",
+   "text_en": "On Japan's famous Shinkansen bullet train network, the highest operating speed today is 320 kilometres per hour, the top speed at which one of the world's fastest trains carries its passengers. The two birds we are about to meet can reach, and even exceed, this speed in their dives.",
+   "chapter": true
+  },
+  {
+   "type": "creature",
+   "depth": 320,
+   "name": "Kaya Kartalı",
+   "latin": "Aquila chrysaetos",
+   "range": "240 – 320 km/sa",
+   "name_en": "Golden Eagle",
+   "text": "Kuzey Yarımküre'nin dağlarında ve açık arazilerinde yaşayan kaya kartalı, dünyada en geniş alana yayılmış kartal türü. Kanat açıklığı ortalama iki metre civarında. Normalde saatte kırk beş ile elli iki kilometre hızla, telaşsızca süzülüyor. Avlanırken ya da gösteri uçuşu yaparken saatte yüz doksan kilometreye kadar hızlanabiliyor. Ama asıl gücü dalışında. Bir ava doğru pike yaptığında hızı saatte iki yüz kırk ile üç yüz yirmi kilometreye ulaşabiliyor. Esas olarak yabani tavşan, tavşan, dağ sıçanı ve yer sincapları avlıyor. Avını güçlü ayakları ve büyük, keskin pençeleriyle yakalıyor.",
+   "text_en": "Living in the mountains and open country of the Northern Hemisphere, the golden eagle is the most widely distributed eagle species in the world. Its wingspan averages around 2 metres. Normally it soars unhurriedly at 45 to 52 kilometres per hour. When hunting or displaying, it can speed up to 190 kilometres per hour. But its real power is in the dive. When it stoops at prey, its speed can reach 240 to 320 kilometres per hour. It hunts mainly hares, rabbits, marmots and ground squirrels, seizing its prey with powerful feet and large, sharp talons."
+  },
+  {
+   "type": "creature",
+   "depth": 389,
+   "name": "Gökdoğan",
+   "latin": "Falco peregrinus",
+   "range": "389 km/sa",
+   "name_en": "Peregrine Falcon",
+   "text": "Ve zirvede dünyanın en hızlı hayvanı var: gökdoğan. Yatay uçuşta en hızlı kuş değil. Ama yükseğe çıkıp avına doğru neredeyse dikey bir pike yaptığında, hiçbir canlı ona yetişemiyor. İki bin beşte bir gökdoğanın dalış sırasında saatte üç yüz seksen dokuz kilometre hıza ulaştığı kaydedildi. Kutup bölgeleri, çok yüksek dağlar ve tropik yağmur ormanlarının çoğu dışında dünyanın hemen her yerinde yaşıyor. Dünyanın en yaygın yırtıcı kuşu. Bir zamanlar DDT gibi tarım ilaçları yüzünden birçok bölgede yok olma noktasına geldi. Bu ilaçlar yasaklandıktan sonra sayıları yeniden arttı. Bugün gökdelenlerin tepesinde yuva yapıp şehirlerdeki güvercinleri avlıyor.",
+   "text_en": "And at the top is the fastest animal in the world: the peregrine falcon. It is not the fastest bird in level flight. But when it climbs high and makes an almost vertical stoop toward its prey, nothing alive can catch it. In 2005, a peregrine was recorded reaching 389 kilometres per hour in a dive. It lives almost everywhere on Earth except the polar regions, very high mountains and most tropical rainforests, making it the most widespread bird of prey in the world. It was once driven to the brink in many areas by pesticides such as DDT. After these chemicals were banned, its numbers recovered. Today it nests on top of skyscrapers and hunts the pigeons of the cities."
+  },
+  {
+   "type": "outro",
+   "depth": 389,
+   "text": "Saatte bir buçuk metreyle ilerleyen bir denizatından, saatte üç yüz seksen dokuz kilometreyle dalan bir doğana kadar yolculuğumuz sona erdi. Gördük ki doğada hız tek bir yetenek değil. Tembel hayvan yavaşlığıyla enerjisini koruyor, yaban köpeği dayanıklılığıyla avını yoruyor, çita birkaç saniyelik bir patlamaya her şeyini koyuyor, gökdoğan ise yerçekimini kendi silahına çeviriyor. Bir de şunu hatırlayalım: Kendi boyuna göre en hızlı koşucu bir memeli ya da kuş değil, Kaliforniya'da yaşayan ve saniyede vücut uzunluğunun üç yüz yirmi iki katı koşan, milimetreden küçük bir akar. Bu yolculuğu beğendiyseniz kanala abone olmayı ve videoyu beğenmeyi unutmayın. Bir sonraki belgeselde görüşmek üzere.",
+   "text_en": "From a seahorse moving at a metre and a half per hour to a falcon diving at 389 kilometres per hour, our journey has come to an end. We have seen that in nature speed is not a single skill. The sloth saves energy by being slow, the wild dog wears down its prey with stamina, the cheetah puts everything into a burst of a few seconds, and the peregrine turns gravity into its weapon. And one more thing to remember: relative to its size, the fastest runner is not a mammal or a bird but a mite from California, smaller than a millimetre, that runs 322 of its body lengths per second. If you enjoyed this journey, don't forget to subscribe to the channel and like the video. See you in the next documentary."
+  }
+ ]
+}

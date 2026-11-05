@@ -1,0 +1,579 @@
+{
+ "02": [
+  {
+   "file": "02_0.jpg",
+   "src": "File:Hippocampus zosterae.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 2.0",
+   "author": "Will Thomas"
+  },
+  {
+   "file": "02_1.jpg",
+   "src": "File:Hippocampus zosterae 1.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 2.0",
+   "author": "Will Thomas"
+  }
+ ],
+ "03": [
+  {
+   "file": "03_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/553993108/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Andrew"
+  },
+  {
+   "file": "03_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/316553105/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Guerric Haché"
+  },
+  {
+   "file": "03_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/386617847/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Guerric Haché"
+  }
+ ],
+ "04": [
+  {
+   "file": "04_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/208720359/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Whaldener Endo"
+  },
+  {
+   "file": "04_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/93299426/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Naturalist Tours"
+  },
+  {
+   "file": "04_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/305659412/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Irene"
+  }
+ ],
+ "05": [
+  {
+   "file": "05_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/101295975/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Don Johnston"
+  },
+  {
+   "file": "05_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/111486424/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Jean-Paul Boerekamps"
+  },
+  {
+   "file": "05_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/111486445/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Jean-Paul Boerekamps"
+  }
+ ],
+ "08": [
+  {
+   "file": "08_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/414451145/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "steve b"
+  },
+  {
+   "file": "08_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/414451200/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "steve b"
+  },
+  {
+   "file": "08_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/547307909/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "steve b"
+  }
+ ],
+ "09": [
+  {
+   "file": "09_0.jpg",
+   "src": "File:Common basilisk (Basiliscus basiliscus) male.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Charles J. Sharp"
+  },
+  {
+   "file": "09_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/58684318/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Andra Waagmeester"
+  },
+  {
+   "file": "09_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/58684249/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Andra Waagmeester"
+  }
+ ],
+ "11": [
+  {
+   "file": "11_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/451204585/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "steve b"
+  },
+  {
+   "file": "11_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/449723573/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "steve b"
+  },
+  {
+   "file": "11_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/278663968/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Hugo Hulsberg"
+  }
+ ],
+ "13": [
+  {
+   "file": "13_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/337843504/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Joshua S. Martin"
+  },
+  {
+   "file": "13_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/193459799/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Bethlea Bell"
+  },
+  {
+   "file": "13_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/193459919/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Bethlea Bell"
+  }
+ ],
+ "14": [
+  {
+   "file": "14_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/452891030/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "steve b"
+  },
+  {
+   "file": "14_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/454446958/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "steve b"
+  },
+  {
+   "file": "14_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/452891247/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "steve b"
+  }
+ ],
+ "15": [
+  {
+   "file": "15_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/420681154/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Nico"
+  },
+  {
+   "file": "15_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/420681204/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Nico"
+  }
+ ],
+ "16": [
+  {
+   "file": "16_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/26434743/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Rolf Lawrenz"
+  },
+  {
+   "file": "16_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/439326092/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Joshua S. Martin"
+  },
+  {
+   "file": "16_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/31317917/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Dennis White"
+  }
+ ],
+ "18": [
+  {
+   "file": "18_0.jpg",
+   "src": "File:African wild dog (Lycaon pictus pictus).jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Charles J. Sharp"
+  },
+  {
+   "file": "18_1.jpg",
+   "src": "File:An African wild dog (Lycaon pictus) in Mpala, Laikipia.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Kengitau254"
+  },
+  {
+   "file": "18_2.jpg",
+   "src": "File:African wild dog (Lycaon pictus pictus) head.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Charles J. Sharp"
+  }
+ ],
+ "19": [
+  {
+   "file": "19_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/83663907/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Iain Robson"
+  },
+  {
+   "file": "19_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/76911873/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Jens Ullenius"
+  },
+  {
+   "file": "19_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/76911835/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Jens Ullenius"
+  }
+ ],
+ "20": [
+  {
+   "file": "20_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/419513491/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Nico"
+  },
+  {
+   "file": "20_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/97594763/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Dave Brown"
+  },
+  {
+   "file": "20_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/290500548/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Justin Philbois"
+  }
+ ],
+ "21": [
+  {
+   "file": "21_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/622604805/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Justin Philbois"
+  },
+  {
+   "file": "21_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/622604855/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Justin Philbois"
+  }
+ ],
+ "22": [
+  {
+   "file": "22_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/451267482/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "James Eaton"
+  },
+  {
+   "file": "22_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/724415927/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "laiet17"
+  },
+  {
+   "file": "22_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/451267488/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "James Eaton"
+  }
+ ],
+ "23": [
+  {
+   "file": "23_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/329854690/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Henggang Cui"
+  },
+  {
+   "file": "23_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/571758131/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Sunny Zhang 张迎新"
+  },
+  {
+   "file": "23_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/358889034/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Sunny Zhang 张迎新"
+  }
+ ],
+ "24": [
+  {
+   "file": "24_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/235254700/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "n_armstrong"
+  },
+  {
+   "file": "24_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/235185637/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "n_armstrong"
+  },
+  {
+   "file": "24_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/143587236/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Philipp"
+  }
+ ],
+ "25": [
+  {
+   "file": "25_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/147933023/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Craig Martin"
+  },
+  {
+   "file": "25_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/210681257/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Russ Namitz"
+  },
+  {
+   "file": "25_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/382424300/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Joshua Smith"
+  }
+ ],
+ "26": [
+  {
+   "file": "26_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/117315854/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Dario Taraborelli"
+  },
+  {
+   "file": "26_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/278895805/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "James Adney Zehr"
+  },
+  {
+   "file": "26_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/117315859/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Dario Taraborelli"
+  }
+ ],
+ "28": [
+  {
+   "file": "28_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/322098602/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Henggang Cui"
+  },
+  {
+   "file": "28_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/498329302/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Paula Zermoglio"
+  },
+  {
+   "file": "28_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/498329357/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Paula Zermoglio"
+  }
+ ],
+ "29": [
+  {
+   "file": "29_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/569897475/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "bdhimes"
+  },
+  {
+   "file": "29_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/337788022/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "James Eaton"
+  },
+  {
+   "file": "29_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/387500427/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Tero Linjama"
+  }
+ ],
+ "31": [
+  {
+   "file": "31_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/463593499/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "steve b"
+  },
+  {
+   "file": "31_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/463807692/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "steve b"
+  },
+  {
+   "file": "31_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/471706504/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "steve b"
+  }
+ ],
+ "32": [
+  {
+   "file": "32_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/554918928/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Frank Thomas Sautter"
+  },
+  {
+   "file": "32_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/205363309/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Adam Kranz"
+  },
+  {
+   "file": "32_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/554917902/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Frank Thomas Sautter"
+  }
+ ],
+ "36": [
+  {
+   "file": "36_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/202220990/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Braden J. Judson"
+  },
+  {
+   "file": "36_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/122564002/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Andy Kleinhesselink"
+  },
+  {
+   "file": "36_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/58168151/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Braden J. Judson"
+  }
+ ],
+ "37": [
+  {
+   "file": "37_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/475448213/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "steve b"
+  },
+  {
+   "file": "37_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/475448242/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "steve b"
+  },
+  {
+   "file": "37_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/552692614/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Gustavo Puente"
+  }
+ ]
+}
