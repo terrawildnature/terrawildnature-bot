@@ -1,0 +1,91 @@
+{
+  "name": "toko tukan",
+  "group": "kuş",
+  "hook_style": "tuhaf görünüm",
+  "title": [
+    [
+      [
+        "BU KUŞUN 20 CM'LİK",
+        "W"
+      ]
+    ],
+    [
+      [
+        "GAGASININ",
+        "W"
+      ],
+      [
+        "İÇİ",
+        "R"
+      ]
+    ],
+    [
+      [
+        "BOŞ",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "TOKO TUKANI",
+  "card_top": [
+    "Gagası erkeklerde ortalama",
+    "20 cm ama içi büyük oranda boş."
+  ],
+  "card_bottom": [
+    "Dili neredeyse gagası kadar",
+    "uzun ve yassı. Tukanların",
+    "en büyüğü; boyu ort. 56 cm."
+  ],
+  "right": [
+    "Güney Amerika'da Guyana'dan",
+    "Arjantin'e kadar yayılır.",
+    "Sık ormandan çok açık, ağaçlı",
+    "alanları ve Pantanal'ı sever.",
+    "Başlıca meyveyle beslenir."
+  ],
+  "loc": "Güney Amerika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.6,
+      "cy": 0.4,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.45,
+      "cy": 0.55,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.33,
+      "cy": 0.4,
+      "zoom": 2.4
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:041 Toco toucan in Encontro das Águas State Park Photo by Giles Laurent.jpg",
+      "author": "Giles Laurent",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Toco Toucan (Ramphastos toco) (29135198690).jpg",
+      "author": "Bernard DUPONT from FRANCE",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Toco toucan Parque das Aves 2.jpg",
+      "author": "Alex98",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Toko tukanının 20 santimetreye varan dev gagası dışarıdan ağır görünse de içi büyük oranda boş olduğu için şaşırtıcı derecede hafif. 🦜🌿\n\n#terrawildnature #ilginçbilgiler #tukan\n\n📷 Giles Laurent (CC BY-SA 4.0), Bernard DUPONT (CC BY-SA 2.0) / Wikimedia Commons"
+}
