@@ -1,0 +1,162 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Reawakening.mp3",
+    "start": 0,
+    "loudness": -27
+  },
+  "photos": {
+    "p1.jpg": "File:Sun bear(Helarctos malayanus) - Seoul Zoo.jpg",
+    "p2.jpg": "File:Malayan sun bear at Burgers Zoo.jpg",
+    "p3.jpg": "File:Sun-bear.jpg",
+    "p4.jpg": "File:Sun bear (Helarctos malayanus euryspilus) Sepilok.jpg",
+    "p5.jpg": "File:Sun Bear 6.jpg",
+    "p6.jpg": "File:Helarctos malayanus -Alma Park Zoo-8d.jpg",
+    "p7.jpg": "File:Helarctos malayanus malayanus 245798442.jpg",
+    "p8.jpg": "File:Sitting sun bear.jpg"
+  },
+  "segments": [
+    {
+      "text": "Bu ayı insanlar gibi yüz ifadelerini taklit edebiliyor.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Güneş ayısı, Güneydoğu Asya'nın tropikal ormanlarında yaşıyor.",
+      "image": "p3.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Ayıların en küçüğü; omuz yüksekliği yalnızca yetmiş santim.",
+      "image": "p2.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Adını göğsündeki turuncu ya da krem renkli hilal şeklindeki lekeden alıyor.",
+      "image": "p4.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Olağanüstü uzun diliyle böcekleri ve balı kovuklardan çıkarıyor.",
+      "image": "p5.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Güçlü pençeleriyle ağaçları yırtıp yabani arı yuvalarına ulaşıyor.",
+      "image": "p6.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Yerden iki ila yedi metre yükseklikte, ağaçlarda güneşleniyor ve uyuyor.",
+      "image": "p7.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Malayca adı bal ayısı anlamına geliyor.",
+      "image": "p8.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "motion": "zoom_out"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "motion": "pan_left"
+    }
+  ],
+  "cover": {
+    "image": "p8.jpg",
+    "cx": 0.5,
+    "cy": 0.25,
+    "title": [
+      [
+        [
+          "İNSANLAR GİBİ",
+          "R"
+        ]
+      ],
+      [
+        [
+          "YÜZ İFADESİ",
+          "W"
+        ]
+      ],
+      [
+        [
+          "TAKLİT EDEN",
+          "W"
+        ]
+      ],
+      [
+        [
+          "AYI",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "credits": [
+    {
+      "author": "Drcbrothephotographer",
+      "license": "CC0"
+    },
+    {
+      "author": "linda",
+      "license": "CC BY 2.0"
+    },
+    {
+      "author": "Rushenb",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Ryan E. Poplin",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "author": "Andrew Napier",
+      "license": "CC BY 2.0"
+    },
+    {
+      "author": "Jan Ebr",
+      "license": "CC BY 4.0"
+    },
+    {
+      "author": "Tambako The Jaguar",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Dünyanın en küçük ayısı güneş ayısı, 2019'da yayımlanan bir çalışmaya göre yüz ifadelerini gorillerle ve insanlarla kıyaslanabilecek hassasiyette taklit edebiliyor. 🐻🍯\n\n#terrawildnature #güneşayısı\n\n📷 linda (CC BY 2.0), Rushenb (CC BY-SA 4.0), Charles J. Sharp (CC BY-SA 4.0), Ryan E. Poplin (CC BY-SA 2.0), Andrew Napier (CC BY 2.0), Jan Ebr (CC BY 4.0), Tambako The Jaguar (CC BY-SA 2.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+  "group": "memeli",
+  "hook_style": "tuhaf yetenek",
+  "yt_title": "Yüz İfadesini Taklit Eden Ayı: Güneş Ayısı",
+  "en": {
+    "title": "The Smallest Bear That Mimics Faces: Sun Bear",
+    "description": "The sun bear, the smallest bear species, can mimic facial expressions with a precision comparable to gorillas and humans, according to a 2019 study."
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Ancient_Rite.ogg",
+    "start": 0,
+    "loudness": -27
+  },
+  "photos": {
+    "p1.jpg": "File:Synanceia verrucosa2.jpg",
+    "p2.jpg": "File:Poissons-pierres (Synanceia verrucosa) (Ifremer 00618-72964).jpg",
+    "p3.jpg": "File:Poisson-pierre (Synanceia verrucosa) photographié de nuit (Ifremer 00619-73124 - 29091).jpg",
+    "p4.jpg": "File:Synanceia verrucosa 108700907.jpg",
+    "p5.jpg": "File:Synanceia verrucosa 45897795.jpg",
+    "p6.jpg": "File:Synanceia verrucosa 66157027.jpg",
+    "p7.jpg": "File:Synanceia verrucosa 242553510.jpg",
+    "p8.jpg": "File:Synanceia verrucosa 399823348.jpg"
+  },
+  "segments": [
+    {
+      "text": "Taş gibi görünen bu balık dünyanın en zehirli balığı.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Adı resif taşbalığı; Kızıldeniz'den Pasifik'e kadar sığ resiflerde yaşıyor.",
+      "image": "p2.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Derisi siğil benzeri çıkıntılarla kaplı, bu yüzden kayalara karışıyor.",
+      "image": "p3.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Sırtında her biri iki zehir kesesi taşıyan on üç diken var.",
+      "image": "p4.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Bu dikenler bot tabanını bile delebiliyor.",
+      "image": "p5.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Ölümcül doz yalnızca on sekiz miligram.",
+      "image": "p6.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Avını kıpırdamadan bekliyor ve saniyenin yüzde birinde yakalıyor.",
+      "image": "p7.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Son yıllarda Doğu Akdeniz'de, Türkiye kıyılarında da görüldü.",
+      "image": "p8.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    }
+  ],
+  "cover": {
+    "image": "p4.jpg",
+    "cx": 0.5,
+    "cy": 0.4,
+    "title": [
+      [
+        [
+          "TAŞ GİBİ",
+          "R"
+        ]
+      ],
+      [
+        [
+          "AMA EN",
+          "W"
+        ]
+      ],
+      [
+        [
+          "ZEHİRLİ",
+          "W"
+        ]
+      ],
+      [
+        [
+          "BALIK",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "credits": [
+    {
+      "author": "DanielloFlorenco",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Jerome Paillet (IFREMER)",
+      "license": "CC BY 4.0"
+    },
+    {
+      "author": "João D'Andretta",
+      "license": "CC BY 4.0"
+    },
+    {
+      "author": "desertnaturalist",
+      "license": "CC BY 4.0"
+    },
+    {
+      "author": "Kai Squires",
+      "license": "CC BY 4.0"
+    },
+    {
+      "author": "shahar chaikin",
+      "license": "CC BY 4.0"
+    },
+    {
+      "author": "portioid",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Kayaya benzeyen resif taşbalığı, dünyanın en zehirli balığı olarak biliniyor ve sırtındaki 13 dikeniyle bot tabanını bile delebiliyor. 🪨🐟\n\n#terrawildnature #taşbalığı\n\n📷 DanielloFlorenco (CC BY-SA 4.0), Jerome Paillet (CC BY 4.0), João D'Andretta (CC BY 4.0), desertnaturalist (CC BY 4.0), Kai Squires (CC BY 4.0), shahar chaikin (CC BY 4.0), portioid (CC BY-SA 4.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+  "group": "balık",
+  "hook_style": "tehlike",
+  "yt_title": "Dünyanın En Zehirli Balığı: Resif Taşbalığı",
+  "en": {
+    "title": "The World's Most Venomous Fish: Reef Stonefish",
+    "description": "The reef stonefish looks like a rock but is the most venomous fish in the world, with 13 dorsal spines that can pierce boot soles."
+  }
+}
