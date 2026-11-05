@@ -1,0 +1,80 @@
+{
+  "name": "altın ok kurbağası",
+  "group": "amfibi",
+  "hook_style": "tehlike",
+  "title": [
+    [
+      [
+        "BU 6 CM'LİK KURBAĞA",
+        "W"
+      ]
+    ],
+    [
+      [
+        "10-20 İNSANI",
+        "R"
+      ]
+    ],
+    [
+      [
+        "ÖLDÜREBİLİR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "ALTIN OK KURBAĞASI",
+  "card_top": [
+    "Derisinde yaklaşık 1 mg zehir",
+    "taşır; 10-20 insana yeter."
+  ],
+  "card_bottom": [
+    "Zehri batrakotoksin, sinir",
+    "hücrelerini felç eder. Dünyanın",
+    "en zehirli hayvanı sayılır."
+  ],
+  "right": [
+    "Kolombiya'nın Pasifik kıyısındaki",
+    "Chocó yağmur ormanında yaşar.",
+    "Menzili 5.000 km²'den küçüktür.",
+    "Zehri yediği böceklerden alır;",
+    "esaret altında zehirsizleşir."
+  ],
+  "loc": "Kolombiya",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.45,
+      "cy": 0.35,
+      "zoom": 1.0
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.45,
+      "cy": 0.3,
+      "zoom": 1.8
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Phyllobates terribilis - Rana Dardo.jpg",
+      "author": "Biodiego88",
+      "license": "CC BY 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Golden Poison Frog PK.jpg",
+      "author": "Praschaya Kaushik",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Kolombiya yağmur ormanlarının yalnızca 6 santimlik altın ok kurbağası, derisinde taşıdığı yaklaşık 1 miligram batrakotoksinle 10-20 insanı öldürebilecek kadar zehre sahip. 🐸☠️\n\n#terrawildnature #ilginçbilgiler #altınokkurbağası\n\n📷 Biodiego88 (CC BY 4.0), Praschaya Kaushik (CC BY-SA 4.0) / Wikimedia Commons"
+}
