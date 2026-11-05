@@ -2,7 +2,7 @@
   "voice": "tr-TR-AhmetNeural",
   "rate": "+8%",
   "music": {
-    "file": "assets/music/Reawakening.mp3",
+    "file": "assets/music/Floating_Cities.mp3",
     "start": 0,
     "loudness": -27
   },

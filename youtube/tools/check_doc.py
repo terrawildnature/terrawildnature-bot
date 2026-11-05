@@ -66,6 +66,9 @@ def main(doc):
         errs.append(f"mekanik dosyası yok: youtube/mechanics/{mech}.py")
     elif mech in used and used[mech] != doc.name:
         errs.append(f"'{mech}' mekaniği daha önce kullanıldı ({used[mech]}); yeni bir mekanik seç ya da yaz")
+    sys.path.insert(0, str(Path(__file__).parent))   # owner's rule: different music in every video
+    from music import check_doc as music_check
+    errs += music_check(doc, j.get("music") or [])
     for k in ("title", "description", "tags", "hashtags", "thumb", "story"):
         if k not in meta:
             errs.append(f"meta.json: '{k}' eksik")

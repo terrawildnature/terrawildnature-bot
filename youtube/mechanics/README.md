@@ -4,6 +4,9 @@ Sahibinin kuralı: **her belgesel farklı bir konseptte ve farklı bir görsel m
 yeni bir mekanik tasarlanır, bu klasöre `<ad>.py` olarak eklenir ve `script.json` içinde `"mechanic": "<ad>"` ile kullanılır.
 Bir kez kullanılan mekanik (`youtube/published.md` içindeki `Mekanik:` satırları) bir daha kullanılmaz.
 
+**Mekanik konudan doğar:** video neyle ilgiliyse mekanik ve tasarım da onunla ilgili olmalı. Sahibinin beğendiği örnek: hız belgeselinde
+araba hız göstergesi (`speed_dial`). Genel bir kalıbı konuya giydirme; önce "bu konuyu en iyi hangi gösterge/nesne/grafik anlatır?" diye sor.
+
 İlham: dünyanın en çok izlenen belgesel ve hayvan kanalları (BBC Earth, National Geographic, Kurzgesagt, MetaBallStudios,
 RealLifeLore, Animalogic, Casual Geographic, TierZoo, Zoo / "who would win" kanalları, quiz kanalları). **Birebir kopyalama yok:**
 fikri al, kendi düzenini, renklerini, animasyonunu ve anlatım akışını kur.

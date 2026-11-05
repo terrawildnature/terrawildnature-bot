@@ -24,8 +24,14 @@ görsel sistemi de farklı olmalı: sayaç, geri sayım, tablo, harita, turnuva,
   seç ya da (tercihen) yeni bir mekanik tasarla ve `youtube/mechanics/<ad>.py` olarak yaz.
 - İlham: dünyanın en çok izlenen belgesel ve hayvan kanalları (README'de liste ve fikir havuzu). Birebir kopyalama değil; fikri alıp
   kendi düzenini, renklerini, animasyonunu kur, eklemeler yap.
-- Konu ve mekanik birbirine uymalı (ör. hız konusu → yarış pisti; dünyanın dört bir yanı → harita turu; gece avcıları → 24 saat saati).
-- Müzik, renk paleti, arka plan ve kapak tarzı da bir öncekinden farklı olsun.
+- **Mekanik ve tasarım konudan doğmalı (sahibinin kuralı):** video neyle ilgiliyse görsel sistem de onu anlatsın. Sahibi hız
+  belgeselindeki hız göstergesini (`speed_dial`) çok beğendi: örnek budur. Ör. hız → hız göstergesi/yarış pisti; boy → cetvel ve
+  ölçek dizisi; dünyanın dört bir yanı → harita turu; gece avcıları → 24 saat saati; zehir → zehir ölçeği/şişe; yaşam süresi → zaman
+  çizgisi; sesler → ses dalgası/desibel ölçer; ısı/soğuk → termometre. Renk paleti, arka plan, ikonlar ve kapak da konuyu yansıtsın.
+- Renk paleti, arka plan ve kapak tarzı bir öncekinden farklı olsun.
+- **Müzik her videoda farklı (sahibinin kuralı):** `python youtube/tools/music.py` önceki belgesellerde kullanılmamış parçaları ruh
+  haliyle listeler. Konuya uyan, hiç kullanılmamış iki parça seç (ör. gizemli konu → `mystery`, büyük göçler → `epic`/`calm`).
+  `check_doc.py` daha önce kullanılmış parçayı reddeder.
 - Standart katmanlar (sol sayaç `meter`, geri sayım `rank`, foto kartı) mekaniğin bir parçası olarak kullanılabilir ama video bir öncekine
   benzememeli. Sayaçsız düzende her segmentte `"depth": 0` yaz ve `journey` en az şunu içersin:
   `{"meter": false, "stats": [], "zones": [[0, 1, "-"]], "max": 1, "palette": [[0, [20, 40, 60]], [1, [20, 40, 60]]], "rays": 0, "particles": "dust", "glow": null, "range_label": "YAŞAM ALANI", "music": [...]}`.
@@ -80,7 +86,7 @@ Aşağıdaki örnek sayaçlı bir yolculuktur (yalnız alanları göstermek içi
 - `stats`: sayacın altındaki 3 değer. Her biri `x` (konum) ve `y` (değer) noktalarıyla doğrusal hesaplanır. Değerler gerçek olmalı (kaynağa bak). `style: "pct"` yüzde gösterir. `prefix`, `suffix`, `dec` (ondalık) kullanılabilir.
 - `palette`: arka plan rengi, konuma göre `[konum, [R, G, B]]`. İniş: açıktan koyuya. Çıkış (gökyüzü): açık maviden koyu laciverte. Mağara/yer altı: toprak kahvesinden siyaha.
 - `rays`: güneş ışınlarının görüneceği son konum (yoksa 0). `particles`: `marine` (su içi), `snow` (kar), `dust` (toz) ya da `null`. `glow`: bu konumdan sonra biyolüminesans pırıltıları (su altı konularında), yoksa `null`.
-- `music`: iki parça: `Reawakening.mp3` (sakin, görkemli), `Investigations.mp3` (gizemli), `Ancient_Rite.ogg` (vahşi, enerjik). İkinci parça `music_switch: true` olan bölgede başlar.
+- `music`: `assets/music/library.json` kütüphanesinden iki farklı parça (dosya adı, ör. `"Majestic_Hills.mp3"`). Daha önceki bir belgeselde kullanılmamış olmalı; `python youtube/tools/music.py` ile seç. İkinci parça `music_switch: true` olan bölgede başlar; iki parçanın ruh hali birbirinden farklı olsun (ör. sakin giriş → gerilimli ikinci yarı).
 
 **Sıralama belgeselleri** (boy, hız, yaşam süresi gibi): sayaç konumu canlının kendi değeridir ve her canlının değerleri farklıdır, bu yüzden:
 - `"stats": []` yap ve her creature segmentine kendi bilgilerini ekle: `"stats": [["AĞIRLIK", "150 ton"], ["YAŞAM", "90 yıl"], ["NEREDE", "Tüm okyanuslar"]]` (3 satır, değer ≤ 16 karakter, doğrulanmış).

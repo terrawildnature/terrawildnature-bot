@@ -2,7 +2,7 @@
   "voice": "tr-TR-AhmetNeural",
   "rate": "+8%",
   "music": {
-    "file": "assets/music/Ancient_Rite.ogg",
+    "file": "assets/music/Tectonic.mp3",
     "start": 0,
     "loudness": -27
   },
