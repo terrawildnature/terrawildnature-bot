@@ -1,0 +1,91 @@
+{
+  "name": "bombardıman böceği",
+  "group": "böcek/örümcek",
+  "hook_style": "tehlike",
+  "title": [
+    [
+      [
+        "BU BÖCEK",
+        "W"
+      ]
+    ],
+    [
+      [
+        "KAYNAYAN",
+        "R"
+      ],
+      [
+        " SPREY",
+        "W"
+      ]
+    ],
+    [
+      [
+        "FIŞKIRTIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "BOMBARDIMAN BÖCEĞİ",
+  "card_top": [
+    "Karnındaki iki kimyasalı",
+    "karıştırıp ısıtarak savunuyor."
+  ],
+  "card_bottom": [
+    "Karışım 100 °C'ye yaklaşıp",
+    "patlama sesiyle fışkırıyor.",
+    "Saniyede 500 darbeyle atılır."
+  ],
+  "right": [
+    "500'den fazla türü var.",
+    "Hidrokinon ve hidrojen",
+    "peroksit karışımını kullanır.",
+    "Sprey yaklaşık 70 darbeyle",
+    "saliselerde dışarı atılıyor."
+  ],
+  "loc": "Dünya geneli",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.55,
+      "cy": 0.42,
+      "zoom": 1.4
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.35,
+      "cy": 0.5,
+      "zoom": 1.8
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Brachinus-crepitans-11-fws.jpg",
+      "author": "Francisco Welter-Schultes",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Manchaca Brachinus - bombardier beetle 03.jpg",
+      "author": "VPaleontologist",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Brachinus P1650750a.jpg",
+      "author": "xpda",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Bombardıman böcekleri, karınlarında depoladıkları kimyasalları karıştırarak yaklaşık 100 °C'ye yaklaşan kaynar bir spreyi patlama sesiyle düşmanlarına fışkırtıyor. 💥🪲\n\n#terrawildnature #ilginçbilgiler #bombardımanböceği\n\n📷 VPaleontologist (CC BY-SA 4.0), xpda (CC BY-SA 4.0) / Wikimedia Commons"
+}

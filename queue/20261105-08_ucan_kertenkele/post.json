@@ -1,0 +1,73 @@
+{
+  "name": "uçan ejderha kertenkelesi",
+  "group": "sürüngen",
+  "hook_style": "tuhaf görünüm",
+  "title": [
+    [
+      [
+        "BU KERTENKELE",
+        "W"
+      ]
+    ],
+    [
+      [
+        "KABURGALARIYLA",
+        "R"
+      ]
+    ],
+    [
+      [
+        "KANAT YAPIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "UÇAN EJDERHA",
+  "card_top": [
+    "Uzayan kaburgaları, deri",
+    "kanatlarının iskeletini oluşturuyor."
+  ],
+  "card_bottom": [
+    "Ağaçtan ağaca kanat açıp",
+    "süzülüyor. Uçmaz; paraşüt",
+    "gibi pasif şekilde iner."
+  ],
+  "right": [
+    "Güneydoğu Asya'nın tropik",
+    "yağmur ormanlarında yaşar.",
+    "Orman kenarlarında dallar",
+    "üzerinde koşup gösteri yapar.",
+    "Dişi yuvayı toprağa kazar."
+  ],
+  "loc": "Güneydoğu Asya",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.55,
+      "cy": 0.33,
+      "zoom": 1.15
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.55,
+      "cy": 0.3,
+      "zoom": 1.0
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.52,
+      "cy": 0.27,
+      "zoom": 2.6
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "iNaturalist",
+      "author": "Ben Keen",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Güneydoğu Asya ormanlarının uçan ejderha kertenkelesi, uzayan kaburgalarının oluşturduğu deri kanatlarla ağaçtan ağaca süzülüyor. 🦎🌿\n\n#terrawildnature #ilginçbilgiler #uçanejderha"
+}
