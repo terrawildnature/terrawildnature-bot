@@ -1,0 +1,154 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Tempting_Secrets.mp3",
+    "start": 0,
+    "loudness": -27
+  },
+  "photos": {
+    "p1.jpg": "File:The elusive Superb Lyrebird - 004 Male singing (25842991551).jpg",
+    "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/457182176/original.jpg",
+    "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/457182144/original.jpg",
+    "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/457182222/original.jpg",
+    "p5.jpg": "File:CSIRO ScienceImage 10357 Superb Lyrebird Mt Buffalo Victoria.jpg",
+    "p6.jpg": "File:Menura novaehollandiae novaehollandiae - Flickr - Lip Kee.jpg",
+    "p7.jpg": "File:The elusive Superb Lyrebird - 007 Male singing (25817132292).jpg",
+    "p8.jpg": "File:The elusive Superb Lyrebird - 005 Male singing (25912016286).jpg"
+  },
+  "segments": [
+    {
+      "text": "Bu kuş ormandaki diğer kuşların seslerini taklit ediyor.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Adı lir kuşu.",
+      "image": "p2.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Erkeğin ötüşünün yüzde yetmiş ile seksenini taklitler oluşturuyor.",
+      "image": "p3.jpg",
+      "cx": 0.42,
+      "cy": 0.4,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Taklitleri o kadar kusursuz ki, taklit edilen kuşlar bile ayırt edemeyebiliyor.",
+      "image": "p4.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Kuyruğu yetmiş santimetreye ulaşıyor ve on altı tüyden oluşuyor.",
+      "image": "p5.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Kuyruğun dış tüyleri, adını aldığı lir çalgısına benziyor.",
+      "image": "p6.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Gösteri sırasında kuyruğunu bütün vücudunu örtecek şekilde açıyor.",
+      "image": "p7.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Avustralya'nın güneydoğu ormanlarında yaşıyor.",
+      "image": "p8.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    }
+  ],
+  "cover": {
+    "image": "p5.jpg",
+    "cx": 0.78,
+    "cy": 0.3,
+    "title": [
+      [
+        [
+          "ÖTÜŞÜNÜN",
+          "R"
+        ]
+      ],
+      [
+        [
+          "%70-80'İ",
+          "W"
+        ]
+      ],
+      [
+        [
+          "TAKLİT",
+          "W"
+        ]
+      ],
+      [
+        [
+          "LİR KUŞU",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "credits": [
+    {
+      "author": "Rexness",
+      "license": "CC BY 2.0"
+    },
+    {
+      "author": "John Manger, CSIRO",
+      "license": "CC BY 3.0"
+    },
+    {
+      "author": "Lip Kee",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "author": "John Cull",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "iNaturalist"
+    },
+    {
+      "author": "Martin Predavec",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "iNaturalist"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Avustralya'nın lir kuşu, erkeklerinin ötüşünün yüzde 70-80'ini diğer türlerin taklitlerinden oluşturuyor ve taklitleri o kadar kusursuz ki taklit edilen kuşlar bile ayırt edemeyebiliyor. 🐦🎶\n\n#terrawildnature #lirkuşu\n\n📷 Rexness (CC BY 2.0), John Manger, CSIRO (CC BY 3.0), Lip Kee (CC BY-SA 2.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+  "group": "kuş",
+  "hook_style": "sayı",
+  "yt_title": "Ötüşünün %70-80'i Taklit Olan Kuş: Lir Kuşu",
+  "en": {
+    "title": "The Superb Lyrebird: Most of Its Song Is Mimicry",
+    "description": "The superb lyrebird of southeastern Australia imitates other species so accurately that an estimated 70-80% of the male's song is mimicry."
+  }
+}
