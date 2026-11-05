@@ -1,0 +1,154 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Ancient_Rite.ogg",
+    "start": 0,
+    "loudness": -27
+  },
+  "photos": {
+    "p1.jpg": "File:Dendrolagus goodfellowi 2010-04-24.JPG",
+    "p2.jpg": "File:Tree Kangaroo On Log.jpg",
+    "p3.jpg": "File:Chester Tree Kangaroo.jpg",
+    "p4.jpg": "File:Taronga zoo, Sydney, Australia (15893002522).jpg",
+    "p5.jpg": "File:Goodfellow's tree-kangaroo (Dendrolagus goodfellowi) in Caversham Wildlife Park, September 2023 01.jpg",
+    "p6.jpg": "File:Goodfellow's tree-kangaroo (Dendrolagus goodfellowi) in Caversham Wildlife Park, September 2023 03.jpg",
+    "p7.jpg": "File:Dendrolagus goodfellowi -Melbourne Zoo, Australia-8a.jpg",
+    "p8.jpg": "File:Dendrolagus goodfellowi sitting 2010-04-24.JPG"
+  },
+  "segments": [
+    {
+      "text": "Bu kanguru ağaçlarda yaşıyor ve dokuz metreden atlayıp yere zarar görmeden iniyor.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Adı Goodfellow ağaç kangurusu.",
+      "image": "p2.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Yeni Gine'nin dağlık yağmur ormanlarında yaşıyor.",
+      "image": "p3.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Kanguruların aksine bacakları kollarından orantısız büyük değil.",
+      "image": "p4.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Güçlü kolları, dalları kavrayan kancalı pençelerle bitiyor.",
+      "image": "p5.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Uzun kuyruğu ona ağaçlarda denge sağlıyor.",
+      "image": "p6.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Yerde ise kuyruğu yüzünden öne eğilerek yavaş yürümek zorunda.",
+      "image": "p7.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Midesi, sığırlarınkine benzer şekilde yaprakları fermente ediyor.",
+      "image": "p8.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    }
+  ],
+  "cover": {
+    "image": "p5.jpg",
+    "cx": 0.42,
+    "cy": 0.5,
+    "title": [
+      [
+        [
+          "9 METREDEN",
+          "R"
+        ]
+      ],
+      [
+        [
+          "ATLAYIP",
+          "W"
+        ]
+      ],
+      [
+        [
+          "ZARARSIZ İNEN",
+          "W"
+        ]
+      ],
+      [
+        [
+          "KANGURU",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "credits": [
+    {
+      "author": "Captain-tucker",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "author": "TheRagingRhino",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Echo Severs",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "pelican from Tokyo, Japan",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "author": "Calistemon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Richard Ashurst",
+      "license": "CC BY 2.0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Yeni Gine'nin ağaç kangurusu Goodfellow, dokuz metre yükseklikten yere atlayıp hiçbir zarar görmeden inebiliyor. 🦘🌳\n\n#terrawildnature #ağaçkangurusu\n\n📷 Captain-tucker (CC BY-SA 3.0), TheRagingRhino (CC BY-SA 4.0), Echo Severs (CC BY-SA 4.0), pelican from Tokyo, Japan (CC BY-SA 2.0), Calistemon (CC BY-SA 4.0), Richard Ashurst (CC BY 2.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+  "group": "memeli",
+  "hook_style": "tuhaf yetenek",
+  "yt_title": "9 Metreden Atlayıp Zarar Görmeyen Ağaç Kangurusu",
+  "en": {
+    "title": "The Tree Kangaroo That Jumps 9 Metres Unharmed",
+    "description": "Goodfellow's tree-kangaroo of New Guinea has been known to jump to the ground from heights of 9 metres without harm."
+  }
+}
