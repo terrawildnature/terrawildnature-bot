@@ -1,0 +1,91 @@
+{
+  "name": "kılıç gagalı kolibri",
+  "group": "kuş",
+  "hook_style": "süperlatif",
+  "title": [
+    [
+      [
+        "BU KUŞUN GAGASI",
+        "W"
+      ]
+    ],
+    [
+      [
+        "VÜCUDUNDAN ",
+        "W"
+      ],
+      [
+        "UZUN",
+        "R"
+      ]
+    ],
+    [
+      [
+        "OLAN TEK KUŞ",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "KILIÇ GAGALI KOLİBRİ",
+  "card_top": [
+    "Gagası 8-12 cm uzunluğunda;",
+    "kuyruk hariç gövdesinden uzun."
+  ],
+  "card_bottom": [
+    "Gagası çok uzun olduğu için",
+    "tüylerini temizlerken gaga",
+    "yerine ayaklarını kullanır."
+  ],
+  "right": [
+    "Batı Venezuela'dan Bolivya'ya",
+    "kadar And ormanlarında yaşar.",
+    "Uzun çiçeklerden nektar içer,",
+    "özellikle çarkıfeleklerden.",
+    "Havada durur, geri de uçar."
+  ],
+  "loc": "And Dağları",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.4,
+      "cy": 0.45,
+      "zoom": 1.1
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.65,
+      "cy": 0.55,
+      "zoom": 1.1
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.55,
+      "cy": 0.45,
+      "zoom": 1.8
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Sword-billed hummingbird (Ensifera ensifera) Caldas.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Hilt Close-up (28704685461).jpg",
+      "author": "Andy Morffew",
+      "license": "CC BY 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Sword-billed hummingbird (male) at Guango Lodge, Ecuador (21310837273).jpg",
+      "author": "Andy Morffew",
+      "license": "CC BY 2.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Andlar'ın kılıç gagalı kolibrisi, gagası kuyruk hariç gövdesinden uzun olan bilinen tek kuş ve bu yüzden tüylerini ayaklarıyla temizliyor. 🌸🪶\n\n#terrawildnature #ilginçbilgiler #kılıçgagalıkolibri\n\n📷 Charles J. Sharp (CC BY-SA 4.0), Andy Morffew (CC BY 2.0) / Wikimedia Commons"
+}

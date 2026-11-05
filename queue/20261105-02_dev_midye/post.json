@@ -1,0 +1,87 @@
+{
+  "name": "dev midye",
+  "group": "deniz omurgasızı",
+  "hook_style": "sayı",
+  "title": [
+    [
+      [
+        "BU MİDYE 200 KİLOYU",
+        "W"
+      ]
+    ],
+    [
+      [
+        "AŞIP 100 YILDAN",
+        "R"
+      ]
+    ],
+    [
+      [
+        "FAZLA YAŞIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "DEV MİDYE",
+  "card_top": [
+    "En büyük çift kabuklu canlı;",
+    "boyu 120 cm'ye ulaşabilir."
+  ],
+  "card_bottom": [
+    "Besininin yaklaşık %65-70'i",
+    "içindeki alglerden gelir.",
+    "Mantosu yüzlerce göz noktalı."
+  ],
+  "right": [
+    "Hint-Pasifik'in sığ mercan",
+    "resiflerinde yaşar, 20 m'ye",
+    "kadar derinlikte bulunur.",
+    "Hermafrodittir; hem yumurta",
+    "hem sperm üretir."
+  ],
+  "loc": "Hint-Pasifik",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.1
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.55,
+      "cy": 0.5,
+      "zoom": 1.1
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.55,
+      "zoom": 1.5
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Große Riesenmuschel (Tridacna gigas), Amerikanisch-Samoa, Vereinigte Staaten.jpg",
+      "author": "USFWS - Pacific Region",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Living giant clam (Tridacna gigas), Waikiki Aquarium.JPG",
+      "author": "Wmpearl",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "File:Giant clam (Tridacna gigas) Michaelmas Cay.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Dünyanın en büyük çift kabuklusu dev midye 200 kilodan ağır olabiliyor, 100 yıldan fazla yaşıyor ve besininin büyük kısmını mantosundaki alglerden alıyor. 🐚🌊\n\n#terrawildnature #ilginçbilgiler #devmidye\n\n📷 Charles J. Sharp (CC BY-SA 4.0) / Wikimedia Commons"
+}

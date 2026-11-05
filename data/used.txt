@@ -286,3 +286,5 @@ ayçiçeği deniz yıldızı | Pycnopodia helianthoides
 Herkül böceği | Dynastes hercules
 güneş ayısı (Reels) | Helarctos malayanus
 resif taşbalığı (Reels) | Synanceia verrucosa
+kılıç gagalı kolibri | Ensifera ensifera
+dev midye | Tridacna gigas
