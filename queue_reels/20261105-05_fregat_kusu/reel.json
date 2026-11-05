@@ -1,0 +1,166 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Ascending_the_Vale.mp3",
+    "start": 0,
+    "loudness": -27
+  },
+  "group": "kuş",
+  "hook_style": "tuhaf yetenek",
+  "cover": {
+    "image": "p5.jpg",
+    "cx": 0.62,
+    "cy": 0.2,
+    "title": [
+      [
+        [
+          "GÜNLERCE",
+          "R"
+        ]
+      ],
+      [
+        [
+          "İNMEDEN",
+          "W"
+        ]
+      ],
+      [
+        [
+          "HAVADA",
+          "W"
+        ]
+      ],
+      [
+        [
+          "KALIYOR",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "photos": {
+    "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/463593499/original.jpeg",
+    "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/143913260/original.jpeg",
+    "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/42728735/original.jpg",
+    "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/463593633/original.jpeg",
+    "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/471706504/original.jpeg",
+    "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/471706486/original.jpeg",
+    "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/659843055/original.jpg",
+    "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/529881187/original.jpg"
+  },
+  "segments": [
+    {
+      "text": "Bu kuş günlerce hiç inmeden havada kalabiliyor.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Muhteşem fregat kuşu, fregat kuşlarının en büyüğü.",
+      "image": "p2.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Kanat açıklığı 2,4 metreye ulaşıyor ama ağırlığı en fazla 1,6 kilo.",
+      "image": "p3.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Saatte 153 kilometreye varan hızla uçabiliyor.",
+      "image": "p4.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Sıcak hava akımlarıyla 2.500 metre yüksekliğe kadar süzülüyor.",
+      "image": "p5.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Uçan balıkları avlıyor, bazen de başka kuşları kovalayıp yediklerini kusturuyor.",
+      "image": "p6.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Erkeğin kırmızı boğaz kesesi, çiftleşme mevsiminde balon gibi şişiyor.",
+      "image": "p7.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Yumurtadan sonra baba terk ediyor, anne yavruyu neredeyse bir yıl besliyor.",
+      "image": "p8.jpg",
+      "cx": 0.6,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    }
+  ],
+  "credits": [
+    {
+      "author": "steve b",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "iNaturalist"
+    },
+    {
+      "author": "Philipp",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "iNaturalist"
+    },
+    {
+      "author": "G Key",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "iNaturalist"
+    },
+    {
+      "author": "Steph Brulot-Sawchyn",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "iNaturalist"
+    },
+    {
+      "author": "Giselle Blythe",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "iNaturalist"
+    },
+    {
+      "author": "wilmotsenaratne",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "iNaturalist"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Muhteşem fregat kuşu, günlerce ve geceler boyunca havada kalıp saatte 153 kilometreye varan hızla uçabiliyor. 🐦🌊\n\n#terrawildnature #fregatkuşu\n\n🎵 Kevin MacLeod (CC BY)",
+  "yt_title": "Günlerce İnmeden Havada Kalan Kuş: Fregat",
+  "en": {
+    "title": "The Bird That Stays Airborne for Days: Frigatebird",
+    "description": "The magnificent frigatebird can stay in the air for days and nights on end and fly at speeds of up to 153 kilometers per hour."
+  }
+}
