@@ -1,0 +1,84 @@
+{
+  "name": "Solomon Adaları iskinki",
+  "group": "sürüngen",
+  "hook_style": "tuhaf yetenek",
+  "title": [
+    [
+      [
+        "BU KERTENKELENİN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "KUYRUĞU ",
+        "W"
+      ],
+      [
+        "BEŞİNCİ EL",
+        "R"
+      ]
+    ],
+    [
+      [
+        "GİBİ ÇALIŞIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "SOLOMON İSKİNKİ",
+  "card_top": [
+    "Bilinen en büyük iskink türü;",
+    "boyu 81 cm'ye ulaşabilir."
+  ],
+  "card_bottom": [
+    "Tamamen otçul; yaprak, çiçek",
+    "ve meyve yer. Sürüngenlerde",
+    "nadir olan plasenta taşır."
+  ],
+  "right": [
+    "Solomon Adaları ve Papua Yeni",
+    "Gine'de ağaçlarda yaşar.",
+    "Dilini sallayarak koku alır.",
+    "Aile grubu (circulus) hâlinde",
+    "yaşayan nadir sürüngendir."
+  ],
+  "loc": "Solomon Adaları",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.6,
+      "cy": 0.45,
+      "zoom": 1.1
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.05
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.35,
+      "cy": 0.3,
+      "zoom": 2.0
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Corucia zebrata (2).jpg",
+      "author": "TimVickers",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Corucia zebrata.jpg",
+      "author": "TimVickers",
+      "license": "Public domain",
+      "public_domain": true
+    }
+  ],
+  "caption": "Solomon Adaları iskinki, bilinen en büyük iskink türü olmasının yanında kuyruğunu beşinci bir uzuv gibi kullanıp ağaçlarda tırmanıyor. 🦎🌴\n\n#terrawildnature #ilginçbilgiler #iskink"
+}

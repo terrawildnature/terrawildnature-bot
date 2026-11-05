@@ -58,3 +58,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: Reels'te memeli (1,65) ve sayı kancası (1,24) güçlü, 20:00 güçlü; gönderide memeli/balık/sayı zayıf, 09:00/22:00 zayıf.
 - Bugün uygulanan: Reels 4'ten 7'ye: gaur (memeli, sayı), perentie (sürüngen, tuhaf yetenek), devasa papağan balığı (benzetme); gönderiler 6'dan 11'e: palmiye kakadusu (kuş, tuhaf yetenek), domuz burunlu kaplumbağa (benzetme), yelkenli kertenkele (tuhaf görünüm), ayçiçeği deniz yıldızı (sayı, keşif), Herkül böceği (süperlatif). Gönderide memeli/balık yok.
 - Sonra kontrol et: benzetme kancalı kaplumbağa/Reels içerik değeri; sürüngen gönderileri. Not: Commons uzun süre 429 verdi (bir indirme ~3 dk); iNaturalist CC0 fotoğrafları çoğu kez kötü (müze örneği, elde tutulan, uzak) ama Reels için papağan balığı/perentie/gaur iyi çıktı. Bongo planı fotoğraf yüzünden bırakıldı (iNat'ta sonuç yok). Hedefler (Reels 9, gönderi 15) tutmadı; sonraki çalıştırma önce Reels'i tamamlasın.
+
+## 2026-11-05
+- Rapordan öğrenilen: Veri hâlâ az (19 paylaşım); Reels'te memeli güçlü (skor 2,59, içerik 3,15), gönderide memeli zayıf (0,74) ve 09:00 saati zayıf.
+- Bugün uygulanan: Reels memeli (güneş ayısı, tuhaf yetenek) + keşif balık (taşbalığı, tehlike); gönderilerde memeli sadece 1 (indri, sayı), kuş (kılıç gagalı kolibri, süperlatif), deniz omurgasızı (dev midye, sayı), sürüngen (Solomon iskinki, tuhaf yetenek).
+- Sonra kontrol et: güneş ayısı Reels'inin içerik değeri (memeli güçlü mü kalıyor); dev midye ve indri (sayı kancası) içerik ≥1,2 mi.
