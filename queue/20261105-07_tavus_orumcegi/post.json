@@ -1,0 +1,73 @@
+{
+  "name": "tavus örümceği",
+  "group": "böcek/örümcek",
+  "hook_style": "tuhaf yetenek",
+  "title": [
+    [
+      [
+        "BU 5 MM'LİK ÖRÜMCEK",
+        "W"
+      ]
+    ],
+    [
+      [
+        "DANS EDEREK",
+        "R"
+      ]
+    ],
+    [
+      [
+        "KUR YAPIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "TAVUS ÖRÜMCEĞİ",
+  "card_top": [
+    "Erkeği karnındaki renkli",
+    "kanatları açıp dans eder."
+  ],
+  "card_bottom": [
+    "Üçüncü çift bacağını kaldırıp",
+    "dişiye gösteri yapar. Dişi",
+    "ilgilenmezse erkeği yiyebilir."
+  ],
+  "right": [
+    "Avustralya'ya özgü atlayan",
+    "örümcek türüdür.",
+    "Boyu yalnızca yaklaşık 5 mm.",
+    "Ultraviyole dahil tüm renk",
+    "tayfını görebilen gözleri var."
+  ],
+  "loc": "Avustralya",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "zoom": 1.1
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.35,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.48,
+      "cy": 0.38,
+      "zoom": 2.2
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Maratus volans 152652557.jpg",
+      "author": "Nigel Main",
+      "license": "CC BY 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Yalnızca 5 milimetrelik Avustralya tavus örümceği, erkeğinin renkli karın kanatlarını yelpaze gibi açıp dişinin önünde dans ederek ona kur yapıyor. 🕷️🌈\n\n#terrawildnature #ilginçbilgiler #tavusörümceği\n\n📷 Nigel Main (CC BY 4.0) / Wikimedia Commons"
+}
