@@ -1,0 +1,91 @@
+{
+  "name": "büyük yol koşucusu",
+  "group": "kuş",
+  "hook_style": "tehlike",
+  "title": [
+    [
+      [
+        "BU KUŞ YILAN AVLAR",
+        "W"
+      ]
+    ],
+    [
+      [
+        "VE SAATTE ",
+        "W"
+      ],
+      [
+        "32 KM",
+        "R"
+      ]
+    ],
+    [
+      [
+        "HIZLA KOŞAR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "BÜYÜK YOL KOŞUCUSU",
+  "card_top": [
+    "Saatte 32 km'ye varan hızla",
+    "koşar, nadiren uçar."
+  ],
+  "card_bottom": [
+    "Akrep, fare, kertenkele ve",
+    "genç çıngıraklı yılan yer.",
+    "En büyük Amerikan guguğudur."
+  ],
+  "right": [
+    "ABD'nin güneybatısında ve",
+    "Meksika'nın çöllerinde yaşar.",
+    "Eşiyle uzun süreli bağ kurar.",
+    "Dikenli dallardan yuva yapar:",
+    "kaktüs ya da çalı üstüne."
+  ],
+  "loc": "Güneybatı ABD",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.52,
+      "cy": 0.52,
+      "zoom": 1.5
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.46,
+      "cy": 0.35,
+      "zoom": 2.0
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Greater Roadrunner (Geococcyx californianus) (20553531759).jpg",
+      "author": "Joshua Tree National Park",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Greater Roadrunner (Geococcyx californianus) (25192500806).jpg",
+      "author": "Joshua Tree National Park",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "File:Greater Roadrunner (Geococcyx californianus) (51908735210).jpg",
+      "author": "Joshua Tree National Park",
+      "license": "Public domain",
+      "public_domain": true
+    }
+  ],
+  "caption": "Yılan avlayıp saatte 32 kilometreye varan hızla koşabilen büyük yol koşucusu, uçmaktan çok yerde koşmayı tercih eden bir guguk kuşu. 🐦💨\n\n#terrawildnature #ilginçbilgiler #yolkosucusu"
+}

@@ -78,3 +78,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli/balık ve sayı/tuhaf yetenek/tuhaf görünüm zayıf (0,69-0,77); böcek/örümcek az veriyle güçlü (8,66); Reels 20:00 güçlü (1,31).
 - Bugün uygulanan: Reels kuş (muhteşem fregat kuşu, tuhaf yetenek); gönderi böcek (bombardıman böceği, tehlike) ve sürüngen (uçan ejderha kertenkelesi, tuhaf görünüm). Gönderide memeli/balık yok.
 - Sonra kontrol et: böcek/örümcek grubu ve tehlike kancası içerik ≥1,2 mi. Not: Draco için iyi foto çok az (CC0 yalnızca 1 tane iyi), aynı foto farklı kırpmayla kullanıldı.
+
+## 2026-11-06
+- Rapordan öğrenilen: Reels'te 20:00 (1,89), Reawakening müziği (1,51) ve sayı kancası (1,41) güçlü; gönderide memeli (0,69), sayı kancası (0,75) ve 09:00 saati zayıf.
+- Bugün uygulanan: Reels kuyruğu 3 yeni tarifle 11'e çıktı: quokka (memeli, benzetme, Ancient_Rite), And kondoru (kuş, sayı, Reawakening), adi sübye (deniz omurgasızı, tuhaf yetenek, Investigations). Gönderi: büyük yol koşucusu (kuş, tehlike; sayı/memeli kullanılmadı).
+- Sonra kontrol et: sayı kancalı kondor Reels'in ve memeli quokka'nın izlenme süresi; tehlike kancalı kuş gönderisinin içerik değeri. Not: Wikipedia API 429 verdi (aralıklı), Commons indirmesi bazı dosyalarda takıldı; gönderi kuyruğu 15'e ulaştı.
