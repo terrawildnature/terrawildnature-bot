@@ -1,0 +1,87 @@
+{
+  "name": "titan böceği",
+  "group": "böcek/örümcek",
+  "hook_style": "süperlatif",
+  "title": [
+    [
+      [
+        "BU BÖCEK 17 CM",
+        "W"
+      ]
+    ],
+    [
+      [
+        "AMA YETİŞKİNKEN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "HİÇ YEMEK YEMEZ",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "TİTAN BÖCEĞİ",
+  "card_top": [
+    "Uzunluğu 17 cm'yi aşar;",
+    "en büyük böceklerden biridir."
+  ],
+  "card_bottom": [
+    "Yetişkinler sadece birkaç hafta",
+    "yaşar ve su dışında beslenmez.",
+    "Keskin dikenleri ve çeneleri var."
+  ],
+  "right": [
+    "Güney Amerika yağmur",
+    "ormanlarında yaşar, geceleri",
+    "aktiftir ve nadiren görülür.",
+    "Larvalar çürük odunla beslenir.",
+    "Dişilerin uçamadığı biliniyor."
+  ],
+  "loc": "Amazon",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.45,
+      "cy": 0.42,
+      "zoom": 1.1
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "zoom": 1.3
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Titan beetle (Titanus giganteus) found by Jean NICOLAS (10331669783).jpg",
+      "author": "Bernard DUPONT from FRANCE",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Titan Beetle (Titanus giganteus) running on the ground ... (39753860481).jpg",
+      "author": "Bernard DUPONT from FRANCE",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Titan Beetle (Titanus giganteus) (38855670405).jpg",
+      "author": "Bernard DUPONT from FRANCE",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Amazon yağmur ormanlarının dev böceği titan böceği 17 cm'yi aşan boyuyla yaşıyor, ama yetişkinken yemek yemeyip yalnızca birkaç hafta yaşayabiliyor. 🪲🌿\n\n#terrawildnature #ilginçbilgiler #titanböceği\n\n📷 Bernard DUPONT (CC BY-SA 2.0) / Wikimedia Commons"
+}
