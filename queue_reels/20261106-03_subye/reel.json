@@ -1,0 +1,154 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Investigations.mp3",
+    "start": 0,
+    "loudness": -27
+  },
+  "photos": {
+    "p1.jpg": "File:Common cuttlefish (Sepia officinalis).jpg",
+    "p2.jpg": "File:Seiche (Sepia officinalis) (Ifremer 00568-68009 - 25131).jpg",
+    "p3.jpg": "File:Sepia común (Sepia officinalis), Catania, Sicilia, Italia, 2025-04-04, DD 09.jpg",
+    "p4.jpg": "File:Sepia común (Sepia officinalis), Parque natural de la Arrábida, Portugal, 2023-07-26, DD 63.jpg",
+    "p5.jpg": "File:Sepia officinalis (Linnaeus, 1758).jpg",
+    "p6.jpg": "File:Sepia officinalis 2647.jpg",
+    "p7.jpg": "File:Sepia officinalis 1.jpg",
+    "p8.jpg": "File:Sepia común (Sepia officinalis), franja marina Teno-Rasca, Tenerife, España, 2022-01-05, DD 145.jpg"
+  },
+  "segments": [
+    {
+      "text": "Bu hayvan derisinin rengini ve desenini çok hızlı değiştirebiliyor.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Adi sübye, sübyelerin en büyük türlerinden biri.",
+      "image": "p2.jpg",
+      "cx": 0.65,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Mantosu kırk beş santime kadar uzayabiliyor.",
+      "image": "p3.jpg",
+      "cx": 0.6,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Derisindeki özel hücreler onu bulunduğu ortama göre gizliyor.",
+      "image": "p4.jpg",
+      "cx": 0.6,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Üreme mevsiminde erkekler, zebra gibi siyah beyaz desenler gösteriyor.",
+      "image": "p5.jpg",
+      "cx": 0.45,
+      "cy": 0.6,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Dişiler ise çiftleşmeye hazır olduklarını düz gri renkle belli ediyor.",
+      "image": "p6.jpg",
+      "cx": 0.45,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Tehlike anında sifonuyla fırlayıp mürekkep püskürüyor.",
+      "image": "p7.jpg",
+      "cx": 0.5,
+      "cy": 0.55,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Sepya rengi adını bu hayvanın mürekkebinden alıyor.",
+      "image": "p8.jpg",
+      "cx": 0.6,
+      "cy": 0.55,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "motion": "zoom_out"
+    }
+  ],
+  "cover": {
+    "image": "p7.jpg",
+    "cx": 0.5,
+    "cy": 0.7,
+    "title": [
+      [
+        [
+          "RENGİNİ",
+          "R"
+        ]
+      ],
+      [
+        [
+          "ÇABUCAK",
+          "W"
+        ]
+      ],
+      [
+        [
+          "DEĞİŞTİREN",
+          "W"
+        ]
+      ],
+      [
+        [
+          "SÜBYE",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "group": "deniz omurgasızı",
+  "hook_style": "tuhaf yetenek",
+  "yt_title": "Rengini Çabucak Değiştiren Hayvan: Adi Sübye",
+  "en": {
+    "title": "The Master of Camouflage: Common Cuttlefish",
+    "description": "The common cuttlefish can quickly change its colour and pattern, and the colour sepia is named after its ink."
+  },
+  "credits": [
+    {
+      "author": "Pierre mkrs",
+      "license": "CC0"
+    },
+    {
+      "author": "Olivier Dugornay (Ifremer)",
+      "license": "CC BY 4.0"
+    },
+    {
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Bommerer",
+      "license": "CC BY 4.0"
+    },
+    {
+      "author": "Amada44",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "author": "Marie Bournonville",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Rengini ve desenini çok hızlı değiştirebilen adi sübye, hem kendini gizliyor hem de mürekkebiyle sepya rengine adını veriyor. 🦑🎨\n\n#terrawildnature #sübye\n\n📷 Olivier Dugornay (CC BY 4.0), Diego Delso (CC BY-SA 4.0), Bommerer (CC BY 4.0), Amada44 (CC BY-SA 3.0), Marie Bournonville (CC BY-SA 4.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)"
+}
