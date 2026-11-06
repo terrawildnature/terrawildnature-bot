@@ -1,0 +1,154 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Reawakening.mp3",
+    "start": 0,
+    "loudness": -27
+  },
+  "photos": {
+    "p1.jpg": "File:Andean condor (Vultur gryphus), Peru.jpg",
+    "p2.jpg": "File:Andean condor (Vultur gryphus) male in flight Farellones.jpg",
+    "p3.jpg": "File:Andean condor (Vultur gryphus) male in flight Torres del Paine.jpg",
+    "p4.jpg": "File:Peru - Colca Canyon - Andean condor (Vultur gryphus) 01.jpg",
+    "p5.jpg": "File:Andean Condor in flight.jpg",
+    "p6.jpg": "File:Vultur gryphus head (Linnaeus, 1758).jpg",
+    "p7.jpg": "File:Condor (Vultur gryphus) (34468171955).jpg",
+    "p8.jpg": "File:Peru - Colca Canyon - Andean condor (Vultur gryphus) 02.jpg"
+  },
+  "segments": [
+    {
+      "text": "Bu kuşun kanat açıklığı üç metreyi aşabiliyor.",
+      "image": "p2.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "And kondoru, dünyanın en büyük uçan kuşlarından biri.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.6,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Kanatlarını neredeyse hiç çırpmadan sıcak hava akımlarıyla süzülüyor.",
+      "image": "p3.jpg",
+      "cx": 0.45,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Yiyecek ararken günde iki yüz kilometreden fazla yol alabiliyor.",
+      "image": "p5.jpg",
+      "cx": 0.5,
+      "cy": 0.62,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Yuvasını beş bin metreye varan yüksek kayalıklara yapıyor.",
+      "image": "p4.jpg",
+      "cx": 0.7,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Başı ve boynu tüysüz, duygularına göre renk değiştiriyor.",
+      "image": "p6.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Hayatı boyunca tek bir eşle birlikte kalıyor.",
+      "image": "p7.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Bazı bireyler yetmiş yılı aşkın yaşıyor.",
+      "image": "p8.jpg",
+      "cx": 0.55,
+      "cy": 0.6,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.6,
+      "motion": "zoom_out"
+    }
+  ],
+  "cover": {
+    "image": "p3.jpg",
+    "cx": 0.46,
+    "cy": 0.75,
+    "title": [
+      [
+        [
+          "KANADI",
+          "R"
+        ]
+      ],
+      [
+        [
+          "3 METREYİ",
+          "W"
+        ]
+      ],
+      [
+        [
+          "AŞAN KUŞ:",
+          "W"
+        ]
+      ],
+      [
+        [
+          "KONDOR",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "group": "kuş",
+  "hook_style": "sayı",
+  "yt_title": "Kanadı 3 Metreyi Aşan Kuş: And Kondoru",
+  "en": {
+    "title": "The 3-Meter Wingspan Bird: Andean Condor",
+    "description": "The Andean condor is one of the largest flying birds in the world, soaring on warm air currents for more than 200 km a day."
+  },
+  "credits": [
+    {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Hobbyfotowiki",
+      "license": "CC0"
+    },
+    {
+      "author": "Pedro Szekely",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "author": "Thomas Fuhrmann",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Michael Gäbler",
+      "license": "CC BY 3.0"
+    },
+    {
+      "author": "Eduardo Schmeda",
+      "license": "CC BY 2.0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Kanat açıklığı üç metreyi aşabilen And kondoru, kanatlarını neredeyse hiç çırpmadan sıcak hava akımlarıyla günde iki yüz kilometreden fazla yol alıyor. 🦅🏔️\n\n#terrawildnature #andkondoru\n\n📷 Charles J. Sharp (CC BY-SA 4.0), Pedro Szekely (CC BY-SA 2.0), Thomas Fuhrmann (CC BY-SA 4.0), Michael Gäbler (CC BY 3.0), Eduardo Schmeda (CC BY 2.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)"
+}
