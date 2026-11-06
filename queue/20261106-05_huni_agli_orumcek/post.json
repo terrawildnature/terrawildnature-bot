@@ -1,0 +1,26 @@
+{
+  "name": "Sidney huni ağlı örümceği",
+  "group": "böcek/örümcek",
+  "hook_style": "tehlike",
+  "title": [
+    [["BU ÖRÜMCEĞİN", "W"]],
+    [["ZEHRİ ", "W"], ["28 DAKİKADA", "R"]],
+    [["ETKİ EDİYOR", "R"]]
+  ],
+  "card_title": "HUNİ AĞLI ÖRÜMCEK",
+  "card_top": ["Isırığı ciddi hastalığa ya da", "ölüme yol açabilir."],
+  "card_bottom": ["Ağır vakalarda belirtiler orta", "değer 28 dakikada başlar. 1981'de", "panzehir çıktı, ölüm görülmedi."],
+  "right": ["Sidney çevresinde, doğu", "Avustralya'da yaşar.", "Tüneller kazıp ipek ağ örer.", "Tehdit altında arka bacakları", "üstünde doğrulup diş gösterir."],
+  "loc": "Doğu Avustralya",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.55, "cy": 0.4, "zoom": 1.2},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.62, "cy": 0.5, "zoom": 1.5},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.56, "cy": 0.45, "zoom": 2.0}
+  },
+  "credits": [
+    {"use": "cover", "title": "iNaturalist 347223704", "author": "Andrew Orme", "license": "CC BY", "public_domain": false},
+    {"use": "top", "title": "iNaturalist 381315362", "author": "Andrew Orme", "license": "CC BY", "public_domain": false},
+    {"use": "inner", "title": "iNaturalist 131901917", "author": "Nathan Ruser", "license": "CC BY", "public_domain": false}
+  ],
+  "caption": "Sidney çevresinde yaşayan Sidney huni ağlı örümceğinin ısırığı ciddi hastalığa yol açabiliyor, ancak 1981'de panzehir geliştirildiğinden beri kayıtlı ölüm yaşanmadı. 🕷️⚠️\n\n#terrawildnature #ilginçbilgiler #huniağlıörümcek\n\n📷 Andrew Orme (CC BY), Nathan Ruser (CC BY) / iNaturalist"
+}
