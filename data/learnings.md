@@ -83,3 +83,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: Reels'te 20:00 (1,89), Reawakening müziği (1,51) ve sayı kancası (1,41) güçlü; gönderide memeli (0,69), sayı kancası (0,75) ve 09:00 saati zayıf.
 - Bugün uygulanan: Reels kuyruğu 3 yeni tarifle 11'e çıktı: quokka (memeli, benzetme, Ancient_Rite), And kondoru (kuş, sayı, Reawakening), adi sübye (deniz omurgasızı, tuhaf yetenek, Investigations). Gönderi: büyük yol koşucusu (kuş, tehlike; sayı/memeli kullanılmadı).
 - Sonra kontrol et: sayı kancalı kondor Reels'in ve memeli quokka'nın izlenme süresi; tehlike kancalı kuş gönderisinin içerik değeri. Not: Wikipedia API 429 verdi (aralıklı), Commons indirmesi bazı dosyalarda takıldı; gönderi kuyruğu 15'e ulaştı.
+
+## 2026-11-06 (ikinci çalıştırma)
+- Rapordan öğrenilen: gönderide böcek/örümcek az veriyle güçlü (skor 3,62, içerik 1,18); memeli (0,69), sayı kancası (0,75) ve 09:00 zayıf. Reels kuyruğu zaten 10 (≥9).
+- Bugün uygulanan: gönderi kuyruğu 13→15: titan böceği (böcek, süperlatif) ve Galápagos kara iguanası (sürüngen, tuhaf yetenek, CC0 kapak). Memeli/sayı kancası kullanılmadı.
+- Sonra kontrol et: titan böceği içerik değeri (böcek grubu güçlü mü kalıyor); iguana (sürüngen ortalama). Not: Commons/Wikipedia aralıklı 429; iNaturalist titan böceği fotoğrafları müze örneği/filigranlıydı, Commons'tan Bernard Dupont fotoğrafları kullanıldı (ikisinde elde tutulan böcek, ölçek için).

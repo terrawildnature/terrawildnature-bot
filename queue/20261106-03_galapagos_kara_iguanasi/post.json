@@ -1,0 +1,91 @@
+{
+  "name": "Galápagos kara iguanası",
+  "group": "sürüngen",
+  "hook_style": "tuhaf yetenek",
+  "title": [
+    [
+      [
+        "BU İGUANA SUYUNU",
+        "W"
+      ]
+    ],
+    [
+      [
+        "DİKENLİ ",
+        "R"
+      ],
+      [
+        "KAKTÜSTEN",
+        "R"
+      ]
+    ],
+    [
+      [
+        "ALIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "GALÁPAGOS İGUANASI",
+  "card_top": [
+    "Besinin yaklaşık %80'i kaktüs;",
+    "nemini de çoğunlukla ondan alır."
+  ],
+  "card_bottom": [
+    "Boyu 0,9-1,5 m, ağırlığı en",
+    "fazla 13 kilo olur. Ömrü",
+    "60-69 yıl olarak bildiriliyor."
+  ],
+  "right": [
+    "Sadece Galápagos Adaları'nda",
+    "yaşar ve kurak ovaları sever.",
+    "Çoğunlukla otçuldur; bazen",
+    "kırkayak da yer.",
+    "Darwin 'aptal görünümlü' demişti."
+  ],
+  "loc": "Galápagos",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.68,
+      "cy": 0.35,
+      "zoom": 1.0
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.35,
+      "cy": 0.4,
+      "zoom": 1.0
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.62,
+      "cy": 0.5,
+      "zoom": 1.3
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Galápagos land iguana (Conolophus subcristatus) July 2025.jpg",
+      "author": "E bailey",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Iguana terrestre (Conolophus subcristatus), isla Santa Cruz, islas Galápagos, Ecuador, 2015-07-26, DD 12.JPG",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Land iguana-2, Plaza island, July 13, 2025.jpg",
+      "author": "E bailey",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Galápagos'ın kuru ovalarında yaşayan kara iguanası, besinin yaklaşık %80'ini oluşturan dikenli armut kaktüsünden hem yiyecek hem de su ihtiyacını karşılıyor. 🦎🌵\n\n#terrawildnature #ilginçbilgiler #karaiguana\n\n📷 E bailey (CC BY-SA 4.0), Diego Delso (CC BY-SA 4.0) / Wikimedia Commons"
+}
