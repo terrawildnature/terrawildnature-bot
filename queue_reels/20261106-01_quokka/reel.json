@@ -1,0 +1,150 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Ancient_Rite.ogg",
+    "start": 0,
+    "loudness": -27
+  },
+  "photos": {
+    "p1.jpg": "File:Setonix brachyurus (39094035665).jpg",
+    "p2.jpg": "File:Quokka with joey on Rottnest Island, April 2026 05.jpg",
+    "p3.jpg": "File:Wadjemup 100121 gnangarra-157.JPG",
+    "p4.jpg": "File:Setonix brachyurus 1.jpg",
+    "p5.jpg": "File:Setonix brachyurus (28212889829).jpg",
+    "p6.jpg": "File:Quokka near Caroline Thomson Cabins, July 2026.jpg",
+    "p7.jpg": "File:Quokka with joey on Rottnest Island, April 2026 06.jpg",
+    "p8.jpg": "File:Setonix brachyurus (39991861971).jpg"
+  },
+  "segments": [
+    {
+      "text": "Bir kâşif bu sevimli hayvanı kedi büyüklüğünde dev bir fare sandı.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Quokka, Batı Avustralya'da yaşayan küçük bir kanguru akrabası.",
+      "image": "p2.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Adaya bu yüzden Hollandaca fare yuvası anlamına gelen Rottnest adını verdi.",
+      "image": "p3.jpg",
+      "cx": 0.35,
+      "cy": 0.55,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Boyu yalnızca kırk ile elli dört santim.",
+      "image": "p4.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Kanguruya benzese de küçük ağaçlara ve çalılara tırmanabiliyor.",
+      "image": "p5.jpg",
+      "cx": 0.3,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Yavrusu altı ay boyunca annesinin kesesinde yaşıyor.",
+      "image": "p7.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Rottnest Adası'nda sekiz ile on iki bin quokka yaşadığı tahmin ediliyor.",
+      "image": "p6.jpg",
+      "cx": 0.5,
+      "cy": 0.6,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Türün korunma durumu ise savunmasız olarak listeleniyor.",
+      "image": "p8.jpg",
+      "cx": 0.45,
+      "cy": 0.6,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    }
+  ],
+  "cover": {
+    "image": "p1.jpg",
+    "cx": 0.5,
+    "cy": 0.5,
+    "title": [
+      [
+        [
+          "KÂŞİF ONU",
+          "R"
+        ]
+      ],
+      [
+        [
+          "DEV FARE",
+          "W"
+        ]
+      ],
+      [
+        [
+          "SANDI:",
+          "W"
+        ]
+      ],
+      [
+        [
+          "QUOKKA",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "group": "memeli",
+  "hook_style": "benzetme",
+  "yt_title": "Kâşifin Dev Fare Sandığı Hayvan: Quokka",
+  "en": {
+    "title": "The Animal Explorers Mistook for Giant Rats: Quokka",
+    "description": "Quokkas are small kangaroo relatives from Western Australia, and a Dutch explorer once mistook them for giant rats, naming Rottnest Island 'rat's nest'."
+  },
+  "credits": [
+    {
+      "author": "Donald Hobern",
+      "license": "CC BY 2.0"
+    },
+    {
+      "author": "Calistemon",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Gnangarra",
+      "license": "CC BY 2.5 au"
+    },
+    {
+      "author": "May Wong",
+      "license": "CC BY 2.0"
+    },
+    {
+      "author": "JamesHenstridge",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Hollandalı bir kâşifin dev fare sandığı quokka, aslında küçük ağaçlara tırmanabilen minik bir kanguru akrabası. 🐭🌿\n\n#terrawildnature #quokka\n\n📷 Donald Hobern (CC BY 2.0), Calistemon (CC BY-SA 4.0), Gnangarra (CC BY 2.5 au), May Wong (CC BY 2.0), JamesHenstridge (CC BY-SA 4.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)"
+}
