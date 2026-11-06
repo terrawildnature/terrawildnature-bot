@@ -1,0 +1,26 @@
+{
+  "name": "dev yaprak böceği",
+  "group": "böcek/örümcek",
+  "hook_style": "benzetme",
+  "title": [
+    [["BU BÖCEK", "W"]],
+    [["SOLMUŞ BİR", "W"], ["YAPRAĞA", "R"]],
+    [["BENZİYOR", "R"]]
+  ],
+  "card_title": "DEV YAPRAK BÖCEĞİ",
+  "card_top": ["Dişisi neredeyse 12 cm olur;", "solmuş bir yaprağı taklit eder."],
+  "card_bottom": ["Gözlemlere göre erkeksiz de", "ürer; 20-500 dişi yavruya", "yalnızca 1 erkek düşer."],
+  "right": ["Malezya ve Borneo'nun", "tropik ormanlarında yaşar.", "Yumurtası tohuma benzer ve", "6-8 ayda çatlar.", "Karnında bir çift göz lekesi."],
+  "loc": "Malezya, Borneo",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.55, "cy": 0.45, "zoom": 1.1},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.55, "cy": 0.55, "zoom": 1.2},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.35, "cy": 0.3, "zoom": 2.2}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Giant Leaf Insect (Phyllium giganteum) (8758260988).jpg", "author": "Bernard DUPONT from FRANCE", "license": "CC BY-SA 2.0", "public_domain": false},
+    {"use": "top", "title": "File:Giant Leaf Insect (Phyllium giganteum) (8757141307).jpg", "author": "Bernard DUPONT from FRANCE", "license": "CC BY-SA 2.0", "public_domain": false},
+    {"use": "inner", "title": "File:Giant Leaf Insect (Phyllium giganteum) (8757147425).jpg", "author": "Bernard DUPONT from FRANCE", "license": "CC BY-SA 2.0", "public_domain": false}
+  ],
+  "caption": "Malezya ormanlarının dev yaprak böceği, vücudunu solmuş bir yaprağa benzetip gizlenirken dişileri neredeyse 12 cm'ye ulaşıyor. 🍃🪲\n\n#terrawildnature #ilginçbilgiler #yaprakböceği\n\n📷 Bernard DUPONT (CC BY-SA 2.0) / Wikimedia Commons"
+}
