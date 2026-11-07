@@ -1,0 +1,135 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Not_As_It_Seems.mp3",
+    "start": 0,
+    "loudness": -27
+  },
+  "photos": {
+    "p1.jpg": "File:Eira barbara head.JPG",
+    "p2.jpg": "File:Eira barbara1.JPG",
+    "p3.jpg": "File:Eira barbara 182580299.jpg",
+    "p4.jpg": "File:Eira barbara 329052488.jpg",
+    "p5.jpg": "File:Eira barbara 99058175.jpg",
+    "p6.jpg": "File:Eira barbara 623006519.jpg",
+    "p7.jpg": "File:Eira barbara 638433259.jpg",
+    "p8.jpg": "File:Eira barbara3.JPG"
+  },
+  "segments": [
+    {
+      "text": "Tayra, yeşil muzları toplayıp olgunlaşsınlar diye saklıyor.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Birkaç gün sonra dönüp yumuşayan meyve etini yiyor.",
+      "image": "p2.jpg",
+      "cx": 0.85,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Gelincikgiller ailesinden bir hayvan ve yalnızca Amerika kıtasında yaşıyor.",
+      "image": "p3.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Göğsündeki sarı veya turuncu leke her bireyde farklı.",
+      "image": "p4.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Biyologlar bu lekeyle hayvanları tek tek ayırt edebiliyor.",
+      "image": "p5.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Bir gecede en az altı kilometre yol kat edebiliyor.",
+      "image": "p6.jpg",
+      "cx": 0.3,
+      "cy": 0.5,
+      "motion": "pan_left"
+    },
+    {
+      "text": "Uzun kuyruğuyla denge kurup ağaçtan ağaca atlayabiliyor.",
+      "image": "p7.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Meyvelerin yanı sıra bal, kemirgen ve kuşları da yiyor.",
+      "image": "p8.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_out"
+    }
+  ],
+  "cover": {
+    "image": "p3.jpg",
+    "cx": 0.42,
+    "cy": 0.3,
+    "title": [
+      [
+        [
+          "BU HAYVAN",
+          "R"
+        ]
+      ],
+      [
+        [
+          "YEŞİL MUZU",
+          "W"
+        ]
+      ],
+      [
+        [
+          "SAKLIYOR",
+          "W"
+        ]
+      ],
+      [
+        [
+          "PİŞSİN DİYE",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "group": "memeli",
+  "hook_style": "tuhaf yetenek",
+  "yt_title": "Muzları Olgunlaşsın Diye Saklayan Hayvan: Tayra",
+  "en": {
+    "title": "The Tayra That Caches Green Plantains to Ripen",
+    "description": "The tayra picks unripe green plantains and stores them, returning days later to eat the softened pulp."
+  },
+  "credits": [
+    {
+      "author": "T-34-85, Adam Jackson, Leslie, Hugo Hulsberg, russnamitz",
+      "license": "CC0",
+      "source": "Wikimedia Commons"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Tayra, yeşil muzları toplayıp olgunlaşsınlar diye saklıyor ve birkaç gün sonra dönüp yumuşayan meyveyi yiyor. 🍌🐾\n\n#terrawildnature #tayra\n\n🎵 Kevin MacLeod (CC BY)"
+}
