@@ -1,0 +1,138 @@
+{
+  "voice": "tr-TR-AhmetNeural",
+  "rate": "+8%",
+  "music": {
+    "file": "assets/music/Long_Road_Ahead.mp3",
+    "start": 0,
+    "loudness": -27
+  },
+  "photos": {
+    "p1.jpg": "File:Aldabra giant tortoise (Aldabrachelys gigantea) in La Digue - 02.jpg",
+    "p2.jpg": "File:Tortuga gigante de Aldabra (Aldabrachelys gigantea), isla Changuu, Tanzania, 2024-05-31, DD 08.jpg",
+    "p3.jpg": "File:Aldabra giant tortoise (Aldabrachelys gigantea) - Ile Moyenne - Seychelles - 04.jpg",
+    "p4.jpg": "File:Aldabra giant tortoise (Aldabrachelys gigantea) in Curieuse Island - 03.jpg",
+    "p5.jpg": "File:Aldabra giant tortoise (Aldabrachelys gigantea) - Ile Moyenne - Seychelles - 03.jpg",
+    "p6.jpg": "File:Aldabra giant tortoise (Aldabrachelys gigantea) in Curieuse Island - 04.jpg",
+    "p7.jpg": "File:Aldabra giant tortoise (Aldabrachelys gigantea) - Ile Moyenne - Seychelles - 01.jpg",
+    "p8.jpg": "File:Aldabra giant tortoise (Aldabrachelys gigantea) in Curieuse Island - 01.jpg"
+  },
+  "segments": [
+    {
+      "text": "Aldabra Atolü'nde yaklaşık yüz seksen bin dev kaplumbağa yaşıyor.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.55,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Bu, dünyadaki en büyük kaplumbağa topluluğu.",
+      "image": "p2.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Erkeklerin ortalama ağırlığı iki yüz elli kilo.",
+      "image": "p3.jpg",
+      "cx": 0.45,
+      "cy": 0.5,
+      "motion": "zoom_out"
+    },
+    {
+      "text": "Kabukları ortalama yüz yirmi iki santim uzunluğunda.",
+      "image": "p4.jpg",
+      "cx": 0.45,
+      "cy": 0.4,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Bazı bireylerin iki yüz yaşın üzerinde olduğu düşünülüyor.",
+      "image": "p5.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Uzun boyunlarıyla yerden bir metre yüksekteki dallara uzanabiliyorlar.",
+      "image": "p6.jpg",
+      "cx": 0.3,
+      "cy": 0.45,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Ağaçları devirip diğer hayvanlara yol açtıkları için ekosistemde filleri andırıyorlar.",
+      "image": "p7.jpg",
+      "cx": 0.75,
+      "cy": 0.5,
+      "motion": "zoom_in"
+    },
+    {
+      "text": "Tatlı suyun az olduğu yerde nemi yedikleri bitkilerden alıyorlar.",
+      "image": "p8.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "motion": "pan_right"
+    },
+    {
+      "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+      "image": "p1.jpg",
+      "cx": 0.5,
+      "cy": 0.55,
+      "motion": "zoom_out"
+    }
+  ],
+  "cover": {
+    "image": "p5.jpg",
+    "cx": 0.5,
+    "cy": 0.4,
+    "title": [
+      [
+        [
+          "180 BİN",
+          "R"
+        ]
+      ],
+      [
+        [
+          "DEV",
+          "W"
+        ]
+      ],
+      [
+        [
+          "KAPLUMBAĞA",
+          "W"
+        ]
+      ],
+      [
+        [
+          "TEK ADADA",
+          "R"
+        ]
+      ]
+    ]
+  },
+  "group": "sürüngen",
+  "hook_style": "sayı",
+  "yt_title": "Tek Adada 180 Bin Dev Kaplumbağa: Aldabra",
+  "en": {
+    "title": "180,000 Giant Tortoises on One Atoll: Aldabra",
+    "description": "Aldabra Atoll is home to about 180,000 giant tortoises, the world's largest population, and some individuals are thought to be over 200 years old."
+  },
+  "credits": [
+    {
+      "author": "NorbertNagel",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "author": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "use": "music"
+    }
+  ],
+  "caption": "Aldabra Atolü'nde yaklaşık yüz seksen bin dev kaplumbağa yaşıyor ve bazı bireylerin iki yüz yaşın üzerinde olduğu düşünülüyor. 🐢🏝️\n\n#terrawildnature #aldabrakaplumbağası\n\n📷 NorbertNagel (CC BY-SA 4.0), Diego Delso (CC BY-SA 4.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)"
+}
