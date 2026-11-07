@@ -1,0 +1,73 @@
+{
+  "name": "zehirli akrep",
+  "group": "böcek/örümcek",
+  "hook_style": "tehlike",
+  "title": [
+    [
+      [
+        "BU AKREBİN ZEHRİ",
+        "W"
+      ]
+    ],
+    [
+      [
+        "KAN HÜCRELERİNİ",
+        "R"
+      ]
+    ],
+    [
+      [
+        "YOK EDİYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "GADİM AKREBİ",
+  "card_top": [
+    "Zehri kan hücrelerini ve",
+    "dokuyu tahrip eden bir akrep."
+  ],
+  "card_bottom": [
+    "Ölümcül olabilen tek Buthidae",
+    "dışı akrep sayılır. İran'daki",
+    "akrep ölümlerinin çoğu ondan."
+  ],
+  "right": [
+    "Irak ve İran çöllerinde yaşar.",
+    "Düz, geniş gövdesiyle dar",
+    "kaya çatlaklarına sığar.",
+    "Erkekler 8 cm'e kadar büyür.",
+    "Zehri yara ve kanamaya yol açar."
+  ],
+  "loc": "İran, Irak",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.35,
+      "cy": 0.4,
+      "zoom": 1.3
+    },
+    "top": {
+      "file": "photo_cover.jpg",
+      "cx": 0.4,
+      "cy": 0.4,
+      "zoom": 1.1
+    },
+    "inner": {
+      "file": "photo_cover.jpg",
+      "cx": 0.4,
+      "cy": 0.42,
+      "zoom": 2.2
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Hemiscorpius lepturus - Kian - 576638147.jpeg",
+      "author": "Kian",
+      "license": "CC BY 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "İran ve Irak çöllerinde yaşayan Gadim akrebinin zehri kan hücrelerini ve dokuyu yok ediyor; Buthidae ailesi dışında insan için ölümcül olabilen tek akrep olarak biliniyor. 🦂☠️\n\n#terrawildnature #ilginçbilgiler #gadimakrebi\n\n📷 Kian (CC BY 4.0) / Wikimedia Commons"
+}
