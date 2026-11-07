@@ -1,0 +1,91 @@
+{
+  "name": "ağ pitonu",
+  "group": "sürüngen",
+  "hook_style": "süperlatif",
+  "title": [
+    [
+      [
+        "DÜNYANIN EN UZUN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "YILANI, AÇIK",
+        "W"
+      ],
+      [
+        "DENİZDE",
+        "R"
+      ]
+    ],
+    [
+      [
+        "BİLE GÖRÜLDÜ",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "AĞ PİTONU",
+  "card_top": [
+    "Dünyanın en uzun yılanı.",
+    "Zehirsiz bir sıkıştırıcı."
+  ],
+  "card_bottom": [
+    "Medusa adlı bir birey 7,67",
+    "metre ve 158 kiloya ulaştı;",
+    "en uzun esir yılan sayılır."
+  ],
+  "right": [
+    "Güney ve Güneydoğu Asya'da",
+    "yağmur ormanlarında yaşar.",
+    "Mükemmel yüzücüdür; açık",
+    "denizde bile görülmüştür.",
+    "Pusuya yatıp avını sıkar."
+  ],
+  "loc": "Güneydoğu Asya",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.3
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.8
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Malayopython reticulatus, Reticulated python - Kaeng Krachan District, Phetchaburi Province (47924282891).jpg",
+      "author": "Rushenb",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Reticulated python MP1.JPG",
+      "author": "BurmesePython at English Wikipedia",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "File:Python reticulatus (1).jpg",
+      "author": "TimVickers",
+      "license": "Public domain",
+      "public_domain": true
+    }
+  ],
+  "caption": "Dünyanın en uzun yılanı ağ pitonu, mükemmel bir yüzücü olup açık denizde bile görülmüş ve küçük adalara yerleşmiş. 🐍🌊\n\n#terrawildnature #ilginçbilgiler #ağpitonu\n\n📷 Rushenb (CC BY-SA 2.0) / Wikimedia Commons"
+}

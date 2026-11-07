@@ -108,3 +108,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: Reels'te sayı kancası (1,69), memeli (1,48), 40-50 sn güçlü; gönderide memeli (0,70), sayı (0,74) zayıf; tehlike ve böcek/örümcek az veriyle güçlü.
 - Bugün uygulanan: Reels 8→9: mors (memeli, sayı kancası, Frozen_Star ilk kez, 77 kelime). Gönderi 13→15: Gadim akrebi (böcek/örümcek, tehlike) ve çizgili kurbağa balığı (balık, tuhaf yetenek). Zayıf memeli/sayı gönderilerde kullanılmadı.
 - Sonra kontrol et: mors Reels'inin skoru, tehlike kancalı akrep gönderisi; Commons 429 verince iNaturalist CC0'ya geçmek işe yaradı.
+
+## 2026-11-07 (dördüncü çalıştırma)
+- Rapordan öğrenilen: Reels'te memeli (1,48), sayı kancası (1,69), 20:00 ve 40-50 sn güçlü; gönderide memeli (0,70) zayıf, böcek/örümcek (3,51, az veri) ve tehlike güçlü.
+- Bugün uygulanan: Reels 8→9: tayra (memeli, tuhaf yetenek, Not_As_It_Seems ilk kez, 76 kelime; dev armadillo fotoğrafları arkadan/yuva olduğu için elendi). Gönderi 13→15: kurşun karınca (böcek/örümcek, tehlike) ve ağ pitonu (sürüngen, süperlatif).
+- Sonra kontrol et: tayra Reels'inin skoru (memeli ama sayı yerine tuhaf yetenek kancası); kurşun karınca gönderisinin içerik değeri. Not: Wikipedia API 429 verdi, `?action=raw` adresi çalıştı.
