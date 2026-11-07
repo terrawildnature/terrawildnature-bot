@@ -1,0 +1,94 @@
+{
+  "name": "kurşun karınca",
+  "group": "böcek/örümcek",
+  "hook_style": "tehlike",
+  "title": [
+    [
+      [
+        "BU KARINCANIN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "SANCISI",
+        "W"
+      ],
+      [
+        "MERMİ",
+        "R"
+      ]
+    ],
+    [
+      [
+        "GİBİ",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "KURŞUN KARINCA",
+  "card_top": [
+    "Schmidt acı indeksinde",
+    "böcek sokmalarının en üstü."
+  ],
+  "card_bottom": [
+    "Acısı bir gün sürdüğü için",
+    "Venezuela'da \"24 saatlik",
+    "karınca\" diye anılıyor."
+  ],
+  "right": [
+    "Orta ve Güney Amerika'nın",
+    "nemli yağmur ormanlarında",
+    "yaşar. İşçisi 18-30 mm boyda.",
+    "Sateré-Mawé halkı savaşçılık",
+    "ritüelinde sokmayı kullanıyor."
+  ],
+  "loc": "Orta ve Güney Amerika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "zoom": 1.3
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.42,
+      "cy": 0.45,
+      "zoom": 1.8
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.4,
+      "cy": 0.5,
+      "zoom": 1.6
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "iNaturalist 168353907",
+      "author": "Philipp Hoenle",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "iNaturalist"
+    },
+    {
+      "use": "top",
+      "title": "iNaturalist 109598520",
+      "author": "laiet17",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "iNaturalist"
+    },
+    {
+      "use": "inner",
+      "title": "iNaturalist 164641494",
+      "author": "Philipp Hoenle",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "iNaturalist"
+    }
+  ],
+  "caption": "Kurşun karınca, böcek sokmaları arasında en yüksek acı derecesi olan 4.0+ ile anılıyor ve Venezuela'da \"24 saatlik karınca\" deniyor. 🐜🔥\n\n#terrawildnature #ilginçbilgiler #kurşunkarınca"
+}
