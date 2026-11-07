@@ -1,0 +1,25 @@
+{
+  "name": "remora",
+  "group": "balık",
+  "hook_style": "gizem",
+  "title": [
+    [["ESKİDEN BU BALIK", "W"]],
+    [["GEMİLERİ", "W"], ["DURDURUR", "R"]],
+    [["SANILIRDI", "R"]]
+  ],
+  "card_title": "VANTUZ BALIĞI",
+  "card_top": ["Başının üstündeki yassı", "vantuzla büyük hayvanlara yapışır."],
+  "card_bottom": ["Köpekbalığı, manta, balina ve", "kaplumbağaya tutunup bedava", "yolculuk eder, parazit yer."],
+  "right": ["Sıcak açık denizlerde yaşar.", "Vantuzu aslında bir sırt yüzgeci.", "Disk, vantuz gibi emiş yapar.", "Latince adı \"gecikme\" demek.", "Kaplumbağa avında kullanılmış."],
+  "loc": "Tropik okyanuslar",
+  "photos": {
+    "cover": {"file": "photo_3.jpg", "cx": 0.2, "cy": 0.35, "zoom": 1.3},
+    "top":   {"file": "photo_1.jpg", "cx": 0.5, "cy": 0.5, "zoom": 1.4},
+    "inner": {"file": "photo_3.jpg", "cx": 0.28, "cy": 0.38, "zoom": 2.6}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Echeneis naucrates 471469413.jpg", "author": "Justin Philbois", "license": "CC0", "public_domain": true},
+    {"use": "top", "title": "File:Echeneis naucrates 459833359.jpg", "author": "Justin Philbois", "license": "CC0", "public_domain": true}
+  ],
+  "caption": "Antik çağda gemileri durdurduğuna inanılan vantuz balığı, başındaki yassı vantuzla köpekbalığı, manta ve kaplumbağa gibi dev hayvanlara yapışıp bedavaya yolculuk ediyor. 🐟🌊\n\n#terrawildnature #ilginçbilgiler #vantuzbalığı"
+}
