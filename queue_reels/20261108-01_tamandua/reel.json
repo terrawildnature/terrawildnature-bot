@@ -1,0 +1,140 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Earth_Prelude.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Southern Tamandua (Tamandua tetradactyla) (48430082582).jpg",
+  "p2.jpg": "File:Southern Tamandua (Tamandua tetradactyla) (48429966641).jpg",
+  "p3.jpg": "File:Southern Tamandua (Tamandua tetradactyla) - Flickr - berniedup.jpg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/255439661/original.jpg",
+  "p5.jpg": "File:Southern tamandua - Equilibrando.jpg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/550692491/original.jpg",
+  "p7.jpg": "File:Southern tamandua - Oso melero (Tamandua tetradactyla nigra) (15228961344).jpg",
+  "p8.jpg": "File:Oso Melero (Tamandua tetradactyla) en el Zoológico de Paraguaná, Venezuela.jpg"
+ },
+ "segments": [
+  {
+   "text": "Tamandua, keskin pençeleri yüzünden ayaklarının dış kenarıyla yürüyor.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Ön ayaklarında dört, arka ayaklarında beş parmak var.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Pençeler avuç içlerini delmesin diye böyle yürümek zorunda.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Kuyruğu 67 santimetreye kadar uzuyor ve dalları sarabiliyor.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kuyruğun alt kısmı kıllarsız olduğu için tutunması kolay.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "zoom_out"
+  },
+  {
+   "text": "Karınca ve termitleri kokuyla buluyor ama yaprak kesen karıncalardan kaçınıyor.",
+   "image": "p6.jpg",
+   "cx": 0.55,
+   "cy": 0.5,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Gözleri küçük ve görüşü zayıf, bu yüzden büyük kulaklarına güveniyor.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Yavrusu bir yıla kadar annesinin sırtında yolculuk ediyor.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p5.jpg",
+  "cx": 0.5,
+  "cy": 0.3,
+  "title": [
+   [
+    [
+     "TAMANDUA",
+     "R"
+    ]
+   ],
+   [
+    [
+     "AYAĞININ",
+     "W"
+    ]
+   ],
+   [
+    [
+     "DIŞIYLA",
+     "W"
+    ]
+   ],
+   [
+    [
+     "YÜRÜYOR",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "tuhaf yetenek",
+ "yt_title": "Ayaklarının Dışıyla Yürüyen Hayvan: Tamandua",
+ "en": {
+  "title": "The Anteater That Walks on Its Foot Edges: Tamandua",
+  "description": "The southern tamandua has claws so sharp that it walks on the outer edges of its forefeet to avoid puncturing its own palms."
+ },
+ "credits": [
+  {
+   "author": "Bernard DUPONT, Giovanna Colombi, Deni Williams, Fernando Flores, Faunaram",
+   "license": "CC BY-SA 2.0 / CC BY-SA 4.0 / CC BY 2.0 / CC BY 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Ricardo Mitidieri, TheMongrelKoi",
+   "license": "CC0",
+   "source": "iNaturalist"
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ],
+ "caption": "Güney tamandua, keskin pençeleri avuç içlerini delmesin diye ön ayaklarının dış kenarıyla yürüyor. 🐜🌿\n\n#terrawildnature #tamandua\n\n📷 Bernard DUPONT (CC BY-SA 2.0), Giovanna Colombi (CC BY-SA 4.0), Deni Williams (CC BY 2.0), Fernando Flores (CC BY-SA 2.0), Faunaram (CC BY 4.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)"
+}
