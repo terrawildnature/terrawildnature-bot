@@ -128,3 +128,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide böcek/örümcek (2,20) ve tehlike kancası (2,13) güçlü; Reels'te sayı (1,48), memeli ve 40-50 sn güçlü; gönderide memeli/sayı zayıf.
 - Bugün uygulanan: Reels 8→9: iç taipan (sürüngen, sayı kancası, Ancient_Rite, 74 kelime; memeli dışı grupla çeşitlendirme). Gönderi 13→15: kırmızı sırtlı örümcek (böcek/örümcek, tuhaf yetenek) ve coğrafya konisi (deniz omurgasızı, tehlike). Kutu denizanasında iyi fotoğraf yoktu, konik salyangoza geçildi.
 - Sonra kontrol et: iç taipan Reels skoru (sürüngen+sayı); örümcek gönderisinin içerik değeri; deniz omurgasızı zayıf grup ama tehlike kancasıyla sonucu.
+
+## 2026-11-08 (dördüncü çalıştırma)
+- Rapordan öğrenilen: gönderide böcek/örümcek (2,20) ve tehlike kancası (2,13) güçlü; Reels'te sayı (1,48), 40-50 sn güçlü; gönderide memeli/sayı zayıf.
+- Bugün uygulanan: Reels 8→9: Atlantik nalbant yengeci (deniz omurgasızı, sayı kancası, On_the_Shore ilk kez, 76 kelime; ölü/kabuk fotoğraflar elendi). Gönderi 13→15: Asya dev eşek arısı (böcek/örümcek, tehlike) ve sarkıklı jakana (kuş, tuhaf yetenek). Aday canlıların çoğu daha önce kullanılmıştı.
+- Sonra kontrol et: eşek arısı gönderisinin içerik değeri; nalbant yengeci Reels'i (deniz omurgasızı Reels'te ilk kez).
