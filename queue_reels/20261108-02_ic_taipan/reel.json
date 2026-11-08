@@ -1,0 +1,155 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Ancient_Rite.ogg",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Oxyuranus microlepidotus head close-up in Australia.jpg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/752851219/original.jpg",
+  "p3.jpg": "File:Fierce Snake-1and (4622979425).jpg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/726318018/original.jpg",
+  "p5.jpg": "File:Oxyuranus microlepidotus in Queensland, Australia.jpg",
+  "p6.jpg": "File:Oxyuranus microlepidotus IMG 5067 Inland taipan.jpg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/183685498/original.jpeg",
+  "p8.jpg": "File:Inland Taipan (5636291789).jpg"
+ },
+ "segments": [
+  {
+   "text": "İç taipanın tek ısırığındaki zehir, yüzden fazla yetişkini öldürmeye yetiyor.",
+   "image": "p1.jpg",
+   "cx": 0.35,
+   "cy": 0.55,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Bilim insanları onu dünyanın en zehirli yılanı sayıyor.",
+   "image": "p2.jpg",
+   "cx": 0.58,
+   "cy": 0.5,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Avustralya'nın kurak iç bölgelerinde yaşıyor.",
+   "image": "p3.jpg",
+   "cx": 0.6,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Buna rağmen utangaç ve sakin bir yılan.",
+   "image": "p4.jpg",
+   "cx": 0.6,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Sıçan gibi küçük memelileri avlıyor ve tek saldırıda sekiz kereye kadar ısırabiliyor.",
+   "image": "p5.jpg",
+   "cx": 0.8,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Başı kışın parlak siyah, yazın koyu kahverengi oluyor.",
+   "image": "p6.jpg",
+   "cx": 0.26,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "1879'da tanımlandı ama yaklaşık doksan yıl boyunca yeni örnek bulunamadı.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.55,
+   "motion": "pan_left"
+  },
+  {
+   "text": "1972'de yeniden keşfedildi.",
+   "image": "p8.jpg",
+   "cx": 0.54,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p2.jpg",
+   "cx": 0.58,
+   "cy": 0.5,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p2.jpg",
+  "cx": 0.58,
+  "cy": 0.62,
+  "title": [
+   [
+    [
+     "TEK ISIRIK",
+     "R"
+    ]
+   ],
+   [
+    [
+     "100 İNSANI",
+     "W"
+    ]
+   ],
+   [
+    [
+     "ÖLDÜRMEYE",
+     "W"
+    ]
+   ],
+   [
+    [
+     "YETİYOR",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "sürüngen",
+ "hook_style": "sayı",
+ "yt_title": "Dünyanın En Zehirli Yılanı: İç Taipan",
+ "en": {
+  "title": "The World's Most Venomous Snake: Inland Taipan",
+  "description": "A single bite from the inland taipan holds enough venom to kill more than 100 adults, yet this shy Australian snake is rarely seen."
+ },
+ "credits": [
+  {
+   "author": "Ramit Singal",
+   "license": "CC BY 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Sheba_Also 43,000 photos",
+   "license": "CC BY-SA 2.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Bjoertvedt",
+   "license": "CC BY-SA 3.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "grace_kat",
+   "license": "CC BY-SA 2.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Joshua S. Martin, Jun MATSUI, Max Tibby",
+   "license": "CC0",
+   "source": "iNaturalist"
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ],
+ "caption": "İç taipanın tek ısırığındaki zehir yüzden fazla yetişkini öldürmeye yetiyor ama bu utangaç yılan Avustralya'nın kurak iç bölgelerinde nadiren görülüyor. 🐍🏜️\n\n#terrawildnature #ictaipan\n\n📷 Ramit Singal (CC BY 4.0), Sheba_Also 43,000 photos (CC BY-SA 2.0), Bjoertvedt (CC BY-SA 3.0), grace_kat (CC BY-SA 2.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)"
+}
