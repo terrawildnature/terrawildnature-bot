@@ -1,0 +1,91 @@
+{
+ "name": "kırmızı sırtlı örümcek",
+ "group": "böcek/örümcek",
+ "hook_style": "tuhaf yetenek",
+ "title": [
+  [
+   [
+    "BU ÖRÜMCEK AVINA",
+    "W"
+   ]
+  ],
+  [
+   [
+    "SÜPER ",
+    "W"
+   ],
+   [
+    "YAPIŞTIRICI",
+    "R"
+   ]
+  ],
+  [
+   [
+    "FIŞKIRTIYOR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "KIRMIZI SIRTLI ÖRÜMCEK",
+ "card_top": [
+  "Avını yapışkan bir sıvıyla",
+  "kıpırdayamaz hale getiriyor."
+ ],
+ "card_bottom": [
+  "Sonra ipekle sarıp defalarca",
+  "ısırıyor. Zehri insanlar için",
+  "de ciddi tehlike taşıyor."
+ ],
+ "right": [
+  "Avustralya kökenli, şimdi",
+  "Güneydoğu Asya, Japonya ve",
+  "Yeni Zelanda'da da var.",
+  "Dişi yaklaşık 1 cm, erkek",
+  "sadece 3-4 mm boyundadır."
+ ],
+ "loc": "Avustralya",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.57,
+   "cy": 0.45,
+   "zoom": 1.3
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.55,
+   "cy": 0.6,
+   "zoom": 1.3
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.5,
+   "cy": 0.6,
+   "zoom": 2.0
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Latrodectus hasselti (15934408875).jpg",
+   "author": "Donald Hobern",
+   "license": "CC BY 2.0",
+   "public_domain": false
+  },
+  {
+   "use": "top",
+   "title": "File:Fimale Latrodectus hasselti that had caught a grasshopper.jpg",
+   "author": "Kyu3a",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "use": "inner",
+   "title": "File:Latrodectus hasselti on the wall of toilet in the park - 9.jpg",
+   "author": "KKPCW",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  }
+ ],
+ "caption": "Avustralya'nın kırmızı sırtlı örümceği, avını önce süper yapıştırıcıya benzeyen bir sıvıyla yapıştırıp ipekle sararak zehirli dişleriyle ısırıyor. 🕷️🕸️\n\n#terrawildnature #ilginçbilgiler #kırmızısırtlıörümcek\n\n📷 Donald Hobern (CC BY 2.0), Kyu3a (CC BY-SA 4.0), KKPCW (CC BY-SA 4.0) / Wikimedia Commons"
+}

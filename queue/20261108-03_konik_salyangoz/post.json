@@ -1,0 +1,87 @@
+{
+ "name": "coğrafya konisi",
+ "group": "deniz omurgasızı",
+ "hook_style": "tehlike",
+ "title": [
+  [
+   [
+    "BU SALYANGOZUN",
+    "W"
+   ]
+  ],
+  [
+   [
+    "ZEHRİ İNSANI",
+    "W"
+   ]
+  ],
+  [
+   [
+    "ÖLDÜREBİLİYOR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "COĞRAFYA KONİSİ",
+ "card_top": [
+  "Konilerin en zehirli türü.",
+  "Zehri insanı öldürebilir."
+ ],
+ "card_bottom": [
+  "Zehirli dişini harpun gibi",
+  "fırlatıyor; insülin içeren",
+  "zehri balığı şoka sokuyor."
+ ],
+ "right": [
+  "Hint-Pasifik resiflerinde",
+  "sığ kumda yaşar, balık yer.",
+  "Kabuğu 10-15 cm uzunlukta.",
+  "300 yılda yaklaşık 36 ölüm",
+  "kayıtlı. Zehri ağrı kesici."
+ ],
+ "loc": "Hint-Pasifik",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.65,
+   "cy": 0.45,
+   "zoom": 1.3
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "zoom": 1.3
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "zoom": 1.8
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "iNaturalist 60092276",
+   "author": "Kai Squires",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "use": "top",
+   "title": "iNaturalist 59839864",
+   "author": "Kai Squires",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "use": "inner",
+   "title": "iNaturalist 333173740",
+   "author": "Ewout Knoester",
+   "license": "CC BY-SA",
+   "public_domain": false
+  }
+ ],
+ "caption": "Hint-Pasifik resiflerinde yaşayan coğrafya konisi, insülin içeren zehriyle balığı şoka sokup yutuyor ve zehri insanı da öldürebiliyor. 🐚☠️\n\n#terrawildnature #ilginçbilgiler #konisalyangozu\n\n📷 Kai Squires (CC BY), Ewout Knoester (CC BY-SA) / iNaturalist"
+}
