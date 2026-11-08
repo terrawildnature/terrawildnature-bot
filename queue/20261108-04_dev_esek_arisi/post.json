@@ -1,0 +1,84 @@
+{
+ "name": "asya dev eşek arısı",
+ "group": "böcek/örümcek",
+ "hook_style": "tehlike",
+ "title": [
+  [
+   [
+    "50'DEN AZ DEV ARI",
+    "W"
+   ]
+  ],
+  [
+   [
+    "ON BİNLERCE ",
+    "W"
+   ],
+   [
+    "ARIYI",
+    "R"
+   ]
+  ],
+  [
+   [
+    "SAATLERDE YOK EDER",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "ASYA DEV EŞEK ARISI",
+ "card_top": [
+  "Dünyanın en büyük eşek arısı;",
+  "gövdesi 4,5 cm, kanadı 7,5 cm."
+ ],
+ "card_bottom": [
+  "İğnesi 6 mm uzunluğunda,",
+  "güçlü zehir enjekte eder.",
+  "Toplu sokması öldürebilir."
+ ],
+ "right": [
+  "Doğu ve Güney Asya'da yaşar.",
+  "Yuvasını toprağa kazar.",
+  "Günde 100 km'ye kadar uçar.",
+  "Hızı saatte 40 km'ye çıkar.",
+  "2024'te ABD'de yok edildi."
+ ],
+ "loc": "Doğu Asya",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.3,
+   "cy": 0.22,
+   "zoom": 1.2
+  },
+  "top": {
+   "file": "photo_inner.jpg",
+   "cx": 0.62,
+   "cy": 0.4,
+   "zoom": 1.3
+  },
+  "inner": {
+   "file": "photo_cover.jpg",
+   "cx": 0.6,
+   "cy": 0.17,
+   "zoom": 1.8
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "iNaturalist 166229525",
+   "author": "Agnes Trekker",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "use": "top",
+   "title": "iNaturalist 166229278",
+   "author": "Agnes Trekker",
+   "license": "CC0",
+   "public_domain": true
+  }
+ ],
+ "caption": "Dünyanın en büyük eşek arısı olan Asya dev eşek arısı, 6 mm'lik iğnesiyle 50'den az bireyle on binlerce arılık bir koloniyi birkaç saatte yok edebiliyor. 🐝⚠️\n\n#terrawildnature #ilginçbilgiler #eşekarısı"
+}

@@ -319,3 +319,5 @@ başlıklı pitohui | Pitohui dichrous
 ic taipan (Reels) | Oxyuranus microlepidotus
 kırmızı sırtlı örümcek | Latrodectus hasselti
 coğrafya konisi | Conus geographus
+asya dev eşek arısı | Vespa mandarinia
+sarkıklı jakana | Jacana jacana

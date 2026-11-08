@@ -1,0 +1,91 @@
+{
+ "name": "sarkıklı jakana",
+ "group": "kuş",
+ "hook_style": "tuhaf yetenek",
+ "title": [
+  [
+   [
+    "BU KUŞUN DİŞİSİ",
+    "W"
+   ]
+  ],
+  [
+   [
+    "AYNI ANDA ",
+    "W"
+   ],
+   [
+    "4-5",
+    "R"
+   ]
+  ],
+  [
+   [
+    "ERKEKLE YAŞIYOR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "SARKIKLI JAKANA",
+ "card_top": [
+  "Dişisi erkeklerden büyük;",
+  "4-5 erkekle harem kurar."
+ ],
+ "card_bottom": [
+  "Yumurtaları erkek kuluçkaya",
+  "yatar; her kanadın altında",
+  "iki yumurta taşır."
+ ],
+ "right": [
+  "Güney Amerika'da Andlar'ın",
+  "doğusunda sulak alanda yaşar.",
+  "Uzun parmakları su bitkileri",
+  "üzerinde yürümesini sağlar.",
+  "Kanatlarında sarı mahmuz var."
+ ],
+ "loc": "Güney Amerika",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.4,
+   "cy": 0.45,
+   "zoom": 1.5
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.58,
+   "cy": 0.5,
+   "zoom": 1.3
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "zoom": 1.4
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Jacana jacana - Tiago Lubiana - 458859541.jpeg",
+   "author": "Tiago Lubiana",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "use": "top",
+   "title": "File:Jacana jacana 58325356.jpg",
+   "author": "Andra Waagmeester",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "use": "inner",
+   "title": "iNaturalist 339367249",
+   "author": "Adam Jackson",
+   "license": "CC0",
+   "public_domain": true
+  }
+ ],
+ "caption": "Sarkıklı jakananın dişisi aynı anda dört beş erkekle harem kurarken yüzen yuvadaki yumurtalara erkek kuluçkaya yatıyor. 🪷🐦\n\n#terrawildnature #ilginçbilgiler #sarkıklıjakana"
+}
