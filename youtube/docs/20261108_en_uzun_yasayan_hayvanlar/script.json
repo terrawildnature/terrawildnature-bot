@@ -1,0 +1,493 @@
+{
+ "title": "ZAMANIN HAYVANLARI",
+ "subtitle": "Bir günden beş yüz yedi yıla",
+ "mechanic": "hourglass",
+ "intro_photos": [
+  "35_0",
+  "33_0",
+  "21_0",
+  "25_0"
+ ],
+ "journey": {
+  "meter": false,
+  "label": "ÖMÜR",
+  "unit": "yıl",
+  "scale": "log",
+  "min": 0.002,
+  "max": 600,
+  "direction": "up",
+  "units": [
+   [
+    0,
+    "saat",
+    8766
+   ],
+   [
+    0.00272,
+    "gün",
+    365.25
+   ],
+   [
+    0.16,
+    "ay",
+    12
+   ],
+   [
+    1,
+    "yıl",
+    1
+   ]
+  ],
+  "zones": [
+   [
+    0.002,
+    0.08333333333333333,
+    "GÜNLER"
+   ],
+   [
+    0.08333333333333333,
+    1,
+    "AYLAR"
+   ],
+   [
+    1,
+    10,
+    "YILLAR"
+   ],
+   [
+    10,
+    100,
+    "ON YILLAR"
+   ],
+   [
+    100,
+    600,
+    "YÜZYILLAR"
+   ]
+  ],
+  "stats": [],
+  "range_label": "ÖMÜR",
+  "today": "2026-11-08",
+  "human": 73.3,
+  "palette": [
+   [
+    0,
+    [
+     46,
+     30,
+     18
+    ]
+   ],
+   [
+    600,
+    [
+     14,
+     18,
+     46
+    ]
+   ]
+  ],
+  "rays": 0,
+  "particles": null,
+  "glow": null,
+  "card": [
+   40,
+   96,
+   1120,
+   630
+  ],
+  "sub_cx": 960,
+  "music": [
+   "Fireflies_and_Stardust.mp3",
+   "Gone_Beyond.mp3"
+  ]
+ },
+ "segments": [
+  {
+   "type": "intro",
+   "depth": 0.002,
+   "text": "Bazı hayvanlar doğdukları günün akşamını göremiyor. Bazıları ise beş yüz yılı aşkın bir ömürle, yüzyıllar boyunca insanlık tarihine sessizce tanıklık ediyor. Bugün hayvanlar dünyasını ömürlerine göre sıralıyoruz. Yolculuğumuz tek bir günle başlayacak, haftalar, aylar ve yıllar boyunca ilerleyip beş yüz yılı aşan bir ömürle bitecek. Yirmi dört canlıyla tanışacağız. Arada tanıdık zaman ölçüleriyle de karşılaştırma yapacağız: Ay'ın bir turu, bir mevsim, bir insan ömrü ve tarihten birkaç büyük an. Ekranın sağındaki kum saatini takip edin. Kum aktıkça ömürler uzayacak, altında da bugün doğan bir hayvanın hangi tarihe kadar yaşayacağını göreceksiniz. Alttaki yaşam çizgisi ise her canlıyı yerine işaretleyecek. Hazırsanız kum saatini çeviriyoruz.",
+   "text_en": "Some animals never see the evening of the day they were born. Others live for more than five centuries, silent witnesses to human history. Today we rank the animal kingdom by lifespan. Our journey starts with a single day, moves through weeks, months and years, and ends with a life of more than five hundred years. We will meet 24 animals, and along the way we will compare them with familiar measures of time: one orbit of the Moon, a season, a human life and a few great moments in history. Watch the hourglass on the right. As the sand runs, the lifespans grow longer, and below it you will see the date until which an animal born today would live. The life line at the bottom marks every animal in its place. Ready? Let's turn the hourglass."
+  },
+  {
+   "type": "zone",
+   "depth": 0.002,
+   "name": "GÜNLER",
+   "name_en": "DAYS",
+   "range": "1 gün – 1 ay",
+   "range_en": "1 day – 1 month",
+   "text": "İlk zaman dilimimiz günler. Burada bir ömür, bizim için sıradan bir hafta sonundan bile kısa olabiliyor. Bu canlıların çoğu hayatının uzun bir kısmını başka bir biçimde, örneğin suyun altında bir larva olarak geçiriyor. Yetişkin oldukları anda ise saat hızla işlemeye başlıyor. Yemek yemeye, büyümeye ya da dinlenmeye vakit yok. Tek bir görev var: üremek ve yeni kuşağı dünyaya bırakmak.",
+   "text_en": "Our first slice of time is days. Here a whole life can be shorter than an ordinary weekend. Most of these creatures spend a long part of their lives in another form, for example as larvae under water. But the moment they become adults, the clock starts running fast. There is no time to eat, grow or rest. There is only one task: to reproduce and leave the next generation behind."
+  },
+  {
+   "type": "creature",
+   "depth": 0.0027378507871321013,
+   "name": "Mayıs Sineği",
+   "name_en": "Mayfly",
+   "latin": "Ephemeroptera",
+   "range": "≈ 1 gün",
+   "text": "Mayıs sineklerinin bilimsel takım adı Yunanca kısa ömürlü anlamına gelen bir kelimeden geliyor. Gerçekten de çoğu türün yetişkini yalnızca bir gün kadar yaşıyor. Romalı yazar Yaşlı Plinius iki bin yıl önce bu böceğin bir günden fazla yaşamadığını yazmıştı. Rekor ise Kuzey Amerika'daki bir türde: Dolania americana dişileri yetişkin olduktan sonra beş dakikadan kısa yaşıyor. Yetişkin mayıs sinekleri hiç beslenmiyor, ağız parçaları körelmiş, sindirim sistemleri havayla dolu. Oysa hikâyenin tamamı bu değil. Avrupa'da yaşayan Ephemera danica türünün larvası nehir yatağında tüneller kazarak bir iki yıl, bazen üç yıl yaşıyor. Uçmaya başladıkları an ise vedanın başladığı an.",
+   "text_en": "The scientific name of the mayfly order comes from a Greek word meaning short-lived. Indeed, in most species the adult lives for only about a day. Two thousand years ago the Roman writer Pliny the Elder wrote that this insect does not live beyond one day. The record belongs to a North American species: adult females of Dolania americana live for less than five minutes. Adult mayflies do not feed at all; their mouthparts are vestigial and their digestive systems are filled with air. But that is not the whole story. The larva of the European species Ephemera danica digs tunnels in riverbeds and lives for one or two years, sometimes three. The moment they take to the air is the moment the farewell begins."
+  },
+  {
+   "type": "landmark",
+   "depth": 0.08084873374401096,
+   "name": "Ay'ın bir turu",
+   "name_en": "One lunar month",
+   "value": "29,5 gün",
+   "value_en": "29.5 days",
+   "text": "Bir zaman ölçüsü: Ay'ın evrelerini tamamlayıp yeniden dolunay olması ortalama yirmi dokuz buçuk gün sürüyor. Az önce tanıştığımız mayıs sineği, bu sürenin içine yirmi dokuz kez sığardı.",
+   "text_en": "A measure of time: for the Moon to complete its phases and return to full moon takes 29.5 days on average. The mayfly we just met would fit into this period twenty-nine times."
+  },
+  {
+   "type": "zone",
+   "depth": 0.08333333333333333,
+   "name": "AYLAR",
+   "name_en": "MONTHS",
+   "range": "1 ay – 1 yıl",
+   "range_en": "1 month – 1 year",
+   "text": "İkinci zaman dilimine geçiyoruz: aylar. Burada ömür artık takvim yapraklarıyla ölçülüyor. Bu bölgedeki canlılar için mevsimler her şey demek. Kimi yaz boyunca durmadan çalışıp tükeniyor, kimi kurak mevsimi atlatamadan ölüyor. Kimi de aynı türün yaz kuşaklarından çok daha uzun yaşayan özel bir kuşak üretiyor. Bazı memeliler ise ilk yaşlarını bile göremeden hayata veda ediyor.",
+   "text_en": "We move into the second slice of time: months. Here a lifespan is measured in calendar pages. For the animals in this zone, the seasons are everything. Some work non-stop through the summer and wear themselves out, others die before the dry season is over. Some produce a special generation that lives far longer than the summer generations of the same species. And some mammals die before they even reach their first birthday."
+  },
+  {
+   "type": "creature",
+   "depth": 0.11498973305954825,
+   "name": "Bal Arısı",
+   "name_en": "Western Honey Bee",
+   "latin": "Apis mellifera",
+   "range": "2 – 6 hafta",
+   "text": "Bir kovanda yaşayan arıların ömrü, doğdukları mevsime göre büyük farklılık gösteriyor. Yazın doğan işçi arılar genellikle yalnızca iki ile altı hafta yaşıyor. Hayatlarının ilk on gününde kovanı temizliyor ve larvaları besliyorlar, sonra dışarı çıkıp nektar ve polen topluyorlar. Uçuşun yarattığı yıpranma, bu arıların hücrelerine zarar vererek yaşlanmayı hızlandırıyor. Kışın doğan işçiler ise kovanın içinde kümelenip yirmi haftaya kadar yaşayabiliyor. Aynı kovandaki kraliçe ise bambaşka bir dünyada: ortalama üç ile beş yıl, bazen sekiz yıla kadar yaşıyor. Yani aynı yuvada, aynı genlerle, bir arı birkaç hafta, bir başkası yıllarca yaşıyor.",
+   "text_en": "The lifespan of the bees in a hive depends greatly on the season they are born in. Worker bees born in summer usually live only two to six weeks. For the first ten days of their lives they clean the hive and feed the larvae, then they fly out to collect nectar and pollen. The wear and tear of flight damages their cells and speeds up ageing. Workers born in winter, however, cluster inside the hive and can live up to 20 weeks. The queen of the same hive lives in a completely different world: three to five years on average, sometimes up to eight. So in the same nest, with the same genes, one bee lives a few weeks and another for years."
+  },
+  {
+   "type": "landmark",
+   "depth": 0.25,
+   "name": "Bir mevsim",
+   "name_en": "One season",
+   "value": "3 ay",
+   "value_en": "3 months",
+   "text": "Şimdi bir mevsimin uzunluğuna, yani yaklaşık üç aya geldik. Yazın doğan bir işçi arı, tek bir mevsimin bile ancak yarısını görebiliyor.",
+   "text_en": "We have now reached the length of one season, about three months. A worker bee born in summer gets to see barely half of a single season."
+  },
+  {
+   "type": "creature",
+   "depth": 0.375,
+   "name": "Labord Bukalemunu",
+   "name_en": "Labord's Chameleon",
+   "latin": "Furcifer labordi",
+   "range": "4 – 5 ay",
+   "text": "Madagaskar'ın batısındaki kuru ormanlarda, karada yaşayan dört ayaklı omurgalılar arasındaki en kısa ömür rekoru kırılıyor. Labord bukalemununun en kurak bölgelerde yaşayan topluluklarında yumurtalar Kasım ayında, ilk yağmurlarla birlikte aynı anda açılıyor. Yavrular birkaç ay içinde hızla büyüyüp eşleşiyor. Ocak sonu ile Mart sonu arasında dişiler on bire kadar yumurtayı toprağa bırakıyor ve ardından bütün yetişkinler ölüyor. Bu topluluklarda yumurtadan çıktıktan sonraki ömür yalnızca dört ile beş ay. Yılın geri kalanında tür yalnızca toprağın altındaki yumurtalarda yaşıyor. Daha yağışlı bölgelerde ise ömür altı ile dokuz aya uzayabiliyor.",
+   "text_en": "In the dry forests of western Madagascar, a record is broken for the shortest lifespan among four-legged vertebrates. In populations of Labord's chameleon living in the driest areas, the eggs all hatch at the same time in November, with the first rains. The young grow fast and mate within a few months. Between late January and late March the females lay up to eleven eggs in the ground, and then all the adults die. In these populations, life after hatching lasts only four to five months. For the rest of the year the species survives only as eggs under the soil. In wetter regions, life can stretch to six to nine months."
+  },
+  {
+   "type": "creature",
+   "depth": 0.6666666666666666,
+   "name": "Monark Kelebeği",
+   "name_en": "Monarch Butterfly",
+   "latin": "Danaus plexippus",
+   "range": "8 aya kadar",
+   "text": "Monark kelebeklerinin üreme mevsiminde doğan yetişkinleri yalnızca iki ile beş hafta yaşıyor. Ama sonbaharda doğan kuşak bambaşka. Bu göçmen kuşak, anne ve büyükannelerinden yaklaşık sekiz kat daha uzun yaşıyor ve sekiz aya yaklaşan bir ömre ulaşıyor. Bu farkı yaşlanmayı düzenleyen bir hormon belirliyor. Bu kelebekler Kuzey Amerika'dan dört bin sekiz yüz kilometreye kadar uçarak Meksika'daki dağlara gidiyor ve kışı volkanik dağlardaki köknar ağaçlarının üzerinde kalabalık kümeler halinde geçiriyor. İlkbaharda kuzeye dönüş yolculuğunu ise birbirini izleyen kuşaklar bayrak yarışı gibi tamamlıyor. Hiçbir kelebek yolun tamamını görmüyor.",
+   "text_en": "Adult monarch butterflies born during the breeding season live only two to five weeks. But the generation born in autumn is different. This migrating generation lives about eight times longer than its parents and grandparents, reaching a lifespan of nearly eight months. The difference is controlled by a hormone that regulates ageing. These butterflies fly up to 4,800 kilometres from North America to the mountains of Mexico, and spend the winter in dense clusters on fir trees on volcanic mountains. In spring, the journey back north is completed by successive generations, like a relay race. No single butterfly sees the whole route."
+  },
+  {
+   "type": "creature",
+   "depth": 0.9166666666666666,
+   "name": "Kahverengi Antekinus",
+   "name_en": "Brown Antechinus",
+   "latin": "Antechinus stuartii",
+   "range": "≈ 11 ay",
+   "text": "Avustralya'nın doğusundaki ormanlarda yaşayan bu küçük keseli, Guinness Dünya Rekorlarına göre hayatında yalnızca bir kez üreyen en küçük memeli. Ağırlığı on altı ile kırk dört gram arasında. Geceleri ağaçlarda böcek, örümcek ve hamamböceği avlıyor. Asıl şaşırtıcı olan ise erkeklerin kaderi. Yalnızca iki hafta süren üreme mevsiminde erkekler neredeyse hiç dinlenmeden eş arıyor. Sonunda erkeklerin hemen hepsi stres ve bitkinlik yüzünden bu ilk üreme mevsiminin ardından ölüyor. Bilim insanları bunun ardında erkekler arasındaki şiddetli rekabetin yattığını düşünüyor. Böylece erkekler genellikle bir yaşına bile varamıyor.",
+   "text_en": "This small marsupial from the forests of eastern Australia is, according to Guinness World Records, the smallest mammal that breeds only once in its life. It weighs between 16 and 44 grams and hunts beetles, spiders and cockroaches in the trees at night. The real surprise is the fate of the males. During a breeding season that lasts only two weeks, males search for mates with almost no rest. In the end almost all of them die of stress and exhaustion after this first breeding season. Scientists think fierce competition between males lies behind this. As a result, the males usually never even reach their first birthday."
+  },
+  {
+   "type": "zone",
+   "depth": 1,
+   "name": "YILLAR",
+   "name_en": "YEARS",
+   "range": "1 – 10 yıl",
+   "range_en": "1 – 10 years",
+   "text": "Kum saatinde ilk büyük eşiği geçtik ve yıllar dilimine girdik. Burada ömür artık doğum günleriyle sayılıyor. Bu bölgede yaşayan canlıların çoğu ya hızlı yaşayıp genç ölüyor ya da tüm gücünü tek bir büyük üreme çabasına harcıyor. Bazıları ise ancak bir çocuğun ilkokulu bitireceği kadar bir sürede, uzun göç yollarında defalarca gidip geliyor.",
+   "text_en": "We have passed the first big threshold in the hourglass and entered the slice of years. Here a lifespan is counted in birthdays. Most animals in this zone either live fast and die young, or spend all their strength on one great breeding effort. Others travel back and forth along long migration routes many times, in roughly the time it takes a child to finish primary school."
+  },
+  {
+   "type": "landmark",
+   "depth": 1,
+   "name": "Dünya'nın Güneş çevresindeki turu",
+   "name_en": "One orbit of the Sun",
+   "value": "365 gün",
+   "value_en": "365 days",
+   "text": "Bir yıl, yani Dünya'nın Güneş'in çevresinde bir tur atması. Takvimimizin temel ölçüsü. Az önceki antekinus erkekleri bu turun tamamını bile göremiyordu.",
+   "text_en": "One year: one orbit of the Earth around the Sun, the basic unit of our calendar. The male antechinus we just met could not even see one full orbit."
+  },
+  {
+   "type": "creature",
+   "depth": 2,
+   "name": "Virginia Opossumu",
+   "name_en": "Virginia Opossum",
+   "latin": "Didelphis virginiana",
+   "range": "≈ 2 yıl",
+   "text": "Kuzey Amerika'nın tek keseli hayvanı olan Virginia opossumu, büyüklüğüne göre şaşırtıcı derecede kısa yaşıyor. Doğada en fazla iki yıl kadar yaşayabiliyor, bakım altında bile ömrü dört yılı ancak buluyor. Bilim insanları bu hızlı yaşlanmayı, avcılara karşı savunmasının az olmasına bağlıyor: genç yaşta çok yavru yapmak, uzun yaşamaya çalışmaktan daha kazançlı. Yeni doğan yavrular bir bal arısı büyüklüğünde. Annenin kesesindeki on üç memeden birine tutunup yaklaşık iki ay orada kalıyorlar. Tehlikede ise opossumun ünlü bir numarası var: ölü taklidi yapmak. Kalp atışı yavaşlıyor, nefesi neredeyse fark edilmiyor ve bu durum saatlerce sürebiliyor.",
+   "text_en": "The Virginia opossum, North America's only marsupial, lives a surprisingly short life for its size. In the wild it lives about two years at most, and even in captivity barely four. Scientists link this rapid ageing to its weak defences against predators: having many young early pays off more than trying to live long. Newborns are the size of a honeybee. Each latches onto one of the thirteen teats in its mother's pouch and stays there for about two months. When threatened, the opossum has a famous trick: playing dead. Its heart rate slows, its breathing becomes almost undetectable, and this can last for hours."
+  },
+  {
+   "type": "creature",
+   "depth": 5,
+   "name": "Dev Pasifik Ahtapotu",
+   "name_en": "Giant Pacific Octopus",
+   "latin": "Enteroctopus dofleini",
+   "range": "3 – 5 yıl",
+   "text": "Dünyanın en büyük ahtapotu, Kuzey Pasifik'in soğuk sularında yaşıyor. Yetişkinler genellikle on beş kilogram civarında, kollarının açıklığı dört metreyi aşabiliyor. Çoğu ahtapot türü yalnızca bir yıl yaşarken bu dev, üç ile beş yıl yaşıyor. Ama sonu baştan yazılı. Eşleşmeden sonra hem erkek hem dişi yemeyi bırakıyor ve ölüyor. Dişi yüz yirmi bin ile dört yüz bin arasında yumurtayı bir kayaya yapıştırıyor ve yaklaşık altı ay boyunca başından hiç ayrılmadan onları temizleyip koruyor. Bu süre boyunca kendi vücut yağıyla yaşıyor. Sonunda anne açlıktan ölüyor. Bu yaşlanmayı optik bez adı verilen bir bezin salgıları yönetiyor. Bu bez çıkarıldığında dişilerin yeniden beslendiği ve daha uzun yaşadığı görüldü.",
+   "text_en": "The world's largest octopus lives in the cold waters of the North Pacific. Adults usually weigh around 15 kilograms, and their arm span can exceed four metres. While most octopus species live only a year, this giant lives three to five years. But the ending is written in advance. After mating, both males and females stop eating and die. The female attaches between 120,000 and 400,000 eggs to a rock and, for about six months, never leaves them, cleaning and guarding them. During this time she lives on her own body fat. In the end the mother dies of starvation. This ageing is controlled by the secretions of a gland called the optic gland. When it is removed, females resume feeding and live longer."
+  },
+  {
+   "type": "creature",
+   "depth": 9,
+   "name": "Yakut Gerdanlı Sinekkuşu",
+   "name_en": "Ruby-throated Hummingbird",
+   "latin": "Archilochus colubris",
+   "range": "9 yıl",
+   "text": "Birkaç gram ağırlığındaki bir kuşun on yıla yakın yaşayabileceğini düşünür müydünüz? Halkalanarak takip edilen en yaşlı yakut gerdanlı sinekkuşu dokuz yıl bir aylıktı. Bu yaşa ulaşanların neredeyse hepsi dişi, erkekler ise nadiren beş yaşını geçebiliyor. Bu minik kuş, yazları üremek için Kanada'ya ve Kuzey Amerika'nın doğusuna gidiyor, kışı ise Orta Amerika, Meksika ve Florida'da geçiriyor. Göç sırasında bazıları Meksika Körfezi'nin üzerinden durmadan yaklaşık bin dört yüz kilometre uçuyor. Üstelik bu uzun yolculuğu her yıl, yalnızca birkaç gramlık bir bedenle yapıyorlar.",
+   "text_en": "Would you have thought that a bird weighing a few grams could live for almost ten years? The oldest banded ruby-throated hummingbird was nine years and one month old. Almost all birds that reach such ages are females; males rarely survive past five. This tiny bird flies to Canada and eastern North America to breed in summer, and spends the winter in Central America, Mexico and Florida. During migration, some fly nonstop for about 1,400 kilometres across the Gulf of Mexico. And they make this long journey every year, in a body weighing only a few grams."
+  },
+  {
+   "type": "zone",
+   "depth": 10,
+   "name": "ON YILLAR",
+   "name_en": "DECADES",
+   "range": "10 – 100 yıl",
+   "range_en": "10 – 100 years",
+   "text": "Şimdi on yıllar dilimindeyiz. İnsan ömrü de bu bölgenin içinde, bu yüzden buradaki her canlıyı kendimizle kıyaslayabileceğiz. Bu dilimde şaşırtıcı sürprizler var: toprağın altında yıllarca bekleyen bir böcek, tek bir kraliçenin onlarca yıl yönettiği bir yuva ve kanserden neredeyse hiç etkilenmeyen bir kemirgen. Alttaki yaşam çizgisinde mavi kesikli çizgiye dikkat edin: orası ortalama bir insan ömrü.",
+   "text_en": "We are now in the slice of decades. The human lifespan lies within this zone too, so we will be able to compare every animal here with ourselves. This slice holds some real surprises: an insect that waits underground for years, a nest ruled by a single queen for decades, and a rodent almost untouched by cancer. Watch the blue dashed line on the life line below: that is the average human lifespan."
+  },
+  {
+   "type": "creature",
+   "depth": 17,
+   "name": "17 Yıl Ağustosböceği",
+   "name_en": "Periodical Cicada",
+   "latin": "Magicicada septendecim",
+   "range": "17 yıl",
+   "text": "Kuzey Amerika'nın doğusundaki ormanlarda, yerin altında yaklaşık on yedi yıl boyunca sessizce bekleyen bir böcek yaşıyor. Periyodik ağustosböcekleri hayatlarının yüzde doksan dokuz buçuğunu toprağın altında, ağaç köklerinin özsuyunu emerek bir nimf olarak geçiriyor. On yedinci yılın baharında, Nisan sonu ile Haziran başı arasında, bütün bölgedeki nimfler aynı anda ve muazzam sayılarda yeryüzüne çıkıyor. Yetişkinler yalnızca dört ile altı hafta yaşıyor. Erkekler yüksek sesle ötüyor, dişiler yumurtalarını dallara bırakıyor ve iki ay dolmadan hepsi ölüyor. Yumurtadan çıkan yeni nimfler ise toprağa gömülüp on yedi yıllık bekleyişe yeniden başlıyor.",
+   "text_en": "In the forests of eastern North America, an insect waits silently underground for about seventeen years. Periodical cicadas spend 99.5 percent of their lives underground as nymphs, sucking sap from tree roots. In the spring of their seventeenth year, between late April and early June, all the nymphs in an area emerge at the same time, in tremendous numbers. The adults live only four to six weeks. The males sing loudly, the females lay their eggs in twigs, and within two months they are all dead. The new nymphs that hatch from the eggs burrow into the soil and begin the seventeen-year wait all over again."
+  },
+  {
+   "type": "creature",
+   "depth": 29,
+   "name": "Siyah Bahçe Karıncası",
+   "name_en": "Black Garden Ant",
+   "latin": "Lasius niger",
+   "range": "29 yıl",
+   "text": "Avrupa'da bahçelerde, kaldırım kenarlarında sıkça gördüğümüz siyah bahçe karıncası, böcekler dünyasının en uzun ömür rekorlarından birine sahip. İşçi karıncalar genellikle birkaç ay yaşıyor. Ama kraliçe bambaşka. Kraliçeler çoğunlukla on beş yıla yakın yaşıyor ve yirmi dokuz yıla kadar yaşayan kraliçeler kaydedildi. Bu, sosyal böcekler arasında bilinen en uzun ömür. Tek bir kraliçenin kurduğu yuva genellikle dört bin ile yedi bin işçiden oluşuyor, nadiren kırk bine ulaşıyor. Kraliçe yuvayı kurduktan sonra hayatının geri kalanını yumurta bırakarak geçiriyor. Bilim insanları, aynı genlere sahip işçilerle kraliçe arasındaki bu dev farkın sırrını, yaşlanmanın nedenlerini anlamak için araştırıyor.",
+   "text_en": "The black garden ant, common in European gardens and along pavements, holds one of the longest lifespan records among insects. Workers usually live a few months. But the queen is another story. Queens typically live for almost fifteen years, and queens living up to 29 years have been recorded, the longest known lifespan of any eusocial insect. A nest founded by a single queen usually has 4,000 to 7,000 workers, rarely reaching 40,000. After founding the nest, the queen spends the rest of her life laying eggs. Scientists study the huge gap between queens and workers with the same genes to understand the causes of ageing."
+  },
+  {
+   "type": "creature",
+   "depth": 37,
+   "name": "Çıplak Köstebek Faresi",
+   "name_en": "Naked Mole-rat",
+   "latin": "Heterocephalus glaber",
+   "range": "37+ yıl",
+   "text": "Afrika Boynuzu'nun kurak topraklarında, yerin altındaki tünellerde yaşayan bu tüysüz kemirgen, akrabalarına göre inanılmaz uzun yaşıyor. Ömrü otuz yedi yılı aşabiliyor. En uzun yaşayan ikinci kemirgen olan Afrika oklu kirpisi ise yirmi sekiz yıla ulaşıyor. Bir farenin en fazla üç yıl kadar yaşadığını düşünürsek aradaki fark çok daha çarpıcı. Çıplak köstebek fareleri kansere ve oksijensizliğe karşı son derece dirençli. Tamamen oksijensiz bir ortamda on sekiz dakika boyunca zarar görmeden hayatta kalabiliyorlar. Derileri ağrıya duyarsız, metabolizmaları da çok yavaş. Koloni yaşamı ise arılara benziyor: yalnızca bir kraliçe ve bir ile üç erkek üreyiyor, geri kalan herkes işçi.",
+   "text_en": "This hairless rodent, living in underground tunnels in the dry lands of the Horn of Africa, lives incredibly long compared with its relatives. Its lifespan can exceed 37 years. The second longest-lived rodent, the African crested porcupine, reaches 28 years. Considering that a mouse lives about three years at most, the difference is even more striking. Naked mole-rats are extremely resistant to cancer and to lack of oxygen. They can survive for 18 minutes in a completely oxygen-free atmosphere without apparent harm. Their skin is insensitive to pain and their metabolism is very slow. Colony life resembles that of bees: only one queen and one to three males breed, and everyone else is a worker."
+  },
+  {
+   "type": "creature",
+   "depth": 72,
+   "name": "And Kondoru",
+   "name_en": "Andean Condor",
+   "latin": "Vultur gryphus",
+   "range": "72 yıl",
+   "text": "And Dağları'nın üzerinde süzülen And kondoru, dünyanın en büyük uçan kuşlarından biri. Kanat açıklığı üç metre otuz santimetreye, ağırlığı on beş kilograma ulaşabiliyor ve genellikle dünyanın en büyük yırtıcı kuşu kabul ediliyor. Aynı zamanda en uzun yaşayan kuşlardan biri. Bin dokuz yüz seksen üçte Guinness Rekorlar Kitabı, onaylanmış en uzun ömürlü kuş olarak Kuzya adlı bir erkek kondoru kabul etti. Kuzya doğadan yavruyken yakalanmış ve bakım altında yetmiş iki yıl yaşamıştı. Doğadaki kondorların da elli yılı aşabildiği tahmin ediliyor. Kondor yerden havalanırken kanat çırpıyor ama belli bir yüksekliğe ulaştıktan sonra neredeyse hiç kanat çırpmadan sıcak hava akımlarıyla süzülüyor.",
+   "text_en": "Soaring over the Andes, the Andean condor is one of the largest flying birds in the world. Its wingspan can reach 3.3 metres and its weight 15 kilograms, and it is generally considered the largest bird of prey on Earth. It is also one of the longest-lived birds. In 1983 the Guinness Book of World Records recognised a male condor named Kuzya as the longest-lived bird with a confirmed lifespan. Kuzya had been taken from the wild as a juvenile and lived 72 years in captivity. Wild condors are estimated to exceed 50 years as well. The condor flaps its wings when taking off, but once it reaches a moderate height it rarely flaps at all, riding warm air currents instead."
+  },
+  {
+   "type": "landmark",
+   "depth": 73.3,
+   "name": "Ortalama insan ömrü",
+   "name_en": "Average human life expectancy",
+   "value": "73 yıl",
+   "value_en": "73 years",
+   "chapter": true,
+   "text": "Ve işte kendi ömrümüz. Dünya genelinde ortalama insan ömrü iki bin on dokuzda yetmiş üç yıl civarındaydı. Bundan sonra karşılaşacağımız her canlı, ortalama bir insandan daha uzun yaşayabiliyor.",
+   "text_en": "And here is our own lifespan. Worldwide, average human life expectancy was about 73 years in 2019. Every animal we meet from now on can live longer than an average human."
+  },
+  {
+   "type": "creature",
+   "depth": 74,
+   "name": "Laysan Albatrosu",
+   "name_en": "Laysan Albatross",
+   "latin": "Phoebastria immutabilis",
+   "range": "74+ yıl",
+   "text": "Pasifik'in ortasındaki Midway Mercan Adası'nda, Wisdom yani Bilgelik adında bir dişi albatros yaşıyor. Bin dokuz yüz elli altıda halkalandığında zaten en az beş yaşındaydı, çünkü bu türler bu yaştan önce üreyemiyor. Bu da onu bilinen en yaşlı yabani kuş yapıyor: yaşı en az yetmiş dört olarak tahmin ediliyor. Wisdom iki bin yirmi beşte hâlâ yumurta kuluçkalıyordu. Hayatı boyunca otuz ile kırk arasında yumurta bıraktığı, en az otuz yavru büyüttüğü düşünülüyor. İki bin on birdeki büyük tsunamiden de yavrusuyla birlikte sağ kurtuldu. Laysan albatroslarının kanat açıklığı yaklaşık iki metre ve hayatlarının büyük bölümünü açık okyanusta süzülerek geçiriyorlar.",
+   "text_en": "On Midway Atoll, in the middle of the Pacific, lives a female albatross named Wisdom. When she was banded in 1956 she was already at least five years old, since this species cannot breed before that age. That makes her the oldest known wild bird: her age is estimated at no less than 74. Wisdom was still incubating eggs in 2025. She is thought to have laid 30 to 40 eggs and raised at least 30 chicks in her life. She and her chick also survived the great tsunami of 2011. Laysan albatrosses have a wingspan of about two metres and spend most of their lives gliding over the open ocean."
+  },
+  {
+   "type": "creature",
+   "depth": 83,
+   "name": "Pembe Kakadu",
+   "name_en": "Pink Cockatoo",
+   "latin": "Lophochroa leadbeateri",
+   "range": "83 yıl",
+   "text": "Avustralya'nın kurak iç bölgelerinde yaşayan pembe kakadu, başındaki kırmızı ve sarı çizgili tepeliğiyle çok çarpıcı bir papağan. Bu türün en ünlü bireyi Cookie adında bir erkekti. Cookie, bin dokuz yüz otuz dörtte bir yaşındayken Sidney'den Şikago yakınlarındaki Brookfield Hayvanat Bahçesi'ne getirildi ve hayvanat bahçesinin açılışından kalan son hayvan oldu. Guinness Dünya Rekorları onu dünyanın en yaşlı papağanı olarak tanıdı. Cookie iki bin on altıda seksen üç yaşında öldü. Türünün bakım altındaki ortalama ömrü ise kırk ile altmış yıl arasında. Bu papağan, hayatı boyunca neredeyse bütün bir yirminci yüzyılı görmüştü.",
+   "text_en": "Living in the arid interior of Australia, the pink cockatoo is a striking parrot with a red and yellow banded crest. The most famous member of the species was a male named Cookie. In 1934, at about one year old, Cookie was brought from Sydney to Brookfield Zoo near Chicago, and he became the last surviving animal from the zoo's opening. Guinness World Records recognised him as the oldest living parrot in the world. Cookie died in 2016 at the age of 83. The average lifespan of the species in captivity is 40 to 60 years. This parrot had seen almost the whole twentieth century."
+  },
+  {
+   "type": "creature",
+   "depth": 86,
+   "name": "Asya Fili",
+   "name_en": "Asian Elephant",
+   "latin": "Elephas maximus",
+   "range": "86 yıl",
+   "text": "Asya fillerinin en ünlü uzun ömürlüsü, Lin Wang adında bir erkekti. Lin Wang bin dokuz yüz on yedide doğdu. İkinci Dünya Savaşı sırasında, bin dokuz yüz kırk üçte Burma'daki bir Japon kampına yapılan baskının ardından on iki filin yanında Çin ordusunun eline geçti. Savaştan sonra bir ordu fili olarak anıtların yapımında çalıştı, hatta kıtlık çeken insanlar için para toplayan bir sirkte gösteriye çıktı. Sonunda Tayvan'daki Taipei Hayvanat Bahçesi'ne yerleşti ve herkes ona Dede Lin Wang demeye başladı. Doğum günleri her yıl binlerce ziyaretçiyle kutlandı. Lin Wang iki bin üçte, seksen altı yaşında öldü.",
+   "text_en": "The most famous long-lived Asian elephant was a male named Lin Wang. Born in 1917, he was captured by the Chinese army in 1943, together with twelve other elephants, after a battle at a Japanese camp in Burma during the Second World War. After the war he worked as an army elephant on the construction of monuments, and even performed in a circus to raise money for famine relief. He finally settled at Taipei Zoo in Taiwan, where everyone called him Grandpa Lin Wang, and his birthday was celebrated every year by thousands of visitors. Lin Wang died in 2003, at the age of 86."
+  },
+  {
+   "type": "zone",
+   "depth": 100,
+   "name": "YÜZYILLAR",
+   "name_en": "CENTURIES",
+   "range": "100 – 600 yıl",
+   "range_en": "100 – 600 years",
+   "music_switch": true,
+   "text": "Kum saatinin son bölümüne girdik: yüzyıllar. Burada yaşayan canlılar, imparatorlukların yükselip yıkıldığını, büyük savaşları ve icatları sessizce izlemiş olabilir. Bu yaşlara ulaşan hayvanların çoğu soğuk sularda ya da yavaş bir hayatta saklanıyor. Metabolizmaları yavaş, büyümeleri ağır, düşmanları az. Bazılarının yaşını kabuklarındaki halkaları sayarak, tıpkı ağaçlarda olduğu gibi okuyabiliyoruz.",
+   "text_en": "We have entered the last section of the hourglass: centuries. Animals living here may have silently watched empires rise and fall, great wars and inventions. Most animals that reach these ages hide in cold waters or in a slow way of life. Their metabolism is slow, they grow slowly and they have few enemies. For some, we can read their age by counting the rings in their shells, just like in trees."
+  },
+  {
+   "type": "creature",
+   "depth": 100,
+   "name": "Tuatara",
+   "name_en": "Tuatara",
+   "latin": "Sphenodon punctatus",
+   "range": "100+ yıl",
+   "text": "Yeni Zelanda'ya özgü tuatara bir kertenkeleye benziyor ama aslında bambaşka bir soyun yaşayan tek üyesi. Bu soy yaklaşık iki yüz kırk milyon yıl önce ortaya çıktı ve Jura döneminde dünyanın en yaygın küçük sürüngenleri arasındaydı. Bugün ise geriye yalnızca tuatara kaldı. Başının üstünde, derinin altında gizlenen üçüncü bir göz bulunuyor. Tuataranın ortalama ömrü altmış yıl civarında, ama yüz yılı rahatlıkla aşabiliyor. Bakım altında yüz yaşını geçen tuataralar kaydedildi. Bu uzun ömürle birlikte tuatara, kaplumbağalardan sonra en uzun yaşayan sürüngen olabilir.",
+   "text_en": "The tuatara of New Zealand looks like a lizard, but it is actually the only living member of a completely separate lineage. This lineage appeared about 240 million years ago and, in the Jurassic, was among the most widespread small reptiles in the world. Today only the tuatara remains. On top of its head, hidden under the skin, is a third eye. The average lifespan of a tuatara is about 60 years, but it can live well over 100. Tuatara over 100 years old have been recorded in captivity. With such a long life, the tuatara may be the longest-lived reptile after tortoises."
+  },
+  {
+   "type": "creature",
+   "depth": 100,
+   "name": "Mağara Semenderi",
+   "name_en": "Olm",
+   "latin": "Proteus anguinus",
+   "range": "100+ yıl",
+   "text": "Balkanlar'daki Dinar Alpleri'nin altında, kireç taşının içinden akan karanlık sularda, insan balığı da denilen pembe bir semender yaşıyor. Olmun gözleri körelmiş ve derinin altında kalmış. Rengi yok, solungaçları ise içindeki kan yüzünden kırmızı görünüyor. Bu hayvan hayatı boyunca larva görünümünü koruyor ve hiç karaya çıkmıyor. Deneylerde bir olmun on yıl boyunca hiç yemek yemeden hayatta kalabildiği görüldü. Bilim insanları ortalama bir yetişkinin altmış sekiz yıl kadar yaşadığını, en uzun ömrün ise yüz yılı aştığını hesaplıyor. Boyutuna göre amfibiler arasında olağanüstü bir rekor. İki bin yirmi altıda yayımlanan bir çalışma ise olmun aslında dokuz ayrı türden oluştuğunu öne sürdü.",
+   "text_en": "Beneath the Dinaric Alps of the Balkans, in dark waters flowing through limestone, lives a pink salamander also called the human fish. The olm's eyes are undeveloped and covered by skin. It has no pigment, and its gills look red because of the blood inside them. It keeps its larval appearance throughout life and never leaves the water. Experiments have shown that an olm can survive ten years without food. Scientists estimate that an average adult lives about 68 years, and that the maximum lifespan exceeds 100 years, an extraordinary record for an amphibian of its size. A study published in 2026 suggested that the olm actually consists of nine separate species."
+  },
+  {
+   "type": "creature",
+   "depth": 100,
+   "name": "Dev Midye",
+   "name_en": "Giant Clam",
+   "latin": "Tridacna gigas",
+   "range": "100+ yıl",
+   "text": "Güney Pasifik ve Hint Okyanusu'nun sığ mercan resiflerinde, dünyanın yaşayan en büyük çift kabuklu yumuşakçası yaşıyor. Dev midyeler iki yüz kilogramı aşabiliyor ve bir metre yirmi santimetre genişliğe ulaşabiliyor. Bilinen en büyük örneğin canlıyken yaklaşık üç yüz kırk kilogram olduğu tahmin ediliyor. Doğadaki ortalama ömürleri yüz yılı geçiyor. Bu dev, besininin çoğunu kendi dokularında yaşayan mikroskobik alglerden alıyor. Gündüzleri kabuğunu açıp renkli mantosunu güneşe seriyor, böylece içindeki algler fotosentez yapabiliyor. Yani dev midye, bir anlamda kendi bahçesini taşıyan bir hayvan.",
+   "text_en": "On the shallow coral reefs of the South Pacific and Indian Ocean lives the largest living bivalve mollusc in the world. Giant clams can weigh more than 200 kilograms and measure as much as 1.2 metres across. The largest known specimen is estimated to have weighed about 340 kilograms alive. Their average lifespan in the wild exceeds 100 years. This giant gets most of its food from microscopic algae living in its own tissues. By day it opens its shell and spreads its colourful mantle in the sunlight, so the algae inside can photosynthesise. In a sense, the giant clam is an animal that carries its own garden."
+  },
+  {
+   "type": "landmark",
+   "depth": 103,
+   "name": "Türkiye Cumhuriyeti",
+   "name_en": "Republic of Türkiye",
+   "value": "103 yıl",
+   "value_en": "103 years",
+   "text": "Türkiye Cumhuriyeti bin dokuz yüz yirmi üçte kuruldu. Bugün bir tuatara, bir olm ya da bir dev midye, cumhuriyetin bütün tarihini baştan sona yaşamış olabilir.",
+   "text_en": "The Republic of Türkiye was founded in 1923. Today a tuatara, an olm or a giant clam could have lived through the republic's entire history from start to finish."
+  },
+  {
+   "type": "landmark",
+   "depth": 114.4,
+   "name": "Titanik'in batışı",
+   "name_en": "Sinking of the Titanic",
+   "value": "114 yıl",
+   "value_en": "114 years",
+   "text": "Titanik on beş Nisan bin dokuz yüz on ikide battı. O gece doğan bir canlının bugün hâlâ yaşıyor olması için yüz on dört yıllık bir ömür gerekiyor.",
+   "text_en": "The Titanic sank on 15 April 1912. For an animal born that night to still be alive today, it would need a lifespan of 114 years."
+  },
+  {
+   "type": "landmark",
+   "depth": 122.45,
+   "name": "Jeanne Calment",
+   "name_en": "Jeanne Calment",
+   "value": "122 yıl",
+   "value_en": "122 years",
+   "chapter": true,
+   "text": "Kaydedilmiş en uzun insan ömrü burada. Fransız Jeanne Calment bin sekiz yüz yetmiş beşte doğdu ve bin dokuz yüz doksan yedide, yüz yirmi iki yıl yüz altmış dört günlükken öldü. Bundan sonraki canlılar en yaşlı insanı bile geride bırakıyor.",
+   "text_en": "Here is the longest human lifespan ever recorded. The Frenchwoman Jeanne Calment was born in 1875 and died in 1997, at 122 years and 164 days. The animals from here on outlive even the oldest human."
+  },
+  {
+   "type": "creature",
+   "depth": 150,
+   "name": "Göl Mersin Balığı",
+   "name_en": "Lake Sturgeon",
+   "latin": "Acipenser fulvescens",
+   "range": "150 yıl",
+   "text": "Kuzey Amerika'nın Büyük Göller bölgesinde ve Mississippi havzasında yaşayan göl mersin balığı, tatlı suların yaşlı bilgelerinden biri. Sırtında beş sıra kemiksi plaka, ağzının önünde dört bıyık taşıyor. Kulak taşlarıyla yaşı doğrulanan bireyler altmış sekiz yaşına kadar çıkıyor, ama yüz elli yaşına ulaşan bireylerin olağandışı olmadığı biliniyor. Bu balıklar çok geç olgunlaşıyor ve her yıl değil, üç ile beş yılda bir yumurtluyor. Üremek için uzun mesafeler göç edip çoğunlukla doğdukları nehirlere geri dönüyorlar. Yavaş büyüme ve seyrek üreme, bu uzun ömrün hem nedeni hem de türü kırılgan kılan şey.",
+   "text_en": "The lake sturgeon of North America's Great Lakes and the Mississippi basin is one of the elders of fresh water. It carries five rows of bony plates on its body and four barbels in front of its mouth. Individuals whose age has been validated from ear stones reach 68 years, but individuals reaching 150 years are known not to be uncommon. These fish mature very late and spawn not every year but once every three to five years. They migrate long distances to breed, often returning to the rivers where they were born. Slow growth and infrequent breeding are both the reason for this long life and what makes the species vulnerable."
+  },
+  {
+   "type": "creature",
+   "depth": 179,
+   "name": "Geoduck Midyesi",
+   "name_en": "Geoduck",
+   "latin": "Panopea generosa",
+   "range": "179 yıl",
+   "text": "Kuzey Amerika'nın kuzeybatı kıyılarında, kumun derinliklerine gömülü yaşayan geoduck, dünyanın en büyük kazıcı midyesi. Kabuğu on beş ile yirmi santimetre ama kabuktan dışarı uzanan sifonu tek başına bir metreye ulaşabiliyor. Bu tuhaf görünüşlü hayvan, sifonunu kumun yüzeyine uzatıp suyu süzerek besleniyor. Aynı zamanda dünyanın en uzun yaşayan hayvanlarından biri. Tipik ömrü yüz kırk yıl, kaydedilen en yaşlı geoduck ise yüz yetmiş dokuz yaşındaydı. Yaşları, tıpkı ağaçlarda olduğu gibi, kabuklarında her yıl biriken halkalar sayılarak kesin olarak belirlenebiliyor. Doğal düşmanının az olması da bu uzun ömre katkıda bulunuyor.",
+   "text_en": "Buried deep in the sand along the northwest coast of North America, the geoduck is the largest burrowing clam in the world. Its shell is 15 to 20 centimetres long, but the siphon reaching out of it can be a metre long on its own. This strange-looking animal feeds by stretching its siphon up to the surface of the sand and filtering the water. It is also one of the longest-lived animals on Earth. Its typical lifespan is 140 years, and the oldest recorded geoduck was 179. Its age can be determined precisely by counting the rings laid down each year in its shell, just like in trees. Having few natural predators also helps this long life."
+  },
+  {
+   "type": "creature",
+   "depth": 193,
+   "name": "Seyşel Dev Kaplumbağası",
+   "name_en": "Seychelles Giant Tortoise",
+   "latin": "Aldabrachelys gigantea hololissa",
+   "range": "≈ 193 yıl",
+   "text": "Güney Atlantik'teki Saint Helena adasında, valilik konağının bahçesinde Jonathan adında bir kaplumbağa yaşıyor. Yaklaşık bin sekiz yüz otuz iki yılında yumurtadan çıktığı tahmin ediliyor. Bu da onu bilinen en yaşlı kara hayvanı ve kayıtlara geçmiş en yaşlı kaplumbağa yapıyor. Jonathan, bin sekiz yüz seksen ikide yaklaşık elli yaşındayken Seyşeller'den adaya getirildi ve o günden bu yana otuz bir valinin görev süresini gördü. Bugün katarakt yüzünden kör ve koku alma duyusunu kaybetmiş durumda. Jonathan, Aldabra dev kaplumbağasının bir alt türü. Bu türün erkekleri ortalama iki yüz elli kilogram ağırlığında ve Aldabra Mercan Adası'nda yaklaşık yüz seksen bin dev kaplumbağa yaşıyor.",
+   "text_en": "On the island of Saint Helena in the South Atlantic, in the garden of the governor's residence, lives a tortoise named Jonathan. He is estimated to have hatched around 1832, which makes him the oldest known living land animal and the oldest verified tortoise in recorded history. Jonathan was brought to the island from the Seychelles in 1882, at about fifty years of age, and has since seen 31 governors come and go. Today he is blind from cataracts and has lost his sense of smell. Jonathan belongs to a subspecies of the Aldabra giant tortoise. Males of this species weigh 250 kilograms on average, and about 180,000 giant tortoises live on Aldabra Atoll."
+  },
+  {
+   "type": "creature",
+   "depth": 200,
+   "name": "Kırmızı Deniz Kestanesi",
+   "name_en": "Red Sea Urchin",
+   "latin": "Mesocentrotus franciscanus",
+   "range": "200+ yıl",
+   "text": "Alaska'dan Meksika'daki Baja California'ya kadar uzanan Pasifik kıyılarında, dikenlerle kaplı kırmızı bir top yaşıyor. Kırmızı deniz kestanesi gelgit çizgisinden iki yüz seksen metre derinliğe kadar kayalık diplerde bulunuyor. Dikenlerini birer ayaklık gibi kullanarak deniz tabanında çok yavaş ilerliyor, dikenlerin arasındaki vantuzlu küçük tüp ayaklarıyla kayalara tutunuyor. En sevdiği besin dev kelp gibi büyük deniz yosunları. Bu deniz kestanelerinin ömrü sıklıkla otuz yılı aşıyor. Ama bazı bireylerin iki yüz yıldan fazla yaşadığı tahmin ediliyor. Yani bugün bir dalgıcın gördüğü kırmızı bir deniz kestanesi, bin sekiz yüz yirmilerde doğmuş olabilir.",
+   "text_en": "Along the Pacific coast from Alaska to Baja California in Mexico lives a red ball covered in spines. The red sea urchin lives on rocky bottoms from the low-tide line down to 280 metres. Using its spines like stilts, it crawls very slowly over the sea floor, and grips the rocks with tiny tube feet with suckers between its spines. Its favourite food is large seaweed such as giant kelp. The lifespan of these urchins frequently exceeds 30 years, but some individuals are estimated to live more than 200 years. So a red sea urchin that a diver sees today might have been born in the 1820s."
+  },
+  {
+   "type": "creature",
+   "depth": 211,
+   "name": "Grönland Balinası",
+   "name_en": "Bowhead Whale",
+   "latin": "Balaena mysticetus",
+   "range": "211 yıl",
+   "text": "Kuzey Kutbu'nun buzlu sularında yaşayan Grönland balinası, yeryüzündeki en uzun ömürlü memeli. İki bin yedide Alaska açıklarında avlanan on beş metrelik bir balinanın vücudunda, bin sekiz yüz yetmiş dokuz ile bin sekiz yüz seksen beş arasında üretilmiş patlayıcı bir zıpkın ucu bulundu. Yani bu balina yüz yıldan fazla önce yaralanmış ve hayatta kalmıştı. Bu keşiften sonra bilim insanları başka balinaların yaşını ölçtü ve bir erkeğin iki yüz on bir yaşında olduğunu hesapladı. Grönland balinası, Arktik buzunu kırmak için devasa üçgen kafatasını kullanıyor. Hayvanlar âleminin en büyük ağzına sahip ve ağzı vücudunun neredeyse üçte biri uzunluğunda.",
+   "text_en": "Living in the icy waters of the Arctic, the bowhead whale is the longest-lived mammal on Earth. In 2007, a 15-metre whale caught off Alaska was found with the head of an explosive harpoon, made between 1879 and 1885, lodged in its body. This whale had been wounded more than a century earlier and survived. After this discovery, scientists measured the ages of other whales and calculated that one male was 211 years old. The bowhead uses its massive triangular skull to break through Arctic ice. It has the largest mouth in the animal kingdom, almost a third of its body length."
+  },
+  {
+   "type": "creature",
+   "depth": 507,
+   "name": "İzlanda Deniz Tarağı",
+   "name_en": "Ocean Quahog",
+   "latin": "Arctica islandica",
+   "range": "507 yıl",
+   "text": "Ve kum saatinin dibine ulaştık. İki bin altıda İzlanda'nın kuzey kıyısı açıklarında deniz dibinden bir deniz tarağı çıkarıldı. Bilim insanları yaşını, kabuğundaki yıllık büyüme halkalarını sayarak hesapladı. Önce dört yüz beş yaşında olduğunu açıkladılar, daha sonra yapılan ölçümler ise bu deniz tarağının tam beş yüz yedi yaşında olduğunu gösterdi. Ona doğduğu dönemdeki Çin hanedanı yüzünden Ming adı verildi. İzlandalı araştırmacılar ise ona okyanusun gizemi anlamına gelen Hafrún adını verdi. Ming yaklaşık bin dört yüz doksan dokuzda doğmuştu. Ne yazık ki yaşını belirlemek için kabuğun açılması gerekti ve Ming bu sırada hayatını kaybetti.",
+   "text_en": "And we have reached the bottom of the hourglass. In 2006, a clam was dredged from the sea floor off the north coast of Iceland. Scientists calculated its age by counting the annual growth bands in its shell. At first they announced it was 405 years old, but later measurements showed that this clam was exactly 507 years old. It was named Ming, after the Chinese dynasty of the time it was born, and the Icelandic researchers named it Hafrún, meaning the mystery of the ocean. Ming was born around 1499. Sadly, the shell had to be opened to determine its age, and Ming died in the process."
+  },
+  {
+   "type": "landmark",
+   "depth": 573.4,
+   "name": "İstanbul'un fethi",
+   "name_en": "Conquest of Constantinople",
+   "value": "573 yıl",
+   "value_en": "573 years",
+   "chapter": true,
+   "text": "İstanbul yirmi dokuz Mayıs bin dört yüz elli üçte fethedildi. Ming doğduğunda bu olayın üzerinden yalnızca kırk altı yıl geçmişti. Bu deniz tarağı, Osmanlı'nın en parlak çağından Cumhuriyet'in kuruluşuna ve sonrasına kadar bütün bu zamanı İzlanda'nın soğuk sularında geçirmişti.",
+   "text_en": "Constantinople was conquered on 29 May 1453. When Ming was born, only 46 years had passed since then. This clam spent all that time, from the golden age of the Ottomans to the founding of the Republic and beyond, in the cold waters off Iceland."
+  },
+  {
+   "type": "outro",
+   "depth": 573.4,
+   "text": "Bir günlük mayıs sineğinden beş yüz yedi yaşındaki Ming'e kadar, kum saatinin bütün kumunu akıttık. Gördük ki uzun ömrün sırrı çoğunlukla yavaşlıkta saklı: soğuk sular, yavaş metabolizma ve az düşman. Bir de şunu unutmayalım. Ömrü yıllarla ölçülemeyen bir canlı daha var. Ölümsüz denizanası olarak bilinen Turritopsis dohrnii, yetişkin olduktan sonra bile yeniden en genç evresine dönebiliyor. Belki de doğanın kum saati, bazı canlılar için hiç bitmiyor. Bu yolculuğu beğendiyseniz kanala abone olmayı ve videoyu beğenmeyi unutmayın. Bir sonraki belgeselde görüşmek üzere.",
+   "text_en": "From the one-day mayfly to 507-year-old Ming, we have let all the sand run through the hourglass. We have seen that the secret of a long life is usually hidden in slowness: cold waters, slow metabolism and few enemies. And let us not forget: there is one more creature whose life cannot be measured in years. Turritopsis dohrnii, known as the immortal jellyfish, can return to its youngest stage even after becoming an adult. Perhaps, for some creatures, nature's hourglass never runs out. If you enjoyed this journey, don't forget to subscribe to the channel and like the video. See you in the next documentary."
+  }
+ ]
+}
