@@ -1,0 +1,84 @@
+{
+  "name": "başlıklı pitohui",
+  "group": "kuş",
+  "hook_style": "tehlike",
+  "title": [
+    [
+      [
+        "BU KUŞUN TÜYLERİ",
+        "W"
+      ]
+    ],
+    [
+      [
+        "KURBAĞA ZEHRİ",
+        "R"
+      ],
+      [
+        " İLE",
+        "W"
+      ]
+    ],
+    [
+      [
+        "AYNI ZEHİRİ",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "BAŞLIKLI PİTOHUİ",
+  "card_top": [
+    "Derisinde ve tüylerinde",
+    "sinir zehiri taşıyor."
+  ],
+  "card_bottom": [
+    "Zehirli kurbağalardakiyle aynı",
+    "zehir ailesinden. Dokunan",
+    "bilim insanları uyuşma hissetti."
+  ],
+  "right": [
+    "Yeni Gine ormanlarında yaşar.",
+    "Zehri kendisi üretmez;",
+    "muhtemelen böceklerden alır.",
+    "Yerli halk ona \"çöp kuş\"",
+    "adını vermiş."
+  ],
+  "loc": "Yeni Gine",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.45,
+      "cy": 0.3,
+      "zoom": 1.3
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.8,
+      "cy": 0.55,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.45,
+      "cy": 0.2,
+      "zoom": 2.4
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "iNaturalist 614725218",
+      "author": "Светлана Царахова",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "iNaturalist 615130207",
+      "author": "Светлана Царахова",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Yeni Gine'nin başlıklı pitohuisi, derisinde ve tüylerinde zehirli kurbağalarda bulunan zehir ailesinden bir sinir zehri taşıyan nadir kuşlardan biri. 🐦☠️\n\n#terrawildnature #ilginçbilgiler #pitohui"
+}
