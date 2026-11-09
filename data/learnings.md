@@ -133,3 +133,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide böcek/örümcek (2,20) ve tehlike kancası (2,13) güçlü; Reels'te sayı (1,48), 40-50 sn güçlü; gönderide memeli/sayı zayıf.
 - Bugün uygulanan: Reels 8→9: Atlantik nalbant yengeci (deniz omurgasızı, sayı kancası, On_the_Shore ilk kez, 76 kelime; ölü/kabuk fotoğraflar elendi). Gönderi 13→15: Asya dev eşek arısı (böcek/örümcek, tehlike) ve sarkıklı jakana (kuş, tuhaf yetenek). Aday canlıların çoğu daha önce kullanılmıştı.
 - Sonra kontrol et: eşek arısı gönderisinin içerik değeri; nalbant yengeci Reels'i (deniz omurgasızı Reels'te ilk kez).
+
+## 2026-11-09
+- Rapordan öğrenilen: önceki günlerin bulguları geçerli (Reels'te sayı kancası/memeli/40-50 sn güçlü; gönderide memeli/sayı zayıf, böcek/örümcek ve tehlike güçlü).
+- Bugün uygulanan: gönderi kuyruğu 15/15, Reels 9/9, failed klasörleri yok; yeni içerik üretilmedi.
+- Sonra kontrol et: kuyruk 15/9'un altına düşerse böcek/örümcek ve tehlike ağırlıklı gönderi, sayı kancalı/memeli Reels ile devam.
