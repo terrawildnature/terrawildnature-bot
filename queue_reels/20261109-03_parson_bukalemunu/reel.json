@@ -1,0 +1,142 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Dreamlike.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Calumma parsonii cristifer 184525842.jpg",
+  "p3.jpg": "File:Calumma parsonii cristifer 184642670.jpg",
+  "p4.jpg": "File:Calumma parsonii cristifer 189472707.jpg",
+  "p5.jpg": "File:Calumma parsonii 003.jpg",
+  "p6.jpg": "File:Parson's chameleon (Calumma parsonii cristifer) female Andasibe 2.jpg",
+  "p7.jpg": "File:Parson's chameleon (Calumma parsonii cristifer) female Andasibe.jpg",
+  "p8.jpg": "File:Calumma parsonii, Peyrieras reptile reserve 01.JPG"
+ },
+ "segments": [
+  {
+   "text": "Bu bukalemunun yumurtaları çatlamak için 400 günden fazla bekliyor.",
+   "image": "p1.jpg",
+   "cx": 0.6,
+   "cy": 0.4,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Madagaskar yağmur ormanlarında yaşayan Parson bukalemunu, ağırlığa göre dünyanın en büyük bukalemunu sayılıyor.",
+   "image": "p4.jpg",
+   "cx": 0.4,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Başlarında bir kask, burunlarında ise iki siğilli boynuz var.",
+   "image": "p3.jpg",
+   "cx": 0.6,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Dişi, 20 ila 60 yumurtayı yaklaşık 30 santim derine gömüyor.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.55,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Yumurtalar 400 ile 660 günde çatlıyor; bu süre bilinen tüm sürüngenlerin en uzunu.",
+   "image": "p7.jpg",
+   "cx": 0.3,
+   "cy": 0.55,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Yavrular yalnızca 7 ile 11 santim boyunda doğuyor.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Esaret altında 14 yıl yaşayan bireyler kaydedilmiş.",
+   "image": "p5.jpg",
+   "cx": 0.65,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p1.jpg",
+   "cx": 0.6,
+   "cy": 0.4,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.6,
+  "cy": 0.4,
+  "title": [
+   [
+    [
+     "YUMURTASI",
+     "R"
+    ]
+   ],
+   [
+    [
+     "400 GÜN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "BOYUNCA",
+     "W"
+    ]
+   ],
+   [
+    [
+     "ÇATLAMIYOR",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "sürüngen",
+ "hook_style": "sayı",
+ "yt_title": "Yumurtası 400 Gün Çatlamayan Bukalemun",
+ "en": {
+  "title": "Parson's Chameleon: Eggs Take 400+ Days",
+  "description": "Parson's chameleon eggs take 400 to 660 days to hatch, longer than in any other known reptile."
+ },
+ "credits": [
+  {
+   "author": "Marius Burger",
+   "license": "CC0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Christophe Germain",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Heinonlein",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ],
+ "caption": "Madagaskar'ın Parson bukalemununun yumurtaları bilinen tüm sürüngenlerin en uzununu, 400 ile 660 günü bulan bir sürede çatlıyor. 🦎🌿\n\n#terrawildnature #parsonbukalemunu\n\n📷 Christophe Germain (CC BY-SA 4.0), Charles J. Sharp (CC BY-SA 4.0), Heinonlein (CC BY-SA 4.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)"
+}
