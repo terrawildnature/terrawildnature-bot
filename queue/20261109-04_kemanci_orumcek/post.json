@@ -1,0 +1,91 @@
+{
+ "name": "kemancı örümcek",
+ "group": "böcek/örümcek",
+ "hook_style": "tehlike",
+ "title": [
+  [
+   [
+    "BU ÖRÜMCEĞİN",
+    "W"
+   ]
+  ],
+  [
+   [
+    "8 DEĞİL",
+    "W"
+   ],
+   [
+    "6 GÖZÜ VAR",
+    "R"
+   ]
+  ],
+  [
+   [
+    "ZEHRİ DOKU ÇÜRÜTÜR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "KEMANCI ÖRÜMCEK",
+ "card_top": [
+  "Sırtındaki keman desenli",
+  "işaretle tanınır."
+ ],
+ "card_bottom": [
+  "Zehri doku çürütür; ısırığı",
+  "bazen tıbbi müdahale",
+  "gerektirir."
+ ],
+ "right": [
+  "ABD'nin güney-orta kesiminde",
+  "yaşar; boyu 6-20 mm kadardır.",
+  "Çoğu örümceğin 8 gözü varken",
+  "onun 3 çift, yani 6 gözü var.",
+  "Kıtanın 2 tehlikeli örümceği."
+ ],
+ "loc": "Kuzey Amerika",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.48,
+   "cy": 0.42,
+   "zoom": 1.1
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.55,
+   "cy": 0.42,
+   "zoom": 1.1
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.47,
+   "cy": 0.78,
+   "zoom": 2.2
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Brown recluse spider, Loxosceles reclusa.jpg",
+   "author": "Unknown",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "use": "top",
+   "title": "File:Brown-recluse-2.jpg",
+   "author": "Br-recluse-guy",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "use": "inner",
+   "title": "File:Loxosceles reclusa 180428299.jpg",
+   "author": "Chrissy McClarren and Andy Reago",
+   "license": "CC0",
+   "public_domain": true
+  }
+ ],
+ "caption": "Kuzey Amerika'nın kemancı örümceği, sekiz yerine altı gözüyle ve doku çürüten zehriyle bilinen iki tehlikeli yerli örümcekten biri. 🕷️⚠️\n\n#terrawildnature #ilginçbilgiler #kemancıörümcek"
+}

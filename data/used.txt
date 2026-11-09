@@ -327,3 +327,5 @@ deve örümceği | Galeodes olivieri (Solifugae)
 taş balığı | Synanceia verrucosa
 kelaynak (Reels) | Geronticus eremita
 vaşak (Reels) | Lynx lynx
+kemancı örümcek (kahverengi kemancı) | Loxosceles reclusa
+aslan balığı | Pterois volitans

@@ -1,0 +1,91 @@
+{
+ "name": "aslan balığı",
+ "group": "balık",
+ "hook_style": "tehlike",
+ "title": [
+  [
+   [
+    "BU BALIĞIN",
+    "W"
+   ]
+  ],
+  [
+   [
+    "18 ZEHİRLİ",
+    "W"
+   ],
+   [
+    "DİKENİ",
+    "R"
+   ]
+  ],
+  [
+   [
+    "VAR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "ASLAN BALIĞI",
+ "card_top": [
+  "13 sırt, 2 karın ve 3 anal",
+  "yüzgeçte zehirli dikeni var."
+ ],
+ "card_bottom": [
+  "Uzun yüzgeçleri yele gibi",
+  "göründüğü için adı aslan",
+  "balığı oldu."
+ ],
+ "right": [
+  "Hint-Pasifik resiflerinde",
+  "yaşar, 47 cm'ye kadar uzar.",
+  "Karayipler'de istilacı oldu;",
+  "yeni yerinde avcısı çok az.",
+  "30 bine dek yumurta bırakır."
+ ],
+ "loc": "Hint-Pasifik",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "zoom": 1.0
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.45,
+   "cy": 0.6,
+   "zoom": 1.0
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.33,
+   "cy": 0.65,
+   "zoom": 2.4
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Pterois volitans - red lionfish.jpg",
+   "author": "T.Voekler",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "use": "top",
+   "title": "File:Pterois volitans 470043720.jpg",
+   "author": "Jean-Paul Boerekamps",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "use": "inner",
+   "title": "File:Pterois volitans - red lionfish.jpg",
+   "author": "T.Voekler",
+   "license": "CC0",
+   "public_domain": true
+  }
+ ],
+ "caption": "Hint-Pasifik resiflerinin aslan balığı, 18 zehirli dikeniyle avcıları uzak tutuyor ve istila ettiği Karayipler'de çok az avcıyla karşılaşıyor. 🐟🦁\n\n#terrawildnature #ilginçbilgiler #aslanbalığı"
+}
