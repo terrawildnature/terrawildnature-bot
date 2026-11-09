@@ -1,0 +1,26 @@
+{
+ "name": "altı gözlü kum örümceği",
+ "group": "böcek/örümcek",
+ "hook_style": "tuhaf yetenek",
+ "title": [
+  [["BU ÖRÜMCEK KUMA", "W"]],
+  [["GÖMÜLÜP ", "W"], ["GÖRÜNMEZ", "R"]],
+  [["OLUYOR", "R"]]
+ ],
+ "card_title": "ALTI GÖZLÜ KUM ÖRÜMCEĞİ",
+ "card_top": ["Kısa tüyleri kumu tutar; yere", "yapışıp çölle bütünleşir."],
+ "card_bottom": ["Ağ örmez, kumda pusu kurar.", "Zehri doku hasarı yapabilir;", "kanıtlı insan ısırığı yok."],
+ "right": ["Namibya, Zimbabve ve Güney", "Afrika'nın çöllerinde yaşar.", "Gözleri üç çift, toplam 6.", "Cinsin akrabaları 15 yıla", "kadar yaşayabilir."],
+ "loc": "Güney Afrika",
+ "photos": {
+  "cover": {"file": "photo_cover.jpg", "cx": 0.5, "cy": 0.42, "zoom": 1.3},
+  "top": {"file": "photo_top.jpg", "cx": 0.5, "cy": 0.45, "zoom": 1.3},
+  "inner": {"file": "photo_inner.jpg", "cx": 0.55, "cy": 0.5, "zoom": 1.8}
+ },
+ "credits": [
+  {"use": "cover", "title": "File:Hexophthalma hahni 305451503 550744478.jpg", "author": "Peter Webb", "license": "CC BY 4.0", "public_domain": false},
+  {"use": "top", "title": "File:Sixeyed sand spider (Hexophthalma hahni) 1.jpg", "author": "Dr. Thomas Dörner", "license": "CC BY-SA 4.0", "public_domain": false},
+  {"use": "inner", "title": "File:Hexophthalma hahni 305451503 550742892.jpg", "author": "Peter Webb", "license": "CC BY 4.0", "public_domain": false}
+ ],
+ "caption": "Güney Afrika çöllerinin altı gözlü kum örümceği, ağ örmek yerine kuma gömülüp tüyleriyle çevresine karışarak avını bekliyor. 🕷️🏜️\n\n#terrawildnature #ilginçbilgiler #kumörümceği\n\n📷 Peter Webb (CC BY 4.0), Dr. Thomas Dörner (CC BY-SA 4.0) / Wikimedia Commons"
+}
