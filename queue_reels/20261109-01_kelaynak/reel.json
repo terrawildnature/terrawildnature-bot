@@ -1,0 +1,155 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Lost_Frontier.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Northern bald ibis (Geronticus eremita).jpg",
+  "p2.jpg": "File:Geronticus eremita 119101971.jpg",
+  "p3.jpg": "File:Geronticus eremita 365184349.jpg",
+  "p4.jpg": "File:Geronticus eremita 119101993.jpg",
+  "p5.jpg": "File:Geronticus eremita 341320764.jpg",
+  "p6.jpg": "File:Geronticus eremita 97487821.jpg",
+  "p7.jpg": "File:Geronticus eremita 182737176.jpg",
+  "p8.jpg": "File:Geronticus eremita 239292056.jpg"
+ },
+ "segments": [
+  {
+   "text": "Kelaynak bir zamanlar Avrupa'nın gökyüzünde de uçuyordu.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Ama üç yüz yıldan uzun süre önce Avrupa'dan tamamen kayboldu.",
+   "image": "p2.jpg",
+   "cx": 0.25,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Yeşil ve mor yansımalı parlak siyah tüyleri, kırmızı çıplak başı var.",
+   "image": "p3.jpg",
+   "cx": 0.7,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Cins adı Eski Yunancada yaşlı adam demek; çıplak başına gönderme.",
+   "image": "p4.jpg",
+   "cx": 0.6,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Diğer çoğu ibisin aksine suda yürümez, kayalık uçurumlara yuva yapar.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kertenkele, böcek ve küçük hayvanlarla besleniyor.",
+   "image": "p6.jpg",
+   "cx": 0.55,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "2019'da Fas'ta yaklaşık 700 vahşi kuş kalmıştı.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Türkiye'de ise yarı vahşi bir koloni yaşıyor.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.5,
+  "cy": 0.4,
+  "title": [
+   [
+    [
+     "AVRUPA'DAN",
+     "R"
+    ]
+   ],
+   [
+    [
+     "300 YIL",
+     "W"
+    ]
+   ],
+   [
+    [
+     "ÖNCE",
+     "W"
+    ]
+   ],
+   [
+    [
+     "KAYBOLDU",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "kuş",
+ "hook_style": "sayı",
+ "yt_title": "Avrupa'dan Kaybolan Kuş: Kelaynak",
+ "en": {
+  "title": "Northern Bald Ibis: Vanished From Europe",
+  "description": "The northern bald ibis disappeared from Europe over 300 years ago; only about 700 wild birds remained in Morocco in 2019."
+ },
+ "credits": [
+  {
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Andrea Poggi",
+   "license": "CC BY 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Christoph Moning",
+   "license": "CC BY 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Santiago Martín-Bravo",
+   "license": "CC BY 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "William Stephens",
+   "license": "CC BY 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ],
+ "caption": "Avrupa'dan üç yüz yıldan uzun süre önce kaybolan kelaynak, bugün Fas ve Türkiye'de korunmaya çalışılan çıplak başlı, kırmızı gagalı nadir bir kuş. 🐦🪶\n\n#terrawildnature #kelaynak\n\n📷 Charles J. Sharp (CC BY-SA 4.0), Andrea Poggi (CC BY 4.0), Christoph Moning (CC BY 4.0), Santiago Martín-Bravo (CC BY 4.0), William Stephens (CC BY 4.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)"
+}
