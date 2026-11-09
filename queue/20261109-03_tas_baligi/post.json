@@ -1,0 +1,87 @@
+{
+ "name": "taş balığı",
+ "group": "balık",
+ "hook_style": "tehlike",
+ "title": [
+  [
+   [
+    "DÜNYANIN EN",
+    "W"
+   ]
+  ],
+  [
+   [
+    "ZEHİRLİ BALIĞI",
+    "R"
+   ]
+  ],
+  [
+   [
+    "TAŞ GİBİ DURUYOR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "TAŞ BALIĞI",
+ "card_top": [
+  "Dünyanın en zehirli balığı,",
+  "sırt dikenleri zehir taşır."
+ ],
+ "card_bottom": [
+  "Zehri şiddetli ağrı, şok,",
+  "felç ve doku ölümüne yol",
+  "açabilir."
+ ],
+ "right": [
+  "Kızıldeniz ve Hint-Pasifik'in",
+  "sığ resif sularında yaşar.",
+  "Kayaya karışıp hareketsiz",
+  "bekler; avına bazen sadece",
+  "0,015 saniyede saldırır."
+ ],
+ "loc": "Hint-Pasifik, Kızıldeniz",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.6,
+   "cy": 0.42,
+   "zoom": 1.1
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "zoom": 1.1
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.6,
+   "cy": 0.5,
+   "zoom": 1.6
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Synanceia verrucosa Prague 2011 2.jpg",
+   "author": "Karelj",
+   "license": "CC BY-SA 3.0",
+   "public_domain": false
+  },
+  {
+   "use": "top",
+   "title": "File:Synanceia verrucosa 108700907.jpg",
+   "author": "João D'Andretta",
+   "license": "CC BY 4.0",
+   "public_domain": false
+  },
+  {
+   "use": "inner",
+   "title": "File:Poisson-pierre (Synanceia verrucosa) photographié de nuit (Ifremer 00619-73124 - 29091).jpg",
+   "author": "Jerome Paillet (IFREMER)",
+   "license": "CC BY 4.0",
+   "public_domain": false
+  }
+ ],
+ "caption": "Resif taş balığı kayalara karışıp hareketsiz bekleyen ve dünyanın en zehirli balığı sayılan bir resif avcısı. 🐟☠️\n\n#terrawildnature #ilginçbilgiler #taşbalığı\n\n📷 Karelj (CC BY-SA 3.0), João D'Andretta (CC BY 4.0), Jerome Paillet (CC BY 4.0) / Wikimedia Commons"
+}

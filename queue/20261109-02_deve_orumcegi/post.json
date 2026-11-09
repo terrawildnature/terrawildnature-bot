@@ -1,0 +1,80 @@
+{
+ "name": "deve örümceği",
+ "group": "böcek/örümcek",
+ "hook_style": "gizem",
+ "title": [
+  [
+   [
+    "BU CANLI ÖRÜMCEK",
+    "W"
+   ]
+  ],
+  [
+   [
+    "DEĞİL, AKREP DE",
+    "R"
+   ]
+  ],
+  [
+   [
+    "DEĞİL",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "DEVE ÖRÜMCEĞİ",
+ "card_top": [
+  "Ne örümcek ne akrep: kendi",
+  "takımı olan bir tür avcı."
+ ],
+ "card_bottom": [
+  "Zehir bezi yok, ağ da örmez.",
+  "Avını dev çeneleriyle ezip",
+  "sıvı hale getirerek yer."
+ ],
+ "right": [
+  "Kurak iklimlerde yaşar.",
+  "Adı Latince 'güneşten kaçan'",
+  "anlamına gelir.",
+  "Yüzden fazla türü var;",
+  "en büyükleri 12-15 cm."
+ ],
+ "loc": "Çöller, kurak bölgeler",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.5,
+   "cy": 0.43,
+   "zoom": 1.5
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.62,
+   "cy": 0.4,
+   "zoom": 1.4
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.5,
+   "cy": 0.43,
+   "zoom": 2.6
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Galeodes olivieri 277783562.jpg",
+   "author": "Jean-Paul Boerekamps",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "use": "top",
+   "title": "File:Galeodes olivieri 277783601.jpg",
+   "author": "Jean-Paul Boerekamps",
+   "license": "CC0",
+   "public_domain": true
+  }
+ ],
+ "caption": "Deve örümceği adına rağmen ne örümcek ne akrep; zehir bezi olmayan ve ağ örmeyen bu çöl avcısı dev çeneleriyle avını ezip sıvı hale getiriyor. 🏜️🕷️\n\n#terrawildnature #ilginçbilgiler #deveörümceği"
+}

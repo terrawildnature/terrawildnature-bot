@@ -323,3 +323,5 @@ asya dev eşek arısı | Vespa mandarinia
 sarkıklı jakana | Jacana jacana
 nalbant yengeci (Reels) | Limulus polyphemus
 altı gözlü kum örümceği | Hexophthalma hahni
+deve örümceği | Galeodes olivieri (Solifugae)
+taş balığı | Synanceia verrucosa
