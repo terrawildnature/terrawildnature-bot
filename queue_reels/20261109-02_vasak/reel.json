@@ -1,0 +1,145 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Peaceful_Desolation.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Boreal lynx looking back.jpg",
+  "p2.jpg": "File:Boreal lynx walking.jpg",
+  "p3.jpg": "File:Portrait of a Carpathian Lynx.jpg",
+  "p4.jpg": "File:Boreal lynx, front view.jpg",
+  "p5.jpg": "File:Luchs im Nationalpark Bayerischer Wald 7.jpg",
+  "p6.jpg": "File:Boreal lynx walking, panoramic.jpg",
+  "p7.jpg": "File:Luchs im Nationalpark Bayerischer Wald 10.jpg",
+  "p8.jpg": "File:Luchs im Nationalpark Bayerischer Wald 8.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu yırtıcının patileri doğal birer kar ayakkabısı.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Avrasya vaşağı, dört vaşak türünün en büyüğü.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Kulaklarında siyah püskülleri, boynunda gri beyaz bir tüy yakası var.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kuyruğu kısa ve ucu simsiyah.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Kuzey Avrupa'dan Sibirya'ya ve Himalayalar'a kadar yaşıyor.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Bir zamanlar Avrupa'nın büyük bölümüne yayılmıştı.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Almanya'da 1850'de tamamen yok edildi, 1990'larda geri getirildi.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "2009'da Finlandiya'da 2 bin 200 kadar vaşak olduğu tahmin ediliyordu.",
+   "image": "p8.jpg",
+   "cx": 0.2,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p4.jpg",
+  "cx": 0.5,
+  "cy": 0.2,
+  "title": [
+   [
+    [
+     "BU VAŞAĞIN",
+     "R"
+    ]
+   ],
+   [
+    [
+     "PATİLERİ",
+     "W"
+    ]
+   ],
+   [
+    [
+     "KAR",
+     "W"
+    ]
+   ],
+   [
+    [
+     "AYAKKABISI",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "tuhaf görünüm",
+ "yt_title": "Patileri Kar Ayakkabısı Olan Yırtıcı: Vaşak",
+ "en": {
+  "title": "Eurasian Lynx: Snowshoe Paws",
+  "description": "The Eurasian lynx is the largest of the four lynx species, and its large furred paws act like natural snowshoes."
+ },
+ "credits": [
+  {
+   "author": "Joselodos",
+   "license": "CC0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Wilfredor",
+   "license": "CC0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "JakobRei",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ],
+ "caption": "Avrasya vaşağı, kar ayakkabısı gibi çalışan geniş ve tüylü patileri sayesinde karlı ormanlarda rahatça yürüyen, dört vaşak türünün en büyüğü. 🐾❄️\n\n#terrawildnature #vaşak\n\n📷 JakobRei (CC BY-SA 4.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)"
+}
