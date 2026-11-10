@@ -1,0 +1,26 @@
+{
+  "name": "surucucu",
+  "group": "sürüngen",
+  "hook_style": "tehlike",
+  "title": [
+    [["BU YILAN, DÜNYANIN", "W"]],
+    [["EN UZUN", "R"], ["ENGEREĞİ", "R"]],
+    [["3,65 METRE", "R"]]
+  ],
+  "card_title": "SURUCUCU",
+  "card_top": ["Dünyanın en uzun engereği;", "en uzunu 3,65 m ölçüldü."],
+  "card_bottom": ["Batı Yarımküre'nin en uzun", "zehirli yılanıdır. Zehri dokuyu", "çürütür, kanı pıhtılaştırmaz."],
+  "right": ["Amazon ve Güney Amerika'nın", "ekvator ormanlarında yaşar.", "Kuyruğu sallanınca çıngıraklı", "yılan gibi hışırtı çıkarır.", "Çoğunlukla fare ve sıçan yer."],
+  "loc": "Amazon",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.62, "cy": 0.3, "zoom": 1.0},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.45, "cy": 0.52, "zoom": 1.3},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.5,  "cy": 0.45, "zoom": 1.1}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:SouthAmericanBushmaster LachesisMutaMuta.jpg", "author": "Ltshears", "license": "CC BY-SA 3.0", "public_domain": false},
+    {"use": "top", "title": "File:Lachesis muta.jpg", "author": "Esquilo", "license": "CC BY-SA 3.0", "public_domain": false},
+    {"use": "inner", "title": "File:Bushmaster - Shushupe.jpg", "author": "Mauricio Espejo Chura", "license": "CC BY-SA 4.0", "public_domain": false}
+  ],
+  "caption": "Güney Amerika yağmur ormanlarının sessiz avcısı surucucu, 3,65 metreye kadar uzayabilen vücuduyla dünyanın en uzun engereği ve Batı Yarımküre'nin en uzun zehirli yılanı olarak kayıtlara geçti. 🐍🌿\n\n#terrawildnature #ilginçbilgiler #surucucu\n\n📷 Ltshears (CC BY-SA 3.0), Esquilo (CC BY-SA 3.0), Mauricio Espejo Chura (CC BY-SA 4.0) / Wikimedia Commons"
+}
