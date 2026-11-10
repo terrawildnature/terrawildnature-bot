@@ -1,0 +1,94 @@
+{
+  "name": "dev kırkayak",
+  "group": "böcek/örümcek",
+  "hook_style": "tehlike",
+  "title": [
+    [
+      [
+        "BU KIRKAYAK",
+        "W"
+      ]
+    ],
+    [
+      [
+        "YARASALARI ",
+        "W"
+      ],
+      [
+        "TAVANDA",
+        "R"
+      ]
+    ],
+    [
+      [
+        "AVLIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "DEV KIRKAYAK",
+  "card_top": [
+    "Dünyanın en büyük kırkayağı;",
+    "boyu 30 cm'yi aşabiliyor."
+  ],
+  "card_bottom": [
+    "Mağara tavanına tırmanıp birkaç",
+    "bacağıyla tutunur; ağır yarasaları",
+    "zehriyle hareketsiz bırakır."
+  ],
+  "right": [
+    "Güney Amerika'nın kuzeyindeki",
+    "yağmur ormanlarında yaşar.",
+    "Yaprak yığınlarının, taşların",
+    "altında saklanır. Fare, kertenkele",
+    "ve tarantulaları da avlar."
+  ],
+  "loc": "Güney Amerika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.4,
+      "cy": 0.35,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.4,
+      "cy": 0.65,
+      "zoom": 1.6
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "iNaturalist 586172913",
+      "author": "Elkin Meriño Florez",
+      "license": "CC BY",
+      "public_domain": false,
+      "source": "iNaturalist"
+    },
+    {
+      "use": "top",
+      "title": "iNaturalist 50595617",
+      "author": "Angelica María Batista Morales",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "iNaturalist"
+    },
+    {
+      "use": "inner",
+      "title": "iNaturalist 341233595",
+      "author": "Elkin Meriño Florez",
+      "license": "CC BY",
+      "public_domain": false,
+      "source": "iNaturalist"
+    }
+  ],
+  "caption": "Güney Amerika'nın dev kırkayağı Scolopendra gigantea, 30 cm'yi aşan boyuyla mağara tavanına tırmanıp yarasaları avlayabiliyor. 🦇🐛\n\n#terrawildnature #ilginçbilgiler #kırkayak\n\n📷 Elkin Meriño Florez (CC BY) / iNaturalist"
+}
