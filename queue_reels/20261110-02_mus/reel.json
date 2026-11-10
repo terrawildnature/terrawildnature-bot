@@ -1,0 +1,166 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Intrepid.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Moose animal at snow alces alces.jpg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/610693466/original.jpg",
+  "p3.jpg": "File:Young bull moose alces alces lies in grassy area near water.jpg",
+  "p4.jpg": "File:Elk (Alces alces alces) female Oppdal.jpg",
+  "p5.jpg": "File:Elk (Alces alces) calf Biebrzanski.jpg",
+  "p6.jpg": "File:Alce (Alces alces), Potter marsh, Alaska, Estados Unidos, 2017-08-22, DD 139.jpg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/416144711/original.jpeg",
+  "p8.jpg": "File:Moose (Alces alces), Male - Algonquin Provincial Park, Ontario.jpg",
+  "p9.jpg": "File:Eland - Elk - Moose - Alces alces 5.jpg"
+ },
+ "segments": [
+  {
+   "text": "Mus, 5,5 metre derine dalıp göl dibindeki bitkileri yiyebiliyor.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Sualtında beslenebilen tek geyik türü.",
+   "image": "p3.jpg",
+   "cx": 0.85,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Dünyanın en büyük geyiği; erkekleri 380 ile 700 kilo arasında.",
+   "image": "p2.jpg",
+   "cx": 0.8,
+   "cy": 0.35,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Yetişkin erkeklerin boynuz açıklığı 2 metreyi aşabiliyor.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Boynuzlar ses yansıtıcı gibi çalışıp işitmeyi güçlendiriyor.",
+   "image": "p9.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "360 kiloluk bir mus günde 32 kilo yiyecek tüketebiliyor.",
+   "image": "p7.jpg",
+   "cx": 0.65,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Diyetinin yarısına kadarı, tuz ihtiyacını karşılayan su bitkilerinden oluşuyor.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Dişiler sekiz ay gebe kalıyor, bol besin varsa ikiz doğuruyor.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p6.jpg",
+  "cx": 0.12,
+  "cy": 0.4,
+  "title": [
+   [
+    [
+     "5,5 METRE",
+     "R"
+    ]
+   ],
+   [
+    [
+     "DERİYE",
+     "W"
+    ]
+   ],
+   [
+    [
+     "DALABİLEN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "TEK GEYİK",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "sayı",
+ "yt_title": "5,5 Metre Dalabilen Dev Geyik: Mus",
+ "en": {
+  "title": "The Moose: The Only Deer That Feeds Underwater",
+  "description": "The moose can dive over 5.5 meters to eat lake-bottom plants, and it is the only deer able to feed underwater."
+ },
+ "caption": "Dünyanın en büyük geyiği mus, göl dibindeki bitkilere ulaşmak için 5,5 metreden fazla dalabiliyor ve sualtında beslenebilen tek geyik türü. 🫎🌊\n\n#terrawildnature #mus\n\n📷 Charles J. Sharp (CC BY-SA 4.0), Diego Delso (CC BY-SA 4.0), Ryan Hodnett (CC BY-SA 4.0), Bouke ten Cate (CC BY 4.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "author": "U.S. Fish and Wildlife Service",
+   "license": "Public domain",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Лариса Артемьева",
+   "license": "CC0",
+   "source": "iNaturalist"
+  },
+  {
+   "author": "jeffcherry",
+   "license": "CC0",
+   "source": "iNaturalist"
+  },
+  {
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Ryan Hodnett",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Bouke ten Cate",
+   "license": "CC BY 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
