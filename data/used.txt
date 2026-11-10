@@ -332,3 +332,5 @@ aslan balığı | Pterois volitans
 Parson bukalemunu (Reels) | Calumma parsonii
 surucucu | Lachesis muta
 tembel ayı (Reels) | Melursus ursinus
+dev orman akrebi | Gigantometrus swammerdami
+fugu balığı (Japon balon balığı) | Takifugu rubripes

@@ -1,0 +1,26 @@
+{
+  "name": "fugu baligi",
+  "group": "balık",
+  "hook_style": "tehlike",
+  "title": [
+    [["BU BALIĞIN KARACİĞERİ", "W"]],
+    [["VE YUMURTALIĞI", "R"]],
+    [["ZEHİR DOLU", "R"]]
+  ],
+  "card_title": "FUGU BALIĞI",
+  "card_top": ["Japon balon balığının bazı", "organlarında tetrodotoksin var."],
+  "card_bottom": ["Zehir en çok karaciğerde ve", "yumurtalıkta bulunur; derisinde", "ve erkek üreme organında yoktur."],
+  "right": ["Japonya Denizi, Doğu Çin Denizi", "ve Sarı Deniz'de yaşar.", "10-135 metre derinlikte", "dipte dolaşır. Japonya'nın en", "değerli ticari balıklarındandır."],
+  "loc": "Japonya, Doğu Asya",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.55, "cy": 0.5, "zoom": 1.2},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.55, "cy": 0.55, "zoom": 1.3},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.55, "cy": 0.4, "zoom": 1.8}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Takifugu rubripes Kaikyokan1.jpg", "author": "Totti", "license": "CC BY-SA 4.0", "public_domain": false},
+    {"use": "top", "title": "File:Japanese pufferfish diving into the sand.jpg", "author": "要塞騎士", "license": "CC BY-SA 4.0", "public_domain": false},
+    {"use": "inner", "title": "File:Takifugu rubripes AQUAS.jpg", "author": "Totti", "license": "CC BY-SA 4.0", "public_domain": false}
+  ],
+  "caption": "Japonya'nın en değerli balıklarından torafugu, karaciğerinde ve yumurtalığında yoğun biçimde tetrodotoksin denen zehri taşıyor. 🐡☠️\n\n#terrawildnature #ilginçbilgiler #fugubalığı\n\n📷 Totti (CC BY-SA 4.0), 要塞騎士 (CC BY-SA 4.0) / Wikimedia Commons"
+}

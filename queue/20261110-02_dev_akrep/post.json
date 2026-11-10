@@ -1,0 +1,26 @@
+{
+  "name": "dev orman akrebi",
+  "group": "böcek/örümcek",
+  "hook_style": "süperlatif",
+  "title": [
+    [["DÜNYANIN EN BÜYÜK", "W"]],
+    [["AKREBİ 23 CM", "R"]],
+    [["UZUNLUĞUNDA", "R"]]
+  ],
+  "card_title": "DEV ORMAN AKREBİ",
+  "card_top": ["Hindistan'a özgü bu akrep,", "23 cm'ye kadar uzanabiliyor."],
+  "card_bottom": ["Ağırlığı yaklaşık 56 gram. Zehri", "insanlar için genelde ölümcül", "değil; avını pençeleriyle ezer."],
+  "right": ["Hindistan'ın tropik", "yağmur ormanlarında görülür.", "Terk edilmiş termit yuvalarında,", "ağaç oyuklarında ve fare", "ya da yengeç deliklerinde yaşar."],
+  "loc": "Hindistan",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.55, "cy": 0.42, "zoom": 1.2},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.5, "cy": 0.55, "zoom": 1.2},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.5, "cy": 0.6, "zoom": 1.0}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Giant forest scorpion.JPG", "author": "Nireekshit", "license": "CC BY-SA 3.0", "public_domain": false},
+    {"use": "top", "title": "File:Gigantometrus swammerdami 3.jpg", "author": "Nativeplants garden", "license": "CC BY-SA 4.0", "public_domain": false},
+    {"use": "inner", "title": "File:Gigantometrus swammerdami.jpg", "author": "Nativeplants garden", "license": "CC BY-SA 4.0", "public_domain": false}
+  ],
+  "caption": "Hindistan ormanlarının devi dev orman akrebi, 23 cm'ye ulaşan boyuyla dünyanın en büyük akrebi sayılıyor ve avını zehriyle değil, güçlü kıskaçlarıyla eziyor. 🦂🌿\n\n#terrawildnature #ilginçbilgiler #akrep\n\n📷 Nireekshit (CC BY-SA 3.0), Nativeplants garden (CC BY-SA 4.0) / Wikimedia Commons"
+}
