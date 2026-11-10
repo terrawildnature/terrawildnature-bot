@@ -1,0 +1,156 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Myst_on_the_Moor.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Gharial (Gavialis gangeticus) female head.jpg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/476677361/original.jpeg",
+  "p3.jpg": "File:Gharial (Gavialis gangeticus) female and juvenile.jpg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/483115827/original.jpeg",
+  "p5.jpg": "File:Gharial (Gavialis gangeticus) male.jpg",
+  "p6.jpg": "File:Wild Gharial (Gavialis gangeticus) female (20647847122).jpg",
+  "p7.jpg": "File:Gharial (Gavialis gangeticus) female.jpg",
+  "p8.jpg": "File:Gharial (Gavialis gangeticus) juvenile (19812044149).jpg",
+  "p9.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/229263279/original.jpeg"
+ },
+ "segments": [
+  {
+   "text": "Bu timsahın ağzında yaklaşık 110 diş var.",
+   "image": "p1.jpg",
+   "cx": 0.35,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Gaviyal, Hint alt kıtasının nehirlerinde yaşayan ince burunlu bir timsah.",
+   "image": "p2.jpg",
+   "cx": 0.65,
+   "cy": 0.55,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Erkekleri 3 ile 6 metre uzunluğa ulaşabiliyor.",
+   "image": "p3.jpg",
+   "cx": 0.6,
+   "cy": 0.35,
+   "motion": "pan_right"
+  },
+  {
+   "text": "En iri erkekler 600 kiloyu geçebiliyor.",
+   "image": "p4.jpg",
+   "cx": 0.82,
+   "cy": 0.6,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Erkeklerin burnundaki kabarıklık, 75 metre öteden duyulan tıslama sesi çıkarmalarına yardım ediyor.",
+   "image": "p5.jpg",
+   "cx": 0.75,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "1946'da 5 ile 10 bin kadar olan nüfus, 2006'ya gelince 250'nin altına düştü.",
+   "image": "p6.jpg",
+   "cx": 0.35,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Bugün en fazla 900 gaviyal kaldığı tahmin ediliyor.",
+   "image": "p7.jpg",
+   "cx": 0.4,
+   "cy": 0.6,
+   "motion": "pan_left"
+  },
+  {
+   "text": "IUCN'ye göre kritik derecede tehlike altında.",
+   "image": "p8.jpg",
+   "cx": 0.7,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.4,
+   "cy": 0.8,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.35,
+  "cy": 0.4,
+  "title": [
+   [
+    [
+     "EN FAZLA",
+     "R"
+    ]
+   ],
+   [
+    [
+     "900 TANE",
+     "W"
+    ]
+   ],
+   [
+    [
+     "KALDI",
+     "W"
+    ]
+   ],
+   [
+    [
+     "BU TİMSAH",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "sürüngen",
+ "hook_style": "sayı",
+ "yt_title": "Dünyada 900'den Az Kaldı: Gaviyal Timsahı",
+ "en": {
+  "title": "Fewer Than 900 Left: The Gharial",
+  "description": "The gharial has about 110 teeth, and its wild population fell from thousands to an estimated 900 or fewer."
+ },
+ "caption": "Hint alt kıtasının ince burunlu timsahı gaviyalın ağzında yaklaşık 110 diş var ve dünyada en fazla 900 tanesi kaldığı tahmin ediliyor. 🐊🌊\n\n#terrawildnature #gaviyal\n\n📷 Charles J. Sharp (CC BY-SA 4.0), Bernard DUPONT (CC BY-SA 2.0) / Wikimedia Commons, Ben Lyle Bedard (CC BY), Fábio Olmos (CC BY), Sameer Shaik (CC BY) / iNaturalist\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Bernard DUPONT",
+   "license": "CC BY-SA 2.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Ben Lyle Bedard",
+   "license": "CC BY",
+   "source": "iNaturalist"
+  },
+  {
+   "author": "Fábio Olmos",
+   "license": "CC BY",
+   "source": "iNaturalist"
+  },
+  {
+   "author": "Sameer Shaik",
+   "license": "CC BY",
+   "source": "iNaturalist"
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
