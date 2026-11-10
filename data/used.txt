@@ -336,3 +336,4 @@ dev orman akrebi | Gigantometrus swammerdami
 fugu balığı (Japon balon balığı) | Takifugu rubripes
 mus (Reels) | Alces alces
 dev kırkayak | Scolopendra gigantea
+hellbender | Cryptobranchus alleganiensis

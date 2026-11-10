@@ -1,0 +1,92 @@
+{
+  "name": "hellbender",
+  "group": "amfibi",
+  "hook_style": "tuhaf yetenek",
+  "title": [
+    [
+      [
+        "BU SEMENDER",
+        "W"
+      ]
+    ],
+    [
+      [
+        "DERİSİYLE ",
+        "W"
+      ],
+      [
+        "NEFES",
+        "R"
+      ]
+    ],
+    [
+      [
+        "ALIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "HELLBENDER",
+  "card_top": [
+    "Gövdesindeki kalın deri",
+    "kıvrımlarından oksijen alır."
+  ],
+  "card_bottom": [
+    "Boyu 74 cm'ye kadar uzanır.",
+    "Kıvrımlı derisi yüzünden ona",
+    "lazanya kertenkelesi denir."
+  ],
+  "right": [
+    "ABD'nin doğusundaki temiz",
+    "dağ nehirlerinde yaşar.",
+    "Geceleri kerevit ve balık avlar.",
+    "Erkek, yuvadaki yumurtalara",
+    "aylarca tek başına bakar."
+  ],
+  "loc": "Kuzey Amerika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.4,
+      "cy": 0.4,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.75,
+      "cy": 0.65,
+      "zoom": 1.5
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.6,
+      "cy": 0.45,
+      "zoom": 1.2
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Eastern hellbender salamander FWS 18501.jpg",
+      "author": "Gary Peeples / USFWS",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Eastern hellbender salamander FWS 18501.jpg",
+      "author": "Gary Peeples / USFWS",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "iNaturalist 431751445",
+      "author": "sunny tyson",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "iNaturalist"
+    }
+  ],
+  "caption": "Kuzey Amerika'nın dev semenderi hellbender, vücudunun yanlarındaki kalın deri kıvrımlarından oksijen alarak neredeyse derisiyle nefes alıyor. 🦎💧\n\n#terrawildnature #ilginçbilgiler #hellbender"
+}
