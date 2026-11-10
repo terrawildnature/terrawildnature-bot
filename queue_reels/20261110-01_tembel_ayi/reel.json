@@ -1,0 +1,176 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Serpentine_Trek.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Sloth bear in Bandhavgarh National Park May 2026 by Tisha Mukherjee 04.jpg",
+  "p2.jpg": "File:Sloth Bear with Cubs at Bor tiger reserve, Maharashtra, India.jpg",
+  "p3.jpg": "File:077 Sloth bear in Ranthambore National Park Photo by Giles Laurent.jpg",
+  "p4.jpg": "File:Sloth bear (Melursus ursinus) is a terrestrial mammal in Pilibhit tiger reserve.jpg",
+  "p5.jpg": "File:Melursus ursinus ursinus 278694646.jpg",
+  "p6.jpg": "File:Sloth Bear Ranthambore.jpg",
+  "p7.jpg": "File:Sloth bear at Simliguda, Koraput, Odisha.jpg",
+  "p8.jpg": "File:Sri Lankan Sloth Bear (Melursus ursinus inornatus) 2.jpg",
+  "p9.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/113575426/original.jpeg"
+ },
+ "segments": [
+  {
+   "text": "Bu ayının termit yerken çıkardığı emme sesi 180 metre öteden duyuluyor.",
+   "image": "p1.jpg",
+   "cx": 0.4,
+   "cy": 0.45,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Hindistan alt kıtasında yaşayan tembel ayı karınca, termit ve meyve yiyor.",
+   "image": "p2.jpg",
+   "cx": 0.4,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Pençeleriyle yuvayı kazıyor, toprağı üfleyip termitleri emiyor.",
+   "image": "p3.jpg",
+   "cx": 0.62,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Uzun alt dudağı böcek emmeye özelleşmiş.",
+   "image": "p4.jpg",
+   "cx": 0.75,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Dişi 210 gün gebe kalıyor ve bir ya da iki yavru doğuruyor.",
+   "image": "p5.jpg",
+   "cx": 0.3,
+   "cy": 0.35,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Yavrular, anneleri yürürken ve ağaca tırmanırken sırtında taşınıyor.",
+   "image": "p6.jpg",
+   "cx": 0.15,
+   "cy": 0.6,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Hantal görünse de koşan bir insandan hızlı dörtnala gidebiliyor.",
+   "image": "p7.jpg",
+   "cx": 0.15,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Tür, yaşam alanı kaybı yüzünden savunmasız kategorisinde.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.75,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p1.jpg",
+   "cx": 0.4,
+   "cy": 0.45,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p9.jpg",
+  "cx": 0.62,
+  "cy": 0.3,
+  "title": [
+   [
+    [
+     "180 METRE",
+     "R"
+    ]
+   ],
+   [
+    [
+     "ÖTEDEN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "DUYULAN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "EMME SESİ",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "sayı",
+ "yt_title": "180 Metre Öteden Duyulan Emme Sesi: Tembel Ayı",
+ "en": {
+  "title": "Sloth Bear: Its Sucking Is Heard 180 m Away",
+  "description": "The sloth bear's termite-sucking sound can be heard from 180 meters away, and its cubs ride on their mother's back."
+ },
+ "caption": "Hindistan ormanlarının termit avcısı tembel ayı, termit yuvasını kazıp böcekleri öyle güçlü emiyor ki sesi 180 metre öteden duyuluyor. 🐻🌿\n\n#terrawildnature #tembelayı\n\n📷 Tisha Mukherjee (CC BY-SA 4.0), Rohit Sharma (CC BY-SA 4.0), Giles Laurent (CC BY-SA 4.0), Mike Prince (CC BY 2.0), Sameer Shaik (CC BY 4.0), Harsha Jayaramaiah (CC BY-SA 4.0), Shiv's fotografia (CC BY-SA 4.0), Senaka Silva (CC BY-SA 4.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "author": "Tisha Mukherjee",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Rohit Sharma",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Giles Laurent",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Mike Prince",
+   "license": "CC BY 2.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Sameer Shaik",
+   "license": "CC BY 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Harsha Jayaramaiah",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Shiv's fotografia",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Senaka Silva",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "S.MORE",
+   "license": "CC0",
+   "source": "iNaturalist"
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
