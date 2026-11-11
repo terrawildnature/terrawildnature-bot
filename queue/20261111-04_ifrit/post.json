@@ -1,0 +1,94 @@
+{
+  "name": "mavi başlıklı ifrit",
+  "group": "kuş",
+  "hook_style": "tehlike",
+  "title": [
+    [
+      [
+        "BU KUŞUN TÜYLERİ",
+        "W"
+      ]
+    ],
+    [
+      [
+        "SİYANÜRDEN ",
+        "W"
+      ],
+      [
+        "DAHA",
+        "R"
+      ]
+    ],
+    [
+      [
+        "ZEHİRLİ OLABİLİR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "MAVİ BAŞLIKLI İFRİT",
+  "card_top": [
+    "Tüylerinde ve derisinde",
+    "batrakotoksin birikiyor."
+  ],
+  "card_bottom": [
+    "Bu sinir zehirinin siyanürden",
+    "daha ölümcül olduğu düşünülür.",
+    "Dokunana tahriş yapar."
+  ],
+  "right": [
+    "Yeni Gine dağ ormanlarında",
+    "yaşar; başka yerde bulunmaz.",
+    "Zehri muhtemelen böceklerden.",
+    "16-17 cm boyunda, 34-36 g.",
+    "Kendi zehrinden etkilenmez."
+  ],
+  "loc": "Yeni Gine",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.4,
+      "cy": 0.3,
+      "zoom": 1.3
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.3,
+      "cy": 0.35,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.62,
+      "zoom": 1.8
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "iNaturalist 571767478",
+      "author": "themaskedlapwing",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "iNaturalist"
+    },
+    {
+      "use": "top",
+      "title": "iNaturalist 571767473",
+      "author": "themaskedlapwing",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "iNaturalist"
+    },
+    {
+      "use": "inner",
+      "title": "iNaturalist 571767471",
+      "author": "themaskedlapwing",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "iNaturalist"
+    }
+  ],
+  "caption": "Yeni Gine'nin dağ ormanlarında yaşayan mavi başlıklı ifrit, yediği böceklerden aldığı batrakotoksin adlı sinir zehrini tüylerinde ve derisinde taşıyan nadir kuşlardan biri. 🐦☠️\n\n#terrawildnature #ilginçbilgiler #mavibaşlıkifrit"
+}
