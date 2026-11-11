@@ -1,0 +1,26 @@
+{
+  "name": "filipin tarsiyeri",
+  "group": "memeli",
+  "hook_style": "tuhaf yetenek",
+  "title": [
+    [["BU MİNİK PRİMAT", "W"]],
+    [["BAŞINI ", "W"], ["180°", "R"]],
+    [["ÇEVİREBİLİYOR", "R"]]
+  ],
+  "card_title": "FİLİPİN TARSİYERİ",
+  "card_top": ["Vücuduna oranla gözleri", "tüm memelilerin en büyüğü."],
+  "card_bottom": ["Gözleri yuvasında oynamaz,", "bu yüzden başını 180° çevirir.", "Ağaçlar arasında 3 m atlar."],
+  "right": ["Yalnızca Filipinler'de yaşar:", "Bohol, Samar, Leyte adaları.", "Gece böcek ve örümcek yer;", "avı iki elle ağzına taşır.", "Yetişkini bir yumruk kadar."],
+  "loc": "Filipinler",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.5, "cy": 0.3, "zoom": 1.6},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.5, "cy": 0.4, "zoom": 1.3},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.55, "cy": 0.3, "zoom": 1.8}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Philippine tarsier (Carlito syrichta fraterculus) Bohol 2.jpg", "author": "Charles J. Sharp", "license": "CC BY-SA 4.0", "public_domain": false},
+    {"use": "top", "title": "File:Philippine tarsier (Carlito syrichta fraterculus) Bohol.jpg", "author": "Charles J. Sharp", "license": "CC BY-SA 4.0", "public_domain": false},
+    {"use": "inner", "title": "File:Philippine tarsier (Carlito syrichta fraterculus) Bohol 3.jpg", "author": "Charles J. Sharp", "license": "CC BY-SA 4.0", "public_domain": false}
+  ],
+  "caption": "Filipin tarsiyerinin gözleri yuvasında oynamadığı için başını 180° çevirebiliyor ve vücuduna oranla tüm memelilerin en büyük gözlerine sahip. 🐒👀\n\n#terrawildnature #ilginçbilgiler #filipintarsiyeri\n\n📷 Charles J. Sharp (CC BY-SA 4.0) / Wikimedia Commons"
+}
