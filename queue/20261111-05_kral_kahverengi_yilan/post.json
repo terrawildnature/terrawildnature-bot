@@ -1,0 +1,94 @@
+{
+  "name": "kral kahverengi yılan",
+  "group": "sürüngen",
+  "hook_style": "tehlike",
+  "title": [
+    [
+      [
+        "BU YILAN ISIRIRKEN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "ZEHRİNİ ",
+        "W"
+      ],
+      [
+        "ÇİĞNEYEREK",
+        "R"
+      ]
+    ],
+    [
+      [
+        "VERİYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "KRAL KAHVERENGİ YILAN",
+  "card_top": [
+    "Avustralya'nın en büyük",
+    "zehirli kara yılanı."
+  ],
+  "card_bottom": [
+    "Tekrar tekrar ısırıp çiğneyerek",
+    "zehri verebilir. Zehri kasları",
+    "felç eder, kan pıhtılaşmasını bozar."
+  ],
+  "right": [
+    "Avustralya'nın kuzey, batı",
+    "ve iç kesimlerinde yaşar.",
+    "2-2,5 m uzar, en uzunu 3,3 m.",
+    "Kurbağa, kertenkele, yılan,",
+    "hatta örümcek yer."
+  ],
+  "loc": "Avustralya",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.65,
+      "cy": 0.65,
+      "zoom": 1.0
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.25,
+      "cy": 0.65,
+      "zoom": 1.0
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.8,
+      "cy": 0.55,
+      "zoom": 1.8
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Pseudechis australis 358445313.jpg",
+      "author": "Max Tibby",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "Wikimedia Commons"
+    },
+    {
+      "use": "top",
+      "title": "File:Pseudechis australis 358490951.jpg",
+      "author": "Max Tibby",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "Wikimedia Commons"
+    },
+    {
+      "use": "inner",
+      "title": "File:Pseudechis australis 444196534.jpg",
+      "author": "Max Tibby",
+      "license": "CC0",
+      "public_domain": true,
+      "source": "Wikimedia Commons"
+    }
+  ],
+  "caption": "Avustralya'nın en büyük zehirli kara yılanı olan kral kahverengi yılan, kurbanını tekrar tekrar ısırıp çiğneyerek zehirleyebiliyor ve 3,3 metreye kadar uzayabiliyor. 🐍🇦🇺\n\n#terrawildnature #ilginçbilgiler #kralkahverengiyılan"
+}

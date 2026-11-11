@@ -183,3 +183,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide tehlike kancası (1,58) güçlü, memeli/sayı/süperlatif zayıf; Reels'te memeli (1,84), sayı (1,55), 40-50 sn güçlü.
 - Bugün uygulanan: Gönderi 13→15: çekiç başlı köpekbalığı (balık, tehlike, 96 vatoz dikeni) ve Filipin tarsiyeri (memeli, tuhaf yetenek, keşif). Reels 8→9: büyük uçan tilki (memeli, sayı, The_Descent ilk kez, 81 kelime). Yavaş lori iNaturalist'te karışık tür/kötü fotoğraf yüzünden elendi.
 - Sonra kontrol et: köpekbalığı gönderisinin içerik değeri (tehlike kancası); uçan tilki Reels'i (memeli + sayı) ve The_Descent müziği; zz_ quokka Reels'i paylaşıldı mı.
+
+## 2026-11-11 (gece çalıştırması)
+- Rapordan öğrenilen: gönderide tehlike kancası 1,58 (5 paylaşım) güçlü; Reels'te memeli 1,84 ve 40-50 sn güçlü, süperlatif Reels 1,12 (veri az).
+- Bugün uygulanan: Gönderi 13→15: mavi başlıklı ifrit (kuş, tehlike, keşif) ve kral kahverengi yılan (sürüngen, tehlike). Reels 8→9: bulutlu leopar (memeli, süperlatif "kılıç dişli", Crossing_the_Chasm ilk kez, 79 kelime).
+- Sonra kontrol et: iki tehlike gönderisinin içerik değeri; bulutlu leopar Reels'inin memeli/süperlatif skoru; kuş ve sürüngen gönderilerinin zayıf grup trendi sürüyor mu.
