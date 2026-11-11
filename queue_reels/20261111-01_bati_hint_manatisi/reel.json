@@ -1,0 +1,136 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Shores_of_Avalon.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Two west Indian manatee trichechus manatus foraging for food.jpg",
+  "p2.jpg": "File:Two west Indian manatee trichechus manatus nuzzling noses together.jpg",
+  "p3.jpg": "File:Trichechus manatus latirostris florida manatee animals.jpg",
+  "p4.jpg": "File:Trichechus manatus latirostris florida manatee.jpg",
+  "p5.jpg": "File:Trichechus manatus manatus antilean mantage animal.jpg",
+  "p6.jpg": "File:Manatee with calf.PD - colour corrected.jpg",
+  "p7.jpg": "File:Manatee trichechus manatus latirostris close up underwater photo.jpg",
+  "p8.jpg": "File:Trichechus manatus, NOAA.jpg",
+  "p9.jpg": "File:Trichechus manatus latirostris in lake.jpg"
+ },
+ "segments": [
+  {
+   "text": "Batı Hint manatisinin dişleri arkadan yenileniyor ve her ay bir iki milimetre öne kayıyor.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Yani ağzında yavaşça ilerleyen bir diş bandı var.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Karayipler'in sıcak kıyılarında yaşayan bu otobur, altmıştan fazla su bitkisi yiyor.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Ortalama boyu 2,7 ile 3,5 metre, ağırlığı 200 ile 600 kilo.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kayıtlardaki en büyüğü 4,6 metre ve 1655 kiloya ulaştı.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Vücudunun her yerinde hassas bıyıklar var, bunlarla yön buluyor.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Yirmi dereceden soğuk suya uzun süre dayanamıyor.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Doğada elli yıldan fazla yaşayabiliyor.",
+   "image": "p9.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  }
+ ],
+ "cover": {
+  "image": "p7.jpg",
+  "cx": 0.5,
+  "cy": 0.35,
+  "title": [
+   [
+    [
+     "DİŞLERİ",
+     "R"
+    ]
+   ],
+   [
+    [
+     "HER AY",
+     "W"
+    ]
+   ],
+   [
+    [
+     "ÖNE KAYAN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "DEV OTOBUR",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "tuhaf yetenek",
+ "yt_title": "Dişleri Sürekli Yenilenen Dev Otobur: Manati",
+ "en": {
+  "title": "Manatee: The Giant Whose Teeth Keep Moving Forward",
+  "description": "The West Indian manatee's teeth are replaced from the back and slowly move forward every month, like a conveyor belt in its mouth."
+ },
+ "caption": "Batı Hint manatisinin dişleri arkadan yenilenip her ay bir iki milimetre öne kayarak ağzında yavaş bir diş bandı gibi çalışıyor. 🌊🦭\n\n#terrawildnature #manati\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "author": "U.S. Fish and Wildlife Service / NOAA",
+   "license": "Public domain",
+   "source": "Wikimedia Commons"
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
