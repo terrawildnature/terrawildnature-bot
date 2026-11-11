@@ -1,0 +1,137 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/The_Descent.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/435399917/original.jpg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/435399641/original.jpg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/435399602/original.jpg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/435399900/original.jpg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/435399373/original.jpg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/435399937/original.jpg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/435399325/original.jpg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/118900036/original.jpg",
+  "p9.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/118900063/original.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu yarasanın kanat açıklığı bir buçuk metreyi buluyor.",
+   "image": "p1.jpg",
+   "cx": 0.57,
+   "cy": 0.43,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Latince adında vampir geçse de yalnızca meyve, nektar ve çiçek yiyor.",
+   "image": "p2.jpg",
+   "cx": 0.55,
+   "cy": 0.47,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Güneydoğu Asya'nın mangrov ormanlarında ve hindistan cevizi bahçelerinde yaşıyor.",
+   "image": "p3.jpg",
+   "cx": 0.6,
+   "cy": 0.35,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Ağırlığı 650 gram ile 1,1 kilo arasında değişiyor.",
+   "image": "p4.jpg",
+   "cx": 0.35,
+   "cy": 0.37,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Ekolokasyon yapamıyor, bunun yerine çok gelişmiş görme yeteneğine güveniyor.",
+   "image": "p8.jpg",
+   "cx": 0.6,
+   "cy": 0.4,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Bir gecede yemek aramak için elli kilometreye kadar uçabiliyor.",
+   "image": "p5.jpg",
+   "cx": 0.57,
+   "cy": 0.17,
+   "motion": "zoom_out"
+  },
+  {
+   "text": "Kolonileri binlerce, bazen on binden fazla bireyden oluşuyor.",
+   "image": "p7.jpg",
+   "cx": 0.42,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Avlanma yüzünden bugün nesli tehlike altında olarak sınıflandırılıyor.",
+   "image": "p6.jpg",
+   "cx": 0.47,
+   "cy": 0.57,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.55,
+   "cy": 0.4,
+   "motion": "pan_right"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.57,
+  "cy": 0.4,
+  "title": [
+   [
+    [
+     "1,5 METRE",
+     "R"
+    ]
+   ],
+   [
+    [
+     "KANAT",
+     "W"
+    ]
+   ],
+   [
+    [
+     "AÇIKLIĞIYLA",
+     "W"
+    ]
+   ],
+   [
+    [
+     "DEV YARASA",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "sayı",
+ "yt_title": "1,5 Metre Kanat Açıklığına Sahip Dev Yarasa: Kalong",
+ "en": {
+  "title": "The Giant Bat With a 1.5 m Wingspan: Large Flying Fox",
+  "description": "The large flying fox is one of the biggest bats in the world, with a wingspan of up to 1.5 meters, and despite its name it feeds only on fruit, nectar and flowers."
+ },
+ "caption": "Büyük uçan tilki kanat açıklığı bir buçuk metreyi bulan dev bir yarasa olmasına rağmen yalnızca meyve, nektar ve çiçekle besleniyor. 🦇🌙\n\n#terrawildnature #uçantilki\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "author": "Justin Philbois / Jean-Paul Boerekamps",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
