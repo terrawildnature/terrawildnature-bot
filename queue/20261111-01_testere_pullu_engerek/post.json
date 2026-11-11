@@ -1,0 +1,91 @@
+{
+  "name": "testere pullu engerek",
+  "group": "sürüngen",
+  "hook_style": "tehlike",
+  "title": [
+    [
+      [
+        "BU 60 CM'LİK YILAN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "HİNDİSTAN'IN ",
+        "W"
+      ],
+      [
+        "4",
+        "R"
+      ]
+    ],
+    [
+      [
+        "ÖLÜMCÜLÜNDEN BİRİ",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "TESTERE PULLU ENGEREK",
+  "card_top": [
+    "Hindistan'ın ölümcül \"büyük",
+    "dörtlüsünün\" en küçüğüdür."
+  ],
+  "card_bottom": [
+    "Yetişkin için öldürücü zehir",
+    "dozu tahminen yalnızca 5 mg.",
+    "Bu yüzden ciddi tehlike sayılır."
+  ],
+  "right": [
+    "Orta Doğu, Orta Asya ve Hint",
+    "yarımadasında yaşar.",
+    "Gündüz kuma gömülüp sadece",
+    "başını dışarıda bırakabilir.",
+    "Yağmurda çalılara tırmanır."
+  ],
+  "loc": "Hint Yarımadası",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "zoom": 1.1
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.1
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.6,
+      "cy": 0.6,
+      "zoom": 1.6
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Echis carinatus sochureki 322688159.jpg",
+      "author": "Marius Burger",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Echis carinatus sochureki 322688163.jpg",
+      "author": "Marius Burger",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "File:Echis carinatus Termez.jpg",
+      "author": "Alexander A. Fomichev",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Boyu çoğunlukla 60 santimi geçmeyen testere pullu engerek, Hindistan'da en çok yılan ısırığına ve ölüme yol açan \"büyük dörtlü\" yılanın en küçüğü. 🐍⚠️\n\n#terrawildnature #ilginçbilgiler #testerepulluengerek\n\n📷 Alexander A. Fomichev (CC BY-SA 4.0) / Wikimedia Commons"
+}
