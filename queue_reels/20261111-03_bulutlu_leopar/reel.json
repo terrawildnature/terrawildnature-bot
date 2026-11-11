@@ -1,0 +1,147 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Crossing_the_Chasm.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/544317503/original.jpg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/544317508/original.jpg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/544317516/original.jpg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/544317531/original.jpg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/544317573/original.jpg",
+  "p8.jpg": "File:Clouded Leopard Neofelis nebulosa by Dr Raju Kasambe.JPG",
+  "p9.jpg": "File:Neofelis nebulosa, Clouded leopard.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu kedi, vücut boyuna göre en büyük köpek dişlerine sahip.",
+   "image": "p1.jpg",
+   "cx": 0.4,
+   "cy": 0.35,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Bu yüzden ona modern çağın kılıç dişlisi deniyor.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Adını, vücudundaki bulut şeklindeki koyu lekelerden alıyor.",
+   "image": "p4.jpg",
+   "cx": 0.55,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Ağırlığı yalnızca on bir buçuk ile yirmi üç kilo arasında.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kısa bacaklarıyla ağaçlara tırmanıyor ve gövdelerden başı aşağı inebiliyor.",
+   "image": "p2.jpg",
+   "cx": 0.45,
+   "cy": 0.35,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Gündüz ağaçlarda dinleniyor, geceleri orman zemininde avlanıyor.",
+   "image": "p5.jpg",
+   "cx": 0.6,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Himalaya eteklerinden Güneydoğu Asya'ya kadar ormanlarda yaşıyor.",
+   "image": "p4.jpg",
+   "cx": 0.55,
+   "cy": 0.45,
+   "motion": "zoom_out"
+  },
+  {
+   "text": "Yetişkin sayısı on binden az olduğu için nesli savunmasız sayılıyor.",
+   "image": "p1.jpg",
+   "cx": 0.42,
+   "cy": 0.35,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_right"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.4,
+  "cy": 0.35,
+  "title": [
+   [
+    [
+     "MODERN",
+     "R"
+    ]
+   ],
+   [
+    [
+     "ÇAĞIN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "KILIÇ DİŞLİ",
+     "W"
+    ]
+   ],
+   [
+    [
+     "KEDİSİ",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "süperlatif",
+ "yt_title": "Kılıç Dişli Kedinin Modern Çağdaki Akrabası: Bulutlu Leopar",
+ "en": {
+  "title": "The Cat With the Biggest Fangs for Its Size: Clouded Leopard",
+  "description": "The clouded leopard has the largest canine teeth in proportion to its body size of any cat, earning it the nickname \"modern-day sabre-tooth\"."
+ },
+ "caption": "Bulutlu leopar, vücut boyuna oranla kedilerin en büyük köpek dişlerine sahip olduğu için modern çağın kılıç dişlisi olarak anılıyor. 🐆🌫️\n\n#terrawildnature #bulutluleopar\n\n📷 Ian Dugdale (CC BY), Dr. Raju Kasambe (CC BY-SA), Rushenb (CC BY-SA) / iNaturalist, Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "author": "Ian Dugdale",
+   "license": "CC BY",
+   "source": "iNaturalist",
+   "public_domain": false
+  },
+  {
+   "author": "Dr. Raju Kasambe",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "public_domain": false
+  },
+  {
+   "author": "Rushenb",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "public_domain": false
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
