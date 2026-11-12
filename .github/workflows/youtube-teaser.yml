@@ -1,0 +1,60 @@
+name: Belgesel tanıtım Shorts'u
+
+# For every uploaded documentary: cut one creature's chapter into a vertical teaser Short that links to the
+# documentary and goes live together with it (youtube/tools/teaser.py). Runs after the morning Short, only when
+# today's API quota still covers the teaser and the Shorts still due today.
+on:
+  schedule:
+    - cron: "15 9 * * *"    # 12:15 Turkey
+    - cron: "15 15 * * *"   # 18:15 Turkey (second chance)
+  workflow_dispatch: {}
+
+concurrency:
+  group: youtube-teaser
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  teaser:
+    if: ${{ vars.YT_AUTO_UPLOAD == 'true' }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pick
+        id: pick
+        run: echo "doc=$(python youtube/tools/teaser.py --pick)" >> "$GITHUB_OUTPUT"
+      - name: Install tools
+        if: ${{ steps.pick.outputs.doc != '' }}
+        run: |
+          pip install -q pillow numpy
+          if ! command -v ffmpeg >/dev/null; then
+            for i in 1 2 3; do
+              curl -fsSL --retry 3 --max-time 300 -o /tmp/ffmpeg.tar.xz https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz && break
+              sleep 10
+            done
+            mkdir -p /tmp/ffmpeg && tar -xJf /tmp/ffmpeg.tar.xz -C /tmp/ffmpeg --strip-components=1
+            echo "/tmp/ffmpeg/bin" >> "$GITHUB_PATH"
+          fi
+      - name: Cut and upload
+        if: ${{ steps.pick.outputs.doc != '' }}
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: python youtube/tools/teaser.py "${{ steps.pick.outputs.doc }}"
+      - name: Commit
+        if: ${{ always() && steps.pick.outputs.doc != '' }}
+        run: |
+          git config user.name "terrawildnature-bot"
+          git config user.email "terrawildnature-bot@users.noreply.github.com"
+          git add youtube/docs/*/teaser.json 2>/dev/null || true
+          git commit -m "Belgesel tanıtım Shorts'u yüklendi" || exit 0
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done

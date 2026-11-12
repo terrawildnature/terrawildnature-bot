@@ -150,6 +150,9 @@ Instagram'daki kuralların aynısı (`CLAUDE.md` bölüm 2): önce kamu malı / 
 - **Başlık** (sahibinin kuralı): profesyonel YouTuber tarzı, **kısa (≤60 karakter), merak uyandıran**, duygusal. Bir arama kelimesi içersin (konu adı). `|`, "(Belgesel)" ve "0'dan X metreye" gibi tarif eden kalıplar **yok**. Kapak yazısını tekrar etme, onu tamamlasın. Yalan vaat (clickbait) yok. Başlıkta mutlaka hayvan/canlı vurgusu olsun. Örnekler: "Okyanusun Dibine İndikçe Canlılar Daha da Tuhaflaşıyor", "Işığın Hiç Ulaşmadığı Yerde Yaşayan Canlılar".
 - **Kapak** (`thumb`): 3 satır, satır başına ≤12 karakter, büyük harf. 1. satır sarı (genelde rakam), diğerleri beyaz. Merak sorusu ("… KİM YAŞIYOR?"). `photo`: en çarpıcı fotoğrafın anahtarı (dosya adı uzantısız); `cx`/`cy` hayvanın konumu (0-1). Hayvan sağ yarıda büyük görünmeli.
 - `story.lines`: Instagram hikâyesi için 2-3 kısa satır (≤11 karakter).
+- `teaser` (zorunlu): `{"seg": <segment no>, "title": "<başlık>"}`. Belgesel yayına girdiği anda, o canlının bölümünden kesilen ~50 sn'lik
+  dikey bir tanıtım Shorts'u da yayınlanır ve belgesele bağlantı verir (`youtube/tools/teaser.py`, otomatik). En merak uyandıran
+  canlıyı seç ama sonu (1. sıra, en derin nokta, kazanan) verme. Başlık ≤60 karakter, merak uyandıran, metindeki doğrulanmış bir bilgiye dayanır.
 - Açıklamanın geri kalanı (bölümler, görsel kaynakları, müzik) otomatik eklenir.
 - **İngilizce (zorunlu):** Aynı video İngilizce başlık, açıklama ve altyazıyla da sunuluyor (ses Türkçe kalır). `meta.json`'a
   `"en": {"title": "...", "description": "...", "sources": "English Wikipedia, ..."}` ekle: başlık Türkçenin doğal, merak uyandıran

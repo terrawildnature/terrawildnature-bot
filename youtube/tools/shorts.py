@@ -80,6 +80,7 @@ def budget():
             return False
     used = SHORT_COST * sum(today(f) for f in POSTED.glob("*/youtube.json"))
     used += DOC_COST * sum(today(f) for f in DOCS.glob("*/status.json"))
+    used += SHORT_COST * sum(today(f) for f in DOCS.glob("*/teaser.json"))   # documentary teaser Shorts
     pending = sum(1 for d in DOCS.glob("*/meta.json") if not (d.parent / "status.json").exists())
     return QUOTA - MARGIN - used - DOC_COST * pending
 

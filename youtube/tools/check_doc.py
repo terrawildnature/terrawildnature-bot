@@ -69,6 +69,11 @@ def main(doc):
     sys.path.insert(0, str(Path(__file__).parent))   # owner's rule: different music in every video
     from music import check_doc as music_check
     errs += music_check(doc, j.get("music") or [])
+    tz = meta.get("teaser") or {}
+    if not (isinstance(tz.get("seg"), int) and 0 <= tz["seg"] < len(segs) and segs[tz["seg"]]["type"] == "creature" and tz.get("title")):
+        errs.append("meta.json: 'teaser' {seg: <creature segmenti>, title} eksik ya da hatalı (tanıtım Shorts'u)")
+    elif len(tz["title"]) > 60:
+        errs.append(f"tanıtım başlığı çok uzun ({len(tz['title'])} kr)")
     for k in ("title", "description", "tags", "hashtags", "thumb", "story"):
         if k not in meta:
             errs.append(f"meta.json: '{k}' eksik")

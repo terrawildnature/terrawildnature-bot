@@ -5,6 +5,7 @@
  "hashtags": ["#belgesel", "#hayvanlar", "#enhızlıhayvanlar", "#vahşiyaşam", "#terrawildnature"],
  "tags": ["belgesel", "hayvan belgeseli", "en hızlı hayvanlar", "dünyanın en hızlı hayvanı", "en yavaş hayvan", "gökdoğan", "çita", "peregrine falcon", "hayvanların hızları", "vahşi yaşam", "türkçe belgesel", "doğa belgeseli"],
  "thumb": {"lines": ["389 KM/SA", "HANGİ HAYVAN", "BU HIZDA?"], "photo": "37_0", "cx": 0.5, "cy": 0.45, "zoom": 1.0, "bar": false},
+ "teaser": {"seg": 22, "title": "Hayvanlar Âleminin En Hızlı Yumruğu: Mantis Karidesi"},
  "story": {"lines": ["EN HIZLI", "HAYVANLAR"], "info": "Saatte 1,5 metreden 389 km'ye · 6 hız bölgesi · 26 canlı"},
  "en": {
   "title": "The Fastest Animal on Earth Is Not the Cheetah",
