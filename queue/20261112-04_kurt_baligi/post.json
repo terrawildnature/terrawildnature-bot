@@ -1,0 +1,91 @@
+{
+ "name": "kurt balığı",
+ "group": "balık",
+ "hook_style": "tuhaf görünüm",
+ "title": [
+  [
+   [
+    "BU BALIĞIN",
+    "W"
+   ]
+  ],
+  [
+   [
+    "KÖPEK GİBİ",
+    "W"
+   ],
+   [
+    "DİŞLERİ",
+    "R"
+   ]
+  ],
+  [
+   [
+    "VAR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "ATLANTİK KURT BALIĞI",
+ "card_top": [
+  "Kanı donmasın diye doğal",
+  "antifriz üretir."
+ ],
+ "card_bottom": [
+  "Sert çeneleriyle midye, yengeç",
+  "ve deniz kestanesi kırıp yer.",
+  "Başka balık yemez."
+ ],
+ "right": [
+  "Kuzey Atlantik'in soğuk",
+  "sularında kayalık diplerde",
+  "yaşar. En büyüğü 1,5 metre",
+  "ölçülmüş. Erkek, yumurtaları",
+  "4 aya kadar korur."
+ ],
+ "loc": "Kuzey Atlantik",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.3,
+   "cy": 0.4,
+   "zoom": 1.0
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.3,
+   "cy": 0.5,
+   "zoom": 1.0
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "zoom": 2.2
+  }
+ },
+ "credits": [
+  {
+   "use": "top",
+   "title": "File:Gestreifter Seewolf Atlanterhavsparken Norway.jpg",
+   "author": "Fiver, der Hellseher",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "use": "cover",
+   "title": "File:Anarhichas-lupus-Atlanterhavsparken.jpg",
+   "author": "Bjørn Christian Tørrissen",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "use": "inner",
+   "title": "iNaturalist 224565633",
+   "author": "Daniel Benák",
+   "license": "CC BY",
+   "public_domain": false
+  }
+ ],
+ "caption": "Kuzey Atlantik'in soğuk diplerinde yaşayan kurt balığı, köpeği andıran sivri dişleri ve kıran dişleriyle midye ile yengeci bile ezip yiyor. 🐟🦷\n\n#terrawildnature #ilginçbilgiler #kurtbalığı\n\n📷 Fiver, der Hellseher (CC BY-SA 4.0), Bjørn Christian Tørrissen (CC BY-SA 4.0) / Wikimedia Commons, Daniel Benák (CC BY) / iNaturalist"
+}
