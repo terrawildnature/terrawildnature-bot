@@ -347,3 +347,4 @@ mavi başlıklı ifrit | Ifrita kowaldi
 kral kahverengi yılan | Pseudechis australis
 siamang (Reels) | Symphalangus syndactylus
 mandarin balığı | Synchiropus splendidus
+takahe (Reels) | Porphyrio hochstetteri

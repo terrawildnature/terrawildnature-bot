@@ -1,0 +1,158 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Gone_Beyond.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/23982582/original.jpg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/475177039/original.jpeg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/23982612/original.jpg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/585512168/original.jpg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/469250025/original.jpg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/307270445/original.jpeg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/283936282/original.jpeg"
+ },
+ "segments": [
+  {
+   "text": "Soyu tükendi sanılan bu kuş, elli yıl sonra bir vadide yeniden bulundu.",
+   "image": "p1.jpg",
+   "cx": 0.55,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Takahe, Yeni Zelanda'ya özgü ve uçamayan bir kuş.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Su tavuğu akrabaları arasında yaşayan en büyüğü.",
+   "image": "p6.jpg",
+   "cx": 0.6,
+   "cy": 0.55,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Boyu yaklaşık altmış üç santimetre, ağırlığı ise ortalama iki buçuk kilo.",
+   "image": "p7.jpg",
+   "cx": 0.55,
+   "cy": 0.45,
+   "motion": "zoom_out"
+  },
+  {
+   "text": "Kocaman kırmızı gagasıyla ot saplarını koparıp yumuşak kısımlarını yiyor.",
+   "image": "p2.jpg",
+   "cx": 0.6,
+   "cy": 0.35,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Eşler çoğu zaman en az on iki yıl birlikte kalıyor.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Nüfusu yaklaşık beş yüz kuş ve her yıl yüzde sekiz artıyor.",
+   "image": "p5.jpg",
+   "cx": 0.65,
+   "cy": 0.4,
+   "motion": "zoom_out"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p1.jpg",
+   "cx": 0.55,
+   "cy": 0.45,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.55,
+  "cy": 0.45,
+  "title": [
+   [
+    [
+     "50 YIL",
+     "R"
+    ]
+   ],
+   [
+    [
+     "YOK SANILAN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "KUŞ YENİDEN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "BULUNDU",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "kuş",
+ "hook_style": "gizem",
+ "yt_title": "Yok Sanılıp 50 Yıl Sonra Bulunan Kuş: Takahe",
+ "en": {
+  "title": "The Bird Thought Extinct for 50 Years: Takahe",
+  "description": "The takahe, a flightless New Zealand bird once thought extinct, was rediscovered in a remote valley fifty years later."
+ },
+ "caption": "Soyu tükendi sanılan takahe, elli yıl sonra bir vadide yeniden bulunan uçamayan bir Yeni Zelanda kuşu. 🦜🌿\n\n#terrawildnature #takahe\n\n📷 Wouter Koch (CC0), Ben Keen (CC0), Max G.W. Verheij (CC0), John Barkla (CC BY), Saryu Mae (CC BY), William Harland (CC BY) / iNaturalist\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "author": "Wouter Koch",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "Ben Keen",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "Max G.W. Verheij",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "John Barkla",
+   "license": "CC BY",
+   "source": "iNaturalist",
+   "public_domain": false
+  },
+  {
+   "author": "Saryu Mae",
+   "license": "CC BY",
+   "source": "iNaturalist",
+   "public_domain": false
+  },
+  {
+   "author": "William Harland",
+   "license": "CC BY",
+   "source": "iNaturalist",
+   "public_domain": false
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
