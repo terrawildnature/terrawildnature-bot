@@ -203,3 +203,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: Reels'te kuş (1,46), memeli (1,93) ve gizem/sayı kancaları güçlü; gönderide sürüngen/kuş/deniz omurgasızı zayıf, memeli ve balık ortalama.
 - Bugün uygulanan: Reels 8→9: takahe (kuş, gizem, Gone_Beyond ilk kez). Gönderi 13→15: Sunda uçan lemuru (memeli, sayı) ve mavi halkalı ahtapot (deniz omurgasızı, tehlike; keşif). Vaquita (fotoğraf yok/uzak) elendi.
 - Sonra kontrol et: takahe Reels'inin skoru (gizem kancası, kuş); ahtapot gönderisinin içerik değeri (deniz omurgasızı grubu zayıf).
+
+## 2026-11-12 (gece çalıştırması)
+- Rapordan öğrenilen: Reels'te memeli (1,93), sayı (1,59) ve 40-50 sn güçlü; gönderide sürüngen/kuş/deniz omurgasızı zayıf, balık ve memeli ortalama.
+- Bugün uygulanan: Reels 8→9: vikunya (memeli, sayı, Call_to_Adventure ilk kez, 75 kelime). Gönderi 13→15: kurt balığı (balık, tuhaf görünüm) ve Avrupa bizonu (memeli, sayı). Rus desmanı, Tibet antilopu ve cüce marmoset fotoğraf kalitesi (az/uzak/gizli) yüzünden elendi.
+- Sonra kontrol et: vikunya Reels'inin skoru (memeli + sayı); bizon gönderisinin içerik değeri (memeli, sayı kancası gönderide zayıf); kurt balığı akvaryum fotoğraflarının etkisi.

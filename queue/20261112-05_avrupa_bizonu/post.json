@@ -1,0 +1,84 @@
+{
+ "name": "avrupa bizonu",
+ "group": "memeli",
+ "hook_style": "sayı",
+ "title": [
+  [
+   [
+    "BU DEV HAYVAN",
+    "W"
+   ]
+  ],
+  [
+   [
+    "1921'DE",
+    "R"
+   ],
+   [
+    "DOĞADA",
+    "W"
+   ]
+  ],
+  [
+   [
+    "TÜKENDİ",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "AVRUPA BİZONU",
+ "card_top": [
+  "Avrupa'nın en ağır yabani",
+  "kara hayvanıdır."
+ ],
+ "card_bottom": [
+  "Białowieża'daki son yabani",
+  "bizon 1921'de vuruldu. Soyu",
+  "esirlerle kurtarıldı."
+ ],
+ "right": [
+  "Polonya ve Belarus'un ulusal",
+  "hayvanlarından biridir.",
+  "Bugün birkaç bin tanesi var;",
+  "yeniden doğaya salındılar.",
+  "Boynundaki tüyler daha kısa."
+ ],
+ "loc": "Avrupa",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "zoom": 1.2
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.7,
+   "cy": 0.45,
+   "zoom": 1.0
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.6,
+   "cy": 0.5,
+   "zoom": 1.8
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:European bison (Bison bonasus) male Białowieza.jpg",
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "use": "top",
+   "title": "File:Wisent - European bison - Bison bonasus 2 - Wiking.jpg",
+   "author": "Bouke ten Cate",
+   "license": "CC BY 4.0",
+   "public_domain": false
+  }
+ ],
+ "caption": "Avrupa'nın en ağır yabani kara hayvanı olan Avrupa bizonu, 1921'de Białowieża Ormanı'ndaki son yabani bireyi vurulduktan sonra esaretteki hayvanlar sayesinde yeniden doğaya döndü. 🦬🌲\n\n#terrawildnature #ilginçbilgiler #avrupabizonu\n\n📷 Charles J. Sharp (CC BY-SA 4.0), Bouke ten Cate (CC BY 4.0) / Wikimedia Commons"
+}
