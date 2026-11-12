@@ -1,0 +1,91 @@
+{
+ "name": "mavi halkalı ahtapot",
+ "title": [
+  [
+   [
+    "BU AHTAPODUN",
+    "W"
+   ]
+  ],
+  [
+   [
+    "ISIRIĞI",
+    "W"
+   ],
+   [
+    "İNSANI",
+    "R"
+   ]
+  ],
+  [
+   [
+    "ÖLDÜREBİLİR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "MAVİ HALKALI AHTAPOT",
+ "card_top": [
+  "Derisinde yaklaşık 60 mavi",
+  "halka var; çakıp uyarı veriyor."
+ ],
+ "card_bottom": [
+  "Salgıladığı tetrodotoksin",
+  "balonbalıklarında da var;",
+  "solunum felci yapabilir."
+ ],
+ "right": [
+  "Hint-Pasifik'in sığ resif ve",
+  "kumluk sularında yaşar.",
+  "Yengeç, karides ve küçük",
+  "yumuşakçalarla beslenir.",
+  "Dişi yumurtaya 50 gün bakar."
+ ],
+ "loc": "Hint-Pasifik",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.6,
+   "cy": 0.35,
+   "zoom": 1.2
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.6,
+   "cy": 0.45,
+   "zoom": 1.3
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.45,
+   "cy": 0.4,
+   "zoom": 1.8
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Greater blue-ringed octopus (Hapalochlaena lunulata).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0",
+   "public_domain": false
+  },
+  {
+   "use": "top",
+   "title": "File:Greater blue-ringed octopus (Hapalochlaena lunulata) (48272090161).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0",
+   "public_domain": false
+  },
+  {
+   "use": "inner",
+   "title": "File:Greater blue-ringed octopus (Hapalochlaena lunulata) (28636532358).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0",
+   "public_domain": false
+  }
+ ],
+ "group": "deniz omurgasızı",
+ "hook_style": "tehlike",
+ "caption": "Hint-Pasifik'in büyük mavi halkalı ahtapotu, balonbalığında da bulunan tetrodotoksin zehriyle savunuyor kendini ve ısırığı insan için ölümcül olabiliyor. 🐙💙\n\n#terrawildnature #ilginçbilgiler #mavihalkalıahtapot\n\n📷 Rickard Zerpe (CC BY 2.0) / Wikimedia Commons"
+}
