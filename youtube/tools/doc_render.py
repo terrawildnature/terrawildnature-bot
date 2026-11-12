@@ -423,8 +423,9 @@ class Scene:
         w, h = cw * base / z, ch * base / z
         cy = 0.45 if im.height > im.width else 0.5
         px = 0.5 + (0.04 if n % 2 else -0.04) * (x - 0.5)
-        x0 = min(max(im.width * px - w / 2, 0), im.width - w)
-        y0 = min(max(im.height * cy - h / 2, 0), im.height - h)
+        w, h = min(w, im.width), min(h, im.height)   # float rounding can make the box a hair larger than the photo
+        x0 = max(min(im.width * px - w / 2, im.width - w), 0)
+        y0 = max(min(im.height * cy - h / 2, im.height - h), 0)
         return im.resize((cw, ch), Image.BILINEAR, box=(x0, y0, x0 + w, y0 + h))
 
     def card_chrome(self):
