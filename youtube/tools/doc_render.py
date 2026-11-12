@@ -759,8 +759,24 @@ def render_part(args):
     p = subprocess.Popen([FFMPEG, "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
                           "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-threads", "2",
                           "-pix_fmt", "yuv420p", str(tmp)], stdin=subprocess.PIPE)
+    last, bad = None, 0
     for f in range(f0, f1):
-        p.stdin.write(frame_rgb(f / FPS).tobytes())
+        try:
+            im = frame_rgb(f / FPS)
+        except Exception:   # one bad frame must not kill a 30-minute build: hold the previous frame instead
+            bad += 1
+            if last is None or bad > max(30, (f1 - f0) // 100):   # but a broken scene (>1% of the part) still fails
+                p.kill()
+                raise
+            if bad == 1:
+                import traceback
+                print(f"::warning::part {k}: frame {f} failed, previous frame held", flush=True)
+                traceback.print_exc()
+            im = last
+        last = im
+        p.stdin.write(im.tobytes())
+    if bad:
+        print(f"::warning::part {k}: {bad} frame(s) held", flush=True)
     p.stdin.close()
     p.wait()
     tmp.rename(out)
