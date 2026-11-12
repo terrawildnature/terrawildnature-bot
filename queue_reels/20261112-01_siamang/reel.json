@@ -1,0 +1,166 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Rites.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/408517674/original.jpeg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/449926053/original.jpeg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/739268868/original.jpg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/450021830/original.jpeg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/467568180/original.jpeg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/467568183/original.jpeg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/523180292/original.jpg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/594481701/original.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu gibonun boğazındaki kese, kafası kadar büyüyebiliyor.",
+   "image": "p1.jpg",
+   "cx": 0.55,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Siamang, gibonların en büyüğü ve ağırlığı on dört kiloya ulaşabiliyor.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Şişirdiği kese, çağrılarını ormanda yankılanan bir sese çeviriyor.",
+   "image": "p8.jpg",
+   "cx": 0.3,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Sabahları Sumatra ve Malezya ormanlarının sessizliğini şarkısıyla bozuyor.",
+   "image": "p5.jpg",
+   "cx": 0.55,
+   "cy": 0.55,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Ayaklarında iki parmak zarla birleşik; adı da buradan geliyor.",
+   "image": "p3.jpg",
+   "cx": 0.45,
+   "cy": 0.6,
+   "motion": "zoom_out"
+  },
+  {
+   "text": "Kolları bacaklarından uzun, dallar arasında ustaca sallanıyor.",
+   "image": "p6.jpg",
+   "cx": 0.42,
+   "cy": 0.55,
+   "motion": "pan_left"
+  },
+  {
+   "text": "En sevdiği yiyecek incir, ama en az yüz altmış bitki türü yiyor.",
+   "image": "p4.jpg",
+   "cx": 0.6,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Babalar yavruyu taşımada büyük rol alıyor.",
+   "image": "p7.jpg",
+   "cx": 0.62,
+   "cy": 0.55,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p1.jpg",
+   "cx": 0.55,
+   "cy": 0.5,
+   "motion": "pan_left"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.4,
+  "cy": 0.5,
+  "title": [
+   [
+    [
+     "BOĞAZINDA",
+     "R"
+    ]
+   ],
+   [
+    [
+     "KAFASI",
+     "W"
+    ]
+   ],
+   [
+    [
+     "KADAR KESE",
+     "W"
+    ]
+   ],
+   [
+    [
+     "TAŞIYOR",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "tuhaf yetenek",
+ "yt_title": "Boğazındaki Kese Kafası Kadar Şişen Gibon: Siamang",
+ "en": {
+  "title": "The Gibbon With a Throat Pouch as Big as Its Head: Siamang",
+  "description": "The siamang, the largest of the gibbons, can inflate a throat pouch to the size of its own head to make its calls echo through the rainforest."
+ },
+ "caption": "Siamang, gibonların en büyüğü olarak boğazındaki kesesini kafası kadar şişirip çağrılarını yağmur ormanında yankılandırıyor. 🦧🌴\n\n#terrawildnature #siamang\n\n📷 Chrissy McClarren and Andy Reago (CC0), James Eaton (CC0), Forest Botial-Jarvis (CC BY), Adrien Jailloux (CC BY), dhfischer (CC BY), CaracalShan (CC BY) / iNaturalist\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "author": "Chrissy McClarren and Andy Reago",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "James Eaton",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "Forest Botial-Jarvis",
+   "license": "CC BY",
+   "source": "iNaturalist",
+   "public_domain": false
+  },
+  {
+   "author": "Adrien Jailloux",
+   "license": "CC BY",
+   "source": "iNaturalist",
+   "public_domain": false
+  },
+  {
+   "author": "dhfischer",
+   "license": "CC BY",
+   "source": "iNaturalist",
+   "public_domain": false
+  },
+  {
+   "author": "CaracalShan",
+   "license": "CC BY",
+   "source": "iNaturalist",
+   "public_domain": false
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
