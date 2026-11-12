@@ -1,0 +1,134 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Call_to_Adventure.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/98120135/original.jpg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/98119370/original.jpeg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/98120859/original.jpg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/592968571/original.jpg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/98120710/original.jpg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/321219041/original.jpeg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/321219100/original.jpeg"
+ },
+ "segments": [
+  {
+   "text": "Sayısı altı bine kadar düşen bu hayvan, bugün yaklaşık üç yüz elli bin oldu.",
+   "image": "p1.jpg",
+   "cx": 0.4,
+   "cy": 0.35,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Vikunya, Andlar'ın yüksek yaylalarında yaşayan yabani bir deve türü.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.55,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Üç bin iki yüz ile dört bin sekiz yüz metre yükseklikte yaşıyor.",
+   "image": "p3.jpg",
+   "cx": 0.6,
+   "cy": 0.3,
+   "motion": "zoom_out"
+  },
+  {
+   "text": "Yünü o kadar ince ki, İnkalar'da yalnızca krallar giyebiliyordu.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.55,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Bu yün çok pahalı, çünkü hayvan her üç yılda bir kırkılabiliyor.",
+   "image": "p5.jpg",
+   "cx": 0.55,
+   "cy": 0.45,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Evcil alpakanın atası olduğu sanılıyor.",
+   "image": "p6.jpg",
+   "cx": 0.45,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Bugün Peru'nun ulusal hayvanı.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p1.jpg",
+   "cx": 0.4,
+   "cy": 0.35,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p3.jpg",
+  "cx": 0.6,
+  "cy": 0.3,
+  "title": [
+   [
+    [
+     "6 BİN'E",
+     "R"
+    ]
+   ],
+   [
+    [
+     "DÜŞTÜ AMA",
+     "W"
+    ]
+   ],
+   [
+    [
+     "350 BİNE",
+     "W"
+    ]
+   ],
+   [
+    [
+     "ULAŞTI",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "sayı",
+ "yt_title": "Sayısı 6 Bine Düşen Vikunya 350 Bine Ulaştı",
+ "en": {
+  "title": "The Vicuña: From 6,000 Left to 350,000",
+  "description": "The vicuña, a wild Andean relative of the llama whose wool was once reserved for Inca kings, recovered from about 6,000 animals to roughly 350,000."
+ },
+ "caption": "Sayısı altı bine kadar düşen vikunya, İnkalar'ın krallara ayırdığı yünüyle ünlü Andlar'ın yabani devesi olarak bugün yaklaşık 350 bin oldu. 🦙🏔️\n\n#terrawildnature #vikunya\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "author": "Hugo Hulsberg",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "formicacid",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
