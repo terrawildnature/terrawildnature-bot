@@ -188,3 +188,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide tehlike kancası 1,58 (5 paylaşım) güçlü; Reels'te memeli 1,84 ve 40-50 sn güçlü, süperlatif Reels 1,12 (veri az).
 - Bugün uygulanan: Gönderi 13→15: mavi başlıklı ifrit (kuş, tehlike, keşif) ve kral kahverengi yılan (sürüngen, tehlike). Reels 8→9: bulutlu leopar (memeli, süperlatif "kılıç dişli", Crossing_the_Chasm ilk kez, 79 kelime).
 - Sonra kontrol et: iki tehlike gönderisinin içerik değeri; bulutlu leopar Reels'inin memeli/süperlatif skoru; kuş ve sürüngen gönderilerinin zayıf grup trendi sürüyor mu.
+
+## 2026-11-12 (sabah çalıştırması)
+- Rapordan öğrenilen: yeni bulgu işlenmedi; kuyruklar dolu olduğu için içerik üretilmedi.
+- Bugün uygulanan: Gönderi kuyruğu 15/15, Reels kuyruğu 9/9 (zz_ quokka dahil); queue_failed/queue_reels_failed boş; üretim yapılmadı.
+- Sonra kontrol et: zz_20261106-01_quokka Reels'i hâlâ sırada bekliyor, neden en sona alındığına bak; tehlike kancalı gönderilerin içerik değeri.
