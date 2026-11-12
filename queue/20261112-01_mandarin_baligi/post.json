@@ -1,0 +1,91 @@
+{
+ "name": "mandarin balığı",
+ "title": [
+  [
+   [
+    "BU MAVİ RENK",
+    "W"
+   ]
+  ],
+  [
+   [
+    "SADECE",
+    "W"
+   ],
+   [
+    "İKİ",
+    "R"
+   ]
+  ],
+  [
+   [
+    "OMURGALIDA VAR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "MANDARİN BALIĞI",
+ "card_top": [
+  "Mavisi ışık oyunu değil,",
+  "özel bir hücre pigmenti."
+ ],
+ "card_bottom": [
+  "Pulu yok, yerine kokulu ve",
+  "acı olabilen bir mukus var;",
+  "bu yırtıcıları caydırabilir."
+ ],
+ "right": [
+  "Pasifik'in sığ resif",
+  "lagünlerinde yaşar.",
+  "Boyu yalnızca yaklaşık 6 cm.",
+  "Büyük karın yüzgeçleriyle",
+  "dipte yürür gibi ilerler."
+ ],
+ "loc": "Pasifik, Filipinler",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.45,
+   "cy": 0.4,
+   "zoom": 1.3
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.55,
+   "cy": 0.4,
+   "zoom": 1.3
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.65,
+   "cy": 0.45,
+   "zoom": 1.8
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Synchiropus splendidus, Palaos.jpg",
+   "author": "David Burdick - NOAA",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "use": "top",
+   "title": "File:Synchiropus splendidus 1prg.jpg",
+   "author": "Karelj",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "use": "inner",
+   "title": "File:Pez mandarín (Synchiropus splendidus), Anilao, Filipinas, 2023-08-24, DD 207.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  }
+ ],
+ "group": "balık",
+ "hook_style": "tuhaf görünüm",
+ "caption": "Pasifik resiflerinin küçük mandarin balığı, mavi rengini yalnızca iki omurgalıda bilinen özel bir hücre pigmentinden alıyor. 🐠💙\n\n#terrawildnature #ilginçbilgiler #mandarinbalığı\n\n📷 Diego Delso (CC BY-SA 4.0) / Wikimedia Commons"
+}

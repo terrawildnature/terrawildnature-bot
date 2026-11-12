@@ -193,3 +193,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: yeni bulgu işlenmedi; kuyruklar dolu olduğu için içerik üretilmedi.
 - Bugün uygulanan: Gönderi kuyruğu 15/15, Reels kuyruğu 9/9 (zz_ quokka dahil); queue_failed/queue_reels_failed boş; üretim yapılmadı.
 - Sonra kontrol et: zz_20261106-01_quokka Reels'i hâlâ sırada bekliyor, neden en sona alındığına bak; tehlike kancalı gönderilerin içerik değeri.
+
+## 2026-11-12 (öğle çalıştırması)
+- Rapordan öğrenilen: Reels'te memeli (1,93), tuhaf yetenek (1,93) ve 40-50 sn güçlü; gönderide balık ortalama (0,98), sürüngen/kuş zayıf.
+- Bugün uygulanan: Reels 8→9: siamang (memeli, tuhaf yetenek, Rites ilk kez, 78 kelime). Gönderi 14→15: mandarin balığı (balık, tuhaf görünüm). İpek karıncayiyen, fener balığı ve iblis çiçek mantisi fotoğraf kalitesi (uzak/ölü/iğneli örnek) yüzünden elendi.
+- Sonra kontrol et: siamang Reels'inin skoru (memeli + tuhaf yetenek, Rites müziği); mandarin balığı gönderisinin içerik değeri (balık grubu).
