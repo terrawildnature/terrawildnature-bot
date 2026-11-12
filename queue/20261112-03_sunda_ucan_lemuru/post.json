@@ -1,0 +1,92 @@
+{
+ "name": "Sunda uçan lemuru",
+ "title": [
+  [
+   [
+    "BU HAYVAN",
+    "W"
+   ]
+  ],
+  [
+   [
+    "100 METRE",
+    "R"
+   ],
+   [
+    "SÜZÜLÜR",
+    "W"
+   ]
+  ],
+  [
+   [
+    "UÇAN LEMUR DEĞİL",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "SUNDA UÇAN LEMURU",
+ "card_top": [
+  "Boyundan parmak uçlarına",
+  "uzanan zarla süzülüyor."
+ ],
+ "card_bottom": [
+  "Aslında lemur değil, uçamaz;",
+  "100 m süzülürken yüksekliği",
+  "10 metreden az kaybeder."
+ ],
+ "right": [
+  "Güneydoğu Asya ormanlarında",
+  "yaşar, geceleri aktiftir.",
+  "Genç yaprak, filiz, çiçek",
+  "ve meyve yer. Ağırlığı 1 kg",
+  "civarı; yavrusunu karnında taşır."
+ ],
+ "loc": "Güneydoğu Asya",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.55,
+   "cy": 0.3,
+   "zoom": 1.3
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.3,
+   "cy": 0.3,
+   "zoom": 1.5
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.4,
+   "cy": 0.4,
+   "zoom": 1.8
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "iNaturalist 746332068",
+   "author": "Ben Keen",
+   "license": "CC0",
+   "public_domain": true,
+   "source": "iNaturalist"
+  },
+  {
+   "use": "top",
+   "title": "File:Galeopterus variegatus 476925756.jpg",
+   "author": "wingwatcher48",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "use": "inner",
+   "title": "File:Galeopterus variegatus 451491549.jpg",
+   "author": "Andrew Holle",
+   "license": "CC0",
+   "public_domain": true
+  }
+ ],
+ "group": "memeli",
+ "hook_style": "sayı",
+ "caption": "Adı uçan lemur olsa da lemur olmayan ve uçamayan Sunda kolugosu, boyundan parmak uçlarına uzanan zarıyla 100 metre süzülürken yüksekliğini 10 metreden az kaybediyor. 🌴🦇\n\n#terrawildnature #ilginçbilgiler #uçanlemur"
+}

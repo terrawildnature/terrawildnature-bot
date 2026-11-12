@@ -198,3 +198,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: Reels'te memeli (1,93), tuhaf yetenek (1,93) ve 40-50 sn güçlü; gönderide balık ortalama (0,98), sürüngen/kuş zayıf.
 - Bugün uygulanan: Reels 8→9: siamang (memeli, tuhaf yetenek, Rites ilk kez, 78 kelime). Gönderi 14→15: mandarin balığı (balık, tuhaf görünüm). İpek karıncayiyen, fener balığı ve iblis çiçek mantisi fotoğraf kalitesi (uzak/ölü/iğneli örnek) yüzünden elendi.
 - Sonra kontrol et: siamang Reels'inin skoru (memeli + tuhaf yetenek, Rites müziği); mandarin balığı gönderisinin içerik değeri (balık grubu).
+
+## 2026-11-12 (akşam çalıştırması)
+- Rapordan öğrenilen: Reels'te kuş (1,46), memeli (1,93) ve gizem/sayı kancaları güçlü; gönderide sürüngen/kuş/deniz omurgasızı zayıf, memeli ve balık ortalama.
+- Bugün uygulanan: Reels 8→9: takahe (kuş, gizem, Gone_Beyond ilk kez). Gönderi 13→15: Sunda uçan lemuru (memeli, sayı) ve mavi halkalı ahtapot (deniz omurgasızı, tehlike; keşif). Vaquita (fotoğraf yok/uzak) elendi.
+- Sonra kontrol et: takahe Reels'inin skoru (gizem kancası, kuş); ahtapot gönderisinin içerik değeri (deniz omurgasızı grubu zayıf).
