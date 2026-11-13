@@ -1,0 +1,91 @@
+{
+ "name": "dört gözlü balık",
+ "group": "balık",
+ "hook_style": "tuhaf görünüm",
+ "title": [
+  [
+   [
+    "BU BALIĞIN",
+    "W"
+   ]
+  ],
+  [
+   [
+    "GÖZLERİ",
+    "W"
+   ],
+   [
+    "İKİYE",
+    "R"
+   ]
+  ],
+  [
+   [
+    "BÖLÜNMÜŞ",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "DÖRT GÖZLÜ BALIK",
+ "card_top": [
+  "Her gözü ikiye bölünmüş: üst yarı",
+  "havada, alt yarı suda görür."
+ ],
+ "card_bottom": [
+  "Gözleri başının üstünde durur;",
+  "su yüzeyinde yüzerken aynı",
+  "anda hem suyu hem havayı görür."
+ ],
+ "right": [
+  "Güney Meksika'dan Honduras'a",
+  "ve kuzey Güney Amerika'ya",
+  "kadar tatlı ve acı sularda",
+  "yaşar. Çoğu zaman su yüzeyinde",
+  "kalır, böcek ve küçük balık yer."
+ ],
+ "loc": "Orta ve Güney Amerika",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.62,
+   "cy": 0.45,
+   "zoom": 1.4
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.4,
+   "cy": 0.55,
+   "zoom": 1.3
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.55,
+   "cy": 0.52,
+   "zoom": 1.6
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Largescale Four-eyed Fishes (Anableps anableps) (24429692827).jpg",
+   "author": "Bernard DUPONT",
+   "license": "CC BY-SA 2.0",
+   "public_domain": false
+  },
+  {
+   "use": "top",
+   "title": "File:Anableps anableps qtl1.jpg",
+   "author": "Quartl",
+   "license": "CC BY-SA 3.0",
+   "public_domain": false
+  },
+  {
+   "use": "inner",
+   "title": "File:Anableps anableps (6337088871).jpg",
+   "author": "Ruben Undheim",
+   "license": "CC BY-SA 2.0",
+   "public_domain": false
+  }
+ ],
+ "caption": "Gözleri başının üstünde ve ikiye bölünmüş olan dört gözlü balık, su yüzeyinde yüzerken aynı anda hem suyun altını hem üstünü görebiliyor. 👀🐟\n\n#terrawildnature #ilginçbilgiler #dörtgözlübalık\n\n📷 Bernard DUPONT (CC BY-SA 2.0), Quartl (CC BY-SA 3.0), Ruben Undheim (CC BY-SA 2.0) / Wikimedia Commons"
+}
