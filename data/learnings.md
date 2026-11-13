@@ -208,3 +208,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: Reels'te memeli (1,93), sayı (1,59) ve 40-50 sn güçlü; gönderide sürüngen/kuş/deniz omurgasızı zayıf, balık ve memeli ortalama.
 - Bugün uygulanan: Reels 8→9: vikunya (memeli, sayı, Call_to_Adventure ilk kez, 75 kelime). Gönderi 13→15: kurt balığı (balık, tuhaf görünüm) ve Avrupa bizonu (memeli, sayı). Rus desmanı, Tibet antilopu ve cüce marmoset fotoğraf kalitesi (az/uzak/gizli) yüzünden elendi.
 - Sonra kontrol et: vikunya Reels'inin skoru (memeli + sayı); bizon gönderisinin içerik değeri (memeli, sayı kancası gönderide zayıf); kurt balığı akvaryum fotoğraflarının etkisi.
+
+## 2026-11-13 (sabah çalıştırması)
+- Rapordan öğrenilen: yeni bulgu işlenmedi; kuyruklar dolu olduğu için içerik üretilmedi.
+- Bugün uygulanan: Gönderi kuyruğu 15/15, Reels kuyruğu 9/9 (zz_ quokka dahil); queue_failed/queue_reels_failed yok; üretim yapılmadı.
+- Sonra kontrol et: zz_20261106-01_quokka Reels'i hâlâ sırada mı; tehlike kancalı gönderilerin ve takahe/vikunya Reels'lerinin skorları.
