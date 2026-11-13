@@ -218,3 +218,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide balık (2,55), tuhaf görünüm (2,26) ve tuhaf yetenek (1,96) güçlü; Reels'te memeli (1,79) ve sayı/tuhaf yetenek güçlü; kuş/sürüngen gönderide zayıf.
 - Bugün uygulanan: Reels 8→9: büyük kudu (memeli, sayı, Shamanistic ilk kez, 81 kelime). Gönderi 14→15: şerit yılanbalığı (balık, tuhaf yetenek). Kapak: yatay fotoğrafta kafa başlığın arkasında kalıyor (cy etkisiz); kudu kapağında boynuzlar görünüyor ama yüz kısmen gizli.
 - Sonra kontrol et: kudu Reels skoru (memeli + sayı); yılanbalığı gönderisinin içerik değeri (balık grubu); Reels kapaklarında yatay fotoğraflarda hayvanın başı başlıkla örtüşmeyen kareler seç.
+
+## 2026-11-13 (akşam çalıştırması)
+- Rapordan öğrenilen: gönderide balık (2,55), tuhaf görünüm (2,26) ve sayı (1,86) güçlü; Reels'te memeli (1,79) ve sayı/tuhaf yetenek güçlü.
+- Bugün uygulanan: gönderi 12→15: uzun burunlu gar (balık, tuhaf yetenek), büyük bilbi ve fennek (memeli, tuhaf görünüm). Reels 8→9: kapibara (memeli, sayı, River_of_Io ilk kez). Ay balığı, armadillo, lumpfish, kuol adayları iNaturalist'te ölü/kötü fotoğraf yüzünden elendi.
+- Sonra kontrol et: gar ve fennek/bilbi gönderilerinin içerik değeri; kapibara Reels skoru; Commons'ta vahşi fennek fotoğrafı az, hayvanat bahçesi görünümlü olabilir.

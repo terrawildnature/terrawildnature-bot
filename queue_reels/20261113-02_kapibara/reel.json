@@ -1,0 +1,178 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/River_of_Io.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/247707048/original.jpg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/235001414/original.jpg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/427598621/original.jpeg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/469080452/original.jpeg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/248224503/original.jpg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/491863490/original.jpeg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/468665251/original.jpeg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/99393918/original.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu kemirgen suyun altında beş dakikaya kadar nefesini tutabiliyor.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.55,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Kapibara, dünyanın yaşayan en büyük kemirgeni.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Güney Amerika'da Şili hariç her ülkede yaşıyor.",
+   "image": "p3.jpg",
+   "cx": 0.4,
+   "cy": 0.42,
+   "motion": "zoom_out"
+  },
+  {
+   "text": "Nehir, göl ve bataklık kenarlarında yarı sucul bir hayat sürüyor.",
+   "image": "p4.jpg",
+   "cx": 0.55,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Sıcak öğleden sonraları suda dinlenip serinliyor.",
+   "image": "p5.jpg",
+   "cx": 0.4,
+   "cy": 0.38,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Genellikle on ile yirmi bireylik gruplar hâlinde yaşıyor, bazen sayı yüze ulaşıyor.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Yiyeceğini yanlara değil, ileri geri hareketle öğütüyor.",
+   "image": "p7.jpg",
+   "cx": 0.55,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kendi dışkısını yiyerek bağırsaktaki faydalı bakterileri yeniliyor.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.35,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.55,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p2.jpg",
+  "cx": 0.5,
+  "cy": 0.4,
+  "title": [
+   [
+    [
+     "5 DAKİKA",
+     "R"
+    ]
+   ],
+   [
+    [
+     "NEFESİNİ",
+     "W"
+    ]
+   ],
+   [
+    [
+     "SUDA TUTAN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "KEMİRGEN",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "sayı",
+ "yt_title": "5 Dakika Nefesini Tutan Kemirgen: Kapibara",
+ "en": {
+  "title": "Capybara: The Rodent That Holds Its Breath for 5 Minutes",
+  "description": "The capybara, the largest living rodent, can hold its breath underwater for up to five minutes."
+ },
+ "caption": "Suyun altında beş dakikaya kadar nefesini tutabilen kapibara, dünyanın yaşayan en büyük kemirgeni. 🌊🐾\n\n#terrawildnature #kapibara\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "author": "Joshua Smith",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "Paulo Mascaretti",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "Carol Fontes",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "ferferrari",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "Paulo Mascaretti",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "Dimitri",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "filipeprates",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "Hugo Hulsberg",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
