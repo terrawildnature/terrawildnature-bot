@@ -1,0 +1,140 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Noble_Race.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Лошади Пржевальского (Equus ferus przewalskii) на мелководье.jpg",
+  "p2.jpg": "File:Chevaux de Przewalski mâles sauvages (Equus ferus przewalskii).jpg",
+  "p3.jpg": "File:Troupeau de chevaux de Przewalski à l'état semi-sauvage (Equus ferus przewalskii).jpg",
+  "p4.jpg": "File:Cheval de Przewalski en état d'alerte (Equus ferus przewalskii).jpg",
+  "p5.jpg": "File:Plusieurs chevaux de Przewalski en troupeau (Equus ferus przewalskii).jpg",
+  "p7.jpg": "File:Observation des chevaux de Przewalski (Equus ferus przewalskii).jpg",
+  "p8.jpg": "File:Jeunes et vieux chevaux mâles de Przewalski (Equus ferus przewalskii).jpg"
+ },
+ "segments": [
+  {
+   "text": "1950'lerin sonunda dünyadaki hayvanat bahçelerinde bu atlardan yalnızca on iki tane kalmıştı.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Przewalski atı, Orta Asya bozkırlarının nadir yabani atı.",
+   "image": "p2.jpg",
+   "cx": 0.4,
+   "cy": 0.6,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Doğada en son 1969'da tek bir aygır görüldü.",
+   "image": "p3.jpg",
+   "cx": 0.3,
+   "cy": 0.55,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Ardından otuz yıldan fazla süre doğada nesli tükenmiş sayıldı.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Evcil atın otuz iki çift kromozomu var, bunlarınsa otuz üç.",
+   "image": "p5.jpg",
+   "cx": 0.6,
+   "cy": 0.55,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Bir aygır, birkaç kısrak ve yavrulardan oluşan aile grupları hâlinde yaşıyorlar.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.6,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Bugün hayvanat bahçelerinden getirilen atlar Moğolistan'da doğaya salındı.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.55,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p2.jpg",
+   "cx": 0.4,
+   "cy": 0.6,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p5.jpg",
+  "cx": 0.6,
+  "cy": 0.5,
+  "title": [
+   [
+    [
+     "HAYVANAT",
+     "R"
+    ]
+   ],
+   [
+    [
+     "BAHÇESİNDE",
+     "W"
+    ]
+   ],
+   [
+    [
+     "SADECE 12",
+     "W"
+    ]
+   ],
+   [
+    [
+     "AT KALMIŞTI",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "sayı",
+ "yt_title": "Dünyada 12 Tane Kalan At: Przewalski Atı",
+ "en": {
+  "title": "Przewalski's Horse: Only 12 Left in Zoos",
+  "description": "By the end of the 1950s only 12 Przewalski's horses were left in the world's zoos, and the species was declared extinct in the wild after the last sighting in 1969."
+ },
+ "caption": "1950'lerin sonunda dünyadaki hayvanat bahçelerinde yalnızca on iki tanesi kalan Przewalski atı, doğada nesli tükendikten sonra Moğolistan'a yeniden salındı. 🐎🌾\n\n#terrawildnature #przewalskiatı\n\n📷 Boris Nedosekov (CC BY-SA 4.0), JustineLevray (CC BY-SA 4.0), Rigelus (CC BY-SA 4.0) / Wikimedia Commons\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "author": "Boris Nedosekov",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "public_domain": false
+  },
+  {
+   "author": "JustineLevray",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "public_domain": false
+  },
+  {
+   "author": "Rigelus",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "public_domain": false
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
