@@ -1,0 +1,94 @@
+{
+ "name": "büyük bilbi",
+ "group": "memeli",
+ "hook_style": "tuhaf görünüm",
+ "title": [
+  [
+   [
+    "BU HAYVANIN",
+    "W"
+   ]
+  ],
+  [
+   [
+    "KESESİ",
+    "W"
+   ],
+   [
+    "ARKAYA",
+    "R"
+   ]
+  ],
+  [
+   [
+    "DOĞRU AÇILIYOR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "BÜYÜK BİLBİ",
+ "card_top": [
+  "Dişinin kesesi arkaya bakar,",
+  "kazarken toprak dolmaz."
+ ],
+ "card_bottom": [
+  "Gebelik sadece 12-14 gün",
+  "sürer; memeliler arasında",
+  "en kısa gebeliklerdendir."
+ ],
+ "right": [
+  "Avustralya'nın kurak bölgesi",
+  "gece aktiftir, yuvada yaşar.",
+  "Su içmeye gerek duymaz, nemi",
+  "yiyeceklerinden alır.",
+  "Kızıl tilki en büyük tehdidi."
+ ],
+ "loc": "Avustralya",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.6,
+   "cy": 0.5,
+   "zoom": 1.2
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.55,
+   "cy": 0.45,
+   "zoom": 1.1
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.8,
+   "cy": 0.5,
+   "zoom": 2.0
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "iNaturalist 754812518",
+   "author": "Tom Field",
+   "license": "CC BY",
+   "public_domain": false,
+   "source": "iNaturalist"
+  },
+  {
+   "use": "top",
+   "title": "iNaturalist 754812539",
+   "author": "Tom Field",
+   "license": "CC BY",
+   "public_domain": false,
+   "source": "iNaturalist"
+  },
+  {
+   "use": "inner",
+   "title": "iNaturalist 754812538",
+   "author": "Tom Field",
+   "license": "CC BY",
+   "public_domain": false,
+   "source": "iNaturalist"
+  }
+ ],
+ "caption": "Dişisinin kesesi arkaya baktığı için kazarken toprak dolmayan büyük bilbi, Avustralya'nın kurak bölgelerinde su içmeden yaşayabiliyor. 🐾🌙\n\n#terrawildnature #ilginçbilgiler #bilbi\n\n📷 Tom Field (CC BY) / iNaturalist"
+}

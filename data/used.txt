@@ -355,3 +355,6 @@ kurt balığı | Anarhichas lupus
 avrupa bizonu | Bison bonasus
 büyük kudu (Reels) | Tragelaphus strepsiceros
 şerit yılanbalığı | Rhinomuraena quaesita
+uzun burunlu gar | Lepisosteus osseus
+büyük bilbi | Macrotis lagotis
+fennek | Vulpes zerda

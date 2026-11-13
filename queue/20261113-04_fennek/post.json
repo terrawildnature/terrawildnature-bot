@@ -1,0 +1,91 @@
+{
+ "name": "fennek",
+ "group": "memeli",
+ "hook_style": "tuhaf görünüm",
+ "title": [
+  [
+   [
+    "BU TİLKİNİN",
+    "W"
+   ]
+  ],
+  [
+   [
+    "KULAĞI",
+    "W"
+   ],
+   [
+    "VÜCUDUNA",
+    "R"
+   ]
+  ],
+  [
+   [
+    "GÖRE EN BÜYÜK",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "FENNEK",
+ "card_top": [
+  "Köpekgiller arasında kulak",
+  "vücut oranı en büyük olandır."
+ ],
+ "card_bottom": [
+  "Büyük kulaklar hem sıcağı",
+  "dışarı atar hem de kum",
+  "altındaki avı duymaya yarar."
+ ],
+ "right": [
+  "Kuzey Afrika'nın Sahra",
+  "çölünde yaşar.",
+  "Dünyanın en küçük tilkisidir;",
+  "1-2 kilo gelir.",
+  "Pençe altları tüylüdür."
+ ],
+ "loc": "Sahra",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.5,
+   "cy": 0.55,
+   "zoom": 1.4
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.6,
+   "cy": 0.55,
+   "zoom": 1.3
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.55,
+   "cy": 0.55,
+   "zoom": 2.2
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Fennec FOX - Valley of the Whales - Wadi al Hitan 2.jpg",
+   "author": "Khaled Mokhtar",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "use": "top",
+   "title": "File:Wüstenfuchs (Vulpes zerda).jpg",
+   "author": "Marco Almbauer",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "use": "inner",
+   "title": "File:Fennec FOX - Valley of the Whales - Wadi al Hitan 3.jpg",
+   "author": "Khaled Mokhtar",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  }
+ ],
+ "caption": "Köpekgiller arasında vücuduna göre en büyük kulaklara sahip olan fennek, bu kulaklarla hem ısıyı dışarı atıyor hem de kumun altındaki avı duyuyor. 🦊🏜️\n\n#terrawildnature #ilginçbilgiler #fennek\n\n📷 Khaled Mokhtar (CC BY-SA 4.0) / Wikimedia Commons"
+}
