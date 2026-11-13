@@ -213,3 +213,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: yeni bulgu işlenmedi; kuyruklar dolu olduğu için içerik üretilmedi.
 - Bugün uygulanan: Gönderi kuyruğu 15/15, Reels kuyruğu 9/9 (zz_ quokka dahil); queue_failed/queue_reels_failed yok; üretim yapılmadı.
 - Sonra kontrol et: zz_20261106-01_quokka Reels'i hâlâ sırada mı; tehlike kancalı gönderilerin ve takahe/vikunya Reels'lerinin skorları.
+
+## 2026-11-13 (öğle çalıştırması)
+- Rapordan öğrenilen: gönderide balık (2,55), tuhaf görünüm (2,26) ve tuhaf yetenek (1,96) güçlü; Reels'te memeli (1,79) ve sayı/tuhaf yetenek güçlü; kuş/sürüngen gönderide zayıf.
+- Bugün uygulanan: Reels 8→9: büyük kudu (memeli, sayı, Shamanistic ilk kez, 81 kelime). Gönderi 14→15: şerit yılanbalığı (balık, tuhaf yetenek). Kapak: yatay fotoğrafta kafa başlığın arkasında kalıyor (cy etkisiz); kudu kapağında boynuzlar görünüyor ama yüz kısmen gizli.
+- Sonra kontrol et: kudu Reels skoru (memeli + sayı); yılanbalığı gönderisinin içerik değeri (balık grubu); Reels kapaklarında yatay fotoğraflarda hayvanın başı başlıkla örtüşmeyen kareler seç.
