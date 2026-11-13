@@ -1,0 +1,146 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Shamanistic.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/612933800/original.jpg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/386594954/original.jpeg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/592321246/original.jpg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/386595208/original.jpeg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/631496506/original.jpg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/631496511/original.jpg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/612933775/original.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu antilobun boynuzları düzleştirilse ortalama 120 santim, rekoru ise 187 santim uzunluğunda.",
+   "image": "p1.jpg",
+   "cx": 0.47,
+   "cy": 0.45,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Büyük kudu, doğu ve güney Afrika'nın ormanlarında yaşıyor.",
+   "image": "p2.jpg",
+   "cx": 0.73,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Erkeklerin boynuzları, iki buçuk kez burgu gibi kıvrılıyor.",
+   "image": "p3.jpg",
+   "cx": 0.53,
+   "cy": 0.4,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Bu kıvrımlar iki yaşında başlıyor ve tam hâline altı yaşında ulaşıyor.",
+   "image": "p4.jpg",
+   "cx": 0.75,
+   "cy": 0.4,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Gövdesinde dört ile on iki arasında dikey beyaz çizgi bulunuyor.",
+   "image": "p5.jpg",
+   "cx": 0.4,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Boğalar yüz doksan ile iki yüz yetmiş kilo geliyor, omuzda yüz altmış santimi buluyor.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.55,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Tehlikede genellikle bir dişi havlayarak sürüyü uyarıyor.",
+   "image": "p7.jpg",
+   "cx": 0.55,
+   "cy": 0.45,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p1.jpg",
+   "cx": 0.47,
+   "cy": 0.45,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.47,
+  "cy": 0.4,
+  "title": [
+   [
+    [
+     "BOYNUZU",
+     "R"
+    ]
+   ],
+   [
+    [
+     "DÜZLEŞSE",
+     "W"
+    ]
+   ],
+   [
+    [
+     "187 CM'YE",
+     "W"
+    ]
+   ],
+   [
+    [
+     "ULAŞIYOR",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "sayı",
+ "yt_title": "Boynuzları 187 Cm'ye Ulaşan Antilop: Büyük Kudu",
+ "en": {
+  "title": "Greater Kudu: The Antelope With Spiral Horns",
+  "description": "The greater kudu is a large African woodland antelope whose spiral horns, if straightened, would average 120 cm, with a record of 187 cm."
+ },
+ "caption": "Boynuzları düzleştirilse 120 santime, rekorda ise 187 santime ulaşan büyük kudu, burgu gibi kıvrılan boynuzlarıyla Afrika'nın en gösterişli antiloplarından biri. 🦌🌍\n\n#terrawildnature #buyukkudu\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "author": "Andy Wallace",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "Andra Waagmeester",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "danielarah",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "Kelly Abram",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
