@@ -1,0 +1,26 @@
+{
+ "name": "sarı başlı çene balığı",
+ "group": "balık",
+ "hook_style": "tuhaf yetenek",
+ "title": [
+  [["BU BALIĞIN BABASI", "W"]],
+  [["YUMURTALARI", "W"], ["AĞZINDA", "R"]],
+  [["TAŞIYOR", "R"]]
+ ],
+ "card_title": "SARI BAŞLI ÇENE BALIĞI",
+ "card_top": ["Erkek balık yumurtaları", "çıkana dek ağzında taşır."],
+ "card_bottom": ["Tehlike yaklaşınca yuvasına", "girer, girişi koca bir taşla", "kapatır ya da kum tükürür."],
+ "right": ["Karayip resiflerinde yaşar.", "10 cm'ye kadar büyür.", "Yuvasını ağzıyla taşıdığı", "kum ve taşlardan kurar.", "70'e varan gruplarda yaşar."],
+ "loc": "Karayipler",
+ "photos": {
+  "cover": {"file": "photo_cover.jpg", "cx": 0.5, "cy": 0.35, "zoom": 1.2},
+  "top": {"file": "photo_top.jpg", "cx": 0.5, "cy": 0.3, "zoom": 1.3},
+  "inner": {"file": "photo_inner.jpg", "cx": 0.6, "cy": 0.5, "zoom": 1.8}
+ },
+ "credits": [
+  {"use": "cover", "author": "Jean-Paul Boerekamps", "license": "CC0", "source": "iNaturalist", "public_domain": true},
+  {"use": "top", "author": "Jean-Paul Boerekamps", "license": "CC0", "source": "iNaturalist", "public_domain": true},
+  {"use": "inner", "author": "Jean-Paul Boerekamps", "license": "CC0", "source": "iNaturalist", "public_domain": true}
+ ],
+ "caption": "Karayip resiflerinde yaşayan sarı başlı çene balığının erkeği, yumurtalar çıkana kadar hepsini ağzında taşıyor. 🐟🪨\n\n#terrawildnature #ilginçbilgiler #çenebalığı"
+}
