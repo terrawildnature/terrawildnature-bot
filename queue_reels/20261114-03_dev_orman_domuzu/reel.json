@@ -1,0 +1,164 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Tectonic.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/441974331/original.jpeg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/441974335/original.jpeg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/461740645/original.jpg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/610002003/original.jpg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/402139471/original.jpeg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/549867868/original.jpg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/406212026/original.jpeg"
+ },
+ "segments": [
+  {
+   "text": "İki yüz yetmiş beş kiloya ulaşabilen dev orman domuzu, ortalamada yaşayan en büyük domuzgil.",
+   "image": "p1.jpg",
+   "cx": 0.58,
+   "cy": 0.55,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Omuz yüksekliği bir metreyi aşabiliyor.",
+   "image": "p2.jpg",
+   "cx": 0.35,
+   "cy": 0.55,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Batı ve Orta Afrika'nın Gine ve Kongo ormanlarında yaşıyor.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Kenya Dağı'na ve Etiyopya yaylalarına kadar uzanıyor, üç bin sekiz yüz metreye çıkabiliyor.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.35,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kuruluğa ve uzun süre güneşe dayanamadığı için yoğun örtülü yerlerde yaşıyor.",
+   "image": "p5.jpg",
+   "cx": 0.39,
+   "cy": 0.4,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Erkekleri bazen uyarmadan saldırdığı için kızıl nehir domuzundan bile daha çok korkuluyor.",
+   "image": "p6.jpg",
+   "cx": 0.35,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Benekli sırtlanları leşten uzaklaştırdığı bile biliniyor.",
+   "image": "p7.jpg",
+   "cx": 0.4,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p1.jpg",
+   "cx": 0.58,
+   "cy": 0.55,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p4.jpg",
+  "cx": 0.42,
+  "cy": 0.2,
+  "title": [
+   [
+    [
+     "275 KİLOLUK",
+     "R"
+    ]
+   ],
+   [
+    [
+     "DEV DOMUZ",
+     "W"
+    ]
+   ],
+   [
+    [
+     "AFRİKA'NIN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "ORMAN DEVİ",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "sayı",
+ "yt_title": "275 Kiloluk Dev Orman Domuzu",
+ "en": {
+  "title": "The 275 kg Giant Forest Hog of Africa",
+  "description": "The giant forest hog can reach 275 kilograms, making it on average the largest living wild pig relative, and it lives in the dense forests of West and Central Africa."
+ },
+ "caption": "İki yüz yetmiş beş kiloya ulaşabilen dev orman domuzu, ortalamada yaşayan en büyük domuzgil türü. 🐗🌿\n\n#terrawildnature #devormandomuzu\n\n📷 Thomas Galewski (CC BY), Adrien Jailloux (CC BY), Lukas Zangl (CC BY), Fábio Olmos (CC BY) / iNaturalist\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "author": "Philip Precey",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "Philip Precey",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "Thomas Galewski",
+   "license": "CC BY",
+   "source": "iNaturalist",
+   "public_domain": false
+  },
+  {
+   "author": "Adrien Jailloux",
+   "license": "CC BY",
+   "source": "iNaturalist",
+   "public_domain": false
+  },
+  {
+   "author": "Daniel",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "Lukas Zangl",
+   "license": "CC BY",
+   "source": "iNaturalist",
+   "public_domain": false
+  },
+  {
+   "author": "Fábio Olmos",
+   "license": "CC BY",
+   "source": "iNaturalist",
+   "public_domain": false
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}

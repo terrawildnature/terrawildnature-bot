@@ -366,3 +366,4 @@ yaprak akrep balığı | Taenianotus triacanthus
 kısa gagalı ekidna (Reels) | Tachyglossus aculeatus
 kaya sengisi | Elephantulus myurus
 benekli kirpi balığı | Diodon hystrix
+dev orman domuzu (Reels) | Hylochoerus meinertzhageni
