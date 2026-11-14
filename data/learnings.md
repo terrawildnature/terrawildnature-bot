@@ -228,3 +228,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide balık (2,55), tuhaf görünüm (2,26) güçlü; Reels'te memeli (1,79), sayı/tuhaf yetenek güçlü.
 - Bugün uygulanan: gönderi 14→15: dört gözlü balık (balık, tuhaf görünüm). Reels 8→9: Przewalski atı (memeli, sayı, Noble_Race ilk kez, 77 kelime).
 - Sonra kontrol et: Przewalski Reels skoru (memeli + sayı); dört gözlü balık içerik değeri; kapak fotoğrafı bulanık/uzak (kalabalık vahşi balık sürüsü) etkisi.
+
+## 2026-11-14 (sabah çalıştırması)
+- Rapordan öğrenilen: yeni bulgu işlenmedi; kuyruklar dolu olduğu için içerik üretilmedi.
+- Bugün uygulanan: Gönderi kuyruğu 15/15, Reels kuyruğu 9/9 (zz_ quokka dahil); queue_failed/queue_reels_failed yok; üretim yapılmadı.
+- Sonra kontrol et: kudu, kapibara ve Przewalski Reels skorları (memeli + sayı); gar, fennek/bilbi ve dört gözlü balık gönderilerinin içerik değeri.
