@@ -1,0 +1,91 @@
+{
+ "name": "yaprak akrep balığı",
+ "group": "balık",
+ "hook_style": "tuhaf yetenek",
+ "title": [
+  [
+   [
+    "BU BALIK",
+    "W"
+   ]
+  ],
+  [
+   [
+    "ÖLÜ BİR",
+    "W"
+   ],
+   [
+    "YAPRAĞI",
+    "R"
+   ]
+  ],
+  [
+   [
+    "TAKLİT EDİYOR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "YAPRAK AKREP BALIĞI",
+ "card_top": [
+  "Vücudu yaprak kadar yassı;",
+  "boyu en çok 10 cm kadar."
+ ],
+ "card_bottom": [
+  "Yan yana hafifçe sallanarak",
+  "suda sürüklenen cansız bir",
+  "nesneye benzemeye çalışır."
+ ],
+ "right": [
+  "Kızıldeniz'den Hawaii'ye kadar",
+  "mercan resiflerinde yaşar.",
+  "Her 10-14 günde bir derisi",
+  "yenilenir, rengi değişebilir.",
+  "Pusuda bekleyip avını emer."
+ ],
+ "loc": "Hint-Pasifik",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.6,
+   "cy": 0.45,
+   "zoom": 1.2
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "zoom": 1.2
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.4,
+   "cy": 0.45,
+   "zoom": 1.5
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Pez escorpión de vela (Taenianotus triacanthus), Zanzíbar, Tanzania, 2024-06-01, DD 54.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "use": "top",
+   "title": "File:...2024-05-29, DD 13.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "use": "inner",
+   "title": "File:...2024-05-30, DD 08.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  }
+ ],
+ "caption": "Hint-Pasifik resiflerinin yaprak akrep balığı, yan yana sallanarak suda sürüklenen ölü bir yaprağı taklit ediyor ve yaklaşan avını bir anda içine çekiyor. 🍂🐟\n\n#terrawildnature #ilginçbilgiler #yaprakakrepbalığı\n\n📷 Diego Delso (CC BY-SA 4.0) / Wikimedia Commons"
+}

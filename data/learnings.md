@@ -233,3 +233,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: yeni bulgu işlenmedi; kuyruklar dolu olduğu için içerik üretilmedi.
 - Bugün uygulanan: Gönderi kuyruğu 15/15, Reels kuyruğu 9/9 (zz_ quokka dahil); queue_failed/queue_reels_failed yok; üretim yapılmadı.
 - Sonra kontrol et: kudu, kapibara ve Przewalski Reels skorları (memeli + sayı); gar, fennek/bilbi ve dört gözlü balık gönderilerinin içerik değeri.
+
+## 2026-11-14 (öğle çalıştırması)
+- Rapordan öğrenilen: gönderide memeli (2,23), balık (2,12), tuhaf görünüm (2,27), sayı (1,85) güçlü; Reels'te memeli (1,62), sayı (1,43), tuhaf yetenek (1,24) güçlü.
+- Bugün uygulanan: Reels 8→9: bongo (memeli, sayı, Lasting_Hope ilk kez, 70 kelime). Gönderi 14→15: yaprak akrep balığı (balık, tuhaf yetenek). iNaturalist'te "Histrio histrio" araması başka takson (böcek/mantar) döndürdü; sargassum balığı, Shaw inek balığı adayları elde tutulan/ölü fotoğraf yüzünden elendi.
+- Sonra kontrol et: bongo Reels skoru (memeli + sayı); yaprak akrep balığı içerik değeri (balık grubu); iNat aramasında yalnızca iki sözcüklü özgün adlara güven, fotoğrafı mutlaka Read ile doğrula.
