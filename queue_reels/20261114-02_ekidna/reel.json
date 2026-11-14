@@ -1,0 +1,146 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Not_As_It_Seems.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Tachyglossus aculeatus aculeatus 358475387.jpg",
+  "p2.jpg": "File:Short-beaked echidna (Tachyglossus aculeatus setosus) Scottsdale.jpg",
+  "p3.jpg": "File:Short-beaked echidna (Tachyglossus aculeatus) Freycinet.jpg",
+  "p4.jpg": "File:Short-beaked echidna (Tachyglossus aculeatus) in Serpentine National Park, May 2021 01.jpg",
+  "p5.jpg": "File:Tachyglossus aculeatus (23598816752).jpg",
+  "p6.jpg": "File:Short-beaked echidna (Tachyglossus aculeatus) in Serpentine National Park, May 2021 04.jpg",
+  "p7.jpg": "File:Short-beaked echidna (Tachyglossus aculeatus) in Serpentine National Park, May 2021 06.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bir memeli düşün, ama yumurta bırakıyor: kısa gagalı ekidna.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Avustralya ve Yeni Gine'de yaşıyor, Avustralya'nın en yaygın yerli memelisi.",
+   "image": "p2.jpg",
+   "cx": 0.3,
+   "cy": 0.5,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Sırtı, elli milimetreye varan dikenlerle kaplı.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Burnundaki elektrik algılayıcıları, insandan yaklaşık bin kat hassas.",
+   "image": "p4.jpg",
+   "cx": 0.25,
+   "cy": 0.6,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Dili gagasından yüz seksen milimetre dışarı uzanıyor ve dakikada yüz kez gidip geliyor.",
+   "image": "p5.jpg",
+   "cx": 0.2,
+   "cy": 0.55,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Tek yumurtası en fazla iki gram gelir ve kesenin içinde çatlar.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "zoom_out"
+  },
+  {
+   "text": "Kış uykusunda vücut ısısı dört dereceye, kalp atışı dakikada dört ila yedi vuruşa düşüyor.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p4.jpg",
+   "cx": 0.25,
+   "cy": 0.6,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.4,
+  "cy": 0.4,
+  "title": [
+   [
+    [
+     "YUMURTA",
+     "R"
+    ]
+   ],
+   [
+    [
+     "BIRAKAN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "BİR MEMELİ",
+     "W"
+    ]
+   ],
+   [
+    [
+     "EKİDNA",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "tuhaf yetenek",
+ "yt_title": "Yumurta Bırakan Memeli: Kısa Gagalı Ekidna",
+ "en": {
+  "title": "The Mammal That Lays Eggs: Short-beaked Echidna",
+  "description": "The short-beaked echidna is a spiny mammal that lays eggs, senses electric fields with its snout and can slow its heart to just a few beats per minute while hibernating."
+ },
+ "caption": "Memeli olduğu hâlde yumurta bırakan kısa gagalı ekidna, burnuyla elektrik alanlarını hissedip termitleri buluyor. 🦔🥚\n\n#terrawildnature #ekidna\n\n📷 Charles J. Sharp (CC BY-SA 4.0), Calistemon (CC BY-SA 4.0), Donald Hobern (CC BY 2.0) / Wikimedia Commons\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "author": "Max Tibby",
+   "license": "CC0",
+   "source": "Wikimedia Commons",
+   "public_domain": true
+  },
+  {
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "public_domain": false
+  },
+  {
+   "author": "Calistemon",
+   "license": "CC BY-SA 4.0",
+   "source": "Wikimedia Commons",
+   "public_domain": false
+  },
+  {
+   "author": "Donald Hobern",
+   "license": "CC BY 2.0",
+   "source": "Wikimedia Commons",
+   "public_domain": false
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
