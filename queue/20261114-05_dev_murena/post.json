@@ -1,0 +1,26 @@
+{
+ "name": "dev murena",
+ "group": "balık",
+ "hook_style": "sayı",
+ "title": [
+  [["BU 3 METRELİK", "W"]],
+  [["MURENA", "W"], ["BAŞKA BALIKLA", "R"]],
+  [["AV YAPIYOR", "R"]]
+ ],
+ "card_title": "DEV MURENA",
+ "card_top": ["Kütlece en büyük murena;", "3 m ve 30 kiloya ulaşır."],
+ "card_bottom": ["Resifte avlanıp avı dışarı", "kaçırır, gruper onu yakalar.", "Gece avlanır, kokuyla bulur."],
+ "right": ["Hint-Pasifik'te yaşar.", "Gündüz çatlaklarda saklanır.", "Avını görmekten çok koklar.", "Aslan balığı avlayabilir.", "Karaciğeri zehirli olabilir."],
+ "loc": "Hint-Pasifik",
+ "photos": {
+  "cover": {"file": "photo_cover.jpg", "cx": 0.62, "cy": 0.42, "zoom": 1.3},
+  "top": {"file": "photo_top.jpg", "cx": 0.55, "cy": 0.5, "zoom": 1.1},
+  "inner": {"file": "photo_inner.jpg", "cx": 0.75, "cy": 0.4, "zoom": 2.0}
+ },
+ "credits": [
+  {"use": "cover", "author": "Justin Philbois", "license": "CC0", "source": "Wikimedia Commons", "public_domain": true},
+  {"use": "top", "author": "Jean-Paul Boerekamps", "license": "CC0", "source": "Wikimedia Commons", "public_domain": true},
+  {"use": "inner", "author": "Jean-Paul Boerekamps", "license": "CC0", "source": "Wikimedia Commons", "public_domain": true}
+ ],
+ "caption": "3 metreye ve 30 kiloya ulaşabilen dev murena, resifte avı dışarı kaçırıp gruper balığıyla ortak avlanıyor. 🌊🐟\n\n#terrawildnature #ilginçbilgiler #murena"
+}

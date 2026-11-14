@@ -243,3 +243,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli (2,23), balık (2,12), tuhaf görünüm (2,27), sayı (1,85) güçlü; Reels'te memeli (1,62), sayı (1,43), tuhaf yetenek (1,24) güçlü.
 - Bugün uygulanan: Reels 8→9: kısa gagalı ekidna (memeli, tuhaf yetenek, Not_As_It_Seems ilk kez, 82 kelime). Gönderi 13→15: kaya sengisi (memeli, gizem; iNaturalist) ve benekli kirpi balığı (balık, tuhaf yetenek). Kaya damanı zaten kullanılmıştı (used.txt'de ayrı satırda "(Reels)"); mavi balık/blobfish Commons'ta fotoğrafsız, selakant sadece müze örneği olduğu için elendi.
 - Sonra kontrol et: ekidna Reels skoru (memeli + tuhaf yetenek); sengi gönderisinin içerik değeri (gizem, veri az); kirpi balığı (balık grubu). Ekidna kapağında yüz yerine dikenli sırt var; kapak etkisine bak.
+
+## 2026-11-14 (gece çalıştırması)
+- Rapordan öğrenilen: gönderide memeli (2,23), balık (2,12), tuhaf görünüm (2,27), sayı (1,85) güçlü; Reels'te memeli (1,62), sayı (1,43), tuhaf yetenek (1,24) güçlü.
+- Bugün uygulanan: Reels 8→9: dev orman domuzu (memeli, sayı, Tectonic ilk kez, 81 kelime, iNaturalist). Gönderi 13→15: sarı başlı çene balığı (balık, tuhaf yetenek) ve dev murena (balık, sayı), ikisi de CC0. Başlıklı fok (fotoğraflar uzak), misk geyiği ve sarkastik balık (iNat'ta çoğu dışkı/elde tutulan/ölü), mermer kedi (kamera tuzağı, hayvan yok), lingcod (ölü/kıyıya vurmuş) elendi.
+- Sonra kontrol et: domuz Reels skoru (memeli + sayı); çene balığı ve murena içerik değeri (balık grubu). iNat'ta nadir türlerde fotoğrafları indirmeden önce Commons/iNat listesinde aynı fotoğrafçının çok fotoğrafı varsa dikkat (dışkı, kamera tuzağı olabiliyor); yatay fotoğrafta Reels kapağında kafa için cx/cy'yi küçük tut (cy≈0.2).
