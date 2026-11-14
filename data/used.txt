@@ -361,3 +361,4 @@ fennek | Vulpes zerda
 kapibara (Reels) | Hydrochoerus hydrochaeris
 Przewalski atı (Reels) | Equus ferus przewalskii
 dört gözlü balık | Anableps anableps
+bongo (Reels) | Tragelaphus eurycerus

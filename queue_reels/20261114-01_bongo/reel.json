@@ -1,0 +1,140 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Lasting_Hope.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Bongo (33408949352).jpg",
+  "p2.jpg": "File:Bongo (22388496009).jpg",
+  "p3.jpg": "File:Bongo (34271854681).jpg",
+  "p4.jpg": "File:Bongo (22736190442).jpg",
+  "p5.jpg": "File:Gfp-mountain-bongo.jpg",
+  "p6.jpg": "File:Bongo (22589784106).jpg",
+  "p7.jpg": "File:Mountain bongo mount kenya.jpg"
+ },
+ "segments": [
+  {
+   "text": "Dünyanın en büyük üçüncü antilobu, Afrika yağmur ormanlarında yaşıyor.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Adı bongo; kızıl kestane postunda on ila on beş beyaz çizgi taşıyor.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.35,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Erkek bongolar yaklaşık dört yüz kilo gelebiliyor.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Kaçarken boynuzlarını sırtına yatırıyor, böylece sık sarmaşıklara takılmıyor.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Tuza bayılıyor; fırtınadan sonra yanmış odunu bile yiyor.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "zoom_out"
+  },
+  {
+   "text": "Uzun, kavrayıcı diliyle yaprak ve otları kopartıyor.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Kenya'daki dağ bongosundan doğada belki yüz kadar kaldı.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p7.jpg",
+  "cx": 0.5,
+  "cy": 0.3,
+  "title": [
+   [
+    [
+     "DÜNYANIN",
+     "R"
+    ]
+   ],
+   [
+    [
+     "3. BÜYÜK",
+     "W"
+    ]
+   ],
+   [
+    [
+     "ANTİLOBU",
+     "W"
+    ]
+   ],
+   [
+    [
+     "BONGO",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "sayı",
+ "yt_title": "Dünyanın 3. Büyük Antilobu: Bongo",
+ "en": {
+  "title": "The World's 3rd Largest Antelope: Bongo",
+  "description": "The bongo, the third-largest antelope in the world, lives in African rainforests and even eats burnt wood after storms to get the salt it needs."
+ },
+ "caption": "Dünyanın en büyük üçüncü antilobu olan bongo, fırtınadan sonra tuz ihtiyacını gidermek için yanmış odunu bile yiyor. 🦌🌿\n\n#terrawildnature #bongo\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "author": "Mathias Appel",
+   "license": "CC0",
+   "source": "Wikimedia Commons",
+   "public_domain": true
+  },
+  {
+   "author": "Yinan Chen",
+   "license": "Public domain",
+   "source": "Wikimedia Commons",
+   "public_domain": true
+  },
+  {
+   "author": "Chuckupd",
+   "license": "Public domain",
+   "source": "Wikimedia Commons",
+   "public_domain": true
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
