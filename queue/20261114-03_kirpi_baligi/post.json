@@ -1,0 +1,26 @@
+{
+  "name": "benekli kirpi balığı",
+  "group": "balık",
+  "hook_style": "tuhaf yetenek",
+  "title": [
+    [["BU BALIK KORKUNCA", "W"]],
+    [["SUYU YUTUP", "W"], ["ŞİŞİYOR", "R"]],
+    [["DİKENLENİYOR", "R"]]
+  ],
+  "card_title": "BENEKLİ KİRPİ BALIĞI",
+  "card_top": ["Tehlikede su yutup şişer;", "pulları diken gibi dikilir."],
+  "card_bottom": ["Karaciğerinde ve derisinde", "tetrodotoksin biriktirir.", "Deniz kestanesi, midye yer."],
+  "right": ["Tropik ve yarı tropik denizde", "yaşar; 91 cm'ye uzayabilir.", "Yetişkini 1-50 m derinlikte,", "resif ve kayalıklarda durur.", "Gençleri açık denizde yaşar."],
+  "loc": "Dünya denizleri",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.4, "cy": 0.45, "zoom": 1.2},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.33, "cy": 0.5, "zoom": 1.4},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.45, "cy": 0.45, "zoom": 1.8}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Pez erizo moteado (Diodon hystrix), islas Ad Dimaniyat, Omán, 2024-08-13, DD 104.jpg", "author": "Diego Delso", "license": "CC BY-SA 4.0", "public_domain": false},
+    {"use": "top", "title": "File:Diodon hystrix 430166629.jpg", "author": "Chris Spain", "license": "CC0", "public_domain": true},
+    {"use": "inner", "title": "File:Diodon hystrix 435705476.jpg", "author": "Justin Philbois", "license": "CC0", "public_domain": true}
+  ],
+  "caption": "Tehlikede su yutarak şişen ve pullarını diken gibi dikleştiren benekli kirpi balığı, karaciğerinde ve derisinde tetrodotoksin biriktiriyor. 🐡🌊\n\n#terrawildnature #ilginçbilgiler #kirpibalığı\n\n📷 Diego Delso (CC BY-SA 4.0) / Wikimedia Commons"
+}

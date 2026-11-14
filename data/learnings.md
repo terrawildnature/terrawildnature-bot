@@ -238,3 +238,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli (2,23), balık (2,12), tuhaf görünüm (2,27), sayı (1,85) güçlü; Reels'te memeli (1,62), sayı (1,43), tuhaf yetenek (1,24) güçlü.
 - Bugün uygulanan: Reels 8→9: bongo (memeli, sayı, Lasting_Hope ilk kez, 70 kelime). Gönderi 14→15: yaprak akrep balığı (balık, tuhaf yetenek). iNaturalist'te "Histrio histrio" araması başka takson (böcek/mantar) döndürdü; sargassum balığı, Shaw inek balığı adayları elde tutulan/ölü fotoğraf yüzünden elendi.
 - Sonra kontrol et: bongo Reels skoru (memeli + sayı); yaprak akrep balığı içerik değeri (balık grubu); iNat aramasında yalnızca iki sözcüklü özgün adlara güven, fotoğrafı mutlaka Read ile doğrula.
+
+## 2026-11-14 (akşam çalıştırması)
+- Rapordan öğrenilen: gönderide memeli (2,23), balık (2,12), tuhaf görünüm (2,27), sayı (1,85) güçlü; Reels'te memeli (1,62), sayı (1,43), tuhaf yetenek (1,24) güçlü.
+- Bugün uygulanan: Reels 8→9: kısa gagalı ekidna (memeli, tuhaf yetenek, Not_As_It_Seems ilk kez, 82 kelime). Gönderi 13→15: kaya sengisi (memeli, gizem; iNaturalist) ve benekli kirpi balığı (balık, tuhaf yetenek). Kaya damanı zaten kullanılmıştı (used.txt'de ayrı satırda "(Reels)"); mavi balık/blobfish Commons'ta fotoğrafsız, selakant sadece müze örneği olduğu için elendi.
+- Sonra kontrol et: ekidna Reels skoru (memeli + tuhaf yetenek); sengi gönderisinin içerik değeri (gizem, veri az); kirpi balığı (balık grubu). Ekidna kapağında yüz yerine dikenli sırt var; kapak etkisine bak.
