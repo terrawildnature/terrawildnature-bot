@@ -1,0 +1,26 @@
+{
+  "name": "kaya sengisi",
+  "group": "memeli",
+  "hook_style": "gizem",
+  "title": [
+    [["BU FARE DEĞİL,", "W"]],
+    [["FİLLERİN", "R"]],
+    [["AKRABASI", "R"]]
+  ],
+  "card_title": "KAYA SENGİSİ",
+  "card_top": ["Fare değil; gerçekte fillere", "sivri farelerden daha yakın."],
+  "card_bottom": ["Hortum gibi burnuyla böcek,", "örümcek ve solucan arar;", "yiyeceği diliyle ağzına atar."],
+  "right": ["Güney Afrika kayalıklarında", "yaşar. Sengilerin boyu", "10-30 cm, ağırlığı 50-500 g.", "Saatte 28,8 km hıza çıkıp", "tavşan gibi hoplayarak gider."],
+  "loc": "Güney Afrika",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.4, "cy": 0.5, "zoom": 1.3},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.42, "cy": 0.55, "zoom": 1.8},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.55, "cy": 0.55, "zoom": 2.2}
+  },
+  "credits": [
+    {"use": "cover", "author": "John Barkla", "license": "CC BY", "public_domain": false, "source": "iNaturalist"},
+    {"use": "top", "author": "rosshawkins", "license": "CC0", "public_domain": true, "source": "iNaturalist"},
+    {"use": "inner", "author": "rosshawkins", "license": "CC0", "public_domain": true, "source": "iNaturalist"}
+  ],
+  "caption": "Fare sanılan ama aslında fillere daha yakın akraba olan kaya sengisi, hortum benzeri burnuyla böcek avlıyor ve saatte 28,8 km hıza çıkabiliyor. 🐘🪨\n\n#terrawildnature #ilginçbilgiler #kayasengisi\n\n📷 John Barkla (CC BY) / iNaturalist"
+}
