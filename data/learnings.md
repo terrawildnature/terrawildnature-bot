@@ -258,3 +258,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli (2,34), tuhaf görünüm (2,27), sayı (2,08) güçlü; Reels'te memeli (1,52) ve kuş (1,30), sayı/tuhaf yetenek güçlü.
 - Bugün uygulanan: Reels 8→9: küçük cennet kuşu (kuş, gizem; Heroic_Age ilk kez, 76 kelime, iNaturalist; fotoğraflar yapraklı dallar arasında, kapak biraz çam dalıyla örtülü). Gönderi 14→15: Bengal yavaş lorisi (memeli, tehlike; CC0). Solenodon iNat fotoğrafı ölü hayvandı, elendi; lir kuşu zaten Reels'te kullanılmıştı (used.txt'te "Menura" ayrı satır).
 - Sonra kontrol et: cennet kuşu Reels'inde kuş + gizem skoru; loris gönderisinin içerik değeri (memeli ama tehlike kancası). iNat tek-fotoğraflı nadir türlerde indirmeden önce ölü hayvan olup olmadığına bak.
+
+## 2026-11-15 (akşam çalıştırması)
+- Rapordan öğrenilen: gönderide memeli (2,34), tuhaf görünüm (2,27), sayı (2,08), balık (2,12) güçlü; Reels'te memeli (1,52) ve kuş (1,30), sayı/tuhaf yetenek güçlü.
+- Bugün uygulanan: Reels 8→9: sincap maymunu (memeli, sayı, Spring_Thaw ilk kez, 79 kelime, CC0 iNaturalist). Gönderi 13→15: pirozom (deniz omurgasızı, tuhaf görünüm; kıyıya vurmuş fotoğraflar) ve rakun köpeği (memeli, tuhaf yetenek). İpeksi karıncayiyen (yapraklar arasında gizli), fener balığı (ölü/dalgıç elinde) elendi.
+- Sonra kontrol et: sincap maymunu Reels skoru (memeli + sayı); pirozom gönderisinin içerik değeri (deniz omurgasızı, kıyıya vurmuş foto zayıf olabilir); rakun köpeği (memeli).

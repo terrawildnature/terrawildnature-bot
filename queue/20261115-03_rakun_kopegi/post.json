@@ -1,0 +1,87 @@
+{
+  "name": "rakun köpeği",
+  "group": "memeli",
+  "hook_style": "tuhaf yetenek",
+  "title": [
+    [
+      [
+        "BU HAYVAN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "KIŞ UYKUSUNA",
+        "R"
+      ]
+    ],
+    [
+      [
+        "YATAN TEK KÖPEKGİL",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "RAKUN KÖPEĞİ",
+  "card_top": [
+    "Rakun benzeri yüz çizgileri",
+    "olan, tilkiye yakın bir canlı."
+  ],
+  "card_bottom": [
+    "Soğuk kışlarda kış uykusuna",
+    "yatan tek köpekgil olarak",
+    "bilinir. Ağaca da tırmanır."
+  ],
+  "right": [
+    "Doğu Asya'nın yerlisidir.",
+    "Avrupa'ya kürk için getirildi",
+    "ve istilacı sayılıyor.",
+    "Mart'ta yaklaşık 3 kg gelir;",
+    "yaz sonunda 6,5-7 kg olur."
+  ],
+  "loc": "Doğu Asya",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.58,
+      "cy": 0.5,
+      "zoom": 1.5
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.4,
+      "cy": 0.55,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.8
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "iNaturalist 726217240",
+      "author": "James Eaton",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Marderhund Nyctereutes procyonoides 6829.jpg",
+      "author": "NobbiP",
+      "license": "CC BY-SA 3.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Marderhund Nyctereutes procyonoides 6829.jpg",
+      "author": "NobbiP",
+      "license": "CC BY-SA 3.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Rakun köpeği, kış uykusuna yatan tek köpekgil olarak biliniyor ve ağaçlara bile tırmanabiliyor. 🦊❄️\n\n#terrawildnature #ilginçbilgiler #rakunköpeği\n\n📷 NobbiP (CC BY-SA 3.0) / Wikimedia Commons"
+}
