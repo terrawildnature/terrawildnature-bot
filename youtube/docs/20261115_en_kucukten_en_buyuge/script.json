@@ -1,0 +1,512 @@
+{
+ "title": "KÜÇÜKTEN BÜYÜĞE",
+ "subtitle": "On sekiz milimetreden otuz metreye",
+ "mechanic": "tape_measure",
+ "intro_photos": [
+  "37_0",
+  "03_0",
+  "27_0",
+  "06_0"
+ ],
+ "journey": {
+  "meter": false,
+  "label": "BOYUT",
+  "unit": "cm",
+  "scale": "log",
+  "min": 1,
+  "max": 3000,
+  "direction": "up",
+  "units": [
+   [
+    0,
+    "mm",
+    10
+   ],
+   [
+    3,
+    "cm",
+    1
+   ],
+   [
+    100,
+    "m",
+    0.01
+   ]
+  ],
+  "zones": [
+   [
+    1,
+    5,
+    "MİNİKLER"
+   ],
+   [
+    5,
+    50,
+    "AVUÇ İÇİ"
+   ],
+   [
+    50,
+    200,
+    "İNSAN BOYU"
+   ],
+   [
+    200,
+    1000,
+    "DEVLER"
+   ],
+   [
+    1000,
+    3000,
+    "TİTANLAR"
+   ]
+  ],
+  "stats": [],
+  "range_label": "BOYUT",
+  "human": 171,
+  "palette": [
+   [
+    0,
+    [
+     14,
+     64,
+     44
+    ]
+   ],
+   [
+    3000,
+    [
+     10,
+     24,
+     56
+    ]
+   ]
+  ],
+  "rays": 0,
+  "particles": null,
+  "glow": null,
+  "card": [
+   56,
+   64,
+   1120,
+   630
+  ],
+  "sub_cx": 960,
+  "music": [
+   "Magic_Forest.mp3",
+   "Odyssey.mp3"
+  ]
+ },
+ "segments": [
+  {
+   "type": "intro",
+   "depth": 1,
+   "text": "Parmağınızın ucuna sığan bir kertenkele var. Bir de boyu bir basketbol sahasını aşan, kalbi tek başına yüz seksen kilogram gelen bir dev. Bugün hayvanlar dünyasını boylarına göre sıralıyoruz. Yolculuğumuz on sekiz milimetrelik bir sürüngenle başlayacak, avucumuza sığan kuşlar ve böceklerle büyüyecek, insan boyunu geçip filleri, pitonları ve köpekbalıklarını aşarak bugüne kadar yaşamış en büyük hayvanla bitecek. Yirmi beş canlıyla tanışacağız. Ekranın altındaki şerit metreyi takip edin. Kırmızı çizgi o an konuştuğumuz boyu gösteriyor ve tanıştığımız her hayvan şeridin üzerinde yerini alacak. Sağdaki kıyas paneli ise her canlıyı yetişkin bir insanla yan yana koyacak. Hazırsanız şeridi çekiyoruz.",
+   "text_en": "There is a lizard that fits on your fingertip. And there is a giant longer than a basketball court, whose heart alone weighs 180 kilograms. Today we rank the animal kingdom by size. Our journey starts with an 18-millimetre reptile, grows through birds and insects that fit in the palm of a hand, passes human height, overtakes elephants, pythons and sharks, and ends with the largest animal that has ever lived. We will meet 25 animals. Follow the tape measure at the bottom of the screen. The red line shows the size we are talking about, and every animal we meet will take its place on the tape. The comparison panel on the right puts each one next to an adult human. Ready? Let's pull out the tape."
+  },
+  {
+   "type": "zone",
+   "depth": 1,
+   "name": "MİNİKLER",
+   "name_en": "THE TINY ONES",
+   "range": "1 – 5 cm",
+   "range_en": "1 – 5 cm",
+   "text": "İlk durağımız milimetrelerin dünyası. Bu kadar küçük bir bedenin önemli bir sorunu var: hacmine göre yüzeyi çok geniş olduğu için ısısını ve suyunu hızla kaybediyor. Bu yüzden buradaki omurgalılar ya nemli yaprak döküntüsünün arasına saklanıyor ya da neredeyse durmadan yemek yiyor. Şimdi dünyanın en küçük sürüngenleriyle ve ağırlık bakımından en küçük memelisiyle tanışacağız.",
+   "text_en": "Our first stop is the world of millimetres. A body this small has a real problem: its surface is huge compared with its volume, so it loses heat and water very quickly. That is why the vertebrates here either hide in damp leaf litter or eat almost non-stop. Now we meet the world's smallest reptiles and the smallest mammal by weight."
+  },
+  {
+   "type": "creature",
+   "depth": 1.8,
+   "name": "Jaragua Cüce Gekosu",
+   "name_en": "Jaragua dwarf gecko",
+   "latin": "Sphaerodactylus ariasae",
+   "range": "1,8 cm",
+   "measure": "BAŞ-GÖVDE",
+   "text": "Karşınızda bilinen en küçük sürüngen: Jaragua cüce gekosu. Burnunun ucundan kuyruğunun başladığı yere kadar yalnızca on dört ile on sekiz milimetre. Bir Amerikan çeyrek dolarının üzerine rahatça sığıyor. Ortalama ağırlığı ise bir gramın yüzde on üçü kadar. Bu minik kertenkele yalnızca Dominik Cumhuriyeti'nin en güneybatı ucundaki Jaragua Ulusal Parkı'nda ve hemen açığındaki ormanlık Beata Adası'nda yaşıyor. Kireçtaşı zemin üzerindeki kuru ormanların yaprak döküntüsü onun bütün dünyası. Adını, parkın korunmasında büyük rol oynayan Grupo Jaragua adlı doğa koruma örgütünün lideri, herpetolog Yvonne Arias'tan alıyor.",
+   "text_en": "Meet the smallest known reptile: the Jaragua dwarf gecko. From the tip of its snout to the base of its tail it measures only 14 to 18 millimetres. It fits comfortably on a US quarter. Its average weight is just 0.13 grams. This tiny lizard lives only in Jaragua National Park, at the extreme southwestern tip of the Dominican Republic, and on nearby forested Beata Island. The leaf litter of dry forests on limestone ground is its whole world. It is named after herpetologist Yvonne Arias, leader of Grupo Jaragua, the conservation organisation that played a key role in protecting the park."
+  },
+  {
+   "type": "creature",
+   "depth": 3.4,
+   "name": "Cüce Yaprak Bukalemunu",
+   "name_en": "Minute leaf chameleon",
+   "latin": "Brookesia minima",
+   "range": "3,4 cm",
+   "measure": "TOPLAM BOY",
+   "text": "Şimdi Madagaskar'ın kuzeybatı kıyısının hemen açığındaki Nosy Be adasına gidiyoruz. Buranın yağmur ormanlarında, kuyruğu dahil en fazla üç virgül dört santimetre boyunda bir bukalemun yaşıyor: cüce yaprak bukalemunu. Erkekler daha da küçük, en fazla iki virgül sekiz santimetre. Uzun süre bukalemunların en küçüğü sayıldı, ta ki iki bin yirmi bir yılında daha küçük bir akrabası tanımlanana kadar. Bugün bilinen en küçük üçüncü kertenkele. Minicik olsa da gerçek bir bukalemun: gözlerini birbirinden bağımsız döndürebiliyor ve dallara sarılabilen bir kuyruğu var. Uygun yerlerde yoğunluğu metrekareye bir hayvana kadar çıkabiliyor. Dişi bir seferde genellikle iki yumurta bırakıyor.",
+   "text_en": "Now we travel to Nosy Be, an island just off the northwest coast of Madagascar. In its rainforests lives a chameleon no more than 3.4 centimetres long, tail included: the minute leaf chameleon. Males are even smaller, at most 2.8 centimetres. For a long time it was considered the smallest chameleon, until an even smaller relative was described in 2021. Today it is the third-smallest lizard known. Tiny as it is, it is a true chameleon: it can rotate its eyes independently and has a prehensile tail. In good habitat its density can approach one animal per square metre. A typical clutch is just two eggs."
+  },
+  {
+   "type": "creature",
+   "depth": 4,
+   "name": "Etrüsk Sivri Faresi",
+   "name_en": "Etruscan shrew",
+   "latin": "Suncus etruscus",
+   "range": "4 cm",
+   "measure": "BAŞ-GÖVDE",
+   "text": "Etrüsk sivri faresi, ağırlık bakımından bilinen en küçük memeli. Ortalama bir virgül sekiz gram, yani aşağı yukarı bir ataş kadar. Kuyruğu hariç gövdesi yaklaşık dört santimetre. Bu minik bedenin içinde inanılmaz hızlı bir motor çalışıyor: kalbi dakikada bin beş yüz on bir kez, yani saniyede yirmi beş kez atabiliyor. Bu hızı sürdürmek için her gün kendi ağırlığının bir buçuk ila iki katı kadar besin yemek zorunda. Çoğunlukla böcekleri avlıyor ama kendisiyle aynı büyüklükteki hayvanlara bile saldırabiliyor. Avrupa ve Kuzey Afrika'dan Malezya'ya kadar uzanan geniş bir kuşakta yaşıyor ve sıcak, nemli yerleri seviyor.",
+   "text_en": "The Etruscan shrew is the smallest known mammal by weight. It averages 1.8 grams, roughly the weight of a paperclip. Its body is about 4 centimetres long without the tail. Inside this tiny body runs an incredibly fast engine: its heart can beat 1,511 times a minute, about 25 times a second. To keep that pace it has to eat one and a half to two times its own body weight every day. It mostly hunts insects, but it can even attack animals as large as itself. It lives in a broad belt stretching from Europe and North Africa to Malaysia and prefers warm, damp places."
+  },
+  {
+   "type": "zone",
+   "depth": 5,
+   "name": "AVUÇ İÇİ",
+   "name_en": "PALM-SIZED",
+   "range": "5 – 50 cm",
+   "range_en": "5 – 50 cm",
+   "text": "Artık santimetrelerle ölçüyoruz. Bu boyut sınıfındaki canlılar bir avuç içine ya da bir ayakkabı kutusuna sığıyor. Böcekler ve örümcekler burada en büyük boylarına ulaşıyor. Kuşlar, maymunlar ve antiloplar ise en küçük temsilcilerini bu aralıkta saklıyor. Bu boyda olmak hâlâ saklanmayı kolaylaştırıyor ama birçok avcı için de kolay bir lokma demek. Şeridi biraz daha çekiyoruz ve önce dünyanın en küçük kuşuna bakıyoruz.",
+   "text_en": "Now we measure in centimetres. Animals in this size class fit in the palm of a hand or a shoebox. Insects and spiders reach their greatest sizes here, while birds, monkeys and antelopes keep their smallest members in this range. Being this size still makes hiding easy, but it also means being an easy meal for many predators. We pull the tape a little further and first look at the world's smallest bird."
+  },
+  {
+   "type": "creature",
+   "depth": 6.1,
+   "name": "Arı Sinekkuşu",
+   "name_en": "Bee hummingbird",
+   "latin": "Mellisuga helenae",
+   "range": "5,5 – 6,1 cm",
+   "measure": "BOY",
+   "text": "Arı sinekkuşu yaşayan en küçük kuş. Erkekler ortalama beş virgül beş santimetre boyunda ve bir virgül doksan beş gram. Dişiler biraz daha büyük: altı virgül bir santimetre ve iki virgül altı gram. Yalnızca Küba adasında yaşıyor. Kanatlarını saniyede seksen ila iki yüz kez çırparak çiçeğin önünde havada asılı kalabiliyor ve saatte kırk sekiz kilometreye kadar hızla uçabiliyor. Bir günde bin beş yüz çiçeği ziyaret edebiliyor ve gün içinde ağırlığının yarısına varan miktarda besin tüketiyor. Dişi bir seferde yalnızca iki yumurta bırakıyor ve her biri bir kahve çekirdeği büyüklüğünde. Kuşların yaşayan dinozorlar olduğunu düşünürsek, bu minik kuş bilinen en küçük dinozor olarak da anılıyor.",
+   "text_en": "The bee hummingbird is the smallest living bird. Males average 5.5 centimetres and 1.95 grams. Females are slightly larger: 6.1 centimetres and 2.6 grams. It lives only on the island of Cuba. Beating its wings 80 to 200 times a second, it can hover in front of a flower, and it can fly at up to 48 kilometres per hour. It may visit 1,500 flowers in a single day and eats up to half its body weight in food. The female lays only two eggs at a time, each about the size of a coffee bean. Since birds are living dinosaurs, this tiny bird has also been called the smallest known dinosaur."
+  },
+  {
+   "type": "creature",
+   "depth": 6.5,
+   "name": "Vetapunga",
+   "name_en": "Wētāpunga",
+   "latin": "Deinacrida heteracantha",
+   "range": "6,5 cm",
+   "measure": "GÖVDE",
+   "text": "Yeni Zelanda'nın Hauturu, yani Küçük Bariyer Adası'nda tuhaf bir dev yaşıyor: Maori dilindeki adıyla vetapunga. Çekirgelerle aynı takımdan, kanatsız ve iri bir böcek. Yetişkin dişilerin gövdesi baştan karın ucuna ortalama altı virgül beş santimetre, ağırlıkları ise ortalama otuz iki gram. Ağaçlarda yaşıyor, geceleri ormanın yapraklarını yiyor ve arka bacaklarıyla güçlü bir tekme savurabiliyor. Bir zamanlar Kuzey Ada'nın daha sıcak bölgelerindeki ormanlarda da yaşıyordu ama on dokuzuncu yüzyılda oralardan yok oldu ve yalnızca bu adada hayatta kaldı. Bugün yırtıcı bulunmayan yedi adaya taşınarak yeniden çoğaltılıyor.",
+   "text_en": "On Hauturu, Little Barrier Island in New Zealand, lives a strange giant known by its Māori name: wētāpunga. It is a big, wingless insect in the same order as grasshoppers and crickets. Adult females average about 6.5 centimetres from head to tip of abdomen and weigh 32 grams on average. It lives in trees, feeds on forest leaves at night and can deliver a strong kick with its hind legs. It once lived in the warmer forests of the North Island as well, but disappeared there in the 19th century and survived only on this island. Today it is being restored by moving it to seven predator-free islands."
+  },
+  {
+   "type": "landmark",
+   "depth": 8.56,
+   "name": "Banka kartı",
+   "name_en": "Bank card",
+   "value": "8,56 cm",
+   "value_en": "8.56 cm",
+   "text": "Bir ölçek kıyası. Cüzdanınızdaki banka kartı uluslararası bir standarda göre seksen beş virgül altı milimetre uzunluğunda. Az önce tanıştığımız Jaragua cüce gekosu bu kartın üzerine uç uca dört kez sığardı.",
+   "text_en": "A scale comparison. The bank card in your wallet is 85.6 millimetres long according to an international standard. The Jaragua dwarf gecko we met earlier would fit along it four times, end to end."
+  },
+  {
+   "type": "creature",
+   "depth": 15.2,
+   "name": "Cüce Marmoset",
+   "name_en": "Pygmy marmoset",
+   "latin": "Cebuella pygmaea",
+   "range": "11,7 – 15,2 cm",
+   "measure": "BAŞ-GÖVDE",
+   "text": "Amazon havzasının batısındaki yağmur ormanlarına geldik. Burada dünyanın en küçük maymunu yaşıyor: cüce marmoset. Baş ve gövdesi on bir virgül yedi ile on beş virgül iki santimetre arasında, ağırlığı ise yüz gramın biraz üzerinde. Halkalı kuyruğu gövdesinden bile uzun, on yedi ile yirmi üç santimetre. Başını yüz seksen derece çevirebiliyor ve dallar arasında beş metreye kadar sıçrayabiliyor. Beslenmesi çok özel: keskin kesici dişleriyle ağaç kabuklarında delikler açıyor ve sızan zamkı diliyle yalıyor. İki ila dokuz bireylik aileler halinde yaşıyor. Dişi yılda iki kez ikiz doğuruyor ve yavrulara bütün grup birlikte bakıyor.",
+   "text_en": "We have reached the rainforests of the western Amazon Basin. Here lives the world's smallest monkey: the pygmy marmoset. Its head and body measure 11.7 to 15.2 centimetres, and it weighs just over 100 grams. Its ringed tail is even longer than its body, at 17 to 23 centimetres. It can turn its head 180 degrees and leap up to 5 metres between branches. Its diet is very special: it gouges holes in tree bark with its specialised incisors and laps up the gum that oozes out. It lives in family groups of two to nine. The female gives birth to twins twice a year, and the whole group shares in caring for the young."
+  },
+  {
+   "type": "creature",
+   "depth": 17.3,
+   "name": "Herkül Böceği",
+   "name_en": "Hercules beetle",
+   "latin": "Dynastes hercules",
+   "range": "17,3 cm",
+   "measure": "BOYNUZ DAHİL",
+   "text": "Herkül böceği dünyanın en uzun böceği. Erkekler boynuzlarıyla birlikte yüz yetmiş üç milimetreye ulaşabiliyor. Boynuzlar olmadan gövde beş ile sekiz buçuk santimetre arasında. Boynuz yalnızca erkeklerde var: biri başta, çok daha büyüğü ise göğüs kalkanında. Boynuzun boyu bireyden bireye çok değişiyor ve bu fark büyük ölçüde beslenmeye, strese, parazitlere ve sağlık durumuna bağlı. Adını gücüyle ünlü mitolojik kahraman Herkül'den alıyor. Güney Meksika'dan Orta ve Güney Amerika'nın tropik ormanlarına, oradan da Küçük Antiller'e kadar yaşıyor. Aynı zamanda dünyanın en büyük uçan böcekleri arasında sayılıyor.",
+   "text_en": "The Hercules beetle is the longest beetle in the world. Males can reach 173 millimetres including their horns. Without the horns, the body is between 5 and 8.5 centimetres long. Only males have horns: one on the head and a much larger one on the thorax. Horn size varies a great deal from beetle to beetle, depending largely on nutrition, stress, parasites and physical condition. It is named after Hercules, the hero of mythology famous for his strength. It lives from southern Mexico through the tropical forests of Central and South America to the Lesser Antilles. It is also one of the largest flying insects in the world."
+  },
+  {
+   "type": "landmark",
+   "depth": 22,
+   "name": "Futbol topu",
+   "name_en": "Football",
+   "value": "22 cm",
+   "value_en": "22 cm",
+   "text": "Bir ölçek kıyası daha. Resmi maçlarda kullanılan beş numara futbol topunun çapı yirmi bir virgül altı ile yirmi iki virgül üç santimetre arasında. Az önceki Herkül böceği, boynuzları dahil bu topun çapından biraz daha kısa kalıyor.",
+   "text_en": "Another scale comparison. A regulation size 5 football used in official matches is 21.6 to 22.3 centimetres in diameter. The Hercules beetle we just met, horns included, is a little shorter than the ball is wide."
+  },
+  {
+   "type": "creature",
+   "depth": 27,
+   "name": "Atlas Güvesi",
+   "name_en": "Atlas moth",
+   "latin": "Attacus atlas",
+   "range": "25 – 30 cm",
+   "measure": "KANAT AÇIKLIĞI",
+   "text": "Asya ormanlarında yaşayan atlas güvesi, kanat açıklığı genellikle yirmi beş ile otuz santimetre arasında olan, dünyanın en büyük kelebek ve güvelerinden biri. Kanat yüzeyi yaklaşık yüz altmış santimetrekare. Ön kanatlarının uçları bir yılan başına benziyor, hatta Kantonca adı yılan başlı güve anlamına geliyor. Ama bu devin şaşırtıcı bir sırrı var: yetişkin atlas güvesinin tam gelişmiş bir ağzı yok ve hiç beslenemiyor. Tırtılken biriktirdiği yağla yaşıyor ve en fazla bir iki hafta hayatta kalıyor. Bu kısa sürede tek amacı eş bulmak. Erkekler tüylü antenleriyle dişinin kokusunu kilometrelerce öteden algılayabiliyor.",
+   "text_en": "The Atlas moth of Asia's forests is one of the largest moths and butterflies in the world, with a wingspan usually between 25 and 30 centimetres. Its wing surface is about 160 square centimetres. The tips of its forewings resemble a snake's head; its Cantonese name even means snake's head moth. But this giant has a surprising secret: the adult Atlas moth has no fully formed mouthparts and cannot eat at all. It lives on fat stored as a caterpillar and survives only a week or two at most. In that short time its only goal is to find a mate. Males can detect a female's scent from several kilometres away with their feathery antennae."
+  },
+  {
+   "type": "creature",
+   "depth": 30,
+   "name": "Goliath Kuş Yiyen Örümceği",
+   "name_en": "Goliath birdeater",
+   "latin": "Theraphosa blondi",
+   "range": "30 cm",
+   "measure": "BACAK AÇIKLIĞI",
+   "text": "Güney Amerika'nın kuzeyindeki yağmur ormanlarında, kütlesi ve gövde uzunluğu bakımından dünyanın en büyük örümceği yaşıyor: Goliath kuş yiyen örümceği. Bacak açıklığı otuz santimetreye, gövdesi on üç santimetreye, ağırlığı yüz yetmiş beş grama ulaşabiliyor. Bacak açıklığında yalnızca dev avcı örümceği onu geçiyor. Adına rağmen kuşları çok nadiren avlıyor. Asıl besini büyük eklembacaklılar, solucanlar ve amfibiler. Tehdit edildiğinde kıllarını sürterek ses çıkarıyor ve deriyi tahriş eden kıllarını havaya salıyor. Zehri ise insanlar için görece zararsız, etkisi bir eşek arısı sokmasına benziyor. Dişiler on beş ile yirmi beş yıl yaşayabiliyor.",
+   "text_en": "In the rainforests of northern South America lives the largest spider in the world by mass and body length: the Goliath birdeater. Its legs can span 30 centimetres, its body can reach 13 centimetres and it can weigh 175 grams. Only the giant huntsman spider beats it in leg span. Despite its name, it very rarely preys on birds. Its main food is large arthropods, worms and amphibians. When threatened, it makes a sound by rubbing its bristles and releases hairs that irritate the skin. Its venom is relatively harmless to humans, comparable to a wasp sting. Females can live 15 to 25 years."
+  },
+  {
+   "type": "creature",
+   "depth": 45,
+   "name": "Kirk Dik-Diki",
+   "name_en": "Kirk's dik-dik",
+   "latin": "Madoqua kirkii",
+   "range": "35 – 45 cm",
+   "measure": "OMUZ YÜKSEKLİĞİ",
+   "text": "Doğu ve güneybatı Afrika'nın kurak savanlarında, omuz yüksekliği otuz beş ile kırk beş santimetre arasında olan minik bir antilop dolaşıyor: Kirk dik-diki. Ağırlığı üç virgül sekiz ile yedi virgül iki kilogram. Adını, tehlike anında kaçarken çıkardığı zik zik sesli alarm çağrısından alıyor. Bu küçük antilop su içmeden yaşayabiliyor. Suyunu yediği yapraklardan ve meyvelerden alıyor, burnundaki çiyi yalıyor. Uzun ve hareketli burnu bir soğutucu gibi çalışıyor: hızlı hızlı soludukça buradaki kan serinliyor ve vücuda geri dönüyor. Tehlikede zikzak çizerek saatte kırk iki kilometreye kadar koşabiliyor.",
+   "text_en": "On the dry savannas of eastern and southwestern Africa roams a tiny antelope standing 35 to 45 centimetres at the shoulder: Kirk's dik-dik. It weighs 3.8 to 7.2 kilograms. Its name comes from the zik-zik alarm call it gives as it flees danger. This little antelope can live without drinking. It gets its water from the leaves and fruit it eats and by licking dew from its nose. Its long, mobile snout works like a radiator: as it pants rapidly, the blood there cools before returning to the body. In danger they run in a zigzag at up to 42 kilometres per hour."
+  },
+  {
+   "type": "zone",
+   "depth": 50,
+   "name": "İNSAN BOYU",
+   "name_en": "HUMAN SIZE",
+   "range": "50 cm – 2 m",
+   "range_en": "50 cm – 2 m",
+   "text": "Şimdi bizim ölçeğimize, insan boyuna yaklaşıyoruz. Elli santimetreden iki metreye kadar uzanan bu aralıkta hayvanlar artık birçok avcıya kafa tutabiliyor. Büyüdükçe vücut ısısını korumak kolaylaşıyor, ama karşılığında çok daha fazla yiyecek gerekiyor. Bu bölümde karada yaşayan en büyük eklembacaklıyla, en büyük kemirgenle, tarih öncesinden kalmış gibi görünen bir kuşla, dev bir amfibiyle ve yaşayan en büyük primatla tanışacağız.",
+   "text_en": "Now we approach our own scale: human size. In this range, from 50 centimetres to 2 metres, animals can stand up to many predators. The bigger they get, the easier it is to keep warm, but in return they need far more food. In this section we meet the largest land arthropod, the largest rodent, a bird that looks prehistoric, a giant amphibian and the largest living primate.",
+   "music_switch": false
+  },
+  {
+   "type": "creature",
+   "depth": 90,
+   "name": "Hindistan Cevizi Yengeci",
+   "name_en": "Coconut crab",
+   "latin": "Birgus latro",
+   "range": "90 cm",
+   "measure": "BACAK AÇIKLIĞI",
+   "text": "Hint ve Pasifik okyanuslarındaki adalarda yaşayan Hindistan cevizi yengeci, karada yaşayan en büyük eklembacaklı. Ağırlığı dört virgül bir kilograma, bir bacağının ucundan diğerine uzaklık doksan santimetreye ulaşabiliyor. Aslında dev bir keşiş yengeci. Solungaçları körelmiş, havadan nefes alıyor ve bir saatten uzun suda kalırsa boğuluyor. On metrelik ağaçlara tırmanabiliyor ve en az dört buçuk metre yüksekten zarar görmeden düşebiliyor. Güçlü kıskaçlarıyla Hindistan cevizlerini açabiliyor. İki bin on altı yılında bir ağaca tırmanıp kırmızı ayaklı bir sümsük kuşunu yakalarken görüldü.",
+   "text_en": "Living on islands across the Indian and Pacific Oceans, the coconut crab is the largest land arthropod. It can weigh 4.1 kilograms and measure 90 centimetres from the tip of one leg to the other. It is actually a giant hermit crab. Its gills are vestigial, it breathes air, and it drowns if kept in water for more than an hour. It can climb trees 10 metres tall and survive a fall of at least 4.5 metres unhurt. With its powerful claws it can open coconuts. In 2016 one was seen climbing a tree to catch a red-footed booby."
+  },
+  {
+   "type": "creature",
+   "depth": 134,
+   "name": "Kapibara",
+   "name_en": "Capybara",
+   "latin": "Hydrochoerus hydrochaeris",
+   "range": "1,06 – 1,34 m",
+   "measure": "GÖVDE",
+   "text": "Güney Amerika'nın sulak alanlarında dünyanın en büyük kemirgeni yaşıyor: kapibara. Yetişkinlerin boyu yüz altı ile yüz otuz dört santimetre, omuz yüksekliği elli ile altmış iki santimetre ve ağırlıkları genellikle otuz beş ile altmış altı kilogram. Kayıtlı en ağır yabani birey doksan bir kilogramlık bir dişiydi. Kobaylarla akraba. Şili hariç bütün Güney Amerika ülkelerinde, nehir, göl ve bataklıkların yakınında yaşıyor. Usta bir yüzücü ve suyun altında beş dakikaya kadar nefesini tutabiliyor. Genellikle on ila yirmi bireylik gruplar halinde yaşıyor ama yüz bireylik sürüler de görülüyor. Adı yerli Tupi dilinde ince yaprak yiyen anlamına geliyor.",
+   "text_en": "In the wetlands of South America lives the largest rodent in the world: the capybara. Adults are 106 to 134 centimetres long, stand 50 to 62 centimetres at the shoulder and usually weigh 35 to 66 kilograms. The heaviest wild one on record was a 91-kilogram female. It is related to guinea pigs. It lives near rivers, lakes and swamps in every South American country except Chile. It is a superb swimmer and can hold its breath underwater for up to five minutes. It usually lives in groups of 10 to 20, but herds of 100 have been seen. Its name comes from the Tupi language and means one who eats slender leaves."
+  },
+  {
+   "type": "creature",
+   "depth": 152,
+   "name": "Pabuç Gagalı Leylek",
+   "name_en": "Shoebill",
+   "latin": "Balaeniceps rex",
+   "range": "1,1 – 1,52 m",
+   "measure": "BOY",
+   "text": "Güney Sudan'dan Zambiya'ya kadar Doğu Afrika'nın büyük bataklıklarında, tarih öncesinden kalmış gibi görünen bir kuş yaşıyor: pabuç gagalı leylek. Boyu genellikle yüz on ile yüz kırk santimetre, bazı bireyler yüz elli iki santimetreye ulaşıyor. Kanat açıklığı iki virgül üç ile iki virgül altı metre. Adını kocaman, ayakkabıya benzeyen gagasından alıyor. Adına rağmen genetik araştırmalar onu leyleklerden ayırıp pelikanlar ve balıkçıllarla aynı takıma koyuyor. Uzun süre kıpırdamadan durabildiği için heykel gibi diye tanımlanıyor. Sabırla, çok yavaş yürüyerek avlanıyor ve avını yalnızca gözüyle buluyor. Yavruları yiyecek isterken insan hıçkırığına çok benzeyen sesler çıkarıyor.",
+   "text_en": "In the great swamps of East Africa, from South Sudan to Zambia, lives a bird that looks like a leftover from prehistory: the shoebill. It usually stands 110 to 140 centimetres tall, and some individuals reach 152 centimetres. Its wingspan is 2.3 to 2.6 metres. It is named for its enormous shoe-shaped bill. Despite its other name, the whale-headed stork, genetic studies place it not with storks but in the same order as pelicans and herons. It can stand still for so long that it is described as statue-like. It hunts patiently, walking very slowly, and finds prey by sight alone. Its chicks beg for food with calls uncannily like human hiccups."
+  },
+  {
+   "type": "landmark",
+   "depth": 171,
+   "name": "Yetişkin bir insan",
+   "name_en": "An adult human",
+   "value": "1,71 m",
+   "value_en": "1.71 m",
+   "text": "Kendimizle kıyaslayalım. Bin dokuz yüz doksan altı doğumlu insanlar üzerine yapılan geniş bir araştırmaya göre dünyada yetişkin erkeklerin ortalama boyu yüz yetmiş bir virgül üç santimetre, kadınların ise yüz elli dokuz virgül beş. Bu noktadan sonra karşımıza çıkan her hayvan bizden daha büyük olacak.",
+   "text_en": "Let's compare ourselves. According to a large study of people born in 1996, the average adult man worldwide is 171.3 centimetres tall and the average woman 159.5. From here on, every animal we meet will be bigger than us.",
+   "chapter": true
+  },
+  {
+   "type": "creature",
+   "depth": 180,
+   "name": "Çin Dev Semenderi",
+   "name_en": "Chinese giant salamander",
+   "latin": "Andrias davidianus",
+   "range": "1,8 m",
+   "measure": "UZUNLUK",
+   "text": "Orta Çin'deki Yangtze havzasının kayalık dağ derelerinde dev bir amfibi yaşıyor: Çin dev semenderi. Ortalama bir yetişkin bir virgül üç metre ve yirmi beş otuz kilogram. En büyükleri bir virgül sekiz metreye ve elli kilogramın üzerine ulaşıyor. Uzun süre dünyanın en büyük amfibisi sayıldı. Yeni araştırmalara göre bu unvan, ayrı bir tür olduğu anlaşılan Güney Çin dev semenderine ait. Ailesinin geçmişi yüz yetmiş milyon yıl öncesine uzanıyor, bu yüzden yaşayan fosil olarak anılıyor. Çıkardığı bazı sesler ağlayan bir bebeğe o kadar benziyor ki Çincede bebek balık diye anılıyor. Ne yazık ki kritik tehlike altında ve yabani nüfusu bin dokuz yüz ellilerden bu yana yüzde sekseni aşkın azaldı.",
+   "text_en": "In the rocky mountain streams of the Yangtze basin in central China lives a giant amphibian: the Chinese giant salamander. An average adult is 1.3 metres long and weighs 25 to 30 kilograms. The largest reach 1.8 metres and more than 50 kilograms. For a long time it was considered the largest amphibian in the world; recent research gives that title to the South China giant salamander, now recognised as a separate species. Its family dates back 170 million years, which is why it is called a living fossil. Some of its calls sound so much like a crying child that in Chinese it is known as the infant fish. Sadly it is critically endangered, and its wild population has fallen by more than 80 percent since the 1950s."
+  },
+  {
+   "type": "creature",
+   "depth": 195,
+   "name": "Doğu Gorili",
+   "name_en": "Eastern gorilla",
+   "latin": "Gorilla beringei",
+   "range": "1,7 – 1,95 m",
+   "measure": "AYAKTA BOY",
+   "text": "Yaşayan en büyük primat doğu gorili. Yetişkin bir erkek ayağa kalktığında yaklaşık bir virgül yedi metre boyunda ve yüz kırk ile iki yüz beş kilogram arası geliyor. Bugüne kadar kaydedilen en uzun gümüş sırtlı bir virgül doksan beş metreydi. Erkekler yaşlandıkça sırtlarındaki tüyler beyazlaşıyor. Gümüş sırt adı buradan geliyor. Türün iki alt türü var: Kongo Demokratik Cumhuriyeti'nin doğusundaki ormanlarda yaşayan yaklaşık altı bin sekiz yüz doğu ova gorili ile Ruanda, Uganda ve Kongo'nun volkanik yamaçlarındaki yaklaşık bin dağ gorili. Geceleri bitkileri katlayarak kendine bir yuva yapıyor. Kaçak avcılık yüzünden kritik tehlike altında.",
+   "text_en": "The largest living primate is the eastern gorilla. A full-grown male stands about 1.7 metres upright and weighs 140 to 205 kilograms. The tallest silverback ever recorded measured 1.95 metres. As males age, the hair on their backs turns white, which is where the name silverback comes from. The species has two subspecies: about 6,800 eastern lowland gorillas in the forests of the eastern Democratic Republic of the Congo, and about 1,000 mountain gorillas on the volcanic slopes of Rwanda, Uganda and Congo. At night it builds a nest by folding over vegetation. Illegal hunting has made it critically endangered."
+  },
+  {
+   "type": "zone",
+   "depth": 200,
+   "name": "DEVLER",
+   "name_en": "GIANTS",
+   "range": "2 – 10 m",
+   "range_en": "2 – 10 m",
+   "text": "İnsan boyunu geride bıraktık. İki metreden on metreye kadar uzanan bu sınıfta yetişkin hayvanların doğal düşmanı çok az. Ama devlerin de bir bedeli var: her gün büyük miktarda yiyecek bulmak, yavrularını uzun süre büyütmek ve geniş alanlarda dolaşmak zorundalar. Bu bölümde karanın ve havanın rekortmenleriyle, denizin kıyısında yaşayan dev bir fokla ve dünyanın en uzun yılanıyla tanışacağız.",
+   "text_en": "We have left human size behind. In this class, from 2 to 10 metres, adult animals have very few natural enemies. But being a giant has a price: they must find huge amounts of food every day, raise their young for a long time and roam large areas. In this section we meet record holders of land and air, a giant seal of the shoreline and the longest snake in the world.",
+   "music_switch": true
+  },
+  {
+   "type": "creature",
+   "depth": 220,
+   "name": "Gaur",
+   "name_en": "Gaur",
+   "latin": "Bos gaurus",
+   "range": "1,42 – 2,2 m",
+   "measure": "OMUZ YÜKSEKLİĞİ",
+   "text": "Hindistan ve Güneydoğu Asya ormanlarının devi gaur, yabani sığırların ve boynuzlu hayvanlar ailesinin en büyük türü. Omuz yüksekliği bir virgül kırk iki ile iki virgül iki metre arasında, erkeklerde ortalama bir virgül seksen sekiz metre. Erkeklerin ağırlığı beş yüz seksen sekiz ile bin beş yüz kilogram arasında. Bu büyüklüğü sayesinde insan dışında pek az doğal düşmanı var. Yetişkin bir gauru öldürdüğü bildirilen yalnızca kaplanlar ve tuzlu su timsahları. Dünyadaki nüfusunun en fazla yirmi bir bin olgun birey olduğu tahmin ediliyor ve bunların çoğu Hindistan'da.",
+   "text_en": "The gaur, giant of the forests of India and Southeast Asia, is the largest species of wild cattle and of the whole bovid family. It stands 1.42 to 2.2 metres at the shoulder, averaging 1.88 metres in males. Males weigh between 588 and 1,500 kilograms. Thanks to its size it has few natural predators besides humans; only tigers and saltwater crocodiles have been reported to kill adults. The world population was estimated at no more than 21,000 mature individuals, most of them in India."
+  },
+  {
+   "type": "creature",
+   "depth": 233,
+   "name": "Sığın",
+   "name_en": "Moose",
+   "latin": "Alces alces",
+   "range": "2,33 m",
+   "measure": "OMUZ YÜKSEKLİĞİ",
+   "text": "Kuzey yarımkürenin soğuk ormanlarında dünyanın en uzun ve en ağır geyiği yaşıyor: sığın, diğer adıyla Kanada geyiği. Omuz yüksekliği genellikle bir virgül dört ile iki virgül bir metre. Doğrulanmış en büyük birey bin sekiz yüz doksan yedi yılında Yukon Nehri kıyısında kaydedildi: omzunda iki virgül otuz üç metre ve sekiz yüz yirmi kilogram. Erkeklerin el ayası gibi geniş boynuzları iki metreyi aşan bir genişliğe ulaşabiliyor. Kayıtlı en geniş boynuz iki virgül bir metre. Bu boynuzlar çiftleşme mevsiminden sonra dökülüyor ve ilkbaharda yeniden çıkıyor. Üç ila beş ayda tamamen geliştikleri için hayvanlar âleminin en hızlı büyüyen organları arasında sayılıyor.",
+   "text_en": "In the cold forests of the Northern Hemisphere lives the tallest and heaviest deer in the world: the moose. It usually stands 1.4 to 2.1 metres at the shoulder. The largest confirmed individual was recorded on the Yukon River in 1897: 2.33 metres at the shoulder and 820 kilograms. The broad, palm-shaped antlers of the bulls can spread more than 2 metres; the widest on record measured 2.1 metres. The antlers are shed after the mating season and regrow in spring. Because they develop fully in three to five months, they are among the fastest growing organs in the animal kingdom."
+  },
+  {
+   "type": "landmark",
+   "depth": 305,
+   "name": "Basketbol potası",
+   "name_en": "Basketball hoop",
+   "value": "3,05 m",
+   "value_en": "3.05 m",
+   "text": "Bir ölçek kıyası. Basketbolda potanın çemberi yerden tam üç virgül sıfır beş metre yükseklikte. Az önceki dev sığının omzu, çemberin yalnızca yetmiş santimetre kadar altında kalırdı.",
+   "text_en": "A scale comparison. In basketball, the rim of the hoop is exactly 3.05 metres above the floor. The shoulder of the giant moose we just met would be only about 70 centimetres below the rim."
+  },
+  {
+   "type": "creature",
+   "depth": 370,
+   "name": "Gezgin Albatros",
+   "name_en": "Wandering albatross",
+   "latin": "Diomedea exulans",
+   "range": "3,7 m",
+   "measure": "KANAT AÇIKLIĞI",
+   "text": "Güney Okyanusu'nda yaşayan gezgin albatros, yaşayan kuşlar arasında en geniş kanat açıklığına sahip. Kanatları ortalama üç metre civarında, en büyük bireylerde üç virgül yedi metreye ulaşıyor. Bu dev kanatlar sayesinde saatlerce tek bir kanat çırpmadan süzülebiliyor. Bazı bireylerin bir yıl içinde Güney Okyanusu'nu üç kez dolaşarak yüz yirmi bin kilometreden fazla yol katettiği biliniyor. Ömür boyu aynı eşle kalıyor ve iki yılda bir ürüyor. Güney Georgia, Crozet ve Kerguelen gibi ıssız adalarda tek bir yumurta bırakıyor. Yumurta yaklaşık on santimetre uzunluğunda.",
+   "text_en": "The wandering albatross of the Southern Ocean has the greatest wingspan of any living bird. Its wings average around 3 metres and reach 3.7 metres in the largest birds. Thanks to these huge wings it can stay aloft for hours without a single flap. Some individuals are known to circle the Southern Ocean three times in a year, covering more than 120,000 kilometres. It mates for life and breeds every other year. On remote islands such as South Georgia, Crozet and Kerguelen it lays a single egg, about 10 centimetres long."
+  },
+  {
+   "type": "creature",
+   "depth": 396,
+   "name": "Afrika Savan Fili",
+   "name_en": "African bush elephant",
+   "latin": "Loxodonta africana",
+   "range": "3,2 – 3,96 m",
+   "measure": "OMUZ YÜKSEKLİĞİ",
+   "text": "Karada yaşayan en büyük hayvan Afrika savan fili. Yetişkin erkeklerin omuz yüksekliği ortalama üç virgül iki metre, ağırlıkları ortalama altı ton. Kayıtlardaki en büyük birey omzunda üç virgül doksan altı metreye ulaşmış ve ağırlığı on virgül dört ton olarak tahmin edilmiş. Bir yetişkin her gün yaklaşık yüz elli kilogram bitki yiyor ve iki yüz otuz litre su içiyor. Kocaman kulakları ise bir klima gibi çalışıyor: kulaklarını salladıkça hava akımı oluşuyor ve iç yüzeydeki büyük damarlardaki kan soğuyor. Dişilerin gebelik süresi yaklaşık yirmi iki ay. Bu, memeliler arasındaki en uzun gebelik.",
+   "text_en": "The largest land animal is the African bush elephant. Adult bulls stand 3.2 metres at the shoulder and weigh 6 tonnes on average. The largest on record reached 3.96 metres at the shoulder, with an estimated weight of 10.4 tonnes. An adult eats about 150 kilograms of plants and drinks 230 litres of water every day. Its enormous ears work like air conditioning: flapping them creates air currents and cools the blood in the large vessels on their inner side. Females are pregnant for about 22 months, the longest gestation of any mammal."
+  },
+  {
+   "type": "creature",
+   "depth": 580,
+   "name": "Güney Fil Foku",
+   "name_en": "Southern elephant seal",
+   "latin": "Mirounga leonina",
+   "range": "4,6 – 5,8 m",
+   "measure": "UZUNLUK",
+   "text": "Güney Okyanusu'nun soğuk kıyılarında yüzgeçayaklıların ve etçillerin en büyüğü yaşıyor: güney fil foku. Yetişkin erkekler arka yüzgeçleriyle birlikte dört virgül altı ile beş virgül sekiz metre boyunda ve üç bin ile üç bin yedi yüz kilogram ağırlığında. Adını hem dev cüssesinden hem de erkeklerin fil hortumunu andıran iri burnundan alıyor. Mükemmel bir dalgıç: kalamar ve balık avlamak için her seferinde yirmi dakikadan uzun süren dalışlarla dört yüz ile bin metre derinliğe iniyor. Kaydedilen en derin dalışı iki bin üç yüz seksen sekiz metre. Üreme döneminde erkekler kıyıya dişilerden önce geliyor ve haremlerin kontrolü için sert kavgalara tutuşuyor.",
+   "text_en": "On the cold shores of the Southern Ocean lives the largest of all seals and of all carnivorans: the southern elephant seal. Adult bulls are 4.6 to 5.8 metres long including the rear flippers and weigh 3,000 to 3,700 kilograms. It is named for both its massive size and the bulls' large, trunk-like nose. It is a superb diver: to hunt squid and fish it dives again and again, each time for more than 20 minutes, to depths of 400 to 1,000 metres. Its deepest recorded dive reached 2,388 metres. In the breeding season the bulls arrive before the females and fight hard for control of harems."
+  },
+  {
+   "type": "creature",
+   "depth": 695,
+   "name": "Ağ Desenli Piton",
+   "name_en": "Reticulated python",
+   "latin": "Malayopython reticulatus",
+   "range": "6,95 m",
+   "measure": "UZUNLUK",
+   "text": "Güney ve Güneydoğu Asya'da yaşayan ağ desenli piton dünyanın en uzun yılanı. Bilimsel adı Latincede ağ gibi anlamına geliyor ve derisindeki karmaşık desene gönderme yapıyor. Bilimsel olarak ölçülen en büyüklerden biri Endonezya'nın Doğu Kalimantan bölgesinde yakalandı: tam altı virgül doksan beş metre. Bu yılan, boynunda takip tasması bulunan bir güneş ayısını yuttuktan sonra yakalanmış ve tasmayı bağırsaklarından çıkarmak için ameliyat edilmişti. Zehirsiz, avını sararak öldürüyor. Usta bir yüzücü. Denizin açıklarında bile görüldü ve birçok küçük adaya yayıldı. Dişiler bir seferde on beş ile seksen yumurta bırakıyor.",
+   "text_en": "The reticulated python of South and Southeast Asia is the longest snake in the world. Its scientific name means net-like in Latin, a reference to its complex pattern. One of the largest ever scientifically measured was caught in East Kalimantan, Indonesia: 6.95 metres. It had swallowed a sun bear wearing a radio collar, and was operated on to remove the collar from its intestines. It is not venomous; it kills by constriction. It is an excellent swimmer, has been reported far out at sea and has colonised many small islands. Females lay 15 to 80 eggs per clutch."
+  },
+  {
+   "type": "landmark",
+   "depth": 732,
+   "name": "Futbol kalesi",
+   "name_en": "Football goal",
+   "value": "7,32 m",
+   "value_en": "7.32 m",
+   "text": "Bir ölçek kıyası. Futbolda kale direklerinin iç kenarları arasındaki mesafe yedi virgül otuz iki metre. Az önceki dev piton bir direkten diğerine uzansa, karşı direğe ulaşmasına yalnızca otuz yedi santimetre kalırdı.",
+   "text_en": "A scale comparison. In football, the inner edges of the goalposts are 7.32 metres apart. If the giant python stretched from one post towards the other, it would fall just 37 centimetres short."
+  },
+  {
+   "type": "zone",
+   "depth": 1000,
+   "name": "TİTANLAR",
+   "name_en": "TITANS",
+   "range": "10 – 30 m",
+   "range_en": "10 – 30 m",
+   "text": "Son boyut sınıfına geldik: titanlar. On metrenin üzerindeki bu devlerin tamamı denizde yaşıyor. Su, bu dev bedenleri taşıyor ve karada mümkün olmayan boyutlara ulaşmalarına izin veriyor. İşin şaşırtıcı yanı şu: bu devlerin hepsi okyanusun minik canlılarıyla, planktonla, krille ve küçük balıklarla besleniyor. Şimdi dünyanın en büyük ikinci balığıyla ve üç dev balinayla tanışacağız.",
+   "text_en": "We have reached the final size class: the titans. Every one of these giants over 10 metres long lives in the sea. Water supports their huge bodies and lets them reach sizes impossible on land. The surprising part is this: all of them feed on the ocean's tiny creatures, on plankton, krill and small fish. Now we meet the second-largest fish in the world and three giant whales."
+  },
+  {
+   "type": "creature",
+   "depth": 1000,
+   "name": "Büyük Camgöz Köpekbalığı",
+   "name_en": "Basking shark",
+   "latin": "Cetorhinus maximus",
+   "range": "7,9 – 10 m",
+   "measure": "UZUNLUK",
+   "text": "Büyük camgöz köpekbalığı, balina köpekbalığından sonra yaşayan en büyük ikinci köpekbalığı ve balık. Erişkinler ortalama yedi virgül dokuz metre ve dört virgül altmış beş ton. Büyük bireyler on metreyi aşabiliyor. Kayıtlardaki en büyük örnek bin sekiz yüz elli bir yılında Kanada'daki Fundy Körfezi'nde bir ringa ağına takılan on iki virgül yirmi yedi metrelik bir bireydi. Bu dev, ağzı bir metreye kadar açılan sakin bir süzücü. Yüzeye yakın yavaşça yüzerek ağzından geçen sudaki planktonu solungaçlarındaki tarakçıklarla süzüyor. Karaciğeri vücut ağırlığının dörtte birine ulaşabiliyor ve suda dengede durmasına yardım ettiği düşünülüyor.",
+   "text_en": "The basking shark is the second-largest living shark and fish, after the whale shark. Adults average 7.9 metres and 4.65 tonnes, and large individuals can exceed 10 metres. The largest on record was a 12.27-metre shark trapped in a herring net in the Bay of Fundy, Canada, in 1851. This giant is a calm filter feeder with a mouth up to 1 metre wide. Swimming slowly near the surface, it strains plankton from the water passing through its mouth using its gill rakers. Its liver can account for a quarter of its body weight and is thought to help it regulate buoyancy."
+  },
+  {
+   "type": "creature",
+   "depth": 1700,
+   "name": "Kambur Balina",
+   "name_en": "Humpback whale",
+   "latin": "Megaptera novaeangliae",
+   "range": "14 – 17 m",
+   "measure": "UZUNLUK",
+   "text": "Kambur balina okyanusların akrobatı. Yetişkinler on dört ile on yedi metre boyunda ve kırk tona kadar ağırlıkta. Yüzgeçleri vücudunun yaklaşık üçte biri uzunluğunda. Bu uzun yüzgeçler sayesinde kuyruğundan bağımsız olarak her yöne dönebiliyor. Dev gövdesine rağmen sudan sıçrayabiliyor, kuyruğunu ve yüzgeçlerini suya vurabiliyor. Erkekler dört ile otuz üç dakika süren karmaşık şarkılar söylüyor. Kril ve küçük balıkları avlamak için baloncuk ağı denen bir yöntem kullanıyor: bir grup balina küçülen bir daire çizerek yüzüyor, soluk deliklerinden hava üfleyerek kabarcıklardan bir perde örüyor ve avını ortada topluyor. Kambur balinalar beslenmek için kutuplara yakın sulara, üremek için ekvatora yakın sulara göç ediyor.",
+   "text_en": "The humpback whale is the acrobat of the oceans. Adults are 14 to 17 metres long and weigh up to 40 tonnes. Its flippers are about one third of its body length, and these long flippers let it turn in any direction independently of its tail. Despite its huge body it can breach out of the water and slap the surface with its tail and flippers. Males sing complex songs lasting 4 to 33 minutes. To catch krill and small fish it uses a method called bubble-net feeding: a group swims in a shrinking circle, blowing air from their blowholes to weave a curtain of bubbles that traps the prey in the middle. Humpbacks migrate to feeding areas near the poles and breeding areas near the equator."
+  },
+  {
+   "type": "landmark",
+   "depth": 2377,
+   "name": "Tenis kortu",
+   "name_en": "Tennis court",
+   "value": "23,77 m",
+   "value_en": "23.77 m",
+   "text": "Bir ölçek kıyası. Uluslararası Tenis Federasyonu kurallarına göre bir tenis kortu yirmi üç virgül yetmiş yedi metre uzunluğunda. Kambur balina bu kortun yaklaşık dörtte üçünü kaplardı. Sıradaki dev ise kortu boydan boya aşacak.",
+   "text_en": "A scale comparison. Under International Tennis Federation rules, a tennis court is 23.77 metres long. A humpback whale would cover about three quarters of it. The next giant will stretch beyond it from end to end."
+  },
+  {
+   "type": "creature",
+   "depth": 2730,
+   "name": "Fin Balinası",
+   "name_en": "Fin whale",
+   "latin": "Balaenoptera physalus",
+   "range": "27,3 m",
+   "measure": "UZUNLUK",
+   "text": "Fin balinası, mavi balinadan sonra yaşayan en uzun ikinci balina. Kayıtlardaki en büyük birey yirmi altı ile yirmi yedi virgül üç metre arasında ölçüldü. İnce ve uzun gövdesi onu en hızlı balinalardan biri yapıyor. Saatte otuz yedi ile kırk bir kilometre hızı uzun süre koruyabiliyor. Bu yüzden denizlerin tazısı lakabıyla anılıyor. Başının iki yanı farklı renkte: sol yanı koyu gri, sağ alt çenesi ise beyaz ya da açık gri. İki soluk deliğinden fışkırttığı hava ve su dört ile altı metre yükseğe çıkabiliyor. Bilinen tek doğal düşmanı orkalar, ama yetişkin bir fin balinasını öldürdükleri çok az doğrulanmış vaka var.",
+   "text_en": "The fin whale is the second-longest whale alive, after the blue whale. The biggest individual on record measured between 26 and 27.3 metres. Its long, slender body makes it one of the fastest whales; it can sustain speeds of 37 to 41 kilometres per hour, which earned it the nickname greyhound of the sea. The two sides of its head are coloured differently: the left side is dark grey, while the right lower jaw is white or light grey. The spray from its two blowholes can rise 4 to 6 metres into the air. Its only known predator is the killer whale, but only a few kills of fin whales have been confirmed."
+  },
+  {
+   "type": "landmark",
+   "depth": 2800,
+   "name": "Basketbol sahası",
+   "name_en": "Basketball court",
+   "value": "28 m",
+   "value_en": "28 m",
+   "text": "Son ölçek kıyasımız. Uluslararası Basketbol Federasyonu kurallarına göre bir basketbol sahası yirmi sekiz metre uzunluğunda. Şimdi tanışacağımız hayvan bu sahayı bir uçtan diğer uca kaplayıp yine de dışarı taşacak kadar büyük.",
+   "text_en": "Our last scale comparison. Under FIBA rules, a basketball court is 28 metres long. The animal we are about to meet is big enough to cover it from end to end and still stick out."
+  },
+  {
+   "type": "creature",
+   "depth": 2990,
+   "name": "Mavi Balina",
+   "name_en": "Blue whale",
+   "latin": "Balaenoptera musculus",
+   "range": "29,9 m",
+   "measure": "UZUNLUK",
+   "chapter": true,
+   "text": "Ve yolculuğumuzun sonu: mavi balina. Bilinen en büyük hayvan. Yalnızca bugünün değil, bildiğimiz kadarıyla yeryüzünde yaşamış bütün hayvanların en büyüğü. Bilimsel olarak ölçülen en uzun birey Panama Kanalı'nda yakalanmıştı ve burnundan kuyruğunun ucuna yirmi dokuz virgül dokuz metre geliyordu. Ağırlığı yüz doksan ile iki yüz tona ulaşabiliyor. Kuzey Atlantik'te karaya vuran bir mavi balinanın kalbi yüz seksen kilogram geldi ve bu, bilinen en büyük kalp. Bu dev neredeyse yalnızca krille besleniyor: ağzını seksen dereceye kadar açarak kril sürülerinin içine hızla dalıyor. Çıkardığı sesler hayvanlar âleminin en yüksek ve en pes sesleri arasında ve yüz seksen sekiz desibele kadar ulaşıyor.",
+   "text_en": "And the end of our journey: the blue whale. The largest animal known. Not only the largest today, but as far as we know the largest animal that has ever lived on Earth. The longest one ever scientifically measured was caught in the Panama Canal and measured 29.9 metres from snout to tail. It can weigh 190 to 200 tonnes. The heart of a blue whale stranded in the North Atlantic weighed 180 kilograms, the largest known in any animal. This giant feeds almost exclusively on krill, lunging into swarms with its mouth opened up to 80 degrees. Its calls are among the loudest and lowest in the animal kingdom, reaching 188 decibels."
+  },
+  {
+   "type": "outro",
+   "depth": 2990,
+   "text": "On sekiz milimetrelik bir kertenkeleden yirmi dokuz virgül dokuz metrelik bir balinaya ulaştık. Şeridin iki ucu arasında bin altı yüz kattan fazla fark var. Yolda bir ataş ağırlığındaki fareyi, hiç yemek yiyemeyen dev bir güveyi, ağlayan bir bebek gibi ses çıkaran bir semenderi ve kalbi yüz seksen kilogram gelen bir devi gördük. Belki de en şaşırtıcısı şu: bu sıralamanın en büyük hayvanı, okyanusun minik kabuklularıyla, krille besleniyor. Doğada büyük olmak her zaman güçlü olmak, küçük olmak da her zaman zayıf olmak demek değil. Bu yolculuğu beğendiyseniz kanala abone olmayı ve videoyu beğenmeyi unutmayın. Bir sonraki belgeselde görüşmek üzere.",
+   "text_en": "From an 18-millimetre lizard we have reached a 29.9-metre whale. There is a difference of more than 1,600 times between the two ends of the tape. Along the way we saw a shrew as light as a paperclip, a giant moth that can never eat, a salamander that sounds like a crying baby and a giant whose heart weighs 180 kilograms. Perhaps the most surprising thing is this: the largest animal in this ranking feeds on tiny crustaceans of the ocean, on krill. In nature, being big does not always mean being strong, and being small does not always mean being weak. If you enjoyed this journey, don't forget to subscribe to the channel and like the video. See you in the next documentary."
+  }
+ ]
+}

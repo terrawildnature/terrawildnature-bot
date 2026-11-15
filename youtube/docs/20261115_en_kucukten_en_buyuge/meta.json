@@ -1,0 +1,15 @@
+{
+ "title": "Dünyanın En Küçük ve En Büyük Hayvanları Yan Yana",
+ "description": "Bir parmak ucuna sığan Jaragua cüce gekosundan yirmi dokuz virgül dokuz metrelik mavi balinaya kadar yirmi beş hayvanı boylarına göre sıralıyoruz. Bir ataş ağırlığındaki Etrüsk sivri faresi, dünyanın en küçük kuşu arı sinekkuşu, ağzı olmadığı için hiç yemek yiyemeyen atlas güvesi, ağaca tırmanıp kuş avlayan Hindistan cevizi yengeci, ağlayan bebek gibi ses çıkaran Çin dev semenderi, dünyanın en uzun yılanı ağ desenli piton ve bilinen en büyük hayvan mavi balina bu belgeselde. Ekrandaki şerit metre ve insan kıyası paneliyle her hayvanın boyunu banka kartı, futbol topu, basketbol potası ve tenis kortuyla karşılaştırıyoruz.",
+ "sources": "İngilizce Wikipedia (tür sayfaları, Human height by country, ISO/IEC 7810, Ball (association football), Football pitch, Tennis court, Basketball court), IUCN Kırmızı Liste ve ilgili bilimsel yayınlar.",
+ "hashtags": ["#belgesel", "#hayvanlar", "#enbüyükhayvanlar", "#vahşiyaşam", "#terrawildnature"],
+ "tags": ["belgesel", "hayvan belgeseli", "en küçük hayvan", "en büyük hayvan", "dünyanın en büyük hayvanları", "dünyanın en küçük hayvanları", "mavi balina", "hayvanların boyu", "en küçük kuş", "en uzun yılan", "hindistan cevizi yengeci", "vahşi yaşam", "türkçe belgesel", "doğa belgeseli"],
+ "thumb": {"lines": ["29,9 METRE", "BOYUNDA", "KİM VAR?"], "photo": "37_0", "cx": 0.5, "cy": 0.5, "zoom": 1.0, "bar_labels": ["18 MM", "29,9 M"]},
+ "teaser": {"seg": 16, "title": "Ağaca Tırmanıp Kuş Avlayan Dev Yengeç"},
+ "story": {"lines": ["KÜÇÜKTEN", "BÜYÜĞE"], "info": "18 mm → 29,9 m · 5 boyut sınıfı · 25 canlı"},
+ "en": {
+  "title": "The Smallest and Largest Animals on Earth, Side by Side",
+  "description": "From the Jaragua dwarf gecko that fits on a fingertip to the 29.9-metre blue whale, we rank 25 animals by size. Meet the Etruscan shrew that weighs as much as a paperclip, the bee hummingbird, the Atlas moth that cannot eat, the coconut crab that climbs trees to catch birds, the Chinese giant salamander that cries like a baby, the reticulated python and the largest animal ever known. An on-screen tape measure and a human comparison panel set every animal against a bank card, a football, a basketball hoop and a tennis court.",
+  "sources": "English Wikipedia (species pages, Human height by country, ISO/IEC 7810, Ball (association football), Football pitch, Tennis court, Basketball court), the IUCN Red List and related scientific publications."
+ }
+}
