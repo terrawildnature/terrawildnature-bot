@@ -1,0 +1,164 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Heroic_Age.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/553203747/original.jpg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/339188708/original.jpg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/595534010/original.jpg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/3172372/original.jpg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/578439662/original.jpg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/571337943/original.jpg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/605968638/original.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu süslü kuşun derisi zehirli olabilir.",
+   "image": "p1.jpg",
+   "cx": 0.4,
+   "cy": 0.25,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Küçük cennet kuşu en fazla otuz iki santimetre uzunluğunda.",
+   "image": "p2.jpg",
+   "cx": 0.45,
+   "cy": 0.4,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Erkeğin boğazı zümrüt yeşili, böğründeki süs tüyleri dipte sarı, uçlara doğru beyaz.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Erkekler birden fazla dişiyle çiftleşiyor ve toplu gösteri alanlarında kur yapıyor.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Dişi, ağaçların yüksek dallarına yuva yapıp genellikle iki yumurta bırakıyor.",
+   "image": "p5.jpg",
+   "cx": 0.45,
+   "cy": 0.35,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kuzey Yeni Gine ormanlarında, Misool ve Yapen adalarında yaşıyor.",
+   "image": "p6.jpg",
+   "cx": 0.45,
+   "cy": 0.4,
+   "motion": "zoom_out"
+  },
+  {
+   "text": "Meyve ve böceklerle besleniyor; zehir muhtemelen böceklerden geliyor.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p1.jpg",
+   "cx": 0.4,
+   "cy": 0.25,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.4,
+  "cy": 0.25,
+  "title": [
+   [
+    [
+     "DERİSİ",
+     "R"
+    ]
+   ],
+   [
+    [
+     "ZEHİRLİ",
+     "W"
+    ]
+   ],
+   [
+    [
+     "OLABİLEN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "CENNET KUŞU",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "kuş",
+ "hook_style": "gizem",
+ "yt_title": "Derisi Zehirli Olabilen Küçük Cennet Kuşu",
+ "en": {
+  "title": "The Bird-of-Paradise With Possibly Toxic Skin",
+  "description": "The lesser bird-of-paradise of New Guinea is thought to carry toxins in its skin, likely derived from the insects it eats."
+ },
+ "caption": "Küçük cennet kuşunun derisinde, böceklerden gelen zehir bulunabileceği düşünülüyor. 🦜🌿\n\n#terrawildnature #küçükcennetkuşu\n\n📷 Sandra Keller (CC BY), Norma Malinowski (CC BY), Nigel Voaden (CC BY), Кирилл (CC BY) / iNaturalist\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "author": "Sandra Keller",
+   "license": "CC BY",
+   "source": "iNaturalist",
+   "public_domain": false
+  },
+  {
+   "author": "Jean-Paul Boerekamps",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "Norma Malinowski",
+   "license": "CC BY",
+   "source": "iNaturalist",
+   "public_domain": false
+  },
+  {
+   "author": "Nigel Voaden",
+   "license": "CC BY",
+   "source": "iNaturalist",
+   "public_domain": false
+  },
+  {
+   "author": "Кирилл",
+   "license": "CC BY",
+   "source": "iNaturalist",
+   "public_domain": false
+  },
+  {
+   "author": "themaskedlapwing",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "Massimo D Eusebio",
+   "license": "CC0",
+   "source": "iNaturalist",
+   "public_domain": true
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
