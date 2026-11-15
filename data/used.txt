@@ -372,3 +372,4 @@ dev murena | Gymnothorax javanicus
 küçük cennet kuşu (Reels) | Paradisaea minor
 Bengal yavaş lorisi | Nycticebus bengalensis
 pirozom (deniz turşusu) | Pyrosoma atlanticum
+sincap maymunu (Reels) | Saimiri sciureus
