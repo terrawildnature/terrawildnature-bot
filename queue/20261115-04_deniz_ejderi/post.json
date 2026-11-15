@@ -1,0 +1,87 @@
+{
+  "name": "yapraklı deniz ejderi",
+  "group": "balık",
+  "hook_style": "tuhaf görünüm",
+  "title": [
+    [
+      [
+        "BU BALIK",
+        "W"
+      ]
+    ],
+    [
+      [
+        "DENİZ YOSUNU",
+        "R"
+      ]
+    ],
+    [
+      [
+        "GİBİ GÖRÜNÜYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "YAPRAKLI DENİZ EJDERİ",
+  "card_top": [
+    "Vücudunda yosun yapraklarına",
+    "benzeyen uzantılar taşıyan bir balık."
+  ],
+  "card_bottom": [
+    "Deniz atı akrabasıdır. Dişi",
+    "120 kadar yumurtayı erkeğin",
+    "kuyruğuna bırakır; bir ay taşır."
+  ],
+  "right": [
+    "Avustralya'nın güney sularında",
+    "kelp ve yosun yataklarında yaşar.",
+    "Dişsiz ağzıyla minik kabukluları",
+    "emerek beslenir. Yaklaşık altı",
+    "yıl yaşayabilir."
+  ],
+  "loc": "Güney Avustralya",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.38,
+      "cy": 0.5,
+      "zoom": 1.0
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.55,
+      "cy": 0.4,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.3,
+      "cy": 0.5,
+      "zoom": 2.0
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Weedy-Sea-Dragon-Sydney.jpg",
+      "author": "Tim Sheerman-Chase",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "iNaturalist 623404453",
+      "author": "Matthew Collette",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "File:Weedy-Sea-Dragon-Sydney.jpg",
+      "author": "Tim Sheerman-Chase",
+      "license": "Public domain",
+      "public_domain": true
+    }
+  ],
+  "caption": "Avustralya'nın yapraklı deniz ejderi, yosun gibi görünen uzantıları sayesinde kelp ormanlarında kaybolurken yumurtaları dişi değil erkek taşıyor. 🐉🌿\n\n#terrawildnature #ilginçbilgiler #denizejderi"
+}
