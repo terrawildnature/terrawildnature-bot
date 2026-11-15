@@ -1,0 +1,41 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {"file": "assets/music/Prelude_and_Action.mp3", "start": 0, "loudness": -27},
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/466653864/original.jpeg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/653137222/original.jpg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/466653995/original.jpeg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/722110661/original.jpg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/301506757/original.jpg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/724412085/original.jpg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/301507061/original.jpg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/724412091/original.jpg"
+ },
+ "segments": [
+  {"text": "Bu kuş avını gagasıyla kapıp defalarca yere çarparak öldürüyor.", "image": "p1.jpg", "cx": 0.5, "cy": 0.35, "motion": "pan_right"},
+  {"text": "Adı kızıl bacaklı seriema.", "image": "p5.jpg", "cx": 0.58, "cy": 0.25, "motion": "zoom_in"},
+  {"text": "Boyu yaklaşık yetmiş beş ile doksan santimetreyi buluyor.", "image": "p2.jpg", "cx": 0.45, "cy": 0.35, "motion": "pan_left"},
+  {"text": "Çok uzun, somon renkli bacakları ve kızıl bir gagası var.", "image": "p3.jpg", "cx": 0.5, "cy": 0.5, "motion": "pan_right"},
+  {"text": "Güney Amerika'nın otlaklarında yaşıyor ve insandan hızlı koşabiliyor.", "image": "p4.jpg", "cx": 0.45, "cy": 0.4, "motion": "pan_left"},
+  {"text": "Şarkısı kilometrelerce öteden duyulabiliyor.", "image": "p6.jpg", "cx": 0.56, "cy": 0.45, "motion": "zoom_in"},
+  {"text": "Tavuk çiftliklerinde sürüyü korumak için bekçi olarak kullanılıyor.", "image": "p7.jpg", "cx": 0.5, "cy": 0.4, "motion": "zoom_out"},
+  {"text": "Yuvasını yere değil, alçak ağaç ve çalılara kuruyor.", "image": "p8.jpg", "cx": 0.5, "cy": 0.4, "motion": "zoom_in"},
+  {"text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.", "image": "p1.jpg", "cx": 0.5, "cy": 0.35, "motion": "pan_left"}
+ ],
+ "cover": {
+  "image": "p5.jpg", "cx": 0.58, "cy": 0.3,
+  "title": [[["AVINI YERE","R"]],[["ÇARPIP","W"]],[["ÖLDÜREN","W"]],[["KUŞ","R"]]]
+ },
+ "group": "kuş",
+ "hook_style": "tuhaf yetenek",
+ "yt_title": "Avını Yere Çarpıp Öldüren Kuş: Kızıl Bacaklı Seriema",
+ "en": {"title": "The Bird That Slams Its Prey Into the Ground", "description": "The red-legged seriema grabs prey in its beak and beats it against the ground, runs faster than a human and sings a song that carries for kilometres."},
+ "caption": "Kızıl bacaklı seriema avını gagasıyla kapıp defalarca yere çarparak öldürüyor ve şarkısı kilometrelerce öteden duyulabiliyor. 🐦🌾\n\n#terrawildnature #seriema\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {"author": "Frank Thomas Sautter", "license": "CC0", "source": "iNaturalist", "public_domain": true},
+  {"author": "Hugo Hulsberg", "license": "CC0", "source": "iNaturalist", "public_domain": true},
+  {"author": "filipeprates", "license": "CC0", "source": "iNaturalist", "public_domain": true},
+  {"author": "Kevin MacLeod", "license": "CC BY", "use": "music"}
+ ]
+}
