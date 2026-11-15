@@ -253,3 +253,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: yeni bulgu işlenmedi; kuyruklar dolu olduğu için içerik üretilmedi.
 - Bugün uygulanan: Gönderi kuyruğu 15/15, Reels kuyruğu 9/9 (zz_ quokka dahil); queue_failed/queue_reels_failed yok; üretim yapılmadı.
 - Sonra kontrol et: bongo, ekidna ve dev orman domuzu Reels skorları; çene balığı, murena ve kirpi balığı gönderi içerik değerleri.
+
+## 2026-11-15 (öğle çalıştırması)
+- Rapordan öğrenilen: gönderide memeli (2,34), tuhaf görünüm (2,27), sayı (2,08) güçlü; Reels'te memeli (1,52) ve kuş (1,30), sayı/tuhaf yetenek güçlü.
+- Bugün uygulanan: Reels 8→9: küçük cennet kuşu (kuş, gizem; Heroic_Age ilk kez, 76 kelime, iNaturalist; fotoğraflar yapraklı dallar arasında, kapak biraz çam dalıyla örtülü). Gönderi 14→15: Bengal yavaş lorisi (memeli, tehlike; CC0). Solenodon iNat fotoğrafı ölü hayvandı, elendi; lir kuşu zaten Reels'te kullanılmıştı (used.txt'te "Menura" ayrı satır).
+- Sonra kontrol et: cennet kuşu Reels'inde kuş + gizem skoru; loris gönderisinin içerik değeri (memeli ama tehlike kancası). iNat tek-fotoğraflı nadir türlerde indirmeden önce ölü hayvan olup olmadığına bak.

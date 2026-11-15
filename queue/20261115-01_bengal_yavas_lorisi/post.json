@@ -1,0 +1,26 @@
+{
+ "name": "bengal yavaş lorisi",
+ "group": "memeli",
+ "hook_style": "tehlike",
+ "title": [
+  [["BU SEVİMLİ", "W"]],
+  [["HAYVANIN", "W"], ["KOLUNDA", "R"]],
+  [["ZEHİR VAR", "R"]]
+ ],
+ "card_title": "BENGAL YAVAŞ LORİSİ",
+ "card_top": ["En büyük yavaş loris türü;", "1-2,1 kg ağırlığa ulaşır."],
+ "card_bottom": ["Kolundaki bezden zehirli bir", "madde salgılar. Bu madde cinsiyet", "ve sosyal durumu da anlatabilir."],
+ "right": ["Hindistan'dan Çin'e uzanan", "geniş bir alanda yaşar.", "Gece aktiftir, ağaçta yaşar.", "Meyve, böcek ve ağaç zamkı yer.", "Nesli tükenme tehlikesinde."],
+ "loc": "Güneydoğu Asya",
+ "photos": {
+  "cover": {"file": "photo_cover.jpg", "cx": 0.4, "cy": 0.42, "zoom": 1.2},
+  "top": {"file": "photo_top.jpg", "cx": 0.55, "cy": 0.3, "zoom": 1.5},
+  "inner": {"file": "photo_inner.jpg", "cx": 0.4, "cy": 0.5, "zoom": 2.2}
+ },
+ "credits": [
+  {"use": "cover", "author": "Lihai Song", "license": "CC0", "source": "iNaturalist", "public_domain": true},
+  {"use": "top", "author": "James Eaton", "license": "CC0", "source": "iNaturalist", "public_domain": true},
+  {"use": "inner", "author": "Lihai Song", "license": "CC0", "source": "iNaturalist", "public_domain": true}
+ ],
+ "caption": "Güneydoğu Asya ormanlarının sevimli görünen Bengal yavaş lorisi, kolundaki bezden zehirli bir madde salgılıyor ve türü tükenme tehlikesiyle karşı karşıya. 🌙🐒\n\n#terrawildnature #ilginçbilgiler #yavaşloris"
+}

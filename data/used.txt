@@ -370,3 +370,4 @@ dev orman domuzu (Reels) | Hylochoerus meinertzhageni
 sarı başlı çene balığı | Opistognathus aurifrons
 dev murena | Gymnothorax javanicus
 küçük cennet kuşu (Reels) | Paradisaea minor
+Bengal yavaş lorisi | Nycticebus bengalensis
