@@ -1,0 +1,26 @@
+{
+  "name": "lumpfish",
+  "group": "balık",
+  "hook_style": "tuhaf görünüm",
+  "title": [
+    [["BU BALIĞIN", "W"]],
+    [["KARNI BİR", "W"], ["EMME", "R"]],
+    [["DİSKİ", "R"]]
+  ],
+  "card_title": "LUMPFISH",
+  "card_top": ["Karnındaki yüzgeçleri emme", "diski gibi kayalara yapışır."],
+  "card_bottom": ["Gövdesi top gibi, sırtı tümsekli.", "Dişisi 50 cm ve 5 kg'a ulaşır;", "derisinin altı jöle gibi yağlı."],
+  "right": ["Kuzey Atlantik'in soğuk", "sularında yaşar.", "Yavruları ışık tutulunca yeşil", "renkte flüoresan parlar.", "Bir günde 300 m'ye dalabilir."],
+  "loc": "Kuzey Atlantik",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.55, "cy": 0.45, "zoom": 1.0},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.5, "cy": 0.45, "zoom": 1.2},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.58, "cy": 0.62, "zoom": 2.0}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Cyclopterus lumpus in Tokyo Sea Life Park.jpg", "author": "Kinori", "license": "CC0", "public_domain": true},
+    {"use": "top", "title": "iNaturalist 25811770", "author": "sorenw", "license": "CC0", "public_domain": true},
+    {"use": "inner", "title": "File:Cyclopterus lumpus in Tokyo Sea Life Park.jpg", "author": "Kinori", "license": "CC0", "public_domain": true}
+  ],
+  "caption": "Kuzey Atlantik'in top gibi yuvarlak lumpfish balığı, karnındaki yüzgeçlerle oluşan emme diski sayesinde kayalara sımsıkı yapışıyor. 🐟🪨\n\n#terrawildnature #ilginçbilgiler #lumpfish"
+}

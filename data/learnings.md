@@ -263,3 +263,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli (2,34), tuhaf görünüm (2,27), sayı (2,08), balık (2,12) güçlü; Reels'te memeli (1,52) ve kuş (1,30), sayı/tuhaf yetenek güçlü.
 - Bugün uygulanan: Reels 8→9: sincap maymunu (memeli, sayı, Spring_Thaw ilk kez, 79 kelime, CC0 iNaturalist). Gönderi 13→15: pirozom (deniz omurgasızı, tuhaf görünüm; kıyıya vurmuş fotoğraflar) ve rakun köpeği (memeli, tuhaf yetenek). İpeksi karıncayiyen (yapraklar arasında gizli), fener balığı (ölü/dalgıç elinde) elendi.
 - Sonra kontrol et: sincap maymunu Reels skoru (memeli + sayı); pirozom gönderisinin içerik değeri (deniz omurgasızı, kıyıya vurmuş foto zayıf olabilir); rakun köpeği (memeli).
+
+## 2026-11-15 (gece çalıştırması)
+- Rapordan öğrenilen: gönderide memeli (2,34), balık (2,12), tuhaf görünüm (2,27) güçlü; Reels'te memeli (1,52) ve kuş (1,30), tuhaf yetenek (1,29) güçlü.
+- Bugün uygulanan: Reels 8→9: kızıl bacaklı seriema (kuş, tuhaf yetenek; Prelude_and_Action ilk kez, 70 kelime, CC0 iNaturalist). Gönderi 13→15: yapraklı deniz ejderi ve lumpfish (ikisi balık, tuhaf görünüm; tamamı CC0/PD). Fener balığı/Lophius (taksidermi, avcı elinde), argonot (boş kabuk), iNat'ta pacarana (foto yok) elendi.
+- Sonra kontrol et: seriema Reels'inde kuş + tuhaf yetenek skoru; iki balık gönderisinin içerik değeri (tuhaf görünüm kancası). Balıkta tuhaf görünüm kancası denendi; memeli gönderisi sonraki çalıştırmalarda öncelikli olsun (bu çalıştırmada iki balık aynı gruptan).
