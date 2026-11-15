@@ -248,3 +248,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli (2,23), balık (2,12), tuhaf görünüm (2,27), sayı (1,85) güçlü; Reels'te memeli (1,62), sayı (1,43), tuhaf yetenek (1,24) güçlü.
 - Bugün uygulanan: Reels 8→9: dev orman domuzu (memeli, sayı, Tectonic ilk kez, 81 kelime, iNaturalist). Gönderi 13→15: sarı başlı çene balığı (balık, tuhaf yetenek) ve dev murena (balık, sayı), ikisi de CC0. Başlıklı fok (fotoğraflar uzak), misk geyiği ve sarkastik balık (iNat'ta çoğu dışkı/elde tutulan/ölü), mermer kedi (kamera tuzağı, hayvan yok), lingcod (ölü/kıyıya vurmuş) elendi.
 - Sonra kontrol et: domuz Reels skoru (memeli + sayı); çene balığı ve murena içerik değeri (balık grubu). iNat'ta nadir türlerde fotoğrafları indirmeden önce Commons/iNat listesinde aynı fotoğrafçının çok fotoğrafı varsa dikkat (dışkı, kamera tuzağı olabiliyor); yatay fotoğrafta Reels kapağında kafa için cx/cy'yi küçük tut (cy≈0.2).
+
+## 2026-11-15 (sabah çalıştırması)
+- Rapordan öğrenilen: yeni bulgu işlenmedi; kuyruklar dolu olduğu için içerik üretilmedi.
+- Bugün uygulanan: Gönderi kuyruğu 15/15, Reels kuyruğu 9/9 (zz_ quokka dahil); queue_failed/queue_reels_failed yok; üretim yapılmadı.
+- Sonra kontrol et: bongo, ekidna ve dev orman domuzu Reels skorları; çene balığı, murena ve kirpi balığı gönderi içerik değerleri.
