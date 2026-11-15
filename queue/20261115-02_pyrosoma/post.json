@@ -1,0 +1,87 @@
+{
+  "name": "pyrosoma",
+  "group": "deniz omurgasızı",
+  "hook_style": "tuhaf görünüm",
+  "title": [
+    [
+      [
+        "BU TEK CANLI",
+        "W"
+      ]
+    ],
+    [
+      [
+        "DEĞİL, ÇOK SAYIDA",
+        "R"
+      ]
+    ],
+    [
+      [
+        "MİNİK HAYVAN",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "PİROZOM (DENİZ TURŞUSU)",
+  "card_top": [
+    "Minik hayvanlardan oluşan",
+    "tüp şeklinde bir koloni."
+  ],
+  "card_bottom": [
+    "Koloni parlak mavi-yeşil ışık",
+    "saçar. Dev türleri 18 metreye",
+    "yani 60 fit uzunluğa ulaşır."
+  ],
+  "right": [
+    "Sıcak denizlerde, açık okyanusun",
+    "üst katmanlarında yaşar.",
+    "Zooidler suyu süzüp plankton",
+    "yer, böylece tüp ilerler.",
+    "Salplarla yakın akrabadır."
+  ],
+  "loc": "Sıcak okyanuslar",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.45,
+      "cy": 0.4,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.55,
+      "cy": 0.45,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.4
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Pyrosoma atlanticum 149694180.jpg",
+      "author": "emilyd47",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Pyrosoma atlanticum (12258).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Pyrosoma atlanticum (12256).jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Deniz turşusu denen pirozom aslında tek bir hayvan değil, ışık saçabilen çok sayıda minik hayvanın oluşturduğu tüp şeklinde bir koloni. 🌊✨\n\n#terrawildnature #ilginçbilgiler #pirozom\n\n📷 emilyd47 (CC BY-SA 4.0), Rhododendrites (CC BY-SA 4.0) / Wikimedia Commons"
+}
