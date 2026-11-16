@@ -1,0 +1,154 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Stormfront.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Ethiopian wolf sanetti plateau.jpg",
+  "p2.jpg": "File:Ethiopian wolf (Canis simensis citernii) 2.jpg",
+  "p3.jpg": "File:Ethiopian Wolf (16130567740).jpg",
+  "p4.jpg": "File:Ethiopian Wolf (16131761899).jpg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/454363163/original.jpeg",
+  "p6.jpg": "File:Ethiopian Wolf (16314536276).jpg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/454362969/original.jpeg",
+  "p8.jpg": "File:Canis simensis Bale Mountains National Park 9.jpg"
+ },
+ "segments": [
+  {
+   "text": "Dünyada sadece dört yüz kadar yetişkini kalmış bir kurt türü var.",
+   "image": "p1.jpg",
+   "cx": 0.42,
+   "cy": 0.6,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Adı Etiyopya kurdu.",
+   "image": "p2.jpg",
+   "cx": 0.6,
+   "cy": 0.35,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Etiyopya yaylalarında üç bin ile dört bin beş yüz metre yükseklikte yaşıyor.",
+   "image": "p3.jpg",
+   "cx": 0.45,
+   "cy": 0.3,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Sadece yedi izole dağ silsilesinde hayatta kalabiliyor.",
+   "image": "p4.jpg",
+   "cx": 0.2,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Dünyanın en nadir kurtgiller türü ve Afrika'nın en tehlikedeki etoburu sayılıyor.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kızıl tüyleri ve beyaz işaretleriyle çakala benzese de kurtlara daha yakın.",
+   "image": "p6.jpg",
+   "cx": 0.8,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Neredeyse sadece dağlarda yaşayan kemirgenlerle besleniyor.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Aileler halinde yaşıyor ve geceyi açık arazide birlikte geçiriyor.",
+   "image": "p8.jpg",
+   "cx": 0.55,
+   "cy": 0.55,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p1.jpg",
+   "cx": 0.42,
+   "cy": 0.6,
+   "motion": "pan_right"
+  }
+ ],
+ "cover": {
+  "image": "p2.jpg",
+  "cx": 0.6,
+  "cy": 0.3,
+  "title": [
+   [
+    [
+     "SADECE 400",
+     "R"
+    ]
+   ],
+   [
+    [
+     "YETİŞKİNİ",
+     "W"
+    ]
+   ],
+   [
+    [
+     "KALAN BU",
+     "W"
+    ]
+   ],
+   [
+    [
+     "KURT",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "sayı",
+ "yt_title": "Dünyada Sadece 400 Yetişkini Kalan Kurt: Etiyopya Kurdu",
+ "en": {
+  "title": "Only 400 Adults Left: The Ethiopian Wolf",
+  "description": "The Ethiopian wolf is the world's rarest canid and Africa's most endangered carnivore, with only about 400 adults surviving on seven isolated mountain ranges."
+ },
+ "caption": "Etiyopya kurdunun dünyada sadece yaklaşık 400 yetişkini kalmış ve yedi izole dağ silsilesinde hayatta kalmaya çalışıyor. 🐺⛰️\n\n#terrawildnature #etiyopyakurdu\n\n📷 Jessica Fortin (Public domain), Laika ac (CC BY-SA 2.0), Charles J. Sharp (CC BY-SA 4.0) / Wikimedia Commons, Lin Scott (CC BY) / iNaturalist\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "File:Ethiopian wolf sanetti plateau.jpg",
+   "author": "Jessica Fortin",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:Ethiopian wolf (Canis simensis citernii) 2.jpg",
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Ethiopian Wolf (16130567740).jpg",
+   "author": "Laika ac",
+   "license": "CC BY-SA 2.0",
+   "public_domain": false
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  },
+  {
+   "author": "Lin Scott",
+   "license": "CC BY",
+   "source": "iNaturalist",
+   "public_domain": false
+  }
+ ]
+}
