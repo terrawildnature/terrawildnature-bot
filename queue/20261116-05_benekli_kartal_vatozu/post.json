@@ -1,0 +1,80 @@
+{
+ "name": "benekli kartal vatozu",
+ "group": "balık",
+ "hook_style": "tuhaf görünüm",
+ "title": [
+  [
+   [
+    "BU BALIĞIN",
+    "W"
+   ]
+  ],
+  [
+   [
+    "ÖRDEK GAGASI GİBİ",
+    "R"
+   ]
+  ],
+  [
+   [
+    "BURNU VAR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "BENEKLİ KARTAL VATOZU",
+ "card_top": [
+  "Düz, ördek gagasına benzeyen",
+  "burnuyla kumu kazar."
+ ],
+ "card_bottom": [
+  "Üçgen dişleriyle kabukluları",
+  "ezer. Kuyruğunda 2-6 zehirli",
+  "dikenler bulunur."
+ ],
+ "right": [
+  "Tropik denizlerde, resif ve",
+  "körfezlerde yaşar. Kanat",
+  "açıklığı yaklaşık 3 metreye",
+  "ulaşır. Sık sık sudan fırlar.",
+  "Yavrusunu canlı doğurur."
+ ],
+ "loc": "Tropik denizler",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "zoom": 1.2
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "zoom": 1.5
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.65,
+   "cy": 0.25,
+   "zoom": 1.3
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Spotted Eagle Ray (Aetobatus narinari)2.jpg",
+   "author": "john norton",
+   "license": "CC BY 2.0",
+   "public_domain": false
+  },
+  {
+   "use": "inner",
+   "title": "File:Aetobatus narinari head.jpg",
+   "author": "Jon Worth",
+   "license": "CC BY-SA 2.0",
+   "public_domain": false
+  }
+ ],
+ "caption": "Ördek gagasını andıran burnu ve kabuk ezen dişleriyle benekli kartal vatozu, sudan fırlayıp yüzeyin üstüne sıçrayabiliyor. 🌊🐟\n\n#terrawildnature #ilginçbilgiler #kartalvatozu\n\n📷 john norton (CC BY 2.0), Jon Worth (CC BY-SA 2.0) / Wikimedia Commons"
+}

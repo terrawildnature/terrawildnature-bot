@@ -1,0 +1,87 @@
+{
+ "name": "chaco pekarisi",
+ "group": "memeli",
+ "hook_style": "gizem",
+ "title": [
+  [
+   [
+    "BU HAYVANI",
+    "W"
+   ]
+  ],
+  [
+   [
+    "FOSİLDEN TANIDILAR",
+    "R"
+   ]
+  ],
+  [
+   [
+    "SONRA CANLI ÇIKTI",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "CHACO PEKARİSİ",
+ "card_top": [
+  "1930'da fosilinden tanımlandı,",
+  "soyu tükendi sanılıyordu."
+ ],
+ "card_bottom": [
+  "1971'de Arjantin'de canlısı",
+  "bulundu. Kaktüsleri yer, dikenleri",
+  "burnuyla ovarak temizler."
+ ],
+ "right": [
+  "Paraguay, Bolivya ve Arjantin'in",
+  "sıcak, kurak Gran Chaco",
+  "bölgesinde yaşar. 20 kişiye",
+  "varan sürüler halinde gezer.",
+  "Nesli tehlikede, ~3.000 kaldı."
+ ],
+ "loc": "Gran Chaco",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.55,
+   "cy": 0.4,
+   "zoom": 1.05
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.3,
+   "cy": 0.6,
+   "zoom": 1.4
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.36,
+   "cy": 0.5,
+   "zoom": 2.6
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Catagonus wagneri closeup.jpg",
+   "author": "TimVickers",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "use": "top",
+   "title": "File:Catagonus wagneri 1 - Phoenix Zoo.jpg",
+   "author": "Dave Pape",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "use": "inner",
+   "title": "File:Catagonus wagneri 2 - Phoenix Zoo.jpg",
+   "author": "Dave Pape",
+   "license": "Public domain",
+   "public_domain": true
+  }
+ ],
+ "caption": "Fosilinden tanımlanıp soyu tükendi sanılan Chaco pekarisi, 1971'de Arjantin'de canlı bulunarak bilim dünyasını şaşırttı. 🐗🌵\n\n#terrawildnature #ilginçbilgiler #chacopekarisi"
+}

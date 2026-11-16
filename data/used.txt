@@ -381,3 +381,5 @@ etiyopya kurdu (Reels) | Canis simensis
 yılan kuşu (Reels) | Anhinga anhinga
 beluga | Delphinapterus leucas
 sidewinder (çıngıraklı yılan) | Crotalus cerastes
+chaco pekarisi | Catagonus wagneri
+benekli kartal vatozu | Aetobatus narinari
