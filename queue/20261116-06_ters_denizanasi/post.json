@@ -1,0 +1,87 @@
+{
+ "name": "ters denizanası",
+ "group": "deniz omurgasızı",
+ "hook_style": "tuhaf görünüm",
+ "title": [
+  [
+   [
+    "BU DENİZANASI",
+    "W"
+   ]
+  ],
+  [
+   [
+    "ÖMRÜ BOYUNCA",
+    "R"
+   ]
+  ],
+  [
+   [
+    "TERS DURUYOR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "TERS DENİZANASI",
+ "card_top": [
+  "Çanını zemine yapıştırıp",
+  "altını yukarı çevirerek yaşar."
+ ],
+ "card_bottom": [
+  "Dokularındaki algler besin",
+  "ihtiyacının yaklaşık %90'ını",
+  "karşılar. Tentaklarıyla da sokar."
+ ],
+ "right": [
+  "Florida'dan Kızıldeniz'e kadar",
+  "sıcak kıyılarda yaşar.",
+  "Mangrov bataklıkları, lagünler",
+  "ve deniz çayırları en sevdiği",
+  "yerlerdir. Cassiopea cinsindendir."
+ ],
+ "loc": "Sıcak kıyılar",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.45,
+   "cy": 0.45,
+   "zoom": 1.3
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.55,
+   "cy": 0.5,
+   "zoom": 1.0
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.6,
+   "cy": 0.5,
+   "zoom": 1.2
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Med - Cassiopea andromeda - 1.jpg",
+   "author": "Emőke Dénes",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "use": "top",
+   "title": "File:Cassiopea andromeda Köln zoo 31122014 1.jpg",
+   "author": "Vassil",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "use": "inner",
+   "title": "File:Med - Cassiopea andromeda - 7.jpg",
+   "author": "Emőke Dénes",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  }
+ ],
+ "caption": "Çanını zemine yapıştırıp ömrünün çoğunu ters biçimde geçiren ters denizanası, besininin yaklaşık %90'ını dokularındaki alglerden alıyor. 🪼🌊\n\n#terrawildnature #ilginçbilgiler #tersdenizanası\n\n📷 Emőke Dénes (CC BY-SA 4.0) / Wikimedia Commons"
+}

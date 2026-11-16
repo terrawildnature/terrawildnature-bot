@@ -383,3 +383,4 @@ beluga | Delphinapterus leucas
 sidewinder (çıngıraklı yılan) | Crotalus cerastes
 chaco pekarisi | Catagonus wagneri
 benekli kartal vatozu | Aetobatus narinari
+ters denizanası | Cassiopea andromeda
