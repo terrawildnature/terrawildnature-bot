@@ -1,0 +1,165 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Fireflies_and_Stardust.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Anhinga in Costa Rica.jpg",
+  "p2.jpg": "File:Female anhinga (49831291276).jpg",
+  "p3.jpg": "File:Anhinga (Anhinga anhinga).jpg",
+  "p4.jpg": "File:Perched Sunning Anhinga.jpg",
+  "p5.jpg": "File:Anhinga (Anhinga anhinga), Costa Rica.jpg",
+  "p6.jpg": "File:Anhinga in the Okefenokee.jpg",
+  "p7.jpg": "File:An anhinga perches among the branches at BCNP.jpg",
+  "p8.jpg": "File:Anhinga (Anhinga anhinga anhinga) Rio Napo.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu kuşun adı yerli Tupi dilinde şeytan kuşu anlamına geliyor.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Yılan kuşu ya da anhinga, Amerika'nın sıcak sulak alanlarında yaşıyor.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Yüzerken yalnızca boynu sudan çıkıyor ve tam saldırıya hazır bir yılana benziyor.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Avını sualtında kovalıyor ve bükülü boynunu hızla uzatıp balığı keskin gagasıyla deliyor.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Üstelik tüyleri su geçirmez değil, bu yüzden suya girince tamamen ıslanıyor.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Islak tüylerle uzağa uçamıyor, o yüzden kanatlarını açıp güneşte kuruyor.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Bu duruşu yüzünden ona su hindisi de deniyor.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_right"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.5,
+  "cy": 0.4,
+  "title": [
+   [
+    [
+     "ADI TUPİ",
+     "R"
+    ]
+   ],
+   [
+    [
+     "DİLİNDE",
+     "W"
+    ]
+   ],
+   [
+    [
+     "ŞEYTAN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "KUŞU",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "kuş",
+ "hook_style": "gizem",
+ "yt_title": "Adı Şeytan Kuşu Olan Su Kuşu: Yılan Kuşu (Anhinga)",
+ "en": {
+  "title": "The Devil Bird: Meet the Anhinga",
+  "description": "The anhinga's name means devil bird in Tupi. It swims with only its neck above water like a snake, spears fish underwater and has to dry its non-waterproof feathers in the sun."
+ },
+ "caption": "Adı Tupi dilinde şeytan kuşu anlamına gelen anhinga, yüzerken yılana benzer ve su geçirmez olmayan tüylerini güneşte kurutur. 🐍🐦\n\n#terrawildnature #yılankuşu\n\n📷 Alecstatic (CC BY-SA 4.0), Brandon Moore (CC BY-SA 4.0), Charles J. Sharp (CC BY-SA 4.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "File:Anhinga in Costa Rica.jpg",
+   "author": "Bernard Gagnon",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "File:Female anhinga (49831291276).jpg",
+   "author": "evergladesnps",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:Anhinga (Anhinga anhinga).jpg",
+   "author": "Hobbyfotowiki",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "File:Perched Sunning Anhinga.jpg",
+   "author": "Serebit",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "File:Anhinga in the Okefenokee.jpg",
+   "author": "Alecstatic",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:An anhinga perches among the branches at BCNP.jpg",
+   "author": "Brandon Moore (Raskuly)",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Anhinga (Anhinga anhinga anhinga) Rio Napo.jpg",
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
