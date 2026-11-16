@@ -1,0 +1,87 @@
+{
+ "name": "beluga",
+ "group": "memeli",
+ "hook_style": "tuhaf görünüm",
+ "title": [
+  [
+   [
+    "BU BALİNANIN",
+    "W"
+   ]
+  ],
+  [
+   [
+    "BAŞI ŞEKİL",
+    "R"
+   ]
+  ],
+  [
+   [
+    "DEĞİŞTİRİYOR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "BELUGA BALİNASI",
+ "card_top": [
+  "Alnındaki melon organı şekil",
+  "değiştirip ekolokasyon yapar."
+ ],
+ "card_bottom": [
+  "Bembeyaz vücudunda sırt",
+  "yüzgeci yok, bu sayede buz",
+  "altında kolayca yüzer."
+ ],
+ "right": [
+  "Kuzey Kutbu çevresindeki",
+  "denizlerde yaşar. Tiz sesleri",
+  "yüzünden 'deniz kanaryası'",
+  "da denir. 700 m derine dalar",
+  "ve 70-80 yıl yaşayabilir."
+ ],
+ "loc": "Kuzey Kutbu",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.45,
+   "cy": 0.5,
+   "zoom": 1.2
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "zoom": 1.2
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.75,
+   "cy": 0.4,
+   "zoom": 1.6
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Delphinapterus leucas 25.jpg",
+   "author": "mikejsolutions (Flickr)",
+   "license": "CC BY 2.0",
+   "public_domain": false
+  },
+  {
+   "use": "top",
+   "title": "File:Delphinapterus leucas 31.jpg",
+   "author": "mikejsolutions (Flickr)",
+   "license": "CC BY 2.0",
+   "public_domain": false
+  },
+  {
+   "use": "inner",
+   "title": "File:Delphinapterus leucas 32.jpg",
+   "author": "emeryjl (Flickr)",
+   "license": "CC BY 2.0",
+   "public_domain": false
+  }
+ ],
+ "caption": "Beluga balinası alnındaki melon organının şeklini değiştirebiliyor, sırt yüzgeci olmadığı için buzların altında rahatça yüzüyor. 🐋❄️\n\n#terrawildnature #ilginçbilgiler #beluga\n\n📷 mikejsolutions (CC BY 2.0), emeryjl (CC BY 2.0) / Wikimedia Commons"
+}

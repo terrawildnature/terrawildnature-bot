@@ -379,3 +379,4 @@ yapraklı deniz ejderi | Phyllopteryx taeniolatus
 lumpfish | Cyclopterus lumpus
 etiyopya kurdu (Reels) | Canis simensis
 yılan kuşu (Reels) | Anhinga anhinga
+beluga | Delphinapterus leucas
