@@ -273,3 +273,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: kuyruklar dolu (gönderi 15/15, Reels 9/9); yeni içerik üretilmedi.
 - Bugün uygulanan: yok; queue_reels/zz_20261106-01_quokka bir kez paylaşılamayıp yeniden deneme kuyruğunda, Actions tekrar deneyecek.
 - Sonra kontrol et: quokka Reels'i ikinci denemede de başarısız olursa queue_reels_failed/ içine bak ve içerik sorununu düzelt.
+
+## 2026-11-16 (öğle çalıştırması)
+- Rapordan öğrenilen: gönderide memeli (2,35), balık (1,94), tuhaf görünüm (2,27), sayı (2,08) güçlü; Reels'te memeli (1,58), kuş (1,20), sayı (1,32) güçlü; gizem tek örnekle 2,72.
+- Bugün uygulanan: Reels 7→9: Etiyopya kurdu (memeli, sayı; Stormfront ilk kez, 81 kelime, Commons CC BY-SA + iNat) ve yılan kuşu/anhinga (kuş, gizem "adı şeytan kuşu"; Fireflies_and_Stardust ilk kez, 84 kelime, PD/CC BY-SA). Gönderi 13→15: beluga (memeli, tuhaf görünüm; akvaryum fotoğrafları CC BY 2.0) ve sidewinder (sürüngen, tuhaf görünüm, keşif; CC BY-SA/CC BY). Sıçrayan tavşan (iNat'ta gece/dışkı/ölü hayvan), mermer kedi (kamera tuzağı), beluga iNat (çok uzak) elendi.
+- Sonra kontrol et: beluga ve sidewinder gönderilerinin içerik değeri (tuhaf görünüm); Etiyopya kurdu Reels skoru (memeli + sayı); anhinga Reels'i (kuş + gizem). Commons indirmeleri yavaş (~30 sn/foto); iNat'ta nadir türlerde önce önizleme sayfası yap, ilk 1-2 fotoğrafı indirip bak. Commons'ta "Sidewinder" adlı PD fotoğrafta boynuz görünmüyordu (tür şüphesi) — başlık boynuz iddiasındaysa boynuzu fotoğrafta doğrula.

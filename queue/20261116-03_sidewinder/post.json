@@ -1,0 +1,80 @@
+{
+ "name": "sidewinder",
+ "group": "sürüngen",
+ "hook_style": "tuhaf görünüm",
+ "title": [
+  [
+   [
+    "BU YILANIN",
+    "W"
+   ]
+  ],
+  [
+   [
+    "GÖZLERİNİN ÜSTÜNDE",
+    "R"
+   ]
+  ],
+  [
+   [
+    "BOYNUZ VAR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "SIDEWINDER YILANI",
+ "card_top": [
+  "Gözlerinin üstündeki pullar",
+  "boynuz gibi yükselir."
+ ],
+ "card_bottom": [
+  "Kumda J şeklinde iz bırakıp",
+  "yana doğru ilerler. Bu hareket",
+  "kuma tutunmayı kolaylaştırır."
+ ],
+ "right": [
+  "ABD'nin güneybatı çöllerinde",
+  "ve Meksika'da yaşar. Boyu",
+  "43-80 cm arasındadır. Zehirli",
+  "bir çukur engereğidir. Dişiler",
+  "erkeklerden daha büyüktür."
+ ],
+ "loc": "ABD, Meksika",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.45,
+   "cy": 0.3,
+   "zoom": 1.3
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.4,
+   "cy": 0.5,
+   "zoom": 1.2
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.45,
+   "cy": 0.43,
+   "zoom": 2.4
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Mojave desert sidewinder (Crotalus cerastes cerastes).jpg",
+   "author": "Bloopityboop",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "use": "top",
+   "title": "File:Crotalus cerastes (6138121265).jpg",
+   "author": "Maximilian Paradiz",
+   "license": "CC BY 2.0",
+   "public_domain": false
+  }
+ ],
+ "caption": "Sidewinder yılanının gözlerinin üstünde boynuz gibi yükselen pullar var ve kumda yana doğru kayarak ilerliyor. 🐍🏜️\n\n#terrawildnature #ilginçbilgiler #sidewinder\n\n📷 Bloopityboop (CC BY-SA 4.0), Maximilian Paradiz (CC BY 2.0) / Wikimedia Commons"
+}
