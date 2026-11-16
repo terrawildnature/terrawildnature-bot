@@ -268,3 +268,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli (2,34), balık (2,12), tuhaf görünüm (2,27) güçlü; Reels'te memeli (1,52) ve kuş (1,30), tuhaf yetenek (1,29) güçlü.
 - Bugün uygulanan: Reels 8→9: kızıl bacaklı seriema (kuş, tuhaf yetenek; Prelude_and_Action ilk kez, 70 kelime, CC0 iNaturalist). Gönderi 13→15: yapraklı deniz ejderi ve lumpfish (ikisi balık, tuhaf görünüm; tamamı CC0/PD). Fener balığı/Lophius (taksidermi, avcı elinde), argonot (boş kabuk), iNat'ta pacarana (foto yok) elendi.
 - Sonra kontrol et: seriema Reels'inde kuş + tuhaf yetenek skoru; iki balık gönderisinin içerik değeri (tuhaf görünüm kancası). Balıkta tuhaf görünüm kancası denendi; memeli gönderisi sonraki çalıştırmalarda öncelikli olsun (bu çalıştırmada iki balık aynı gruptan).
+
+## 2026-11-16 (sabah çalıştırması)
+- Rapordan öğrenilen: kuyruklar dolu (gönderi 15/15, Reels 9/9); yeni içerik üretilmedi.
+- Bugün uygulanan: yok; queue_reels/zz_20261106-01_quokka bir kez paylaşılamayıp yeniden deneme kuyruğunda, Actions tekrar deneyecek.
+- Sonra kontrol et: quokka Reels'i ikinci denemede de başarısız olursa queue_reels_failed/ içine bak ve içerik sorununu düzelt.
