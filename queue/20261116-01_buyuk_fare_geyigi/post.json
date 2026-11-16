@@ -1,0 +1,26 @@
+{
+  "name": "büyük fare geyiği",
+  "group": "memeli",
+  "hook_style": "sayı",
+  "title": [
+    [["BU GEYİĞİN", "W"]],
+    [["BOYU SADECE", "W"], ["35 CM", "R"]],
+    [["BOYNUZ DA YOK", "R"]]
+  ],
+  "card_title": "BÜYÜK FARE GEYİĞİ",
+  "card_top": ["Boynuzu yok ama erkeklerin", "üst çenesinde küçük \"köpek dişleri\" var."],
+  "card_bottom": ["Kızgın erkek toynaklarıyla yere", "saniyede dört kez vurur. Yavru", "doğduktan 30 dakika sonra aktiftir."],
+  "right": ["Sumatra, Borneo ve Malay", "Yarımadası ormanlarında yaşar.", "Gece aktif, yalnız bir hayvandır.", "Ağırlığı sadece 5-8 kg'dır.", "Dişi ömrünün çoğu gebelikte."],
+  "loc": "Güneydoğu Asya",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.58, "cy": 0.4, "zoom": 1.2},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.55, "cy": 0.35, "zoom": 1.2},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.5,  "cy": 0.55, "zoom": 1.4}
+  },
+  "credits": [
+    {"use": "cover", "title": "iNaturalist 544311432", "author": "Ian Dugdale", "license": "CC BY", "public_domain": false},
+    {"use": "top", "title": "iNaturalist 544311463", "author": "Ian Dugdale", "license": "CC BY", "public_domain": false},
+    {"use": "inner", "title": "iNaturalist 544311468", "author": "Ian Dugdale", "license": "CC BY", "public_domain": false}
+  ],
+  "caption": "Güneydoğu Asya ormanlarının 35 santimlik küçük sakini büyük fare geyiği, boynuz yerine erkeklerde uzamış üst köpek dişlerine sahip ve kızdığında toynaklarıyla yere saniyede dört kez vuruyor. 🦌🌿\n\n#terrawildnature #ilginçbilgiler #büyükfaregeyiği\n\n📷 Ian Dugdale (CC BY) / iNaturalist"
+}
