@@ -283,3 +283,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli (2,35), balık (1,94), deniz omurgasızı (1,89), tuhaf görünüm (2,27) güçlü; Reels'te memeli (1,58), sayı (1,32) güçlü; sürüngen/kuş/böcek gönderileri zayıf.
 - Bugün uygulanan: Reels 8→9: kapüşonlu fok (memeli, tuhaf yetenek; Frozen_Star ilk kez, 74 kelime, iNaturalist CC0/CC BY). Gönderi 12→15: Chaco pekarisi (memeli, gizem; PD), benekli kartal vatozu (balık, tuhaf görünüm; CC BY/BY-SA), ters denizanası (deniz omurgasızı, tuhaf görünüm; CC BY-SA/CC0). Dev izopod (ölü örnek) ve selakant (model/doldurma) elendi.
 - Sonra kontrol et: üç gönderinin içerik değeri (güçlü gruplar + tuhaf görünüm); kapüşonlu fok Reels'i. Not: iNat aramasında "Histrio histrio" alakasız böcek döndürdü, iNat fotoğrafını mutlaka Read ile doğrula; iNat adreslerinde uzantı (.jpg/.jpeg) listedeki gibi olmalı.
+
+## 2026-11-17 (gece çalıştırması)
+- Rapordan öğrenilen: kuyruklar dolu (gönderi 15/15, Reels 9/9); yeni içerik üretilmedi.
+- Bugün uygulanan: yok; queue_failed/queue_reels_failed yok. zz_quokka hâlâ yeniden deneme kuyruğunda.
+- Sonra kontrol et: quokka Reels paylaşıldı mı, değilse queue_reels_failed/ içeriğine bak.
