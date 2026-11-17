@@ -1,0 +1,91 @@
+{
+ "name": "dağ keçisi",
+ "title": [
+  [
+   [
+    "BU HAYVAN",
+    "W"
+   ]
+  ],
+  [
+   [
+    "60 DERECELİK",
+    "R"
+   ],
+   [
+    "KAYAYA",
+    "W"
+   ]
+  ],
+  [
+   [
+    "TIRMANIYOR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "DAĞ KEÇİSİ",
+ "card_top": [
+  "−46 °C soğuğa dayanan çift",
+  "katlı yünlü bir kürkü var."
+ ],
+ "card_bottom": [
+  "Çatallı toynakları ve keskin",
+  "ek parmakları sayesinde 60",
+  "dereceden dik yamaçlara tırmanır."
+ ],
+ "right": [
+  "Kuzey Amerika'nın Kayalık",
+  "Dağları'nda yaşar.",
+  "Yavrular doğduktan birkaç",
+  "saat sonra koşup tırmanır.",
+  "Boynuzları 28 cm'ye ulaşır."
+ ],
+ "loc": "Kuzey Amerika",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.52,
+   "cy": 0.33,
+   "zoom": 1.2
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.4,
+   "cy": 0.45,
+   "zoom": 1.2
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.5,
+   "cy": 0.55,
+   "zoom": 1.6
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Mountain Goat - Oreamnos americanus (51361810103).jpg",
+   "author": "GlacierNPS",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "use": "top",
+   "title": "File:Mountain Goat - Oreamnos americanus (51361599131).jpg",
+   "author": "GlacierNPS",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "use": "inner",
+   "title": "File:Mountain Goat - Oreamnos americanus (51361809963).jpg",
+   "author": "GlacierNPS",
+   "license": "Public domain",
+   "public_domain": true
+  }
+ ],
+ "group": "memeli",
+ "hook_style": "sayı",
+ "caption": "Kuzey Amerika'nın dağ keçisi, çatallı toynakları ve ek parmakları sayesinde 60 dereceden dik yamaçlara tırmanırken −46 °C soğuğu çift katlı kürküyle atlatıyor. 🐐🏔️\n\n#terrawildnature #ilginçbilgiler #dağkeçisi"
+}
