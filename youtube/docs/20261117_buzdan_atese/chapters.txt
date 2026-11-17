@@ -1,0 +1,33 @@
+00:00 Giriş
+01:14 Dondurucu (−90 – −30 °C)
+01:48 Vostok İstasyonu (−89,2 °C)
+02:11 Kutup Yünlü Ayı Güvesi
+03:37 Kar Baykuşu
+04:25 Sibirya Semenderi
+05:18 Tibet Antilobu
+06:16 Buzul (−30 – 0 °C)
+06:50 Çift Hörgüçlü Deve
+07:41 Japon Makağı
+08:28 Adelie Pengueni
+09:20 Orman Kurbağası
+10:14 Bahar Ötücüsü Kurbağa
+11:13 Kutup Tilkisi
+12:04 Buz Böceği
+12:56 Kutup Yer Sincabı
+13:58 Antarktik Kril
+15:04 Serin (0 – 30 °C)
+15:34 Namib Sis Böceği
+16:28 Kara Metalkuyruk
+17:28 Sıcak (30 – 50 °C)
+18:03 Büyük Yol Koşucusu
+19:20 Gila Canavarı
+20:13 Çöl İguanası
+21:08 Ölüm Vadisi Dişli Sazancığı
+22:07 Tek Hörgüçlü Deve
+23:07 Kavurucu (50 – 70 °C)
+23:35 Pompeii Solucanı
+24:33 Sahra Gümüş Karıncası
+25:31 Furnace Creek, Ölüm Vadisi (56,7 °C)
+25:51 Çöl Kaplumbağası
+26:38 Küçük Flamingo
+27:37 Ölümcül (70 – 100 °C)
