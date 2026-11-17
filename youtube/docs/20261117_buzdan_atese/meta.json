@@ -1,0 +1,61 @@
+{
+ "title": "En Soğuktan En Sıcağa: Uç Sıcaklıklarda Yaşayan Hayvanlar",
+ "description": "Eksi yetmiş derecede donup baharda yeniden canlanan bir tırtıldan, kuyruğunu elli derecelik suya daldıran Pompeii solucanına kadar yirmi dört hayvanı yaşadıkları en uç sıcaklığa göre sıralıyoruz. Kalbi duran ve buz tutan orman kurbağası, vücut ısısını sıfırın altına indiren kutup yer sincabı, eksi altmış iki derecede rahat eden kar baykuşu, terlemeden kırk dokuz dereceye dayanan deve, Ölüm Vadisi'nde yaşayan bir balık ve kendi bedenini öldürebilecek sıcakta koşan Sahra gümüş karıncası bu belgeselde. Ekrandaki dev termometre her hayvanın sıcaklığını gösteriyor ve onu insan vücuduyla karşılaştırıyor.",
+ "sources": "İngilizce Wikipedia (tür sayfaları, Vostok Station, Oymyakon, Highest temperature recorded on Earth, Lut Desert, Lake Natron, Human body temperature, Hummingbird, Xerocole, Grylloblattidae) ve ilgili bilimsel yayınlar.",
+ "hashtags": [
+  "#belgesel",
+  "#hayvanlar",
+  "#vahşiyaşam",
+  "#doğa",
+  "#terrawildnature"
+ ],
+ "tags": [
+  "belgesel",
+  "hayvan belgeseli",
+  "soğuğa dayanıklı hayvanlar",
+  "sıcağa dayanıklı hayvanlar",
+  "kutup hayvanları",
+  "çöl hayvanları",
+  "donan kurbağa",
+  "kar baykuşu",
+  "sahra gümüş karıncası",
+  "pompeii solucanı",
+  "kutup tilkisi",
+  "en soğuk yer",
+  "en sıcak yer",
+  "vahşi yaşam",
+  "türkçe belgesel",
+  "doğa belgeseli"
+ ],
+ "thumb": {
+  "lines": [
+   "−70 °C'DE",
+   "DONUP",
+   "DİRİLEN KİM?"
+  ],
+  "photo": "14_0",
+  "cx": 0.42,
+  "cy": 0.45,
+  "zoom": 1.0,
+  "bar_labels": [
+   "−89 °C",
+   "+100 °C"
+  ]
+ },
+ "teaser": {
+  "seg": 12,
+  "title": "Kalbi Durup Baharda Yeniden Atan Kurbağa"
+ },
+ "story": {
+  "lines": [
+   "BUZDAN",
+   "ATEŞE"
+  ],
+  "info": "−89 °C → +100 °C · 6 iklim kuşağı · 24 canlı"
+ },
+ "en": {
+  "title": "From Coldest to Hottest: Animals That Survive Extremes",
+  "description": "From a caterpillar that freezes at minus 70 degrees and comes back to life in spring, to the Pompeii worm that rests its tail in 50-degree water, we rank 24 animals by the most extreme temperature they live in. Meet the wood frog whose heart stops as it freezes, the Arctic ground squirrel that drops its body temperature below zero, the snowy owl at ease at minus 62 degrees, the camel that endures 49 degrees without sweating, a fish that lives in Death Valley and the Saharan silver ant that runs in heat that could kill it. A giant on-screen thermometer shows each animal's temperature and compares it with the human body.",
+  "sources": "English Wikipedia (species pages, Vostok Station, Oymyakon, Highest temperature recorded on Earth, Lut Desert, Lake Natron, Human body temperature, Hummingbird, Xerocole, Grylloblattidae) and related scientific publications."
+ }
+}

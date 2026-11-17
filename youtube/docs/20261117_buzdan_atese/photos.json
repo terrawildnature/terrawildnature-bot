@@ -1,0 +1,533 @@
+{
+ "03": [
+  {
+   "file": "03_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/540932783/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Syd Cannings"
+  },
+  {
+   "file": "03_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/311972739/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "steve b"
+  },
+  {
+   "file": "03_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/44595395/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Syd Cannings"
+  }
+ ],
+ "05": [
+  {
+   "file": "05_0.jpg",
+   "src": "File:Snowy Owl - Bubo scandiacus, Boundary Bay, British Columbia.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 2.0",
+   "author": "Judy Gallagher"
+  },
+  {
+   "file": "05_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/143705969/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Chrissy McClarren and Andy Reago"
+  },
+  {
+   "file": "05_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/97469225/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Christoph Moning"
+  }
+ ],
+ "06": [
+  {
+   "file": "06_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/370589260/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Александр Ермаков"
+  },
+  {
+   "file": "06_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/222418278/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Tatiana Strus"
+  },
+  {
+   "file": "06_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/222418294/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Tatiana Strus"
+  }
+ ],
+ "07": [
+  {
+   "file": "07_0.jpg",
+   "src": "File:Pantholops hodgsonii 367800821.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC0",
+   "author": "James Eaton"
+  },
+  {
+   "file": "07_1.jpg",
+   "src": "File:Chiru, Gyêgu, Tibet.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC0",
+   "author": "no rights reserved"
+  },
+  {
+   "file": "07_2.jpg",
+   "src": "File:Tschiru-Gruppe1.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 4.0",
+   "author": "Schwalbe"
+  }
+ ],
+ "09": [
+  {
+   "file": "09_0.jpg",
+   "src": "File:Camel in Gobi Desert 01.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC0",
+   "author": "Bernard Gagnon"
+  },
+  {
+   "file": "09_1.jpg",
+   "src": "File:Camels in Gobi Desert 01.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC0",
+   "author": "Bernard Gagnon"
+  },
+  {
+   "file": "09_2.jpg",
+   "src": "File:Camel at Khongoryn Els 01.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC0",
+   "author": "Bernard Gagnon"
+  }
+ ],
+ "10": [
+  {
+   "file": "10_0.jpg",
+   "src": "File:Snow Monkeys, Nagano, Japan.JPG",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "author": "Yblieb"
+  },
+  {
+   "file": "10_1.jpg",
+   "src": "File:Japanese Macaque, Nagano, Japan..JPG",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "author": "Yblieb"
+  },
+  {
+   "file": "10_2.jpg",
+   "src": "File:Macaca Fuscata, also known as Japanese Snow Monkeys, in Jigokudani, Yudanaka, Japan 02.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 4.0",
+   "author": "Angelica Kaufmann"
+  }
+ ],
+ "11": [
+  {
+   "file": "11_0.jpg",
+   "src": "File:Hope Bay-2016-Trinity Peninsula–Adélie penguin (Pygoscelis adeliae) 02.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Godot13"
+  },
+  {
+   "file": "11_1.jpg",
+   "src": "File:Adelie Penguins on iceberg.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 2.0",
+   "author": "Jason Auch"
+  },
+  {
+   "file": "11_2.jpg",
+   "src": "File:Adelie penguin (Pygoscelis adeliae), walking.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 2.0",
+   "author": "Jason Auch"
+  }
+ ],
+ "12": [
+  {
+   "file": "12_0.jpg",
+   "src": "File:Wood Frog (14727213292).jpg",
+   "source": "Wikimedia Commons",
+   "license": "Public domain",
+   "author": "USFWS Mountain-Prairie"
+  },
+  {
+   "file": "12_1.jpg",
+   "src": "File:Lithobates sylvaticus - Wood Frog 01.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC0",
+   "author": "Jasper Shide"
+  },
+  {
+   "file": "12_2.jpg",
+   "src": "File:Lithobates sylvaticus - Wood Frog 02.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC0",
+   "author": "Jasper Shide"
+  }
+ ],
+ "13": [
+  {
+   "file": "13_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/189273975/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Erik Schiff"
+  },
+  {
+   "file": "13_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/10235344/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "markeambard"
+  },
+  {
+   "file": "13_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/314680993/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Lynn Harper"
+  }
+ ],
+ "14": [
+  {
+   "file": "14_0.jpg",
+   "src": "File:Vulpes lagopus in Iceland (cropped).jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC0",
+   "author": "Jonatan Pie (unsplash.com/@r3dmax)"
+  },
+  {
+   "file": "14_1.jpg",
+   "src": "File:Alopex lagopus coiled up in snow.jpg",
+   "source": "Wikimedia Commons",
+   "license": "Public domain",
+   "author": "Keith Morehouse"
+  },
+  {
+   "file": "14_2.jpg",
+   "src": "File:Arctic fox in the Russian Arctic National Park, Novaya Zemlya 2015-1.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Nixette"
+  }
+ ],
+ "15": [
+  {
+   "file": "15_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/96451234/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "James Telford"
+  },
+  {
+   "file": "15_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/96451599/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "James Telford"
+  }
+ ],
+ "16": [
+  {
+   "file": "16_0.jpg",
+   "src": "File:Arctic ground squirrel (50167313217).jpg",
+   "source": "Wikimedia Commons",
+   "license": "Public domain",
+   "author": "USFWSAlaska"
+  },
+  {
+   "file": "16_1.jpg",
+   "src": "File:Arctic Ground Squirrel (2) - Spermophilus parryii (21491483961).jpg",
+   "source": "Wikimedia Commons",
+   "license": "Public domain",
+   "author": "National Park Service, Alaska Region"
+  },
+  {
+   "file": "16_2.jpg",
+   "src": "File:Arctic ground squirrel, Hatcher Pass.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC0",
+   "author": "Mmzx84mn"
+  }
+ ],
+ "17": [
+  {
+   "file": "17_0.jpg",
+   "src": "File:Antarctic krill.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Oleksandr Bogomaz"
+  },
+  {
+   "file": "17_1.jpg",
+   "src": "File:Euphausia superba.jpg",
+   "source": "Wikimedia Commons",
+   "license": "Public domain",
+   "author": "Dr. Wayne Trivelpiece"
+  }
+ ],
+ "20": [
+  {
+   "file": "20_0.jpg",
+   "src": "File:Onymacris unguicularis in Namib Desert.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "author": "Schnobby"
+  },
+  {
+   "file": "20_1.jpg",
+   "src": "File:Onymacris unguicularis.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "author": "GbbIT"
+  },
+  {
+   "file": "20_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/348082918/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Elias Freyhof"
+  }
+ ],
+ "21": [
+  {
+   "file": "21_0.jpg",
+   "src": "File:Metallura phoebe in Quebrada Santa Cruz.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "James Sykes"
+  },
+  {
+   "file": "21_1.jpg",
+   "src": "File:Colibrí negro (Metallura phoebe) en el distrito de Apata.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Jonathan Chancasana"
+  },
+  {
+   "file": "21_2.jpg",
+   "src": "File:Metallura phoebe cerca de la guinda patrimonial de Masma Chicche.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Erick Barzola Ricci"
+  }
+ ],
+ "23": [
+  {
+   "file": "23_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/608718023/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Adam Jackson"
+  },
+  {
+   "file": "23_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/359203456/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Evelyn Lazzaretti"
+  },
+  {
+   "file": "23_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/98346489/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Dario Taraborelli"
+  }
+ ],
+ "25": [
+  {
+   "file": "25_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/367589517/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Jason Leduc"
+  },
+  {
+   "file": "25_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/656636083/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "lightbed"
+  },
+  {
+   "file": "25_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/367589564/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Jason Leduc"
+  }
+ ],
+ "26": [
+  {
+   "file": "26_0.jpg",
+   "src": "File:Desert Iguana (54608703902).jpg",
+   "source": "Wikimedia Commons",
+   "license": "Public domain",
+   "author": "Joshua Tree National Park"
+  },
+  {
+   "file": "26_1.jpg",
+   "src": "File:Desert iguana (Dipsosaurus dorsalis) (20526299159).jpg",
+   "source": "Wikimedia Commons",
+   "license": "Public domain",
+   "author": "Joshua Tree National Park"
+  },
+  {
+   "file": "26_2.jpg",
+   "src": "File:DesertIguana031611.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC0",
+   "author": "Wilson44691"
+  }
+ ],
+ "27": [
+  {
+   "file": "27_0.jpg",
+   "src": "File:Pupfish school.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Killamator"
+  },
+  {
+   "file": "27_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/628970307/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Joshua Zupan"
+  },
+  {
+   "file": "27_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/14858508/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Allan Harris"
+  }
+ ],
+ "28": [
+  {
+   "file": "28_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/77861688/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Richard Fuller"
+  },
+  {
+   "file": "28_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/105974074/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Tero Linjama"
+  },
+  {
+   "file": "28_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/105974059/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Tero Linjama"
+  }
+ ],
+ "30": [
+  {
+   "file": "30_0.jpg",
+   "src": "File:Ver polychète Alvinella Pompejana sur fond noir (Ifremer 00569-68060 - 25239).jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 4.0",
+   "author": "Olivier Dugornay"
+  },
+  {
+   "file": "30_1.jpg",
+   "src": "File:Ver polychète Alvinella Pompejana sur fond noir (Ifremer 00569-68060 - 25240).jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 4.0",
+   "author": "Olivier Dugornay"
+  }
+ ],
+ "31": [
+  {
+   "file": "31_0.jpg",
+   "src": "File:Saharan Silver Ants Erg Chebbi 2011.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "author": "Bjørn Christian Tørrissen"
+  },
+  {
+   "file": "31_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/123636267/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Philipp Hoenle"
+  },
+  {
+   "file": "31_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/123636245/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Philipp Hoenle"
+  }
+ ],
+ "33": [
+  {
+   "file": "33_0.jpg",
+   "src": "File:Desert tortoise (Gopherus agassizii).jpg",
+   "source": "Wikimedia Commons",
+   "license": "Public domain",
+   "author": "Robb Hannawacker (Joshua Tree National Park)"
+  },
+  {
+   "file": "33_1.jpg",
+   "src": "File:Desert tortoise turtle on desert rocks gopherus agassizii.jpg",
+   "source": "Wikimedia Commons",
+   "license": "Public domain",
+   "author": "London Rachel, U.S. Fish and Wildlife Service"
+  },
+  {
+   "file": "33_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/369542429/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Kyle Nessen"
+  }
+ ],
+ "34": [
+  {
+   "file": "34_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/679429726/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Sri Srikumar"
+  },
+  {
+   "file": "34_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/197791113/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Marian Read"
+  },
+  {
+   "file": "34_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/480339332/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Sunny Zhang 张迎新"
+  }
+ ]
+}

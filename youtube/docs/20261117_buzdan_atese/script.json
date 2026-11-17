@@ -1,0 +1,557 @@
+{
+ "title": "BUZDAN ATEŞE",
+ "subtitle": "Eksi seksen dokuzdan yüz dereceye",
+ "mechanic": "thermometer",
+ "intro_photos": [
+  "10_0",
+  "05_0",
+  "31_1",
+  "34_0"
+ ],
+ "journey": {
+  "meter": false,
+  "label": "SICAKLIK",
+  "unit": "°C",
+  "offset": 90,
+  "max": 190,
+  "direction": "up",
+  "zones": [
+   [
+    0,
+    60,
+    "DONDURUCU"
+   ],
+   [
+    60,
+    90,
+    "BUZUL"
+   ],
+   [
+    90,
+    120,
+    "SERİN"
+   ],
+   [
+    120,
+    140,
+    "SICAK"
+   ],
+   [
+    140,
+    160,
+    "KAVURUCU"
+   ],
+   [
+    160,
+    190,
+    "ÖLÜMCÜL"
+   ]
+  ],
+  "stats": [],
+  "range_label": "SICAKLIK",
+  "palette": [
+   [
+    0,
+    [
+     24,
+     58,
+     96
+    ]
+   ],
+   [
+    60,
+    [
+     30,
+     82,
+     124
+    ]
+   ],
+   [
+    120,
+    [
+     88,
+     52,
+     30
+    ]
+   ],
+   [
+    190,
+    [
+     96,
+     18,
+     10
+    ]
+   ]
+  ],
+  "rays": 0,
+  "particles": null,
+  "glow": null,
+  "card": [
+   48,
+   96,
+   1232,
+   693
+  ],
+  "sub_cx": 740,
+  "music": [
+   "Frozen_Star.mp3",
+   "Rites.mp3"
+  ],
+  "zone_colors": [
+   [
+    120,
+    220,
+    255
+   ],
+   [
+    60,
+    170,
+    255
+   ],
+   [
+    70,
+    210,
+    200
+   ],
+   [
+    255,
+    190,
+    40
+   ],
+   [
+    255,
+    110,
+    30
+   ],
+   [
+    235,
+    30,
+    30
+   ]
+  ]
+ },
+ "segments": [
+  {
+   "type": "intro",
+   "depth": 0.8,
+   "text": "Bir tırtıl düşünün: eksi yetmiş derecede donup kalıyor, bahar gelince yeniden canlanıyor. Bir de çölde, kendi bedenini öldürebilecek bir sıcakta yiyecek arayan bir karınca. Bugün hayvanlar dünyasını sıcaklığa göre sıralıyoruz. Yolculuğumuz yeryüzünde ölçülmüş en düşük sıcaklıkta başlayacak, kutup baykuşları ve donan kurbağalarla ısınacak, çöllerin kavurucu kumlarından geçip okyanus tabanındaki kaynar bacalara kadar yükselecek. Yirmi dört canlıyla tanışacağız. Ekranın sağındaki termometreyi takip edin. Sıvı sütun o an konuştuğumuz sıcaklığı gösteriyor ve tanıştığımız her hayvan ölçeğin üzerinde yerini alacak. Üstteki göstergede ise her sıcaklığı kendi vücut ısımızla, otuz yedi dereceyle karşılaştıracağız. Hazırsanız termometreyi en dibe indiriyoruz.",
+   "text_en": "Imagine a caterpillar that freezes solid at minus 70 degrees and comes back to life in spring. And an ant that searches for food in the desert in heat that could kill its own body. Today we rank the animal kingdom by temperature. Our journey begins at the lowest temperature ever measured on Earth, warms up with snowy owls and freezing frogs, crosses the scorching sands of the deserts and climbs all the way to the boiling vents on the ocean floor. We will meet 24 animals. Follow the thermometer on the right of the screen. The liquid column shows the temperature we are talking about, and every animal we meet will take its place on the scale. The display above compares each temperature with our own body temperature, 37 degrees. Ready? We send the thermometer all the way down."
+  },
+  {
+   "type": "zone",
+   "depth": 0.8,
+   "name": "DONDURUCU",
+   "name_en": "FREEZING",
+   "range": "−90 – −30 °C",
+   "range_en": "−90 – −30 °C",
+   "text": "İlk durağımız dünyanın en soğuk köşeleri. Burada hava eksi otuzun altına iniyor. Açıkta kalan su saniyeler içinde donuyor, nefes bile buz kristaline dönüşüyor. Bu sıcaklıkta bir canlının önünde iki yol var. Ya kalın tüyler, yağ ve kürkle vücut ısısını korumak ya da donmayı kabul edip hücrelerini buza karşı korumak. Şimdi her iki yolu da seçmiş hayvanlarla tanışacağız.",
+   "text_en": "Our first stop is the coldest corners of the world. Here the air drops below minus 30. Exposed water freezes within seconds, even breath turns into ice crystals. At this temperature a living thing has two options. Either keep its body heat with thick feathers, fat and fur, or accept freezing and protect its cells against ice. Now we meet animals that have chosen each of these paths."
+  },
+  {
+   "type": "landmark",
+   "depth": 0.8,
+   "name": "Vostok İstasyonu",
+   "name_en": "Vostok Station",
+   "value": "−89,2 °C",
+   "value_en": "−89.2 °C",
+   "chapter": true,
+   "tag": "DÜNYA REKORU",
+   "text": "Termometremizin en alt noktası Antarktika'daki Vostok İstasyonu. Yirmi bir Temmuz bin dokuz yüz seksen üç günü burada eksi seksen dokuz virgül iki derece ölçüldü. Bu, yeryüzünde güvenilir şekilde ölçülmüş en düşük doğal sıcaklık.",
+   "text_en": "The lowest point on our thermometer is Vostok Station in Antarctica. On 21 July 1983, minus 89.2 degrees was measured here. It is the lowest reliably measured natural temperature on Earth."
+  },
+  {
+   "type": "creature",
+   "depth": 20,
+   "name": "Kutup Yünlü Ayı Güvesi",
+   "short": "Yünlü Ayı Güvesi",
+   "name_en": "Arctic woolly bear moth",
+   "latin": "Gynaephora groenlandica",
+   "range": "−70 °C",
+   "measure": "DAYANIM",
+   "text": "Listemizin en soğuk hayvanı, tüylü küçük bir tırtıl: kutup yünlü ayı güvesi. Kış uykusundaki bu tırtıl eksi yetmiş dereceye kadar dayanabiliyor. Kanada'nın kuzey adalarında, Grönland'da ve Rusya'nın Wrangel Adası'nda yaşıyor. Sonbahar gelince vücudunda gliserol ve betain gibi donmayı önleyici maddeler üretiyor ve donup kalıyor. Donmuş haldeyken metabolizması neredeyse tamamen duruyor. Baharda yeniden beslenmeye başladıktan yalnızca birkaç saat sonra hücrelerinin enerji santralleri, yani mitokondrileri, yeniden tam olarak çalışmaya başlıyor. Kutup yazı çok kısa olduğu için tırtıl evresi yedi yıla kadar uzayabiliyor ve her baharda deri değiştiriyor. Yetişkin bir güve olarak geçirdiği süre ise tek bir yazın en fazla üç dört haftası. Güneşlenerek vücut ısısını yirmi dereceye kadar artırabiliyor.",
+   "text_en": "The coldest animal on our list is a small hairy caterpillar: the Arctic woolly bear moth. In its winter dormancy this caterpillar can withstand temperatures as low as minus 70 degrees. It lives on the islands of the Canadian Arctic, in Greenland and on Russia's Wrangel Island. In autumn it produces antifreeze compounds such as glycerol and betaine and freezes solid. In its frozen state its metabolism almost stops entirely. In spring, just a few hours after it becomes active again, its mitochondria, the power plants of its cells, are fully working again. Because the Arctic summer is so short, its caterpillar life can last up to 7 years, with a moult every spring. Its life as an adult moth lasts at most 3 to 4 weeks of a single summer. By basking in the sun it can raise its body temperature by up to 20 degrees."
+  },
+  {
+   "type": "landmark",
+   "depth": 22.3,
+   "name": "Oymyakon, Sibirya",
+   "name_en": "Oymyakon, Siberia",
+   "value": "−67,7 °C",
+   "value_en": "−67.7 °C",
+   "tag": "YERLEŞİM REKORU",
+   "text": "Biraz ısınıyoruz. Sibirya'daki Oymyakon köyünde altı Şubat bin dokuz yüz otuz üç günü eksi altmış yedi virgül yedi derece ölçüldü. İnsanların sürekli yaşadığı bir yerde kaydedilen en düşük sıcaklıklardan biri bu.",
+   "text_en": "We warm up a little. In the Siberian village of Oymyakon, minus 67.7 degrees was measured on 6 February 1933. It is one of the lowest temperatures ever recorded in a permanently inhabited place."
+  },
+  {
+   "type": "creature",
+   "depth": 27.5,
+   "name": "Kar Baykuşu",
+   "name_en": "Snowy owl",
+   "latin": "Bubo scandiacus",
+   "range": "−62,5 °C",
+   "measure": "HAVA",
+   "text": "Karşınızda kutupların beyaz avcısı: kar baykuşu. Eksi altmış iki virgül beş derecede hiçbir rahatsızlık belirtisi göstermeden kaldığı kaydedildi. Bir deneyde eksi doksan üç dereceye beş saat boyunca dayandı, ancak bu sürenin sonunda oksijen tüketiminde zorlandığı görüldü. Bunu mümkün kılan şey olağanüstü tüyleri. Tüylerindeki ısı iletimi kuşlar arasında Adelie pengueninden sonra belki de en düşüğü. Ayak parmakları bile kalın beyaz tüylerle kaplı ve bu tüyler bilinen bütün baykuşlar arasında en uzunu, ortalama otuz üç milimetre. Kutuplardaki en büyük yırtıcı kuş.",
+   "text_en": "Meet the white hunter of the poles: the snowy owl. It has been recorded at minus 62.5 degrees with no obvious discomfort. In one experiment it withstood a 5-hour exposure to minus 93 degrees, although by the end it seemed to struggle with oxygen consumption. What makes this possible is its extraordinary plumage. Its thermal conduction is perhaps the second lowest of any bird, after only the Adélie penguin. Even its toes are covered in thick white feathers, the longest of any owl, averaging 33 millimetres. It is the largest avian predator of the High Arctic."
+  },
+  {
+   "type": "creature",
+   "depth": 40,
+   "name": "Sibirya Semenderi",
+   "name_en": "Siberian salamander",
+   "latin": "Salamandrella keyserlingii",
+   "range": "−50 °C",
+   "measure": "DAYANIM",
+   "text": "Şimdi Sibirya'nın ormanlarındayız. Burada yalnızca dokuz ile on iki buçuk santimetre boyunda bir amfibi yaşıyor: Sibirya semenderi. Bu küçük semender eksi elli dereceye varan derin donmalardan sağ çıkabiliyor. Bunu yapmak için vücut ağırlığının dörtte birini kaybediyor. Vücudundaki suyun bir kısmını atıyor, karaciğeri küçülüyor ve vücudundaki gliserol yoğunluğu artıyor. Ural Dağları'nın doğusundan Kamçatka Yarımadası'na kadar uzanan geniş bir alanda yaşıyor. Japonya'nın Hokkaido adasında da ayrı bir topluluğu var. Geceleri yerin üstünde avlanıyor. Kuyruğu gövdesinden uzun ve her ayağında pençesiz dört parmak var.",
+   "text_en": "Now we are in the forests of Siberia. Here lives an amphibian only 9 to 12.5 centimetres long: the Siberian salamander. This small salamander can survive deep freezes as low as minus 50 degrees. To do this it loses a quarter of its body weight. It sheds water, its liver shrinks and the concentration of glycerol in its body rises. It lives across a huge area from east of the Ural Mountains to the Kamchatka Peninsula. There is also an isolated population on Hokkaido in Japan. It forages above ground at night. Its tail is longer than its body and each foot has four clawless toes."
+  },
+  {
+   "type": "creature",
+   "depth": 50,
+   "name": "Tibet Antilobu",
+   "name_en": "Tibetan antelope",
+   "latin": "Pantholops hodgsonii",
+   "range": "−40 °C",
+   "measure": "HAVA",
+   "text": "Dünyanın çatısı Tibet Platosu'na çıkıyoruz. Burada yaşayan Tibet antilobu, eksi kırk dereceye kadar düşen sıcaklıklarda hayatta kalabiliyor. Üç bin iki yüz elli ile beş bin beş yüz metre arasındaki soğuk bozkırlarda yaşıyor. Kışın yiyecek bulmak için karı kazıyor. Bu yüksekliğe özel bir uyumu var: yetişkinlerde bile hemoglobinin cenin halini taşıyor. Bu uyum başka hiçbir memelide belgelenmemiş. Onu korumasız bırakan şey ise kendi sıcak tüyü. Şahtuş denen yumuşak alt tüyünden tek bir şal yapmak için üç ila beş antilobun tüyü gerekiyor. Dişiler yavrulamak için her yıl üç yüz kilometreye kadar göç ediyor. Yavrular doğduktan on beş dakika sonra ayağa kalkabiliyor.",
+   "text_en": "We climb onto the roof of the world, the Tibetan Plateau. The Tibetan antelope that lives here can survive temperatures as low as minus 40 degrees. It lives on cold steppes between 3,250 and 5,500 metres. In winter it digs through the snow to find food. It has a special adaptation to this altitude: even as an adult it keeps the fetal form of haemoglobin. This adaptation has not been documented in any other mammal. What leaves it vulnerable is its own warm coat. Making a single shawl from its soft underfur, called shahtoosh, takes the fur of three to five antelopes. Females migrate up to 300 kilometres every year to give birth. Calves can stand within 15 minutes of birth."
+  },
+  {
+   "type": "zone",
+   "depth": 60,
+   "name": "BUZUL",
+   "name_en": "ICE",
+   "range": "−30 – 0 °C",
+   "range_en": "−30 – 0 °C",
+   "text": "Eksi otuz dereceyi geçtik ve buz kuşağına girdik. Kışları uzun ve karanlık, yazları kısa. Toprak çoğu zaman donmuş. Burada hayvanların bir kısmı vücut ısısını sabit tutmak için sürekli enerji harcıyor. Bir kısmı ise kışı uykuda geçiriyor ve vücut ısısını sıfırın altına bile düşürüyor. Bu kuşağın sonunda suyun donma noktasına ulaşacağız.",
+   "text_en": "We have passed minus 30 degrees and entered the ice belt. Winters are long and dark, summers are short. The ground is frozen much of the time. Here some animals spend energy constantly to keep their body temperature steady. Others spend the winter dormant and let their body temperature drop even below zero. At the end of this belt we will reach the freezing point of water."
+  },
+  {
+   "type": "creature",
+   "depth": 60,
+   "name": "Çift Hörgüçlü Deve",
+   "name_en": "Bactrian camel",
+   "latin": "Camelus bactrianus",
+   "range": "−30 °C",
+   "measure": "HAVA",
+   "text": "Develer deyince aklımıza hep sıcak çöller gelir. Ama Orta Asya'nın Gobi Çölü'nde yaşayan çift hörgüçlü devenin kalın postu, kışın eksi otuz dereceye kadar soğuğa dayanabiliyor. Aynı post yazın elli dereceye kadar sıcağa da dayanıyor. Hörgüçleri sanıldığı gibi su değil, yağ deposu. Aylarca su içmeden yaşayabiliyor ama susamış bir deve bir günde iki yüz litre su içebiliyor. Kışın su ihtiyacını kar yiyerek karşılayan az sayıdaki hayvandan biri. Erkekleri ortalama altı yüz kilogram geliyor. Soğuğa, susuzluğa ve yüksekliğe olan bu dayanıklılığı yüzünden İpek Yolu kervanlarının taşıyıcısı oldu.",
+   "text_en": "When we think of camels we always picture hot deserts. But the thick coat of the Bactrian camel of Central Asia's Gobi Desert can withstand cold as low as minus 30 degrees in winter. The same coat also withstands heat up to 50 degrees in summer. Its humps are not water stores, as is often thought, but fat. It can go without water for months, yet a thirsty camel can drink up to 200 litres in a day. It is one of the few animals that regularly eat snow for water in winter. Males weigh around 600 kilograms. Its tolerance for cold, drought and altitude made it the carrier of the Silk Road caravans."
+  },
+  {
+   "type": "creature",
+   "depth": 70,
+   "name": "Japon Makağı",
+   "name_en": "Japanese macaque",
+   "latin": "Macaca fuscata",
+   "range": "−20 °C",
+   "measure": "HAVA",
+   "text": "Kar maymunu olarak da bilinen Japon makağı, eksi yirmi dereceye kadar düşen sıcaklıklarla başa çıkabiliyor. İnsan dışında hiçbir primat bundan daha kuzeyde ya da daha soğuk bir iklimde yaşamıyor. En kuzeydeki toplulukları Honşu adasının en kuzey ucundaki Şimokita Yarımadası'nda. Bazıları yerin aylarca karla kaplı kaldığı bölgelerde yaşıyor. Tüyleri hava soğudukça kalınlaşıyor. Jigokudani'deki makaklar kışın ısınmak için kaplıcalara giriyor ve araştırmalar bu banyoların stres düzeyini düşürdüğünü gösteriyor. Hatta birlikte kartopu yuvarlayarak oynadıkları da görülmüş.",
+   "text_en": "The Japanese macaque, also known as the snow monkey, can cope with temperatures as low as minus 20 degrees. No other non-human primate lives farther north or in a colder climate. Its northernmost populations live on the Shimokita Peninsula at the northern tip of Honshu. Some live where snow covers the ground for months. Its coat grows thicker as temperatures fall. The macaques of Jigokudani visit hot springs in winter to warm up, and studies show that bathing lowers their stress levels. They have even been seen rolling snowballs for fun."
+  },
+  {
+   "type": "creature",
+   "depth": 71,
+   "name": "Adelie Pengueni",
+   "name_en": "Adélie penguin",
+   "latin": "Pygoscelis adeliae",
+   "range": "−19 °C",
+   "measure": "HAVA",
+   "text": "Antarktika'ya dönüyoruz. Adelie pengueni yumurtasını Aralık ayında kuluçkaya yatırıyor. Aralık Antarktika'nın en sıcak ayı, ama o ayda bile sıcaklık eksi on dokuz dereceye kadar düşebiliyor. Bu penguen doğrudan kıtanın üzerinde yuva yapan yalnızca dört penguen türünden biri. Yuvalarını taşlardan yapıyor ve koloniler açık sudan yüz kilometreye kadar uzakta olabiliyor. Boyu yetmiş ile yetmiş üç santimetre. Başlıca besinleri kril ve balık. Ross Denizi'ndeki Adelie penguenleri güneşi takip ederek her yıl ortalama on üç bin kilometre göç ediyor. Kaydedilen en uzun yolculuk on yedi bin altı yüz kilometre.",
+   "text_en": "We return to Antarctica. The Adélie penguin incubates its egg in December. December is Antarctica's warmest month, yet even then the temperature can fall to minus 19 degrees. This penguin is one of only four penguin species that nest on the continent itself. It builds its nest from stones, and colonies can be up to 100 kilometres from open water. It is 70 to 73 centimetres tall. Its main foods are krill and fish. Adélie penguins in the Ross Sea migrate an average of 13,000 kilometres each year, following the sun. The longest trek recorded is 17,600 kilometres."
+  },
+  {
+   "type": "creature",
+   "depth": 75.4,
+   "name": "Orman Kurbağası",
+   "name_en": "Wood frog",
+   "latin": "Lithobates sylvaticus",
+   "range": "−14,6 °C",
+   "measure": "VÜCUT",
+   "text": "Şimdi gerçekten şaşırtıcı bir hayvan. Kuzey Amerika'nın orman kurbağası kışı donmuş halde geçiriyor. Alaska'da doğal kış uykusundaki orman kurbağaları ortalama yüz doksan üç gün donmuş halde kaldı ve vücut sıcaklıkları ortalama eksi on dört virgül altı dereceye kadar indi. Donmuş bir orman kurbağasında hiçbir yaşam belirtisi yok. Kalp atmıyor, nefes yok, kan dolaşmıyor, beyin etkinliği ölçülemiyor. Karaciğerindeki glikojeni büyük miktarda glikoza çevirerek hücrelerini koruyor. Vücut suyunun yüzde altmış beş ile yetmişinden fazlası donmadıkça kış boyunca defalarca donup çözülebiliyor. Kuzey Kutup Dairesi'nin kuzeyinde yaşayan tek Kuzey Amerika kurbağası.",
+   "text_en": "Now a truly astonishing animal. North America's wood frog spends the winter frozen. In Alaska, wood frogs in natural hibernation stayed frozen for an average of 193 days, and their body temperature fell to an average minimum of minus 14.6 degrees. A frozen wood frog shows no signs of life. No heartbeat, no breathing, no blood circulation, no detectable brain activity. It protects its cells by converting liver glycogen into large amounts of glucose. It can freeze and thaw many times in a winter, as long as no more than about 65 to 70 percent of its body water freezes. It is the only North American frog found north of the Arctic Circle."
+  },
+  {
+   "type": "creature",
+   "depth": 82,
+   "name": "Bahar Ötücüsü Kurbağa",
+   "short": "Bahar Ötücüsü",
+   "name_en": "Spring peeper",
+   "latin": "Pseudacris crucifer",
+   "range": "−8 °C",
+   "measure": "VÜCUT",
+   "text": "Donmayı göze alan bir başka minik kurbağa: bahar ötücüsü. Boyu yalnızca on sekiz ile otuz sekiz milimetre, ağırlığı üç ile beş gram. Amerika Birleşik Devletleri'nin doğusunda ve Kanada'nın doğusunda yaşıyor. Kışı kütüklerin altında ya da gevşek ağaç kabuklarının arkasında geçiriyor. İç vücut sıvıları eksi sekiz dereceye kadar donsa bile hayatta kalabiliyor. Bunun için karaciğeri kana glikoz pompalıyor ve dokulardaki glikoz düzeyi normalin on ila yüz katına çıkabiliyor. Bu şeker hem antifriz gibi çalışıyor hem de kalp gibi organların donmadan korunmasına yardım ediyor. Erkekler balon gibi şişen ses keseleriyle yüksek perdeli, keskin bir öten ses çıkarıyor ve dişiler eşlerini bu seslerin frekansına ve yüksekliğine göre seçiyor.",
+   "text_en": "Another tiny frog that risks freezing: the spring peeper. It is only 18 to 38 millimetres long and weighs 3 to 5 grams. It lives in the eastern United States and eastern Canada. It spends the winter under logs or behind loose bark. It can survive the freezing of its internal body fluids down to minus 8 degrees. To do this its liver floods the blood with glucose, and tissue glucose levels can rise 10 to 100 times above normal. This sugar acts as an antifreeze and helps protect organs like the heart. Males make a loud, high-pitched peep with a vocal sac that inflates like a balloon, and females choose their mates by the frequency and volume of these calls."
+  },
+  {
+   "type": "creature",
+   "depth": 83,
+   "name": "Kutup Tilkisi",
+   "name_en": "Arctic fox",
+   "latin": "Vulpes lagopus",
+   "range": "−7 °C",
+   "measure": "HAVA",
+   "text": "Kutup tilkisinin kış postu o kadar iyi yalıtıyor ki, hava eksi yedi dereceye düşene kadar vücut ısısını korumak için fazladan ısı üretmesine bile gerek kalmıyor. Bilim insanları buna alt kritik sıcaklık diyor. Kutup tilkisi dış ortamla vücudunun içi arasında doksan ile yüz derece arasında değişen bir farka dayanmak zorunda. Kışın kürkü yüzde yüz kırk kalınlaşıyor. Ayak tabanları da tüylü ve donmuş zeminde dururken ayaklarının sıcaklığını eksi bir derecenin üzerinde tutabiliyor. Koku alma duyusu inanılmaz. Donmuş lemmingleri yetmiş yedi santimetreye kadar karın altında bulabiliyor. İzlanda'nın tek yerli kara memelisi.",
+   "text_en": "The Arctic fox's winter coat insulates so well that it does not even need to produce extra heat to keep warm until the air falls to minus 7 degrees. Scientists call this the lower critical temperature. The Arctic fox must endure a difference of up to 90 to 100 degrees between the outside air and its body core. In winter its fur grows 140 percent thicker. The soles of its feet are furred too, and while standing on frozen ground it can keep its feet above minus 1 degree. Its sense of smell is incredible. It can find frozen lemmings under up to 77 centimetres of snow. It is the only land mammal native to Iceland."
+  },
+  {
+   "type": "creature",
+   "depth": 86,
+   "name": "Buz Böceği",
+   "name_en": "Ice crawler",
+   "latin": "Grylloblatta",
+   "range": "−4 °C",
+   "measure": "VÜCUT",
+   "text": "Dağların tepesinde, buzulların kenarında ve buz mağaralarında yaşayan kanatsız, küçük bir böcek: buz böceği. Çoğu türün boyu üç santimetreden az. Kuzey Amerika'daki araştırmalar, vücut sıvılarının yaklaşık eksi dört derecede donmaya başladığını ve yaklaşık yirmi yedi derecenin onlar için ölümcül sınır olduğunu gösteriyor. Ama asıl şaşırtıcı olan sıcağa karşı zayıflıkları. Türlerin çoğu on derecede ölüyor. Hava fazla soğuduğunda kar örtüsünün altına, toprağa yakın yerlere sığınıyorlar. Gözleri ya hiç yok ya da küçülmüş. Ölü eklembacaklılar ve leşle besleniyorlar. Bir ömürleri altı ila on yıl sürebiliyor.",
+   "text_en": "A small wingless insect that lives on mountaintops, at the edges of glaciers and in ice caves: the ice crawler. Most species are less than 3 centimetres long. Studies of North American populations show that their body fluids start to freeze at about minus 4 degrees, and that about 27 degrees is their lethal upper limit. But what is truly surprising is how sensitive they are to warmth. Most species die at 10 degrees. When it gets too cold they shelter under the snowpack, close to the soil. Their eyes are either missing or reduced. They feed on dead arthropods and carrion. Individuals can live between 6 and 10 years."
+  },
+  {
+   "type": "creature",
+   "depth": 87.1,
+   "name": "Kutup Yer Sincabı",
+   "short": "Kutup Yer Sincabı",
+   "name_en": "Arctic ground squirrel",
+   "latin": "Urocitellus parryii",
+   "range": "−2,9 °C",
+   "measure": "VÜCUT",
+   "text": "Kutup yer sincabı kış uykusunda vücut ısısını sıfırın altına indiren bir memeli. Kış uykusu sırasında iç vücut sıcaklığı eksi iki virgül dokuz dereceye kadar düşüyor, beyni ise donma noktasının hemen üstünde tutuluyor. Bu, kış uykusuna yatan bütün memeliler arasında en düşük vücut sıcaklığı. Kalbi dakikada yaklaşık bir kez atıyor. Kanının neden donmadığına dair önde gelen açıklama, buz oluşumunu başlatan parçacıkları vücudundan temizlemesi. Böylece vücut sıvıları donmadan aşırı soğumuş halde kalabiliyor. Kış uykusu yedi sekiz ay sürüyor. Bu süre içinde ara ara on iki ile on beş saat titreyerek ısınıyor ve sonra yeniden soğuyor. Yazın kilosunu çoğu zaman iki katına çıkarıyor. Menzili diğer bütün sincaplardan daha kuzeye uzanıyor.",
+   "text_en": "The Arctic ground squirrel is a mammal that drops its body temperature below zero during hibernation. During hibernation its core body temperature falls as low as minus 2.9 degrees, while its brain is kept just above freezing. This is colder than any other hibernating mammal. Its heart beats about once a minute. A leading explanation for why its blood does not freeze is that it removes the particles that start ice formation, so its body fluids can stay liquid in a supercooled state. Hibernation lasts seven to eight months. During this time it occasionally shivers for 12 to 15 hours to rewarm, then cools again. In summer it often doubles its weight. Its range extends farther north than that of any other squirrel."
+  },
+  {
+   "type": "creature",
+   "depth": 88.7,
+   "name": "Antarktik Kril",
+   "name_en": "Antarctic krill",
+   "latin": "Euphausia superba",
+   "range": "−1,3 °C",
+   "measure": "SU",
+   "text": "Şimdi Güney Okyanusu'nun buz gibi sularına dalıyoruz. Antarktik krilin yaşadığı sularda sıcaklık eksi bir virgül üç ile artı üç derece arasında değişiyor. Tuzlu su olduğu için okyanus sıfırın altında bile donmuyor. Kril altı santimetreye kadar büyüyen, en fazla iki gram gelen küçük bir kabuklu. Ama sayıları akıl almaz. Gezegenin en bol hayvan türlerinden biri ve toplam ağırlığının yaklaşık beş yüz milyon ton olduğu tahmin ediliyor. Sürülerinde bir metreküp suda on bin ile otuz bin kril bulunabiliyor. Kaydedilen bir sürü dört yüz elli kilometrekarelik alanı kaplıyordu.",
+   "text_en": "Now we dive into the icy waters of the Southern Ocean. In the waters where Antarctic krill live, the temperature ranges from minus 1.3 to 3 degrees. Because it is salt water, the ocean does not freeze even below zero. Krill are small crustaceans that grow to 6 centimetres and weigh up to 2 grams. But their numbers are astonishing. They are one of the most abundant animal species on the planet, with a total biomass estimated at about 500 million tonnes. A swarm can hold 10,000 to 30,000 krill per cubic metre of water. One recorded swarm covered 450 square kilometres."
+  },
+  {
+   "type": "landmark",
+   "depth": 90,
+   "name": "Suyun donma noktası",
+   "name_en": "Freezing point of water",
+   "value": "0 °C",
+   "value_en": "0 °C",
+   "tag": "SINIR ÇİZGİSİ",
+   "text": "Sıfır derece. Saf su deniz seviyesinde bu sıcaklıkta donuyor. Az önce tanıştığımız kurbağa, sincap ve tırtıl için asıl tehlike bu çizginin altında başlıyordu. Şimdi bu sınırı geçiyoruz.",
+   "text_en": "Zero degrees. Pure water freezes at this temperature at sea level. For the frog, the squirrel and the caterpillar we just met, the real danger began below this line. Now we cross it."
+  },
+  {
+   "type": "zone",
+   "depth": 90,
+   "name": "SERİN",
+   "name_en": "COOL",
+   "range": "0 – 30 °C",
+   "range_en": "0 – 30 °C",
+   "text": "Serin kuşaktayız. Sıcaklıklar bize tanıdık geliyor. Ama burada da aşırılıklar var. Çöllerde bile geceler soğuk olabiliyor, yüksek dağlarda gün içinde sıcaklık büyük değişiyor. Bu kuşakta sıcaklığı dışarıdan değil, kendi vücutlarında aşırıya taşıyan iki hayvanla tanışacağız.",
+   "text_en": "We are in the cool belt. These temperatures feel familiar to us. But there are extremes here too. Even in deserts nights can be cold, and on high mountains temperatures swing widely during the day. In this belt we meet two animals that take temperature to extremes not outside, but inside their own bodies."
+  },
+  {
+   "type": "creature",
+   "depth": 91,
+   "name": "Namib Sis Böceği",
+   "name_en": "Namib fog-basking beetle",
+   "latin": "Onymacris unguicularis",
+   "range": "1 °C",
+   "measure": "VÜCUT",
+   "text": "Afrika'nın güneybatısındaki Namib Çölü'ne gidiyoruz. Çölün batı yarısı yılda sıfır ile on iki milimetre arası yağmur alıyor. Bu kurak yerde yaşayan siyah bir böcek suyunu sisten topluyor. Sisli gecelerde kum tepelerinin üstüne tırmanıyor, ön bacaklarının üzerinde amuda kalkıyor ve gövdesinde yoğunlaşan su damlalarını ağzına akıtıyor. Bu böceğin vücut sıcaklığı normalde otuz iki ile otuz sekiz derece arasında. Ama sisten su topladığı sırada vücut sıcaklığı bir dereceye kadar düşebiliyor. Kanındaki gliserol ve trehaloz donmaya karşı koruma sağlıyor. Bu sis toplama davranışı yalnızca iki Onymacris türünde görülüyor ve ilk kez bin dokuz yüz yetmiş altıda gözlendi.",
+   "text_en": "We travel to the Namib Desert in southwestern Africa. The western half of the desert receives between 0 and 12 millimetres of rain a year. In this arid place, a black beetle collects its water from fog. On foggy nights it climbs to the tops of sand dunes, stands on its forelegs in a headstand and lets the droplets that condense on its body run into its mouth. This beetle's body temperature is normally between 32 and 38 degrees. But while it collects water from the fog, its body temperature can fall as low as 1 degree. Glycerol and trehalose in its blood protect it against freezing. This fog-basking behaviour is known only in two Onymacris species and was first observed in 1976."
+  },
+  {
+   "type": "creature",
+   "depth": 93.3,
+   "name": "Kara Metalkuyruk",
+   "name_en": "Black metaltail",
+   "latin": "Metallura phoebe",
+   "range": "3,3 °C",
+   "measure": "VÜCUT",
+   "text": "Peru'nun And Dağları'ndayız. Burada yalnızca altı gram gelen bir sinekkuşu yaşıyor: kara metalkuyruk. Sinekkuşları geceleri kış uykusuna benzeyen bir duruma, uyuşukluğa geçebiliyor ve metabolizmalarını normalin on beşte birine indirebiliyor. And Dağları'nda yaklaşık üç bin sekiz yüz metrede yapılan ölçümlerde, uyuşukluk halindeki bir kara metalkuyruğun vücut sıcaklığı üç virgül üç dereceye düştü. Bu, bir kuş ya da kış uykusuna yatmayan bir memeli için bilinen en düşük vücut sıcaklığı. Kara metalkuyruk yalnızca Peru'da yaşıyor ve en çok iki bin yedi yüz metrenin üzerinde görülüyor. Erkekleri neredeyse tamamen siyah, gözünün arkasında beyaz bir leke ve parıldayan turkuaz yeşili bir boğazı var. Bazen çiçeğin dibini delerek nektarı çalıyor.",
+   "text_en": "We are in the Andes of Peru. Here lives a hummingbird weighing just 6 grams: the black metaltail. Hummingbirds can enter torpor at night, a state similar to hibernation, slowing their metabolism to one fifteenth of its normal rate. In measurements at about 3,800 metres in the Andes, the body temperature of a black metaltail in torpor fell to 3.3 degrees. This is the lowest known body temperature for a bird or a non-hibernating mammal. The black metaltail lives only in Peru and is most common above 2,700 metres. Males are almost entirely black, with a white spot behind the eye and a glittering turquoise-green throat. It sometimes robs nectar by piercing the base of a flower."
+  },
+  {
+   "type": "zone",
+   "depth": 120,
+   "name": "SICAK",
+   "name_en": "HOT",
+   "range": "30 – 50 °C",
+   "range_en": "30 – 50 °C",
+   "music_switch": true,
+   "text": "Otuz dereceyi geçtik ve sıcak kuşağa girdik. Buradan sonra tehlike yön değiştiriyor. Artık sorun ısıyı korumak değil, ısıdan kurtulmak. Su değerli, gölge değerli. Hayvanlar ya sıcağın en yoğun saatlerinde yer altına çekiliyor ya da suyu ve ısıyı idare etmek için olağanüstü yollar buluyor. Bu kuşakta kendi vücut ısımızı da geride bırakacağız.",
+   "text_en": "We have passed 30 degrees and entered the hot belt. From here on the danger changes direction. The problem is no longer keeping heat in but getting rid of it. Water is precious, shade is precious. Animals either retreat underground during the hottest hours or find extraordinary ways to manage water and heat. In this belt we will also leave our own body temperature behind."
+  },
+  {
+   "type": "creature",
+   "depth": 124,
+   "name": "Büyük Yol Koşucusu",
+   "short": "Yol Koşucusu",
+   "name_en": "Greater roadrunner",
+   "latin": "Geococcyx californianus",
+   "range": "34 °C",
+   "measure": "VÜCUT",
+   "text": "Kuzey Amerika çöllerinin hızlı koşucusu: büyük yol koşucusu. Bu kuş geceleri enerji harcamasını yüzde otuzdan fazla azaltıyor ve vücut sıcaklığını kırk dereceden otuz dört dereceye düşürüyor. Sabahları ise sırtını güneşe dönüyor, kanatlarını açıyor ve sırtındaki tüyleri kabartarak altındaki siyah derisini ortaya çıkarıyor. Böylece güneşin ısısını emerek yeniden ısınıyor. Sıcak mevsimde günün en sıcak saatlerinde gölgede dinleniyor. Uçabiliyor ama zamanının çoğunu yerde geçiriyor ve saatte otuz iki kilometreye kadar koşabiliyor. Amerika kıtasının en büyük guguk kuşu. Akrepler, fareler, kertenkeleler ve hatta genç çıngıraklı yılanlarla besleniyor.",
+   "text_en": "The fast runner of North America's deserts: the greater roadrunner. At night this bird cuts its energy use by more than 30 percent, lowering its body temperature from 40 to 34 degrees. In the morning it turns its back to the sun, spreads its wings and ruffles the feathers on its back to expose its black skin, absorbing the sun's heat to warm up again. In the hot season it rests in the shade during the hottest part of the day. It can fly, but spends most of its time on the ground and can run at up to 32 kilometres per hour. It is the largest cuckoo of the Americas. It eats scorpions, mice, lizards and even young rattlesnakes."
+  },
+  {
+   "type": "landmark",
+   "depth": 127,
+   "name": "İnsan vücudu",
+   "name_en": "Human body",
+   "value": "37 °C",
+   "value_en": "37 °C",
+   "tag": "REFERANS NOKTASI",
+   "text": "Otuz yedi derece. Sağlıklı bir insanın vücut sıcaklığı genellikle otuz altı buçuk ile otuz yedi buçuk derece arasında. Ekranın üstündeki gösterge bu yüzden her sıcaklığı otuz yedi dereceyle karşılaştırıyor. Şimdi kendi vücut ısımızın da üzerine çıkıyoruz.",
+   "text_en": "37 degrees. The body temperature of a healthy person is usually between 36.5 and 37.5 degrees. That is why the display at the top of the screen compares every temperature with 37 degrees. Now we climb above our own body temperature."
+  },
+  {
+   "type": "creature",
+   "depth": 127,
+   "name": "Gila Canavarı",
+   "name_en": "Gila monster",
+   "latin": "Heloderma suspectum",
+   "range": "37 °C",
+   "measure": "VÜCUT",
+   "text": "Amerika Birleşik Devletleri'nin yerli tek zehirli kertenkelesi: Gila canavarı. Vücut yüzeyini normalde otuz derece civarında tutuyor. Vücut sıcaklığı otuz yedi dereceye yaklaştığında ise kloakasından suyu buharlaştırarak kendini iki dereceye kadar soğutabiliyor. Ömrünün yüzde doksanını yer altında geçiriyor. Ağırlığı genellikle beş yüz elli ile sekiz yüz gram arasında. İlkbaharda yaptığı üç dört büyük öğünün bütün bir mevsime yettiği söyleniyor. Gençler tek öğünde kendi ağırlığının yarısı kadar yiyecek yutabiliyor. Zehrindeki bir molekül, bugün tip iki diyabet ve obezite tedavisinde kullanılan ilaçların geliştirilmesine temel oldu.",
+   "text_en": "The only venomous lizard native to the United States: the Gila monster. It normally keeps its body surface at about 30 degrees. When its body temperature approaches 37 degrees, it can cool itself by up to 2 degrees by evaporating water through its cloaca. It spends 90 percent of its life underground. It usually weighs between 550 and 800 grams. Three or four large meals in spring are said to give it enough energy for a whole season. Young Gila monsters can swallow up to half their body weight in a single meal. A molecule from its venom formed the basis for drugs now used to treat type 2 diabetes and obesity."
+  },
+  {
+   "type": "creature",
+   "depth": 135,
+   "name": "Çöl İguanası",
+   "name_en": "Desert iguana",
+   "latin": "Dipsosaurus dorsalis",
+   "range": "~45 °C",
+   "measure": "VÜCUT",
+   "text": "Diğer kertenkeleler yuvalarına çekildiğinde hâlâ dışarıda dolaşan bir kertenkele: çöl iguanası. Kuzey Amerika'nın güneybatı çöllerinde yaşıyor ve çok yüksek sıcaklıklara dayanabiliyor. Vücut sıcaklığı kırk derecenin başlarına gelince gölgeye geçiyor, kırk derecenin ortalarına, yani yaklaşık kırk beş dereceye ulaşınca bir yuvaya sığınıyor. Cins adı susamış kertenkele anlamına geliyor. Ortalama kırk bir santimetre boyunda. Çoğunlukla bitkilerle besleniyor ve özellikle kreozot çalısının çiçeklerine ve yapraklarına düşkün. Sıklıkla tilki ve çöl kaplumbağası yuvalarını kullanıyor. Kertenkelelerin iguana ailesinin diğer bütün üyelerinden yaklaşık otuz sekiz milyon yıl önce ayrılmış bir kolu.",
+   "text_en": "A lizard that is still out and about after other lizards have retreated into their burrows: the desert iguana. It lives in the deserts of southwestern North America and can withstand very high temperatures. When its body temperature reaches the low forties it seeks shade, and when it reaches the mid-forties, about 45 degrees, it takes refuge in a burrow. Its genus name means thirsty lizard. It averages 41 centimetres in total length. It is mostly herbivorous and is especially fond of the flowers and leaves of the creosote bush. It often uses the burrows of kit foxes and desert tortoises. It is the sister lineage of all other iguanids, having diverged about 38 million years ago."
+  },
+  {
+   "type": "creature",
+   "depth": 136.7,
+   "name": "Ölüm Vadisi Dişli Sazancığı",
+   "short": "Ölüm Vadisi Balığı",
+   "name_en": "Death Valley pupfish",
+   "latin": "Cyprinodon salinus",
+   "range": "46,7 °C",
+   "measure": "SU",
+   "text": "Ölüm Vadisi'nde bir balık yaşadığını düşünmek bile zor. Ama Ölüm Vadisi dişli sazancığı, başka balıkları öldürecek koşullara dayanabiliyor. Okyanustan dört kat daha tuzlu suya, kırk altı virgül yedi dereceye kadar sıcak suya ve sıfır dereceye kadar soğuk suya dayanıyor. Dünyada yalnızca iki yerde yaşıyor. Biri deniz seviyesinin yaklaşık kırk dokuz metre altındaki Salt Creek, diğeri yaklaşık seksen metre altındaki Cottonball Marsh. Son buzul çağının sonunda kuruyan dev Manly Gölü'nün ekosisteminden geriye kalanlar olduğu düşünülüyor. Ortalama boyu yalnızca üç virgül yedi santimetre. Erkekler Nisan'dan Ekim'e kadar süren üreme mevsiminde parlak maviye dönüyor. Bireylerin ömrü yalnızca on ile on iki ay.",
+   "text_en": "It is hard even to imagine a fish living in Death Valley. Yet the Death Valley pupfish can withstand conditions that would kill other fish. It tolerates water four times saltier than the ocean, hot water up to 46.7 degrees and cold water down to 0 degrees. It lives in only two places in the world: Salt Creek, about 49 metres below sea level, and Cottonball Marsh, about 80 metres below sea level. It is thought to be a remnant of the ecosystem of the great Lake Manly, which dried up at the end of the last ice age. It averages only 3.7 centimetres in length. Males turn bright blue during the mating season, from April to October. Individuals live only 10 to 12 months."
+  },
+  {
+   "type": "creature",
+   "depth": 139,
+   "name": "Tek Hörgüçlü Deve",
+   "name_en": "Dromedary",
+   "latin": "Camelus dromedarius",
+   "range": "49 °C",
+   "measure": "HAVA",
+   "text": "Çölün simgesi tek hörgüçlü deve, kırk dokuz dereceye varan hava sıcaklıklarında terlemeden hayatta kalabiliyor. Bunun bir sırrı vücut sıcaklığını gün içinde otuz bir ile kırk bir virgül yedi derece arasında oynatabilmesi. Böylece serinletmek için su harcamıyor. Vücut suyunun yüzde otuzundan fazlasını kaybetmeye dayanabiliyor ve bu, diğer memelilerin çoğu için imkânsız. Susadığında tek seferde yüz on dört litreye kadar su içebiliyor. Kırmızı kan hücreleri oval olan tek memeli ve bu, susuz kaldığında kanının akmasını kolaylaştırıyor. Hörgücünde otuz altı kilograma kadar yağ depoluyor. Bugün doğada kendiliğinden yaşayan yabani tek hörgüçlü deve yok. Avustralya'da ise insanların getirdiği develerden türeyen büyük bir yaban hayatı nüfusu var.",
+   "text_en": "The symbol of the desert, the dromedary, can survive air temperatures as high as 49 degrees without sweating. One secret is that it can let its body temperature swing between 31 and 41.7 degrees during the day, so it does not spend water on cooling. It can tolerate losing more than 30 percent of its body water, which is generally impossible for other mammals. When thirsty it can drink up to 114 litres in a single sitting. It is the only mammal with oval red blood cells, which helps its blood flow when it is dehydrated. Its hump stores up to 36 kilograms of fat. Today there are no naturally wild dromedaries. In Australia, however, there is a large feral population descended from camels brought by people."
+  },
+  {
+   "type": "zone",
+   "depth": 140,
+   "name": "KAVURUCU",
+   "name_en": "SCORCHING",
+   "range": "50 – 70 °C",
+   "range_en": "50 – 70 °C",
+   "text": "Elli derece. Kavurucu kuşaktayız. Bu sıcaklıkta proteinler bozulmaya başlıyor ve çoğu hayvan için kısa bir maruz kalma bile ölümcül. Çöl kumunun yüzeyi havadan çok daha sıcak olabiliyor. Burada hayatta kalanlar ya bu sıcağa dakikalarca dayanıp kaçmayı başaran ya da yer altında saklanan uzmanlar.",
+   "text_en": "50 degrees. We are in the scorching belt. At these temperatures proteins begin to break down, and for most animals even a short exposure is deadly. The surface of desert sand can be far hotter than the air. Those that survive here are specialists that endure the heat for a few minutes and escape, or hide underground."
+  },
+  {
+   "type": "creature",
+   "depth": 140,
+   "name": "Pompeii Solucanı",
+   "name_en": "Pompeii worm",
+   "latin": "Alvinella pompejana",
+   "range": "50 °C",
+   "measure": "SU",
+   "text": "Şimdi çölden ayrılıp okyanusun dibine, yaklaşık iki bin beş yüz metre derinliğe iniyoruz. Doğu Pasifik Sırtı'ndaki sıcak su bacalarında yaşayan Pompeii solucanı, Dünya'nın sıcağa en dayanıklı hayvanlarından biri. Bacaların duvarlarına yapışık tüplerde yaşıyor. Kuyruğunun ucu sıcaklığı elli dereceyi bulan suda dururken, tüye benzeyen başını yirmi iki derece civarındaki çok daha serin suya uzatıyor. Sırtında bir santimetre kalınlığa ulaşabilen yün gibi bir bakteri örtüsü taşıyor ve bu örtünün onu ısıya karşı bir ölçüde yalıttığı düşünülüyor. Kırmızı dokunaç benzeri solungaçları var. Bin dokuz yüz seksenlerin başında Galapagos Adaları açıklarında Fransız deniz biyologları tarafından keşfedildi. Cins adını onu bulan denizaltı Alvin'den alıyor.",
+   "text_en": "Now we leave the desert and descend to the ocean floor, to a depth of about 2,500 metres. The Pompeii worm, which lives at hydrothermal vents on the East Pacific Rise, is one of the most heat-tolerant animals on Earth. It lives in tubes attached to the vent walls. While the end of its tail rests in water as hot as 50 degrees, it sticks its feather-like head out into much cooler water of about 22 degrees. On its back it carries a fleece-like covering of bacteria up to 1 centimetre thick, thought to give it some thermal insulation. It has red, tentacle-like gills. It was discovered in the early 1980s off the Galápagos Islands by French marine biologists. Its genus name comes from Alvin, the submersible."
+  },
+  {
+   "type": "creature",
+   "depth": 143.6,
+   "name": "Sahra Gümüş Karıncası",
+   "short": "Gümüş Karınca",
+   "name_en": "Saharan silver ant",
+   "latin": "Cataglyphis bombycina",
+   "range": "53,6 °C",
+   "measure": "VÜCUT",
+   "text": "Sahra Çölü'nün gümüş karıncası bilinen en sıcağa dayanıklı hayvanlardan biri. Dayanabildiği en yüksek vücut sıcaklığı elli üç virgül altı derece. Öğle saatlerinde yaklaşık kırk yedi dereceyi bulan sıcakta yuvasından çıkıp sıcaktan ölmüş hayvanların leşlerini topluyor. İşini sıcaklık onu öldürebilecek düzeye çıkmadan bitirmesi gerekiyor. Bu yüzden günde yalnızca yaklaşık on dakika yuvasının dışında kalıyor. Yuvadan çıkmadan önce vücudunda ısı şoku proteinleri üretiyor. Üçgen kesitli gümüş renkli tüyleri ışığı yansıtıyor ve ısıyı dışarı atmasına yardım ediyor. Bilinen on iki bin karınca türünün en hızlısı. Saniyede seksen beş buçuk santimetre koşuyor, yani bir saniyede kendi boyunun yüz sekiz katı.",
+   "text_en": "The silver ant of the Sahara is one of the most heat-resistant animals known. Its critical thermal maximum, the highest body temperature it can survive, is 53.6 degrees. It leaves its nest in midday heat of around 47 degrees to scavenge the corpses of animals killed by the heat. It has to finish its work before the temperature reaches a level that could kill it. That is why it spends only about ten minutes a day outside its nest. Before leaving the nest it produces heat-shock proteins. Its silvery hairs, triangular in cross-section, reflect light and help it shed heat. It is the fastest of the world's 12,000 known ant species. It runs 855 millimetres per second, 108 times its own body length every second."
+  },
+  {
+   "type": "landmark",
+   "depth": 146.7,
+   "name": "Furnace Creek, Ölüm Vadisi",
+   "name_en": "Furnace Creek, Death Valley",
+   "value": "56,7 °C",
+   "value_en": "56.7 °C",
+   "chapter": true,
+   "tag": "HAVA REKORU",
+   "text": "Amerika Birleşik Devletleri'ndeki Ölüm Vadisi'nde, Furnace Creek'te on Temmuz bin dokuz yüz on üç günü elli altı virgül yedi derece ölçüldü. Dünya Meteoroloji Örgütü'ne göre bu, yeryüzünde kaydedilmiş en yüksek hava sıcaklığı.",
+   "text_en": "At Furnace Creek in Death Valley in the United States, 56.7 degrees was measured on 10 July 1913. According to the World Meteorological Organization, this is the highest air temperature ever registered on Earth."
+  },
+  {
+   "type": "creature",
+   "depth": 150,
+   "name": "Çöl Kaplumbağası",
+   "name_en": "Desert tortoise",
+   "latin": "Gopherus agassizii",
+   "range": "60 °C",
+   "measure": "ZEMİN",
+   "text": "Çöl kaplumbağası, zemin sıcaklığının altmış dereceyi aştığı bölgelerde yaşayabiliyor. Sırrı kazmak. Ömrünün en az yüzde doksan beşini yuvalarda geçiriyor ve bir yılda beş ile yirmi beş arasında farklı yuva kullanıyor. Mojave ve Sonora çöllerinde, Ölüm Vadisi'nde deniz seviyesinin altından bin altı yüz metreyi aşan yüksekliklere kadar yaşıyor. Büyük idrar kesesinde vücut ağırlığının yüzde kırkından fazlası kadar su ve atık depolayabiliyor. Bu sayede yetişkinler bir yıl ya da daha uzun süre su bulmadan yaşayabiliyor. Yavrularının ise yalnızca yüzde iki ile beşinin erginliğe ulaştığı tahmin ediliyor.",
+   "text_en": "The desert tortoise can live in areas where ground temperatures exceed 60 degrees. Its secret is digging. It spends at least 95 percent of its life in burrows and uses between 5 and 25 different burrows a year. It lives in the Mojave and Sonoran deserts, from below sea level in Death Valley to more than 1,600 metres. Its large bladder can store water and waste amounting to over 40 percent of its body weight. Thanks to this, adults can survive a year or more without access to water. Only 2 to 5 percent of its hatchlings are estimated to reach maturity."
+  },
+  {
+   "type": "creature",
+   "depth": 150,
+   "name": "Küçük Flamingo",
+   "name_en": "Lesser flamingo",
+   "latin": "Phoeniconaias minor",
+   "range": "60 °C",
+   "measure": "GÖL SUYU",
+   "text": "Tanzanya'daki Natron Gölü çoğu hayvan için yaşanmaz bir yer. Gölün suyu altmış dereceye kadar ısınabiliyor, kıyıdaki hava sıklıkla kırk dereceyi aşıyor ve suyun pH değeri on ikiyi geçebiliyor. Bu kostik su, gölde ölen canlıların bedenlerini taşa dönüştürüyor. Ama küçük flamingolar için burası bir cennet. Natron Gölü, Doğu Afrika'daki iki buçuk milyon küçük flamingonun düzenli olarak ürediği tek yer ve dünyadaki küçük flamingoların yüzde yetmiş beşi burada doğuyor. Yakıcı su, mevsimlik tuz adacıklarındaki yuvalarına yırtıcıların ulaşmasını engelliyor. Küçük flamingo en küçük flamingo türü, bir ile iki virgül yedi kilogram arası geliyor. Pembe rengini yalnızca çok alkali göllerde büyüyen Spirulina adlı algden alıyor.",
+   "text_en": "Lake Natron in Tanzania is an inhospitable place for most animals. Its water can reach up to 60 degrees, air temperatures at the lake are frequently above 40 degrees and the water's pH can exceed 12. This caustic water calcifies the bodies of creatures that die in the lake. But for lesser flamingos it is a paradise. Lake Natron is the only regular breeding area in East Africa for 2.5 million lesser flamingos, and 75 percent of the world's lesser flamingos are born here. The caustic water keeps predators away from their nests on seasonal salt islands. The lesser flamingo is the smallest flamingo species, weighing 1.2 to 2.7 kilograms. It gets its pink colour from Spirulina, an alga that grows only in very alkaline lakes."
+  },
+  {
+   "type": "zone",
+   "depth": 160,
+   "name": "ÖLÜMCÜL",
+   "name_en": "LETHAL",
+   "range": "70 – 100 °C",
+   "range_en": "70 – 100 °C",
+   "text": "Yetmiş derecenin üstündeyiz. Bu kuşakta bilinen hiçbir hayvan uzun süre yaşayamıyor. Burada hayat yalnızca mikroskobik canlılara, bakterilere ve arkelere kalıyor. Termometremizin son iki durağı hayvanların değil, gezegenin kendi rekorları.",
+   "text_en": "We are above 70 degrees. In this belt no known animal can live for long. Life here belongs only to microscopic organisms, bacteria and archaea. The last two stops on our thermometer are records not of animals but of the planet itself."
+  },
+  {
+   "type": "landmark",
+   "depth": 160.7,
+   "name": "Lut Çölü, İran",
+   "name_en": "Lut Desert, Iran",
+   "value": "70,7 °C",
+   "value_en": "70.7 °C",
+   "tag": "YÜZEY REKORU",
+   "text": "İran'daki Lut Çölü'nde, uydu ölçümlerine göre iki bin beş yılında zemin yüzeyinin sıcaklığı yetmiş virgül yedi dereceye ulaştı. Bu, NASA uydusunun yedi yıllık ölçümlerinde Dünya'da kaydedilen en yüksek yüzey sıcaklığıydı.",
+   "text_en": "In the Lut Desert in Iran, satellite measurements showed the land surface temperature reaching 70.7 degrees in 2005. It was the highest surface temperature recorded on Earth in seven years of measurements by a NASA satellite."
+  },
+  {
+   "type": "landmark",
+   "depth": 190,
+   "name": "Suyun kaynama noktası",
+   "name_en": "Boiling point of water",
+   "value": "100 °C",
+   "value_en": "100 °C",
+   "tag": "SON NOKTA",
+   "text": "Ve termometremizin tepesi: yüz derece. Deniz seviyesinde su bu sıcaklıkta kaynıyor. Okyanus tabanındaki sıcak su bacalarından çıkan su bundan çok daha sıcak olabiliyor ama orada bile hayvanlar bu kaynar suyun tam içinde değil, hemen kenarındaki serin şeritte yaşıyor.",
+   "text_en": "And the top of our thermometer: 100 degrees. At sea level, water boils at this temperature. Water rising from hydrothermal vents on the ocean floor can be much hotter, but even there animals do not live inside the scalding water, only in the cooler strip right beside it."
+  },
+  {
+   "type": "outro",
+   "depth": 190,
+   "text": "Eksi yetmiş dereceye dayanan bir tırtıldan, kuyruğunu elli derecelik suya daldıran bir solucana kadar yirmi dört canlıyla tanıştık. Yolda kalbi durup yeniden atan donmuş kurbağaları, vücut ısısını sıfırın altına indiren bir sincabı, terlemeden kırk dokuz dereceye dayanan bir deveyi ve kendi bedenini öldürebilecek sıcakta koşan bir karıncayı gördük. Belki de en şaşırtıcısı şu: bu hayvanların çoğu sıcaklığı yenmiyor, onunla anlaşıyor. Kimi donmayı kabul ediyor, kimi yer altına iniyor, kimi de yalnızca birkaç dakikalığına dışarı çıkıyor. Bu yolculuğu beğendiyseniz kanala abone olmayı ve videoyu beğenmeyi unutmayın. Bir sonraki belgeselde görüşmek üzere.",
+   "text_en": "From a caterpillar that withstands minus 70 degrees to a worm that dips its tail into 50-degree water, we have met 24 animals. Along the way we saw frozen frogs whose hearts stop and start again, a squirrel that drops its body temperature below zero, a camel that endures 49 degrees without sweating and an ant that runs in heat that could kill its own body. Perhaps the most surprising thing is this: most of these animals do not defeat temperature, they come to terms with it. Some accept freezing, some go underground, and some step outside for only a few minutes. If you enjoyed this journey, don't forget to subscribe to the channel and like the video. See you in the next documentary."
+  }
+ ]
+}
