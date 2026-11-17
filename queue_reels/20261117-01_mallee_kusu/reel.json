@@ -1,0 +1,171 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Odyssey.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/227027539/original.jpeg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/478555715/original.jpg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/227027500/original.jpeg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/441574647/original.jpeg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/478555738/original.jpg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/483997638/original.jpeg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/330984159/original.jpeg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/351043775/original.jpeg"
+ },
+ "segments": [
+  {
+   "text": "Bu kuş kuluçka makinesi gibi tam 33 derecelik bir yuva yapıyor.",
+   "image": "p1.jpg",
+   "cx": 0.6,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Mallee kuşu, Avustralya'nın yarı kurak çalılıklarında yaşıyor.",
+   "image": "p2.jpg",
+   "cx": 0.6,
+   "cy": 0.6,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Erkek, yaklaşık üç metre genişliğinde bir çukur kazıyor.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.35,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Çukuru bitki artıklarıyla doldurup kumla örtüyor; çürüyen bitkiler ısı veriyor.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Sıcaklığı sabit 33 derecede tutmak için kumdaki hava deliklerini açıp kapatıyor.",
+   "image": "p5.jpg",
+   "cx": 0.55,
+   "cy": 0.55,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Dişi bir sezonda kendi ağırlığının yaklaşık iki buçuk katı kadar yumurta bırakıyor.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Yavrular anne babasını hiç görmeden, bir günde uçmayı öğreniyor.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.55,
+   "motion": "pan_right"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.65,
+  "cy": 0.4,
+  "title": [
+   [
+    [
+     "BU KUŞ",
+     "R"
+    ]
+   ],
+   [
+    [
+     "YUMURTASINI",
+     "W"
+    ]
+   ],
+   [
+    [
+     "33 DERECEDE",
+     "W"
+    ]
+   ],
+   [
+    [
+     "ISITIYOR",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "kuş",
+ "hook_style": "sayı",
+ "yt_title": "33 Derecelik Yuva Yapan Kuş: Mallee Kuşu",
+ "en": {
+  "title": "The Bird That Builds a 33°C Incubator: Malleefowl",
+  "description": "The male malleefowl digs a huge pit, fills it with plant litter and covers it with sand, then opens and closes air vents to keep the eggs at a constant 33°C."
+ },
+ "caption": "Çürüyen bitkilerle ısınan kum yığınının hava deliklerini açıp kapatarak yumurtalarını sabit 33 derecede tutan mallee kuşu, kendi kuluçka makinesini yapıyor. 🐣🔥\n\n#terrawildnature #malleekuşu\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/227027539/original.jpeg",
+   "author": "Melissa Doherty",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/478555715/original.jpg",
+   "author": "Joshua S. Martin",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/227027500/original.jpeg",
+   "author": "Melissa Doherty",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/441574647/original.jpeg",
+   "author": "Connor Margetts",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/478555738/original.jpg",
+   "author": "Joshua S. Martin",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/483997638/original.jpeg",
+   "author": "themaskedlapwing",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/330984159/original.jpeg",
+   "author": "Lynn Harper",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/351043775/original.jpeg",
+   "author": "Max Tibby",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
