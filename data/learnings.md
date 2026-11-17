@@ -293,3 +293,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli (2,34), tuhaf görünüm (2,27), sayı (2,07), deniz omurgasızı (1,89) güçlü; Reels'te memeli 1,19, gizem tek örnekle 2,61.
 - Bugün uygulanan: Reels 8→9: çalı köpeği (memeli, gizem "soyu tükendi sanılan"; Feral_Chase ilk kez, 80 kelime, Commons CC0/CC BY-SA). Gönderi 13→15: tepeli geyik (memeli, tuhaf görünüm) ve taklitçi ahtapot (deniz omurgasızı, sayı); ikisi de CC BY/BY-SA. Yıldız burunlu köstebek elendi (tüm iyi fotoğraflar ölü hayvan).
 - Sonra kontrol et: çalı köpeği Reels'i (gizem kancası memelide tutuyor mu); iki gönderinin içerik değeri. Not: Commons'ta bazı "foto"lar çizimdi (Benson Moore), mutlaka Read/preview ile doğrula.
+
+## 2026-11-17 (akşam çalıştırması)
+- Rapordan öğrenilen: gönderide memeli (2,34), tuhaf görünüm (2,27), sayı (2,07), balık (1,92) güçlü; Reels'te memeli 1,19, gizem tek örnekle 2,61 (içerik 4,80).
+- Bugün uygulanan: Reels 8→9: çizgili possum (memeli, gizem "en az bilinen keseli"; Deep_Haze ilk kez, 73 kelime, iNat CC0 + Commons CC BY-SA). Gönderi 13→15: siyah-kızıl sengi (memeli, benzetme "akrabası fil") ve testere balığı (balık, tuhaf görünüm). Rus desmanı elendi (iNat fotoğrafları tuzaktaki ölü hayvan).
+- Sonra kontrol et: çizgili possum Reels'i (gizem + memeli); sengi gönderisi (benzetme zayıf grupta, memeli güçlü) ve testere balığı içerik değeri. Not: iNat aramasında "Pristis pristis" bitki ve güve döndürdü; iNat fotoğraflarını mutlaka Read ile doğrula.
