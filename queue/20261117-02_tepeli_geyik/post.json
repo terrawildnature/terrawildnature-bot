@@ -1,0 +1,91 @@
+{
+ "name": "tepeli geyik",
+ "group": "memeli",
+ "hook_style": "tuhaf görünüm",
+ "title": [
+  [
+   [
+    "BU GEYİĞİN AĞZINDA",
+    "W"
+   ]
+  ],
+  [
+   [
+    "2,6 CM'LİK",
+    "W"
+   ],
+   [
+    "KAZIK",
+    "R"
+   ]
+  ],
+  [
+   [
+    "DİŞLER VAR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "TEPELİ GEYİK",
+ "card_top": [
+  "Erkeklerin üst çenesinde",
+  "2,6 cm'ye varan dişler var."
+ ],
+ "card_bottom": [
+  "Alnındaki siyah saç tutamı 17 cm",
+  "uzayabilir ve minik boynuzlarını",
+  "neredeyse tamamen gizler."
+ ],
+ "right": [
+  "Orta Çin'in yağmurlu dağ",
+  "ormanlarında, 500 ile 4500 m",
+  "arasında yaşar.",
+  "Omuz yüksekliği 50-70 cm,",
+  "ağırlığı 17-30 kg kadardır."
+ ],
+ "loc": "Çin",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.47,
+   "cy": 0.55,
+   "zoom": 1.0
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.52,
+   "cy": 0.55,
+   "zoom": 1.0
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.68,
+   "cy": 0.3,
+   "zoom": 2.2
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Elaphodus cephalophus - Kuifhert - Diergaarde Blijdorp - Rotterdam - head.jpg",
+   "author": "AgainErick",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "use": "top",
+   "title": "File:Elaphodus cephalophus Side view Columbus Zoo 2010-05-21.JPG",
+   "author": "Shell Kinney",
+   "license": "CC BY 3.0",
+   "public_domain": false
+  },
+  {
+   "use": "inner",
+   "title": "File:Schofhirsch (Zoo Dresden).jpg",
+   "author": "Fiver, der Hellseher",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  }
+ ],
+ "caption": "Çin'in sisli dağ ormanlarında yaşayan tepeli geyiğin erkekleri, üst çenelerindeki 2,6 santime varan vampir gibi dişleriyle tanınıyor. 🦌🧛\n\n#terrawildnature #ilginçbilgiler #tepeligeyik\n\n📷 AgainErick (CC BY-SA 4.0), Shell Kinney (CC BY 3.0), Fiver, der Hellseher (CC BY-SA 4.0) / Wikimedia Commons"
+}

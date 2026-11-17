@@ -1,0 +1,91 @@
+{
+ "name": "taklitçi ahtapot",
+ "group": "deniz omurgasızı",
+ "hook_style": "sayı",
+ "title": [
+  [
+   [
+    "BU AHTAPOT",
+    "W"
+   ]
+  ],
+  [
+   [
+    "18 FARKLI",
+    "W"
+   ],
+   [
+    "CANLIYI",
+    "R"
+   ]
+  ],
+  [
+   [
+    "TAKLİT EDEBİLİR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "TAKLİTÇİ AHTAPOT",
+ "card_top": [
+  "Renginin yanında şeklini ve",
+  "hareketini de değiştiriyor."
+ ],
+ "card_bottom": [
+  "Kolları dışa açıp aslan balığını,",
+  "ikisini yan yana tutup deniz",
+  "yılanını canlandırıyor."
+ ],
+ "right": [
+  "1998'de Endonezya'daki Sulawesi",
+  "açıklarında keşfedildi.",
+  "Hint-Pasifik'in kumlu, çamurlu",
+  "dip sularında 15 m'den az",
+  "derinlikte yaşar. Boyu 60 cm."
+ ],
+ "loc": "Hint-Pasifik",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "zoom": 1.2
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.45,
+   "cy": 0.5,
+   "zoom": 1.3
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.6,
+   "cy": 0.35,
+   "zoom": 1.8
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Mimic octopus (Thaumoctopus mimicus) (41607220955).jpg",
+   "author": "Rickard Zerpe",
+   "license": "CC BY 2.0",
+   "public_domain": false
+  },
+  {
+   "use": "top",
+   "title": "File:Mimic Octopus3.jpg",
+   "author": "Silke Baron",
+   "license": "CC BY 2.0",
+   "public_domain": false
+  },
+  {
+   "use": "inner",
+   "title": "File:Mimic Octopus (14487382603).jpg",
+   "author": "Elias Levy",
+   "license": "CC BY 2.0",
+   "public_domain": false
+  }
+ ],
+ "caption": "Endonezya'nın çamurlu diplerinde yaşayan taklitçi ahtapot, aslan balığından deniz yılanına kadar 18 farklı canlıyı taklit ederek avcılardan kaçıyor. 🐙🐍\n\n#terrawildnature #ilginçbilgiler #taklitçiahtapot\n\n📷 Rickard Zerpe (CC BY 2.0), Silke Baron (CC BY 2.0), Elias Levy (CC BY 2.0) / Wikimedia Commons"
+}
