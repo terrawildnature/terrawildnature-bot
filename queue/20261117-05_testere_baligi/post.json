@@ -1,0 +1,87 @@
+{
+  "name": "testere balığı",
+  "group": "balık",
+  "hook_style": "tuhaf görünüm",
+  "title": [
+    [
+      [
+        "BU BALIĞIN BURNU",
+        "W"
+      ]
+    ],
+    [
+      [
+        "TESTERE GİBİ",
+        "R"
+      ]
+    ],
+    [
+      [
+        "DİŞLİ",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "TESTERE BALIĞI",
+  "card_top": [
+    "Burnundaki testerenin her",
+    "yanında 14-24 diş vardır."
+  ],
+  "card_bottom": [
+    "Balık, yumuşakça ve kabuklu",
+    "avlar. IUCN'ye göre nesli",
+    "kritik derecede tehlikede."
+  ],
+  "right": [
+    "Tropik kıyılarda yaşar, tatlı",
+    "suya da girer; nehirlerde",
+    "1.340 km içeri çıkabilir.",
+    "En büyüğü 7 m uzunlukta,",
+    "500-600 kg olabilir."
+  ],
+  "loc": "Tropik denizler",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 1.0
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.55,
+      "cy": 0.4,
+      "zoom": 1.0
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.55,
+      "cy": 0.55,
+      "zoom": 1.5
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Pristis pristis - Daly River.JPG",
+      "author": "Peter Kyne, Charles Darwin University",
+      "license": "CC BY 3.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Freshwater Sawfish Aquarium of the Pacific.jpg",
+      "author": "Jerry",
+      "license": "CC BY 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Pristis pristis townsville.jpg",
+      "author": "Simon Fraser University University Communications",
+      "license": "CC BY 2.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Burnundaki testere benzeri uzantının her yanında 14-24 diş taşıyan büyük dişli testere balığı, bugün IUCN'ye göre kritik derecede tehlike altında. 🦈🪚\n\n#terrawildnature #ilginçbilgiler #testerebalığı\n\n📷 Peter Kyne (CC BY 3.0), Jerry (CC BY 2.0), Simon Fraser University University Communications (CC BY 2.0) / Wikimedia Commons"
+}

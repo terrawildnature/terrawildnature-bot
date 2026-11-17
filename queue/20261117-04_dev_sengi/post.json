@@ -1,0 +1,87 @@
+{
+  "name": "siyah-kızıl sengi",
+  "group": "memeli",
+  "hook_style": "benzetme",
+  "title": [
+    [
+      [
+        "BU MİNİK HAYVANIN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "YAKIN AKRABASI",
+        "R"
+      ]
+    ],
+    [
+      [
+        "BİR FİL",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "SİYAH-KIZIL SENGİ",
+  "card_top": [
+    "Hortum gibi uzun burnuyla",
+    "böcekleri topraktan çıkarır."
+  ],
+  "card_bottom": [
+    "Fareye benzese de aslında",
+    "fillere daha yakın akraba;",
+    "ikisi Afrotheria grubunda."
+  ],
+  "right": [
+    "Kenya ve Tanzania'nın",
+    "ormanlarında yaşar.",
+    "Boyu yaklaşık 28 cm, ağırlığı",
+    "450-700 gram arasındadır.",
+    "Tek eşli yaşar, alanını korur."
+  ],
+  "loc": "Doğu Afrika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.52,
+      "cy": 0.55,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.55,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom": 1.6
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Antwerpen Zoo Steppeslurfhondje 2592.jpg",
+      "author": "Dosseman",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Antwerpen Zoo Steppeslurfhondje 2836.jpg",
+      "author": "Dosseman",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Antwerpen Zoo Steppeslurfhondje 2838.jpg",
+      "author": "Dosseman",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Fareye benzese de aslında fillerle aynı Afrotheria grubunda yer alan siyah-kızıl sengi, uzun hortumsu burnuyla toprağı eşeleyip böcekleri çıkarıyor. 🐘🪲\n\n#terrawildnature #ilginçbilgiler #sengi\n\n📷 Dosseman (CC BY-SA 4.0) / Wikimedia Commons"
+}
