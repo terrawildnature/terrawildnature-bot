@@ -1,0 +1,171 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Feral_Chase.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Animals in Kaliningrad Zoo - Speothos venaticus - 2024-06-13 - p4.jpg",
+  "p2.jpg": "File:Bush Dog (Speothos venaticus) (Captive specimen) (39662598515).jpg",
+  "p3.jpg": "File:Animals in Kaliningrad Zoo - Speothos venaticus - 2024-06-13 - p5.jpg",
+  "p4.jpg": "File:Bush dog at Chester Zoo 2.jpg",
+  "p5.jpg": "File:Parque Estadual do Turvo Anderson Cristiano Hendgen (11).jpg",
+  "p6.jpg": "File:Animals in Kaliningrad Zoo - Speothos venaticus - 2024-06-13 - p6.jpg",
+  "p7.jpg": "File:Dortmund - Zoo - Speothos venaticus 02 ies.jpg",
+  "p8.jpg": "File:Dortmund - Zoo - Speothos venaticus 01 ies.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu köpeği ilk önce fosillerden tanıdılar ve soyunun tükendiğini sandılar.",
+   "image": "p1.jpg",
+   "cx": 0.45,
+   "cy": 0.55,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Çalı köpeği, Orta ve Güney Amerika ormanlarında yaşayan küçük bir yırtıcı.",
+   "image": "p2.jpg",
+   "cx": 0.3,
+   "cy": 0.3,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Boyu yalnızca yirmi ile otuz santimetre, ağırlığı beş ile sekiz kilo.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Parmaklarının arası kısmen perdeli olduğu için çok iyi yüzüyor.",
+   "image": "p4.jpg",
+   "cx": 0.4,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Sürüler halinde avlanıyor; biri avı karada kovalarken diğerleri suda bekliyor.",
+   "image": "p5.jpg",
+   "cx": 0.4,
+   "cy": 0.78,
+   "motion": "zoom_out"
+  },
+  {
+   "text": "Sürü, kendinden çok daha büyük tapirleri bile avlayabiliyor.",
+   "image": "p6.jpg",
+   "cx": 0.55,
+   "cy": 0.65,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Yavrular kör doğuyor ve gözleri iki üç hafta sonra açılıyor.",
+   "image": "p7.jpg",
+   "cx": 0.46,
+   "cy": 0.55,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.65,
+   "motion": "pan_right"
+  }
+ ],
+ "cover": {
+  "image": "p2.jpg",
+  "cx": 0.3,
+  "cy": 0.2,
+  "title": [
+   [
+    [
+     "SOYU",
+     "R"
+    ]
+   ],
+   [
+    [
+     "TÜKENDİ",
+     "W"
+    ]
+   ],
+   [
+    [
+     "SANILAN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "KÖPEK",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "gizem",
+ "yt_title": "Soyu Tükendi Sanılan Köpek: Çalı Köpeği",
+ "en": {
+  "title": "The Dog Thought to Be Extinct: Bush Dog",
+  "description": "Described from fossils and long believed extinct, the bush dog is a small South American canid that hunts in packs, with some members chasing prey on land while others wait in the water."
+ },
+ "caption": "Fosillerden tanımlandığı için bir zamanlar soyunun tükendiği sanılan çalı köpeği, bugün Orta ve Güney Amerika'da sürüler halinde avlanıyor. 🐾🌿\n\n#terrawildnature #çalıköpeği\n\n📷 Bernard DUPONT (CC BY-SA 2.0), Mike Peel (CC BY-SA 4.0), Anderson cristiano hendgen (CC BY-SA 4.0), Frank Vincentz (CC BY-SA 3.0) / Wikimedia Commons\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "File:Animals in Kaliningrad Zoo - Speothos venaticus - 2024-06-13 - p4.jpg",
+   "author": "Александр Сигачёв",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "File:Bush Dog (Speothos venaticus) (Captive specimen) (39662598515).jpg",
+   "author": "Bernard DUPONT",
+   "license": "CC BY-SA 2.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Animals in Kaliningrad Zoo - Speothos venaticus - 2024-06-13 - p5.jpg",
+   "author": "Александр Сигачёв",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "File:Bush dog at Chester Zoo 2.jpg",
+   "author": "Mike Peel",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Parque Estadual do Turvo Anderson Cristiano Hendgen (11).jpg",
+   "author": "Anderson cristiano hendgen",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Animals in Kaliningrad Zoo - Speothos venaticus - 2024-06-13 - p6.jpg",
+   "author": "Александр Сигачёв",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "File:Dortmund - Zoo - Speothos venaticus 02 ies.jpg",
+   "author": "Frank Vincentz",
+   "license": "CC BY-SA 3.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Dortmund - Zoo - Speothos venaticus 01 ies.jpg",
+   "author": "Frank Vincentz",
+   "license": "CC BY-SA 3.0",
+   "public_domain": false
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}

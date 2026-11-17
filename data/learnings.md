@@ -288,3 +288,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: kuyruklar dolu (gönderi 15/15, Reels 9/9); yeni içerik üretilmedi.
 - Bugün uygulanan: yok; queue_failed/queue_reels_failed yok. zz_quokka hâlâ yeniden deneme kuyruğunda.
 - Sonra kontrol et: quokka Reels paylaşıldı mı, değilse queue_reels_failed/ içeriğine bak.
+
+## 2026-11-17 (öğle çalıştırması)
+- Rapordan öğrenilen: gönderide memeli (2,34), tuhaf görünüm (2,27), sayı (2,07), deniz omurgasızı (1,89) güçlü; Reels'te memeli 1,19, gizem tek örnekle 2,61.
+- Bugün uygulanan: Reels 8→9: çalı köpeği (memeli, gizem "soyu tükendi sanılan"; Feral_Chase ilk kez, 80 kelime, Commons CC0/CC BY-SA). Gönderi 13→15: tepeli geyik (memeli, tuhaf görünüm) ve taklitçi ahtapot (deniz omurgasızı, sayı); ikisi de CC BY/BY-SA. Yıldız burunlu köstebek elendi (tüm iyi fotoğraflar ölü hayvan).
+- Sonra kontrol et: çalı köpeği Reels'i (gizem kancası memelide tutuyor mu); iki gönderinin içerik değeri. Not: Commons'ta bazı "foto"lar çizimdi (Benson Moore), mutlaka Read/preview ile doğrula.
