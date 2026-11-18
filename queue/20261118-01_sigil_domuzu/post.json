@@ -1,0 +1,26 @@
+{
+  "name": "yaban domuzu (siğilli domuz)",
+  "group": "memeli",
+  "hook_style": "sayı",
+  "title": [
+    [["BU HAYVAN","W"]],
+    [["25 CM'LİK","W"],["DİŞLERLE","R"]],
+    [["DİZ ÇÖKÜP YER","R"]]
+  ],
+  "card_title": "SİĞİLLİ DOMUZ",
+  "card_top": ["Yemek yerken ön ayaklarını", "büküp bileklerinin üstünde yürür."],
+  "card_bottom": ["Üst köpek dişleri 25 cm'ye", "kadar uzar. Tehlikede kuyruğunu", "dikip saatte 48 km hızla kaçar."],
+  "right": ["Afrika'nın savan ve otlaklarında", "yaşar, çamurda yatıp serinler.", "Yuvasına çoğu zaman geri geri", "girer, böylece hızla çıkabilir.", "Doğada 7-11 yıl yaşar."],
+  "loc": "Sahra Altı Afrika",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.55, "cy": 0.6, "zoom": 1.2},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.45, "cy": 0.55, "zoom": 1.3},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.82, "cy": 0.45, "zoom": 2.2}
+  },
+  "credits": [
+    {"use": "cover", "title": "iNaturalist 461995510", "author": "Morten Rosenvold Villadsen", "license": "CC0", "public_domain": true},
+    {"use": "top", "title": "iNaturalist 626873993", "author": "Paulo Caseirito", "license": "CC0", "public_domain": true},
+    {"use": "inner", "title": "iNaturalist 498328157", "author": "Paula Zermoglio", "license": "CC0", "public_domain": true}
+  ],
+  "caption": "Afrika savanlarının siğilli domuzu, yemek yerken ön ayaklarını bükerek bileklerinin üstünde ilerliyor ve 25 cm'ye varan köpek dişleriyle tanınıyor. 🐗🌍\n\n#terrawildnature #ilginçbilgiler #siğillidomuz"
+}
