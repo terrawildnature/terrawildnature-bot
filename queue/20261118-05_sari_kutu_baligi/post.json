@@ -1,0 +1,26 @@
+{
+  "name": "sari kutu baligi",
+  "group": "balık",
+  "hook_style": "tuhaf görünüm",
+  "title": [
+    [["BU BALIK", "W"]],
+    [["KÜP GİBİ", "R"], ["ZIRHLI", "W"]],
+    [["VE ZEHİRLİ", "R"]]
+  ],
+  "card_title": "SARI KUTU BALIĞI",
+  "card_top": ["Kafasından gövdesine kadar", "sert bir zırhla kaplı."],
+  "card_bottom": ["Tehdit altında zehirli bir", "mukus salgılar. Yavruları", "parlak sarı, yaşlılar gri."],
+  "right": ["Hint ve Pasifik Okyanusu'nun", "resiflerinde yaşar.", "En fazla 45 cm'ye ulaşır.", "Adı 'küçük kutu' demektir;", "türün adı da 'küp' anlamında."],
+  "loc": "Hint-Pasifik",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.45, "cy": 0.5, "zoom": 1.15},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.47, "cy": 0.64, "zoom": 2.6},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.51, "cy": 0.54, "zoom": 2.4}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Yellow boxfish (Ostracion cubicus) (40814638873).jpg", "author": "Rickard Zerpe", "license": "CC BY 2.0", "public_domain": false},
+    {"use": "top", "title": "File:Yellow Boxfish (Ostracion cubicus) juvenile (6086375654).jpg", "author": "Bernard DUPONT", "license": "CC BY-SA 2.0", "public_domain": false},
+    {"use": "inner", "title": "File:Yellow Boxfish (Ostracion cubicus) juvenile (6065480120).jpg", "author": "Bernard DUPONT", "license": "CC BY-SA 2.0", "public_domain": false}
+  ],
+  "caption": "Küp gibi sert bir zırhla kaplı sarı kutu balığı, tehdit altında zehirli mukus salgılayıp yavruyken parlak sarı rengiyle resifleri aydınlatıyor. 🐠🟨\n\n#terrawildnature #ilginçbilgiler #sarıkutubalığı\n\n📷 Rickard Zerpe (CC BY 2.0), Bernard DUPONT (CC BY-SA 2.0) / Wikimedia Commons"
+}
