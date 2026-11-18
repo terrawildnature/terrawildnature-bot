@@ -1,0 +1,185 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Majestic_Hills.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Guanaco (Lama guanicoe) head Leona Amarga.jpg",
+  "p2.jpg": "File:Guanacos en Parque Nacional Fray Jorge.jpg",
+  "p3.jpg": "File:Guanaco (Lama guanicoe) - Torres del Paine National Park 31.jpg",
+  "p4.jpg": "File:Guanaco (Lama guanicoe) Leona Amarga 3.jpg",
+  "p5.jpg": "File:Guanaco-corriendo.jpg",
+  "p6.jpg": "File:Guanacos Parque Nacional Llanos de Challe 23.jpg",
+  "p7.jpg": "File:Guanaco (Lama guanicoe) en el Parque Nacional Patagonia.jpg",
+  "p8.jpg": "File:Guanaco (Lama guanicoe) Leona Amarga 2.jpg",
+  "p9.jpg": "File:Guanaco (Lama guanicoe) - Torres del Paine National Park 26.jpg"
+ },
+ "segments": [
+  {
+   "text": "Guanakonun bir çay kaşığı kanında yaklaşık altmış sekiz milyon alyuvar var.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Bu, insandakinin tam dört katı.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Sayesinde dört bin metreyi bulan yüksekliklerde, az oksijende rahatça yaşıyor.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Güney Amerika'nın bozkırlarında ve dağlarında dolaşıyor.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Saatte elli altı kilometre hızla koşabiliyor, iyi de yüzüyor.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Atacama Çölü'nde, elli yıldır yağmur görmeyen bölgelerde bile hayatta kalıyor.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Suyu sisten, kaktüs çiçeklerinden ve likenlerden sağlıyor.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Tehlikeyi görünce sürüsünü, kahkahaya benzeyen keskin bir sesle uyarıyor.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_right"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.56,
+  "cy": 0.4,
+  "title": [
+   [
+    [
+     "KANINDA",
+     "R"
+    ]
+   ],
+   [
+    [
+     "İNSANDAN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "4 KAT FAZLA",
+     "W"
+    ]
+   ],
+   [
+    [
+     "ALYUVAR VAR",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "sayı",
+ "yt_title": "Kanında İnsandan 4 Kat Fazla Alyuvar Var: Guanako",
+ "en": {
+  "title": "The Guanaco: 4x More Red Blood Cells Than Humans",
+  "description": "A teaspoon of guanaco blood holds about 68 million red blood cells, four times that of a human, helping this South American camelid live at high altitudes and even in the Atacama Desert."
+ },
+ "caption": "Guanakonun bir çay kaşığı kanında insandakinin dört katı, yaklaşık altmış sekiz milyon alyuvar bulunuyor ve bu sayede yüksek dağlarda yaşayabiliyor. 🦙⛰️\n\n#terrawildnature #guanako\n\n📷 Charles J. Sharp (CC BY-SA 4.0), Nicolás Fernando Valdés Ortega (CC BY-SA 4.0), Thomas Fuhrmann (CC BY-SA 4.0), Vocedin (CC BY-SA 4.0), Natalia Reyes Escobar (CC BY-SA 4.0) / Wikimedia Commons\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "File:Guanaco (Lama guanicoe) head Leona Amarga.jpg",
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Guanacos en Parque Nacional Fray Jorge.jpg",
+   "author": "Nicolás Fernando Valdés Ortega",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Guanaco (Lama guanicoe) - Torres del Paine National Park 31.jpg",
+   "author": "Thomas Fuhrmann",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Guanaco (Lama guanicoe) Leona Amarga 3.jpg",
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Guanaco-corriendo.jpg",
+   "author": "Vocedin",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Guanacos Parque Nacional Llanos de Challe 23.jpg",
+   "author": "Natalia Reyes Escobar",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Guanaco (Lama guanicoe) en el Parque Nacional Patagonia.jpg",
+   "author": "Natalia Reyes Escobar",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Guanaco (Lama guanicoe) Leona Amarga 2.jpg",
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Guanaco (Lama guanicoe) - Torres del Paine National Park 26.jpg",
+   "author": "Thomas Fuhrmann",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
