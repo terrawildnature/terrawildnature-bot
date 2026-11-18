@@ -298,3 +298,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli (2,34), tuhaf görünüm (2,27), sayı (2,07), balık (1,92) güçlü; Reels'te memeli 1,19, gizem tek örnekle 2,61 (içerik 4,80).
 - Bugün uygulanan: Reels 8→9: çizgili possum (memeli, gizem "en az bilinen keseli"; Deep_Haze ilk kez, 73 kelime, iNat CC0 + Commons CC BY-SA). Gönderi 13→15: siyah-kızıl sengi (memeli, benzetme "akrabası fil") ve testere balığı (balık, tuhaf görünüm). Rus desmanı elendi (iNat fotoğrafları tuzaktaki ölü hayvan).
 - Sonra kontrol et: çizgili possum Reels'i (gizem + memeli); sengi gönderisi (benzetme zayıf grupta, memeli güçlü) ve testere balığı içerik değeri. Not: iNat aramasında "Pristis pristis" bitki ve güve döndürdü; iNat fotoğraflarını mutlaka Read ile doğrula.
+
+## 2026-11-18 (sabah çalıştırması)
+- Rapordan öğrenilen: kuyruklar dolu (gönderi 15/15, Reels 9/9); yeni içerik üretilmedi.
+- Bugün uygulanan: yok; queue_failed/queue_reels_failed yok. zz_quokka hâlâ yeniden deneme kuyruğunda.
+- Sonra kontrol et: quokka Reels paylaşıldı mı, değilse queue_reels_failed/ içeriğine bak.
