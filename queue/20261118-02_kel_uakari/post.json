@@ -1,0 +1,87 @@
+{
+ "name": "kel uakari",
+ "group": "memeli",
+ "hook_style": "tuhaf görünüm",
+ "title": [
+  [
+   [
+    "BU MAYMUNUN YÜZÜ",
+    "W"
+   ]
+  ],
+  [
+   [
+    "KIPKIRMIZI",
+    "R"
+   ]
+  ],
+  [
+   [
+    "SAĞLIK İŞARETİ",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "KEL UAKARİ",
+ "card_top": [
+  "Yüzü pigmentsiz; kırmızı rengi",
+  "kılcal damarlardan geliyor."
+ ],
+ "card_bottom": [
+  "Parlak kırmızı yüz, sağlıklı",
+  "olduğunun işareti sayılır ve",
+  "eş seçiminde rol oynar."
+ ],
+ "right": [
+  "Batı Amazon'un sel basan",
+  "ormanlarında yaşar. Kuyruğu",
+  "yaklaşık 15 cm kısadır.",
+  "Besinin %67'si tohumdur;",
+  "güçlü çenesiyle sert kabuk kırar."
+ ],
+ "loc": "Batı Amazon",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.5,
+   "cy": 0.35,
+   "zoom": 1.0
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.3,
+   "cy": 0.25,
+   "zoom": 2.0
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.31,
+   "cy": 0.39,
+   "zoom": 3.0
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "iNaturalist 278826311",
+   "author": "Thiago Bicudo",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "use": "top",
+   "title": "iNaturalist 206605203",
+   "author": "Whaldener Endo",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "use": "inner",
+   "title": "iNaturalist 327728681",
+   "author": "R Vasconcellos",
+   "license": "CC BY",
+   "public_domain": false
+  }
+ ],
+ "caption": "Amazon'ın sel ormanlarında yaşayan kel uakari, pigmentsiz derisi ve kılcal damarlarıyla parlak kırmızı yüzünü sağlık işareti olarak taşıyor. 🐒🔴\n\n#terrawildnature #ilginçbilgiler #keluakari\n\n📷 Thiago Bicudo (CC BY), R Vasconcellos (CC BY) / iNaturalist"
+}
