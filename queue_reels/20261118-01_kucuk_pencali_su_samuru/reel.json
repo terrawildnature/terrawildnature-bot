@@ -1,0 +1,179 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Floating_Cities.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Oriental small-clawed otter.jpg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/244605979/original.jpeg",
+  "p3.jpg": "File:ParcAuxois-AonyxCinereus-1.jpg",
+  "p4.jpg": "File:Oriental small-clawed otter (24463797293).jpg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/606878023/original.jpg",
+  "p6.jpg": "File:Asian small-clawed otter (Aonyx cinereus) in Zooparc de Trégomeur, 2025.jpg",
+  "p7.jpg": "File:2018-07-15 AT Wien 13 Hietzing, Tiergarten Schönbrunn, Aonyx cinereus (49158753993).jpg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/350298555/original.jpeg",
+  "p9.jpg": "File:ParcAuxois-AonyxCinereus-3.jpg"
+ },
+ "segments": [
+  {
+   "text": "Dünyanın en küçük su samurunun pençeleri bile çok kısa.",
+   "image": "p1.jpg",
+   "cx": 0.4,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Asya küçük pençeli su samuru, Hindistan'dan Filipinler'e kadar sulak alanlarda yaşıyor.",
+   "image": "p2.jpg",
+   "cx": 0.7,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Boyu bir metreyi geçmiyor, ağırlığı en fazla üç buçuk kilo.",
+   "image": "p3.jpg",
+   "cx": 0.45,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Parmaklarındaki yüzme perdesi, parmakların son eklemine kadar uzanıyor.",
+   "image": "p4.jpg",
+   "cx": 0.6,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Başlıca yengeç ve çamur zıpkını balığıyla besleniyor.",
+   "image": "p5.jpg",
+   "cx": 0.58,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Çeltik tarlalarında bile avlanıyor.",
+   "image": "p6.jpg",
+   "cx": 0.4,
+   "cy": 0.55,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Aileleri on iki ile on beş kişiye ulaşıyor ve en az on iki farklı sesle konuşuyor.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.55,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Yaşam alanları daralıyor ve tür savunmasız olarak sınıflandırılıyor.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.45,
+   "cy": 0.55,
+   "motion": "pan_left"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.52,
+  "cy": 0.45,
+  "title": [
+   [
+    [
+     "EN KÜÇÜK",
+     "R"
+    ]
+   ],
+   [
+    [
+     "SU SAMURU",
+     "W"
+    ]
+   ],
+   [
+    [
+     "PENÇELERİ",
+     "W"
+    ]
+   ],
+   [
+    [
+     "ÇOK KISA",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "süperlatif",
+ "yt_title": "Dünyanın En Küçük Su Samuru: Asya Küçük Pençelisi",
+ "en": {
+  "title": "The World's Smallest Otter: Asian Small-Clawed Otter",
+  "description": "The Asian small-clawed otter, the smallest otter species, has tiny nearly retracted claws, lives in family groups of up to 15 and feeds mainly on crabs and mudskippers across South and Southeast Asia."
+ },
+ "caption": "Dünyanın en küçük su samuru olan Asya küçük pençeli su samuru, kısa pençeleri ve en az on iki farklı sesiyle sulak alanlarda aile gruplarıyla yaşıyor. 🦦💧\n\n#terrawildnature #küçükpençelisusamuru\n\n📷 CrlNvl (CC BY-SA 4.0), Animalculum (CC BY 4.0), Paul Korecky (CC BY-SA 2.0) / Wikimedia Commons, Hamas Fathani (CC BY-SA), Ben Costamagna (CC BY) / iNaturalist\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "File:Oriental small-clawed otter.jpg",
+   "author": "Mathias Appel",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "File:Oriental small-clawed otter (24463797293).jpg",
+   "author": "Mathias Appel",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "iNaturalist 350298555",
+   "author": "James Eaton",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "File:ParcAuxois-AonyxCinereus-1.jpg / -3.jpg",
+   "author": "CrlNvl",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Asian small-clawed otter ... Trégomeur, 2025.jpg",
+   "author": "Animalculum",
+   "license": "CC BY 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:... Tiergarten Schönbrunn, Aonyx cinereus (49158753993).jpg",
+   "author": "Paul Korecky",
+   "license": "CC BY-SA 2.0",
+   "public_domain": false
+  },
+  {
+   "title": "iNaturalist 244605979",
+   "author": "Hamas Fathani",
+   "license": "CC BY-SA",
+   "public_domain": false
+  },
+  {
+   "title": "iNaturalist 606878023",
+   "author": "Ben Costamagna",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}

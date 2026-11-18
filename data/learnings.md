@@ -303,3 +303,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: kuyruklar dolu (gönderi 15/15, Reels 9/9); yeni içerik üretilmedi.
 - Bugün uygulanan: yok; queue_failed/queue_reels_failed yok. zz_quokka hâlâ yeniden deneme kuyruğunda.
 - Sonra kontrol et: quokka Reels paylaşıldı mı, değilse queue_reels_failed/ içeriğine bak.
+
+## 2026-11-18 (öğle çalıştırması)
+- Rapordan öğrenilen: gönderide memeli (2,46), tuhaf görünüm (2,27), sayı (2,06), balık/deniz omurgasızı (~1,9) güçlü; Reels'te memeli (1,31), sayı (1,25) güçlü; gizem tek örnekle 2,63.
+- Bugün uygulanan: Reels 8→9: Asya küçük pençeli su samuru (memeli, süperlatif keşif; Floating_Cities ilk kez, 84 kelime, Commons CC0/CC BY(-SA) + iNat). Gönderi 15→16: siğilli domuz (memeli, sayı "25 cm'lik dişler"; iNat CC0). Misk geyiği (iNat fotoğrafları dışkı), balıkçı kedisi (iNat gece/bulanık; Commons 429 verdi), monito del monte (kamera tuzağı) elendi.
+- Sonra kontrol et: siğilli domuz içerik değeri (memeli + sayı); su samuru Reels'i. Not: Commons ~10 dk 429 verip sonra açıldı; takılınca iNat'a geçmek yerine kısa süre sonra tekrar denemek işe yaradı. Su samuru kapağında baş yazının altında kaldı; kapakta dikey/yakın portre fotoğrafı seç.
