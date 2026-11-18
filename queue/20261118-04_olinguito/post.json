@@ -1,0 +1,91 @@
+{
+ "name": "olinguito",
+ "group": "memeli",
+ "hook_style": "gizem",
+ "title": [
+  [
+   [
+    "BU HAYVAN 2013'E KADAR",
+    "W"
+   ]
+  ],
+  [
+   [
+    "BİLİMİN",
+    "R"
+   ],
+   [
+    "HİÇ",
+    "W"
+   ]
+  ],
+  [
+   [
+    "TANIMADIĞI BİR TÜRDÜ",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "OLİNGUİTO",
+ "card_top": [
+  "Rakunların en küçük akrabası,",
+  "ortalama 900 gram ağırlığında."
+ ],
+ "card_bottom": [
+  "Yıllarca hayvanat bahçesinde",
+  "başka türle karıştırıldı. 2013'te",
+  "yeni tür olduğu anlaşıldı."
+ ],
+ "right": [
+  "Kolombiya ve Ekvador'daki",
+  "And bulut ormanlarında yaşar.",
+  "1.500-3.000 m yükseklerde.",
+  "Meyve, böcek ve nektarla",
+  "beslenir. Adı 'sis' demek."
+ ],
+ "loc": "Kolombiya, Ekvador",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.5,
+   "cy": 0.55,
+   "zoom": 1.2
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.7,
+   "cy": 0.65,
+   "zoom": 1.3
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.66,
+   "cy": 0.4,
+   "zoom": 2.4
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "iNaturalist 1054582",
+   "author": "Roland Kays",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "use": "top",
+   "title": "iNaturalist 254667825",
+   "author": "Demian Hiß",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "use": "inner",
+   "title": "iNaturalist 709431035",
+   "author": "Dean Hester",
+   "license": "CC BY",
+   "public_domain": false
+  }
+ ],
+ "caption": "2013'te yeni tür olarak tanımlanan olinguito, Amerika kıtasında 35 yıl sonra bilime tanıtılan ilk yeni etobur memeli oldu. 🌫️🐾\n\n#terrawildnature #ilginçbilgiler #olinguito\n\n📷 Dean Hester (CC BY), Demian Hiß (CC BY) / iNaturalist"
+}
