@@ -1,0 +1,26 @@
+{
+  "name": "deniz meleği",
+  "group": "deniz omurgasızı",
+  "hook_style": "tuhaf görünüm",
+  "title": [
+    [["BU DENİZ SALYANGOZU", "W"]],
+    [["KANATLARIYLA", "R"]],
+    [["YÜZÜYOR", "R"]]
+  ],
+  "card_title": "DENİZ MELEĞİ",
+  "card_top": ["Kabuğu yok; iki küçük kanadını", "çırparak suda süzülüyor."],
+  "card_bottom": ["Avını üç çift dokunaçla yakalar.", "Yiyecek bulamazsa bir yıl", "boyunca aç kalabilir."],
+  "right": ["Kuzey Atlantik ve Arktik", "Okyanusu'nun soğuk sularında", "yaşar. Boyu en çok 8,5 cm.", "Hem erkek hem dişi organa", "sahip bir hermafrodittir."],
+  "loc": "Arktik, Kuzey Atlantik",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.55, "cy": 0.4, "zoom": 1.1},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.45, "cy": 0.5, "zoom": 1.1},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.4,  "cy": 0.5, "zoom": 1.5}
+  },
+  "credits": [
+    {"use": "cover", "title": "iNaturalist 640926010", "author": "Evan Feusi", "license": "CC0", "public_domain": true},
+    {"use": "top", "title": "File:Sea angel.jpg", "author": "Matt Wilson/Jay Clark, NOAA NMFS AFSC", "license": "Public domain", "public_domain": true},
+    {"use": "inner", "title": "iNaturalist 371492453", "author": "Steph Brulot-Sawchyn", "license": "CC0", "public_domain": true}
+  ],
+  "caption": "Arktik sularının kabuksuz deniz salyangozu deniz meleği, iki küçük kanadını çırparak yüzüyor ve besini bulamazsa bir yıl boyunca aç kalabiliyor. 🪽🌊\n\n#terrawildnature #ilginçbilgiler #denizmeleği"
+}
