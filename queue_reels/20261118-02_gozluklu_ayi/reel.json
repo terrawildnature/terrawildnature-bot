@@ -1,0 +1,185 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Magic_Forest.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Tremarctos ornatus in Jardim Zoológico de Curitiba.jpg",
+  "p2.jpg": "File:Tremarctos ornatus Maquipucuna.jpg",
+  "p3.jpg": "File:Oso andino Porcon.jpg",
+  "p4.jpg": "File:Tremarctos ornatus 25.jpg",
+  "p5.jpg": "File:Oso Andino - Tremarctos ornatus.jpg",
+  "p6.jpg": "File:Tremarctos ornatus 289948384.jpg",
+  "p7.jpg": "File:Spectacled bear, Brillenbär (Tremarctos ornatus) (54289333408).jpg",
+  "p8.jpg": "File:Tremarctos ornatus -Binghamton Zoo-6.jpg",
+  "p9.jpg": "File:Tremarctos ornatus 165975083.jpg"
+ },
+ "segments": [
+  {
+   "text": "Erkek gözlüklü ayı, bazen dişisinin iki katı ağırlığa ulaşıyor.",
+   "image": "p1.jpg",
+   "cx": 0.4,
+   "cy": 0.3,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Güney Amerika'daki tek ayı türü bu.",
+   "image": "p2.jpg",
+   "cx": 0.7,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Andlar'ın bulut ormanlarından, beş bin metreyi aşan yüksekliklere kadar yaşıyor.",
+   "image": "p3.jpg",
+   "cx": 0.4,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Erkekler yüz ile iki yüz, dişiler otuz beş ile seksen iki kilo arasında.",
+   "image": "p4.jpg",
+   "cx": 0.55,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Yüzündeki ve göğsündeki açık işaretler her ayıda farklı.",
+   "image": "p5.jpg",
+   "cx": 0.7,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kokusu o kadar keskin ki, yerden bile ağaçtaki olgun meyveyi algılıyor.",
+   "image": "p6.jpg",
+   "cx": 0.45,
+   "cy": 0.55,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Ağaçlara tırmanıyor, hatta dallardan platform yapıp dinleniyor.",
+   "image": "p7.jpg",
+   "cx": 0.35,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Diğer ayıların aksine, beslenmesi çoğunlukla bitkisel.",
+   "image": "p8.jpg",
+   "cx": 0.35,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.4,
+  "cy": 0.3,
+  "title": [
+   [
+    [
+     "ERKEĞİ",
+     "R"
+    ]
+   ],
+   [
+    [
+     "DİŞİSİNİN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "İKİ KATI",
+     "W"
+    ]
+   ],
+   [
+    [
+     "AĞIRLIĞINDA",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "sayı",
+ "yt_title": "Güney Amerika'nın Tek Ayısı: Gözlüklü Ayı",
+ "en": {
+  "title": "The Spectacled Bear: South America's Only Bear",
+  "description": "The spectacled bear, the only bear living in South America, can have males weighing up to twice as much as females, climbs trees to rest on branch platforms and eats a mostly plant-based diet in the Andes."
+ },
+ "caption": "Güney Amerika'nın tek ayısı olan gözlüklü ayı, erkekleri bazen dişilerinin iki katı ağırlığa ulaşarak Andlar'ın bulut ormanlarında yaşıyor. 🐻🌿\n\n#terrawildnature #gözlüklüayı\n\n📷 Santiago Ron (CC BY), Alex Erde (CC BY), Biodiego88 (CC BY), Attila Oláh (CC BY), Jonathan Candil Méndez (CC BY), Luis Padilla (CC BY-SA), Greg Hume (CC BY-SA), Sandor Somkuti (CC BY-SA) / Wikimedia Commons\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "File:Tremarctos ornatus in Jardim Zoológico de Curitiba.jpg",
+   "author": "Wilfredor",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "File:Tremarctos ornatus Maquipucuna.jpg",
+   "author": "Santiago Ron",
+   "license": "CC BY 2.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Oso andino Porcon.jpg",
+   "author": "Luis Padilla",
+   "license": "CC BY-SA 3.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Tremarctos ornatus 25.jpg",
+   "author": "Greg Hume",
+   "license": "CC BY-SA 3.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Oso Andino - Tremarctos ornatus.jpg",
+   "author": "Biodiego88",
+   "license": "CC BY 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Tremarctos ornatus 289948384.jpg",
+   "author": "Attila Oláh",
+   "license": "CC BY 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Spectacled bear, Brillenbär (Tremarctos ornatus) (54289333408).jpg",
+   "author": "Sandor Somkuti",
+   "license": "CC BY-SA 2.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Tremarctos ornatus -Binghamton Zoo-6.jpg",
+   "author": "Alex Erde",
+   "license": "CC BY 2.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Tremarctos ornatus 165975083.jpg",
+   "author": "Jonathan Candil Méndez",
+   "license": "CC BY 4.0",
+   "public_domain": false
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
