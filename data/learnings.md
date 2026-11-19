@@ -318,3 +318,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: yeni rapor okunmadı; kuyruklar dolu olduğu için üretim yapılmadı (gönderi 15/15, Reels 9/9 zz_quokka dahil).
 - Bugün uygulanan: yok; queue_failed/queue_reels_failed yok. zz_quokka hâlâ yeniden deneme kuyruğunda.
 - Sonra kontrol et: Actions'ın sabahki paylaşımlarından sonra kuyruk sayılarına ve quokka'nın paylaşılıp paylaşılmadığına bak.
+
+## 2026-11-19 (öğle çalıştırması)
+- Rapordan öğrenilen: gönderide memeli (3,93), deniz omurgasızı (2,99), sayı kancası (2,33) güçlü; Reels'te kuş (1,24) güçlü, sayı (1,20) güçlü.
+- Bugün uygulanan: Reels 8→9: Kaliforniya akbabası (kuş, sayı "22 tane kalmıştı"; Intrepid, 83 kelime, USFWS PD + iNat CC0). Gönderi 14→15: dev izopod (deniz omurgasızı, sayı "5 yıl hiç yemedi"; CC0 + CC BY-SA).
+- Sonra kontrol et: kuş + sayı Reels'i; izopod içerik değeri. Not: Commons ~20 dk 429 verdi, Reels fotoğraflarını iNat CC0 ile değiştirdim; kapakta cx/cy'yi önizlemedeki baş konumuna göre ayarla (her tile yan yana iki kare).
