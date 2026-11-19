@@ -1,0 +1,26 @@
+{
+  "name": "aslan yeleli denizanası",
+  "group": "deniz omurgasızı",
+  "hook_style": "sayı",
+  "title": [
+    [["BU DENİZANASININ", "W"]],
+    [["30 METREYE", "R"], ["KADAR", "W"]],
+    [["UZAYAN KOLU VAR", "R"]]
+  ],
+  "card_title": "ASLAN YELELİ DENİZANASI",
+  "card_top": ["Çanı 2 metreyi aşabilir;", "en büyük denizanalarındandır."],
+  "card_bottom": ["Çanında yaklaşık 1.200 iç kol", "ve sekiz lobda 70-150 uzun", "sarkıt bulunur."],
+  "right": ["Arktik, kuzey Atlantik ve", "kuzey Pasifik'in soğuk", "sularında yaşar. Kopan", "kolları 25 güne kadar", "yakmaya devam edebilir."],
+  "loc": "Kuzey Denizleri",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.4, "cy": 0.42, "zoom": 1.3},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.45, "cy": 0.45, "zoom": 1.2},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.35, "cy": 0.5, "zoom": 1.8}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Lion's mane jellyfish in Gullmarn fjord at Sämstad 3.jpg", "author": "W.carter", "license": "CC0", "public_domain": true},
+    {"use": "top", "title": "File:Lion's mane jellyfish in Gullmarn fjord at Sämstad 8.jpg", "author": "W.carter", "license": "CC0", "public_domain": true},
+    {"use": "inner", "title": "iNaturalist 405338855", "author": "Ann-Sophie Qvarnström", "license": "CC0", "public_domain": true}
+  ],
+  "caption": "Çanı 2 metreyi, kolları ise 30 metreyi aşabilen aslan yeleli denizanası, soğuk kuzey denizlerinin en büyük denizanalarından biri. 🪼🌊\n\n#terrawildnature #ilginçbilgiler #denizanası"
+}
