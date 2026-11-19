@@ -1,0 +1,185 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Intrepid.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:California condor -513. (34604284230).jpg",
+  "p2.jpg": "File:Gymnogyps californianus -Los Padres National Forest , California, USA -soaring-8.jpg",
+  "p3.jpg": "File:California condor -568. (36427714652).jpg",
+  "p4.jpg": "File:Gymnogyps californianus -Hopper Mountain National Wildlife Refuge, California, USA -roosting in tree-8.jpg",
+  "p5.jpg": "File:Gymnogyps californianus -near Hopper Mountain National Wildlife Refuge, California, USA -adult and chick-8 (1).jpg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/11142978/original.jpg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/59766537/original.jpg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/118269298/original.jpeg",
+  "p9.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/558250590/original.jpg"
+ },
+ "segments": [
+  {
+   "text": "Kaliforniya akbabası, dünyada sadece yirmi iki birey kalana kadar azalmıştı.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Hepsi 1987'de yakalandı ve tür doğada tamamen yok oldu.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Yavrular hayvanat bahçelerinde kuklalarla büyütüldü.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Bugün dünyada altı yüzden fazla Kaliforniya akbabası var.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kanat açıklığı üç metreyi buluyor ve Kuzey Amerika'nın en geniş kuşu.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Saatte doksan kilometre hızla, dört bin altı yüz metre yükseğe çıkabiliyor.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Koku alma duyusu yok; leşi, diğer leş yiyicileri izleyerek buluyor.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Bir günde iki yüz elli kilometre yol katedebiliyor.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p3.jpg",
+  "cx": 0.58,
+  "cy": 0.32,
+  "title": [
+   [
+    [
+     "22 TANE",
+     "R"
+    ]
+   ],
+   [
+    [
+     "KALMIŞTI",
+     "W"
+    ]
+   ],
+   [
+    [
+     "DÜNYADA",
+     "W"
+    ]
+   ],
+   [
+    [
+     "BU DEV KUŞ",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "kuş",
+ "hook_style": "sayı",
+ "yt_title": "Dünyada Sadece 22 Tane Kalmıştı: Kaliforniya Akbabası",
+ "en": {
+  "title": "Only 22 Were Left: The California Condor",
+  "description": "The California condor once dropped to just 22 birds, all captured by 1987 and extinct in the wild, but captive breeding has brought the population back to over 600."
+ },
+ "caption": "Kaliforniya akbabası bir zamanlar dünyada sadece 22 birey kalacak kadar azalmıştı, bugün ise sayıları altı yüzün üzerinde. 🦅🌎\n\n#terrawildnature #kaliforniyaakbabası\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "File:California condor -513. (34604284230).jpg",
+   "author": "USFWS",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:Gymnogyps californianus -Los Padres National Forest , California, USA -soaring-8.jpg",
+   "author": "USFWS",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:California condor -568. (36427714652).jpg",
+   "author": "USFWS",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:Gymnogyps californianus -Hopper Mountain National Wildlife Refuge, California, USA -roosting in tree-8.jpg",
+   "author": "USFWS",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:Gymnogyps californianus -near Hopper Mountain National Wildlife Refuge, California, USA -adult and chick-8 (1).jpg",
+   "author": "USFWS",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/11142978/original.jpg",
+   "author": "Dan Fitzgerald (Fitz)",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/59766537/original.jpg",
+   "author": "Craig Martin",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/118269298/original.jpeg",
+   "author": "Dario Taraborelli",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/558250590/original.jpg",
+   "author": "Dorothy Johnson",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
