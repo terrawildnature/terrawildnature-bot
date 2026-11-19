@@ -313,3 +313,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli (2,46), tuhaf görünüm (2,27), sayı (2,06), balık (1,93) güçlü; Reels'te memeli 1,31, sayı 1,25 güçlü.
 - Bugün uygulanan: Reels 8→9: guanako (memeli, sayı "4 kat alyuvar"; Majestic_Hills, 78 kelime, Commons CC BY-SA). Gönderi 13→15: olinguito (memeli, gizem; iNat CC0/CC BY) ve sarı kutu balığı (balık, tuhaf görünüm; Commons CC BY/BY-SA). Yaban domuzu/oarfish araması: oarfish'in sadece çizim görselleri vardı, elendi.
 - Sonra kontrol et: guanako Reels'i (sayı + memeli); olinguito gizem kancası (gönderide zayıf grup, memeli güçlü); kutu balığı içerik değeri. Not: iNat'ta bazı fotoğraflar gece/bulanıktı, Read ile eleyip Commons/iNat karıştırdım.
+
+## 2026-11-19 (sabah çalıştırması)
+- Rapordan öğrenilen: yeni rapor okunmadı; kuyruklar dolu olduğu için üretim yapılmadı (gönderi 15/15, Reels 9/9 zz_quokka dahil).
+- Bugün uygulanan: yok; queue_failed/queue_reels_failed yok. zz_quokka hâlâ yeniden deneme kuyruğunda.
+- Sonra kontrol et: Actions'ın sabahki paylaşımlarından sonra kuyruk sayılarına ve quokka'nın paylaşılıp paylaşılmadığına bak.
