@@ -1,0 +1,25 @@
+{
+  "name": "kızıl yaban köpeği",
+  "group": "memeli",
+  "hook_style": "sayı",
+  "title": [
+    [["BU YABAN KÖPEĞİNDEN", "W"]],
+    [["2.500'DEN AZ", "R"], ["YETİŞKİN", "W"]],
+    [["KALDI", "R"]]
+  ],
+  "card_title": "KIZIL YABAN KÖPEĞİ",
+  "card_top": ["Kurt gibi ulumaz, havlamaz;", "bunun yerine ıslık çalar."],
+  "card_bottom": ["12 bireylik sürülerle avlanır.", "Sambar gibi iri geyikleri", "birlikte yere indirir."],
+  "right": ["Güney, Doğu ve Güneydoğu", "Asya'da yaşar. Hindistan'da", "tarihsel yayılımının %60'ından", "kayboldu. Habitat kaybı ve", "av azlığı yüzünden tehlikede."],
+  "loc": "Güney Asya",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.64, "cy": 0.3, "zoom": 1.1},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.55, "cy": 0.4, "zoom": 1.2},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.64, "cy": 0.3, "zoom": 2.0}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Cuon alpinus alpinus sitting.jpg", "author": "Johan Spaedtke", "license": "CC0", "public_domain": true},
+    {"use": "top", "title": "File:Cuon alpinus alpinus puppy.jpg", "author": "Johan Spaedtke", "license": "CC0", "public_domain": true}
+  ],
+  "caption": "Kurtlar gibi ulumayan, bunun yerine ıslık çalan kızıl yaban köpeği, Asya'da 2.500'den az yetişkini kalmış tehlike altındaki bir sürü avcısı. 🐺🌏\n\n#terrawildnature #ilginçbilgiler #kızılyabanköpeği"
+}
