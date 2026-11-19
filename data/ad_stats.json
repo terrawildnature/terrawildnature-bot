@@ -1,11 +1,11 @@
 {
- "checked": "2026-11-19T11:16+00:00",
+ "checked": "2026-11-19T15:35+00:00",
  "adset_status": "ACTIVE",
- "spend_try": 0.0,
- "reach": 0,
- "impressions": 0,
- "frequency": 0.0,
- "thruplays": 0,
+ "spend_try": 0.36,
+ "reach": 20,
+ "impressions": 22,
+ "frequency": 1.1,
+ "thruplays": 11,
  "followers": {
   "start": 1342,
   "now": 1342,
