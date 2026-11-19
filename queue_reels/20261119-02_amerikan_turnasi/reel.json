@@ -1,0 +1,185 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Lone_Harvest.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Whooping crane FWS 13057.jpg",
+  "p2.jpg": "File:Whooping crane FWS 13058.jpg",
+  "p3.jpg": "File:Whooping crane FWS 1554.jpg",
+  "p4.jpg": "File:Whooping crane FWS 9690.jpg",
+  "p5.jpg": "File:Whooping Crane (19780294491).jpg",
+  "p6.jpg": "File:Usfws-whooping-crane-nesting-necedahnwr (55249295659).jpg",
+  "p7.jpg": "File:Grus americana -Aransas National Wildlife Refuge, Texas, USA -three-8.jpg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/13923157/original.jpeg",
+  "p9.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/339607680/original.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu kuşlara göç yolunu bir uçak gösterdi.",
+   "image": "p1.jpg",
+   "cx": 0.67,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Amerikan turnası, Kuzey Amerika'nın en uzun boylu kuşu.",
+   "image": "p2.jpg",
+   "cx": 0.55,
+   "cy": 0.22,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Boyu bir metre yirmi dört ile bir metre altmış santim arasında değişiyor.",
+   "image": "p3.jpg",
+   "cx": 0.72,
+   "cy": 0.25,
+   "motion": "zoom_out"
+  },
+  {
+   "text": "Yetişkinleri bembeyaz, başlarının tepesi ise kırmızı.",
+   "image": "p4.jpg",
+   "cx": 0.33,
+   "cy": 0.33,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Avlanma ve yaşam alanı kaybı yüzünden sayıları kritik seviyeye düştü.",
+   "image": "p5.jpg",
+   "cx": 0.48,
+   "cy": 0.55,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Eğitmenler, genç kuşlara ultrahafif uçakların peşinden uçmayı öğretti.",
+   "image": "p6.jpg",
+   "cx": 0.65,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Doğada yirmi iki ila otuz yıldan fazla yaşayabiliyorlar.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "İki bin yirmide doğada tahminen altı yüz yetmiş yedi kuş vardı.",
+   "image": "p8.jpg",
+   "cx": 0.45,
+   "cy": 0.55,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.55,
+   "cy": 0.55,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p2.jpg",
+  "cx": 0.55,
+  "cy": 0.25,
+  "title": [
+   [
+    [
+     "ULTRAHAFİF",
+     "R"
+    ]
+   ],
+   [
+    [
+     "UÇAKLARIN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "PEŞİNDEN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "GÖÇ ETTİ",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "kuş",
+ "hook_style": "tuhaf yetenek",
+ "yt_title": "Bu Kuşa Göç Yolunu Bir Uçak Gösterdi: Amerikan Turnası",
+ "en": {
+  "title": "The Bird Taught to Migrate by Planes: Whooping Crane",
+  "description": "North America's tallest bird, the whooping crane, was once taught its migration route by following ultralight aircraft."
+ },
+ "caption": "Kuzey Amerika'nın en uzun boylu kuşu Amerikan turnasının genç bireylerine, göç yolunu ultrahafif uçaklar gösterdi. 🦢🌾\n\n#terrawildnature #amerikanturnası\n\n📷 Klaus Nigge (CC BY 2.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "File:Whooping crane FWS 13057.jpg",
+   "author": "Ryan Hagerty",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:Whooping crane FWS 13058.jpg",
+   "author": "Ryan Hagerty",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:Whooping crane FWS 1554.jpg",
+   "author": "Ryan Hagerty / USFWS",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:Whooping crane FWS 9690.jpg",
+   "author": "Steve Hillebrand / USFWS",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:Whooping Crane (19780294491).jpg",
+   "author": "U.S. Fish and Wildlife Service Headquarters",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:Usfws-whooping-crane-nesting-necedahnwr (55249295659).jpg",
+   "author": "USFWS Headquarters",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:Grus americana -Aransas National Wildlife Refuge, Texas, USA -three-8.jpg",
+   "author": "Klaus Nigge",
+   "license": "CC BY 2.0",
+   "public_domain": false
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/13923157/original.jpeg",
+   "author": "Capt. Rob Snider",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/339607680/original.jpg",
+   "author": "Adam Jackson",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}

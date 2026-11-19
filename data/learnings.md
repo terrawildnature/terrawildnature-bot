@@ -323,3 +323,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli (3,93), deniz omurgasızı (2,99), sayı kancası (2,33) güçlü; Reels'te kuş (1,24) güçlü, sayı (1,20) güçlü.
 - Bugün uygulanan: Reels 8→9: Kaliforniya akbabası (kuş, sayı "22 tane kalmıştı"; Intrepid, 83 kelime, USFWS PD + iNat CC0). Gönderi 14→15: dev izopod (deniz omurgasızı, sayı "5 yıl hiç yemedi"; CC0 + CC BY-SA).
 - Sonra kontrol et: kuş + sayı Reels'i; izopod içerik değeri. Not: Commons ~20 dk 429 verdi, Reels fotoğraflarını iNat CC0 ile değiştirdim; kapakta cx/cy'yi önizlemedeki baş konumuna göre ayarla (her tile yan yana iki kare).
+
+## 2026-11-19 (akşam çalıştırması)
+- Rapordan öğrenilen: gönderide memeli (3,93), deniz omurgasızı (2,99), sayı kancası (2,33) güçlü; Reels'te kuş (1,24) ve sayı (1,20) güçlü, gizem tek örnekle 2,45.
+- Bugün uygulanan: Reels 8→9: Amerikan turnası (kuş, tuhaf yetenek "ultrahafif uçakların peşinden göç"; Lone_Harvest ilk kez, 79 kelime, USFWS PD + iNat CC0 + Commons CC BY). Gönderi 13→15: kızıl yaban köpeği (memeli, sayı "2.500'den az yetişkin"; CC0) ve aslan yeleli denizanası (deniz omurgasızı, sayı "30 metre"; CC0). Dev armadillo (fotoğraflar arkadan/yuva/gece) ve Filipin kartalı (kafes/uzak) elendi.
+- Sonra kontrol et: memeli + sayı gönderisi, deniz omurgasızı + sayı gönderisi içerik değeri; kuş Reels'i (kanca "tuhaf yetenek" Reels'te ortalama, sayı yerine denendi). Not: Commons ~1 indirmede takıldı, iNat CC0 ile tamamladım; kapakta dikey/yakın portre kullandım.
