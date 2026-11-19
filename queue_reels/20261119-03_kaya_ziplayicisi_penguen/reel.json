@@ -1,0 +1,185 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/On_the_Shore.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/387738345/original.jpeg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/348359370/original.jpeg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/279147683/original.jpg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/279211609/original.jpg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/279170285/original.jpg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/348359372/original.jpeg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/279147961/original.jpg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/348359383/original.jpeg",
+  "p9.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/279169945/original.jpg"
+ },
+ "segments": [
+  {
+   "text": "Elli santimlik bu penguen yüz metre derine dalabiliyor.",
+   "image": "p1.jpg",
+   "cx": 0.43,
+   "cy": 0.35,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kaya zıplayıcısı penguen, en küçük penguenler arasında.",
+   "image": "p2.jpg",
+   "cx": 0.62,
+   "cy": 0.62,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Kırmızı gözleri, turuncu gagası ve sarı sivri tüyleri var.",
+   "image": "p3.jpg",
+   "cx": 0.48,
+   "cy": 0.45,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Kayalık kıyılarda karnının üstünde kayamadığı için zıplayarak ilerliyor.",
+   "image": "p4.jpg",
+   "cx": 0.7,
+   "cy": 0.3,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Yavruların başında bu sarı tüyler yok; yaşlandıkça çıkıyor.",
+   "image": "p5.jpg",
+   "cx": 0.37,
+   "cy": 0.25,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Besinlerinin çoğunu kril ve küçük kabuklular oluşturuyor.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.65,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Genellikle iki yumurta bırakıyor ve ikincisi daha büyük oluyor.",
+   "image": "p7.jpg",
+   "cx": 0.43,
+   "cy": 0.42,
+   "motion": "zoom_out"
+  },
+  {
+   "text": "Sayıları yirminci yüzyılın son otuz yılında yaklaşık yüzde otuz azaldı.",
+   "image": "p8.jpg",
+   "cx": 0.66,
+   "cy": 0.58,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.3,
+   "cy": 0.38,
+   "motion": "pan_right"
+  }
+ ],
+ "cover": {
+  "image": "p7.jpg",
+  "cx": 0.45,
+  "cy": 0.62,
+  "title": [
+   [
+    [
+     "50 SANTİM",
+     "R"
+    ]
+   ],
+   [
+    [
+     "BOYUNDA AMA",
+     "W"
+    ]
+   ],
+   [
+    [
+     "100 METRE",
+     "W"
+    ]
+   ],
+   [
+    [
+     "DALIYOR",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "kuş",
+ "hook_style": "sayı",
+ "yt_title": "50 Santimlik Penguen 100 Metre Dalıyor: Kaya Zıplayıcısı",
+ "en": {
+  "title": "The 50 cm Penguin That Dives 100 m: Rockhopper",
+  "description": "The rockhopper penguin stands only about 50 centimetres tall, yet it can dive roughly 100 metres deep."
+ },
+ "caption": "Elli santim boyundaki kaya zıplayıcısı penguen, yüz metre derine dalabiliyor. 🐧🌊\n\n#terrawildnature #kayazıplayıcıpenguen\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/387738345/original.jpeg",
+   "author": "Mark Fraser",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/348359370/original.jpeg",
+   "author": "Anna Stalcup",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/279147683/original.jpg",
+   "author": "Hugo Hulsberg",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/279211609/original.jpg",
+   "author": "Hugo Hulsberg",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/279170285/original.jpg",
+   "author": "Hugo Hulsberg",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/348359372/original.jpeg",
+   "author": "Anna Stalcup",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/279147961/original.jpg",
+   "author": "Hugo Hulsberg",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/348359383/original.jpeg",
+   "author": "Anna Stalcup",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/279169945/original.jpg",
+   "author": "Hugo Hulsberg",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
