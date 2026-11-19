@@ -1,0 +1,91 @@
+{
+  "name": "nomura denizanası",
+  "title": [
+    [
+      [
+        "BU DENİZANASI",
+        "W"
+      ]
+    ],
+    [
+      [
+        "BİR İNSANDAN ",
+        "W"
+      ],
+      [
+        "BÜYÜK",
+        "R"
+      ]
+    ],
+    [
+      [
+        "200 KİLO",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "NOMURA DENİZANASI",
+  "card_top": [
+    "Çapı 2 metreyi, ağırlığı",
+    "200 kiloyu bulabiliyor."
+  ],
+  "card_bottom": [
+    "Pirinç tanesinden altı ayda",
+    "iki metreyi aşabiliyor.",
+    "En büyük denizanalarından."
+  ],
+  "right": [
+    "Çin ile Japonya arasındaki",
+    "Sarı Deniz ve Doğu Çin",
+    "Denizi'nde yaşar. Planktonla",
+    "beslenir. Kitlesel çoğalmaları",
+    "balıkçılığı olumsuz etkiliyor."
+  ],
+  "loc": "Doğu Asya",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.62,
+      "cy": 0.45,
+      "zoom": 1.0
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.6,
+      "cy": 0.4,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom": 1.4
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Nomura jellyfish 2009 Korea b.jpg",
+      "author": "Janne Hellsten",
+      "license": "CC BY 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Nomura jellyfish 2009 Korea a.jpg",
+      "author": "Janne Hellsten",
+      "license": "CC BY 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Nemopilema nomurai1.jpg",
+      "author": "KENPEI",
+      "license": "CC BY-SA 3.0",
+      "public_domain": false
+    }
+  ],
+  "group": "deniz omurgasızı",
+  "hook_style": "sayı",
+  "caption": "Çapı 2 metreyi, ağırlığı 200 kiloyu bulabilen Nomura denizanası, pirinç tanesi kadarken altı ayda bir insanın boyunu aşıyor. 🪼🌊\n\n#terrawildnature #ilginçbilgiler #nomuradenizanası\n\n📷 Janne Hellsten (CC BY 2.0), KENPEI (CC BY-SA 3.0) / Wikimedia Commons"
+}
