@@ -1,0 +1,62 @@
+{
+ "title": "Gece Olunca Uyanan Hayvanlar: Karanlığın Gizli Dünyası",
+ "description": "Gün batımından gün doğumuna tek bir geceyi baştan sona yaşıyor ve karanlıkta uyanan yirmi yedi hayvanla tanışıyoruz. Alacakaranlıkta yanıp sönen ateş böcekleri, gözleri beyni kadar büyük Filipin tarsiyeri, yiyeceğini kulağıyla bulan aye-aye, kan içen vampir yarasa, mağarada yankıyla yolunu bulan yağ kuşu, gözleri kapalıyken bile görebilen potu ve şafakta kahkaha atar gibi öten kookaburra bu belgeselde. Ekrandaki gece saati ve dolunay her hayvanı gecenin ona en çok yakışan saatinde ziyaret ediyor; tanıştığımız her canlı gece nöbeti listesine parlayan gözleriyle ekleniyor.",
+ "sources": "İngilizce Wikipedia (tür sayfaları, Twilight, Lux, Moonlight, Full moon, Adaptation (eye), Tapetum lucidum, Nocturnal bottleneck, Hyena, Scorpion, Kiwi (bird), Pangolin) ve ilgili bilimsel yayınlar.",
+ "hashtags": [
+  "#belgesel",
+  "#hayvanlar",
+  "#vahşiyaşam",
+  "#doğa",
+  "#terrawildnature"
+ ],
+ "tags": [
+  "belgesel",
+  "hayvan belgeseli",
+  "gece hayvanları",
+  "gece aktif hayvanlar",
+  "karanlıkta yaşayan hayvanlar",
+  "tarsiyer",
+  "aye-aye",
+  "vampir yarasa",
+  "peçeli baykuş",
+  "kakapo",
+  "yer domuzu",
+  "pangolin",
+  "ateş böceği",
+  "yavaş loris",
+  "vahşi yaşam",
+  "türkçe belgesel",
+  "doğa belgeseli"
+ ],
+ "thumb": {
+  "lines": [
+   "GECE YARISI",
+   "KİMLER",
+   "UYANIYOR?"
+  ],
+  "photo": "16_0",
+  "cx": 0.4,
+  "cy": 0.42,
+  "zoom": 1.0,
+  "bar_labels": [
+   "18:00",
+   "06:00"
+  ]
+ },
+ "teaser": {
+  "seg": 16,
+  "title": "Gözleri Beyni Kadar Büyük Olan Küçük Primat: Tarsiyer"
+ },
+ "story": {
+  "lines": [
+   "GECE",
+   "OLUNCA"
+  ],
+  "info": "18:00 → 06:00 · 5 gece bölümü · 27 canlı"
+ },
+ "en": {
+  "title": "Animals That Wake Up at Night: The Secret World of Darkness",
+  "description": "We live through a single night from sunset to sunrise and meet 27 animals that wake up in the dark. Fireflies flashing at dusk, the Philippine tarsier whose eyes are as big as its brain, the aye-aye that finds food by ear, the blood-drinking vampire bat, the oilbird that navigates caves by echoes, the potoo that can see with its eyes closed and the kookaburra laughing at dawn all feature in this documentary. An on-screen night clock and full moon visit each animal at the hour that suits it best, and every animal we meet joins the night watch list with its glowing eyes.",
+  "sources": "English Wikipedia (species pages, Twilight, Lux, Moonlight, Full moon, Adaptation (eye), Tapetum lucidum, Nocturnal bottleneck, Hyena, Scorpion, Kiwi (bird), Pangolin) and related scientific publications."
+ }
+}

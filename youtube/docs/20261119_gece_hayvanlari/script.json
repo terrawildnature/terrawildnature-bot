@@ -1,0 +1,581 @@
+{
+ "title": "GECE OLUNCA",
+ "subtitle": "Gün batımından şafağa karanlığın hayvanları",
+ "mechanic": "night_clock",
+ "journey": {
+  "meter": false,
+  "label": "SAAT",
+  "unit": "dk",
+  "max": 720,
+  "direction": "down",
+  "zones": [
+   [
+    0,
+    75,
+    "ALACAKARANLIK"
+   ],
+   [
+    75,
+    270,
+    "İLK KARANLIK"
+   ],
+   [
+    270,
+    480,
+    "GECE YARISI"
+   ],
+   [
+    480,
+    630,
+    "SESSİZ SAATLER"
+   ],
+   [
+    630,
+    720,
+    "ŞAFAK"
+   ]
+  ],
+  "zone_colors": [
+   [
+    255,
+    150,
+    80
+   ],
+   [
+    150,
+    120,
+    255
+   ],
+   [
+    90,
+    140,
+    255
+   ],
+   [
+    80,
+    210,
+    220
+   ],
+   [
+    255,
+    150,
+    170
+   ]
+  ],
+  "stats": [],
+  "range_label": "AKTİF",
+  "palette": [
+   [
+    0,
+    [
+     40,
+     36,
+     80
+    ]
+   ],
+   [
+    100,
+    [
+     14,
+     18,
+     50
+    ]
+   ],
+   [
+    720,
+    [
+     10,
+     14,
+     44
+    ]
+   ]
+  ],
+  "rays": 0,
+  "particles": null,
+  "glow": null,
+  "card": [
+   48,
+   96,
+   1232,
+   693
+  ],
+  "sub_cx": 664,
+  "music": [
+   "River_of_Io.mp3",
+   "Myst_on_the_Moor.mp3"
+  ]
+ },
+ "segments": [
+  {
+   "type": "intro",
+   "depth": 0,
+   "text": "Güneş batıyor. Ama memelilerin büyük bölümü için asıl hayat şimdi başlıyor. Bu belgeselde bir geceyi baştan sona yaşayacağız: gün batımından gün doğumuna tam on iki saat. Alacakaranlıkta yanıp sönen ateş böceklerinden gözleri beyni kadar büyük küçük bir primata, kan içen yarasalardan şafakta kahkaha atar gibi öten bir kuşa kadar yirmi yedi canlıyla tanışacağız. Ekranın sağındaki gece saatini takip edin. Saat ve kadranda ilerleyen dolunay bizim anlatım rehberimiz: her hayvanı gecenin ona en çok yakışan bölümünde ziyaret ediyoruz. Altındaki gece nöbeti listesine de tanıştığımız her hayvan, karanlıkta parlayan bir çift gözle eklenecek. Yolculuk başlıyor.",
+   "text_en": "The sun is setting. But for most mammals, real life is only just beginning. In this documentary we will live through one night from beginning to end: exactly 12 hours from sunset to sunrise. From fireflies flashing at dusk to a tiny primate whose eyes are as big as its brain, from blood-drinking bats to a bird that greets the dawn with something like laughter, we will meet 27 animals. Follow the night clock on the right of the screen. The clock and the full moon travelling across the dial are our storytelling guide: we visit each animal in the part of the night that suits it best. Every animal we meet will be added to the night watch list below, as a pair of eyes glowing in the dark. The journey begins."
+  },
+  {
+   "type": "zone",
+   "depth": 0,
+   "name": "ALACAKARANLIK",
+   "name_en": "DUSK",
+   "range": "18:00 – 19:15",
+   "text": "Yolculuğumuz gün batımında başlıyor. Güneş ufkun altına indikçe gökyüzü önce turuncuya, sonra koyu maviye dönüyor. Gökbilimciler bu geçişi üç aşamaya ayırıyor: sivil, denizci ve astronomik alacakaranlık. Ne tam gündüz ne de tam gece olan bu loş zaman dilimi, alacakaranlık hayvanlarının saati. Gündüzcü hayvanlar yuvalarına çekilirken onlar dışarı çıkıyor. Şimdi gecenin ilk uyananlarıyla tanışıyoruz.",
+   "text_en": "Our journey begins at sunset. As the sun sinks below the horizon, the sky turns orange and then deep blue. Astronomers divide this transition into three stages: civil, nautical and astronomical twilight. This dim stretch of time, neither full day nor full night, belongs to the animals of dusk. While daytime animals withdraw to their nests, they come out. Now we meet the first animals of the night to wake up."
+  },
+  {
+   "type": "landmark",
+   "depth": 0,
+   "name": "Gün Batımı",
+   "name_en": "Sunset",
+   "value": "18:00",
+   "tag": "GÖKYÜZÜ",
+   "chapter": true,
+   "text": "Güneş ufkun altına iniyor. Güneşli bir günde doğrudan güneş ışığı yere otuz iki bin ile yüz bin lüks arasında ışık düşürüyor. Birkaç saat içinde bu ışığın neredeyse tamamı kaybolacak.",
+   "text_en": "The sun dips below the horizon. On a sunny day, direct sunlight delivers between 32,000 and 100,000 lux to the ground. Within a few hours almost all of that light will be gone."
+  },
+  {
+   "type": "creature",
+   "name": "Ateş böceği",
+   "short": "Ateş böceği",
+   "name_en": "Common eastern firefly",
+   "latin": "Photinus pyralis",
+   "range": "Gece ve alacakaranlık",
+   "range_en": "Night and twilight",
+   "text": "Güneş batarken çayırlarda ilk ışıklar yanar. Bunlar yıldız değil, ateş böcekleri. Kuzey Amerika'nın doğusunda yaşayan bu küçük böceğin karnında ışık üreten bir organ vardır. Işığı, oksijen kullanan lusiferaz adlı bir enzim üretir. Erkekler havada her beş ila yedi saniyede bir parlar ve uçuşları bir J harfi çizer. Otların arasında bekleyen dişi, bir iki saniye sonra kendi ışığıyla cevap verir. Karanlık, bu ışıklı konuşmanın sahnesidir. Erişkinlerin çoğu hiç beslenmez. Bütün enerjisini, toprağın altında solucan ve salyangoz avladığı larva döneminde biriktirir. Bugün en büyük tehditlerinden biri ise ışık kirliliğidir.",
+   "text_en": "As the sun sets, the first lights switch on over the meadows. They are not stars but fireflies. This small beetle of eastern North America has a light-producing organ on its abdomen. The light is made by an enzyme called luciferase, which needs oxygen. Males flash every 5 to 7 seconds in flight, tracing a J-shape in the air. A female waiting in the grass answers with her own flash after a 1 to 2 second delay. Darkness is the stage for this conversation of light. Most adults do not eat at all; they run on energy stored as larvae, when they hunt worms, slugs and snails under the soil. Today one of their biggest threats is light pollution.",
+   "depth": 8
+  },
+  {
+   "type": "creature",
+   "name": "Gri başlı uçan tilki",
+   "short": "Uçan tilki",
+   "name_en": "Grey-headed flying fox",
+   "latin": "Pteropus poliocephalus",
+   "range": "Gece ve alacakaranlık",
+   "range_en": "Night and dusk",
+   "text": "Avustralya'nın en büyük yarasası, kanat açıklığı bir metreye ulaşan gri başlı uçan tilkidir. Gündüzleri yüzlerce, hatta on binlerce bireyin bir arada asılı durduğu kamplarda uyurlar. Alacakaranlık çökünce koloni havalanır. Bir gecede elli kilometreye kadar yol alarak çiçek nektarı, polen ve meyve arar. Bu yarasa ekolokasyon kullanmaz. Yolunu kokuyla ve özellikle gözleriyle bulur. Bu yüzden gözleri bir yarasa için oldukça büyüktür. Yaklaşık yüz seksen yedi bitki türüyle beslenir ve gece boyunca polen ile tohum taşıyarak ormanları yeniler. Ne yazık ki türü bugün tehlikeye açık olarak sınıflandırılıyor.",
+   "text_en": "The grey-headed flying fox is Australia's largest bat, with a wingspan of up to 1 m. By day it sleeps in camps of hundreds to tens of thousands of individuals hanging together. Around dusk the colony takes off, travelling up to 50 km a night in search of nectar, pollen and fruit. This bat does not echolocate. It finds its way by smell and above all by sight, which is why its eyes are relatively large for a bat. It feeds on around 187 plant species, and through the night it carries pollen and seeds that renew the forests. Sadly, the species is now listed as Vulnerable.",
+   "depth": 18
+  },
+  {
+   "type": "landmark",
+   "depth": 24,
+   "name": "Sivil Alacakaranlık Biter",
+   "name_en": "End of Civil Twilight",
+   "value": "−6°",
+   "tag": "GÜNEŞ UFKUN ALTINDA",
+   "text": "Güneş ufkun altı derece altına indi. Sivil alacakaranlık burada sona eriyor. Ekvator yakınında güneş ufka dik indiği için bu evre yalnızca yirmi dört dakika kadar sürebiliyor. Kutuplara yaklaştıkça çok daha uzun.",
+   "text_en": "The sun is now 6 degrees below the horizon. Civil twilight ends here. Near the equator, where the sun sets steeply, this phase can last as little as 24 minutes. Closer to the poles it lasts much longer."
+  },
+  {
+   "type": "creature",
+   "name": "Avrupa çobanaldatanı",
+   "short": "Çobanaldatan",
+   "name_en": "European nightjar",
+   "latin": "Caprimulgus europaeus",
+   "range": "Gece ve alacakaranlık",
+   "range_en": "Night and twilight",
+   "text": "Eski bir efsaneye göre bu kuş geceleri keçilerin sütünü emerdi. Bilimsel adı da bu yüzden keçi sağan anlamına gelir. Gerçekte Avrupa çobanaldatanı alacakaranlıkta ve gece avlanan bir böcek avcısıdır. Gündüz yerde ya da bir dalın üzerinde kıpırtısız durur. Gri kahverengi desenli tüyleri onu neredeyse görünmez kılar. Hava kararınca sessizce uçar. Büyük gözlerinin arkasındaki yansıtıcı tabaka, az ışıkta görmesini sağlar. Avını gece gökyüzüne karşı siluet olarak görür ve küçük gagasının ardındaki kocaman ağzıyla güveleri havada yakalar. Ekolokasyon kullanmaz. Mehtaplı gecelerde avlanma etkinliği iki katından fazla artar.",
+   "text_en": "According to an old myth, this bird sucked milk from goats at night, and its scientific name, Caprimulgus, means 'goat-milker'. In reality the European nightjar is an insect hunter active at dusk and at night. By day it rests motionless on the ground or along a branch, its patterned grey-brown plumage making it almost invisible. When darkness falls it flies silently. A reflective layer behind its large eyes improves its vision in low light. It spots prey silhouetted against the night sky and snaps moths in mid-air with a mouth that opens very wide behind its tiny bill. It does not echolocate. On moonlit nights its feeding activity more than doubles.",
+   "depth": 35
+  },
+  {
+   "type": "creature",
+   "name": "Avrasya porsuğu",
+   "short": "Porsuk",
+   "name_en": "European badger",
+   "latin": "Meles meles",
+   "range": "Gece ve alacakaranlık",
+   "range_en": "Night and twilight",
+   "text": "Avrasya porsuğunun yuvaları kuşaktan kuşağa aktarılır. Birkaç aile aynı yer altı yuvasını onlarca yıl kullanır. Tünelleri otuz beş ila seksen bir metre uzunluğa ulaşır ve elliye kadar çıkışı olabilir. Gündüz bu karanlık odalarda uyuyan porsuk, alacakaranlıkta dışarı çıkar. Gözleri renkleri ayırt edemez ve yalnızca hareket eden nesneleri fark eder. Kulakları da insanınkinden daha iyi değildir. Ama burnu son derece keskindir. Gece boyunca kokuyla yolunu bulur ve en önemli besini olan solucanları toplar. Titiz bir hayvandır. Bir gecede yuvasına otuz demete kadar kuru ot taşıyıp yatağını yeniler.",
+   "text_en": "European badger setts are passed down from generation to generation, and several families may use the same burrow system for decades. Its tunnels measure 35 to 81 m and can have up to fifty exits. Sleeping in these dark chambers by day, the badger emerges at dusk. Its eyesight is monochromatic and only moving objects attract its attention; its hearing is no better than a human's. But its sense of smell is acute. Through the night it finds its way by scent and gathers earthworms, its most important food. It is a fastidious animal: in a single night it can carry up to 30 bundles of dry bedding into its sett.",
+   "depth": 50
+  },
+  {
+   "type": "landmark",
+   "depth": 72,
+   "name": "Astronomik Gece",
+   "name_en": "Astronomical Night",
+   "value": "−18°",
+   "tag": "GÜNEŞ UFKUN ALTINDA",
+   "text": "Güneş ufkun on sekiz derece altına indi. Gökyüzünden gelen ışık artık neredeyse sıfır. Akşam alacakaranlığı burada bitiyor ve gerçek gece başlıyor. Çıplak gözle görülebilen en sönük yıldızlar da bu anda ortaya çıkıyor.",
+   "text_en": "The sun has dropped 18 degrees below the horizon. The light coming from the sky is now almost zero. Evening twilight ends here and true night begins. The faintest stars visible to the naked eye appear at this moment."
+  },
+  {
+   "type": "zone",
+   "depth": 75,
+   "name": "İLK KARANLIK",
+   "name_en": "FIRST DARKNESS",
+   "range": "19:15 – 22:30",
+   "text": "Gece artık başladı. Gündüzün göz kamaştırıcı ışığından geriye ancak milyonda biri kadarı kaldı. Bizim gözümüzde ışığa duyarlı yaklaşık doksan bir milyon çubuk hücresi var, ama karanlıkta renkleri ayırt etmekte zorlanıyoruz. Birçok gece hayvanının gözünde ise retinanın arkasında tapetum lucidum adlı ayna gibi bir tabaka bulunuyor. Bu tabaka gelen ışığı retinadan ikinci kez geçiriyor. Fenerle bakıldığında hayvanların gözlerinin parlamasının sebebi bu. Ekranın sağındaki gece nöbeti listesinde her hayvan işte böyle parlayan bir çift gözle yer alıyor.",
+   "text_en": "Night has begun. Only about a millionth of the dazzling daylight is left. Our eyes have about 91 million light-sensitive rod cells, yet we struggle to tell colours apart in the dark. Many night animals, however, have a mirror-like layer behind the retina called the tapetum lucidum. It sends incoming light through the retina a second time. That is why animals' eyes shine when you point a torch at them. In the night watch list on the right of the screen, every animal appears with exactly such a pair of glowing eyes."
+  },
+  {
+   "type": "creature",
+   "name": "Fenek tilkisi",
+   "short": "Fenek",
+   "name_en": "Fennec fox",
+   "latin": "Vulpes zerda",
+   "range": "Gece",
+   "range_en": "Night",
+   "text": "Dünyanın en küçük tilkisi Sahra'da yaşar. Fenek tilkisinin ağırlığı yalnızca bir ila iki kilo civarındadır, ama kulakları on santimetreye ulaşır. Vücuduna oranla kulakları, köpekgiller ailesinin en büyükleridir. Bu kulaklar hem fazla ısıyı dışarı atar hem de kumun altındaki avın sesini duyar. Fenek, Sahra'nın kavurucu sıcağından kaçmak için gündüzü kumdaki yuvasında geçirir ve serin gecede ortaya çıkar. Pençelerinin altı sık kürkle kaplıdır. Gece boyunca kumu kazarak böcek, kemirgen ve kertenkele avlar. Suyunun büyük kısmını avının nemiyle karşılar ve bulduğunda su içer.",
+   "text_en": "The world's smallest fox lives in the Sahara. A fennec fox weighs only about 1 to 1.9 kg, yet its ears reach 10 cm. Relative to its body, its ears are the largest in the dog family. They shed excess heat and pick up the sounds of prey under the sand. To escape the scorching Saharan heat, the fennec spends the day in its sand burrow and comes out in the cool night. The pads of its paws are covered with dense fur. Through the night it digs in the sand for insects, rodents and lizards. It relies on the moisture in its prey and drinks water when it finds it.",
+   "depth": 95
+  },
+  {
+   "type": "creature",
+   "name": "Avrupa kirpisi",
+   "short": "Kirpi",
+   "name_en": "European hedgehog",
+   "latin": "Erinaceus europaeus",
+   "range": "Gece",
+   "range_en": "Night",
+   "text": "Avrupa kirpisinin sırtında altı bine kadar diken bulunur. Bu küçük memeli büyük ölçüde gece etkindir. Karanlık çökünce bahçelerde ve parklarda yola koyulur. Tereddütlü adımlarla ilerler ve sık sık durup havayı koklar. Başlıca besini solucanlardır. Salyangoz, sümüklüböcek, böcek ve tırtıl da avlar. Hatta zaman zaman kertenkele, yılan ve kurbağa yer. Tehlike anında top gibi kıvrılır ve dikenleri onu birçok avcıdan korur. Soğuk kışlarda ise kış uykusuna yatabilir. Yine de çoğu kirpi kış boyunca en az bir kez uyanıp yuvasını değiştirir.",
+   "text_en": "The European hedgehog carries up to 6,000 spines on its back. This small mammal is largely nocturnal. When darkness falls it sets off through gardens and parks. It moves with a hesitant gait, frequently stopping to smell the air. Its main food is earthworms, but it also hunts snails, slugs, beetles and caterpillars, and occasionally even eats lizards, snakes and frogs. When alarmed it rolls into a ball, and its spines repel many predators. In cold winters it may hibernate, though most wake at least once to move their nests.",
+   "depth": 120
+  },
+  {
+   "type": "creature",
+   "name": "Kırmızı gözlü ağaç kurbağası",
+   "short": "Kırmızı gözlü",
+   "name_en": "Red-eyed tree frog",
+   "latin": "Agalychnis callidryas",
+   "range": "Gece",
+   "range_en": "Night",
+   "text": "Kırmızı gözlü ağaç kurbağasının gözleri kapalıyken bile ışık alır. Göz kapağı yerine ince bir zarı vardır ve bu sayede uyurken yaklaşan bir avcıyı fark edip uyanabilir. Orta Amerika'nın yağmur ormanlarında yaşayan bu kurbağa gecedir. Gündüz yaprağın altında, parlak renklerini gizleyerek uyur. Gece olunca uyanır ve güve, cırcır böceği ve sinek avlar. Ürkütülünce kırmızı gözlerini ve turuncu ayaklarını aniden göstererek avcıyı şaşırtır. Dişi, yumurtalarını suyun üzerindeki bir yaprağa bırakır. Yavrular genellikle gece çöktükten hemen sonra yumurtadan çıkar ve aşağıdaki suya düşer.",
+   "text_en": "The red-eyed tree frog's eyes let in light even when closed. Instead of a true eyelid it has a nictitating membrane, so it can wake when a predator approaches. Living in the rainforests of Central America, this frog is nocturnal. By day it sleeps under a leaf, hiding its bright colours. At night it wakes to hunt moths, crickets and flies. When startled, it suddenly flashes its red eyes and orange feet, surprising the predator. The female lays her eggs on a leaf above water. The tadpoles tend to hatch just after nightfall and drop into the water below.",
+   "depth": 145
+  },
+  {
+   "type": "landmark",
+   "depth": 160,
+   "name": "Karanlığa Uyum",
+   "name_en": "Dark Adaptation",
+   "value": "20–30 DK",
+   "tag": "İNSAN GÖZÜ",
+   "text": "Kısa bir mola verip kendimize bakalım. İnsan gözünün parlak güneş ışığından tam karanlığa uyum sağlaması yaklaşık yirmi ile otuz dakika sürüyor. Bu sürenin sonunda gözümüz gündüze göre on bin ile bir milyon kat daha hassas hale geliyor. Yine de gecenin gerçek ustalarıyla yarışamıyoruz.",
+   "text_en": "Let's pause for a moment and look at ourselves. The human eye takes about 20 to 30 minutes to adapt fully from bright sunlight to complete darkness. By then it has become 10,000 to 1,000,000 times more sensitive than in daylight. Even so, we are no match for the true masters of the night."
+  },
+  {
+   "type": "creature",
+   "name": "Ay güvesi",
+   "short": "Ay güvesi",
+   "name_en": "Luna moth",
+   "latin": "Actias luna",
+   "range": "Gece",
+   "range_en": "Night",
+   "text": "Ay güvesinin yetişkinleri hiç beslenmez; ağızları körelmiştir ve sindirim sistemleri yoktur. Kuzey Amerika ormanlarında yaşayan bu iri gece kelebeğinin açık yeşil kanatları on bir buçuk santimetreye kadar açılabilir. Yetişkin ömrü yalnızca yedi ile on gün sürer ve bu kısa sürede karanlıkta eş arar. Dişi geceleri havaya bir koku salar; erkek bu kokuyu büyük antenleriyle kilometrelerce öteden algılar. Arka kanatlarındaki uzun kuyruklar ise yarasaların yankıyla avlanma sistemini yanıltır. Deneylerde kuyruğu kesilen güvelerin yüzde seksen biri yakalanırken, kuyruklu olanların yalnızca yüzde otuz beşi av oldu.",
+   "text_en": "Adult luna moths never eat: their mouthparts are vestigial and they have no digestive system. This large night-flying moth of North American forests has pale green wings that can span up to 11.5 cm. The adult lives only 7 to 10 days, and spends that short time searching for a mate in the dark. At night the female releases a scent; the male detects it with his large antennae from several miles away. The long tails on its hindwings fool the echolocation of hunting bats. In experiments, 81% of moths with clipped tails were caught, but only 35% of those with intact tails.",
+   "depth": 180
+  },
+  {
+   "type": "creature",
+   "name": "Kinkaju",
+   "short": "Kinkaju",
+   "name_en": "Kinkajou",
+   "latin": "Potos flavus",
+   "range": "Gece",
+   "range_en": "Night",
+   "text": "Kinkaju etçiller takımında yer alır ama besininin yüzde doksanı meyvedir. Meksika'dan Bolivya'ya uzanan tropikal ormanlarda yaşayan bu ağaç sakini, sıkı gece alışkanlıkları yüzünden insanlarca nadiren görülür. Gündüzleri ağaç kovuklarında uyur, karanlık çökünce harekete geçer. Gözleri ışıkta yeşil ya da parlak sarı yansır. Kavrayıcı kuyruğunu beşinci bir el gibi kullanır. Ayaklarını yüz seksen derece çevirebildiği için dallarda geriye doğru koşabilir, ağaçlardan baş aşağı inebilir. Yaklaşık on üç santimetrelik ince dili meyve özünü kazımaya ve çiçeklerden nektar yalamaya yarar; bu sayede çiçekleri tozlayabilir de.",
+   "text_en": "The kinkajou belongs to the order Carnivora, yet about 90% of its diet is fruit. Living in the tropical forests from Mexico to Bolivia, this tree-dweller is seldom seen by people because of its strictly nocturnal habits. It sleeps in tree hollows by day and becomes active after dark. Its eyes reflect green or bright yellow in light. It uses its prehensile tail like a fifth hand. Because it can rotate its feet 180 degrees, it can run backwards along branches and climb down trees headfirst. Its slender tongue, about 13 cm long, scoops out fruit pulp and licks nectar from flowers, so it may even act as a pollinator.",
+   "depth": 210
+  },
+  {
+   "type": "creature",
+   "name": "Filipin tarsiyeri",
+   "short": "Tarsiyer",
+   "name_en": "Philippine tarsier",
+   "latin": "Carlito syrichta",
+   "range": "Gece",
+   "range_en": "Night",
+   "text": "Filipin tarsiyerinin gözleri kafatasına sabittir ve yuvalarında dönemez. Bu yüzden etrafına bakmak için başını yüz seksen derece çevirir. Vücut ağırlığına oranla memeliler arasındaki en büyük gözlere sahip bu primat, ancak bir insan yumruğu kadardır. Filipinler'in güneydoğusunda, Bohol, Samar, Leyte ve Mindanao adalarında yaşar. Gündüz karanlık kovuklarda uyur, yalnızca gece etkin olur. Karanlıkta göz bebeği neredeyse bütün gözü kaplar. Sürekli kıpırdayan kulakları en küçük hareketi duyar. Uzun ayak bilekleri sayesinde ağaçtan ağaca en az üç metre sıçrar. Yakaladığı canlı böcekleri iki eliyle ağzına götürür.",
+   "text_en": "The Philippine tarsier's eyes are fixed in its skull and cannot move in their sockets, so it turns its head 180 degrees to look around. This primate, which has the largest eye-to-body-weight ratio of all mammals, is only about the size of a human fist. It lives in the southeastern Philippines, on the islands of Bohol, Samar, Leyte and Mindanao. It sleeps in dark hollows by day and is active only at night. In darkness its pupil dilates to fill almost the entire eye. Its constantly moving ears pick up the slightest movement. Its elongated ankle bones let it leap at least 3 m from tree to tree, and it carries the live insects it catches to its mouth with both hands.",
+   "depth": 240
+  },
+  {
+   "type": "zone",
+   "depth": 270,
+   "name": "GECE YARISI",
+   "name_en": "MIDNIGHT",
+   "range": "22:30 – 02:00",
+   "music_switch": true,
+   "text": "Gecenin en derin bölümüne giriyoruz. Gündüz hayvanlarının çoğu uyurken ormanlar, savanlar ve adalar başka bir hayatla doluyor. Burada yalnızca görmek yetmiyor. Kimi avcı sesle, kimi dokunarak, kimi de koku alarak yolunu buluyor. Bilim insanlarına göre memeliler yaklaşık yüz altmış milyon yıl boyunca çoğunlukla gece hayvanıydı. Bugün bile memelilerin çoğu geceleri aktif. Şimdi bu mirasın en tuhaf örnekleriyle tanışıyoruz.",
+   "text_en": "We are entering the deepest part of the night. While most daytime animals sleep, forests, savannas and islands fill with another kind of life. Here, sight alone is not enough. Some hunters find their way by sound, some by touch and some by smell. According to scientists, mammals spent about 160 million years as mainly nocturnal animals. Even today most mammals are active at night. Now we meet some of the strangest examples of this legacy."
+  },
+  {
+   "type": "creature",
+   "name": "Peçeli baykuş",
+   "short": "Peçeli baykuş",
+   "name_en": "Western barn owl",
+   "latin": "Tyto alba",
+   "range": "Gece ve alacakaranlık",
+   "range_en": "Night and twilight",
+   "text": "Peçeli baykuş, avını görmeden yalnızca sesle bulabilir. Kulakları başının iki yanında farklı yüksekliklerdedir; bu asimetri, bir sesin yönünü ve uzaklığını çok daha iyi belirlemesini sağlar. Kalp biçimli yüz diski de bu işe yardım eder. Avrupa, Afrika ve Orta Doğu'da, orman kenarlarında ve çayırlarda avlanır. Uçuş tüylerinin ön kenarındaki minik tırtıklar ve arka kenarındaki saçaklar hava akışını böler; böylece neredeyse sessiz uçar. Bu baykuş ötmez, uzun ve ürkütücü bir çığlık atar. Nemli ılıman bölgelerde avının yüzde doksanından fazlası küçük memelilerdir. Pençelerini karın ve otların içinden geçirerek avını yakalar.",
+   "text_en": "The barn owl can locate prey by sound alone, without seeing it. Its ears are set asymmetrically on either side of its head, which greatly improves its ability to judge the direction and distance of a sound. Its heart-shaped facial disc helps with this too. It hunts along woodland edges and grassland across Europe, Africa and the Middle East. Tiny serrations on the leading edges of its flight feathers and a fringe on the trailing edges break up the airflow, so it flies almost silently. This owl does not hoot; it gives a long, eerie screech. In moist temperate areas over 90% of its prey is small mammals. It drives its talons through snow and grass to seize its prey.",
+   "depth": 285
+  },
+  {
+   "type": "landmark",
+   "depth": 300,
+   "name": "Dolunay",
+   "name_en": "Full Moon",
+   "value": "1/380.000",
+   "tag": "AY IŞIĞI",
+   "text": "Bu gece gökyüzünde dolunay var. Ekinoks yakınında dolunay gün batımına yakın doğar ve bütün gece ışık verir. Yine de ay ışığı güneşin yaklaşık üç yüz seksen binde biri kadar parlak. Açık bir gecede dolunay yere genellikle bir lüksün onda biri kadar ya da daha az ışık düşürüyor.",
+   "text_en": "There is a full moon in the sky tonight. Near the equinox, the full moon rises close to sunset and lights up the whole night. Even so, moonlight is only about one 380,000th as bright as the sun. On a clear night a full moon usually delivers around a tenth of a lux or less to the ground."
+  },
+  {
+   "type": "creature",
+   "name": "Aye-aye",
+   "short": "Aye-aye",
+   "name_en": "Aye-aye",
+   "latin": "Daubentonia madagascariensis",
+   "range": "Gece",
+   "range_en": "Night",
+   "text": "Aye-aye, yiyeceğini kulağıyla bulan tuhaf bir primattır. Madagaskar ormanlarında yaşayan bu lemur, karanlıkta ağaç gövdelerine saniyede sekiz kereye varan hızla parmağıyla vurur ve yankıyı dinler. İçi boş bir oyuk duyunca, hiç durmadan uzayan ön dişleriyle tahtayı kemirip delik açar. Sonra ince, kemikli orta parmağını içeri sokarak böcek larvalarını çeker. Gündüzü yapraklardan ördüğü küre biçimli yuvasında uyuyarak geçirir. Gecenin yüzde sekseni kadarını ağaçların tepesinde yiyecek arayarak geçirebilir ve bir gecede dört kilometre yol alabilir.",
+   "text_en": "The aye-aye is a strange primate that finds its food by ear. Living in the forests of Madagascar, this lemur taps on tree trunks in the dark up to eight times per second and listens to the echo. When it hears a hollow chamber, it gnaws a hole in the wood with its ever-growing front teeth. Then it inserts its thin, bony middle finger to pull out insect larvae. It spends the day asleep in a spherical nest woven from leaves. It may spend up to 80% of the night foraging in the canopy and can travel up to 4 km in one night.",
+   "depth": 315
+  },
+  {
+   "type": "creature",
+   "name": "Sunda yavaş lorisi",
+   "short": "Yavaş loris",
+   "name_en": "Sunda slow loris",
+   "latin": "Nycticebus coucang",
+   "range": "Gece",
+   "range_en": "Night",
+   "text": "Sunda yavaş lorisinin dirseklerinin iç yüzünde zehirli bir salgı üreten bezler vardır. Tehlike anında ısırabilir ya da bu salgıyla kaplı kürkünü öne çıkararak top gibi kıvrılır. Endonezya, Malezya, güney Tayland ve Singapur'un yağmur ormanlarında yaşar. Gündüzü dallarda top gibi kıvrılıp uyuyarak geçirir, karanlık çökünce ortaya çıkar. İri gözleriyle gecenin içinde dallarda sessizce, ağır ağır ilerler; çoğu zaman üç ayağıyla dala tutunur. Beslenmesinin büyük kısmı ağaç özsuyu, çiçek nektarı ve meyvedir; ağaçlardaki yaraları yalayarak zamk da toplar. Metabolizması, benzer boydaki memelilere göre son derece yavaştır.",
+   "text_en": "The Sunda slow loris has glands on the inside of its elbows that produce a toxic secretion. When threatened it may bite, or roll into a ball exposing fur coated in this secretion. It lives in the rainforests of Indonesia, Malaysia, southern Thailand and Singapore. It spends the day curled in a ball asleep on branches and emerges after dark. With its large eyes it moves slowly and quietly through the branches at night, usually gripping with three limbs at a time. Most of its diet is tree sap, floral nectar and fruit, and it collects gum by licking wounds in trees. Its metabolic rate is extremely low compared with other mammals of its size.",
+   "depth": 335
+  },
+  {
+   "type": "creature",
+   "name": "Gece maymunu",
+   "short": "Gece maymunu",
+   "name_en": "Nancy Ma's night monkey",
+   "latin": "Aotus nancymaae",
+   "range": "Gece",
+   "range_en": "Night",
+   "text": "Gece maymunları, dünyadaki tek gerçek gece aktif maymunlardır. Panama'dan Arjantin'e kadar Güney Amerika ormanlarında yaşarlar; Nancy Ma gece maymunu ise Peru ve Brezilya'da görülür. İri kahverengi gözleri karanlıkta görüşlerini güçlendirir. Renkleri ayırt edemezler; muhtemelen gece renk görmenin bir faydası olmadığı için. Ay ışığı azaldıkça daha az hareket ederler. Gündüzü ağaç kovuklarında ve sık yaprakların arasında dinlenerek geçirirler. Çoğunlukla meyve yerler, böcekleri avuçlarıyla dala bastırarak yakalarlar. Eşleriyle kalıcı bağ kurarlar; yavruyu çoğunlukla baba taşır, hem de zamanın yüzde doksanına varan kısmında.",
+   "text_en": "Night monkeys are the world's only truly nocturnal monkeys. They live in the forests of Panama and South America as far as Argentina; Nancy Ma's night monkey is found in Peru and Brazil. Their large brown eyes improve their vision in the dark. They cannot distinguish colours, presumably because colour vision is of no advantage at night. As moonlight decreases, they become less active. They rest by day in tree holes and dense foliage. They eat mostly fruit, and catch insects by pressing them against a branch with the palm of the hand. They form lasting pair bonds; the father is the main carrier of the infant, carrying it up to 90% of the time.",
+   "depth": 350
+  },
+  {
+   "type": "landmark",
+   "depth": 360,
+   "name": "Gece Yarısı",
+   "name_en": "Midnight",
+   "value": "00:00",
+   "tag": "GECENİN ORTASI",
+   "chapter": true,
+   "text": "Saat tam gece yarısını gösteriyor. Gecenin ortasına geldik. Gün batımından bu yana altı saat geçti, şafağa da altı saat var. Bu yolculukta tanıştığımız canlıların çoğu için ise gün daha yeni ısınıyor.",
+   "text_en": "The clock shows exactly midnight. We have reached the middle of the night. Six hours have passed since sunset, and there are six more until dawn. For most of the animals on this journey, though, the day is only just warming up."
+  },
+  {
+   "type": "creature",
+   "name": "Güney kahverengi kivisi",
+   "short": "Kivi",
+   "name_en": "Southern brown kiwi",
+   "latin": "Apteryx australis",
+   "range": "Gece",
+   "range_en": "Night",
+   "text": "Burun delikleri uzun gagasının ucunda bulunan tek kuşlar kivilerdir. Güney kahverengi kivisi, Yeni Zelanda'nın Güney Adası ile Stewart Adası'nda ormanlarda, çalılıklarda ve otlaklarda yaşar. Kivinin gözü, vücuduna oranla bütün kuşların en küçük gözüdür. Bu yüzden gece karanlığında görmeye değil, kokuya güvenir. Gagasını toprağa daldırır; solucanları, böcek larvalarını ve örümcekleri koklayarak bulur. Ağzının çevresinde uzun, bıyığa benzeyen tüyler vardır. Dişinin tek bir yumurtası, kendi ağırlığının yüzde yirmisine kadar ulaşabilir.",
+   "text_en": "Kiwi are the only birds with nostrils at the tip of their long beaks. The southern brown kiwi lives in forests, shrubland and grassland on New Zealand's South Island and Stewart Island. Relative to body mass, the kiwi's eye is the smallest of any bird. So in the dark of night it relies not on sight but on smell. It plunges its bill into the soil and sniffs out earthworms, beetle larvae and spiders. Long whisker-like feathers surround its mouth. A single egg can weigh up to 20% of the female's body mass.",
+   "depth": 375
+  },
+  {
+   "type": "creature",
+   "name": "Kakapo",
+   "short": "Kakapo",
+   "name_en": "Kākāpō",
+   "latin": "Strigops habroptilus",
+   "range": "Gece",
+   "range_en": "Night",
+   "text": "Kakapo, dünyanın uçamayan tek papağanı ve yaşayan en ağır papağanıdır. Adı, Maori dilinde papağan ve gece anlamına gelen iki kelimeden oluşur. Yalnızca Yeni Zelanda'da, çoğunlukla yırtıcılardan arındırılmış küçük adalarda yaşar. Gündüzleri saklanır, geceleri bölgesinde dolaşır. Baykuşu andıran yüzü ve öne bakan gözleri vardır. Gözleri ışığa duyarlıdır ama keskin görmez. Güçlü koku alma duyusuyla yiyeceklerini birbirinden ayırt eder. Tamamen otçuldur; meyve, tohum ve yaprak yer. Uçamasa da en yüksek ağaçların tepesine tırmanır. Erkeklerin derin gümbürtüleri en az bir kilometre öteden duyulur.",
+   "text_en": "The kākāpō is the world's only flightless parrot and the heaviest living parrot. Its name comes from two Māori words meaning parrot and night. It lives only in New Zealand, mostly on small predator-free islands. By day it hides; at night it roams its territory. It has an owl-like face with forward-facing eyes. Its eyes are sensitive to light but see little detail. With its strong sense of smell it can tell foods apart. It is entirely herbivorous, eating fruit, seeds and leaves. Though it cannot fly, it climbs to the crowns of the tallest trees. The males' deep booms can be heard at least 1 km away.",
+   "depth": 395
+  },
+  {
+   "type": "creature",
+   "name": "Yer domuzu",
+   "short": "Yer domuzu",
+   "name_en": "Aardvark",
+   "latin": "Orycteropus afer",
+   "range": "Gece",
+   "range_en": "Night",
+   "text": "Yer domuzu tek bir gecede elli bine kadar karınca ve termit yiyebilir. Adı Afrikaanca toprak domuzu demektir, ama domuzla yakın akrabalığı yoktur. Sahra'nın güneyindeki savanlarda, otlaklarda ve ağaçlık alanlarda yaşar. Günün sıcağını karanlık yuvasında geçirir, güneş batarken dışarı çıkar. Yuvanın ağzında yaklaşık on dakika durup koklar ve dinler. Burnunda, öteki bütün memelilerden daha fazla burun kıvrımı kemiği vardır. Burnu yerde, kulakları dikik ilerler. Yuvaları güçlü pençeleriyle kazar, böcekleri uzun ve yapışkan diliyle toplar. Bir gecede genellikle iki ile beş kilometre yürür.",
+   "text_en": "An aardvark can eat as many as 50,000 ants and termites in a single night. Its name means earth pig in Afrikaans, yet it is not closely related to pigs. It lives in the savannas, grasslands and woodlands south of the Sahara. It spends the heat of the day in its dark burrow and comes out around sunset. At the entrance it pauses for about ten minutes, sniffing and listening. Its nose has more turbinate bones than that of any other mammal. It moves with its nose to the ground and its ears pointed forward. It digs into nests with powerful claws and gathers insects with its long, sticky tongue. It usually covers 2 to 5 km a night.",
+   "depth": 415
+  },
+  {
+   "type": "creature",
+   "name": "Temminck pangolini",
+   "short": "Pangolin",
+   "name_en": "Temminck's pangolin",
+   "latin": "Smutsia temminckii",
+   "range": "Gece",
+   "range_en": "Night",
+   "text": "Temminck pangolininin dili, kendi vücudundan bile uzundur. Bu pullu memeli, Afrika'nın güneyinde ve doğusunda, çalılıklı savan ormanlarında yaşar. Derin yuvalarda barınır ve karanlıkta ortaya çıkan bir gece hayvanıdır. Arka ayakları üzerinde yürür, ön ayaklarını ve kuyruğunu denge için kullanır. Gözleri ve kulakları zayıftır, ama koku alma duyusu çok güçlüdür. Yalnızca karınca ve termit yer, üstelik sadece belirli türleri seçer. Dişi yoktur; avını midesindeki küçük taşlar öğütür. Tehlikede, saç ve tırnakla aynı maddeden yapılmış pullarıyla top gibi kıvrılır.",
+   "text_en": "The tongue of Temminck's pangolin is longer than its own body. This scaly mammal lives in scrubby savannah woodland in southern and eastern Africa. It shelters in deep burrows and is a nocturnal animal that emerges in the dark. It walks on its hind legs, using its forelegs and tail for balance. Its eyesight and hearing are poor, but its sense of smell is strong. It eats only ants and termites, and picks out only certain species. It has no teeth; small stones in its stomach grind up its prey. When threatened, it curls into a ball protected by scales made of the same material as hair and nails.",
+   "depth": 435
+  },
+  {
+   "type": "creature",
+   "name": "Benekli sırtlan",
+   "short": "Benekli sırtlan",
+   "name_en": "Spotted hyena",
+   "latin": "Crocuta crocuta",
+   "range": "Gece",
+   "range_en": "Night",
+   "text": "Benekli sırtlanın yüksek çağrısı beş kilometreden daha uzaktan duyulabilir. Gülen sırtlan diye de bilinen bu hayvan, Sahra'nın güneyinde yaşar ve Afrika'nın en yaygın büyük etçilidir. Sırtlanlar çoğunlukla gece etkindir. Leşçi diye tanınsa da benekli sırtlan aslında usta bir avcıdır; bazı bölgelerde besininin neredeyse tamamını kendisi avlar. Seksen bireye kadar ulaşan klanlarda yaşar ve dişiler genellikle erkeklere baskındır. Karanlıkta daha cesur olur, zaman zaman aslanları bile avından uzaklaştırır. Güçlü kafatası sayesinde kemikleri kırar, deriyi ve kemiği sindirebilir.",
+   "text_en": "The spotted hyena's loud whoop can be heard more than 5 km away. Also known as the laughing hyena, it lives south of the Sahara and is Africa's most common large carnivore. Hyenas are primarily nocturnal. Though known as a scavenger, the spotted hyena is in fact a skilled hunter; in some areas hunting provides up to 98% of its diet. It lives in clans of up to 80 individuals, and females usually dominate males. In the dark it grows bolder, sometimes even driving lions off a kill. Its powerful skull lets it crush bones, and it can digest skin and bone.",
+   "depth": 455
+  },
+  {
+   "type": "creature",
+   "name": "Toprak kurdu",
+   "short": "Toprak kurdu",
+   "name_en": "Aardwolf",
+   "latin": "Proteles cristatus",
+   "range": "Gece",
+   "range_en": "Night",
+   "text": "Toprak kurdu, tek bir gecede üç yüz bine kadar termit yiyebilir. Adı Afrikaanca ve Felemenkçede toprak kurdu demektir, ama aslında sırtlan ailesinin yaşayan en küçük üyesidir. Doğu ve Güney Afrika'nın çalılık düzlüklerinde yaşar. Gündüzleri yuvasında uyur, gece olunca yiyecek aramaya çıkar. Termitleri çıkardıkları sesle ve asker termitlerin salgıladığı kokuyla bulur. Uzun, yapışkan diliyle onları yerden yalar; dili termit ısırıklarına dayanacak kadar dayanıklıdır. Termit yuvasını yıkmaz, böylece koloni kendini yeniler ve ona sürekli besin sağlar.",
+   "text_en": "An aardwolf can lap up as many as 300,000 termites in a single night. Its name means earth-wolf in Afrikaans and Dutch, but it is actually the smallest living member of the hyena family. It lives in the shrublands of East and Southern Africa. It sleeps in a burrow by day and goes out to find food when night falls. It locates termites by sound and by the scent secreted by soldier termites. It licks them off the ground with its long, sticky tongue, which is tough enough to withstand their bites. It does not destroy the termite mound, so the colony rebuilds and provides a continuous food supply.",
+   "depth": 470
+  },
+  {
+   "type": "zone",
+   "depth": 480,
+   "name": "SESSİZ SAATLER",
+   "name_en": "SILENT HOURS",
+   "range": "02:00 – 04:30",
+   "text": "Saat ikiyi geçti. Gecenin son ve en sessiz bölümündeyiz. Ama karanlığın en koyu saatleri bazı hayvanlar için en güvenli saatler. Bu bölümde kan içen yarasalar, mağaralarda yankıyla yolunu bulan kuşlar, karanlıkta avlanan akrepler ve çığlıklarıyla ünlü bir keseli var. Gecenin bu kısmında avcılar da avlar da tamamen başka duyulara güveniyor.",
+   "text_en": "It is past two o'clock. We are in the last and quietest part of the night. But for some animals the darkest hours are the safest. In this part we meet blood-drinking bats, birds that find their way through caves by echoes, scorpions hunting in the dark and a marsupial famous for its screams. At this time of night, hunters and hunted alike rely on entirely different senses."
+  },
+  {
+   "type": "landmark",
+   "depth": 490,
+   "name": "Yıldız Işığı",
+   "name_en": "Starlight",
+   "value": "0,0001 LÜKS",
+   "value_en": "0.0001 LUX",
+   "tag": "IŞIK ÖLÇÜMÜ",
+   "text": "Ama her gece dolunay yok. Aysız ve bulutlu bir gecede geriye yalnızca yıldız ışığı kalıyor: on binde bir lüks. Bu değer, insan gözünün algılayabildiği en düşük aydınlatma düzeyiyle neredeyse aynı. Yani bizim için zifiri karanlık.",
+   "text_en": "But not every night has a full moon. On a moonless, overcast night only starlight remains: one ten-thousandth of a lux. That is about the minimum illuminance the human eye can detect. For us it is pitch darkness."
+  },
+  {
+   "type": "creature",
+   "name": "Vampir yarasa",
+   "short": "Vampir yarasa",
+   "name_en": "Common vampire bat",
+   "latin": "Desmodus rotundus",
+   "range": "Gece",
+   "range_en": "Night",
+   "text": "Amerika'nın karanlık ormanlarında kanla beslenen bir memeli uçuşa geçiyor: vampir yarasa. Meksika'dan Arjantin ve Şili'ye kadar uzanan bölgede, gündüzü mağaralarda, ağaç kovuklarında ve terk edilmiş binalarda geçirir. Gece olunca ekolokasyon ve koku alma duyusuyla uyuyan hayvanları bulur. Burnundaki ısı algılayıcılar, derinin hemen altındaki kan damarlarını ele verir. Jilet gibi keskin dişleriyle küçük bir yara açar ve kanı diliyle yalar. Salyasındaki draculin adlı madde kanın pıhtılaşmasını engeller. Yuvaya dönünce kustuğu kanı yakınlarıyla paylaşacak kadar sosyal bir hayvandır.",
+   "text_en": "In the dark forests of the Americas, a mammal that feeds on blood takes flight: the common vampire bat. Ranging from Mexico to Argentina and Chile, it spends the day in caves, hollow trees and abandoned buildings. At night it finds sleeping animals using echolocation and its sense of smell. Heat sensors in its nose reveal the blood vessels just beneath the skin. With razor-sharp teeth it makes a small wound and laps up the blood with its tongue. A substance in its saliva called draculin keeps the blood from clotting. It is social enough to share regurgitated blood with relatives back at the roost.",
+   "depth": 505
+  },
+  {
+   "type": "creature",
+   "name": "Yağ kuşu",
+   "short": "Yağ kuşu",
+   "name_en": "Oilbird",
+   "latin": "Steatornis caripensis",
+   "range": "Gece",
+   "range_en": "Night",
+   "text": "Dünyada gece uçarak meyve toplayan tek kuş, yağ kuşudur. Güney Amerika'nın kuzeyinde ve Trinidad adasında, mağaralarda koloniler halinde yaşar. Gündüzü mağara çıkıntılarında geçirir, gece meyve aramak için dışarı çıkar. Gözündeki ışığa duyarlı çubuk hücrelerinin yoğunluğu, omurgalılarda bilinen en yüksek değerdir: milimetrekarede bir milyon. Zifiri karanlıkta ise yarasalar gibi ekolokasyon kullanır ve insan kulağının duyabildiği keskin tıkırtılar çıkarır. Yağ palmiyesi ve tropik defne meyveleriyle beslenir. Kanat açıklığı doksan beş santimetreyi bulur.",
+   "text_en": "The oilbird is the only nocturnal flying fruit-eating bird in the world. It lives in colonies in caves across northern South America and on the island of Trinidad. It rests on cave ledges by day and leaves at night to look for fruit. The density of light-sensitive rod cells in its eye is the highest known for any vertebrate: one million per square millimetre. In total darkness it uses echolocation like bats, producing sharp clicks that humans can hear. It feeds on the fruits of oil palms and tropical laurels. Its wingspan reaches 95 centimetres.",
+   "depth": 530
+  },
+  {
+   "type": "creature",
+   "name": "Çöl kıllı akrebi",
+   "short": "Çöl kıllı akrebi",
+   "name_en": "Giant desert hairy scorpion",
+   "latin": "Hadrurus arizonensis",
+   "range": "Gece",
+   "range_en": "Night",
+   "text": "Kuzey Amerika'nın en büyük akrebi, çöl kıllı akrebidir; boyu on sekiz santimetreye ulaşabilir. Sonora ve Mojave çöllerinde yaşar ve iki buçuk metre uzunluğa varan yuvalar kazar. Gece yuvasından çıkıp avını ve eşini arar. Vücudunu kaplayan kahverengi tüyler topraktaki titreşimleri algılar. Kıpırdamadan bekler, hareket hissedince avını kıskaçlarıyla yakalar ve iğnesiyle zehrini akıtır. Büyük böcekler, örümcekler, hatta küçük kertenkeleler ve kemirgenler yer. Zehri arı sokmasından daha güçlü değildir. Bütün akrepler gibi morötesi ışık altında mavi yeşil renkte parlar.",
+   "text_en": "The giant desert hairy scorpion is the largest scorpion in North America and can reach 18 centimetres in length. It lives in the Sonoran and Mojave deserts and digs burrows up to 2.5 metres long. At night it leaves its burrow to search for prey and mates. The brown hairs covering its body detect vibrations in the soil. It waits motionless, and when it senses movement it seizes its prey with its pincers and injects venom with its stinger. It eats large insects, spiders and even small lizards and rodents. Its venom is about as painful as a honeybee sting. Like all scorpions, it glows blue-green under ultraviolet light.",
+   "depth": 555
+  },
+  {
+   "type": "creature",
+   "name": "Tasmanya canavarı",
+   "short": "Tasmanya şeytanı",
+   "name_en": "Tasmanian devil",
+   "latin": "Sarcophilus harrisii",
+   "range": "Gece ve alacakaranlık",
+   "range_en": "Night and twilight",
+   "text": "Tasmanya canavarı, vücut büyüklüğüne oranla yaşayan etçil memeliler arasında en güçlü ısırığa sahiptir. Bugün yalnızca Tasmanya adasında yaşar ve gündüzü sık çalılıklarda ya da bir oyukta geçirir. Gece ve alacakaranlıkta avlanır. En güçlü duyusu işitmedir, koku alma duyusu ise bir kilometre öteye ulaşır. Yüzündeki uzun bıyıklar karanlıkta yiyecek bulmasına yardım eder. Gözleri hareketli nesneleri kolayca seçer ama duran nesneleri görmekte zorlanır. Bir gecede ortalama sekiz buçuk kilometre yol alır. Küçük bir hayvanın leşini kemikleri ve kürküyle birlikte bitirebilir.",
+   "text_en": "Relative to its body size, the Tasmanian devil has the most powerful bite of any living mammalian carnivore. Today it lives only on the island of Tasmania, spending the day in dense bush or in a hole. It hunts at night and at dusk. Hearing is its dominant sense, and its sense of smell reaches up to one kilometre. Long whiskers on its face help it find food in the dark. Its eyes readily pick out moving objects but struggle to see stationary ones. It travels an average of 8.6 kilometres every night. It can devour the carcass of a small animal entirely, bones and fur included.",
+   "depth": 580
+  },
+  {
+   "type": "creature",
+   "name": "Potu",
+   "short": "Potu",
+   "name_en": "Common potoo",
+   "latin": "Nyctibius griseus",
+   "range": "Gece",
+   "range_en": "Night",
+   "text": "Potu, gündüz bir dal kütüğüne öylesine benzer ki yanından geçenler onu fark etmez. Orta ve Güney Amerika'nın açık ormanlarında ve savanlarında yaşar. Tehlike sezince gagasını gökyüzüne diker, gözlerini kapatır ve kıpırdamadan durur. Ama göz kapaklarındaki küçük yarıklar sayesinde gözleri kapalıyken bile görebilir. Gece olunca iri sarı gözleriyle bir tünekte nöbet tutar, tüneğinden atılıp geniş ağzıyla güveleri, sinekleri ve başka böcekleri yakalar. Hüzünlü, perdesi giderek alçalan bir şarkısı vardır. Tek yumurtasını yuva yapmadan bir dal kütüğündeki çukura bırakır.",
+   "text_en": "By day the common potoo looks so much like a broken branch that passers-by never notice it. It lives in open woodlands and savannas of Central and South America. When it senses danger it points its bill to the sky, closes its eyes and freezes. Yet thanks to small slits in its eyelids it can see even with its eyes closed. At night it keeps watch from a perch with its large yellow eyes, sallying out to catch moths, flies and other insects in its wide mouth. It has a haunting, melancholic song that drops in pitch. It lays its single egg in a hollow on a branch stump without building a nest.",
+   "depth": 605
+  },
+  {
+   "type": "zone",
+   "depth": 630,
+   "name": "ŞAFAK",
+   "name_en": "DAWN",
+   "range": "04:30 – 06:00",
+   "text": "Doğu ufku yavaş yavaş aydınlanıyor. Güneş ufkun on sekiz derece altına yaklaştığında sabah alacakaranlığı başlıyor ve en sönük yıldızlar birer birer kayboluyor. Gece hayvanları yuvalarına dönmeye hazırlanırken, gündüzün ilk sesleri duyulmaya başlıyor. Gecenin son şarkıcıları ve günün ilk çığırtkanlarıyla tanışıyoruz.",
+   "text_en": "The eastern horizon slowly brightens. When the sun climbs to 18 degrees below the horizon, morning twilight begins and the faintest stars disappear one by one. As the night animals get ready to return to their dens, the first sounds of the day can be heard. We meet the last singers of the night and the first heralds of the day."
+  },
+  {
+   "type": "creature",
+   "name": "Bülbül",
+   "short": "Bülbül",
+   "name_en": "Common nightingale",
+   "latin": "Luscinia megarhynchos",
+   "range": "Gece ve alacakaranlık",
+   "range_en": "Night and twilight",
+   "text": "Bülbülün İngilizce adı gece şarkıcısı anlamına gelir, çünkü gündüz olduğu kadar gece de şarkı söyler. Avrupa'da ve Türkiye'yi de içine alan geniş bir bölgede ürer, kışı Sahra'nın güneyinde geçirir. Gece şarkı söyleyenler eş arayan bekâr erkeklerdir. Bir gece konseri yedi sekiz saat neredeyse ara vermeden sürebilir. Az sayıda kuşun öttüğü karanlıkta sesi özellikle belirgindir. Bir erkek ortalama yüz doksan farklı şarkı türü söyler; bazıları üç yüzü aşar. Gün doğmadan önceki son saatte ise bölgesini korumak için şarkı söyler. Dişiler hiç şarkı söylemez.",
+   "text_en": "The nightingale's English name means 'night singer', because it sings at night as well as during the day. It breeds across Europe and a wide region that includes Turkey, and winters south of the Sahara. The birds singing at night are unpaired males looking for a mate. A night-long singing session can last 7 to 8 hours with hardly a break. In the darkness, when few other birds are singing, its voice stands out. A male sings on average 190 different song types; some exceed 300. In the hour before sunrise it sings to defend its territory. Females do not sing at all.",
+   "depth": 645
+  },
+  {
+   "type": "creature",
+   "name": "Gülen kookaburra",
+   "short": "Gülen kookaburra",
+   "name_en": "Laughing kookaburra",
+   "latin": "Dacelo novaeguineae",
+   "range": "Şafak ve alacakaranlık",
+   "range_en": "Dawn and dusk",
+   "text": "Gülen kookaburra iri bir yalıçapkınıdır ve sesi bir insan kahkahasını andırır. Doğu Avustralya'nın okaliptüs ormanlarında, korularda ve şehir parklarında yaşar. Kahkahası günün her saatinde duyulabilir ama en çok şafakta ve alacakaranlıkta yükselir. Bir kuş alçak bir kıkırdamayla başlar, sonra başını geriye atıp yüksek sesle güler; ailenin diğer üyeleri de katılır. Bu koro, ailenin bölgesini komşularına duyurur. Yavrular kahkahayı ebeveynlerinden öğrenir. Dalda pusuya yatar, yerdeki avının üzerine atlar. Kendi boyundan uzun zehirli yılanları bile avlayabilir.",
+   "text_en": "The laughing kookaburra is a large kingfisher, and its call sounds like human laughter. It lives in the eucalypt forests, woodlands and city parks of eastern Australia. Its laugh can be heard at any time of day, but most often at dawn and dusk. One bird starts with a low chuckle, then throws its head back in raucous laughter, and other family members join in. This chorus announces the family's territory to the neighbours. Young birds learn the laugh from their parents. It waits on a branch and pounces on prey on the ground. It can even catch venomous snakes longer than its own body.",
+   "depth": 680
+  },
+  {
+   "type": "landmark",
+   "depth": 720,
+   "name": "Gün Doğumu",
+   "name_en": "Sunrise",
+   "value": "06:00",
+   "tag": "GÖKYÜZÜ",
+   "text": "Ve güneş doğuyor. On iki saatlik yolculuğumuz burada sona eriyor. Gece nöbetini tutan hayvanlar şimdi yuvalarına, oyuklarına ve dallarına çekiliyor. Sahne yeniden gündüzün hayvanlarına kalıyor.",
+   "text_en": "And the sun rises. Our 12-hour journey ends here. The animals that kept the night watch now withdraw to their dens, hollows and branches. The stage belongs once again to the animals of the day."
+  },
+  {
+   "type": "outro",
+   "depth": 720,
+   "text": "Gün batımında yanıp sönen ateş böceklerinden şafakta kahkaha atan kookaburraya kadar yirmi yedi canlıyla bir gece geçirdik. Yiyeceğini kulağıyla bulan aye-ayeyi, gözleri kapalıyken bile görebilen potuyu, milimetrekaresinde bir milyon çubuk hücresi taşıyan yağ kuşunu ve bir gecede üç yüz bin termit yiyebilen toprak kurdunu tanıdık. Belki de en şaşırtıcısı şu: biz karanlığa alışmak için yarım saat beklerken, bu hayvanlar için gece hiç de karanlık değil. Kimi kokuyla, kimi sesle, kimi de en sönük ışığı toplayan gözleriyle dünyayı görüyor. Bu yolculuğu beğendiyseniz kanala abone olmayı ve videoyu beğenmeyi unutmayın. Bir sonraki belgeselde görüşmek üzere.",
+   "text_en": "From fireflies flashing at sunset to a kookaburra laughing at dawn, we have spent a night with 27 animals. We met the aye-aye that finds its food by ear, the potoo that can see even with its eyes closed, the oilbird with a million rod cells in every square millimetre of its retina, and the aardwolf that can eat 300,000 termites in a single night. Perhaps the most surprising thing is this: while we need half an hour to get used to the dark, for these animals the night is not dark at all. Some see the world through smell, some through sound, and some through eyes that gather the faintest light. If you enjoyed this journey, don't forget to subscribe to the channel and like the video. See you in the next documentary."
+  }
+ ],
+ "intro_photos": [
+  "16_0",
+  "12_0",
+  "18_0",
+  "20_0"
+ ]
+}

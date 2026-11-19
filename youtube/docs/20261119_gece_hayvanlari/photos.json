@@ -1,0 +1,616 @@
+{
+ "03": [
+  {
+   "file": "03_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/137800355/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Steven Bodzin"
+  },
+  {
+   "file": "03_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/302090929/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY-SA",
+   "author": "Kim H"
+  },
+  {
+   "file": "03_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/210352047/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "L.J. Lamera"
+  }
+ ],
+ "04": [
+  {
+   "file": "04_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/339507019/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Russ Namitz"
+  },
+  {
+   "file": "04_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/477524430/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Hanwen"
+  },
+  {
+   "file": "04_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/304705158/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Barb"
+  }
+ ],
+ "06": [
+  {
+   "file": "06_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/270945083/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Oleg Kosterin"
+  },
+  {
+   "file": "06_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/28349239/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Вячеслав Юсупов"
+  },
+  {
+   "file": "06_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/91495494/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Лариса Артемьева"
+  }
+ ],
+ "07": [
+  {
+   "file": "07_0.jpg",
+   "src": "File:European badger (Meles meles taxus) Drenthe.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Charles J. Sharp"
+  },
+  {
+   "file": "07_1.jpg",
+   "src": "File:A Very Wet Badger (51283095909).jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 2.0",
+   "author": "Andy  Morffew from Itchen Abbas, Hampshire, UK"
+  },
+  {
+   "file": "07_2.jpg",
+   "src": "File:Foraging Badger1.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 2.0",
+   "author": "Charlie Marshall"
+  }
+ ],
+ "10": [
+  {
+   "file": "10_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/615513692/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Horatiu Stefanie"
+  },
+  {
+   "file": "10_1.jpg",
+   "src": "File:Fennec Fox Vulpes zerda.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 2.0",
+   "author": "Drew Avery"
+  },
+  {
+   "file": "10_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/482708824/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Demian Hiß"
+  }
+ ],
+ "11": [
+  {
+   "file": "11_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/391055474/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "William Harland"
+  },
+  {
+   "file": "11_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/680917201/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Diego González Dopico"
+  },
+  {
+   "file": "11_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/306547911/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "steve b"
+  }
+ ],
+ "12": [
+  {
+   "file": "12_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/28316/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Brian Gratwicke"
+  },
+  {
+   "file": "12_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/249984730/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Scott Loarie"
+  },
+  {
+   "file": "12_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/614762232/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Matt Felperin"
+  }
+ ],
+ "14": [
+  {
+   "file": "14_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/554671917/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Samuel Paul Galick"
+  },
+  {
+   "file": "14_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/29392090/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Dennis White"
+  },
+  {
+   "file": "14_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/29392106/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Dennis White"
+  }
+ ],
+ "15": [
+  {
+   "file": "15_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/716151757/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Dean Hester"
+  },
+  {
+   "file": "15_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/470640575/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "TheMongrelKoi"
+  },
+  {
+   "file": "15_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/462572589/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Jan Ebr & Ivana Ebrová"
+  }
+ ],
+ "16": [
+  {
+   "file": "16_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/358482089/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Zoltán Stekkelpak"
+  },
+  {
+   "file": "16_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/358482081/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Zoltán Stekkelpak"
+  },
+  {
+   "file": "16_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/357170463/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Zoltán Stekkelpak"
+  }
+ ],
+ "18": [
+  {
+   "file": "18_0.jpg",
+   "src": "File:Front view of a barn owl - Tyto alba - in flight.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC0",
+   "author": "Dannymoore1973"
+  },
+  {
+   "file": "18_1.jpg",
+   "src": "File:Barn Owl - Tyto alba (50316138118).jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 2.0",
+   "author": "caroline legg"
+  },
+  {
+   "file": "18_2.jpg",
+   "src": "File:Western Barn Owl Tyto alba guttata.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Иван Везенковић"
+  }
+ ],
+ "20": [
+  {
+   "file": "20_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/94466866/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Jean-Paul Boerekamps"
+  },
+  {
+   "file": "20_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/386515031/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Светлана Царахова"
+  },
+  {
+   "file": "20_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/94466841/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Jean-Paul Boerekamps"
+  }
+ ],
+ "21": [
+  {
+   "file": "21_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/598803171/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Лариса Артемьева"
+  },
+  {
+   "file": "21_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/720853510/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "scott_young"
+  },
+  {
+   "file": "21_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/124234031/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Philipp Hoenle"
+  }
+ ],
+ "22": [
+  {
+   "file": "22_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/103211011/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "David F. Belmonte"
+  },
+  {
+   "file": "22_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/238991448/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY-SA",
+   "author": "Thibaud Aronson"
+  }
+ ],
+ "24": [
+  {
+   "file": "24_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473849812/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Genevieve Early"
+  },
+  {
+   "file": "24_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473849803/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Genevieve Early"
+  },
+  {
+   "file": "24_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/577965645/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Ben Keen"
+  }
+ ],
+ "25": [
+  {
+   "file": "25_0.jpg",
+   "src": "File:Kakapo Sirocco 1.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 2.0",
+   "author": "Department of Conservation"
+  },
+  {
+   "file": "25_1.jpg",
+   "src": "File:Kākāpō (42241578612).jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 2.0",
+   "author": "Kimberley Collins"
+  },
+  {
+   "file": "25_2.jpg",
+   "src": "File:Strigops habroptila -Sirocco-6a.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 2.0",
+   "author": "Mark Whatmough"
+  }
+ ],
+ "26": [
+  {
+   "file": "26_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/154098337/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Peter Archdale"
+  },
+  {
+   "file": "26_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473631904/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Justin Ponder"
+  },
+  {
+   "file": "26_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/53634986/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Pieter Theron"
+  }
+ ],
+ "27": [
+  {
+   "file": "27_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/621140647/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Shedron Mukhumo"
+  },
+  {
+   "file": "27_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/154098357/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Peter Archdale"
+  },
+  {
+   "file": "27_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/445484472/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "William Stephens"
+  }
+ ],
+ "28": [
+  {
+   "file": "28_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/722228641/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Luciano Massa"
+  },
+  {
+   "file": "28_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/541744459/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Emily Turteltaub Nelson"
+  },
+  {
+   "file": "28_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/568507046/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Justin Ponder"
+  }
+ ],
+ "29": [
+  {
+   "file": "29_0.jpg",
+   "src": "File:Aardwolf, Proteles cristata, at Lion and Rhino Reserve, Gauteng, South Africa (47987259696).jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 2.0",
+   "author": "Derek Keats from Johannesburg, South Africa"
+  },
+  {
+   "file": "29_1.jpg",
+   "src": "File:Aardwolf, Proteles cristata, at Lion and Rhino Reserve, Gauteng, South Africa (47987270146).jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 2.0",
+   "author": "Derek Keats from Johannesburg, South Africa"
+  },
+  {
+   "file": "29_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/58553910/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Tom Heijnen"
+  }
+ ],
+ "32": [
+  {
+   "file": "32_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/634038450/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Orlando Fuenzalida"
+  },
+  {
+   "file": "32_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/98288211/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Hugo Hulsberg"
+  },
+  {
+   "file": "32_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/579602934/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Justin Philbois"
+  }
+ ],
+ "33": [
+  {
+   "file": "33_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/104822412/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Christoph Moning"
+  },
+  {
+   "file": "33_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/489426301/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "RJ Baltierra"
+  },
+  {
+   "file": "33_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/258573123/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Chrissy McClarren and Andy Reago"
+  }
+ ],
+ "34": [
+  {
+   "file": "34_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/38736597/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Chris Brown"
+  },
+  {
+   "file": "34_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/333612971/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Jeremiah Degenhardt"
+  },
+  {
+   "file": "34_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/175282165/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Tom Kennedy"
+  }
+ ],
+ "35": [
+  {
+   "file": "35_0.jpg",
+   "src": "File:Sarcophilus harrisii taranna.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)"
+  },
+  {
+   "file": "35_1.jpg",
+   "src": "File:Sarcophilus harrisii, Trowunna.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "author": "-jkb-"
+  },
+  {
+   "file": "35_2.jpg",
+   "src": "File:Sarcophilus harrisii (23454258654).jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 2.0",
+   "author": "Sean Kelleher from Melbourne, Australia"
+  }
+ ],
+ "36": [
+  {
+   "file": "36_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/275589182/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Ricardo Mitidieri"
+  },
+  {
+   "file": "36_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/375234742/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Fernando Sessegolo"
+  },
+  {
+   "file": "36_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/339610054/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Adam Jackson"
+  }
+ ],
+ "38": [
+  {
+   "file": "38_0.jpg",
+   "src": "File:Luscinia megarhynchos Moëze-Oléron 20250506.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 4.0",
+   "author": "Marie-Lan Taÿ Pamart"
+  },
+  {
+   "file": "38_1.jpg",
+   "src": "File:Common Nightingale (Luscinia megarhynchos) (25936816473).jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 2.0",
+   "author": "Bernard DUPONT from FRANCE"
+  },
+  {
+   "file": "38_2.jpg",
+   "src": "File:Nachtigall (April 2025) 1.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC0",
+   "author": "Romzig"
+  }
+ ],
+ "39": [
+  {
+   "file": "39_0.jpg",
+   "src": "File:Laughing kookaburra (Dacelo novaeguineae) at Lane Poole Reserve, January 2022 01.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Calistemon"
+  },
+  {
+   "file": "39_1.jpg",
+   "src": "File:Dacelo novaeguineae SF26032-01.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Steve Fitzgerald"
+  },
+  {
+   "file": "39_2.jpg",
+   "src": "File:Laughing kookaburra (Dacelo novaeguineae novaeguineae) Hobart 3.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Charles J. Sharp"
+  }
+ ]
+}
