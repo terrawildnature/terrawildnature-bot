@@ -1,0 +1,87 @@
+{
+  "name": "dev izopod",
+  "group": "deniz omurgasızı",
+  "hook_style": "sayı",
+  "title": [
+    [
+      [
+        "BU DENİZ CANLISI",
+        "W"
+      ]
+    ],
+    [
+      [
+        "5 YIL BOYUNCA",
+        "R"
+      ]
+    ],
+    [
+      [
+        "HİÇ YEMEDİ",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "DEV İZOPOD",
+  "card_top": [
+    "Akvaryumdaki bir birey, 5 yıl",
+    "hiç yemeden hayatta kaldı."
+  ],
+  "card_bottom": [
+    "Yemek bulunca doyana dek yer.",
+    "50 cm'ye kadar uzar; tespih",
+    "böceğinin dev akrabasıdır."
+  ],
+  "right": [
+    "Okyanus tabanında 170-2.140 m",
+    "derinliğin karanlığında yaşar.",
+    "Bir top gibi kıvrılıp zırhını",
+    "savunmaya çevirebilir.",
+    "Yavrular annenin kesesinde."
+  ],
+  "loc": "Derin okyanuslar",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom": 1.1
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.55,
+      "cy": 0.4,
+      "zoom": 1.1
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.45,
+      "zoom": 2.0
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Xpark內的大王具足蟲.jpg",
+      "author": "丘崈",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Giant Isopod (18443864634).jpg",
+      "author": "Eric Kilby",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Giant Isopod (18443864634).jpg",
+      "author": "Eric Kilby",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Derin denizlerin dev izopodu, tutulduğu akvaryumda tam 5 yıl hiçbir şey yemeden hayatta kalabildi. 🦐🌊\n\n#terrawildnature #ilginçbilgiler #devizopod\n\n📷 Eric Kilby (CC BY-SA 2.0) / Wikimedia Commons"
+}
