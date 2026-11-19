@@ -1,0 +1,84 @@
+{
+  "name": "weddell foku",
+  "title": [
+    [
+      [
+        "BU FOKUN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "600 METREYE ",
+        "R"
+      ],
+      [
+        "DALIP",
+        "W"
+      ]
+    ],
+    [
+      [
+        "SUDA KALIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "WEDDELL FOKU",
+  "card_top": [
+    "600 metreye dalıp bir saate",
+    "kadar su altında kalabiliyor."
+  ],
+  "card_bottom": [
+    "Bıyıkları 500'den fazla sinir",
+    "ucu taşır. Karanlıkta avını",
+    "bu bıyıklarla hissediyor."
+  ],
+  "right": [
+    "Antarktika'nın buz kıyılarında",
+    "yaşar. 400-600 kilo gelir,",
+    "en büyük foklar arasındadır.",
+    "Buzdaki nefes deliklerini",
+    "kullanır. Ömrü en az 25 yıl."
+  ],
+  "loc": "Antarktika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.55,
+      "cy": 0.25,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.55,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.27,
+      "cy": 0.55,
+      "zoom": 2.4
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Weddell seal swims underwater in McMurdo Sound (Image 3).jpg",
+      "author": "Steve Rupp",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Leptonychotes weddellii 01(js) 01.jpg",
+      "author": "Jerzy Strzelecki",
+      "license": "CC BY-SA 3.0",
+      "public_domain": false
+    }
+  ],
+  "group": "memeli",
+  "hook_style": "sayı",
+  "caption": "Antarktika'nın buz altındaki ustası Weddell foku, 600 metreye dalıp bir saate kadar su altında kalabiliyor. 🦭❄️\n\n#terrawildnature #ilginçbilgiler #weddellfoku\n\n📷 Jerzy Strzelecki (CC BY-SA 3.0) / Wikimedia Commons"
+}
