@@ -343,3 +343,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli (3,71), deniz omurgasızı (2,99), sayı kancası (2,33) güçlü; Reels'te kuş (1,23) ve memeli (1,21) güçlü; balık/amfibi/kuş/böcek gönderide zayıf.
 - Bugün uygulanan: Reels 8→9: Güney Amerika koatisi (memeli, gizem "erkekleri ayrı tür sanıldı"; iNat CC0 + CC BY, 76 kelime, Tempting_Secrets). Gönderi 14→15: palyaço karidesi (deniz omurgasızı, sayı "5 cm"; iNat CC0). Filipin kayan lemuru (fotoğraflar uzak/gizli) ve Humboldt kalamarı (ölü/mutfak lavabosu fotoğrafları) elendi.
 - Sonra kontrol et: koati Reels'i (gizem kancası memelide); palyaço karidesi içerik değeri (deniz omurgasızı + sayı). Not: iNat aramasında beyaz burunlu koati karışmıştı, beyaz burunluları eledim; Reels kapağında yakın portre profilde gözü yazının üstüne yerleştirmek için cy=0,5 işe yaradı.
+
+## 2026-11-20 (öğle çalıştırması)
+- Rapordan öğrenilen: gönderide memeli (3,71) ve sayı kancası (2,33) güçlü; Reels'te kuş (1,23), memeli (1,21), sayı (1,23) güçlü.
+- Bugün uygulanan: Reels 8→9: üç bantlı armadillo (memeli, sayı "iki armadillo"; iNat CC BY/CC0). Gönderi 13→15: beyaz elli jibon (memeli, sayı "55 km/s") ve Amerikan pikası (memeli, sayı "25,5 °C"). Argonauta (boş kabuk fotoğrafları), Tibet antilobu (uzak), monito del monte (kızılötesi kamera), balıkçı kedisi (kötü foto/Commons takıldı) elendi.
+- Sonra kontrol et: memeli + sayı gönderilerinin içerik değeri. Not: Reels kapağında cx en fazla ~0,8'e kadar etkili; baş sağdaysa sola bakan ya da ortadaki fotoğrafı kapak yap.
