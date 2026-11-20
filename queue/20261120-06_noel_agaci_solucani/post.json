@@ -1,0 +1,91 @@
+{
+  "name": "noel ağacı solucanı",
+  "group": "deniz omurgasızı",
+  "hook_style": "sayı",
+  "title": [
+    [
+      [
+        "BU 3,8 CM'LİK",
+        "W"
+      ]
+    ],
+    [
+      [
+        "SOLUCANIN",
+        "W"
+      ],
+      [
+        "İKİ NOEL",
+        "R"
+      ]
+    ],
+    [
+      [
+        "AĞACI VAR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "NOEL AĞACI SOLUCANI",
+  "card_top": [
+    "İki spiral tacıyla hem avını",
+    "toplar hem nefes alır."
+  ],
+  "card_bottom": [
+    "Mercan başlarına gömülü,",
+    "kireçli bir tüpte yaşar.",
+    "Tüpü 20 cm'ye kadar uzar."
+  ],
+  "right": [
+    "Karayipler'den Hint-Pasifik'e",
+    "kadar resiflerde yaşar.",
+    "Tehlikede taçlarını çekip",
+    "tüpünün kapağını kapatır.",
+    "Kapağın üstünde dikenler var."
+  ],
+  "loc": "Karayipler, Hint-Pasifik",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.3,
+      "cy": 0.45,
+      "zoom": 1.3
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.45,
+      "cy": 0.45,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.68,
+      "cy": 0.4,
+      "zoom": 2.2
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "iNaturalist 127276324",
+      "author": "Jean-Paul Boerekamps",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "iNaturalist 128226145",
+      "author": "Jean-Paul Boerekamps",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "iNaturalist 127276324",
+      "author": "Jean-Paul Boerekamps",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Boyu sadece 3,8 cm olan Noel ağacı solucanı, iki renkli spiral tacıyla hem besleniyor hem nefes alıyor. 🎄🪱\n\n#terrawildnature #ilginçbilgiler #noelağacısolucanı"
+}

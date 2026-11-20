@@ -348,3 +348,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli (3,71) ve sayı kancası (2,33) güçlü; Reels'te kuş (1,23), memeli (1,21), sayı (1,23) güçlü.
 - Bugün uygulanan: Reels 8→9: üç bantlı armadillo (memeli, sayı "iki armadillo"; iNat CC BY/CC0). Gönderi 13→15: beyaz elli jibon (memeli, sayı "55 km/s") ve Amerikan pikası (memeli, sayı "25,5 °C"). Argonauta (boş kabuk fotoğrafları), Tibet antilobu (uzak), monito del monte (kızılötesi kamera), balıkçı kedisi (kötü foto/Commons takıldı) elendi.
 - Sonra kontrol et: memeli + sayı gönderilerinin içerik değeri. Not: Reels kapağında cx en fazla ~0,8'e kadar etkili; baş sağdaysa sola bakan ya da ortadaki fotoğrafı kapak yap.
+
+## 2026-11-20 (akşam çalıştırması)
+- Rapordan öğrenilen: gönderide memeli (3,71), deniz omurgasızı (2,99), sayı kancası (2,33) güçlü; Reels'te kuş/memeli (1,23/1,21), sayı (1,23) güçlü.
+- Bugün uygulanan: Reels 8→9: shingleback iskink (sürüngen, sayı "20 yıl aynı eş"; iNat CC0). Gönderi 13→15: ova vizkaçası (memeli/kemirgen, sayı "9 kiloluk"; CC0) ve Noel ağacı solucanı (deniz omurgasızı, sayı "3,8 cm"; CC0). Misk geyiği, ipek karıncayiyan, şeker sincabı elendi (iNat'ta dışkı/yaprak arkası/gece kamerası fotoğrafları).
+- Sonra kontrol et: sayı kancalı memeli ve deniz omurgasızı gönderileri; sürüngen + sayı Reels'i. Not: grup "diğer" yerine kemirgeni memeli saymak daha doğru olurdu (ova vizkaçası post.json'da group=diğer).

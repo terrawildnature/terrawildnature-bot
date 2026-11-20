@@ -1,0 +1,91 @@
+{
+  "name": "ova vizkaçası",
+  "group": "memeli",
+  "hook_style": "sayı",
+  "title": [
+    [
+      [
+        "9 KİLOLUK KEMİRGEN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "YUVASININ",
+        "W"
+      ],
+      [
+        "KAPISINI",
+        "R"
+      ]
+    ],
+    [
+      [
+        "EŞYALARLA KAPATIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "OVA VİZKAÇASI",
+  "card_top": [
+    "Yuva girişini dallar, taşlar",
+    "ve insan eşyalarıyla örter."
+  ],
+  "card_bottom": [
+    "İnsan yerleşimlerine yakınsa",
+    "süpürge, masa ve odun gibi",
+    "eşyaları da biriktirir."
+  ],
+  "right": [
+    "Arjantin, Bolivya ve Paraguay",
+    "çayırlarında yaşar.",
+    "Ailesinin en büyük türüdür;",
+    "9 kiloya kadar çıkar.",
+    "Yuvaları onlarca yıl sürer."
+  ],
+  "loc": "Güney Amerika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.6,
+      "cy": 0.55,
+      "zoom": 1.4
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.45,
+      "cy": 0.5,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.8,
+      "cy": 0.55,
+      "zoom": 2.2
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "iNaturalist 34442569",
+      "author": "Diego Carús",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "iNaturalist 233506888",
+      "author": "Mariana",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "iNaturalist 99211001",
+      "author": "Hugo Hulsberg",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "9 kiloya kadar çıkabilen ova vizkaçası, yuvasının girişini dallar, taşlar ve insanlardan topladığı süpürge, masa gibi eşyalarla örtüyor. 🐀🏚️\n\n#terrawildnature #ilginçbilgiler #ovavizkaçası"
+}
