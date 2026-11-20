@@ -1,0 +1,185 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Serpentine_Trek.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/152216011/original.jpg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/152163359/original.jpeg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/97696192/original.jpeg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/363093130/original.jpeg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/492180155/original.jpg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/453437812/original.jpeg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/472665462/original.jpg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/241566726/original.jpeg",
+  "p9.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/115145939/original.jpeg"
+ },
+ "segments": [
+  {
+   "text": "Bu kertenkele, aynı eşine yirmi yıl boyunca geri dönebiliyor.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Avustralya'ya özgü bu iskink, mavi dilli kertenkeleler cinsinden.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kısa, kalın kuyruğu başına o kadar benziyor ki ona iki başlı iskink deniyor.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Bu kuyruk yırtıcıları şaşırtabiliyor; ayrıca yağ deposu görevi görüyor.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Tehdit altında ağzını açıp mavi dilini gösteriyor ve tıslıyor.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "zoom_out"
+  },
+  {
+   "text": "Salyangoz ve bitki yiyen bir hepçil.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Yumurtlamıyor, çoğunlukla iki ya da üç yavru doğuruyor.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Bazı bireylerin elli yıl yaşadığı biliniyor.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.68,
+  "cy": 0.4,
+  "title": [
+   [
+    [
+     "KERTENKELE",
+     "W"
+    ]
+   ],
+   [
+    [
+     "20 YIL",
+     "R"
+    ]
+   ],
+   [
+    [
+     "AYNI EŞLE",
+     "W"
+    ]
+   ],
+   [
+    [
+     "YAŞIYOR",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "sürüngen",
+ "hook_style": "sayı",
+ "yt_title": "20 Yıl Aynı Eşle Yaşayan Kertenkele: Shingleback",
+ "en": {
+  "title": "The Lizard That Reunites With Its Mate for 20 Years",
+  "description": "Shingleback skinks can return to the same partner year after year for up to 20 years, and their stumpy tail looks just like a second head."
+ },
+ "caption": "Kuyruğu başına benzediği için iki başlı iskink diye de anılan Avustralya'ya özgü shingleback, aynı eşine yirmi yıla kadar geri dönebiliyor. 🦎💙\n\n#terrawildnature #shingleback\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/152216011/original.jpg",
+   "author": "Joshua S. Martin",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/152163359/original.jpeg",
+   "author": "Max Tibby",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/97696192/original.jpeg",
+   "author": "Max Tibby",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/363093130/original.jpeg",
+   "author": "Max Tibby",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/492180155/original.jpg",
+   "author": "evaladyman",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/453437812/original.jpeg",
+   "author": "Max Tibby",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/472665462/original.jpg",
+   "author": "Joshua S. Martin",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/241566726/original.jpeg",
+   "author": "Max Tibby",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/115145939/original.jpeg",
+   "author": "Max Tibby",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
