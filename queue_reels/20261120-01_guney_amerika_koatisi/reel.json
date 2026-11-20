@@ -1,0 +1,185 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Tempting_Secrets.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/58347084/original.jpeg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/217380543/original.jpeg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/336018864/original.jpeg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/509701941/original.jpg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/336019001/original.jpeg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/196519988/original.jpeg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/250479162/original.jpg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/58194496/original.jpg",
+  "p9.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/336018928/original.jpeg"
+ },
+ "segments": [
+  {
+   "text": "Bu hayvanın erkekleri bir zamanlar ayrı bir tür sanıldı.",
+   "image": "p1.jpg",
+   "cx": 0.65,
+   "cy": 0.6,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Güney Amerika koatisi rakun ailesinden; ağırlığı iki ile yedi kilo arasında.",
+   "image": "p2.jpg",
+   "cx": 0.3,
+   "cy": 0.55,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Boyunun yarısı, halkalı kuyruğundan oluşuyor.",
+   "image": "p3.jpg",
+   "cx": 0.3,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Dişiler on beş ile otuz hayvanlık sürüler hâlinde yaşıyor.",
+   "image": "p4.jpg",
+   "cx": 0.4,
+   "cy": 0.5,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Erkekler çoğunlukla tek başına dolaşıyor; bu yüzden farklı tür sanıldılar.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "zoom_out"
+  },
+  {
+   "text": "Uzun burnuyla çatlaklara sokulup böcek ve küçük hayvanlar arıyor, meyve de yiyor.",
+   "image": "p6.jpg",
+   "cx": 0.45,
+   "cy": 0.6,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Tehlike anında ağaca tırmanıyor, sonra yere atlayıp dağılıyor.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Doğada yedi yıla kadar yaşayabiliyor.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.65,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.35,
+   "cy": 0.4,
+   "motion": "pan_right"
+  }
+ ],
+ "cover": {
+  "image": "p3.jpg",
+  "cx": 0.6,
+  "cy": 0.5,
+  "title": [
+   [
+    [
+     "BU HAYVANIN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "ERKEKLERİ",
+     "W"
+    ]
+   ],
+   [
+    [
+     "AYRI TÜR",
+     "W"
+    ]
+   ],
+   [
+    [
+     "SANILDI",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "gizem",
+ "yt_title": "Erkekleri Ayrı Tür Sanılan Hayvan: Koati",
+ "en": {
+  "title": "The Animal Whose Males Were Mistaken for Another Species",
+  "description": "Male South American coatis mostly roam alone, which is why they were once mistaken for a separate species."
+ },
+ "caption": "Erkekleri tek başına dolaştığı için bir zamanlar ayrı tür sanılan Güney Amerika koatisi, dişileriyle on beş ile otuz hayvanlık sürüler kuruyor. 🦝🌿\n\n#terrawildnature #koati\n\n📷 Rafael Bernhard (CC BY), Isaac Chacón (CC BY), Ricard Busquets Reverte (CC BY), Demian Hiß (CC BY) / iNaturalist\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/58347084/original.jpeg",
+   "author": "Rafael Bernhard",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/217380543/original.jpeg",
+   "author": "Isaac Chacón",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/336018864/original.jpeg",
+   "author": "Nico",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/509701941/original.jpg",
+   "author": "Julia Ariadna",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/336019001/original.jpeg",
+   "author": "Nico",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/196519988/original.jpeg",
+   "author": "Ricard Busquets Reverte",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/250479162/original.jpg",
+   "author": "Demian Hiß",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/58194496/original.jpg",
+   "author": "Rocky Ordoñez",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/336018928/original.jpeg",
+   "author": "Nico",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
