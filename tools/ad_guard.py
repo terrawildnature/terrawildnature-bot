@@ -19,7 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 API = "https://graph.facebook.com/v26.0/"
 ACCOUNT = "act_1960605268679679"
-ADSET = "120252124522160010"            # TR Instagram Reels (campaign "Terra Takipçi Reels")
+ADSET = "120252142482140010"            # TR Instagram Profil (campaign "Terra Takipçi Profil (Afiş)"), 10 ChatGPT posters
 START = dt.date(2026, 11, 19)
 MAX_COST_PER_FOLLOWER = 10.0            # TL, owner's limit
 LEARNING_SPEND = 1000.0                 # TL spent before the cost rule may pause anything
