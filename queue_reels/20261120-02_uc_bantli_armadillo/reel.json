@@ -1,0 +1,185 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Reawakening.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/719738786/original.jpg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/407858351/original.jpg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/719738986/original.jpg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/719739073/original.jpg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/701277861/original.jpg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/407858594/original.jpg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/541007697/original.jpg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/235101120/original.jpeg",
+  "p9.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/137957423/original.jpeg"
+ },
+ "segments": [
+  {
+   "text": "Dünyada kendini tam bir top hâline getirebilen yalnızca iki armadillo türü var.",
+   "image": "p1.jpg",
+   "cx": 0.85,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Biri, güney üç bantlı armadillo.",
+   "image": "p2.jpg",
+   "cx": 0.3,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Ağırlığı bir ile bir buçuk kilo arasında; en küçük armadilloların başında geliyor.",
+   "image": "p3.jpg",
+   "cx": 0.85,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Üç esnek bandı sayesinde başı ve kuyruğu birleşiyor.",
+   "image": "p4.jpg",
+   "cx": 0.3,
+   "cy": 0.7,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Böylece karnı, bacakları, gözleri ve kulakları zırhın içinde kalıyor.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "zoom_out"
+  },
+  {
+   "text": "Zırhı, insan tırnağıyla aynı proteinden, keratinden yapılmış.",
+   "image": "p6.jpg",
+   "cx": 0.75,
+   "cy": 0.8,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Uzun, yapışkan diliyle karınca ve termit yiyor.",
+   "image": "p7.jpg",
+   "cx": 0.2,
+   "cy": 0.5,
+   "motion": "zoom_out"
+  },
+  {
+   "text": "Arjantin, Paraguay, Bolivya ve Brezilya'da yaşıyor; ama tarım yüzünden tehdit altında.",
+   "image": "p8.jpg",
+   "cx": 0.3,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  }
+ ],
+ "cover": {
+  "image": "p3.jpg",
+  "cx": 0.82,
+  "cy": 0.5,
+  "title": [
+   [
+    [
+     "KENDİNİ",
+     "W"
+    ]
+   ],
+   [
+    [
+     "TAM TOP",
+     "W"
+    ]
+   ],
+   [
+    [
+     "YAPAN İKİ",
+     "W"
+    ]
+   ],
+   [
+    [
+     "ARMADİLLO",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "sayı",
+ "yt_title": "Kendini Tam Top Yapan Armadillo: Üç Bantlı",
+ "en": {
+  "title": "One of Only Two Armadillos That Roll Into a Ball",
+  "description": "The southern three-banded armadillo is one of only two armadillo species able to roll into a complete ball, shielding its belly, eyes and ears inside its armor."
+ },
+ "caption": "Güney üç bantlı armadillo, dünyada tam bir top hâline gelebilen yalnızca iki armadillo türünden biri. 🛡️🐾\n\n#terrawildnature #armadillo\n\n📷 Barry Stewart (CC BY), E Santos Ortega (CC BY), Fábio Olmos (CC BY), Ben Costamagna (CC BY), Patricio Cowper Coles (CC BY) / iNaturalist\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/719738786/original.jpg",
+   "author": "Barry Stewart",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/407858351/original.jpg",
+   "author": "E Santos Ortega",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/719738986/original.jpg",
+   "author": "Barry Stewart",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/719739073/original.jpg",
+   "author": "Barry Stewart",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/701277861/original.jpg",
+   "author": "Cris_de_los_humedales",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/407858594/original.jpg",
+   "author": "E Santos Ortega",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/541007697/original.jpg",
+   "author": "Fábio Olmos",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/235101120/original.jpeg",
+   "author": "Ben Costamagna",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/137957423/original.jpeg",
+   "author": "Patricio Cowper Coles",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
