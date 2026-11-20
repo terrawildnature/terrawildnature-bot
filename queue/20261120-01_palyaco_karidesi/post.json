@@ -1,0 +1,91 @@
+{
+  "name": "palyaço karidesi",
+  "group": "deniz omurgasızı",
+  "hook_style": "sayı",
+  "title": [
+    [
+      [
+        "BU 5 CM'LİK KARİDES",
+        "W"
+      ]
+    ],
+    [
+      [
+        "DENİZ",
+        "W"
+      ],
+      [
+        "YILDIZINI",
+        "R"
+      ]
+    ],
+    [
+      [
+        "DEVİRİP YİYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "PALYAÇO KARİDESİ",
+  "card_top": [
+    "Neredeyse yalnızca deniz",
+    "yıldızıyla besleniyor."
+  ],
+  "card_bottom": [
+    "Yavaş bir deniz yıldızını",
+    "sırtüstü çevirip yumuşak",
+    "dokularını yemeye başlıyor."
+  ],
+  "right": [
+    "Hint ve Pasifik'te mercan",
+    "resiflerinde yaşar.",
+    "Boyu en fazla 5 cm'dir.",
+    "Çiftler hâlinde avlanır.",
+    "Mercan yiyen yıldızı öldürür."
+  ],
+  "loc": "Hint-Pasifik",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.46,
+      "cy": 0.45,
+      "zoom": 1.05
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.52,
+      "cy": 0.45,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.55,
+      "zoom": 1.5
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "iNaturalist 625285329",
+      "author": "Chris Spain",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "iNaturalist 462860889",
+      "author": "Chris Spain",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "iNaturalist 528450948",
+      "author": "Matthew Collette",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Sadece 5 cm boyundaki palyaço karidesi, çiftler hâlinde avlanıp yavaş deniz yıldızlarını sırtüstü çevirerek yumuşak dokularını yiyor. 🦐⭐\n\n#terrawildnature #ilginçbilgiler #palyaçokaridesi"
+}

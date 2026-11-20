@@ -338,3 +338,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: rapor değişmedi (memeli 3,93, deniz omurgasızı 2,99, sayı kancası 2,33 güçlü; amfibi 0,58 zayıf).
 - Bugün uygulanan: kuyruklar dolu (gönderi 15/15, Reels 9/9, `queue_failed` yok); yeni içerik üretilmedi.
 - Sonra kontrol et: sabah çalıştırmasında paylaşımlar sonrası kuyruk düşünce memeli/deniz omurgasızı + sayı kancasına ağırlık ver; `zz_20261106-01_quokka` Reels'i bir kez paylaşılamadı, tekrar denemede başarısız olursa `queue_reels_failed/` içeriğine bak.
+
+## 2026-11-20 (sabah çalıştırması)
+- Rapordan öğrenilen: gönderide memeli (3,71), deniz omurgasızı (2,99), sayı kancası (2,33) güçlü; Reels'te kuş (1,23) ve memeli (1,21) güçlü; balık/amfibi/kuş/böcek gönderide zayıf.
+- Bugün uygulanan: Reels 8→9: Güney Amerika koatisi (memeli, gizem "erkekleri ayrı tür sanıldı"; iNat CC0 + CC BY, 76 kelime, Tempting_Secrets). Gönderi 14→15: palyaço karidesi (deniz omurgasızı, sayı "5 cm"; iNat CC0). Filipin kayan lemuru (fotoğraflar uzak/gizli) ve Humboldt kalamarı (ölü/mutfak lavabosu fotoğrafları) elendi.
+- Sonra kontrol et: koati Reels'i (gizem kancası memelide); palyaço karidesi içerik değeri (deniz omurgasızı + sayı). Not: iNat aramasında beyaz burunlu koati karışmıştı, beyaz burunluları eledim; Reels kapağında yakın portre profilde gözü yazının üstüne yerleştirmek için cy=0,5 işe yaradı.
