@@ -333,3 +333,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli (3,93), deniz omurgasızı (2,99), sayı kancası (2,33) güçlü; Reels'te kuş (1,24) ve sayı (1,20) güçlü.
 - Bugün uygulanan: Reels 8→9: kaya zıplayıcısı penguen (kuş, sayı "50 santim / 100 metre"; On_the_Shore, 77 kelime, iNat CC0). Gönderi 13→15: Nomura denizanası (deniz omurgasızı, sayı "200 kilo"; Commons CC BY/BY-SA) ve Weddell foku (memeli, sayı "600 metre"; PD + CC BY-SA). Solenodon, Chironex (fotoğraf yok), pyrosome (sahilde sürüklenmiş), dev sübye (benzer tür kullanılmış) elendi.
 - Sonra kontrol et: sayı kancalı memeli/deniz omurgasızı gönderilerinin içerik değeri; penguen Reels'i (kuş + sayı). Not: Reels kapağında yatay yakın portrede cy'yi 0,6 civarı tuttum, yoksa gözler yazının altında kalıyor.
+
+## 2026-11-20 (gece çalıştırması)
+- Rapordan öğrenilen: rapor değişmedi (memeli 3,93, deniz omurgasızı 2,99, sayı kancası 2,33 güçlü; amfibi 0,58 zayıf).
+- Bugün uygulanan: kuyruklar dolu (gönderi 15/15, Reels 9/9, `queue_failed` yok); yeni içerik üretilmedi.
+- Sonra kontrol et: sabah çalıştırmasında paylaşımlar sonrası kuyruk düşünce memeli/deniz omurgasızı + sayı kancasına ağırlık ver; `zz_20261106-01_quokka` Reels'i bir kez paylaşılamadı, tekrar denemede başarısız olursa `queue_reels_failed/` içeriğine bak.
