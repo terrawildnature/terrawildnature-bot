@@ -1,0 +1,166 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Lost_Frontier.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/315327452/original.jpg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/101527790/original.jpg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/250863622/original.jpeg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/580361298/original.jpg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/580360878/original.jpg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/580361120/original.jpg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/752285039/original.jpg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/595849362/original.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu maymunun sayısı, yaklaşık beş yüz altmıştan dört bin sekiz yüze çıktı.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.38,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Adı altın aslan tamarini; turuncu tüyleri yüzünü aslan yelesi gibi çerçeveliyor.",
+   "image": "p2.jpg",
+   "cx": 0.4,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Yalnızca Brezilya'nın Atlantik kıyı ormanlarında yaşıyor.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Boyu yaklaşık yirmi altı santim, ağırlığı altı yüz yirmi gram.",
+   "image": "p4.jpg",
+   "cx": 0.52,
+   "cy": 0.42,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Elleri ve parmakları uzun; böcekleri ağaç yarıklarından çıkarabiliyor.",
+   "image": "p5.jpg",
+   "cx": 0.48,
+   "cy": 0.38,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Yavrular sık sık ikiz doğuyor ve grubun diğer üyeleri de bakımlarına yardım ediyor.",
+   "image": "p7.jpg",
+   "cx": 0.46,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Hayvanat bahçelerinde doğan yüz kırk altı tamarin doğaya bırakıldı.",
+   "image": "p8.jpg",
+   "cx": 0.53,
+   "cy": 0.4,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p2.jpg",
+   "cx": 0.3,
+   "cy": 0.4,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.5,
+  "cy": 0.38,
+  "title": [
+   [
+    [
+     "560'TAN",
+     "R"
+    ]
+   ],
+   [
+    [
+     "4.800'E",
+     "W"
+    ]
+   ],
+   [
+    [
+     "ÇIKAN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "MAYMUN",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "sayı",
+ "yt_title": "560'tan 4.800'e Çıkan Maymun: Altın Aslan Tamarini",
+ "en": {
+  "title": "Golden Lion Tamarin: The Monkey That Came Back",
+  "description": "The golden lion tamarin lives only in Brazil's Atlantic coastal forests, and its wild population has grown from about 560 to roughly 4,800."
+ },
+ "caption": "Brezilya'nın Atlantik kıyı ormanlarında yaşayan altın aslan tamarini, yaklaşık 560'tan 4.800'e çıkan sayısıyla koruma çalışmalarının başarı hikâyesi. 🐒🌿\n\n#terrawildnature #altınaslantamarini\n\n📷 Bruno Luka de Souza Bambirra Silveira (CC BY) / iNaturalist\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/315327452/original.jpg",
+   "author": "Ricardo Mitidieri",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/101527790/original.jpg",
+   "author": "Ricardo Mitidieri",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/250863622/original.jpeg",
+   "author": "Ricardo Mitidieri",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/580361298/original.jpg",
+   "author": "Bruno Luka de Souza Bambirra Silveira",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/580360878/original.jpg",
+   "author": "Bruno Luka de Souza Bambirra Silveira",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/580361120/original.jpg",
+   "author": "Bruno Luka de Souza Bambirra Silveira",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/752285039/original.jpg",
+   "author": "Estela Spinelli",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/595849362/original.jpg",
+   "author": "filipeprates",
+   "license": "CC0",
+   "public_domain": true
+  }
+ ]
+}

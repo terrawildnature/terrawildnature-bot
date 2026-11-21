@@ -368,3 +368,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli (3,59) ve deniz omurgasızı (2,95) ile sayı kancası (2,21) güçlü; Reels'te sayı (1,21) güçlü, gizem az veriyle umut verici.
 - Bugün uygulanan: Gönderiler 13→15: uzun gagalı ekidna (memeli, sayı, iNat CC BY) ve mavi deniz yıldızı (deniz omurgasızı, sayı, CC0). Reels 7→9: gaga kaplumbağası (sürüngen, tuhaf yetenek) ve Himalaya monali (kuş, sayı). Kral yengecin iNat fotoğrafları ölü kabuk/düşük kaliteydi, elendi. Wikipedia API hız sınırına takıldı; WebFetch çalıştı.
 - Sonra kontrol et: ekidna/deniz yıldızı gönderilerinin içerik değeri; sürüngen Reels'in izlenme süresi (biyofloresan kancası).
+
+## 2026-11-21 (gece çalıştırması)
+- Rapordan öğrenilen: gönderide memeli (3,59), deniz omurgasızı (2,95), sayı kancası (2,21) güçlü; Reels'te sayı (1,21) güçlü.
+- Bugün uygulanan: Gönderiler 13→15: addaks (memeli, sayı "su içmeden"; iNat CC BY/CC0) ve kalem deniz kestanesi (deniz omurgasızı, sayı "10 cm"; iNat CC BY/CC0). Reels 8→9 (zz_ quokka hariç): altın aslan tamarini (memeli, sayı "560'tan 4.800'e"; iNat CC0/CC BY, 80 kelime, Lost_Frontier). Fenek, İspanyol dansçısı, Sunda uçan lemuru zaten kullanılmıştı (Türkçe ad değil bilimsel adla grep et).
+- Sonra kontrol et: addaks ve kalem deniz kestanesi içerik değeri; tamarin Reels'i (koruma başarı hikâyesi + sayı kancası). `zz_20261106-01_quokka` hâlâ kuyrukta.
