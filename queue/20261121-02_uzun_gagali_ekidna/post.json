@@ -1,0 +1,91 @@
+{
+  "name": "uzun gagalı ekidna",
+  "group": "memeli",
+  "hook_style": "sayı",
+  "title": [
+    [
+      [
+        "BU 16 KİLOLUK",
+        "W"
+      ]
+    ],
+    [
+      [
+        "MEMELİ",
+        "W"
+      ],
+      [
+        "YUMURTLAR",
+        "R"
+      ]
+    ],
+    [
+      [
+        "ÇOK NADİR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "UZUN GAGALI EKİDNA",
+  "card_top": [
+    "16,5 kiloya kadar ulaşır;",
+    "yaşayan en büyük monotrem."
+  ],
+  "card_bottom": [
+    "Memeli olmasına rağmen yumurta",
+    "bırakır. Solucanlarla beslenir.",
+    "Her ayağında üç pençe vardır."
+  ],
+  "right": [
+    "Batı Yeni Gine'nin dağlık",
+    "ormanlarında yaşar.",
+    "2.500 m yüksekliğe kadar",
+    "çıkabilir. IUCN'ye göre",
+    "kritik derecede tehlikede."
+  ],
+  "loc": "Batı Yeni Gine",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.45,
+      "cy": 0.5,
+      "zoom": 1.3
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.55,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom": 1.5
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "iNaturalist 316720013",
+      "author": "Daniel",
+      "license": "CC BY",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "iNaturalist 316730801",
+      "author": "Daniel",
+      "license": "CC BY",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "iNaturalist 581779220",
+      "author": "Кирилл",
+      "license": "CC BY",
+      "public_domain": false
+    }
+  ],
+  "caption": "Batı Yeni Gine'nin dağlık ormanlarında yaşayan uzun gagalı ekidna, 16,5 kiloya ulaşabilen yaşayan en büyük monotrem olmasına rağmen yumurta bırakan ve solucanlarla beslenen kritik derecede tehlikedeki bir memeli. 🥚🦔\n\n#terrawildnature #ilginçbilgiler #ekidna\n\n📷 Daniel (CC BY), Кирилл (CC BY) / iNaturalist"
+}

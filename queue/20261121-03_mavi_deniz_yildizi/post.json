@@ -1,0 +1,87 @@
+{
+  "name": "mavi deniz yıldızı",
+  "group": "deniz omurgasızı",
+  "hook_style": "sayı",
+  "title": [
+    [
+      [
+        "BU MAVİ YILDIZ",
+        "W"
+      ]
+    ],
+    [
+      [
+        "30 CM'YE KADAR",
+        "R"
+      ]
+    ],
+    [
+      [
+        "BÜYÜYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "MAVİ DENİZ YILDIZI",
+  "card_top": [
+    "Beş kollu gövdesi 30 cm'ye",
+    "kadar genişleyebilir."
+  ],
+  "card_bottom": [
+    "Çoğunlukla mavi renktedir ama",
+    "mor ve turuncu bireyleri de var.",
+    "Dakikada ortalama 8,1 cm ilerler."
+  ],
+  "right": [
+    "Hint-Pasifik'in sığ",
+    "mercan resiflerinde yaşar.",
+    "Kumda ve deniz çayırlarında",
+    "da görülür. Kurutulup",
+    "hatıra diye satıldığı için azalıyor."
+  ],
+  "loc": "Hint-Pasifik",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.6,
+      "cy": 0.4,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "zoom": 1.5
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom": 1.4
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "iNaturalist 685829111",
+      "author": "marsyd",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "iNaturalist 665054901",
+      "author": "Ellyne Geurts",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "iNaturalist 325265987",
+      "author": "Andrew Deacon",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Hint-Pasifik'in sığ mercan resiflerinde yaşayan mavi deniz yıldızı, 30 cm'ye kadar genişleyebilen beş kollu gövdesiyle çoğunlukla canlı mavi renkte görülüyor. 🌊⭐\n\n#terrawildnature #ilginçbilgiler #denizyildizi"
+}
