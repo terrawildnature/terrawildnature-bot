@@ -1,0 +1,29 @@
+name: Reklam afiş seçimi
+
+# One-off (owner's request): just after midnight on 22 Nov keep the best 3 posters and pause the rest (tools/ad_prune.py).
+on:
+  schedule:
+    - cron: "10 21 21 11 *"   # 22 Nov 00:10 Turkey
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  prune:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Keep the best posters
+        env:
+          META_ADS_TOKEN: ${{ secrets.META_ADS_TOKEN }}
+        run: |
+          [ "$(TZ=Europe/Istanbul date +%Y-%m-%d)" = "2026-11-22" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ] || exit 0
+          cd tools && python ad_prune.py
