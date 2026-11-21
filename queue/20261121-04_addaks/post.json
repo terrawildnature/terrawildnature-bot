@@ -1,0 +1,26 @@
+{
+  "name": "addaks",
+  "group": "memeli",
+  "hook_style": "sayı",
+  "title": [
+    [["BU ANTİLOP ÇÖLDE", "W"]],
+    [["SU İÇMEDEN", "R"]],
+    [["YAŞAYABİLİYOR", "R"]]
+  ],
+  "card_title": "ADDAKS",
+  "card_top": ["Yıllık yağışın 100 mm'nin", "altında kaldığı çöllerde yaşar."],
+  "card_bottom": ["Nemi bitkilerden ve çiyden alır,", "midesinin astarında su depolar.", "Çok yoğun idrar üretir."],
+  "right": ["Kuzey Afrika çöllerinde yaşar.", "Boynuzları 2-3 kez burulur,", "erkeklerde 85 cm'ye varır.", "Yabanda 500'den az kaldı;", "kritik tehlikede."],
+  "loc": "Sahra",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.5, "cy": 0.4, "zoom": 1.3},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.7, "cy": 0.4, "zoom": 1.2},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.45, "cy": 0.6, "zoom": 2.4}
+  },
+  "credits": [
+    {"use": "cover", "title": "iNaturalist 618680978", "author": "Adi Peter", "license": "CC BY", "public_domain": false},
+    {"use": "top", "title": "iNaturalist 249831272", "author": "Vsevolod Rudyi", "license": "CC BY", "public_domain": false},
+    {"use": "inner", "title": "iNaturalist 290501394", "author": "Justin Philbois", "license": "CC0", "public_domain": true}
+  ],
+  "caption": "Sahra'nın çöllerinde yıllık yağışın 100 mm'nin altına düştüğü yerlerde bile yaşayan addaks, suyu bitkilerden ve çiyden alıp midesinin astarında depolayarak neredeyse hiç su içmeden hayatta kalıyor. 🏜️🐾\n\n#terrawildnature #ilginçbilgiler #addaks\n\n📷 Adi Peter (CC BY), Vsevolod Rudyi (CC BY) / iNaturalist"
+}

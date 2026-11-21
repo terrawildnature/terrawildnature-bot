@@ -1,0 +1,26 @@
+{
+  "name": "kalem deniz kestanesi",
+  "group": "deniz omurgasızı",
+  "hook_style": "sayı",
+  "title": [
+    [["BU DENİZ KESTANESİNİN", "W"]],
+    [["10 CM'LİK KIRMIZI", "R"]],
+    [["KALEMLERİ VAR", "R"]]
+  ],
+  "card_title": "KALEM DENİZ KESTANESİ",
+  "card_top": ["Kalın, kalem gibi dikenleri", "10 cm'ye kadar uzar."],
+  "card_bottom": ["Dikenleri gece soluk pembeye", "döner. Sert kayalara oyuk açıp", "içine yerleşebilir."],
+  "right": ["Hint-Pasifik resiflerinde,", "8-25 metre derinlikte yaşar.", "Günde ortalama 96 cm", "yürür. Dikenine küçük", "bir karides yapışır."],
+  "loc": "Hint-Pasifik",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.62, "cy": 0.4, "zoom": 1.1},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.5, "cy": 0.45, "zoom": 1.1},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.55, "cy": 0.4, "zoom": 1.2}
+  },
+  "credits": [
+    {"use": "cover", "title": "iNaturalist 544171659", "author": "Robin White", "license": "CC BY", "public_domain": false},
+    {"use": "top", "title": "iNaturalist 459764936", "author": "Steph Brulot-Sawchyn", "license": "CC0", "public_domain": true},
+    {"use": "inner", "title": "iNaturalist 286809622", "author": "Daniel Das", "license": "CC0", "public_domain": true}
+  ],
+  "caption": "Hint-Pasifik resiflerinde yaşayan kalem deniz kestanesi, 10 cm'ye kadar uzayan kalın kırmızı dikenleriyle sert kayalara oyuk açıp içine yerleşebiliyor. 🌊🔴\n\n#terrawildnature #ilginçbilgiler #kalemdenizkestanesi\n\n📷 Robin White (CC BY) / iNaturalist"
+}

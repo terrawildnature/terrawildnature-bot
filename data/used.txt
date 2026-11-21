@@ -423,3 +423,5 @@ uzun gagalı ekidna | Zaglossus bruijnii
 mavi deniz yıldızı | Linckia laevigata
 gaga kaplumbağası (Reels) | Eretmochelys imbricata
 himalaya monali (Reels) | Lophophorus impejanus
+addaks | Addax nasomaculatus
+kalem deniz kestanesi | Heterocentrotus mamillatus
