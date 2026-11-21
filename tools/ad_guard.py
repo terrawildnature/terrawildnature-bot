@@ -19,7 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 API = "https://graph.facebook.com/v26.0/"
 ACCOUNT = "act_1960605268679679"
-ADSET = "120252142482140010"            # TR Instagram Profil (campaign "Terra Takipçi Profil (Afiş)"), 10 ChatGPT posters
+ADSET = "120252142480490010"            # campaign "Terra Takipçi Profil (Afiş)": best posters + 4 audience test sets
 START = dt.date(2026, 11, 19)
 MAX_COST_PER_FOLLOWER = 10.0            # TL, owner's limit
 LEARNING_SPEND = 1000.0                 # TL spent before the cost rule may pause anything
@@ -60,7 +60,7 @@ def issue(title, body):
 def main():
     if not TOKEN:
         sys.exit("META_ADS_TOKEN missing")
-    adset = call(ADSET, fields="name,status,effective_status,end_time")
+    adset = call(ADSET, fields="name,status,effective_status")
     if "error" in adset:
         issue("Reklam bekçisi Meta'ya bağlanamadı", f"Meta hatası: {adset['error'].get('message')}\n\n"
               "Anahtar geçersiz olmuş olabilir; Claude ile konuşurken yenilenir.")

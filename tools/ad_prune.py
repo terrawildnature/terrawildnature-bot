@@ -5,9 +5,10 @@ with the ranking. The token is never printed.
 """
 import json
 
-from ad_guard import ADSET, call, issue, TOKEN
+from ad_guard import call, issue, TOKEN
 import sys
 
+ADSET = "120252142482140010"   # TR Instagram Profil (the ten ChatGPT posters)
 KEEP = 3
 PREFIX = "GPT "            # the ten ChatGPT posters; the old "Afiş ..." ads stay paused
 
