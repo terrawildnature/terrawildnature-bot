@@ -1,10 +1,10 @@
 {
- "checked": "2026-11-21T03:27+00:00",
+ "checked": "2026-11-21T15:24+00:00",
  "adset_status": "ACTIVE",
- "spend_try": 64.95,
- "reach": 948,
- "impressions": 973,
- "frequency": 1.03,
+ "spend_try": 306.0,
+ "reach": 4563,
+ "impressions": 5004,
+ "frequency": 1.1,
  "thruplays": 0,
  "followers": {
   "start": 1342,
@@ -14,5 +14,5 @@
   "gained": 24,
   "extra_from_ad": 10
  },
- "cost_per_extra_follower": 6.5
+ "cost_per_extra_follower": 30.6
 }
