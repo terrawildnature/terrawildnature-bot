@@ -353,3 +353,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli (3,71), deniz omurgasızı (2,99), sayı kancası (2,33) güçlü; Reels'te kuş/memeli (1,23/1,21), sayı (1,23) güçlü.
 - Bugün uygulanan: Reels 8→9: shingleback iskink (sürüngen, sayı "20 yıl aynı eş"; iNat CC0). Gönderi 13→15: ova vizkaçası (memeli/kemirgen, sayı "9 kiloluk"; CC0) ve Noel ağacı solucanı (deniz omurgasızı, sayı "3,8 cm"; CC0). Misk geyiği, ipek karıncayiyan, şeker sincabı elendi (iNat'ta dışkı/yaprak arkası/gece kamerası fotoğrafları).
 - Sonra kontrol et: sayı kancalı memeli ve deniz omurgasızı gönderileri; sürüngen + sayı Reels'i. Not: grup "diğer" yerine kemirgeni memeli saymak daha doğru olurdu (ova vizkaçası post.json'da group=diğer).
+
+## 2026-11-21 (sabah çalıştırması)
+- Rapordan öğrenilen: rapor yeniden okunmadı; kuyruklar dolu olduğu için seçim yapılmadı (önceki bulgular: memeli, deniz omurgasızı, sayı kancası güçlü).
+- Bugün uygulanan: kuyruklar dolu (gönderi 15/15, Reels 9/9, `queue_failed`/`queue_reels_failed` yok); yeni içerik üretilmedi.
+- Sonra kontrol et: paylaşımlar sonrası kuyruk düşünce memeli/deniz omurgasızı + sayı kancasına ağırlık ver; `zz_20261106-01_quokka` Reels'i hâlâ `queue_reels/` içinde duruyor, paylaşılamazsa `queue_reels_failed/` içeriğine bak.
