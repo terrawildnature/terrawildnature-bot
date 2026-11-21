@@ -363,3 +363,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli (3,59), deniz omurgasızı (2,95), sayı kancası (2,21) güçlü; Reels'te sayı (1,21) güçlü, gizem (2,29, veri az) umut verici.
 - Bugün uygulanan: Reels 8→9: karaya uluyan maymun (memeli, sayı "2 km", iNat CC0, 76 kelime, Rites). Gönderi 14→15: üç parmaklı tembel hayvan (memeli, sayı "270 derece"; iNat CC0). Dev armadillo (arkadan/yuva fotoğrafları), Franciscana yunusu (iNat'ta hepsi ölü), uluyan maymunda uzaktan çekimler elendi.
 - Sonra kontrol et: memeli + sayı gönderi/Reels içerik değeri. Not: iNat'ta bazı türlerin (Pontoporia) tüm fotoğrafları ölü hayvan; önce kontak sayfası yapıp bak.
+
+## 2026-11-21 (akşam çalıştırması)
+- Rapordan öğrenilen: gönderide memeli (3,59) ve deniz omurgasızı (2,95) ile sayı kancası (2,21) güçlü; Reels'te sayı (1,21) güçlü, gizem az veriyle umut verici.
+- Bugün uygulanan: Gönderiler 13→15: uzun gagalı ekidna (memeli, sayı, iNat CC BY) ve mavi deniz yıldızı (deniz omurgasızı, sayı, CC0). Reels 7→9: gaga kaplumbağası (sürüngen, tuhaf yetenek) ve Himalaya monali (kuş, sayı). Kral yengecin iNat fotoğrafları ölü kabuk/düşük kaliteydi, elendi. Wikipedia API hız sınırına takıldı; WebFetch çalıştı.
+- Sonra kontrol et: ekidna/deniz yıldızı gönderilerinin içerik değeri; sürüngen Reels'in izlenme süresi (biyofloresan kancası).

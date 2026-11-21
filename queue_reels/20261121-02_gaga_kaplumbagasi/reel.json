@@ -1,0 +1,180 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Enchanted_Valley.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/430165662/original.jpeg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/110231794/original.jpg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/188261858/original.jpg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/188314476/original.jpg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/110230118/original.jpg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/430166053/original.jpeg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/146454495/original.jpeg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/556410534/original.jpg",
+  "p9.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/12834553/original.jpeg"
+ },
+ "segments": [
+  {
+   "text": "Gaga kaplumbağası, biyofloresan özellik gösteren ilk sürüngen olarak kaydedildi.",
+   "image": "p1.jpg",
+   "cx": 0.45,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Adını keskin, kıvrık gagasından alıyor.",
+   "image": "p2.jpg",
+   "cx": 0.4,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Kabuğunun arka kenarı bir et bıçağı gibi tırtıklı.",
+   "image": "p3.jpg",
+   "cx": 0.42,
+   "cy": 0.27,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Ortalama bir metre uzunluğunda ve yaklaşık seksen kilo ağırlığında.",
+   "image": "p4.jpg",
+   "cx": 0.3,
+   "cy": 0.55,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Ağırlıklı olarak sünger yiyen tek sürüngen.",
+   "image": "p5.jpg",
+   "cx": 0.45,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Yediği zehirli canlılar yüzünden eti zehirli olabiliyor.",
+   "image": "p6.jpg",
+   "cx": 0.6,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Resif aralarına girmek için sağlam kabuğunu kullanıyor.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kabuğu uğruna avlandığı için kritik derecede tehlike altında.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.35,
+   "cy": 0.55,
+   "motion": "pan_right"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.45,
+  "cy": 0.45,
+  "title": [
+   [
+    [
+     "KARANLIKTA",
+     "R"
+    ]
+   ],
+   [
+    [
+     "PARLAYAN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "İLK",
+     "W"
+    ]
+   ],
+   [
+    [
+     "SÜRÜNGEN",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "sürüngen",
+ "hook_style": "tuhaf yetenek",
+ "yt_title": "Işık Yansıtan İlk Sürüngen: Gaga Kaplumbağası",
+ "en": {
+  "title": "The First Fluorescent Reptile: Hawksbill Sea Turtle",
+  "description": "The hawksbill sea turtle is the first reptile recorded to be biofluorescent, and it is the only mostly sponge-eating reptile."
+ },
+ "caption": "Gaga kaplumbağası, biyofloresan özellik gösteren ilk sürüngen olarak kaydedildi ve ağırlıklı olarak sünger yiyen tek sürüngen olarak biliniyor. 🐢🪸\n\n#terrawildnature #gagakaplumbağası\n\n📷 João D'Andretta (CC BY), Bernard DUPONT (CC BY) / iNaturalist\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/430165662/original.jpeg",
+   "author": "Chris Spain",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/110231794/original.jpg",
+   "author": "João D'Andretta",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/188261858/original.jpg",
+   "author": "Marius Burger",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/188314476/original.jpg",
+   "author": "Marius Burger",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/110230118/original.jpg",
+   "author": "João D'Andretta",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/430166053/original.jpeg",
+   "author": "Chris Spain",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/146454495/original.jpeg",
+   "author": "rochard",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/556410534/original.jpg",
+   "author": "Bernard DUPONT",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/12834553/original.jpeg",
+   "author": "Yolanda M. Leon",
+   "license": "CC0",
+   "public_domain": true
+  }
+ ]
+}
