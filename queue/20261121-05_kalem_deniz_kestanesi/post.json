@@ -22,5 +22,26 @@
     {"use": "top", "title": "iNaturalist 459764936", "author": "Steph Brulot-Sawchyn", "license": "CC0", "public_domain": true},
     {"use": "inner", "title": "iNaturalist 286809622", "author": "Daniel Das", "license": "CC0", "public_domain": true}
   ],
-  "caption": "Hint-Pasifik resiflerinde yaşayan kalem deniz kestanesi, 10 cm'ye kadar uzayan kalın kırmızı dikenleriyle sert kayalara oyuk açıp içine yerleşebiliyor. 🌊🔴\n\n#terrawildnature #ilginçbilgiler #kalemdenizkestanesi\n\n📷 Robin White (CC BY) / iNaturalist"
+  "caption": "Hint-Pasifik resiflerinde yaşayan kalem deniz kestanesi, 10 cm'ye kadar uzayan kalın kırmızı dikenleriyle sert kayalara oyuk açıp içine yerleşebiliyor. 🌊🔴\n\n#terrawildnature #ilginçbilgiler #kalemdenizkestanesi\n\n📷 Robin White (CC BY) / iNaturalist",
+  "quiz": {
+    "yt_title": "10 cm'lik Kırmızı Kalemleri Var! Bu Canlı Ne?",
+    "facts": [
+      {
+        "title": "KALEM DİKENLER",
+        "text": "Kalın, kalem gibi dikenleri on santime kadar uzuyor."
+      },
+      {
+        "title": "GECE RENK DEĞİŞİMİ",
+        "text": "Dikenleri gece soluk pembeye dönüyor."
+      },
+      {
+        "title": "KAYAYI OYUYOR",
+        "text": "Sert kayalara oyuk açıp içine yerleşebiliyor."
+      }
+    ],
+    "en": {
+      "title": "It Has 10 cm Red Pencils! What Creature Is It?",
+      "description": "The slate pencil urchin has thick, pencil-like spines up to 10 cm long that turn pale pink at night. It can bore into hard rock to make a home on Indo-Pacific reefs."
+    }
+  }
 }

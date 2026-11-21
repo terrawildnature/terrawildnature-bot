@@ -22,5 +22,26 @@
     {"use": "top", "title": "File:Lion's mane jellyfish in Gullmarn fjord at Sämstad 8.jpg", "author": "W.carter", "license": "CC0", "public_domain": true},
     {"use": "inner", "title": "iNaturalist 405338855", "author": "Ann-Sophie Qvarnström", "license": "CC0", "public_domain": true}
   ],
-  "caption": "Çanı 2 metreyi, kolları ise 30 metreyi aşabilen aslan yeleli denizanası, soğuk kuzey denizlerinin en büyük denizanalarından biri. 🪼🌊\n\n#terrawildnature #ilginçbilgiler #denizanası"
+  "caption": "Çanı 2 metreyi, kolları ise 30 metreyi aşabilen aslan yeleli denizanası, soğuk kuzey denizlerinin en büyük denizanalarından biri. 🪼🌊\n\n#terrawildnature #ilginçbilgiler #denizanası",
+  "quiz": {
+    "yt_title": "Kolları 30 Metreye Uzanıyor! Bu Canlıyı Tanıyor musun?",
+    "facts": [
+      {
+        "title": "30 METRELİK KOLLAR",
+        "text": "Uzun kolları otuz metreye kadar uzayabiliyor."
+      },
+      {
+        "title": "1.200 İÇ KOL",
+        "text": "Çanında yaklaşık bin iki yüz iç kol bulunuyor."
+      },
+      {
+        "title": "KOPSA DA YAKIYOR",
+        "text": "Kopan kolları yirmi beş güne kadar yakmaya devam edebiliyor."
+      }
+    ],
+    "en": {
+      "title": "Its Tentacles Reach 30 Meters! Can You Name It?",
+      "description": "The lion's mane jellyfish has tentacles up to 30 m long, a bell that can exceed 2 m and about 1,200 oral arms. Its detached tentacles can keep stinging for up to 25 days."
+    }
+  }
 }

@@ -22,5 +22,26 @@
     {"use": "top", "title": "iNaturalist 249831272", "author": "Vsevolod Rudyi", "license": "CC BY", "public_domain": false},
     {"use": "inner", "title": "iNaturalist 290501394", "author": "Justin Philbois", "license": "CC0", "public_domain": true}
   ],
-  "caption": "Sahra'nın çöllerinde yıllık yağışın 100 mm'nin altına düştüğü yerlerde bile yaşayan addaks, suyu bitkilerden ve çiyden alıp midesinin astarında depolayarak neredeyse hiç su içmeden hayatta kalıyor. 🏜️🐾\n\n#terrawildnature #ilginçbilgiler #addaks\n\n📷 Adi Peter (CC BY), Vsevolod Rudyi (CC BY) / iNaturalist"
+  "caption": "Sahra'nın çöllerinde yıllık yağışın 100 mm'nin altına düştüğü yerlerde bile yaşayan addaks, suyu bitkilerden ve çiyden alıp midesinin astarında depolayarak neredeyse hiç su içmeden hayatta kalıyor. 🏜️🐾\n\n#terrawildnature #ilginçbilgiler #addaks\n\n📷 Adi Peter (CC BY), Vsevolod Rudyi (CC BY) / iNaturalist",
+  "quiz": {
+    "yt_title": "Çölde Su İçmeden Yaşayan Antilop! Adını Biliyor musun?",
+    "facts": [
+      {
+        "title": "SU İÇMİYOR",
+        "text": "Suyunu bitkilerden ve çiyden alıyor, neredeyse hiç su içmeden yaşıyor."
+      },
+      {
+        "title": "BURGULU BOYNUZ",
+        "text": "Erkeklerin iki üç kez burulmuş boynuzları seksen beş santime varıyor."
+      },
+      {
+        "title": "500'DEN AZ KALDI",
+        "text": "Yabanda beş yüzden az kaldı; kritik derecede tehlikede."
+      }
+    ],
+    "en": {
+      "title": "An Antelope That Lives Without Drinking! Name It?",
+      "description": "The addax gets its water from plants and dew and stores water in its stomach lining, living in deserts with under 100 mm of rain a year. Its twisted horns reach 85 cm, and fewer than 500 remain in the wild."
+    }
+  }
 }

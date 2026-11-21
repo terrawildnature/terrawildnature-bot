@@ -83,5 +83,26 @@
  ],
  "group": "memeli",
  "hook_style": "sayı",
- "caption": "Dağ kayalıklarının minik sakini Amerikan pikası, sıcak havada serinleyecek yer bulamazsa 25,5 dereceden sonra birkaç saat içinde ölebiliyor. 🏔️🐹\n\n#terrawildnature #ilginçbilgiler #pika\n\n📷 Daughter Dad (CC BY) / iNaturalist"
+ "caption": "Dağ kayalıklarının minik sakini Amerikan pikası, sıcak havada serinleyecek yer bulamazsa 25,5 dereceden sonra birkaç saat içinde ölebiliyor. 🏔️🐹\n\n#terrawildnature #ilginçbilgiler #pika\n\n📷 Daughter Dad (CC BY) / iNaturalist",
+  "quiz": {
+    "yt_title": "Bu Hayvan 25,5 Derecede Ölebiliyor! Adını Biliyor musun?",
+    "facts": [
+      {
+        "title": "SICAĞA DAYANAMIYOR",
+        "text": "Serinlik bulamazsa yirmi beş buçuk derecenin üstünde altı saatte ölebiliyor."
+      },
+      {
+        "title": "KIŞ UYKUSU YOK",
+        "text": "Kış uykusuna yatmıyor; yaz boyunca yiyecek biriktiriyor."
+      },
+      {
+        "title": "GÜNDE 100 SEFER",
+        "text": "Kış için günde yüzden fazla sefer yapıp ot topluyor."
+      }
+    ],
+    "en": {
+      "title": "This Animal Can Die at Just 25.5°C! Can You Name It?",
+      "description": "The American pika can die within six hours above 25.5°C if it cannot find shade. It does not hibernate, and in summer it makes more than 100 trips a day to store food for winter."
+    }
+  }
 }

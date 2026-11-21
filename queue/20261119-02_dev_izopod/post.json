@@ -83,5 +83,26 @@
       "public_domain": false
     }
   ],
-  "caption": "Derin denizlerin dev izopodu, tutulduğu akvaryumda tam 5 yıl hiçbir şey yemeden hayatta kalabildi. 🦐🌊\n\n#terrawildnature #ilginçbilgiler #devizopod\n\n📷 Eric Kilby (CC BY-SA 2.0) / Wikimedia Commons"
+  "caption": "Derin denizlerin dev izopodu, tutulduğu akvaryumda tam 5 yıl hiçbir şey yemeden hayatta kalabildi. 🦐🌊\n\n#terrawildnature #ilginçbilgiler #devizopod\n\n📷 Eric Kilby (CC BY-SA 2.0) / Wikimedia Commons",
+  "quiz": {
+    "yt_title": "Bu Deniz Canlısı 5 Yıl Hiç Yemedi! Adını Biliyor musun?",
+    "facts": [
+      {
+        "title": "5 YIL AÇ KALDI",
+        "text": "Akvaryumdaki bir birey, beş yıl hiç yemeden hayatta kaldı."
+      },
+      {
+        "title": "50 CM'LİK DEV",
+        "text": "Elli santime kadar uzuyor; tespih böceğinin dev bir akrabası."
+      },
+      {
+        "title": "TOP GİBİ KIVRILIR",
+        "text": "Tehlikede top gibi kıvrılıp zırhını kalkana çeviriyor."
+      }
+    ],
+    "en": {
+      "title": "This Sea Creature Went 5 Years Without Eating! Name It?",
+      "description": "One giant isopod in an aquarium survived five years without eating. It grows up to 50 cm, is a giant relative of the pill bug and lives 170 to 2,140 m deep on the ocean floor, rolling into a ball to defend itself."
+    }
+  }
 }

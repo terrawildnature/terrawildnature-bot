@@ -21,5 +21,26 @@
     {"use": "cover", "title": "File:Cuon alpinus alpinus sitting.jpg", "author": "Johan Spaedtke", "license": "CC0", "public_domain": true},
     {"use": "top", "title": "File:Cuon alpinus alpinus puppy.jpg", "author": "Johan Spaedtke", "license": "CC0", "public_domain": true}
   ],
-  "caption": "Kurtlar gibi ulumayan, bunun yerine ıslık çalan kızıl yaban köpeği, Asya'da 2.500'den az yetişkini kalmış tehlike altındaki bir sürü avcısı. 🐺🌏\n\n#terrawildnature #ilginçbilgiler #kızılyabanköpeği"
+  "caption": "Kurtlar gibi ulumayan, bunun yerine ıslık çalan kızıl yaban köpeği, Asya'da 2.500'den az yetişkini kalmış tehlike altındaki bir sürü avcısı. 🐺🌏\n\n#terrawildnature #ilginçbilgiler #kızılyabanköpeği",
+  "quiz": {
+    "yt_title": "Havlamıyor, Islık Çalıyor! Bu Hayvanı Tanıyor musun?",
+    "facts": [
+      {
+        "title": "ISLIK ÇALIYOR",
+        "text": "Kurt gibi ulumuyor, havlamıyor; bunun yerine ıslık çalıyor."
+      },
+      {
+        "title": "SÜRÜ AVCISI",
+        "text": "On iki bireylik sürülerle iri geyikleri birlikte yere indiriyor."
+      },
+      {
+        "title": "2.500'DEN AZ KALDI",
+        "text": "Yabanda iki bin beş yüzden az yetişkin birey kaldı."
+      }
+    ],
+    "en": {
+      "title": "It Doesn't Bark, It Whistles! Can You Name This Animal?",
+      "description": "The dhole, an Asian wild dog, whistles instead of barking or howling. It hunts in packs of about 12 that bring down large deer such as sambar, and fewer than 2,500 adults remain in the wild."
+    }
+  }
 }

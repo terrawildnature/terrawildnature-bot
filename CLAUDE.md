@@ -123,6 +123,26 @@ Kurallar:
 - **cx/cy:** Hayvanın fotoğraftaki merkezi (0-1). **zoom:** 1 = olabildiğince geniş. Kapakta alt %40 siyaha kararır, bu yüzden hayvanın başı/gövdesi üst yarıda kalmalı.
 - Cümleleri satırlara doğal yerlerden böl.
 
+### `quiz` alanı (YouTube Shorts için, zorunlu)
+
+Her gönderi paylaşıldıktan ~1 saat sonra YouTube'a **"Tahmin Et" Short'u** olarak gider (`youtube/tools/quiz_short.py`): bulanık hayvan + 3-2-1 geri sayım → cevap → 3 şaşırtıcı gerçek → "Bildin mi? Yorumlara yaz". Bunun için her `post.json`'a şunu ekle:
+
+```json
+"quiz": {
+  "yt_title": "Bu Balık Küp Gibi Zırhlı ve Zehirli. Adını Biliyor musun?",
+  "facts": [
+    {"title": "KÜP GİBİ ZIRH", "text": "Kafasından kuyruğuna kadar sert, kutu gibi bir zırhla kaplı."},
+    {"title": "ZEHİRLİ SAVUNMA", "text": "Tehlike anında suya zehirli bir mukus salgılıyor."},
+    {"title": "RENK DEĞİŞTİRİYOR", "text": "Yavruyken parlak sarı, yaşlandıkça grileşiyor."}
+  ],
+  "en": {"title": "This Fish Is Armored Like a Cube. Can You Name It?",
+         "description": "<3 gerçeğin akıcı İngilizcesi, hayvanın adını burada verebilirsin>"}
+}
+```
+- **yt_title / en.title:** En fazla 60 karakter, merak uyandırsın, **hayvanın adını VERMESİN** (video bir bilmece). `#shorts` ekleme.
+- **facts:** Tam 3 tane, doğrulanmış (bölüm 3), birbirinden farklı, en şaşırtıcıları. `title` büyük harf, en fazla ~24 karakter; `text` seslendirilecek tek kısa cümle (8-16 kelime). Başına "Bir:" gibi numara yazma, araç ekliyor.
+- Hayvanın adını `text` içinde tekrar etme; ad "Cevap:" kısmında zaten söyleniyor.
+
 ## 5. Açıklama (caption) stili
 
 Hesabın kendi tarzı: tek uzun cümle + 2 emoji + boş satır + 3 etiket. Örnek:

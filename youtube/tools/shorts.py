@@ -1,12 +1,15 @@
-"""Instagram Reels -> YouTube Shorts. The Reels pipeline deletes its video after posting, so this re-renders the
-reel from its recipe (posted_reels/<dir>/reel.json, tools/reel.py) and uploads it to YouTube as a public Short.
+"""Instagram posts -> YouTube "Tahmin Et" Shorts (since 2026-11-22, owner's request: YouTube gets its own format, not
+a copy of the Reels). Each Instagram post published since QUIZ_SINCE becomes a quiz Short (youtube/tools/quiz_short.py:
+mystery animal, countdown, reveal, 3 facts, comment/subscribe card) uploaded as a public Short, so the channel gets
+as many Shorts as Instagram gets posts (5 a day) about animals that differ from the Reels.
+Older Reels recipes (posted_reels/<dir>/reel.json) can still be uploaded in the old format by passing their dir.
 
-  python youtube/tools/shorts.py --pick            prints the newest posted reel not on YouTube yet
+  python youtube/tools/shorts.py --pick            prints the newest Instagram post not on YouTube yet
   python youtube/tools/shorts.py --pick --backfill also the oldest one left over (evening run)
                                                    (--pick keeps within the daily API quota, see budget())
   python youtube/tools/shorts.py <reel_dir> --dry  prints the title/description only
-  python youtube/tools/shorts.py <reel_dir>        renders (reel.py), uploads with the Reels cover as thumbnail,
-                                                   writes <reel_dir>/youtube.json
+  python youtube/tools/shorts.py <post_dir>        renders (quiz_short.py), uploads, writes <post_dir>/youtube.json
+  python youtube/tools/shorts.py <reel_dir>        old format: renders reel.py with the Reels cover
 Needs env YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN (GitHub secrets).
 """
 import datetime as dt
@@ -20,6 +23,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 ROOT = Path(__file__).resolve().parents[2]
 POSTED = ROOT / "posted_reels"
+POSTS = ROOT / "posted"
+QUIZ_SINCE = dt.datetime(2026, 11, 22, tzinfo=dt.timezone.utc)   # posts published from here on become quiz Shorts
 DOCS = ROOT / "youtube" / "docs"
 QUOTA = 10000            # YouTube Data API units per day, reset at midnight Pacific time
 MARGIN = 600
@@ -79,16 +84,27 @@ def budget():
         except (OSError, ValueError):
             return False
     used = SHORT_COST * sum(today(f) for f in POSTED.glob("*/youtube.json"))
+    used += SHORT_COST * sum(today(f) for f in POSTS.glob("*/youtube.json"))
     used += DOC_COST * sum(today(f) for f in DOCS.glob("*/status.json"))
     used += SHORT_COST * sum(today(f) for f in DOCS.glob("*/teaser.json"))   # documentary teaser Shorts
     pending = sum(1 for d in DOCS.glob("*/meta.json") if not (d.parent / "status.json").exists())
     return QUOTA - MARGIN - used - DOC_COST * pending
 
 
+def published_at(d):
+    try:
+        t = json.loads((d / "published.json").read_text(encoding="utf-8"))["published_at"]
+        return dt.datetime.fromisoformat(t.replace("Z", "+00:00"))
+    except (OSError, ValueError, KeyError):
+        return None
+
+
 def pick(backfill=False):
-    """Newest posted reel not on YouTube yet, plus (backfill) the oldest one left over, as many as the quota allows."""
-    todo = sorted(d for d in POSTED.iterdir()
-                  if d.is_dir() and (d / "reel.json").exists() and not (d / "youtube.json").exists())
+    """Newest Instagram post not on YouTube yet, plus (backfill) the oldest one left over, as many as the quota allows."""
+    todo = sorted((published_at(d), d) for d in POSTS.iterdir()
+                  if d.is_dir() and (d / "post.json").exists() and not (d / "youtube.json").exists()
+                  and (published_at(d) or QUIZ_SINCE - dt.timedelta(1)) >= QUIZ_SINCE)
+    todo = [d for _, d in todo]
     want = list(dict.fromkeys(todo[-1:] + (todo[:1] if backfill else [])))
     n = max(0, budget() // SHORT_COST)
     if len(want) > n:
@@ -132,7 +148,72 @@ def set_cover(vid, cover):
     print(f"thumbnail set for {vid}")
 
 
+def quiz_title(post):
+    """quiz.yt_title from the routine, else the post headline as a question that does not give the answer away."""
+    t = post.get("quiz", {}).get("yt_title")
+    if not t:
+        head = tr_lower(" ".join(w for line in post["title"] for w, _ in line))
+        head = head[0].upper() + head[1:]
+        t = (head if len(head) <= 42 else head[:42].rsplit(" ", 1)[0]) + " — Tanıyor musun?"
+    return re.sub(r"\s+", " ", t).strip()[:60] + " #shorts"
+
+
+def publish(work, body, record_dir, en_spec, extra=None):
+    """Upload work/short.mp4, write record_dir/youtube.json at once, then thumbnail and English localization."""
+    from yt_upload import access_token, upload
+    import urllib.error
+    try:
+        vid = upload(work / "short.mp4", body, access_token())["id"]
+    except (SystemExit, urllib.error.HTTPError) as e:
+        msg = e.read().decode(errors="replace") if isinstance(e, urllib.error.HTTPError) else str(e)
+        if "quotaExceeded" in msg or "uploadLimitExceeded" in msg:   # not an error: it goes up in a later run
+            print(f"YouTube daily limit reached, {record_dir.name} waits for a later run")
+            return
+        raise SystemExit(f"upload failed: {msg[:500]}")
+    # written right away: if a later step fails, the Short is not uploaded a second time
+    (record_dir / "youtube.json").write_text(json.dumps({"video_id": vid, "title": body["snippet"]["title"],
+                                                         "uploaded_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+                                                         **(extra or {})}, ensure_ascii=False, indent=1),
+                                             encoding="utf-8")
+    try:
+        wait_processed(vid)   # a thumbnail set while YouTube is still processing did not show up on the Short
+        set_cover(vid, work / "cover.jpg")
+    except Exception as e:   # the video is up; its first frames still show in the feed
+        print(f"thumbnail not set for {vid}: {e}")
+    try:
+        from english import localize, short_localization
+        if loc := short_localization(en_spec):
+            localize(vid, loc)
+        else:
+            print(f"no English title for {record_dir.name}")
+    except Exception as e:
+        print(f"English title not set for {vid}: {e}")
+    print(f"https://youtube.com/shorts/{vid}")
+
+
+def main_quiz(post_dir):
+    import quiz_short
+    post = json.loads((post_dir / "post.json").read_text(encoding="utf-8"))
+    spec = {"caption": post["caption"] + "\n\n🎵 Kevin MacLeod (CC BY)"}
+    body = {"snippet": {"title": quiz_title(post), "description": description(spec),
+                        "tags": ["shorts", "hayvanlar", "bu hayvan ne", "tahmin et", "ilginç bilgiler", "terra wild nature"],
+                        "categoryId": "15", "defaultLanguage": "tr", "defaultAudioLanguage": "tr"},
+            "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": False}}
+    if "--dry" in sys.argv:
+        print(json.dumps(body, ensure_ascii=False, indent=1))
+        return
+    recent = [json.loads(f.read_text(encoding="utf-8")).get("music") for f in
+              sorted(POSTS.glob("*/youtube.json"), key=lambda f: f.name)[-20:]]
+    work = ROOT / "_shorts" / post_dir.name   # render outside posted/ so nothing but youtube.json gets committed
+    shutil.rmtree(work, ignore_errors=True)
+    q = quiz_short.from_post(post_dir, work, [m.rsplit("/", 1)[-1] for m in recent if m])
+    quiz_short.build(work)
+    publish(work, body, post_dir, {"en": post.get("quiz", {}).get("en")}, {"music": q["music"]["file"]})
+
+
 def main(reel_dir):
+    if (reel_dir / "post.json").exists():
+        return main_quiz(reel_dir)
     spec = json.loads((reel_dir / "reel.json").read_text(encoding="utf-8"))
     body = {"snippet": {"title": title(spec), "description": description(spec),
                         "tags": ["shorts", "hayvanlar", "vahşi doğa", "belgesel", "ilginç bilgiler", "terra wild nature"],
@@ -147,32 +228,7 @@ def main(reel_dir):
     shutil.copy(reel_dir / "reel.json", work / "reel.json")
     subprocess.run([sys.executable, str(ROOT / "tools" / "reel.py"), str(work)], check=True)
     with_cover(work)
-    from yt_upload import access_token, upload
-    import urllib.error
-    try:
-        vid = upload(work / "short.mp4", body, access_token())["id"]
-    except (SystemExit, urllib.error.HTTPError) as e:
-        msg = e.read().decode(errors="replace") if isinstance(e, urllib.error.HTTPError) else str(e)
-        if "quotaExceeded" in msg or "uploadLimitExceeded" in msg:   # not an error: it goes up in a later run
-            print(f"YouTube daily limit reached, {reel_dir.name} waits for a later run")
-            return
-        raise SystemExit(f"upload failed: {msg[:500]}")
-    # written right away: if a later step fails, the Short is not uploaded a second time
-    (reel_dir / "youtube.json").write_text(json.dumps({"video_id": vid, "title": body["snippet"]["title"],
-                                                       "uploaded_at": dt.datetime.now(dt.timezone.utc).isoformat()},
-                                                      ensure_ascii=False, indent=1), encoding="utf-8")
-    try:
-        wait_processed(vid)   # a thumbnail set while YouTube is still processing did not show up on the Short
-        set_cover(vid, work / "cover.jpg")
-    except Exception as e:   # the video is up; the cover in its first half second still shows in the feed
-        print(f"thumbnail not set for {vid}: {e}")
-    try:
-        from english import localize, short_localization
-        if loc := short_localization(spec):
-            localize(vid, loc)
-    except Exception as e:
-        print(f"English title not set for {vid}: {e}")
-    print(f"https://youtube.com/shorts/{vid}")
+    publish(work, body, reel_dir, spec)
 
 
 if __name__ == "__main__":

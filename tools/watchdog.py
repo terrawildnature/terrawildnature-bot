@@ -12,13 +12,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "youtube" / "tools"))
 TR = dt.timezone(dt.timedelta(hours=3))
-START = dt.date(2026, 11, 5)              # the 5 posts / 3 reels / 3 shorts schedule starts here
+START = dt.date(2026, 11, 5)              # the 5 posts / 3 reels schedule starts here (5 quiz Shorts from 2026-11-22)
 
 # (workflow, slot times in Turkey, minutes after a slot before it counts as missed)
 SCHEDULE = {
     "post": ("publish.yml", ["09:00", "12:00", "15:30", "18:00", "22:00"], 75),
     "reel": ("publish-reel.yml", ["10:30", "13:30", "20:00"], 60),
-    "short": ("youtube-shorts.yml", ["11:30", "14:30", "21:30"], 75),
+    "short": ("youtube-shorts.yml", ["10:05", "13:05", "16:35", "19:05", "23:05"], 75),
 }
 
 
@@ -33,7 +33,7 @@ def stamp(f, key):
 def done_today(kind, today):
     files = {"post": (ROOT.glob("posted/*/published.json"), "published_at"),
              "reel": (ROOT.glob("posted_reels/*/published.json"), "published_at"),
-             "short": (ROOT.glob("posted_reels/*/youtube.json"), "uploaded_at")}[kind]
+             "short": (ROOT.glob("posted/*/youtube.json"), "uploaded_at")}[kind]
     return sum(1 for f in files[0] if (t := stamp(f, files[1])) and t.date() == today)
 
 

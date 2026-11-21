@@ -87,5 +87,26 @@
       "public_domain": true
     }
   ],
-  "caption": "Sadece 5 cm boyundaki palyaço karidesi, çiftler hâlinde avlanıp yavaş deniz yıldızlarını sırtüstü çevirerek yumuşak dokularını yiyor. 🦐⭐\n\n#terrawildnature #ilginçbilgiler #palyaçokaridesi"
+  "caption": "Sadece 5 cm boyundaki palyaço karidesi, çiftler hâlinde avlanıp yavaş deniz yıldızlarını sırtüstü çevirerek yumuşak dokularını yiyor. 🦐⭐\n\n#terrawildnature #ilginçbilgiler #palyaçokaridesi",
+  "quiz": {
+    "yt_title": "5 cm'lik Bu Karides Deniz Yıldızını Deviriyor! Adı Ne?",
+    "facts": [
+      {
+        "title": "DENİZ YILDIZI AVCISI",
+        "text": "Neredeyse yalnızca deniz yıldızıyla besleniyor."
+      },
+      {
+        "title": "SIRTÜSTÜ ÇEVİRİYOR",
+        "text": "Yavaş bir deniz yıldızını sırtüstü çevirip yumuşak dokularını yiyor."
+      },
+      {
+        "title": "ÇİFT HALİNDE AV",
+        "text": "Sadece beş santim boyunda ve çiftler hâlinde avlanıyor."
+      }
+    ],
+    "en": {
+      "title": "This 5 cm Shrimp Flips Over Starfish! What Is It?",
+      "description": "The harlequin shrimp feeds almost only on starfish, flipping a slow sea star onto its back to eat its soft tissue. It grows to just 5 cm and hunts in pairs on Indo-Pacific reefs."
+    }
+  }
 }

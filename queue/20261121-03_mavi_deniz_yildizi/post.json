@@ -83,5 +83,26 @@
       "public_domain": true
     }
   ],
-  "caption": "Hint-Pasifik'in sığ mercan resiflerinde yaşayan mavi deniz yıldızı, 30 cm'ye kadar genişleyebilen beş kollu gövdesiyle çoğunlukla canlı mavi renkte görülüyor. 🌊⭐\n\n#terrawildnature #ilginçbilgiler #denizyildizi"
+  "caption": "Hint-Pasifik'in sığ mercan resiflerinde yaşayan mavi deniz yıldızı, 30 cm'ye kadar genişleyebilen beş kollu gövdesiyle çoğunlukla canlı mavi renkte görülüyor. 🌊⭐\n\n#terrawildnature #ilginçbilgiler #denizyildizi",
+  "quiz": {
+    "yt_title": "Bu Masmavi Canlı 30 cm'ye Kadar Büyüyor! Adı Ne?",
+    "facts": [
+      {
+        "title": "30 CM'LİK YILDIZ",
+        "text": "Beş kollu gövdesi otuz santime kadar genişleyebiliyor."
+      },
+      {
+        "title": "MOR VE TURUNCU DA VAR",
+        "text": "Çoğu mavi ama mor ve turuncu bireyleri de bulunuyor."
+      },
+      {
+        "title": "DAKİKADA 8 CM",
+        "text": "Dakikada ortalama sekiz santim ilerliyor."
+      }
+    ],
+    "en": {
+      "title": "This Bright Blue Creature Grows to 30 cm! What Is It?",
+      "description": "The blue sea star can grow to 30 cm across. Most are blue but some are purple or orange, and it moves about 8 cm per minute on shallow Indo-Pacific reefs."
+    }
+  }
 }

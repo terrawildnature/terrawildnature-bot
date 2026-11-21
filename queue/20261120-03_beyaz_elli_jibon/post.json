@@ -87,5 +87,26 @@
  ],
  "group": "memeli",
  "hook_style": "sayı",
- "caption": "Jibonlar ormanda daldan dala sallanarak saatte 55 kilometreye varan hızlara ulaşıyor, tek seferde 15 metreye kadar mesafe katedebiliyor. 🌳🐒\n\n#terrawildnature #ilginçbilgiler #jibon\n\n📷 Ben Costamagna (CC BY) / iNaturalist"
+ "caption": "Jibonlar ormanda daldan dala sallanarak saatte 55 kilometreye varan hızlara ulaşıyor, tek seferde 15 metreye kadar mesafe katedebiliyor. 🌳🐒\n\n#terrawildnature #ilginçbilgiler #jibon\n\n📷 Ben Costamagna (CC BY) / iNaturalist",
+  "quiz": {
+    "yt_title": "Ağaçlarda Saatte 55 km! Bu Hayvanı Tanıyor musun?",
+    "facts": [
+      {
+        "title": "SAATTE 55 KM",
+        "text": "Dallar arasında sallanarak saatte elli beş kilometre hıza çıkabiliyor."
+      },
+      {
+        "title": "15 METRE SIÇRAMA",
+        "text": "Tek seferde on beş metrelik boşlukları aşabiliyor."
+      },
+      {
+        "title": "DÜET ŞARKILAR",
+        "text": "Çiftler birlikte şarkı söylüyor; sesleri bir kilometre öteden duyuluyor."
+      }
+    ],
+    "en": {
+      "title": "55 km/h Through the Trees! Can You Name This Animal?",
+      "description": "The lar gibbon swings through branches at up to 55 km/h and can cross 15 m gaps in one move. Pairs sing duets that can be heard 1 km away in Southeast Asian forests."
+    }
+  }
 }

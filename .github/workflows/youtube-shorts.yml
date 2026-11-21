@@ -1,13 +1,15 @@
 name: YouTube Shorts paylaş
 
-# Three times a day, an hour after each Instagram Reel (10:30, 13:30, 20:00), re-render the newest posted reel from its
-# recipe and upload it to YouTube as a Short; the evening run also uploads one older reel until the backlog is done.
-# Runs only while the repo variable YT_AUTO_UPLOAD=true.
+# Five times a day, about an hour after each Instagram post (09:00, 12:00, 15:30, 18:00, 22:00), turn the newest
+# published post into a YouTube-only "Tahmin Et" quiz Short (youtube/tools/quiz_short.py) and upload it; the last run
+# also uploads one left over (a skipped run or a quota-short documentary day). Runs only while YT_AUTO_UPLOAD=true.
 on:
   schedule:
-    - cron: "30 8 * * *"    # 11:30 Turkey
-    - cron: "30 11 * * *"   # 14:30 Turkey
-    - cron: "30 18 * * *"   # 21:30 Turkey (+ backfill)
+    - cron: "5 7 * * *"     # 10:05 Turkey
+    - cron: "5 10 * * *"    # 13:05 Turkey
+    - cron: "35 13 * * *"   # 16:35 Turkey
+    - cron: "5 16 * * *"    # 19:05 Turkey
+    - cron: "5 20 * * *"    # 23:05 Turkey (+ backfill)
   workflow_dispatch: {}
 
 concurrency:
@@ -46,7 +48,7 @@ jobs:
         run: |
           FAIL=0
           BACKFILL=""
-          case "${{ github.event.schedule }}" in "30 8 * * *"|"30 11 * * *") ;; *) BACKFILL="--backfill" ;; esac
+          case "${{ github.event.schedule }}" in "5 20 * * *"|"") BACKFILL="--backfill" ;; esac
           for d in $(python youtube/tools/shorts.py --pick $BACKFILL); do
             echo "== $d"
             python youtube/tools/shorts.py "$d" || FAIL=1
@@ -57,6 +59,6 @@ jobs:
         run: |
           git config user.name "terrawildnature-bot"
           git config user.email "terrawildnature-bot@users.noreply.github.com"
-          git add posted_reels/*/youtube.json 2>/dev/null || true
+          git add posted/*/youtube.json posted_reels/*/youtube.json 2>/dev/null || true
           git commit -m "YouTube Shorts yüklendi" || exit 0
           for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done

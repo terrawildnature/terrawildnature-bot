@@ -22,5 +22,26 @@
     {"use": "top", "title": "iNaturalist 93299426", "author": "Naturalist Tours", "license": "CC0", "public_domain": true},
     {"use": "inner", "title": "iNaturalist 208720359", "author": "Whaldener Endo", "license": "CC0", "public_domain": true}
   ],
-  "caption": "Orta ve Güney Amerika ormanlarında ağaçlarda asılı yaşayan kahverengi boğazlı tembel hayvan, boynundaki yaklaşık 10 omur sayesinde başını 270 dereceye kadar çevirebiliyor. 🦥🌿\n\n#terrawildnature #ilginçbilgiler #tembelhayvan"
+  "caption": "Orta ve Güney Amerika ormanlarında ağaçlarda asılı yaşayan kahverengi boğazlı tembel hayvan, boynundaki yaklaşık 10 omur sayesinde başını 270 dereceye kadar çevirebiliyor. 🦥🌿\n\n#terrawildnature #ilginçbilgiler #tembelhayvan",
+  "quiz": {
+    "yt_title": "Başını 270 Derece Çevirebiliyor! Bu Hayvan Ne?",
+    "facts": [
+      {
+        "title": "270 DERECE BOYUN",
+        "text": "Boynundaki fazla omurlar sayesinde başını iki yüz yetmiş derece çevirebiliyor."
+      },
+      {
+        "title": "GÜNDE 18 SAAT",
+        "text": "Günde on beş ila on sekiz saat uyuyor, ağaçta baş aşağı asılı kalıyor."
+      },
+      {
+        "title": "YEŞİL TÜYLER",
+        "text": "Tüylerinde alg büyüyor ve ona yeşilimsi bir renk veriyor."
+      }
+    ],
+    "en": {
+      "title": "It Can Turn Its Head 270 Degrees! What Animal Is It?",
+      "description": "The three-toed sloth has extra neck vertebrae that let it turn its head 270 degrees. It sleeps 15 to 18 hours a day hanging upside down, and algae growing in its fur give it a greenish color."
+    }
+  }
 }

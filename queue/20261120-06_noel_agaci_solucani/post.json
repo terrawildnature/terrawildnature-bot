@@ -87,5 +87,26 @@
       "public_domain": true
     }
   ],
-  "caption": "Boyu sadece 3,8 cm olan Noel ağacı solucanı, iki renkli spiral tacıyla hem besleniyor hem nefes alıyor. 🎄🪱\n\n#terrawildnature #ilginçbilgiler #noelağacısolucanı"
+  "caption": "Boyu sadece 3,8 cm olan Noel ağacı solucanı, iki renkli spiral tacıyla hem besleniyor hem nefes alıyor. 🎄🪱\n\n#terrawildnature #ilginçbilgiler #noelağacısolucanı",
+  "quiz": {
+    "yt_title": "Bu Solucanın İki Noel Ağacı Var! Adını Biliyor musun?",
+    "facts": [
+      {
+        "title": "İKİ SPİRAL TAÇ",
+        "text": "İki spiral tacıyla hem avını topluyor hem de nefes alıyor."
+      },
+      {
+        "title": "MERCANDA EV",
+        "text": "Mercanların içine gömülü, yirmi santime uzayan kireçli bir tüpte yaşıyor."
+      },
+      {
+        "title": "KAPAKLI KAPI",
+        "text": "Tehlikede taçlarını çekip tüpünün kapağını kapatıyor."
+      }
+    ],
+    "en": {
+      "title": "This Worm Has Two Christmas Trees! Can You Name It?",
+      "description": "The Christmas tree worm uses two spiral crowns to catch food and breathe. It lives in a limy tube up to 20 cm long buried in coral and seals it with a lid when danger comes."
+    }
+  }
 }

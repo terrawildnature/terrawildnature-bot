@@ -87,5 +87,26 @@
       "public_domain": false
     }
   ],
-  "caption": "Batı Yeni Gine'nin dağlık ormanlarında yaşayan uzun gagalı ekidna, 16,5 kiloya ulaşabilen yaşayan en büyük monotrem olmasına rağmen yumurta bırakan ve solucanlarla beslenen kritik derecede tehlikedeki bir memeli. 🥚🦔\n\n#terrawildnature #ilginçbilgiler #ekidna\n\n📷 Daniel (CC BY), Кирилл (CC BY) / iNaturalist"
+  "caption": "Batı Yeni Gine'nin dağlık ormanlarında yaşayan uzun gagalı ekidna, 16,5 kiloya ulaşabilen yaşayan en büyük monotrem olmasına rağmen yumurta bırakan ve solucanlarla beslenen kritik derecede tehlikedeki bir memeli. 🥚🦔\n\n#terrawildnature #ilginçbilgiler #ekidna\n\n📷 Daniel (CC BY), Кирилл (CC BY) / iNaturalist",
+  "quiz": {
+    "yt_title": "Memeli Ama Yumurtluyor! Bu Hayvanı Tanıyor musun?",
+    "facts": [
+      {
+        "title": "YUMURTLAYAN MEMELİ",
+        "text": "Memeli olmasına rağmen yumurta bırakıyor."
+      },
+      {
+        "title": "16 KİLOLUK DEV",
+        "text": "On altı buçuk kiloya ulaşan, yaşayan en büyük yumurtlayan memeli."
+      },
+      {
+        "title": "KRİTİK TEHLİKEDE",
+        "text": "Yeni Gine'nin dağ ormanlarında yaşıyor ve kritik derecede tehlikede."
+      }
+    ],
+    "en": {
+      "title": "A Mammal That Lays Eggs! Can You Name This Animal?",
+      "description": "The long-beaked echidna is a mammal that lays eggs. At up to 16.5 kg it is the largest living monotreme, and it lives in the mountain forests of western New Guinea, where it is critically endangered."
+    }
+  }
 }

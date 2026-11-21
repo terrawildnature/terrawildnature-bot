@@ -87,5 +87,26 @@
   ],
   "group": "deniz omurgasızı",
   "hook_style": "sayı",
-  "caption": "Çapı 2 metreyi, ağırlığı 200 kiloyu bulabilen Nomura denizanası, pirinç tanesi kadarken altı ayda bir insanın boyunu aşıyor. 🪼🌊\n\n#terrawildnature #ilginçbilgiler #nomuradenizanası\n\n📷 Janne Hellsten (CC BY 2.0), KENPEI (CC BY-SA 3.0) / Wikimedia Commons"
+  "caption": "Çapı 2 metreyi, ağırlığı 200 kiloyu bulabilen Nomura denizanası, pirinç tanesi kadarken altı ayda bir insanın boyunu aşıyor. 🪼🌊\n\n#terrawildnature #ilginçbilgiler #nomuradenizanası\n\n📷 Janne Hellsten (CC BY 2.0), KENPEI (CC BY-SA 3.0) / Wikimedia Commons",
+  "quiz": {
+    "yt_title": "200 Kilo, Bir İnsandan Büyük! Bu Canlıyı Tanıyor musun?",
+    "facts": [
+      {
+        "title": "200 KİLO",
+        "text": "Çapı iki metreyi, ağırlığı iki yüz kiloyu bulabiliyor."
+      },
+      {
+        "title": "HIZLI BÜYÜME",
+        "text": "Pirinç tanesi kadarken altı ayda iki metreyi aşabiliyor."
+      },
+      {
+        "title": "BALIKÇILARIN DERDİ",
+        "text": "Kitlesel çoğalmaları balıkçılığı olumsuz etkiliyor."
+      }
+    ],
+    "en": {
+      "title": "200 kg and Bigger Than a Human! Can You Name It?",
+      "description": "Nomura's jellyfish can reach 2 m across and 200 kg, growing from the size of a grain of rice to over 2 m in six months. Its mass blooms in the seas between China and Japan harm fisheries."
+    }
+  }
 }

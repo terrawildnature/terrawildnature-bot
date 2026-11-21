@@ -80,5 +80,26 @@
   ],
   "group": "memeli",
   "hook_style": "sayı",
-  "caption": "Antarktika'nın buz altındaki ustası Weddell foku, 600 metreye dalıp bir saate kadar su altında kalabiliyor. 🦭❄️\n\n#terrawildnature #ilginçbilgiler #weddellfoku\n\n📷 Jerzy Strzelecki (CC BY-SA 3.0) / Wikimedia Commons"
+  "caption": "Antarktika'nın buz altındaki ustası Weddell foku, 600 metreye dalıp bir saate kadar su altında kalabiliyor. 🦭❄️\n\n#terrawildnature #ilginçbilgiler #weddellfoku\n\n📷 Jerzy Strzelecki (CC BY-SA 3.0) / Wikimedia Commons",
+  "quiz": {
+    "yt_title": "600 Metreye Dalıp 1 Saat Kalıyor! Bu Hayvan Ne?",
+    "facts": [
+      {
+        "title": "600 METRE DALIŞ",
+        "text": "Altı yüz metreye dalıp bir saate kadar su altında kalabiliyor."
+      },
+      {
+        "title": "SİHİRLİ BIYIKLAR",
+        "text": "Beş yüzden fazla sinir ucu taşıyan bıyıklarıyla karanlıkta avını hissediyor."
+      },
+      {
+        "title": "BUZDA NEFES",
+        "text": "Antarktika buzundaki nefes deliklerini kullanarak yaşıyor."
+      }
+    ],
+    "en": {
+      "title": "Dives 600 m and Stays Down an Hour! What Animal Is It?",
+      "description": "The Weddell seal can dive to 600 m and stay underwater for up to an hour. Its whiskers carry more than 500 nerve endings that sense prey in the dark, and it breathes through holes in the Antarctic ice."
+    }
+  }
 }
