@@ -1,0 +1,26 @@
+{
+  "name": "üç parmaklı tembel hayvan",
+  "group": "memeli",
+  "hook_style": "sayı",
+  "title": [
+    [["BU HAYVAN", "W"]],
+    [["BAŞINI", "W"], ["270 DERECE", "R"]],
+    [["ÇEVİREBİLİYOR", "R"]]
+  ],
+  "card_title": "TEMBEL HAYVAN",
+  "card_top": ["Boynunda yaklaşık 10 omur var,", "başını 270 dereceye çevirir."],
+  "card_bottom": ["Günde 15-18 saat uyur, ağaçta", "baş aşağı asılı kalır. Sekiz günde", "bir yere inip dışkılar."],
+  "right": ["Orta ve Güney Amerika'nın", "yağmur ormanlarında yaşar.", "Tüyünde alg büyür, yeşilimsi", "bir renk verir. Kollarındaki", "pençeler 8 cm'ye ulaşır."],
+  "loc": "Orta ve Güney Amerika",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.62, "cy": 0.5, "zoom": 1.5},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.38, "cy": 0.45, "zoom": 1.3},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.15, "cy": 0.2, "zoom": 2.6}
+  },
+  "credits": [
+    {"use": "cover", "title": "iNaturalist 270318688", "author": "Zygy", "license": "CC0", "public_domain": true},
+    {"use": "top", "title": "iNaturalist 93299426", "author": "Naturalist Tours", "license": "CC0", "public_domain": true},
+    {"use": "inner", "title": "iNaturalist 208720359", "author": "Whaldener Endo", "license": "CC0", "public_domain": true}
+  ],
+  "caption": "Orta ve Güney Amerika ormanlarında ağaçlarda asılı yaşayan kahverengi boğazlı tembel hayvan, boynundaki yaklaşık 10 omur sayesinde başını 270 dereceye kadar çevirebiliyor. 🦥🌿\n\n#terrawildnature #ilginçbilgiler #tembelhayvan"
+}
