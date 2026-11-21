@@ -358,3 +358,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: rapor yeniden okunmadı; kuyruklar dolu olduğu için seçim yapılmadı (önceki bulgular: memeli, deniz omurgasızı, sayı kancası güçlü).
 - Bugün uygulanan: kuyruklar dolu (gönderi 15/15, Reels 9/9, `queue_failed`/`queue_reels_failed` yok); yeni içerik üretilmedi.
 - Sonra kontrol et: paylaşımlar sonrası kuyruk düşünce memeli/deniz omurgasızı + sayı kancasına ağırlık ver; `zz_20261106-01_quokka` Reels'i hâlâ `queue_reels/` içinde duruyor, paylaşılamazsa `queue_reels_failed/` içeriğine bak.
+
+## 2026-11-21 (öğle çalıştırması)
+- Rapordan öğrenilen: gönderide memeli (3,59), deniz omurgasızı (2,95), sayı kancası (2,21) güçlü; Reels'te sayı (1,21) güçlü, gizem (2,29, veri az) umut verici.
+- Bugün uygulanan: Reels 8→9: karaya uluyan maymun (memeli, sayı "2 km", iNat CC0, 76 kelime, Rites). Gönderi 14→15: üç parmaklı tembel hayvan (memeli, sayı "270 derece"; iNat CC0). Dev armadillo (arkadan/yuva fotoğrafları), Franciscana yunusu (iNat'ta hepsi ölü), uluyan maymunda uzaktan çekimler elendi.
+- Sonra kontrol et: memeli + sayı gönderi/Reels içerik değeri. Not: iNat'ta bazı türlerin (Pontoporia) tüm fotoğrafları ölü hayvan; önce kontak sayfası yapıp bak.

@@ -1,0 +1,185 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Rites.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/99667722/original.jpeg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/99667833/original.jpeg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/248483801/original.jpg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/339577066/original.jpeg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/723899139/original.jpg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/723899181/original.jpg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/603280153/original.jpg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/603280302/original.jpg",
+  "p9.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/712274932/original.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu maymunun sesi iki kilometre öteden duyulabiliyor.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.3,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Karaya uluyan maymun, Yeni Dünya'nın en büyük maymunlarından biri.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Boğazındaki büyük hyoid kemiğinin ulumaya yardım ettiği düşünülüyor.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.35,
+   "motion": "zoom_out"
+  },
+  {
+   "text": "Genellikle şafak vakti ulur ve bölgesini ilan eder.",
+   "image": "p4.jpg",
+   "cx": 0.55,
+   "cy": 0.3,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Erkekler yaşlandıkça altın rengi tüylerini kaybedip simsiyah oluyor.",
+   "image": "p5.jpg",
+   "cx": 0.55,
+   "cy": 0.35,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Dişiler ve yavrular ise altın sarısı kalıyor.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Çıplak tabanlı kuyruğu, beşinci bir kol gibi dalları kavrıyor.",
+   "image": "p7.jpg",
+   "cx": 0.78,
+   "cy": 0.4,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Günün yüzde altmış, yetmişini dinlenerek ya da uyuyarak geçiriyor.",
+   "image": "p8.jpg",
+   "cx": 0.4,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.3,
+   "cy": 0.5,
+   "motion": "pan_right"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.5,
+  "cy": 0.56,
+  "title": [
+   [
+    [
+     "BU MAYMUN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "SESİNİ 2 KM",
+     "R"
+    ]
+   ],
+   [
+    [
+     "ÖTEDEN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "DUYULUYOR",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "sayı",
+ "yt_title": "2 Km Öteden Duyulan Ses: Karaya Uluyan Maymun",
+ "en": {
+  "title": "The Monkey Heard From 2 Kilometers Away",
+  "description": "The black howler's powerful howl can be heard up to two kilometers away, and adult males turn from golden to jet black as they age."
+ },
+ "caption": "Güney Amerika'nın uluyan maymunlarından karaya, ulumasıyla iki kilometre öteden duyulabiliyor ve erkekleri yaşlandıkça altın rengi tüylerini kaybedip simsiyah oluyor. 🐒🌳\n\n#terrawildnature #uluyanmaymun\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/99667722/original.jpeg",
+   "author": "Hugo Hulsberg",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/99667833/original.jpeg",
+   "author": "Hugo Hulsberg",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/248483801/original.jpg",
+   "author": "Paulo Mascaretti",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/339577066/original.jpeg",
+   "author": "Diego Carús",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/723899139/original.jpg",
+   "author": "Julia Ariadna",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/723899181/original.jpg",
+   "author": "Julia Ariadna",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/603280153/original.jpg",
+   "author": "Vinicius Cerutti",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/603280302/original.jpg",
+   "author": "Vinicius Cerutti",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/712274932/original.jpg",
+   "author": "Mariana",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "author": "Kevin MacLeod",
+   "license": "CC BY",
+   "use": "music"
+  }
+ ]
+}
