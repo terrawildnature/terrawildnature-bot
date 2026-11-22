@@ -142,7 +142,7 @@ Her gönderi paylaşıldıktan ~1 saat sonra YouTube'a **"Tahmin Et" Short'u** o
 - **yt_title / en.title:** En fazla 60 karakter, merak uyandırsın, **hayvanın adını VERMESİN** (video bir bilmece). `#shorts` ekleme.
 - **facts:** Tam 3 tane, doğrulanmış (bölüm 3), birbirinden farklı, en şaşırtıcıları. `title` büyük harf, en fazla ~24 karakter; `text` seslendirilecek tek kısa cümle (8-16 kelime). Başına "Bir:" gibi numara yazma, araç ekliyor.
 - Hayvanın adını `text` içinde tekrar etme; ad "Cevap:" kısmında zaten söyleniyor.
-- Shorts 10 farklı kurguda sırayla döner (`youtube/tools/short_formats.py`: ipucu, top 3, haber, hayvan kartı, gizli dosya, mesajlaşma, "hangisi yalan"…). `title`'lar ekranda kart/ipucu/kanıt başlığı olarak da görünür: kısa, net ve kendi başına anlaşılır olsun.
+- Shorts 7 farklı kurguda sırayla döner (`youtube/tools/short_formats.py`: tahmin et, ipucu, top 3, netleşiyor, yakından bak, hayvan kartı, "hangisi yalan"). `title`'lar ekranda kart/ipucu/kanıt başlığı olarak da görünür: kısa, net ve kendi başına anlaşılır olsun.
 
 ## 5. Açıklama (caption) stili
 

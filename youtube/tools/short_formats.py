@@ -1,5 +1,5 @@
-"""Nine more YouTube Shorts edits that take turns with quiz_short.py's "Tahmin Et" (owner's request, 2026-11-22:
-not the same kind of Short every day, ten different edits in rotation). All are built from the same Instagram post
+"""More YouTube Shorts edits that take turns with quiz_short.py's "Tahmin Et" (owner's request, 2026-11-22:
+not the same kind of Short every day; FORMATS is the rotation, seven edits after the owner dropped three). All are built from the same Instagram post
 data (name, headline, the three quiz facts with titles, three photos, region, group) and are fully narrated.
 
   ipucu     3 İPUCU: blurred animal sharpens with each spoken clue, then the answer
@@ -30,8 +30,9 @@ import quiz_short as q  # noqa: E402
 from quiz_short import (W, H, FPS, YELLOW, RED, WHITE, BLACK, ANTON, ROBOTO, SAFE_R, font, fit, centred, wrap,  # noqa: E402
                         ease_out, tr_lower, reel)
 
-# rotation order: guessing edits alternate with edits that name the animal up front
-FORMATS = ["tahmin", "ipucu", "top3", "piksel", "haber", "yakindan", "kart", "dosya", "sohbet", "yalan"]
+# rotation order: guessing edits alternate with edits that name the animal up front. haber, dosya and sohbet were
+# taken out of the rotation by the owner (2026-11-22); their code stays for a --format run.
+FORMATS = ["tahmin", "ipucu", "top3", "piksel", "yakindan", "kart", "yalan"]
 GUESS = {"tahmin", "ipucu", "piksel", "yakindan", "dosya"}
 GREEN, GOLD, NAVY = (40, 200, 110), (212, 175, 55), (14, 40, 100)
 MALE = "tr-TR-AhmetNeural"
