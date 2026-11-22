@@ -1,18 +1,18 @@
 {
- "checked": "2026-11-21T15:24+00:00",
+ "checked": "2026-11-22T03:28+00:00",
  "adset_status": "ACTIVE",
- "spend_try": 306.0,
- "reach": 4563,
- "impressions": 5004,
- "frequency": 1.1,
+ "spend_try": 486.99,
+ "reach": 7039,
+ "impressions": 7992,
+ "frequency": 1.14,
  "thruplays": 0,
  "followers": {
   "start": 1342,
-  "now": 1366,
-  "date": "2026-11-21",
+  "now": 1409,
+  "date": "2026-11-22",
   "organic_per_day": 6.8,
-  "gained": 24,
-  "extra_from_ad": 10
+  "gained": 67,
+  "extra_from_ad": 47
  },
- "cost_per_extra_follower": 30.6
+ "cost_per_extra_follower": 10.36
 }
