@@ -1,0 +1,36 @@
+{
+  "name": "kaya antilopu",
+  "group": "memeli",
+  "hook_style": "sayı",
+  "title": [
+    [["BU ANTİLOP", "W"]],
+    [["EŞİNDEN 5 METRE", "R"]],
+    [["UZAĞA GİTMİYOR", "R"]]
+  ],
+  "card_title": "KAYA ANTİLOPU",
+  "card_top": ["Çiftler ömür boyu birlikte kalır,", "çoğu zaman 5 m yakınında durur."],
+  "card_bottom": ["Biri otlarken diğeri nöbet tutar.", "Tehlikede ikisi birlikte ıslık", "çalarak düet yapar."],
+  "right": ["Doğu ve Güney Afrika'nın", "kayalık arazisinde yaşar.", "Küt toynaklarının ucunda yürür.", "Tüyleri boş ve kırılgandır.", "Ağırlığı 8-18 kg arasıdır."],
+  "loc": "Doğu ve Güney Afrika",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.62, "cy": 0.45, "zoom": 1.2},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.34, "cy": 0.3, "zoom": 1.7},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.64, "cy": 0.46, "zoom": 2.6}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Oreotragus oreotragus transvaalensis 21456601.jpg", "author": "Andrew Deacon", "license": "CC0", "public_domain": true},
+    {"use": "top", "title": "File:Maasai klipspringer (Oreotragus oreotragus schillingsi) male Serengeti 2.jpg", "author": "Charles J. Sharp", "license": "CC BY-SA 4.0", "public_domain": false},
+    {"use": "inner", "title": "File:Oreotragus oreotragus ssp. tyleri.jpg", "author": "n_armstrong", "license": "CC0", "public_domain": true}
+  ],
+  "caption": "Afrika'nın kayalık yamaçlarında yaşayan kaya antilopu, ömür boyu sürebilen eşleşmesiyle çiftin yarısı otlarken diğeri nöbet tutuyor ve ikisi birlikte ıslık çalarak düet yapıyor. 🪨🐾\n\n#terrawildnature #ilginçbilgiler #kayaantilopu\n\n📷 Charles J. Sharp (CC BY-SA 4.0) / Wikimedia Commons",
+  "quiz": {
+    "yt_title": "Bu Küçük Antilop Kayalarda Eşiyle Düet Yapıyor",
+    "facts": [
+      {"title": "TOYNAK UCUNDA", "text": "Küt ve silindirik toynaklarının yalnızca ucunda yürüyor."},
+      {"title": "ÖMÜR BOYU EŞ", "text": "Çiftler ömür boyu birlikte kalıyor ve çoğu zaman beş metre yakında duruyor."},
+      {"title": "ISLIK DÜETİ", "text": "Çift tehlikeyi görünce keskin bir ıslıkla düet yapıyor."}
+    ],
+    "en": {"title": "This Tiny Antelope Duets With Its Mate. Name It?",
+           "description": "The klipspringer walks on the tips of its blunt hooves. Pairs can stay together for life, usually within 5 meters of each other, taking turns keeping watch and whistling in duet when danger appears."}
+  }
+}
