@@ -378,3 +378,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: rapor yeniden okunmadı; kuyruklar dolu olduğu için seçim yapılmadı (önceki bulgular: memeli, deniz omurgasızı, sayı kancası güçlü).
 - Bugün uygulanan: kuyruklar dolu (gönderi 15/15, Reels 9/9 + `zz_` quokka, `queue_failed`/`queue_reels_failed` yok); yeni içerik üretilmedi.
 - Sonra kontrol et: paylaşımlar sonrası kuyruk düşünce memeli/deniz omurgasızı + sayı kancasına ağırlık ver; `zz_20261106-01_quokka` hâlâ `queue_reels/` içinde duruyor.
+
+## 2026-11-22 (öğle çalıştırması)
+- Rapordan öğrenilen: gönderide memeli (skor 2,57), sayı kancası (2,08) ve deniz omurgasızı/sürüngen güçlü; kuş, balık, böcek zayıf. Reels'te gizem kancası (3 örnek, içerik 3,40) umut verici.
+- Bugün uygulanan: gönderi için memeli + sayı kancalı kaya antilopu (eşinden 5 m); Reels için kuş/tuhaf yetenek denemesi (gri taçlı turna, ağaçta uyuyan iki turnadan biri).
+- Sonra kontrol et: kaya antilopu gönderisinin memeli/sayı performansı; turna Reels'inin kuş grubunda (ort. skor 1,20) kalıp kalmadığı.

@@ -1,0 +1,166 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Reawakening.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Grey crowned crane (Balearica regulorum gibbericeps) male Arusha.jpg",
+  "p2.jpg": "File:Grey crowned crane (Balearica regulorum), Ngorongoro Conservation Area.jpg",
+  "p3.jpg": "File:Grulla coronada cuelligrís (Balearica regulorum), parque nacional de Tarangire, Tanzania, 2024-05-24, DD 15.jpg",
+  "p4.jpg": "File:Grullas coronadas cuelligrís (Balearica regulorum), parque nacional de Tarangire, Tanzania, 2024-05-24, DD 14.jpg",
+  "p5.jpg": "File:Grey crowned crane (Balearica regulorum gibbericeps) mating display.jpg",
+  "p6.jpg": "File:Grey crowned crane (Balearica regulorum gibbericeps) pair.jpg",
+  "p7.jpg": "File:Grey crowned crane (Balearica regulorum gibbericeps).jpg",
+  "p8.jpg": "File:Balearica regulorum portrait 2.jpg"
+ },
+ "segments": [
+  {
+   "text": "Dünyadaki turnalar arasında ağaç dalında uyuyabilen yalnızca iki tür var.",
+   "image": "p1.jpg",
+   "cx": 0.55,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Biri, başında altın rengi sert tüylerden taç taşıyan gri taçlı turna.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.35,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Uzun arka parmağı sayesinde dalları kavrayabiliyor.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Boyu yaklaşık bir metre, kanat açıklığı ise iki metreyi buluyor.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Boynundaki kırmızı kese şişince gürleyen bir ses çıkarıyor.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.35,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Eşleşme döneminde eğilerek ve zıplayarak dans ediyor.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Uganda'nın ulusal kuşu ve bayrağında yer alıyor, ama nesli tehlikede.",
+   "image": "p7.jpg",
+   "cx": 0.25,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.55,
+  "cy": 0.4,
+  "title": [
+   [
+    [
+     "AĞAÇTA",
+     "R"
+    ]
+   ],
+   [
+    [
+     "UYUYABİLEN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "YALNIZCA 2",
+     "W"
+    ]
+   ],
+   [
+    [
+     "TURNA VAR",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "kuş",
+ "hook_style": "tuhaf yetenek",
+ "yt_title": "Ağaçta Uyuyabilen Turna: Gri Taçlı Turna",
+ "en": {
+  "title": "The Crane That Sleeps in Trees: Grey Crowned Crane",
+  "description": "The grey crowned crane is one of only two crane species that can roost in trees, thanks to a long hind toe that grips branches."
+ },
+ "caption": "Afrika savanlarında yaşayan gri taçlı turna, uzun arka parmağı sayesinde ağaç dalında konaklayabilen yalnızca iki turna türünden biri. 🪶🌍\n\n#terrawildnature #gritaçlıturna\n\n📷 Charles J. Sharp (CC BY-SA 4.0), Diego Delso (CC BY-SA 4.0), Francis C. Franklin (CC BY-SA 3.0) / Wikimedia Commons\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "File:Grey crowned crane (Balearica regulorum gibbericeps) male Arusha.jpg",
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Grey crowned crane (Balearica regulorum), Ngorongoro Conservation Area.jpg",
+   "author": "Hobbyfotowiki",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "File:Grulla coronada cuelligrís (Balearica regulorum), parque nacional de Tarangire, Tanzania, 2024-05-24, DD 15.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Grullas coronadas cuelligrís (Balearica regulorum), parque nacional de Tarangire, Tanzania, 2024-05-24, DD 14.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Grey crowned crane (Balearica regulorum gibbericeps) mating display.jpg",
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Grey crowned crane (Balearica regulorum gibbericeps) pair.jpg",
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Grey crowned crane (Balearica regulorum gibbericeps).jpg",
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Balearica regulorum portrait 2.jpg",
+   "author": "Francis C. Franklin",
+   "license": "CC BY-SA 3.0",
+   "public_domain": false
+  }
+ ]
+}
