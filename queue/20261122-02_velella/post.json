@@ -1,0 +1,36 @@
+{
+  "name": "yelkenli denizanası",
+  "group": "deniz omurgasızı",
+  "hook_style": "sayı",
+  "title": [
+    [["BU CANLI", "W"]],
+    [["7 CM'DEN KÜÇÜK", "R"]],
+    [["YELKEN AÇIYOR", "R"]]
+  ],
+  "card_title": "VELELLA",
+  "card_top": ["Sert yelkeni rüzgârı yakalıyor,", "hayvan okyanusta sürükleniyor."],
+  "card_bottom": ["Aslında tek hayvan değil, bir", "hidroid kolonisi. Kolonilerin", "yelkeni sağa ya da sola yatık."],
+  "right": ["Dünyanın ılık ve ılıman", "okyanuslarında yaşar.", "Rüzgâr yönüne göre sürüklenir.", "Binlercesi kıyıya vurabilir.", "Zehiri insan için hafiftir."],
+  "loc": "Dünya okyanusları",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.5, "cy": 0.42, "zoom": 1.2},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.62, "cy": 0.65, "zoom": 1.6},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.5, "cy": 0.62, "zoom": 1.8}
+  },
+  "credits": [
+    {"use": "cover", "title": "iNaturalist 473577247", "author": "Diego Blanco", "license": "CC0", "public_domain": true},
+    {"use": "top", "title": "iNaturalist 652780592", "author": "Elin Pierce", "license": "CC0", "public_domain": true},
+    {"use": "inner", "title": "iNaturalist 93447593", "author": "Couve", "license": "CC0", "public_domain": true}
+  ],
+  "caption": "Okyanus yüzeyinde sert yelkeniyle rüzgârla sürüklenen velella aslında tek bir hayvan değil, çoğu 7 cm'den küçük bir hidroid kolonisi. ⛵🌊\n\n#terrawildnature #ilginçbilgiler #velella",
+  "quiz": {
+    "yt_title": "Bu Minik Canlı Okyanusta Yelken Açıyor. Adını Biliyor musun?",
+    "facts": [
+      {"title": "YELKENLİ KOLONİ", "text": "Tek hayvan gibi görünüyor ama aslında bir hidroid kolonisi."},
+      {"title": "RÜZGARLA SEYAHAT", "text": "Sert yelkeni rüzgârı yakalıyor ve onu okyanus yüzeyinde sürüklüyor."},
+      {"title": "KIYIYA VURUYOR", "text": "Bazı yıllarda binlercesi plajlara vuruyor ve kıyıda sıra sıra yığılıyor."}
+    ],
+    "en": {"title": "This Tiny Creature Sails Across the Ocean. Name It?",
+           "description": "The by-the-wind sailor looks like a single animal but is a hydroid colony, most less than 7 cm long. Its stiff sail catches the wind, and sometimes thousands are stranded on beaches."}
+  }
+}
