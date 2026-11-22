@@ -1,0 +1,35 @@
+{
+  "name": "zırhlı kuşak kertenkelesi",
+  "group": "sürüngen",
+  "hook_style": "sayı",
+  "title": [
+    [["BU KERTENKELE", "W"]],
+    [["60'A KADAR", "W"], ["GRUPLA", "R"]],
+    [["YAŞIYOR", "R"]]
+  ],
+  "card_title": "ZIRHLI KERTENKELE",
+  "card_top": ["Korkunca kuyruğunu ağzına alıp", "top gibi yuvarlanıyor."],
+  "card_bottom": ["Sırtında kalın, kare pullar,", "kuyruğunda dikenler var.", "Yumurtlamaz, 1-2 yavru doğurur."],
+  "right": ["Güney Afrika'nın batı kıyısındaki", "çöl kayalıklarında yaşar.", "30-60 bireylik gruplar kurar.", "Termit ve böceklerle beslenir.", "Boyu en fazla yaklaşık 20 cm."],
+  "loc": "Güney Afrika",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.55, "cy": 0.5, "zoom": 1.1},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.62, "cy": 0.62, "zoom": 1.4},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.7, "cy": 0.6, "zoom": 2.4}
+  },
+  "credits": [
+    {"use": "cover", "title": "iNaturalist 555564709", "author": "Marius Burger", "license": "CC0", "public_domain": true},
+    {"use": "top", "title": "iNaturalist 162840586", "author": "Marius Burger", "license": "CC0", "public_domain": true}
+  ],
+  "caption": "Güney Afrika'nın çöllerinde yaşayan zırhlı kuşak kertenkelesi, 60'a varabilen gruplar halinde kaya çatlaklarında yaşıyor ve korkunca kuyruğunu ısırıp top gibi yuvarlanıyor. 🦎🌵\n\n#terrawildnature #ilginçbilgiler #zırhlıkuşakkertenkelesi",
+  "quiz": {
+    "yt_title": "Bu Kertenkele Kendini Isırıp Top Oluyor. Adını Biliyor musun?",
+    "facts": [
+      {"title": "KUYRUĞUNU ISIRIYOR", "text": "Korkunca kuyruğunu ağzına alıp zırhlı bir top gibi yuvarlanıyor."},
+      {"title": "YUMURTLAMIYOR", "text": "Çoğu kertenkelenin aksine bir ya da iki canlı yavru doğuruyor."},
+      {"title": "KALABALIK AİLE", "text": "Kaya çatlaklarında otuz ile altmış bireylik gruplar halinde yaşıyor."}
+    ],
+    "en": {"title": "This Lizard Bites Its Tail and Rolls Into a Ball",
+           "description": "The armadillo girdled lizard rolls into a ball and grips its tail in its mouth when frightened. Unlike most lizards it gives birth to one or two live young, and it lives in rock crevices in groups of 30 to 60."}
+  }
+}
