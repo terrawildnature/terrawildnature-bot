@@ -388,3 +388,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli (2,57), sayı kancası (2,08), deniz omurgasızı (1,82), sürüngen (1,77) güçlü; kuş/böcek/balık/amfibi zayıf. Reels'te gizem (3 örnek, içerik 3,40) umut verici, kuş (1,20) ortalama.
 - Bugün uygulanan: Gönderiler 13→15: zırhlı kuşak kertenkelesi (sürüngen, sayı "60'a kadar grup"; iNat CC0) ve velella (deniz omurgasızı, sayı "7 cm'den küçük"; iNat CC0). Reels 8→9: yeşil anakonda (sürüngen, süperlatif, Shamanistic, 79 kelime; Commons CC BY/CC0). Argonauta'nın iNat fotoğrafları kabuk/elde tutulan olduğu için elendi.
 - Sonra kontrol et: velella ve kertenkele gönderilerinin içerik değeri; anakonda Reels'inde süperlatif kancanın izlenme süresi. Not: son gönderilerde memeli çoktu (5/6), memeli ağırlığı dengelenebilir.
+
+## 2026-11-23 (gece çalıştırması)
+- Rapordan öğrenilen: benzetme kancası (1,55) ve deniz omurgasızı (1,82) güçlü; memeli (2,57) en güçlü ama son kuyrukta memeli çoktu.
+- Bugün uygulanan: Gönderi 14→15: mavi ejderha deniz salyangozu (deniz omurgasızı, benzetme kancası; iNat CC BY/CC BY-SA + Commons PD). Dev armadillo ve Pteraeolidia PD fotoğrafları (arkadan/sönük) yüzünden elendi. Reels 9/9 dolu.
+- Sonra kontrol et: benzetme kancalı nudibranch gönderisinin içerik değeri.

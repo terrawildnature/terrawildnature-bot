@@ -1,0 +1,108 @@
+{
+  "name": "mavi ejderha deniz salyangozu",
+  "group": "deniz omurgasızı",
+  "hook_style": "benzetme",
+  "title": [
+    [
+      [
+        "BU DENİZ SALYANGOZU",
+        "W"
+      ]
+    ],
+    [
+      [
+        "ÇİN EJDERHASINA",
+        "W"
+      ]
+    ],
+    [
+      [
+        "BENZİYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "MAVİ EJDERHA",
+  "card_top": [
+    "Dalgıçlar ona Çin ejderhasına",
+    "benzediği için ejderha diyor."
+  ],
+  "card_bottom": [
+    "Avından aldığı algler vücudunda",
+    "fotosentez yapıp ona şeker",
+    "sağlıyor. İnsana acı bir iğne sokar."
+  ],
+  "right": [
+    "Doğu Avustralya kıyılarında",
+    "yaşar. Boyu 20 cm'ye kadar",
+    "uzar. Hidroid yiyerek",
+    "algleri vücuduna depolar.",
+    "Yavrular tamamen beyazdır."
+  ],
+  "loc": "Doğu Avustralya",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "zoom": 1.0
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.6,
+      "cy": 0.55,
+      "zoom": 1.0
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.55,
+      "cy": 0.45,
+      "zoom": 1.0
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "iNaturalist 102025344",
+      "author": "Joanna Chen",
+      "license": "CC BY-SA",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "iNaturalist 109706021",
+      "author": "libby hepburn",
+      "license": "CC BY",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Pteraeolidia ianthina 2.jpg",
+      "author": "David Burdick",
+      "license": "Public domain",
+      "public_domain": true
+    }
+  ],
+  "caption": "Doğu Avustralya'da yaşayan ve Çin ejderhasına benzetilen mavi ejderha deniz salyangozu, avladığı hidroidlerdeki alglerin vücudunda fotosentez yapmasıyla şeker üretip besleniyor. 🐉🌊\n\n#terrawildnature #ilginçbilgiler #maviejderha\n\n📷 Joanna Chen (CC BY-SA), libby hepburn (CC BY) / iNaturalist",
+  "quiz": {
+    "yt_title": "Bu Deniz Canlısı Bir Ejderhaya Benziyor. Adını Biliyor musun?",
+    "facts": [
+      {
+        "title": "EJDERHA BENZERİ",
+        "text": "Doğu Avustralyalı dalgıçlar ona Çin ejderhasına benzediği için ejderha diyor."
+      },
+      {
+        "title": "GÜNEŞLE BESLENİYOR",
+        "text": "Vücudundaki algler fotosentez yaparak ona yetecek kadar şeker üretiyor."
+      },
+      {
+        "title": "ACI BİR İĞNE",
+        "text": "İnsana acı veren bir iğne sokabiliyor ve boyu yirmi santimetreye uzuyor."
+      }
+    ],
+    "en": {
+      "title": "This Sea Slug Looks Like a Dragon. Can You Name It?",
+      "description": "The blue dragon sea slug of eastern Australia is named for its resemblance to a Chinese dragon. Algae stored in its body photosynthesize sugars that can sustain it, and it can deliver a painful sting to humans."
+    }
+  }
+}
