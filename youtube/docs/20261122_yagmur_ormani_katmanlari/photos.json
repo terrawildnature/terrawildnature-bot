@@ -1,0 +1,579 @@
+{
+ "02": [
+  {
+   "file": "02_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/129306194/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "John Abrams"
+  },
+  {
+   "file": "02_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/5908076/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Vijay Barve"
+  },
+  {
+   "file": "02_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/457101357/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "portioid"
+  }
+ ],
+ "03": [
+  {
+   "file": "03_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/81367802/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Marius Burger"
+  },
+  {
+   "file": "03_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/15695713/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Nick Schaller"
+  },
+  {
+   "file": "03_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/15695715/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Nick Schaller"
+  }
+ ],
+ "04": [
+  {
+   "file": "04_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/289851708/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Forest Botial-Jarvis"
+  },
+  {
+   "file": "04_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/289851693/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Forest Botial-Jarvis"
+  },
+  {
+   "file": "04_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/102413581/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Christoph Moning"
+  }
+ ],
+ "05": [
+  {
+   "file": "05_0.jpg",
+   "src": "File:Saint-Aignan (Loir-et-Cher). Okapi.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 2.0",
+   "author": "Daniel Jolivet"
+  },
+  {
+   "file": "05_1.jpg",
+   "src": "File:Okapi (okapia johnstoni), Doué-la-Fontaine.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Melvin TOULLEC"
+  },
+  {
+   "file": "05_2.jpg",
+   "src": "File:Okapi (Okapia johnstoni) - tête.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Gzen92"
+  }
+ ],
+ "06": [
+  {
+   "file": "06_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/351378403/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "James Eaton"
+  },
+  {
+   "file": "06_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/351378417/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "James Eaton"
+  }
+ ],
+ "07": [
+  {
+   "file": "07_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/203417373/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Jay Pruett"
+  },
+  {
+   "file": "07_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/204789578/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Whaldener Endo"
+  },
+  {
+   "file": "07_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/540611524/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Rosario Douglas"
+  }
+ ],
+ "08": [
+  {
+   "file": "08_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/551119323/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "TheMongrelKoi"
+  },
+  {
+   "file": "08_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/48814605/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Millie Basden"
+  },
+  {
+   "file": "08_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/348193892/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "djcooker"
+  }
+ ],
+ "11": [
+  {
+   "file": "11_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/747969745/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "caseyhh"
+  },
+  {
+   "file": "11_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/225747/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Scott Loarie"
+  },
+  {
+   "file": "11_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/390362211/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Dean Hester"
+  }
+ ],
+ "12": [
+  {
+   "file": "12_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/12593068/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Dan Fitzgerald (Fitz)"
+  },
+  {
+   "file": "12_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/603255257/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Jean-Paul Boerekamps"
+  },
+  {
+   "file": "12_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/112291202/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Amanda Montanhini"
+  }
+ ],
+ "13": [
+  {
+   "file": "13_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/60123702/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Dan MacNeal"
+  },
+  {
+   "file": "13_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/561401628/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Cricket Raspet"
+  },
+  {
+   "file": "13_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/563445321/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Jeffry Cubero"
+  }
+ ],
+ "15": [
+  {
+   "file": "15_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/544317503/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Ian Dugdale"
+  },
+  {
+   "file": "15_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/544317531/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Ian Dugdale"
+  },
+  {
+   "file": "15_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/544317516/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Ian Dugdale"
+  }
+ ],
+ "17": [
+  {
+   "file": "17_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/249447353/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Whaldener Endo"
+  },
+  {
+   "file": "17_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/186911113/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Lennart Hudel"
+  },
+  {
+   "file": "17_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/58592502/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Tom Heijnen"
+  }
+ ],
+ "18": [
+  {
+   "file": "18_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/617138943/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Лариса Артемьева"
+  },
+  {
+   "file": "18_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/138976305/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Bernard DUPONT"
+  },
+  {
+   "file": "18_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/371184016/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Samuel GUIRAUDOU"
+  }
+ ],
+ "19": [
+  {
+   "file": "19_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/291957240/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY SA",
+   "author": "FGK"
+  },
+  {
+   "file": "19_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/291957255/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY SA",
+   "author": "FGK"
+  },
+  {
+   "file": "19_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/414515850/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Aiken Lau"
+  }
+ ],
+ "20": [
+  {
+   "file": "20_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/620142306/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "drtimk"
+  },
+  {
+   "file": "20_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/408081915/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Justin Philbois"
+  },
+  {
+   "file": "20_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/747292472/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Ben Keen"
+  }
+ ],
+ "23": [
+  {
+   "file": "23_0.jpg",
+   "src": "File:Green iguana in Costa Rica 01.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC0",
+   "author": "Bernard Gagnon"
+  },
+  {
+   "file": "23_1.jpg",
+   "src": "File:Green iguana in Costa Rica 02.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC0",
+   "author": "Bernard Gagnon"
+  }
+ ],
+ "24": [
+  {
+   "file": "24_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/351357445/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Don Wellmann"
+  },
+  {
+   "file": "24_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/30116374/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Étienne Lacroix-Carignan"
+  },
+  {
+   "file": "24_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/614219889/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Bud Lensing"
+  }
+ ],
+ "25": [
+  {
+   "file": "25_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/216610095/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "relet"
+  },
+  {
+   "file": "25_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/523724489/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Steph Brulot-Sawchyn"
+  },
+  {
+   "file": "25_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/210986461/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "relet"
+  }
+ ],
+ "26": [
+  {
+   "file": "26_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/636082846/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Лариса Артемьева"
+  },
+  {
+   "file": "26_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/669807/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Scott Loarie"
+  },
+  {
+   "file": "26_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/263215258/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Katrina Mccollough"
+  }
+ ],
+ "27": [
+  {
+   "file": "27_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/651387858/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Светлана Царахова"
+  },
+  {
+   "file": "27_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/651959542/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Светлана Царахова"
+  },
+  {
+   "file": "27_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/109597147/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "laiet17"
+  }
+ ],
+ "28": [
+  {
+   "file": "28_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/408517674/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Forest Botial-Jarvis"
+  },
+  {
+   "file": "28_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/450021830/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Chrissy McClarren and Andy Reago"
+  },
+  {
+   "file": "28_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/467568183/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Adrien Jailloux"
+  }
+ ],
+ "29": [
+  {
+   "file": "29_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/513385161/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Carman Chew"
+  },
+  {
+   "file": "29_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/451491549/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Andrew Holle"
+  },
+  {
+   "file": "29_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/451787124/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "James Eaton"
+  }
+ ],
+ "30": [
+  {
+   "file": "30_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/70131249/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Lee Ismail"
+  },
+  {
+   "file": "30_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/549217918/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "René Heinrich"
+  }
+ ],
+ "31": [
+  {
+   "file": "31_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/187836778/original.png",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Ben Keen"
+  },
+  {
+   "file": "31_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/107618666/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Jake Rehage"
+  },
+  {
+   "file": "31_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/216612475/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "relet"
+  }
+ ],
+ "33": [
+  {
+   "file": "33_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/447085421/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Christoph Moning"
+  },
+  {
+   "file": "33_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/289596647/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Hugo Hulsberg"
+  },
+  {
+   "file": "33_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/447084921/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Christoph Moning"
+  }
+ ],
+ "34": [
+  {
+   "file": "34_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/103721770/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Dave Brown"
+  },
+  {
+   "file": "34_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/620054128/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Anna Stalcup"
+  },
+  {
+   "file": "34_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/620053877/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Anna Stalcup"
+  }
+ ]
+}

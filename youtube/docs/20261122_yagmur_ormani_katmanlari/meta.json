@@ -1,0 +1,15 @@
+{
+ "title": "Yağmur Ormanının Her Katında Başka Hayvanlar Yaşıyor",
+ "description": "Karanlık orman tabanından bilinen en uzun tropikal ağacın 100 metrelik tepesine ipe tutunarak tırmanıyor, yağmur ormanının dört katmanında yaşayan yirmi altı hayvanla tanışıyoruz. Mantar yetiştiren yaprak kesici karıncalar, zürafanın gizli akrabası okapi, en uzun zehir dişlerine sahip Gabon engereği, yumurtalarını gece gündüz bekleyen cam kurbağası, kaburgalarını açarak süzülen uçan yılan, her gece yatak yapan orangutan ve dünyanın en büyük pençeli kartalı harpi kartalı bu belgeselde. Ekrandaki orman kesitinde tırmanıcıyı takip edin; tanıştığımız her hayvan yaşadığı yüksekliğe yerleşiyor.",
+ "sources": "İngilizce Wikipedia (tür sayfaları, Tropical rainforest, Emergent layer, Menara (tree), Ceiba pentandra, Galata Tower, Big Ben, Blue whale, Diving (sport), Leafcutter ant, Glass frog, Morpho, Draco, Chrysopelea, Orangutan, Howler monkey) ve ilgili bilimsel yayınlar.",
+ "hashtags": ["#belgesel", "#hayvanlar", "#vahşiyaşam", "#yağmurormanı", "#terrawildnature"],
+ "tags": ["belgesel", "hayvan belgeseli", "yağmur ormanı", "yağmur ormanı hayvanları", "amazon hayvanları", "tropikal orman", "orangutan", "jaguar", "okapi", "harpi kartalı", "cam kurbağası", "zehirli ok kurbağası", "uçan yılan", "tukan", "vahşi yaşam", "türkçe belgesel", "doğa belgeseli"],
+ "thumb": {"lines": ["100 METRE", "YUKARIDA", "KİM YAŞIYOR?"], "photo": "24_0", "cx": 0.45, "cy": 0.45, "zoom": 1.0, "bar_labels": ["TABAN", "ZİRVE"]},
+ "story": {"lines": ["YAĞMUR", "ORMANININ", "KATLARI"], "info": "0 → 100,8 m · 4 katman · 26 canlı"},
+ "teaser": {"seg": 5, "title": "Bacakları Zebra Gibi Ama Zürafanın Akrabası: Okapi"},
+ "en": {
+  "title": "Every Layer of the Rainforest Hides Different Animals",
+  "description": "Holding on to a rope, we climb from the dark forest floor to the 100-metre top of the tallest known tropical tree and meet 26 animals living in the four layers of the rainforest. Fungus-farming leafcutter ants, the okapi (the giraffe's secret relative), the Gaboon viper with the longest fangs, a glass frog guarding its eggs day and night, a snake that glides by spreading its ribs, orangutans that build a new bed every night and the harpy eagle with the largest talons of any eagle all feature in this documentary. Follow the climber on the on-screen forest cross-section; every animal we meet takes its place at the height where it lives.",
+  "sources": "English Wikipedia (species pages, Tropical rainforest, Emergent layer, Menara (tree), Ceiba pentandra, Galata Tower, Big Ben, Blue whale, Diving (sport), Leafcutter ant, Glass frog, Morpho, Draco, Chrysopelea, Orangutan, Howler monkey) and related scientific publications."
+ }
+}

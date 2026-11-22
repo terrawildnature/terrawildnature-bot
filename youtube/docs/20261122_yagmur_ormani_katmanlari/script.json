@@ -1,0 +1,555 @@
+{
+ "title": "YAĞMUR ORMANININ KATLARI",
+ "subtitle": "Orman tabanından 100 metrelik ağacın tepesine",
+ "mechanic": "canopy_climb",
+ "journey": {
+  "meter": false,
+  "label": "YÜKSEKLİK",
+  "unit": "m",
+  "max": 101,
+  "direction": "up",
+  "zones": [
+   [
+    0,
+    2,
+    "ORMAN TABANI"
+   ],
+   [
+    2,
+    30,
+    "ALT KAT"
+   ],
+   [
+    30,
+    45,
+    "TAÇ KATMANI"
+   ],
+   [
+    45,
+    101,
+    "YÜKSELEN KAT"
+   ]
+  ],
+  "zone_colors": [
+   [
+    150,
+    105,
+    60
+   ],
+   [
+    70,
+    150,
+    80
+   ],
+   [
+    60,
+    200,
+    90
+   ],
+   [
+    120,
+    200,
+    255
+   ]
+  ],
+  "stats": [],
+  "range_label": "KATMAN",
+  "palette": [
+   [
+    0,
+    [
+     22,
+     40,
+     24
+    ]
+   ],
+   [
+    101,
+    [
+     40,
+     90,
+     60
+    ]
+   ]
+  ],
+  "rays": 0,
+  "particles": null,
+  "glow": null,
+  "card": [
+   40,
+   96,
+   1232,
+   693
+  ],
+  "sub_cx": 656,
+  "music": [
+   "Lost_Frontier.mp3",
+   "Call_to_Adventure.mp3"
+  ]
+ },
+ "intro_photos": [
+  "27_0",
+  "08_0",
+  "24_0",
+  "31_0"
+ ],
+ "segments": [
+  {
+   "type": "intro",
+   "depth": 0,
+   "text": "Yağmur ormanları yeryüzünün en kalabalık evleridir. Bilinen canlı türlerinin yüzde kırkı ile yüzde yetmiş beşi arasındaki bir bölümü bu ormanlarda yaşar. Tek bir hektarlık alanda kırk iki bin farklı böcek türü bulunabilir. Ama bu kalabalık, tıpkı bir apartman gibi katlara ayrılmıştır ve her katın kendi sakinleri vardır. Bugün bir tırmanıcıyla birlikte ipe tutunup karanlık orman tabanından bilinen en uzun tropikal ağacın tepesine, yüz metrenin üzerine tırmanacağız. Yol boyunca dört katmandan geçecek ve yirmi altı canlıyla tanışacağız. Ekranın sağındaki orman kesitini takip edin. Turuncu kasklı tırmanıcı bulunduğumuz yüksekliği gösteriyor. Tanıştığımız her hayvan da kesitte, yaşadığı yüksekliğe yerleşecek. Tırmanış başlıyor.",
+   "text_en": "Rainforests are the most crowded homes on Earth. Somewhere between 40 and 75 percent of all known species live in them. A single hectare can hold 42,000 different species of insect. But this crowd is divided into floors, just like an apartment block, and every floor has its own residents. Today, holding on to a rope with a climber, we will climb from the dark forest floor to the top of the tallest known tropical tree, more than 100 metres up. On the way we will pass through four layers and meet 26 animals. Follow the cross-section of the forest on the right of the screen. The climber in the orange helmet shows our height. Every animal we meet will take its place on the cross-section, at the height where it lives. The climb begins."
+  },
+  {
+   "type": "zone",
+   "depth": 0,
+   "name": "ORMAN TABANI",
+   "name_en": "FOREST FLOOR",
+   "range": "0 – 2 metre",
+   "range_en": "0 – 2 m",
+   "light": "%2",
+   "text": "İlk durağımız orman tabanı. Burası ormanın en karanlık katı. Yukarıdaki yaprak örtüsünden süzülen güneş ışığının yalnızca yüzde ikisi buraya ulaşır. Bu yüzden nehir kıyıları, bataklıklar ve açıklıklar dışında zemin şaşırtıcı derecede boştur ve büyük hayvanlar rahatça dolaşabilir. Yere düşen yapraklar, meyveler ve ölü hayvanlar sıcak ve nemli havada çok hızlı çürür. Ağaçların dev payanda kökleri ise derine inmek yerine yüzeye yayılır ve zayıf topraktaki besinleri hızla yakalar.",
+   "text_en": "Our first stop is the forest floor, the darkest layer of the forest. Only 2 percent of the sunlight filtering through the leaves above reaches it. That is why, away from riverbanks, swamps and clearings, the ground is surprisingly open and large animals can move about easily. Fallen leaves, fruit and dead animals decay very quickly in the warm, humid air. The giant buttress roots of the trees spread out along the surface instead of going deep, quickly catching the nutrients in the poor soil."
+  },
+  {
+   "type": "creature",
+   "depth": 0.0,
+   "name": "Yaprak kesici karınca",
+   "short": "Yaprak kesici",
+   "name_en": "Leafcutter ant",
+   "latin": "Atta cephalotes",
+   "range": "Orman tabanı",
+   "range_en": "Forest floor",
+   "text": "Orman tabanında ilk gözümüze çarpan şey yürüyen yapraklar. Aslında bunlar, kendi vücut ağırlığının elli katına kadar yük taşıyabilen yaprak kesici karıncalar. Ama bu yaprakları yemiyorlar. Onları yer altındaki yuvalarına taşıyıp bir mantar bahçesini besliyorlar ve o mantarla besleniyorlar. Bu karıncalar mantarlarını on beş milyon yıl önce evcilleştirmiş, yani insanlardan çok önce tarıma başlamış çiftçiler. Bir koloni beş milyon bireye ulaşabilir ve tek bir kraliçe yirmi yıldan uzun yaşayabilir.",
+   "text_en": "The first thing that catches our eye on the forest floor is walking leaves. In fact they are leafcutter ants, which can carry loads of up to 50 times their own body weight. But they do not eat these leaves. They carry them to their underground nests to feed a fungus garden, and they eat the fungus. These ants domesticated their fungus 15 million years ago: farmers that took up agriculture long before humans. A colony can reach 5 million members, and a single queen can live for more than 20 years."
+  },
+  {
+   "type": "creature",
+   "depth": 0.2,
+   "name": "Gabon engereği",
+   "short": "Gabon engereği",
+   "name_en": "Gaboon viper",
+   "latin": "Bitis gabonica",
+   "range": "Orman tabanı",
+   "range_en": "Forest floor",
+   "text": "Ölü yaprakların arasında kıpırdamadan yatan bu desen, Afrika'nın yağmur ormanlarındaki en tehlikeli yılanlardan birine ait: Gabon engereği. Bütün zehirli yılanlar arasında en uzun zehir dişleri ondadır; dişleri beş buçuk santimetreye ulaşabilir. Zehir bezleri çok büyüktür ve tek bir ısırıkta akıttığı zehir miktarı yılanlar arasında en yüksekler arasındadır. Şaşırtıcı biçimde son derece sakin bir yılandır, nadiren tıslar ya da ısırır. On bir kilogramı aşan örnekleri kaydedilmiştir ve Afrika'nın en ağır zehirli yılanıdır.",
+   "text_en": "This pattern lying motionless among the dead leaves belongs to one of the most dangerous snakes of Africa's rainforests: the Gaboon viper. It has the longest fangs of any venomous snake, reaching 5.5 centimetres. Its venom glands are enormous, and the amount of venom it delivers in a single bite is among the highest of any snake. Surprisingly, it is an extremely placid snake that rarely hisses or bites. Specimens of more than 11 kilograms have been recorded, and it is the heaviest venomous snake in Africa."
+  },
+  {
+   "type": "creature",
+   "depth": 0.4,
+   "name": "Büyük argus",
+   "short": "Büyük argus",
+   "name_en": "Great argus",
+   "latin": "Argusianus argus",
+   "range": "Orman tabanı",
+   "range_en": "Forest floor",
+   "text": "Şimdi Güneydoğu Asya'nın ormanlarındayız. Borneo, Sumatra ve Malay Yarımadası'nda yaşayan büyük argus, dünyanın en büyük sülünlerinden biridir. Erkeğin boyu kuyruğuyla birlikte iki metreye ulaşır ve kuyruğu tek başına bir metreyi geçebilir. Asıl sırrı ise kanatlarında saklı. Erkek ormanda bir alanı temizleyerek kendine bir dans pisti hazırlar ve yüksek sesle öterek dişileri çağırır. Dişi geldiğinde kanatlarını iki dev yelpaze gibi açar ve üzerindeki yüzlerce göz benzeri deseni sergiler. Bu sırada başı, yelpazenin arkasında gizlenir. Bu gösterişli dansa rağmen büyük argusun tek eşli olduğu anlaşılmıştır ve dişi yalnızca iki yumurta yumurtlar.",
+   "text_en": "Now we are in the forests of Southeast Asia. The great argus, which lives in Borneo, Sumatra and the Malay Peninsula, is one of the largest pheasants in the world. The male reaches 2 metres in length including the tail, and the tail alone can exceed 1 metre. Its real secret lies in its wings. The male clears a spot in the forest to make a dancing ground and calls loudly to attract females. When a female arrives, he spreads his wings like two enormous fans, revealing hundreds of eye-like markings. Meanwhile his head stays hidden behind the fan. Despite this showy dance, the great argus has turned out to be monogamous, and the female lays only two eggs."
+  },
+  {
+   "type": "creature",
+   "depth": 0.8,
+   "name": "Okapi",
+   "short": "Okapi",
+   "name_en": "Okapi",
+   "latin": "Okapia johnstoni",
+   "range": "Orman tabanı",
+   "range_en": "Forest floor",
+   "text": "Bacakları zebraya benziyor ama en yakın akrabası zürafa. Okapi ve zürafa, zürafagiller ailesinin yaşayan tek iki üyesidir. Kongo Demokratik Cumhuriyeti'nin kuzeydoğusundaki ormanlarda yaşayan bu hayvanı Avrupalılar yirminci yüzyıla kadar tanımıyordu ve uzun süre Afrika tekboynuzu diye anlatıldı. Kırk altı santimetrelik dili o kadar uzundur ki onunla gözlerini ve kulaklarını temizleyebilir. Ituri ormanında yalnızca alt kat bitkileriyle beslenen bilinen tek memelidir ve yüzden fazla bitki türünü yer. Yavrular hayatlarının ilk bir iki ayında hiç dışkılamaz; bunun yırtıcılardan saklanmalarına yardım ettiği düşünülüyor.",
+   "text_en": "Its legs look like a zebra's, but its closest relative is the giraffe. The okapi and the giraffe are the only two living members of the giraffe family. Europeans did not know this animal of the forests of the northeastern Democratic Republic of the Congo until the 20th century, and for a long time it was spoken of as the African unicorn. Its 46 centimetre tongue is so long that it uses it to clean its eyes and ears. In the Ituri Forest it is the only known mammal that feeds solely on understory plants, eating more than 100 plant species. Calves do not defecate at all in their first month or two, which is thought to help them hide from predators."
+  },
+  {
+   "type": "creature",
+   "depth": 1.0,
+   "name": "Malaya tapiri",
+   "short": "Malaya tapiri",
+   "name_en": "Malayan tapir",
+   "latin": "Tapirus indicus",
+   "range": "Orman tabanı",
+   "range_en": "Forest floor",
+   "text": "Siyah beyaz renkleriyle sanki ikiye boyanmış gibi görünen bu hayvan Malaya tapiri. Amerika kıtası dışında yaşayan tek tapir türüdür ve dört tapir türünün en büyüğüdür. Boyu iki buçuk metreye, ağırlığı genellikle üç yüz yirmi kilograma ulaşır; bazı yetişkinler beş yüz kırk kilogramı bulabilir. Burnu ve üst dudağı birleşerek kısa, esnek bir hortuma dönüşmüştür. Ormanda yavaşça dolaşır, sık sık durup diğer tapirlerin bıraktığı kokuları koklar ve yüz on beşten fazla bitki türünün taze sürgün ve yapraklarıyla beslenir. Yavrular kahverengi bir post üzerinde beyaz çizgiler ve beneklerle doğar. Bu desen, ormanın benekli ışığında saklanmalarına yardım eder.",
+   "text_en": "With its black and white colours, this animal looks as if it was painted in two halves: the Malayan tapir. It is the only tapir species living outside the Americas and the largest of the four tapir species. It grows to 2.5 metres long and usually weighs up to 320 kilograms, though some adults reach 540 kilograms. Its nose and upper lip are fused into a short, flexible proboscis. It moves slowly through the forest, often stopping to sniff the scents left by other tapirs, and feeds on the tender shoots and leaves of more than 115 plant species. Calves are born with white stripes and spots on a brown coat, a pattern that helps them hide in the dappled light of the forest."
+  },
+  {
+   "type": "creature",
+   "depth": 1.2,
+   "name": "Yeşil anakonda",
+   "short": "Anakonda",
+   "name_en": "Green anaconda",
+   "latin": "Eunectes murinus",
+   "range": "Orman tabanı ve sular",
+   "range_en": "Forest floor and waters",
+   "text": "Orman tabanının sularında dünyanın en ağır yılanı dolaşıyor: yeşil anakonda. Güney Amerika'nın tropikal yağmur ormanlarında yaşar ve yavaş akan dereleri, nehirleri ve su basan çayırları sever. Kaydedilen en uzun örnekler altı metre otuz iki santimetreye ulaşır ve dişiler erkeklerden çok daha iridir. Ağ desenli pitondan biraz kısa olsa da çok daha hantaldır: beş metrelik bir anakonda, yedi buçuk metrelik bir pitonla aynı iriliktedir. Gözleri başının üst kısmındadır; böylece vücudu suyun altındayken bile etrafı görebilir. Zehirsizdir ve avını sararak sıkar. Çene kemikleri esnek bağlarla bağlı olduğu için başından büyük avları yutabilir.",
+   "text_en": "In the waters of the forest floor lives the heaviest snake in the world: the green anaconda. It lives in the tropical rainforests of South America and favours slow-moving streams, rivers and flooded grasslands. The longest recorded specimens reach 6.32 metres, and females are much larger than males. Although slightly shorter than the reticulated python, it is far bulkier: a 5 metre anaconda is as bulky as a 7.5 metre python. Its eyes are set high on its head, so it can look around while its body stays under water. It is not venomous; it kills by constriction. Because its jaw bones are joined by flexible ligaments, it can swallow prey larger than its head."
+  },
+  {
+   "type": "creature",
+   "depth": 1.5,
+   "name": "Jaguar",
+   "short": "Jaguar",
+   "name_en": "Jaguar",
+   "latin": "Panthera onca",
+   "range": "Orman tabanı",
+   "range_en": "Forest floor",
+   "text": "Orman tabanının en güçlü avcısı jaguar. Pantera cinsinin Amerika kıtasında yaşayan tek üyesidir ve kıtanın en büyük kedisidir. Kedigiller arasında kaplan ve aslandan sonra en güçlü üçüncü ısırığa sahiptir. Bu ısırık ona alışılmadık bir avlanma yöntemi kazandırır: memeli avlarının kafatasını iki kulağının arasından delerek doğrudan beyne ulaşır. Aynı güç, kaplumbağaların sert kabuklarını delmesine de yeter. Jaguar usta bir yüzücüdür; suda oynar ve avlanır, muhtemelen kaplanlardan bile daha fazla. Yaşam alanı kaybı ve kaçak avcılık yüzünden neredeyse tehdit altındaki türler arasında sayılıyor.",
+   "text_en": "The most powerful hunter of the forest floor is the jaguar. It is the only member of the genus Panthera living in the Americas and the biggest cat on the continent. Among cats it has the third strongest bite, after the tiger and the lion. This bite gives it an unusual way of killing: it bites directly through the skull of mammal prey between the ears to reach the brain. The same power lets it pierce the hard shells of turtles. The jaguar is an excellent swimmer; it plays and hunts in the water, possibly more than tigers do. Because of habitat loss and poaching it is listed as Near Threatened."
+  },
+  {
+   "type": "zone",
+   "depth": 2,
+   "name": "ALT KAT",
+   "name_en": "UNDERSTORY",
+   "range": "2 – 30 metre",
+   "range_en": "2 – 30 m",
+   "light": "%5",
+   "text": "Şimdi orman tabanından ayrılıp alt kata tırmanıyoruz. Bu kat, orman tabanı ile tepedeki yaprak çatısı arasında kalan loş bir dünya. Güneş ışığının yalnızca yüzde beşi buraya kadar inebiliyor. Bu kadar az ışığa uyum sağlayan alt kat bitkilerinin yaprakları genellikle çok büyüktür. Gerçek alt kat bitkileri nadiren üç metreyi geçer. Taç katmanına ulaşacak genç ağaçlar ise burada, bir ağacın devrilip bir açıklık oluşmasını bekler.",
+   "text_en": "Now we leave the forest floor and climb into the understory. This layer is a dim world between the forest floor and the roof of leaves above. Only 5 percent of the sunlight gets down this far. Understory plants, adapted to so little light, often have very large leaves. True understory plants seldom grow taller than 3 metres. The young trees that will one day reach the canopy wait here for a tree to fall and open a gap."
+  },
+  {
+   "type": "landmark",
+   "depth": 3.05,
+   "name": "Basketbol potası",
+   "name_en": "Basketball hoop",
+   "value": "3,05 m",
+   "value_en": "3.05 m",
+   "tag": "BOY KIYASI",
+   "text": "Basketbol potasının çemberi yerden tam üç metre beş santimetre yukarıdadır. Gerçek alt kat bitkileri bu yüksekliği bile nadiren geçer. Ama bizim tırmanışımız daha yeni başlıyor.",
+   "text_en": "The rim of a basketball hoop sits exactly 3.05 metres above the floor. True understory plants seldom grow even this tall. But our climb has only just begun."
+  },
+  {
+   "type": "creature",
+   "depth": 4,
+   "name": "Çilek zehirli ok kurbağası",
+   "short": "Çilek kurbağası",
+   "name_en": "Strawberry poison frog",
+   "latin": "Oophaga pumilio",
+   "range": "Orman tabanı ve alt kat",
+   "range_en": "Forest floor and understory",
+   "text": "Yaprakların üzerinde parlayan bu minik kırmızı kurbağa, çilek zehirli ok kurbağası. Boyu yalnızca iki santimetre kadar. Parlak rengi bir uyarıdır, çünkü derisi zehirlidir. Ama bu zehri kendisi üretmez; yediği akar ve karıncalardan alıp derisinde biriktirir. Asıl şaşırtıcı olan ise ebeveynliği. Dişi üç ila beş yumurtasını bir yaprağa ya da bir bromelya bitkisinin yaprak koltuğuna bırakır. Erkek yumurtaları korur ve üzerlerine su taşıyarak nemli tutar. Yaklaşık on gün sonra yumurtalar açılınca anne, iribaşları sırtında tek tek içinde su biriken küçük havuzlara taşır ve onları kendi döllenmemiş yumurtalarıyla besler.",
+   "text_en": "This tiny red frog glowing on the leaves is the strawberry poison frog. It is only about 2 centimetres long. Its bright colour is a warning, because its skin is toxic. But it does not make this poison itself; it takes it from the mites and ants it eats and stores it in its skin. What is truly surprising is its parenting. The female lays three to five eggs on a leaf or in the leaf axil of a bromeliad. The male guards the eggs and keeps them moist by carrying water to them. When the eggs hatch after about 10 days, the mother carries the tadpoles on her back, one by one, to small pools of water and feeds them her own unfertilised eggs."
+  },
+  {
+   "type": "creature",
+   "depth": 6,
+   "name": "Mavi morfo kelebeği",
+   "short": "Morfo kelebeği",
+   "name_en": "Common blue morpho",
+   "latin": "Morpho helenor",
+   "range": "Alt kat",
+   "range_en": "Understory",
+   "text": "Alt katın loşluğunda birden mavi bir parıltı beliriyor. Bu bir morfo kelebeği. Kanatlarındaki bu göz alıcı mavi bir boyadan gelmez. Kanatları kaplayan mikroskobik pulların katmanlı yapısı ışığı tekrar tekrar yansıtır ve bu yansımalar mavi rengi oluşturur. Bilim insanları bu yapıyı boyasız boyalar, kumaşlar ve banknotlarda kullanılan sahtecilik önleyici teknolojiler için örnek alıyor. Kanatların alt yüzünde ise bu parlak pullar yoktur. Alt yüz kahverengidir ve göz benzeri beneklerle süslüdür. Bu yüzden kelebek kanatlarını kapattığında mavi renk kaybolur. Erişkinler çürüyen meyvelerin, ağaç özsuyunun ve mantarların sıvılarıyla beslenir.",
+   "text_en": "In the dimness of the understory a sudden blue flash appears. It is a morpho butterfly. The dazzling blue of its wings does not come from pigment. The layered structure of the microscopic scales covering the wings reflects light again and again, and these reflections create the blue. Scientists use this structure as a model for dye-free paints, fabrics and the anti-counterfeiting technology used in banknotes. The undersides of the wings lack these shiny scales. They are brown and decorated with eyespots, so when the butterfly closes its wings the blue disappears. Adults feed on the juices of fermenting fruit, tree sap and fungi."
+  },
+  {
+   "type": "creature",
+   "depth": 8,
+   "name": "La Palma cam kurbağası",
+   "short": "Cam kurbağası",
+   "name_en": "La Palma glass frog",
+   "latin": "Hyalinobatrachium valerioi",
+   "range": "Dere kenarı, alt kat",
+   "range_en": "Streamside understory",
+   "text": "Bir yaprağın üzerinde neredeyse görünmeyen bir kurbağa: cam kurbağası. Bu ailenin pek çok üyesinin karın derisi saydamdır ve altından bakınca iç organları görülebilir. Kosta Rika'dan Ekvador'a kadar yayılan La Palma cam kurbağasının boyu yalnızca iki buçuk santimetre kadardır. Dişi kırktan fazla olmayan yumurtalarını derelerin üzerine sarkan yaprakların alt yüzüne bırakır. Asıl iş ise erkeğe düşer: diğer cam kurbağalarının çoğundan farklı olarak erkek, yumurtalarının başında gece gündüz, yirmi dört saat nöbet tutar. Yumurtalar açılınca iribaşlar aşağıdaki dereye düşer ve hayatlarına suda devam eder.",
+   "text_en": "A frog that is almost invisible on a leaf: the glass frog. In many members of this family the skin of the belly is transparent, and the internal organs can be seen from below. The La Palma glass frog, found from Costa Rica to Ecuador, is only about 2.5 centimetres long. The female lays no more than 40 eggs on the underside of leaves hanging over streams. Then the work falls to the male: unlike most other glass frogs, he guards his eggs day and night, 24 hours a day. When the eggs hatch, the tadpoles drop into the stream below and continue their lives in the water."
+  },
+  {
+   "type": "landmark",
+   "depth": 10,
+   "name": "Olimpik atlama kulesi",
+   "name_en": "Olympic diving platform",
+   "value": "10 m",
+   "tag": "BOY KIYASI",
+   "text": "Olimpiyat oyunlarındaki kule atlama platformu tam on metre yüksekliğindedir. Buradan atlayan bir sporcu suya saatte yaklaşık elli beş kilometre hızla çarpar. Biz şimdi bu yükseklikteyiz ve alt katın ancak üçte birini geçtik.",
+   "text_en": "The platform in Olympic diving is exactly 10 metres high. A diver jumping from it hits the water at about 55 kilometres per hour. We are now at this height, and we have passed only a third of the understory."
+  },
+  {
+   "type": "creature",
+   "depth": 12,
+   "name": "Bulutlu pars",
+   "short": "Bulutlu pars",
+   "name_en": "Clouded leopard",
+   "latin": "Neofelis nebulosa",
+   "range": "Ağaçlar ve orman tabanı",
+   "range_en": "Trees and forest floor",
+   "text": "Postundaki bulutları andıran büyük gri lekeler bu kediye adını veriyor: bulutlu pars. Himalayaların eteklerinden Güneydoğu Asya ve Güney Çin'e kadar sık ormanlarda yaşar. Usta bir tırmanıcıdır; dikey ağaç gövdelerinden baş aşağı inebilir. Kuyruğu neredeyse vücudu kadar uzundur ve dallarda ilerlerken dengesini sağlar. Arka bacakları ön bacaklarından uzundur, bu da sıçramasına ve zıplamasına yardım eder. Asıl şaşırtıcı özelliği ise dişleridir: üst köpek dişleri dört santimetreye ulaşır ve olağanüstü uzundur. Gündüzleri ağaçlarda dinlenir, geceleri ise orman tabanında avlanır.",
+   "text_en": "The large grey blotches on its coat, reminiscent of clouds, give this cat its name: the clouded leopard. It lives in dense forests from the foothills of the Himalayas to Southeast Asia and southern China. It is an expert climber and can climb down vertical tree trunks head first. Its tail is almost as long as its body and keeps it balanced as it moves along branches. Its hind legs are longer than its front legs, which helps it leap and jump. Its most surprising feature is its teeth: the upper canines reach 4 centimetres and are exceptionally long. It rests in trees during the day and hunts on the forest floor at night."
+  },
+  {
+   "type": "landmark",
+   "depth": 15,
+   "name": "Kapok ağacının payanda kökleri",
+   "name_en": "Kapok tree buttress roots",
+   "value": "15 m",
+   "tag": "BOY KIYASI",
+   "text": "Yağmur ormanının dev ağaçlarından kapok ağacının payanda kökleri, gövde boyunca on iki ile on beş metre yukarı tırmanır ve gövdeden yirmi metre uzağa yayılır. Yani bu yükseklikte hâlâ bir ağacın köküne tutunuyor olabiliriz.",
+   "text_en": "The buttress roots of the kapok, one of the giant trees of the rainforest, climb 12 to 15 metres up the trunk and spread up to 20 metres away from it. So even at this height we could still be holding on to the root of a tree."
+  },
+  {
+   "type": "creature",
+   "depth": 16,
+   "name": "Zümrüt ağaç boası",
+   "short": "Zümrüt boa",
+   "name_en": "Emerald tree boa",
+   "latin": "Corallus caninus",
+   "range": "Alt kat ve taç katmanı",
+   "range_en": "Understory and canopy",
+   "text": "Bir dala halka halka sarılmış bu zümrüt yeşili yılan, zümrüt ağaç boası. Güney Amerika'nın yağmur ormanlarında, ağaçlarda yaşar. Sırtındaki beyaz zikzak çizgiler şimşeğe benzer. Zehirsizdir ama ön dişleri, vücut büyüklüğüne oranla zehirsiz yılanlar arasında muhtemelen en büyük dişlerdir. Belki de en şaşırtıcısı yavruları. Anne yumurta bırakmaz, bir seferde genellikle altı ila on dört canlı yavru doğurur. Yavrular yeşil değil, tuğla kırmızısı ya da turuncu doğar ve yaklaşık on iki ay içinde yavaş yavaş zümrüt yeşiline döner. Avustralya ve Yeni Gine'deki yeşil ağaç pitonuna şaşırtıcı derecede benzer ama iki tür birbirinin çok uzak akrabasıdır.",
+   "text_en": "This emerald green snake coiled around a branch is the emerald tree boa. It lives in the trees of South America's rainforests. The white zigzag stripes on its back look like lightning bolts. It is non-venomous, but its front teeth are probably proportionately larger than those of any other non-venomous snake. Perhaps the most surprising thing is its young. The mother does not lay eggs; she gives birth to usually 6 to 14 live young at a time. The babies are born not green but brick red or orange, and over about 12 months they slowly turn emerald green. It looks amazingly similar to the green tree python of Australia and New Guinea, yet the two are only very distantly related."
+  },
+  {
+   "type": "creature",
+   "depth": 18,
+   "name": "Wallace uçan kurbağası",
+   "short": "Uçan kurbağa",
+   "name_en": "Wallace's flying frog",
+   "latin": "Rhacophorus nigropalmatus",
+   "range": "Alt kat ve taç katmanı",
+   "range_en": "Understory and canopy",
+   "text": "Dalın üzerinde bekleyen bu iri yeşil kurbağa birazdan kendini boşluğa bırakacak. Wallace uçan kurbağası, adını onu ilk kez toplayan ünlü doğabilimci Alfred Russel Wallace'tan alır. Neredeyse bütün hayatını ağaçlarda geçirir ve yalnızca çiftleşmek ve yumurtlamak için aşağı iner. Tehlike anında ya da av peşindeyken daldan atlar ve parmaklarının uçlarına kadar perdeli olan dört ayağını iyice açar. Bu perdeler ve vücudunun yanlarındaki gevşek deri kıvrımları, düşerken havayı yakalayan bir paraşüt gibi çalışır. Böylece bir ağaçtan diğerine bazen on beş metre ya da daha fazla süzülebilir. Sekiz ile on santimetrelik boyuyla cinsinin en büyük türlerinden biridir.",
+   "text_en": "This large green frog waiting on a branch is about to throw itself into the void. Wallace's flying frog is named after the famous naturalist Alfred Russel Wallace, who collected the first known specimen. It spends almost its whole life in the trees and comes down only to mate and lay eggs. When threatened or chasing prey, it leaps from a branch and spreads its four feet, webbed right to the tips of the toes. These webs and the loose flaps of skin on its sides work like a parachute, catching the air as it falls. In this way it can glide from tree to tree, sometimes 15 metres or more. At 8 to 10 centimetres long, it is one of the largest species of its genus."
+  },
+  {
+   "type": "creature",
+   "depth": 22,
+   "name": "Uçan ejder",
+   "short": "Uçan ejder",
+   "name_en": "Common flying dragon",
+   "latin": "Draco volans",
+   "range": "Ağaç gövdeleri",
+   "range_en": "Tree trunks",
+   "text": "Bu küçük kertenkele bir ağaç gövdesinden atladığı anda kanatlanıyor. Uçan ejderin vücudunun iki yanında, uzamış kaburgaların taşıdığı deri zarlar vardır. Kertenkele bu zarları açarak ağaçlar arasında süzülür. Draco cinsinde altmış metreye varan süzülmeler kaydedilmiştir ve bu mesafede kertenkeleler yalnızca on metre yükseklik kaybeder. Tamamen ağaçlarda yaşayan bu tür, kuyruğuyla birlikte en fazla yirmi iki santimetre uzunluğa ulaşır. Neredeyse yalnızca karıncalarla beslenir. Bir ağaç gövdesinin yanında bekler ve yakınından geçen karıncaları yerinden kıpırdamadan yakalar.",
+   "text_en": "This small lizard grows wings the moment it leaps from a tree trunk. On both sides of the flying dragon's body are skin membranes supported by elongated ribs. The lizard opens these membranes to glide between trees. Glides of up to 60 metres have been recorded in the genus Draco, losing only 10 metres of height over that distance. Living entirely in the trees, this species grows to at most 22 centimetres including the tail. It feeds almost exclusively on ants. It waits beside a tree trunk and grabs the ants that pass close by without moving."
+  },
+  {
+   "type": "creature",
+   "depth": 26,
+   "name": "Cennet ağaç yılanı",
+   "short": "Uçan yılan",
+   "name_en": "Paradise flying snake",
+   "latin": "Chrysopelea paradisi",
+   "range": "Ağaçlar",
+   "range_en": "Trees",
+   "text": "Bir yılanın ne kanadı ne de bacağı var. Ama cennet ağaç yılanı yine de havada ilerleyebiliyor. Daha doğrusu süzülüyor. Önce gövdesini J harfi gibi büker, sonra kendini daldan yukarı ve ileri fırlatır. Havadayken karnını içine çeker ve kaburgalarını açarak vücudunu yassı, içbükey bir şeride çevirir. Uçarken bile iki yana kıvrılmaya devam eder; bu dalgalanma onu havada dengede tutar. Bir ağacın tepesinden atlayarak yatayda on metre ya da daha fazla yol alabilir. Güneydoğu Asya'nın nemli ormanlarında tamamen ağaçlarda yaşar.",
+   "text_en": "A snake has neither wings nor legs. Yet the paradise tree snake can still travel through the air. More precisely, it glides. First it bends its body into a J shape, then launches itself up and away from the branch. In the air it sucks in its belly and flares its ribs, turning its body into a flat, concave strip. Even while flying it keeps undulating from side to side, and this motion keeps it stable in the air. Jumping from the top of a tree, it can cover a horizontal distance of 10 metres or more. It lives entirely in the trees of the moist forests of Southeast Asia."
+  },
+  {
+   "type": "landmark",
+   "depth": 29.9,
+   "name": "Mavi balina",
+   "name_en": "Blue whale",
+   "value": "29,9 m",
+   "value_en": "29.9 m",
+   "tag": "BOY KIYASI",
+   "chapter": true,
+   "text": "Dünyanın en büyük hayvanı mavi balinanın bilimsel olarak ölçülmüş en uzun örneği yirmi dokuz virgül dokuz metreydi. Bu dev balina kuyruğunun üzerinde dikilebilseydi, burnu ancak taç katmanının başladığı bu yüksekliğe ulaşırdı.",
+   "text_en": "The longest blue whale ever scientifically measured, the largest animal on Earth, was 29.9 metres long. If this giant could stand on its tail, its snout would only just reach this height, where the canopy begins."
+  },
+  {
+   "type": "zone",
+   "depth": 30,
+   "name": "TAÇ KATMANI",
+   "name_en": "CANOPY",
+   "range": "30 – 45 metre",
+   "range_en": "30 – 45 m",
+   "music_switch": true,
+   "note": "EN YOĞUN YAŞAM BURADA",
+   "note_en": "LIFE IS DENSEST HERE",
+   "text": "Ve taç katmanına ulaşıyoruz. Burası ormanın çatısı. Büyük ağaçların çoğu otuz ile kırk beş metre arasında boylanır ve tepeleri diğer iki katın üzerinde bir çatı oluşturur. Yağmur ormanındaki biyolojik çeşitliliğin en yoğun olduğu kat da burasıdır. Dallar orkideler, bromelyalar, yosunlar ve likenlerle kaplıdır. Bu bitkiler ağaçlara tutunur ve suyu ve mineralleri yağmurdan ve dallarda biriken artıklardan alır. Bir tahmine göre yalnızca tropikal taç katmanındaki eklembacaklı türlerinin sayısı yirmi milyona ulaşabilir.",
+   "text_en": "And we reach the canopy, the roof of the forest. Most of the large trees grow to between 30 and 45 metres, and their crowns form a roof over the two layers below. This is where the rainforest's biodiversity is densest. Branches are covered with orchids, bromeliads, mosses and lichens. These plants cling to the trees and take their water and minerals from the rain and from debris that collects on the branches. One estimate suggests that the number of arthropod species in the tropical canopy alone could reach 20 million."
+  },
+  {
+   "type": "creature",
+   "depth": 31,
+   "name": "Yeşil iguana",
+   "short": "Yeşil iguana",
+   "name_en": "Green iguana",
+   "latin": "Iguana iguana",
+   "range": "Taç katmanı",
+   "range_en": "Canopy",
+   "text": "Taç katmanında güneşlenen bu iri kertenkele yeşil iguana. Kuyruğuyla birlikte bir buçuk ile bir metre yetmiş santimetre uzunluğa ulaşır; bazı erkekler iki metreyi geçer. Ağaçlarda yaşayan çevik bir tırmanıcıdır ve on beş metre yükseklikten düşüp hiç yaralanmadan kalkabilir. Düşerken arka ayaklarının pençeleriyle yapraklara ve dallara tutunarak düşüşünü yavaşlatır. Başının tepesinde üçüncü göz denilen, ışığa duyarlı beyaz bir organ taşır; çoğu kertenkele bu ilkel organı kaybetmiştir. Orta ve Güney Amerika'da yaşar ve çoğunlukla bitkilerle beslenir.",
+   "text_en": "This large lizard basking in the canopy is the green iguana. Including its tail it reaches 1.5 to 1.7 metres, and some males exceed 2 metres. It is an agile tree-dwelling climber and can fall 15 metres and land unhurt. As it falls it grabs leaves and branches with the claws of its hind feet to break the fall. On top of its head it has a white light-sensitive organ called the third eye, a primitive feature most other lizards have lost. It lives in Central and South America and feeds mostly on plants."
+  },
+  {
+   "type": "creature",
+   "depth": 33,
+   "name": "Gökkuşağı gagalı tukan",
+   "short": "Tukan",
+   "name_en": "Keel-billed toucan",
+   "latin": "Ramphastos sulfuratus",
+   "range": "Taç katmanı",
+   "range_en": "Canopy",
+   "text": "Bu gagaya bakınca insan, kuşun öne doğru devrilmemesine şaşırıyor. Gökkuşağı gagalı tukanın rengârenk gagası on iki ile on beş santimetre uzunluğundadır ve kuşun boyu gagasıyla birlikte elli beş santimetreyi bulur. Ama bu gaga hiç de ağır değildir. İçi süngerimsi, boş bir kemiktir ve üzeri hafif ama sert bir protein olan keratinle kaplıdır. Meyvelerin yanı sıra böcekler, kertenkeleler, yılanlar, küçük kuşlar ve onların yumurtalarıyla beslenir. Geceleri ağaç oyuklarında, çoğu zaman başka tukanlarla birlikte uyur; tek bir oyuğa beş altı kuş sığabilir. Orta Amerika'nın ormanlarında yaşar ve Belize'nin ulusal kuşudur.",
+   "text_en": "Looking at this bill, you wonder why the bird does not topple forward. The colourful bill of the keel-billed toucan is 12 to 15 centimetres long, and the bird measures up to 55 centimetres including the bill. But this bill is not heavy at all. It is a spongy, hollow bone covered in keratin, a light but hard protein. Besides fruit, it eats insects, lizards, snakes, small birds and their eggs. At night it sleeps in tree holes, often together with other toucans; five or six birds can fit into a single hole. It lives in the forests of Central America and is the national bird of Belize."
+  },
+  {
+   "type": "creature",
+   "depth": 34,
+   "name": "Geoffroy örümcek maymunu",
+   "short": "Örümcek maymunu",
+   "name_en": "Geoffroy's spider monkey",
+   "latin": "Ateles geoffroyi",
+   "range": "Taç katmanı",
+   "range_en": "Canopy",
+   "text": "Dallar arasında kollarıyla salınan bu akrobat, Geoffroy örümcek maymunu. Kolları bacaklarından çok daha uzundur ve kuyruğu tek başına vücudundan uzundur. Bu kuyruk beşinci bir el gibi çalışır: tutunabilen kuyruk maymunun bütün ağırlığını tek başına taşıyabilir. Ellerinde başparmak neredeyse yoktur. Onun yerine uzun, güçlü ve çengel gibi kıvrılan parmakları vardır. Yeni Dünya maymunlarının en büyüklerinden biridir ve ağırlığı dokuz kilograma ulaşabilir. Yirmi ile kırk iki bireylik topluluklar hâlinde yaşar, ama gün içinde küçük gruplara ayrılıp yeniden birleşirler.",
+   "text_en": "This acrobat swinging through the branches by its arms is Geoffroy's spider monkey. Its arms are much longer than its legs, and its tail alone is longer than its body. The tail works like a fifth hand: this prehensile tail can support the monkey's entire weight on its own. Its hands have almost no thumb. Instead it has long, strong, hook-like fingers. It is one of the largest New World monkeys and can weigh up to 9 kilograms. It lives in communities of 20 to 42 members, which split into small groups during the day and come together again."
+  },
+  {
+   "type": "creature",
+   "depth": 36,
+   "name": "Örtülü uluyan maymun",
+   "short": "Uluyan maymun",
+   "name_en": "Mantled howler",
+   "latin": "Alouatta palliata",
+   "range": "Taç katmanı",
+   "range_en": "Canopy",
+   "text": "Ormanın derinliklerinden yükselen bu korkutucu uğultu bir yırtıcıya değil, bir maymuna ait. Erkeklerin ses tellerinin yakınında büyümüş, içi boş bir dil kemiği vardır. Bu kemik çağrılarını büyük ölçüde güçlendirir ve türe adını verir. Bu çağrılar sayesinde gruplar enerji harcamadan ve kavgaya girmeden birbirlerinin yerini öğrenir. Enerji onlar için çok değerlidir, çünkü bu tür Orta Amerika'da çok miktarda yaprak yiyen tek maymundur ve yapraklar az enerji verir. Bu yüzden gecenin tamamını ve gündüzün yaklaşık dörtte üçünü dinlenerek ya da uyuyarak geçirir.",
+   "text_en": "This frightening roar rising from deep in the forest belongs not to a predator but to a monkey. Males have an enlarged, hollow hyoid bone near the vocal cords. This bone greatly amplifies their calls and gives the species its name. These calls let groups locate each other without spending energy or getting into fights. Energy is precious to them, because this is the only Central American monkey that eats large quantities of leaves, and leaves provide little energy. That is why it spends the whole night and about three quarters of the day resting or sleeping."
+  },
+  {
+   "type": "creature",
+   "depth": 38,
+   "name": "Borneo orangutanı",
+   "short": "Orangutan",
+   "name_en": "Bornean orangutan",
+   "latin": "Pongo pygmaeus",
+   "range": "Taç katmanı",
+   "range_en": "Canopy",
+   "text": "Taç katmanının en ağır sakini Borneo orangutanı. Hayatını gerçekten ağaçlarda geçiren insansı maymunların en büyüğüdür. Yabani erkeklerin ağırlığı ortalama yetmiş beş kilogramdır ve bir erkek orangutanın kol açıklığı yaklaşık iki metreyi bulur. Her akşam dallardan ve yapraklardan kendine özenle yeni bir yatak, yani bir yuva örer. Orangutanlar çok zekidir; çeşitli aletler kullanır ve topluluktan topluluğa değişen kültürel davranışlar sergiler. Anneler yavrularını sekiz yıla kadar emzirir; bu, bütün memeliler arasındaki en uzun süredir. İki doğum arasında altı ile dokuz yıl geçer ve bu da insansı maymunlar arasındaki en uzun aradır.",
+   "text_en": "The heaviest resident of the canopy is the Bornean orangutan. It is the largest truly tree-dwelling ape. Wild males weigh 75 kilograms on average, and a male orangutan's arm span reaches about 2 metres. Every evening it carefully builds itself a new bed, a nest of branches and leaves. Orangutans are highly intelligent; they use a variety of tools and show cultural behaviours that differ from one population to another. Mothers nurse their young for up to eight years, longer than any other mammal. Six to nine years pass between births, the longest interval among the great apes."
+  },
+  {
+   "type": "creature",
+   "depth": 40,
+   "name": "Siyamang",
+   "short": "Siyamang",
+   "name_en": "Siamang",
+   "latin": "Symphalangus syndactylus",
+   "range": "Taç katmanı",
+   "range_en": "Canopy",
+   "text": "Sumatra ve Malay Yarımadası ormanlarının en gürültülü şarkıcılarından biri siyamang. Gibonların en büyüğüdür; diğer gibonların iki katı büyüklüğe ulaşabilir ve ağırlığı on dört kilograma çıkabilir. Hem erkeklerin hem dişilerin boğazında büyük bir ses kesesi vardır. Bu kese başı büyüklüğünde şişer ve sesini yankılandırarak güçlendirir. Siyamangların ezgili şarkısı, sabah erken saatlerde ormanın sessizliğini bozar. Aileler, yüksek sesli çağrılarıyla komşu gruplara bölgelerinin nerede olduğunu bildirir; bazen iki grup sınırın iki yanında aynı anda şarkı söyler.",
+   "text_en": "One of the loudest singers of the forests of Sumatra and the Malay Peninsula is the siamang. It is the largest of the gibbons; it can be twice the size of other gibbons and weigh up to 14 kilograms. Both males and females have a large throat sac. This sac inflates to the size of the siamang's head and amplifies its voice by resonance. The siamang's melodious singing breaks the silence of the forest in the early morning. Families use loud calls to let neighbouring groups know where their territory is; sometimes two groups sing at the same time on either side of the boundary."
+  },
+  {
+   "type": "creature",
+   "depth": 42,
+   "name": "Sunda kolugosu",
+   "short": "Kolugo",
+   "name_en": "Sunda flying lemur",
+   "latin": "Galeopterus variegatus",
+   "range": "Taç katmanı",
+   "range_en": "Canopy",
+   "text": "Ona uçan lemur da denir ama aslında uçamaz. Sunda kolugosu süzülür. Boynundan başlayıp bacakları boyunca el ve ayak parmaklarının, hatta tırnaklarının ucuna kadar uzanan dev bir deri zarı vardır. Bu uçurtma biçimli zarı açtığında ağaçlar arasında süzülen canlı bir paraşüte dönüşür. Yüz metre süzülürken on metreden az yükseklik kaybedebilir. Süzülürken yön değiştirebilir, ama şiddetli yağmur ve rüzgâr bu yeteneğini zorlaştırır. Süzülmek ona, yerdeki ve ağaçlardaki yırtıcılara görünmeden dağınık besin kaynaklarına ulaşma imkânı verir. Güneydoğu Asya'nın sık yağmur ormanlarında, çoğunlukla taç katmanında yaşar ve hiç yere inmeden ağaçtan ağaca geçer.",
+   "text_en": "It is also called the flying lemur, but in fact it cannot fly. The Sunda colugo glides. It has a huge skin membrane that runs from its neck along its limbs to the tips of its fingers, toes and even its nails. When it spreads this kite-shaped membrane, it becomes a living parachute gliding between trees. It can glide 100 metres while losing less than 10 metres of height. It can steer while gliding, but heavy rain and wind make this harder. Gliding gives it access to scattered food sources without exposing it to predators on the ground or in the trees. It lives in the dense rainforests of Southeast Asia, mostly high in the canopy, passing from tree to tree."
+  },
+  {
+   "type": "creature",
+   "depth": 43,
+   "name": "Gergedan boynuzgagası",
+   "short": "Boynuzgaga",
+   "name_en": "Rhinoceros hornbill",
+   "latin": "Buceros rhinoceros",
+   "range": "Taç katmanı",
+   "range_en": "Canopy",
+   "text": "Gagasının üzerinde gergedan boynuzu gibi yukarı kıvrılan bir miğfer taşıyan bu kuş, gergedan boynuzgagası. Gagasındaki ve miğferindeki turuncu ve kırmızı renkler aslında bir tür makyajdır: kuş, kuyruğunun üstündeki bezden çıkan yağı gagasına sürer. Yuva hikâyesi ise olağanüstü. Dişi bir ağaç gövdesinin içindeki oyuğa girer ve yumurtlar. Ardından erkek çamur toplar ve çift, bu çamuru yiyecek ve dışkıyla karıştırarak oyuğun girişini bir duvarla kapatır. Dişi ve yavrular bu duvarın arkasında kalır, erkek de onlara yiyecek taşır. Yavrular tüylenip yuvadan çıkacak kadar büyüyünce ebeveynler kuruyan çamuru kırarak onları serbest bırakır.",
+   "text_en": "This bird, with a casque curving upward on its bill like a rhinoceros horn, is the rhinoceros hornbill. The orange and red colours of its bill and casque are actually a kind of make-up: the bird rubs on oil from the preen gland above its tail. Its nesting story is extraordinary. The female enters a cavity inside a tree trunk and lays her eggs. Then the male collects mud, and the pair mix it with food and droppings to wall up the entrance. The female and the chicks stay behind this wall while the male brings them food. When the chicks are feathered and old enough to leave, the parents chip away the dried mud to set them free."
+  },
+  {
+   "type": "creature",
+   "depth": 44,
+   "name": "Kırmızı ara papağanı",
+   "short": "Ara papağanı",
+   "name_en": "Scarlet macaw",
+   "latin": "Ara macao",
+   "range": "Taç katmanı",
+   "range_en": "Canopy",
+   "text": "Taç katmanının en canlı renkleri kırmızı ara papağanına ait. Seksen dört santimetrelik boyunun yarısından fazlası sivri kuyruğudur. Kosta Rika'daki gözlemler, bu papağanların neredeyse bütün zamanını ormanın yüksek tacında, genellikle yerden on metreden yüksekte geçirdiğini gösteriyor. Bazı bölgelerde ise kil yalama alanlarına gider ve kil yerler. Bu kil sindirime yardım eder ve onlara sodyum ve kalsiyum gibi önemli mineraller sağlar. Kırmızı ara papağanları tek eşlidir ve ömür boyu aynı eşle kalır. Honduras'ın ulusal kuşudur.",
+   "text_en": "The brightest colours of the canopy belong to the scarlet macaw. More than half of its 84 centimetre length is its pointed tail. Observations in Costa Rica show that these parrots spend nearly all their time high in the forest canopy, usually more than 10 metres above the ground. In some regions they visit clay licks and eat the clay. This clay aids digestion and provides important minerals such as sodium and calcium. Scarlet macaws are monogamous and stay with one partner for life. It is the national bird of Honduras."
+  },
+  {
+   "type": "zone",
+   "depth": 45,
+   "name": "YÜKSELEN KAT",
+   "name_en": "EMERGENT LAYER",
+   "range": "45 – 100 metre",
+   "range_en": "45 – 100 m",
+   "note": "YALNIZCA TROPİKAL ORMANLARDA",
+   "note_en": "FOUND ONLY IN TROPICAL FORESTS",
+   "text": "Ve son kat: yükselen kat. Taç katmanının üstüne yalnızca birkaç dev ağaç çıkar. Bu ağaçlar çoğunlukla kırk beş ile elli beş metreye ulaşır, bazı türler ise yetmiş, seksen metreye kadar boylanır. Bu katman yalnızca tropikal yağmur ormanlarına özgüdür. Buradaki ağaçlar hem kavurucu sıcağa hem de taç katmanının üzerinde esen güçlü rüzgârlara dayanmak zorundadır. Afrika'da taçlı kartal, kral kolobus maymunu ve Asya'da büyük uçan tilki bu katın tanınmış sakinlerindendir.",
+   "text_en": "And the last layer: the emergent layer. Only a few giant trees rise above the canopy. These trees usually reach 45 to 55 metres, and some species grow as tall as 70 or 80 metres. This layer is unique to tropical rainforests. The trees here must withstand both scorching heat and the strong winds that blow above the canopy. The crowned eagle and the king colobus monkey in Africa and the large flying fox in Asia are among its well-known residents."
+  },
+  {
+   "type": "creature",
+   "depth": 50,
+   "name": "Harpi kartalı",
+   "short": "Harpi kartalı",
+   "name_en": "Harpy eagle",
+   "latin": "Harpia harpyja",
+   "range": "Yükselen kat",
+   "range_en": "Emergent layer",
+   "text": "Amerika'nın yağmur ormanlarında yükselen katın hükümdarı harpi kartalı. Yaşadığı bölgenin en büyük yırtıcı kuşudur ve dünyanın en büyük kartalları arasındadır. Yaşayan bütün kartallar arasında en büyük pençeler ondadır: dişilerin pençeleri ortalama on iki virgül üç santimetre uzunluğundadır. Bu pençeler, dalların arasından canlı tembel hayvanları ve maymunları kapmasını sağlar. Bir araştırmada harpi kartalının avlarının yüzde yetmiş dokuzunu iki tembel hayvan türünün oluşturduğu görüldü. Yağmur ormanında hem yuvasını kurar hem de avlanır, çoğunlukla yükselen katta. Bir çift genellikle iki üç yılda yalnızca bir yavru büyütür.",
+   "text_en": "The ruler of the emergent layer in the rainforests of the Americas is the harpy eagle. It is the largest bird of prey in its range and among the largest eagles in the world. It has the largest talons of any living eagle: in females they average 12.3 centimetres. These talons let it snatch live sloths and monkeys from the branches. One study found that 79 percent of a harpy eagle's prey consisted of two sloth species. In the rainforest it nests and hunts mostly in the emergent layer. A pair usually raises only one chick every two to three years."
+  },
+  {
+   "type": "creature",
+   "depth": 55,
+   "name": "Taçlı kartal",
+   "short": "Taçlı kartal",
+   "name_en": "Crowned eagle",
+   "latin": "Stephanoaetus coronatus",
+   "range": "Yükselen kat",
+   "range_en": "Emergent layer",
+   "text": "Afrika'nın yağmur ormanlarında da yükselen katın bir efendisi var: taçlı kartal. Yalnızca Afrika kıtasında yaşar ve cinsinin hayattaki tek üyesidir. Avının büyüklüğü düşünüldüğünde Afrika'nın en güçlü kartalı kabul edilir. Alışılmadık derecede büyük pençeleri ve güçlü bacaklarıyla avını yalnızca kafatasını ezerek öldürebilir. Başlıca avları maymunlar, antiloplar, kemirgenler ve kaya tavşanlarıdır. Bir yuvanın altında, on bir kilogramlık iri bir erkek mangabey maymununun kalıntıları bulunmuştur. Uzun kuyruğuyla boyu doksan santimetreye ulaşır ama kanat açıklığı, ağırlığına göre şaşırtıcı derecede kısadır.",
+   "text_en": "The emergent layer of Africa's rainforests has its own master too: the crowned eagle. It lives only on the African continent and is the only living member of its genus. Considering the size of its prey, it is regarded as Africa's most powerful eagle. With its unusually large talons and strong legs, it may kill its prey simply by crushing the skull. Its main prey are monkeys, antelopes, rodents and hyraxes. Under one nest the remains of a large male sooty mangabey weighing 11 kilograms were found. With its long tail it reaches 90 centimetres in length, but its wingspan is surprisingly short for its weight."
+  },
+  {
+   "type": "landmark",
+   "depth": 60,
+   "name": "Kapok ağacı",
+   "name_en": "Kapok tree",
+   "value": "60 m",
+   "tag": "BOY KIYASI",
+   "text": "Yağmur ormanlarının simgelerinden kapok ağacı altmış metreye kadar boylanabilir. Gövdesinin kalınlığı bir metre seksen santimetreyi bulur ve tacı altmış metre genişliğe ulaşabilir. Yani bu ağacın tacı, kendi boyu kadar geniş olabilir.",
+   "text_en": "The kapok, one of the symbols of the rainforest, can grow up to 60 metres tall. Its trunk can be 1.8 metres thick, and its crown can be as much as 60 metres wide. In other words, the crown of this tree can be as wide as the tree is tall."
+  },
+  {
+   "type": "landmark",
+   "depth": 62.59,
+   "name": "Galata Kulesi",
+   "name_en": "Galata Tower",
+   "value": "62,59 m",
+   "value_en": "62.59 m",
+   "tag": "BOY KIYASI",
+   "text": "İstanbul'un simgelerinden Galata Kulesi, çatısının ucuna kadar altmış iki virgül elli dokuz metre yüksekliğindedir. Yükselen kattaki en uzun ağaçlar bu kuleyi rahatça geride bırakır.",
+   "text_en": "Galata Tower, one of the symbols of Istanbul, stands 62.59 metres tall to the tip of its roof. The tallest trees of the emergent layer easily leave this tower behind."
+  },
+  {
+   "type": "landmark",
+   "depth": 96,
+   "name": "Big Ben",
+   "name_en": "Big Ben",
+   "value": "96 m",
+   "tag": "BOY KIYASI",
+   "text": "Londra'nın ünlü saat kulesi Big Ben doksan altı metre yüksekliğindedir. Zeminden çan katına çıkmak için üç yüz otuz dört basamak tırmanmak gerekir. Bizim ağacımız ise bu kuleden de uzun.",
+   "text_en": "London's famous clock tower, Big Ben, is 96 metres tall. Reaching the belfry from the ground takes a climb of 334 steps. Our tree is taller still."
+  },
+  {
+   "type": "landmark",
+   "depth": 100.8,
+   "name": "Menara",
+   "name_en": "Menara",
+   "value": "100,8 m",
+   "value_en": "100.8 m",
+   "tag": "EN UZUN TROPİKAL AĞAÇ",
+   "chapter": true,
+   "text": "Ve zirvedeyiz. Malezya'nın Sabah eyaletindeki Danum Vadisi'nde yükselen bu sarı meranti ağacına Malay dilinde kule anlamına gelen Menara adı verildi. Gövdesinin en alçak noktasından ölçüldüğünde yüz virgül sekiz metre boyuyla bilinen en uzun tropikal ağaçtır. Araştırmacılar onu iki bin on sekiz yılında keşfetti ve iki bin on dokuz yılında tepesine tırmanarak şerit metreyle ölçtü. Yaklaşık seksen bir buçuk ton ağırlığındaki ağacın kütlesinin yüzde doksan beşi gövdesindedir.",
+   "text_en": "And we are at the top. This yellow meranti tree rising in the Danum Valley of the Malaysian state of Sabah was named Menara, which means tower in Malay. Measured from the lowest point of its trunk, it is 100.8 metres tall, the tallest known tropical tree. Researchers discovered it in 2018 and in 2019 climbed it and measured it with a tape measure. The tree weighs about 81.5 tonnes, and 95 percent of that mass is in its trunk."
+  },
+  {
+   "type": "outro",
+   "depth": 100.8,
+   "text": "Karanlık orman tabanından yüz metreyi aşan bir ağacın tepesine kadar tırmandık ve yol boyunca yirmi altı canlıyla tanıştık. Taç katmanında boğazını şişirerek şarkı söyleyen siyamangları ve her gece kendine yatak yapan orangutanları, yükselen katta ise pençeleri bütün kartallarınkinden büyük olan harpi kartalını izledik. Belki de en şaşırtıcısı şu: Aynı ormanın her katı kendi ışığı, kendi kuralları ve kendi sakinleriyle bambaşka bir dünya. Bu yolculuğu beğendiyseniz kanala abone olmayı ve videoyu beğenmeyi unutmayın. Bir sonraki belgeselde görüşmek üzere.",
+   "text_en": "We climbed from the dark forest floor to the top of a tree more than 100 metres tall, and met 26 animals on the way. In the canopy we watched siamangs singing with inflated throats and orangutans making themselves a bed every night, and in the emergent layer the harpy eagle, whose talons are bigger than those of any other eagle. Perhaps the most surprising thing is that each layer is a world of its own, with its own light, its own rules and its own residents. If you enjoyed this journey, don't forget to subscribe to the channel and like the video. See you in the next documentary."
+  }
+ ]
+}
