@@ -383,3 +383,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli (skor 2,57), sayı kancası (2,08) ve deniz omurgasızı/sürüngen güçlü; kuş, balık, böcek zayıf. Reels'te gizem kancası (3 örnek, içerik 3,40) umut verici.
 - Bugün uygulanan: gönderi için memeli + sayı kancalı kaya antilopu (eşinden 5 m); Reels için kuş/tuhaf yetenek denemesi (gri taçlı turna, ağaçta uyuyan iki turnadan biri).
 - Sonra kontrol et: kaya antilopu gönderisinin memeli/sayı performansı; turna Reels'inin kuş grubunda (ort. skor 1,20) kalıp kalmadığı.
+
+## 2026-11-22 (akşam çalıştırması)
+- Rapordan öğrenilen: gönderide memeli (2,57), sayı kancası (2,08), deniz omurgasızı (1,82), sürüngen (1,77) güçlü; kuş/böcek/balık/amfibi zayıf. Reels'te gizem (3 örnek, içerik 3,40) umut verici, kuş (1,20) ortalama.
+- Bugün uygulanan: Gönderiler 13→15: zırhlı kuşak kertenkelesi (sürüngen, sayı "60'a kadar grup"; iNat CC0) ve velella (deniz omurgasızı, sayı "7 cm'den küçük"; iNat CC0). Reels 8→9: yeşil anakonda (sürüngen, süperlatif, Shamanistic, 79 kelime; Commons CC BY/CC0). Argonauta'nın iNat fotoğrafları kabuk/elde tutulan olduğu için elendi.
+- Sonra kontrol et: velella ve kertenkele gönderilerinin içerik değeri; anakonda Reels'inde süperlatif kancanın izlenme süresi. Not: son gönderilerde memeli çoktu (5/6), memeli ağırlığı dengelenebilir.

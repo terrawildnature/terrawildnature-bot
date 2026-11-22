@@ -1,0 +1,166 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Shamanistic.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Eunectes murinus 61739178.jpg",
+  "p2.jpg": "File:Eunectes murinus (1).jpg",
+  "p3.jpg": "File:Eunectes murinus 186911206.jpg",
+  "p4.jpg": "File:Eunectes murinus 14545581.jpg",
+  "p5.jpg": "File:Eunectes murinus 89683756.jpg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/204789578/original.jpg",
+  "p7.jpg": "File:Green Anaconda (Eunectes murinus) juvenile (10644049623).jpg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/739121057/original.jpg"
+ },
+ "segments": [
+  {
+   "text": "Dünyanın en ağır yılanı olan yeşil anakonda, 6 metreden uzun olabiliyor.",
+   "image": "p1.jpg",
+   "cx": 0.65,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "5 metrelik bir anakonda, 7 metrelik ağ desenli piton kadar hacimli.",
+   "image": "p2.jpg",
+   "cx": 0.2,
+   "cy": 0.3,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Gözleri başının üstünde olduğu için vücudunu göstermeden sudan dışarıyı izliyor.",
+   "image": "p3.jpg",
+   "cx": 0.7,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Çene kemikleri esnek bağlarla bağlı, bu yüzden kafasından büyük avı yutabiliyor.",
+   "image": "p4.jpg",
+   "cx": 0.4,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Yutarken soluk borusu ağzına uzanıp nefes almasını sağlıyor.",
+   "image": "p5.jpg",
+   "cx": 0.45,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Sindirim günler sürüyor ve bu sırada hareketsiz kalıyor.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Karip halkı ona Büyük Yılan anlamına gelen akayima diyor.",
+   "image": "p7.jpg",
+   "cx": 0.7,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.65,
+  "cy": 0.45,
+  "title": [
+   [
+    [
+     "DÜNYANIN",
+     "R"
+    ]
+   ],
+   [
+    [
+     "EN AĞIR",
+     "W"
+    ]
+   ],
+   [
+    [
+     "YILANI",
+     "W"
+    ]
+   ],
+   [
+    [
+     "ANAKONDA",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "sürüngen",
+ "hook_style": "süperlatif",
+ "yt_title": "Dünyanın En Ağır Yılanı: Yeşil Anakonda",
+ "en": {
+  "title": "The World's Heaviest Snake: Green Anaconda",
+  "description": "The green anaconda is the world's heaviest snake, can exceed 6 meters, and its loosely connected jaws let it swallow prey larger than its head."
+ },
+ "caption": "Dünyanın en ağır yılanı olan yeşil anakonda, esnek çene kemikleri sayesinde kafasından büyük avı yutabiliyor. 🐍🌿\n\n#terrawildnature #yeşilanakonda\n\n📷 Kai Squires (CC BY 4.0), Lennart Hudel (CC BY 4.0), Carlos Ruiz (CC BY 4.0), jorgehenao (CC BY 4.0), Bernard DUPONT (CC BY-SA 2.0) / Wikimedia Commons\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "File:Eunectes murinus 61739178.jpg",
+   "author": "Kai Squires",
+   "license": "CC BY 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Eunectes murinus (1).jpg",
+   "author": "TimVickers",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:Eunectes murinus 186911206.jpg",
+   "author": "Lennart Hudel",
+   "license": "CC BY 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Eunectes murinus 14545581.jpg",
+   "author": "Carlos Ruiz",
+   "license": "CC BY 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Eunectes murinus 89683756.jpg",
+   "author": "jorgehenao",
+   "license": "CC BY 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/204789578/original.jpg",
+   "author": "Whaldener Endo",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "File:Green Anaconda (Eunectes murinus) juvenile (10644049623).jpg",
+   "author": "Bernard DUPONT",
+   "license": "CC BY-SA 2.0",
+   "public_domain": false
+  },
+  {
+   "title": "https://inaturalist-open-data.s3.amazonaws.com/photos/739121057/original.jpg",
+   "author": "Christina Hewitt",
+   "license": "CC0",
+   "public_domain": true
+  }
+ ]
+}
