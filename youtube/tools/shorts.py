@@ -191,11 +191,26 @@ def publish(work, body, record_dir, en_spec, extra=None):
     print(f"https://youtube.com/shorts/{vid}")
 
 
+def next_format():
+    """The ten edits take turns (owner's request, 2026-11-22): the one after the last uploaded Short's."""
+    import short_formats
+    done = [json.loads(f.read_text(encoding="utf-8")) for f in POSTS.glob("*/youtube.json")]
+    if not done:
+        return short_formats.FORMATS[0]
+    last = max(done, key=lambda r: r.get("uploaded_at", "")).get("format", "tahmin")
+    i = short_formats.FORMATS.index(last) if last in short_formats.FORMATS else 0
+    return short_formats.FORMATS[(i + 1) % len(short_formats.FORMATS)]
+
+
 def main_quiz(post_dir):
     import quiz_short
+    import short_formats
     post = json.loads((post_dir / "post.json").read_text(encoding="utf-8"))
+    fmt = sys.argv[sys.argv.index("--format") + 1] if "--format" in sys.argv else next_format()
+    title = short_formats.yt_title(fmt, post)
+    title = title + " #shorts" if title else quiz_title(post)
     spec = {"caption": post["caption"] + "\n\n🎵 Kevin MacLeod (CC BY)"}
-    body = {"snippet": {"title": quiz_title(post), "description": description(spec),
+    body = {"snippet": {"title": title, "description": description(spec),
                         "tags": ["shorts", "hayvanlar", "bu hayvan ne", "tahmin et", "ilginç bilgiler", "terra wild nature"],
                         "categoryId": "15", "defaultLanguage": "tr", "defaultAudioLanguage": "tr"},
             "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": False}}
@@ -206,9 +221,15 @@ def main_quiz(post_dir):
               sorted(POSTS.glob("*/youtube.json"), key=lambda f: f.name)[-20:]]
     work = ROOT / "_shorts" / post_dir.name   # render outside posted/ so nothing but youtube.json gets committed
     shutil.rmtree(work, ignore_errors=True)
-    q = quiz_short.from_post(post_dir, work, [m.rsplit("/", 1)[-1] for m in recent if m])
-    quiz_short.build(work)
-    publish(work, body, post_dir, {"en": post.get("quiz", {}).get("en")}, {"music": q["music"]["file"]})
+    recent = [m.rsplit("/", 1)[-1] for m in recent if m]
+    if fmt == "tahmin":
+        q = quiz_short.from_post(post_dir, work, recent)
+        quiz_short.build(work)
+    else:
+        q = short_formats.from_post(post_dir, work, fmt, recent)
+        short_formats.build(work)
+    print(f"format: {fmt}")
+    publish(work, body, post_dir, short_formats.en_spec(fmt, post), {"music": q["music"]["file"], "format": fmt})
 
 
 def main(reel_dir):
