@@ -373,3 +373,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: gönderide memeli (3,59), deniz omurgasızı (2,95), sayı kancası (2,21) güçlü; Reels'te sayı (1,21) güçlü.
 - Bugün uygulanan: Gönderiler 13→15: addaks (memeli, sayı "su içmeden"; iNat CC BY/CC0) ve kalem deniz kestanesi (deniz omurgasızı, sayı "10 cm"; iNat CC BY/CC0). Reels 8→9 (zz_ quokka hariç): altın aslan tamarini (memeli, sayı "560'tan 4.800'e"; iNat CC0/CC BY, 80 kelime, Lost_Frontier). Fenek, İspanyol dansçısı, Sunda uçan lemuru zaten kullanılmıştı (Türkçe ad değil bilimsel adla grep et).
 - Sonra kontrol et: addaks ve kalem deniz kestanesi içerik değeri; tamarin Reels'i (koruma başarı hikâyesi + sayı kancası). `zz_20261106-01_quokka` hâlâ kuyrukta.
+
+## 2026-11-22 (sabah çalıştırması)
+- Rapordan öğrenilen: rapor yeniden okunmadı; kuyruklar dolu olduğu için seçim yapılmadı (önceki bulgular: memeli, deniz omurgasızı, sayı kancası güçlü).
+- Bugün uygulanan: kuyruklar dolu (gönderi 15/15, Reels 9/9 + `zz_` quokka, `queue_failed`/`queue_reels_failed` yok); yeni içerik üretilmedi.
+- Sonra kontrol et: paylaşımlar sonrası kuyruk düşünce memeli/deniz omurgasızı + sayı kancasına ağırlık ver; `zz_20261106-01_quokka` hâlâ `queue_reels/` içinde duruyor.
