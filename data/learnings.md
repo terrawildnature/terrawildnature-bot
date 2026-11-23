@@ -403,3 +403,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: memeli gönderi (2,57), sayı kancası (2,08) güçlü; reels'te gizem kancası (3 örnek, içerik 3,40) umut verici.
 - Bugün uygulanan: gönderi 15/15, Reels 9/9 (zz_ quokka dahil), `queue_failed`/`queue_reels_failed` yok; yeni içerik üretilmedi.
 - Sonra kontrol et: paylaşımlar sonrası kuyruk düşünce sürüngen/deniz omurgasızı + sayı kancası; Reels'te gizem kancası dene. `zz_20261106-01_quokka` hâlâ kuyrukta.
+
+## 2026-11-23 (akşam çalıştırması)
+- Rapordan öğrenilen: rapor yeniden okunmadı; kuyruklar dolu (önceki bulgular: memeli, sayı kancası, deniz omurgasızı güçlü).
+- Bugün uygulanan: gönderi 15/15, Reels 9/9 (zz_ quokka dahil), `queue_failed`/`queue_reels_failed` yok; yeni içerik üretilmedi.
+- Sonra kontrol et: paylaşımlar sonrası kuyruk düşünce sürüngen/deniz omurgasızı + sayı kancası; Reels'te gizem kancası dene. `zz_20261106-01_quokka` hâlâ kuyrukta.
