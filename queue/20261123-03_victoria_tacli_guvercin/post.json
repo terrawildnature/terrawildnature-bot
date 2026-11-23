@@ -1,0 +1,112 @@
+{
+  "name": "victoria taçlı güvercini",
+  "group": "kuş",
+  "hook_style": "süperlatif",
+  "title": [
+    [
+      [
+        "BU GÜVERCİN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "DÜNYANIN EN ",
+        "W"
+      ],
+      [
+        "BÜYÜĞÜ",
+        "R"
+      ]
+    ],
+    [
+      [
+        "BAŞINDA DANTEL VAR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "VICTORIA TAÇLI GÜVERCİNİ",
+  "card_top": [
+    "Yaşayan en büyük güvercin;",
+    "dantel gibi mavi tacı var."
+  ],
+  "card_bottom": [
+    "Tacın uçları beyaz, gözleri",
+    "kırmızı, göğsü koyu bordo.",
+    "Kalkarken güçlü ses çıkarır."
+  ],
+  "right": [
+    "Yeni Gine'nin kuzeyindeki",
+    "ova ormanlarında yaşar.",
+    "Yerde gezip düşmüş meyve yer.",
+    "Erkek gösteride başını sallar",
+    "kuyruğunu da yelpazeler."
+  ],
+  "loc": "Yeni Gine",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "zoom": 1.0
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.45,
+      "cy": 0.5,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.8,
+      "cy": 0.4,
+      "zoom": 2.0
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Goura victoria (Victoria crowned pigeon) head, Burgers zoo, Arnhem, the Netherlands.JPG",
+      "author": "Bj.schoenmakers",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Victoria Crowned Pigeon in captivity.jpg",
+      "author": "Jiafei Slay Queen",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "File:Victoria crowned pigeons (Goura victoria, at Gyeongju Bird Park).jpg",
+      "author": "Drcbrothephotographer",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Yeni Gine ormanlarının dantel tacı güvercini Victoria taçlı güvercin, bugün yaşayan en büyük güvercin türü olarak kabul ediliyor. 🕊️🌿\n\n#terrawildnature #ilginçbilgiler #güvercin",
+  "quiz": {
+    "yt_title": "Bu Güvercinin Başında Dantel Gibi Bir Taç Var",
+    "facts": [
+      {
+        "title": "DEVASA GÜVERCİN",
+        "text": "Yaşayan güvercin türlerinin en büyüğü olarak kabul ediliyor."
+      },
+      {
+        "title": "BEYAZ UÇLU TAÇ",
+        "text": "Başındaki tüyler dantele benzer ve uçları bembeyaz."
+      },
+      {
+        "title": "YERDE YAŞAM",
+        "text": "Zamanının çoğunu orman zemininde düşmüş meyve arayarak geçiriyor."
+      }
+    ],
+    "en": {
+      "title": "This Pigeon Wears a Lace Crown. Can You Name It?",
+      "description": "The Victoria crowned pigeon is regarded as the largest living pigeon. Its lace-like blue crest is tipped with white, and it spends most of its time on the forest floor looking for fallen fruit."
+    }
+  }
+}

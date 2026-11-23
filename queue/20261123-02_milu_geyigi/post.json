@@ -1,0 +1,112 @@
+{
+  "name": "père david geyiği",
+  "group": "memeli",
+  "hook_style": "benzetme",
+  "title": [
+    [
+      [
+        "BU GEYİĞİN ÇİNCE ADI",
+        "W"
+      ]
+    ],
+    [
+      [
+        "“DÖRDÜNE ",
+        "W"
+      ],
+      [
+        "BENZEMEZ”",
+        "R"
+      ]
+    ],
+    [
+      [
+        "DEMEK",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "PÈRE DAVID GEYİĞİ",
+  "card_top": [
+    "Çin'de 'sibuxiang' yani",
+    "'dördüne benzemez' denir."
+  ],
+  "card_bottom": [
+    "19. yy sonunda neredeyse yok",
+    "oldu; bugünkü tüm bireyler",
+    "tek bir Avrupa sürüsünden."
+  ],
+  "right": [
+    "Çin'in subtropik nehir",
+    "vadilerine özgü. İyi yüzer,",
+    "omuzlarına kadar suda durur.",
+    "Boynuz dalları geriye bakar;",
+    "toynakları yürürken tıkırdar."
+  ],
+  "loc": "Çin",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.72,
+      "zoom": 1.0
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.78,
+      "cy": 0.5,
+      "zoom": 1.6
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.42,
+      "cy": 0.5,
+      "zoom": 1.6
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Elaphurus davidianus sitting on the ground.jpg",
+      "author": "Canuckle at English Wikipedia",
+      "license": "Public domain",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Père David's deer (Elaphurus davidianus) striding through water at Bronx Zoo August 2026.jpg",
+      "author": "SnowFire",
+      "license": "CC BY 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Elaphurus davidianus - Kunming Zoo - DSC04399.JPG",
+      "author": "Daderot",
+      "license": "Public domain",
+      "public_domain": true
+    }
+  ],
+  "caption": "Çin'de \"dördüne benzemez\" anlamına gelen sibuxiang adıyla bilinen Père David geyiği, 19. yüzyıl sonunda neredeyse yok olduktan sonra Avrupa'daki tek bir sürü sayesinde bugüne ulaştı. 🦌🌿\n\n#terrawildnature #ilginçbilgiler #milugeyiği\n\n📷 SnowFire (CC BY 4.0) / Wikimedia Commons",
+  "quiz": {
+    "yt_title": "Bu Geyiğin Çince Adı “Dördüne Benzemez” Demek",
+    "facts": [
+      {
+        "title": "DÖRDÜNE BENZEMEZ",
+        "text": "Çin'deki adı, dört hayvana da benzemeyen anlamına geliyor."
+      },
+      {
+        "title": "TEK SÜRÜDEN",
+        "text": "Bugün yaşayan bütün bireyler Avrupa'daki tek bir sürüden geliyor."
+      },
+      {
+        "title": "SUDA YAŞAM",
+        "text": "İyi yüzer ve omuzlarına kadar suda uzun süre durabilir."
+      }
+    ],
+    "en": {
+      "title": "This Deer's Chinese Name Means 'Not Like the Four'",
+      "description": "Père David's deer is known in China as sibuxiang, meaning 'four not alike'. It was nearly wiped out by the late 19th century, and every deer alive today descends from a single herd in Europe. It swims well and can stand shoulder-deep in water."
+    }
+  }
+}
