@@ -19,10 +19,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 API = "https://graph.facebook.com/v26.0/"
 ACCOUNT = "act_1960605268679679"
-ADSET = "120252142480490010"            # campaign "Terra Takipçi Profil (Afiş)": best posters + 4 audience test sets
+ADSET = "120252142480490010"            # campaign "Terra Takipçi Profil (Afiş)": since 23 Nov only Hayvanseverler + Aileler sets, 165 TL/day each
 START = dt.date(2026, 11, 19)
 MAX_COST_PER_FOLLOWER = 10.0            # TL, owner's limit
 LEARNING_SPEND = 1000.0                 # TL spent before the cost rule may pause anything
+WINDOW_DAYS = 3                         # cost rule judges the latest days, not the whole run (owner, 23 Nov)
+WINDOW_SPEND = 500.0                    # TL the window must hold before it may pause
 MAX_FREQUENCY = 4.0                     # average views per person; above this the video is worn out
 TOKEN = os.environ.get("META_ADS_TOKEN", "")
 
@@ -48,7 +50,9 @@ def followers():
     days = (last - START).days
     gained = rows[last] - rows[START]
     return {"start": rows[START], "now": rows[last], "date": last.isoformat(), "organic_per_day": round(organic, 1),
-            "gained": gained, "extra_from_ad": round(gained - organic * days)}
+            "gained": gained, "extra_from_ad": round(gained - organic * days),
+            "window": {"since": (last - dt.timedelta(days=WINDOW_DAYS)).isoformat(),
+                       "gained": rows[last] - rows.get(last - dt.timedelta(days=WINDOW_DAYS), rows[START])}}
 
 
 def issue(title, body):
@@ -69,7 +73,12 @@ def main():
                 fields="spend,impressions,reach,frequency,video_thruplay_watched_actions").get("data") or [{}])[0]
     spend = float(ins.get("spend", 0))
     f = followers()
-    cpf = spend / f["extra_from_ad"] if f["extra_from_ad"] > 0 else None
+    w = f["window"]
+    until = (dt.date.fromisoformat(f["date"]) - dt.timedelta(days=1)).isoformat()
+    wins = (call(f"{ACCOUNT}/insights", fields="spend",
+                 time_range=json.dumps({"since": w["since"], "until": until})).get("data") or [{}])[0]
+    w["spend"] = float(wins.get("spend", 0))
+    cpf = w["spend"] / w["gained"] if w["gained"] > 0 else None     # TL per new follower in the window
     stats = {"checked": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"), "adset_status": adset.get("effective_status"),
              "spend_try": spend, "reach": int(ins.get("reach", 0)), "impressions": int(ins.get("impressions", 0)),
              "frequency": round(float(ins.get("frequency", 0)), 2),
@@ -80,9 +89,9 @@ def main():
 
     summary = (f"Harcama: {spend:.0f} TL · erişim {stats['reach']} · sıklık {stats['frequency']}\n"
                f"Takipçi: {f['start']} → {f['now']} (reklamsız beklenen artışın üstünde +{f['extra_from_ad']})\n"
-               f"Takipçi başı maliyet: {stats['cost_per_extra_follower'] or '—'} TL")
+               f"Son {WINDOW_DAYS} gün: {w['spend']:.0f} TL, +{w['gained']} takipçi → takipçi başı {stats['cost_per_extra_follower'] or '—'} TL")
     if adset.get("effective_status") == "ACTIVE":
-        if spend >= LEARNING_SPEND and (cpf is None or cpf > MAX_COST_PER_FOLLOWER):
+        if spend >= LEARNING_SPEND and w["spend"] >= WINDOW_SPEND and (cpf is None or cpf > MAX_COST_PER_FOLLOWER):
             r = call(ADSET, method="POST", status="PAUSED")
             issue("Reklam durduruldu: takipçi başı maliyet 10 TL'yi aştı",
                   f"{summary}\n\nSınır {MAX_COST_PER_FOLLOWER:.0f} TL. Meta yanıtı: {r}\n"
