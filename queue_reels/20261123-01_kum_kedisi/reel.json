@@ -1,0 +1,166 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Dreamlike.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Felis margarita 14.jpg",
+  "p2.jpg": "File:Felis margarita 7.jpg",
+  "p3.jpg": "File:Felis margarita 6.jpg",
+  "p4.jpg": "File:Felis margarita 15.jpg",
+  "p5.jpg": "File:Felis margarita 5.jpg",
+  "p6.jpg": "File:Felis margarita 12.jpg",
+  "p7.jpg": "File:Felis margarita 9.jpg",
+  "p8.jpg": "File:Felis margarita 2.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu kedinin ayak izini sürmek neredeyse imkânsız.",
+   "image": "p1.jpg",
+   "cx": 0.2,
+   "cy": 0.35,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kum kedisi, su kaynaklarından uzak kumlu ve taşlı çöllerde yaşıyor.",
+   "image": "p2.jpg",
+   "cx": 0.6,
+   "cy": 0.25,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Pati tabanlarını kaplayan uzun tüyler, ayaklarını kızgın kumdan koruyor.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.25,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Kulak kanalı evcil kediden yaklaşık iki kat geniş ve işitmesi çok daha keskin.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Kulakları başının yanlarında alçakta durduğu için yer altındaki avı bile duyabiliyor.",
+   "image": "p5.jpg",
+   "cx": 0.6,
+   "cy": 0.35,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Gündüzleri yer altındaki yuvasında dinleniyor, geceleri avlanıyor.",
+   "image": "p6.jpg",
+   "cx": 0.25,
+   "cy": 0.35,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Küçük kemirgenleri ve kuşları yiyor, zehirli yılanları bile öldürüp tüketiyor.",
+   "image": "p7.jpg",
+   "cx": 0.65,
+   "cy": 0.3,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.3,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p3.jpg",
+  "cx": 0.5,
+  "cy": 0.3,
+  "title": [
+   [
+    [
+     "BU KEDİNİN",
+     "R"
+    ]
+   ],
+   [
+    [
+     "İZİNİ",
+     "W"
+    ]
+   ],
+   [
+    [
+     "SÜRMEK",
+     "W"
+    ]
+   ],
+   [
+    [
+     "İMKÂNSIZ",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "memeli",
+ "hook_style": "gizem",
+ "yt_title": "Bu Kedinin İzini Sürmek Neredeyse İmkânsız: Kum Kedisi",
+ "en": {
+  "title": "This Cat Leaves Almost No Trail: The Sand Cat",
+  "description": "The sand cat's furry paws shield it from scorching sand, its huge ear canals hear prey underground, and it even kills and eats venomous snakes."
+ },
+ "caption": "Kum kedisi, pati tabanlarını kaplayan uzun tüyler sayesinde kızgın çölde yürüyor ve geride belirsiz izler bırakıyor. 🐱🏜️\n\n#terrawildnature #kumkedisi\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "File:Felis margarita 14.jpg",
+   "author": "TimVickers",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:Felis margarita 7.jpg",
+   "author": "TimVickers",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:Felis margarita 6.jpg",
+   "author": "TimVickers",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:Felis margarita 15.jpg",
+   "author": "TimVickers",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:Felis margarita 5.jpg",
+   "author": "TimVickers",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:Felis margarita 12.jpg",
+   "author": "TimVickers",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:Felis margarita 9.jpg",
+   "author": "TimVickers",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:Felis margarita 2.jpg",
+   "author": "TimVickers",
+   "license": "Public domain",
+   "public_domain": true
+  }
+ ]
+}

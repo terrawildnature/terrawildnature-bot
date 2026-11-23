@@ -408,3 +408,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: rapor yeniden okunmadı; kuyruklar dolu (önceki bulgular: memeli, sayı kancası, deniz omurgasızı güçlü).
 - Bugün uygulanan: gönderi 15/15, Reels 9/9 (zz_ quokka dahil), `queue_failed`/`queue_reels_failed` yok; yeni içerik üretilmedi.
 - Sonra kontrol et: paylaşımlar sonrası kuyruk düşünce sürüngen/deniz omurgasızı + sayı kancası; Reels'te gizem kancası dene. `zz_20261106-01_quokka` hâlâ kuyrukta.
+
+## 2026-11-23 (gece çalıştırması)
+- Rapordan öğrenilen: gönderide memeli skor 2,19 (21 paylaşım), sayı/benzetme/gizem kancaları güçlü; Reels'te gizem kancası 1,31 (içerik 1,39), memeli Reels içerik 0,67 zayıf.
+- Bugün uygulanan: gönderiler Père David geyiği (memeli, benzetme) ve Victoria taçlı güvercini (kuş, süperlatif, keşif); Reels kum kedisi (memeli, gizem, Dreamlike müziği). Armadillo, Irravadi yunusu, Filipin kartalı fotoğrafları kötü olduğu için elendi.
+- Sonra kontrol et: benzetme kancalı geyik gönderisinin ve gizem kancalı kum kedisi Reels'inin içerik değeri ≥1,0 mı; kuş gönderisi zayıf grupta kalıyor mu.
