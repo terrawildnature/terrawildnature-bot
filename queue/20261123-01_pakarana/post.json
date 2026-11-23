@@ -1,0 +1,94 @@
+{
+  "name": "pakarana",
+  "group": "memeli",
+  "hook_style": "sayı",
+  "title": [
+    [
+      [
+        "BU KEMİRGENİN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "YAKIN AKRABASI",
+        "W"
+      ]
+    ],
+    [
+      [
+        "500 KİLOLUK DEVDİ",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "PAKARANA",
+  "card_top": [
+    "Soyu tükenmiş 500 kiloluk",
+    "dev kemirgenin yaşayan akrabası."
+  ],
+  "card_bottom": [
+    "15 kiloya kadar çıkabilir, 79 cm",
+    "uzunlukta, iri kafalı ve hantal.",
+    "Adı \"sahte paka\" demektir."
+  ],
+  "right": [
+    "Batı Amazon havzasında ve",
+    "And eteklerinde yaşar.",
+    "Geceleri aktiftir, yavaş hareket",
+    "eder; yemeği ön patileriyle",
+    "tutup arka ayakları üstünde yer."
+  ],
+  "loc": "Batı Amazon",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.62,
+      "cy": 0.5,
+      "zoom": 1.1
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.62,
+      "cy": 0.5,
+      "zoom": 1.2
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.74,
+      "cy": 0.58,
+      "zoom": 2.2
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Dinomys branickii.JPG",
+      "author": "Benjamin Frable",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Batı Amazon'un yavaş kemirgeni pakarana, tarih öncesinin yaklaşık 500 kiloluk dev kemirgeni Josephoartigasia'nın bugün yaşayan en yakın akrabası. 🐀🌿\n\n#terrawildnature #ilginçbilgiler #pakarana",
+  "quiz": {
+    "yt_title": "Bu Kemirgenin Akrabası 500 Kiloluk Bir Devdi",
+    "facts": [
+      {
+        "title": "DEV AKRABA",
+        "text": "Soyu tükenmiş 500 kiloluk dev kemirgenin yaşayan en yakın akrabası."
+      },
+      {
+        "title": "SAHTE PAKA",
+        "text": "Adı yerli dilde sahte paka demek, çünkü pakaya benziyor."
+      },
+      {
+        "title": "15 KİLOYA KADAR",
+        "text": "İri bir kemirgen; ağırlığı on beş kiloya kadar çıkabiliyor."
+      }
+    ],
+    "en": {
+      "title": "This Rodent's Relative Weighed 500 kg. Name It?",
+      "description": "The pacarana is the closest living relative of a giant extinct rodent that weighed around 500 kg. Its name means false paca, and it can weigh up to 15 kg."
+    }
+  }
+}

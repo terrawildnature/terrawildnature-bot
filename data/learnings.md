@@ -393,3 +393,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: benzetme kancası (1,55) ve deniz omurgasızı (1,82) güçlü; memeli (2,57) en güçlü ama son kuyrukta memeli çoktu.
 - Bugün uygulanan: Gönderi 14→15: mavi ejderha deniz salyangozu (deniz omurgasızı, benzetme kancası; iNat CC BY/CC BY-SA + Commons PD). Dev armadillo ve Pteraeolidia PD fotoğrafları (arkadan/sönük) yüzünden elendi. Reels 9/9 dolu.
 - Sonra kontrol et: benzetme kancalı nudibranch gönderisinin içerik değeri.
+
+## 2026-11-23 (sabah çalıştırması)
+- Rapordan öğrenilen: memeli gönderi skoru 2,57, sayı kancası 2,08 (en güçlü ikili); amfibi/balık/böcek zayıf.
+- Bugün uygulanan: Gönderi 14→15: pakarana (memeli, sayı kancası: "500 kiloluk dev" akraba). Solenodon elendi (ölü/doldurulmuş hayvan fotoğrafı). Reels 9/9 dolu.
+- Sonra kontrol et: pakarana gönderisinin içerik değeri; tek fotoğraflı (3 kırpma) gönderiler zayıf mı kalıyor.
