@@ -1,0 +1,163 @@
+{
+ "name": "dev sengi",
+ "group": "memeli",
+ "hook_style": "gizem",
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Investigations.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Tierpark Hellabrunn 003.jpg",
+  "p2.jpg": "File:Antwerpen Zoo Steppeslurfhondje 2592.jpg",
+  "p3.jpg": "File:Rhynchocyon petersi two.JPG",
+  "p4.jpg": "File:Antwerpen Zoo Steppeslurfhondje 2836.jpg",
+  "p5.jpg": "File:Rhynchocyon (7973324982).jpg",
+  "p6.jpg": "File:Antwerpen Zoo Steppeslurfhondje 2593.jpg",
+  "p7.jpg": "File:Steppeslurfhondje (14783895009).jpg",
+  "p8.jpg": "File:Antwerpen Zoo Steppeslurfhondje 2837.jpg",
+  "p9.jpg": "File:Rhynchocyon petersi - Diergaarde Blijdorp 1.jpg"
+ },
+ "segments": [
+  {
+   "text": "Adı fil faresi ama asıl akrabası fil.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Siyah kırmızı dev sengi, Kenya ve Tanzanya ormanlarında yaşıyor.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Boyu yaklaşık yirmi sekiz santim, ağırlığı yediyüz grama kadar çıkıyor.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Uzun, esnek burnuyla toprağı eşeleyip böcekleri buluyor.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Termitleri, böcekleri ve çokayaklıları diliyle toplayıp yiyor.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Genellikle tek eşli çiftler halinde yaşayıp hektar büyüklüğündeki bölgelerini sahipleniyor.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Sengiler, kaydedilen en hızlı küçük memelilerden; saatte yirmi sekiz kilometreye ulaşabiliyor.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Yuvasını yerde, ağaç diplerindeki kuru yapraklardan yapıyor.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  }
+ ],
+ "cover": {
+  "image": "p7.jpg",
+  "cx": 0.38,
+  "cy": 0.55,
+  "title": [
+   [
+    [
+     "ADI FİL",
+     "R"
+    ]
+   ],
+   [
+    [
+     "FARESİ AMA",
+     "W"
+    ]
+   ],
+   [
+    [
+     "AKRABASI",
+     "W"
+    ]
+   ],
+   [
+    [
+     "FİL",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "yt_title": "Adı Fil Faresi Ama Akrabası Fil: Dev Sengi",
+ "en": {
+  "title": "Named Elephant Shrew, Related to Elephants: Sengi",
+  "description": "The black and rufous giant sengi of Kenya and Tanzania is called an elephant shrew, but its closest relatives are elephants. It digs insects out of the soil with its flexible snout, lives in monogamous pairs and defends hectare-sized territories."
+ },
+ "caption": "Adı fil faresi olsa da asıl akrabası fil olan siyah kırmızı dev sengi, esnek burnuyla toprağı eşeleyip böcekleri buluyor ve hektar büyüklüğündeki bölgesini sahipleniyor. 🐾🌿\n\n#terrawildnature #devsengi\n\n📷 Dosseman (CC BY-SA 4.0), Lennart Tange (CC BY 2.0), Tim Strater (CC BY-SA 2.0), Charele (CC BY-SA 3.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "File:Tierpark Hellabrunn 003.jpg",
+   "author": "Edelmauswaldgeist",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "File:Rhynchocyon petersi two.JPG",
+   "author": "ZeWrestler",
+   "license": "Public domain",
+   "public_domain": true
+  },
+  {
+   "title": "File:Antwerpen Zoo Steppeslurfhondje 2592 / 2593 / 2836 / 2837.jpg",
+   "author": "Dosseman",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Rhynchocyon (7973324982).jpg",
+   "author": "Lennart Tange",
+   "license": "CC BY 2.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Steppeslurfhondje (14783895009).jpg",
+   "author": "Tim Strater",
+   "license": "CC BY-SA 2.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Rhynchocyon petersi - Diergaarde Blijdorp 1.jpg",
+   "author": "Charele",
+   "license": "CC BY-SA 3.0",
+   "public_domain": false
+  }
+ ]
+}
