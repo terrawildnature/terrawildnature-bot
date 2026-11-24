@@ -1,0 +1,36 @@
+{
+  "name": "gergedan iguanası",
+  "group": "sürüngen",
+  "hook_style": "sayı",
+  "title": [
+    [["BU KERTENKELE", "W"]],
+    [["TEK SEFERDE", "W"], ["34", "R"]],
+    [["YUMURTA BIRAKIYOR", "R"]]
+  ],
+  "card_title": "GERGEDAN İGUANASI",
+  "card_top": ["Burnundaki kemikli çıkıntılar", "ona gergedan adını verdi."],
+  "card_bottom": ["Boyu 60-136 cm, ağırlığı genelde", "4,5-9 kg'dır. Çoğunlukla yaprak,", "çiçek ve meyve yiyen uysal bir tür."],
+  "right": ["Haiti ve Dominik Cumhuriyeti'nin", "yer aldığı Hispaniola adasında", "yaşar. Dişi 2 ile 34 arasında,", "ortalama 17 yumurta bırakır;", "kuluçka yaklaşık 85 gün sürer."],
+  "loc": "Karayipler",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.62, "cy": 0.38, "zoom": 1.2},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.35, "cy": 0.55, "zoom": 1.5},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.7, "cy": 0.5, "zoom": 1.3}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Mona island iguana in grass cyclura cornuta stejnegeri.jpg", "author": "Morel Mike, U.S. Fish and Wildlife Service", "license": "Public domain", "public_domain": true},
+    {"use": "top", "title": "File:Lto-tpbof-cyclura-cornuta-01.JPG", "author": "LordToran", "license": "Public domain", "public_domain": true},
+    {"use": "inner", "title": "File:Lto-tpbof-cyclura-cornuta-04.JPG", "author": "LordToran", "license": "Public domain", "public_domain": true}
+  ],
+  "caption": "Karayipler'deki Hispaniola adasının burnu boynuzlu sakini gergedan iguanası, tek seferde 2 ile 34 arasında yumurta bırakıyor ve yaklaşık 85 günlük kuluçkayla yavrularını dünyaya getiriyor. 🦎🌴\n\n#terrawildnature #ilginçbilgiler #gergedaniguanası",
+  "quiz": {
+    "yt_title": "Bu Kertenkelenin Burnunda Boynuz Var. Adını Biliyor musun?",
+    "facts": [
+      {"title": "BURNUNDA BOYNUZ", "text": "Burnundaki kemikli, plakalı çıkıntılar özellikle erkeklerde belirgin."},
+      {"title": "ÇOK YUMURTA", "text": "Dişi tek seferde ikiyle otuz dört arasında yumurta bırakıyor."},
+      {"title": "UYSAL OBURCU", "text": "Çoğunlukla yaprak, çiçek, tohum ve meyveyle besleniyor."}
+    ],
+    "en": {"title": "This Lizard Has a Horn on Its Nose. Name It?",
+           "description": "This is the rhinoceros iguana of Hispaniola. Bony, plated bumps on its snout give it its name, and females lay between 2 and 34 eggs at a time. It mostly eats leaves, flowers, seeds and fruit."}
+  }
+}
