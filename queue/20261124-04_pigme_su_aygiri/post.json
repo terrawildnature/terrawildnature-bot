@@ -1,0 +1,36 @@
+{
+  "name": "pigme su aygırı",
+  "group": "memeli",
+  "hook_style": "sayı",
+  "title": [
+    [["BU SU AYGIRI", "W"]],
+    [["AKRABASININ", "W"], ["ÇEYREĞİ", "R"]],
+    [["KADAR AĞIR", "R"]]
+  ],
+  "card_title": "PİGME SU AYGIRI",
+  "card_top": ["Yetişkini 180-275 kg gelir;", "sıradan su aygırının 1/4'ünden az."],
+  "card_bottom": ["Derisi pembemsi bir salgı", "çıkarır; \"kan teri\" denir ama", "ne ter ne kan, güneşe karşı korur."],
+  "right": ["Batı Afrika ormanlarında,", "çoğunlukla Liberya'da yaşar.", "Gece aktif, çekingen bir türdür.", "Vahşi doğada 2.500'den", "az birey kaldığı tahmin ediliyor."],
+  "loc": "Batı Afrika",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.62, "cy": 0.42, "zoom": 1.1},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.62, "cy": 0.42, "zoom": 1.2},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.25, "cy": 0.55, "zoom": 1.6}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Pygmy hippopotamus hungry.jpg", "author": "Chuckupd", "license": "Public domain", "public_domain": true},
+    {"use": "top", "title": "File:Pygmy hippopotamus pair.jpg", "author": "Chuckupd", "license": "Public domain", "public_domain": true},
+    {"use": "inner", "title": "File:Choeropsis liberiensis, Pretoria-dieretuin.jpg", "author": "JMK", "license": "CC BY-SA 4.0", "public_domain": false}
+  ],
+  "caption": "Batı Afrika ormanlarının çekingen gece sakini pigme su aygırı, yetişkinken sıradan su aygırının dörtte birinden azı kadar ağırlıkta ve derisinden güneşe karşı koruyan pembemsi bir salgı çıkarıyor. 🦛🌿\n\n#terrawildnature #ilginçbilgiler #pigmesuaygırı\n\n📷 JMK (CC BY-SA 4.0) / Wikimedia Commons",
+  "quiz": {
+    "yt_title": "Bu Hayvan Pembe Salgı Çıkarıyor. Adını Biliyor musun?",
+    "facts": [
+      {"title": "MİNİK DEV", "text": "Yetişkini yalnızca 180 ile 275 kilo arasında ağırlığa ulaşıyor."},
+      {"title": "PEMBE SALGI", "text": "Derisinden güneşe karşı koruyan pembemsi bir madde salgılıyor."},
+      {"title": "İZ BIRAKIYOR", "text": "Kuyruğunu sallayarak dışkısını savuruyor ve orman yollarını işaretliyor."}
+    ],
+    "en": {"title": "This Animal Sweats Pink. Can You Name It?",
+           "description": "This is the pygmy hippo of West Africa. Adults weigh only 180 to 275 kilograms, less than a quarter of a common hippo. Its skin secretes a pinkish substance that protects against the sun, and it marks forest trails by spraying dung with its tail."}
+  }
+}
