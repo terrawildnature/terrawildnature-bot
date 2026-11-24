@@ -1,0 +1,35 @@
+{
+  "name": "grévy zebrası",
+  "group": "memeli",
+  "hook_style": "sayı",
+  "title": [
+    [["BU ZEBRA", "W"]],
+    [["450 KİLOYA", "W"], ["ÇIKAN", "R"]],
+    [["DEV BİR YABAN ATI", "R"]]
+  ],
+  "card_title": "GRÉVY ZEBRASI",
+  "card_top": ["Yabani atgillerin en büyüğü;", "350-450 kg ağırlığa ulaşır."],
+  "card_bottom": ["Çizgileri tüm zebraların en", "ince ve sıkı olanı; karnı ve", "kuyruk altı düz beyazdır."],
+  "right": ["Kuzey Kenya ve Etiyopya'da", "yaşar. Kulakları büyük ve", "yuvarlak, katır gibidir.", "Gebelik yaklaşık 390 gün sürer.", "Doğada 2.250 kadar birey kaldı."],
+  "loc": "Doğu Afrika",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.58, "cy": 0.42, "zoom": 1.3},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.45, "cy": 0.5, "zoom": 1.3},
+    "inner": {"file": "photo_top.jpg",   "cx": 0.31, "cy": 0.38, "zoom": 2.4}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Grevy's Zebra (Equus grevyi) stallion ... (48984933023).jpg", "author": "Bernard DUPONT", "license": "CC BY-SA 2.0", "public_domain": false},
+    {"use": "top", "title": "File:Equus grevyi in Kenya (male).jpg", "author": "Kevin Walsh", "license": "CC BY 2.0", "public_domain": false}
+  ],
+  "caption": "Kuzey Kenya'nın otlaklarında yaşayan Grévy zebrası, 450 kiloya kadar çıkan ağırlığıyla yabani atgillerin en büyüğü ve çizgileri tüm zebraların en incesi. 🦓🌍\n\n#terrawildnature #ilginçbilgiler #grévyzebrası\n\n📷 Bernard DUPONT (CC BY-SA 2.0), Kevin Walsh (CC BY 2.0) / Wikimedia Commons",
+  "quiz": {
+    "yt_title": "Bu Zebra Yabani Atların En Büyüğü. Adını Biliyor musun?",
+    "facts": [
+      {"title": "EN BÜYÜK YABAN ATI", "text": "Yabani atgillerin en büyüğü; 450 kiloya kadar çıkabiliyor."},
+      {"title": "EN İNCE ÇİZGİLER", "text": "Çizgileri tüm zebralar arasında en dar ve en sık olanı."},
+      {"title": "DEV KULAKLAR", "text": "Kulakları büyük, yuvarlak ve konik; ona katır gibi bir görünüm veriyor."}
+    ],
+    "en": {"title": "This Zebra Is the Largest Wild Horse. Name It?",
+           "description": "This is Grévy's zebra, the largest wild equine, weighing up to 450 kilograms. Its stripes are the narrowest and most closely set of any zebra, and its large, rounded ears give it a mule-like look."}
+  }
+}
