@@ -1,0 +1,112 @@
+{
+  "name": "güney kırmızı muntjak",
+  "group": "memeli",
+  "hook_style": "sayı",
+  "title": [
+    [
+      [
+        "BU GEYİĞİN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "SADECE",
+        "W"
+      ],
+      [
+        " 6-7",
+        "R"
+      ]
+    ],
+    [
+      [
+        "KROMOZOMU VAR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "KIRMIZI MUNTJAK",
+  "card_top": [
+    "Memeliler arasında en az",
+    "kromozoma sahip: erkekte 7."
+  ],
+  "card_bottom": [
+    "Erkeklerin kısa boynuzu var;",
+    "kavgada aşağı bakan köpek",
+    "dişlerini kullanırlar."
+  ],
+  "right": [
+    "Güney ve Güneydoğu Asya'nın",
+    "sık ormanlarında yaşar.",
+    "Sesi havlamaya benzediği için",
+    "'havlayan geyik' de denir.",
+    "Çiftleşme her mevsim olur."
+  ],
+  "loc": "Güneydoğu Asya",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.42,
+      "cy": 0.42,
+      "zoom": 1.15
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.55,
+      "cy": 0.6,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.78,
+      "cy": 0.55,
+      "zoom": 2.0
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Muntiacus muntjak (female).jpg",
+      "author": "Richard Fuller",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Southern red muntjac kanha np.jpg",
+      "author": "Davidvraju",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "File:Muntiacus muntjak 50960281.jpg",
+      "author": "Richard Fuller",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Güney kırmızı muntjak, memeliler arasında bilinen en düşük kromozom sayısına sahip: erkeğinde yalnızca 7, dişisinde 6 kromozom var. 🦌🧬\n\n#terrawildnature #ilginçbilgiler #muntjak",
+  "quiz": {
+    "yt_title": "Bu Geyiğin Sadece 7 Kromozomu Var. Adını Biliyor musun?",
+    "facts": [
+      {
+        "title": "EN AZ KROMOZOM",
+        "text": "Memeliler arasında en düşük kromozom sayısına sahip; erkeğinde yalnızca yedi var."
+      },
+      {
+        "title": "HAVLAYAN GEYİK",
+        "text": "Sesi köpek havlamasına benzediği için havlayan geyik diye de anılır."
+      },
+      {
+        "title": "AŞAĞI BAKAN DİŞLER",
+        "text": "Erkekler kavgada aşağıya doğru uzanan köpek dişlerini silah gibi kullanır."
+      }
+    ],
+    "en": {
+      "title": "This Deer Has Only 7 Chromosomes. Can You Name It?",
+      "description": "The southern red muntjac has the lowest chromosome number of any mammal: males have just 7 and females 6. Its call sounds like a bark, which is why muntjacs are called barking deer, and males fight with downward-pointing tusk-like canines."
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "name": "boksör karides",
+  "group": "deniz omurgasızı",
+  "hook_style": "tuhaf yetenek",
+  "title": [
+    [
+      [
+        "BU KARİDES DANS",
+        "W"
+      ]
+    ],
+    [
+      [
+        "EDEREK ",
+        "W"
+      ],
+      [
+        "BALIKLARI",
+        "R"
+      ]
+    ],
+    [
+      [
+        "ÇAĞIRIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "BOKSÖR KARİDES",
+  "card_top": [
+    "Antenlerini sallayarak dans",
+    "edip balıkları çağırır."
+  ],
+  "card_bottom": [
+    "Balıklardaki parazit ve",
+    "mantarları pençeleriyle",
+    "temizleyen bir temizlikçidir."
+  ],
+  "right": [
+    "Tüm tropik denizlerde yaşar.",
+    "En fazla 210 m derinde yaşar.",
+    "Boyu en fazla 6 santimetre.",
+    "Eşiyle tek eşli yaşar.",
+    "Hemcinsini kimyasalla tanır."
+  ],
+  "loc": "Tropik denizler",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.45,
+      "cy": 0.35,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "zoom": 1.1
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.6,
+      "cy": 0.4,
+      "zoom": 1.5
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Stenopus hispidus 420349417.jpg",
+      "author": "Jean-Paul Boerekamps",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Stenopus hispidus 420349501.jpg",
+      "author": "Jean-Paul Boerekamps",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "iNaturalist 71640300",
+      "author": "TheMongrelKoi",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Boksör karides, uzun beyaz antenlerini sallayıp dans ederek balıklara temizliğe hazır olduğunu duyuruyor ve parazitlerini yiyor. 🦐🌊\n\n#terrawildnature #ilginçbilgiler #boksörkarides",
+  "quiz": {
+    "yt_title": "Bu Karides Dans Ederek Müşteri Çağırıyor. Adı Ne?",
+    "facts": [
+      {
+        "title": "ANTEN DANSI",
+        "text": "Uzun antenlerini sallayarak balıklara temizliğe hazır olduğunu duyurur."
+      },
+      {
+        "title": "CANLI TEMİZLİKÇİ",
+        "text": "Balıkların üzerindeki parazit, mantar ve hasarlı dokuyu pençeleriyle temizler."
+      },
+      {
+        "title": "KİMYASAL ALGI",
+        "text": "Kendi türünden bireyleri kimyasal sinyallerle fark edebilir."
+      }
+    ],
+    "en": {
+      "title": "This Shrimp Dances to Call Fish Customers. Name It?",
+      "description": "The banded coral shrimp waves its long white antennae and dances to advertise cleaning services to passing fish, removing parasites, fungi and damaged tissue. It can also detect others of its species, likely through chemical signals."
+    }
+  }
+}

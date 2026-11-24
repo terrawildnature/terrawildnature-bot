@@ -1,0 +1,112 @@
+{
+  "name": "bantlı deniz kraiti",
+  "group": "sürüngen",
+  "hook_style": "sayı",
+  "title": [
+    [
+      [
+        "BU YILANI 5 KM",
+        "W"
+      ]
+    ],
+    [
+      [
+        "UZAĞA ",
+        "W"
+      ],
+      [
+        "BIRAKSAN",
+        "R"
+      ]
+    ],
+    [
+      [
+        "EVİNE DÖNER",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "BANTLI DENİZ KRAİTİ",
+  "card_top": [
+    "Zehri çok güçlü, ama sadece",
+    "tehdit altında saldırır."
+  ],
+  "card_bottom": [
+    "Kürek gibi kuyruğuyla yüzer;",
+    "kuyruğu başa benzediği için",
+    "yırtıcıları yanıltabilir."
+  ],
+  "right": [
+    "Hint-Pasifik sularında yaşar.",
+    "Zamanının yarısını karada,",
+    "yarısını denizde geçirir.",
+    "Yılan balıklarıyla beslenir.",
+    "Balıklarla ortak avlanır."
+  ],
+  "loc": "Hint-Pasifik",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.6,
+      "cy": 0.35,
+      "zoom": 1.4
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.62,
+      "cy": 0.72,
+      "zoom": 1.0
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.55,
+      "cy": 0.55,
+      "zoom": 1.8
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Serpiente marina de hocico ancho (Laticauda colubrina), Anilao, Filipinas, 2023-08-23, DD 06.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Serpiente marina de hocico ancho (Laticauda colubrina), Anilao, Filipinas, 2023-08-23, DD 04.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Serpiente marina de hocico ancho (Laticauda colubrina), Anilao, Filipinas, 2023-08-25, DD 133.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    }
+  ],
+  "caption": "Bantlı deniz kraiti avlanmak için uzak sulara açılsa da 5 kilometre ötedeki başka bir adaya götürüldüğünde bile kendi adasına geri dönüyor. 🐍🌊\n\n#terrawildnature #ilginçbilgiler #denizkraiti\n\n📷 Diego Delso (CC BY-SA 4.0) / Wikimedia Commons",
+  "quiz": {
+    "yt_title": "Bu Deniz Yılanı Evine Geri Dönmeyi Biliyor. Adı Ne?",
+    "facts": [
+      {
+        "title": "EVİNİ BULUYOR",
+        "text": "Uzak bir adaya bırakılsa bile kendi adasına geri dönüyor."
+      },
+      {
+        "title": "KUYRUK KANDIRMACASI",
+        "text": "Kuyruğu başına benzediği için yırtıcıları yanıltabiliyor."
+      },
+      {
+        "title": "YARI KARA YARI DENİZ",
+        "text": "Zamanının yarısını karada, yarısını denizde geçiriyor."
+      }
+    ],
+    "en": {
+      "title": "This Sea Snake Always Finds Its Way Home. Name It?",
+      "description": "The banded sea krait hunts eels in the sea but spends about half its time on land. Fijian kraits moved 5.3 km to other islands were found back on their home islands, and its tail looks like its head to confuse predators."
+    }
+  }
+}
