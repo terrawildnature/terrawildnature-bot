@@ -1,0 +1,143 @@
+{
+ "name": "kara makasgaga",
+ "group": "kuş",
+ "hook_style": "tuhaf görünüm",
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Long_Road_Ahead.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Black skimmer (Rynchops niger) in flight Pantanal 2.jpg",
+  "p2.jpg": "File:Black skimmer (Rynchops niger) in flight.jpg",
+  "p3.jpg": "File:Black skimmer (Rynchops niger) in flight with fish Pantanal.jpg",
+  "p4.jpg": "File:Rynchops niger (Black Skimmer) 19.jpg",
+  "p5.jpg": "File:Black skimmer (Rynchops niger) Pantanal.jpg",
+  "p6.jpg": "File:Black Skimmer (Rynchops niger) before take-off ... (48408820607).jpg",
+  "p7.jpg": "File:Black skimmer (Rynchops niger) in flight Pantanal.jpg",
+  "p8.jpg": "File:Black Skimmer Skimming.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu kuşun alt gagası üst gagasından belirgin biçimde daha uzun.",
+   "image": "p1.jpg",
+   "cx": 0.45,
+   "cy": 0.6,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Amerika kıtalarında yaşıyor.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Kara makasgaga, suyun üzerinde alçaktan uçup alt gagasını yüzeye değdiriyor.",
+   "image": "p3.jpg",
+   "cx": 0.55,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Bir şeye çarptığında gagasını kapatıp balığı dokunarak yakalıyor.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Gece de avlanabilen bu kuşun gözlerinde kedininki gibi dikey bir göz bebeği var.",
+   "image": "p5.jpg",
+   "cx": 0.6,
+   "cy": 0.6,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kırk ila elli santim boyunda, kanat açıklığı yüz yedi ile yüz yirmi yedi santim.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kum adalarda ve kumsallarda gruplar halinde yuva yapıp üç ile yedi yumurta bırakıyor.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.6,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p8.jpg",
+   "cx": 0.55,
+   "cy": 0.6,
+   "motion": "pan_left"
+  }
+ ],
+ "cover": {
+  "image": "p6.jpg",
+  "cx": 0.4,
+  "cy": 0.4,
+  "title": [
+   [
+    [
+     "ALT GAGASI",
+     "R"
+    ]
+   ],
+   [
+    [
+     "ÜSTTEN UZUN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "SUYA DEĞİP",
+     "W"
+    ]
+   ],
+   [
+    [
+     "AVLANIYOR",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "yt_title": "Alt Gagası Uzun, Suyu Yarıp Avlanıyor: Kara Makasgaga",
+ "en": {
+  "title": "The Bird That Fishes With Its Beak: Black Skimmer",
+  "description": "The black skimmer's lower bill is much longer than the upper. It flies low over the water, skimming the surface, and catches fish by touch. It even has cat-like vertical pupils, unique among birds, and nests in groups on sandbanks."
+ },
+ "caption": "Alt gagası üst gagasından çok daha uzun olan kara makasgaga, suyun üzerinde alçaktan uçup gagasını yüzeye değdirerek balıkları dokunarak yakalıyor. 🐦🌊\n\n#terrawildnature #karamakasgaga\n\n📷 Charles J. Sharp (CC BY-SA 4.0), Bernard DUPONT (CC BY-SA 2.0), Chuck Homler (CC BY-SA 4.0), gary_leavens (CC BY-SA 2.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "File:Black skimmer (Rynchops niger) Pantanal (4 fotoğraf)",
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Black Skimmer (Rynchops niger) (3 fotoğraf)",
+   "author": "Bernard DUPONT",
+   "license": "CC BY-SA 2.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Black Skimmer Skimming.jpg",
+   "author": "Chuck Homler",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Rynchops niger (Black Skimmer) 19.jpg",
+   "author": "gary_leavens",
+   "license": "CC BY-SA 2.0",
+   "public_domain": false
+  }
+ ]
+}
