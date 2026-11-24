@@ -1,0 +1,131 @@
+{
+ "name": "kara antilop",
+ "group": "memeli",
+ "hook_style": "sayı",
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Call_to_Adventure.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Sable antelope (Hippotragus niger) adult male.jpg",
+  "p2.jpg": "File:Sable Antelope (Hippotragus niger) male ... (51694657893).jpg",
+  "p3.jpg": "File:Sable Antelopes (Hippotragus niger) herd ... (51573456958).jpg",
+  "p4.jpg": "File:Sable Antelope (Hippotragus niger) male ... (50111606168).jpg",
+  "p5.jpg": "File:Sable Antelopes (Hippotragus niger) male with 2 females ... (50111599078).jpg",
+  "p6.jpg": "File:Sable antelope (Hippotragus niger) young male.jpg",
+  "p7.jpg": "File:Sable Antelope (Hippotragus niger) adult male ... (31231365457).jpg",
+  "p8.jpg": "File:Sable Antelope (Hippotragus niger) male grazing ... (52321905690).jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu antilopun boynuzları yüz altmış beş santime kadar uzuyor.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kara antilop, Güney Kenya'dan Güney Afrika'ya kadar uzanan bölgede yaşıyor.",
+   "image": "p2.jpg",
+   "cx": 0.7,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Erkekler yaklaşık iki yüz otuz beş kilo geliyor.",
+   "image": "p3.jpg",
+   "cx": 0.45,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Dişiler ve gençler kızıl kahverengi; erkekler üç yaşından sonra siyaha dönüyor.",
+   "image": "p4.jpg",
+   "cx": 0.7,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Sürüler bir erkek önderliğinde on ila otuz dişi ve yavrudan oluşuyor.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Aslan gibi yırtıcılara karşı dönüp boynuzlarıyla saplayarak karşılık veriyor.",
+   "image": "p6.jpg",
+   "cx": 0.8,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Beslenmesinin yüzde doksanını ağaç yaprakları oluşturuyor.",
+   "image": "p7.jpg",
+   "cx": 0.45,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p8.jpg",
+   "cx": 0.8,
+   "cy": 0.5,
+   "motion": "pan_left"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.75,
+  "cy": 0.5,
+  "title": [
+   [
+    [
+     "165 CM'LİK",
+     "R"
+    ]
+   ],
+   [
+    [
+     "BOYNUZLARI",
+     "W"
+    ]
+   ],
+   [
+    [
+     "OLAN BU",
+     "W"
+    ]
+   ],
+   [
+    [
+     "ANTİLOP",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "yt_title": "165 cm Boynuzlu Dev Antilop: Kara Antilop",
+ "en": {
+  "title": "The Antelope With 165 cm Horns: Sable Antelope",
+  "description": "The sable antelope's horns can grow up to 165 centimeters. Males weigh around 235 kilograms and turn black after about three years. When threatened by predators like lions, they turn and fight, impaling attackers with their horns."
+ },
+ "caption": "Boynuzları 165 santime kadar uzayan kara antilop, aslan gibi yırtıcılarla karşılaştığında dönüp boynuzlarıyla karşılık veriyor ve erkekleri üç yaşından sonra simsiyah oluyor. 🦌🌍\n\n#terrawildnature #karaantilop\n\n📷 Charles J. Sharp (CC BY-SA 4.0), Bernard DUPONT (CC BY-SA 2.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "File:Sable antelope (Hippotragus niger) (2 fotoğraf)",
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Sable Antelope(s) (Hippotragus niger) (6 fotoğraf)",
+   "author": "Bernard DUPONT",
+   "license": "CC BY-SA 2.0",
+   "public_domain": false
+  }
+ ]
+}

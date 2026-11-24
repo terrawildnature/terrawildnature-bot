@@ -445,3 +445,4 @@ dev sengi (Reels) | Rhynchocyon petersi
 grévy zebrası | Equus grevyi
 gergedan iguanası | Cyclura cornuta
 kara makasgaga (Reels) | Rynchops niger
+kara antilop (Reels) | Hippotragus niger

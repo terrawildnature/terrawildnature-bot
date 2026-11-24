@@ -423,3 +423,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: memeli gönderi skoru 2,19, sayı kancası 1,84 güçlü; Reels'te gizem kancası 1,31 (içerik 1,39).
 - Bugün uygulanan: gönderi 14→15: pigme su aygırı (memeli, sayı: 1/4'ünden az ağırlık); Reels 8→9: dev sengi (memeli, gizem: "adı fil faresi ama akrabası fil", Investigations müziği). Kafesli çıkan ilk pigme hipo kapak fotoğrafı ve model/müze Latimeria fotoğrafları elendi.
 - Sonra kontrol et: pigme su aygırı gönderisinin ve gizem kancalı sengi Reels'inin içerik değeri ≥1,0 mı.
+
+## 2026-11-24 (akşam çalıştırması)
+- Rapordan öğrenilen: memeli gönderi skoru 2,03, sayı kancası 1,73 güçlü; tuhaf görünüm/tuhaf yetenek (0,69) ve balık/böcek/amfibi zayıf. Reels'te süperlatif kancası zayıf (0,68), Reels'te sürüngen ve kuş ortalama (~1,1).
+- Bugün uygulanan: gönderiler 13→15: Grévy zebrası (memeli, sayı: 450 kg) ve gergedan iguanası (sürüngen, sayı: 34 yumurta). Reels 7→9: kara makasgaga (kuş, tuhaf görünüm) ve kara antilop (memeli, sayı: 165 cm boynuz). Çin timsahı fotoğrafları (su mercimeği, çöp, aşırı yakın çekim) kötü olduğu için elendi.
+- Sonra kontrol et: zebra ve iguana gönderilerinin içerik değeri ≥1,0 mı; kara antilop (memeli Reels içerik 0,56 zayıf) ile makasgaga Reels'lerinin izlenme süresi.
