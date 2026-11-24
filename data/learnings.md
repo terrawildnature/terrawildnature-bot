@@ -418,3 +418,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: memeli gönderi 2,19, sayı kancası 1,84 güçlü; balık/böcek/amfibi/kuş zayıf; Reels'te gizem kancası 1,31 güçlü.
 - Bugün uygulanan: gönderiler 12→15: güney kırmızı muntjak (memeli, sayı: 6-7 kromozom), bantlı deniz kraiti (sürüngen, sayı: 5 km'den eve dönüş), boksör karides (deniz omurgasızı, tuhaf yetenek, keşif). Reels 8→9: dere kuşu (kuş, tuhaf yetenek, Comfortable_Mystery_2). Elenenler: Tibet antilobu, misk geyiği, minik bukalemun, bharal (fotoğraf kötü/uzak/kafesli); iNat CC0 dere kuşu fotoğraflarının biri boru, ikisi Amerikan su kuşuydu, elendi.
 - Sonra kontrol et: muntjak (sayı) ve kraitin içerik değeri ≥1,0 mı; dere kuşu Reels'inin izlenme süresi (kuş Reels ortalama 1,11).
+
+## 2026-11-24 (öğle çalıştırması)
+- Rapordan öğrenilen: memeli gönderi skoru 2,19, sayı kancası 1,84 güçlü; Reels'te gizem kancası 1,31 (içerik 1,39).
+- Bugün uygulanan: gönderi 14→15: pigme su aygırı (memeli, sayı: 1/4'ünden az ağırlık); Reels 8→9: dev sengi (memeli, gizem: "adı fil faresi ama akrabası fil", Investigations müziği). Kafesli çıkan ilk pigme hipo kapak fotoğrafı ve model/müze Latimeria fotoğrafları elendi.
+- Sonra kontrol et: pigme su aygırı gönderisinin ve gizem kancalı sengi Reels'inin içerik değeri ≥1,0 mı.
