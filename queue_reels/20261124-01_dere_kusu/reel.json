@@ -1,0 +1,156 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Comfortable_Mystery_2.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Cinclus cinclus26.jpg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/264634948/original.jpg",
+  "p3.jpg": "File:Cinclus cinclus27.jpg",
+  "p4.jpg": "File:White-throated dipper, Cinclus cinclus, Strömstare (53071092029).jpg",
+  "p5.jpg": "File:White-throated Dipper (Cinclus cinclus) (13667851995).jpg",
+  "p6.jpg": "File:Cinclus cinclus32.jpg",
+  "p7.jpg": "File:040 White-throated dipper fishing in a waterfall in Parc naturel régional Jura vaudois Photo by Giles Laurent.jpg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/264635121/original.jpg",
+  "p9.jpg": "File:White-throated dipper, Cinclus cinclus, Strömstare (53070897891).jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu küçük kuş, suyun altında kanatlarıyla uçuyor.",
+   "image": "p1.jpg",
+   "cx": 0.42,
+   "cy": 0.47,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Dere kuşu, hızlı akan dere ve nehirlerin kıyısında yaşıyor.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.6,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Boyu yalnızca yaklaşık on sekiz santim.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Kıyıdaki taşlardan suya yürüyor ve bilerek suya dalıyor.",
+   "image": "p4.jpg",
+   "cx": 0.4,
+   "cy": 0.35,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Dipte yürümüyor; kanatlarını kullanarak adeta suyun içinde uçuyor.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "zoom_out"
+  },
+  {
+   "text": "Başını aşağıda tutup gövdesini eğik tutarak suda kalıyor.",
+   "image": "p6.jpg",
+   "cx": 0.49,
+   "cy": 0.54,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Böcek larvaları, yumuşakçalar, küçük karidesler hatta küçük balıkları yakalıyor.",
+   "image": "p7.jpg",
+   "cx": 0.47,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Norveç'in ulusal kuşu olarak da biliniyor.",
+   "image": "p8.jpg",
+   "cx": 0.55,
+   "cy": 0.55,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.6,
+   "cy": 0.45,
+   "motion": "zoom_out"
+  }
+ ],
+ "cover": {
+  "image": "p5.jpg",
+  "cx": 0.62,
+  "cy": 0.4,
+  "title": [
+   [
+    [
+     "SUYUN",
+     "R"
+    ]
+   ],
+   [
+    [
+     "ALTINDA",
+     "W"
+    ]
+   ],
+   [
+    [
+     "UÇAN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "KUŞ",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "group": "kuş",
+ "hook_style": "tuhaf yetenek",
+ "yt_title": "Suyun Altında Kanatlarıyla Uçan Kuş: Dere Kuşu",
+ "en": {
+  "title": "The Bird That Flies Underwater: White-Throated Dipper",
+  "description": "The white-throated dipper walks into fast streams and swims underwater using its wings like it is flying, catching insect larvae, molluscs, shrimp-like crustaceans and small fish. It is Norway's national bird."
+ },
+ "caption": "Dere kuşu, hızlı akan derelerde suya girip kanatlarıyla adeta suyun içinde uçarak böcek larvaları ve küçük balıkları yakalıyor. 🐦💧\n\n#terrawildnature #derekuşu\n\n📷 Blondinrikard Fröberg (CC BY 2.0), Ron Knight (CC BY 2.0), Giles Laurent (CC BY-SA 4.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "File:Cinclus cinclus26.jpg / cinclus27 / cinclus32",
+   "author": "MilanIlic553",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "title": "File:White-throated dipper, Cinclus cinclus, Strömstare (53071092029).jpg / (53071299890) / (53070897891)",
+   "author": "Blondinrikard Fröberg",
+   "license": "CC BY 2.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:White-throated Dipper (Cinclus cinclus) (13667851995).jpg",
+   "author": "Ron Knight",
+   "license": "CC BY 2.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:040 White-throated dipper fishing in a waterfall in Parc naturel régional Jura vaudois Photo by Giles Laurent.jpg",
+   "author": "Giles Laurent",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "iNaturalist 264634948, 264635121",
+   "author": "Tobias Schönberg",
+   "license": "CC0",
+   "public_domain": true
+  }
+ ]
+}
