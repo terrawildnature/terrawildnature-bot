@@ -438,3 +438,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: memeli gönderi 2,03 ve sayı kancası 1,73 güçlü; tuhaf görünüm/yetenek ve balık/böcek/amfibi zayıf.
 - Bugün uygulanan: gönderi 14→15: kısa gagalı ekidna (memeli, sayı: elektriğe 1000 kat hassas). Reels 9/9 dolu, yeni üretilmedi. Su kantili fotoğrafları (hayvanat bahçesi/müze) elendi.
 - Sonra kontrol et: ekidna gönderisinin içerik değeri ≥1,0 mı.
+
+## 2026-11-25 (akşam çalıştırması)
+- Rapordan öğrenilen: yeni bulgu için rapor yeniden okunmadı; kuyruklar dolu olduğu için seçim yapılmadı (memeli/sayı kancası güçlü eğilimi önceki girdilerdeki gibi).
+- Bugün uygulanan: gönderi 15/15, Reels 9/9 dolu (queue_reels içinde zz_ quokka da sayıldı); failed klasörü yok, üretim yapılmadı.
+- Sonra kontrol et: sonraki çalıştırmada kuyruklar azalmışsa önce Reels, sonra gönderi doldur.
