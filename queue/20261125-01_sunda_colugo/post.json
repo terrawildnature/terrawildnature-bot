@@ -1,0 +1,36 @@
+{
+  "name": "sunda colugosu",
+  "group": "memeli",
+  "hook_style": "sayı",
+  "title": [
+    [["BU HAYVAN", "W"]],
+    [["100 METRE", "W"], ["SÜZÜLÜYOR", "R"]],
+    [["AMA UÇAMIYOR", "R"]]
+  ],
+  "card_title": "SUNDA KOLUGOSU",
+  "card_top": ["Adı \"uçan lemur\" ama ne lemur", "ne de uçabiliyor; süzülüyor."],
+  "card_bottom": ["Boyun, uzuvlar ve kuyruğa uzanan", "deri zarıyla 100 m süzülürken", "10 m'den az yükseklik kaybeder."],
+  "right": ["Güneydoğu Asya ormanlarında", "yaşar; geceleri aktiftir.", "Genç yaprak, çiçek ve meyve yer.", "Yerde neredeyse çaresizdir.", "Yavru, annesinin karnında taşınır."],
+  "loc": "Güneydoğu Asya",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.68, "cy": 0.4, "zoom": 2.4},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.45, "cy": 0.5, "zoom": 1.3},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.38, "cy": 0.42, "zoom": 1.8}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Colugo de Malaisie.jpg", "author": "Nasique solidaire", "license": "CC0", "public_domain": true},
+    {"use": "top", "title": "File:Galeopterus variegatus 451491549.jpg", "author": "Andrew Holle", "license": "CC0", "public_domain": true},
+    {"use": "inner", "title": "File:Galeopterus variegatus - James Eaton - 451787124.jpeg", "author": "James Eaton", "license": "CC0", "public_domain": true}
+  ],
+  "caption": "Güneydoğu Asya ormanlarının gece süzülücüsü Sunda kolugosu, derisinden yapılı geniş zarı sayesinde 100 metre süzülürken 10 metreden az yükseklik kaybediyor. 🌙🌴\n\n#terrawildnature #ilginçbilgiler #kolugo",
+  "quiz": {
+    "yt_title": "Bu Hayvan Uçmuyor Ama 100 Metre Süzülüyor. Adı Ne?",
+    "facts": [
+      {"title": "UÇAN LEMUR DEĞİL", "text": "Adında uçan lemur geçse de uçamıyor, sadece süzülüyor."},
+      {"title": "100 METRE SÜZÜLÜŞ", "text": "Yüz metre süzülürken on metreden az yükseklik kaybediyor."},
+      {"title": "ANNE KARNINDA", "text": "Tek yavru, annesinin karnındaki deri zarda taşınıyor."}
+    ],
+    "en": {"title": "It Can't Fly, Yet Glides 100 m. Can You Name It?",
+           "description": "This is the Sunda flying lemur, or Malayan colugo. It is neither a lemur nor a flier: a skin membrane lets it glide about 100 m while losing under 10 m of height. Mothers carry their single young on the belly."}
+  }
+}
