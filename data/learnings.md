@@ -433,3 +433,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: memeli gönderi 2,03 ve sayı kancası 1,73 güçlü; tuhaf görünüm/tuhaf yetenek, balık/böcek/amfibi zayıf. Reels'te sürüngen ~1,10, süperlatif zayıf (0,68).
 - Bugün uygulanan: gönderiler 13→15: Sunda kolugosu (memeli, sayı: 100 m süzülüş) ve çalı köpeği (memeli, sayı: 21 kat ağır av). Reels 8→9: gaviyal (sürüngen, tuhaf görünüm: burnundaki çömlek, Myst_on_the_Moor). Elenenler: boynuzlu narvhal (sadece havadan/müze fotoğrafı), solenodon (müze), Commons çalı köpeği (bulanık/illüstrasyon; iNat'a geçildi).
 - Sonra kontrol et: kolugo ve çalı köpeği gönderilerinin içerik değeri ≥1,0 mı; gaviyal Reels'inin izlenme süresi (sürüngen Reels ortalaması 12,7 sn).
+
+## 2026-11-25 (gün çalıştırması)
+- Rapordan öğrenilen: memeli gönderi 2,03 ve sayı kancası 1,73 güçlü; tuhaf görünüm/yetenek ve balık/böcek/amfibi zayıf.
+- Bugün uygulanan: gönderi 14→15: kısa gagalı ekidna (memeli, sayı: elektriğe 1000 kat hassas). Reels 9/9 dolu, yeni üretilmedi. Su kantili fotoğrafları (hayvanat bahçesi/müze) elendi.
+- Sonra kontrol et: ekidna gönderisinin içerik değeri ≥1,0 mı.

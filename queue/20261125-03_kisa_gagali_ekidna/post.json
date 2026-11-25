@@ -1,0 +1,35 @@
+{
+  "name": "kısa gagalı ekidna",
+  "group": "memeli",
+  "hook_style": "sayı",
+  "title": [
+    [["BU HAYVAN", "W"]],
+    [["ELEKTRİĞİ", "W"], ["1000 KAT", "R"]],
+    [["İYİ HİSSEDİYOR", "R"]]
+  ],
+  "card_title": "KISA GAGALI EKİDNA",
+  "card_top": ["Burnundaki sensörlerle elektrik", "alanlarını algılayabiliyor."],
+  "card_bottom": ["İnsandan yaklaşık 1000 kat", "daha hassas olduğu ölçülmüş;", "gömülü pilleri bile buluyor."],
+  "right": ["Avustralya ve Yeni Gine'de", "yaşar, karınca ve termit yer.", "Memeli olduğu halde yumurta", "bırakır; yavruya \"puggle\" denir.", "Bir birey 49 yıl yaşadı."],
+  "loc": "Avustralya, Yeni Gine",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.62, "cy": 0.4, "zoom": 1.2},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.55, "cy": 0.5, "zoom": 1.1},
+    "inner": {"file": "photo_top.jpg",   "cx": 0.66, "cy": 0.58, "zoom": 2.4}
+  },
+  "credits": [
+    {"use": "cover", "title": "File:Tachyglossus aculeatus aculeatus 358475387.jpg", "author": "Max Tibby", "license": "CC0", "public_domain": true},
+    {"use": "top", "title": "File:Short-beaked echidna (Tachyglossus aculeatus) Freycinet.jpg", "author": "Charles J. Sharp", "license": "CC BY-SA 4.0", "public_domain": false}
+  ],
+  "caption": "Avustralya'nın yumurtlayan memelisi kısa gagalı ekidna, burnundaki elektroreseptörlerle insandan yaklaşık 1000 kat hassas biçimde elektrik alanlarını algılayıp gömülü pilleri bile bulabiliyor. 🦔⚡\n\n#terrawildnature #ilginçbilgiler #ekidna\n\n📷 Charles J. Sharp (CC BY-SA 4.0) / Wikimedia Commons",
+  "quiz": {
+    "yt_title": "Bu Memeli Yumurta Bırakıyor. Adını Biliyor musun?",
+    "facts": [
+      {"title": "ELEKTRİK ALGISI", "text": "Burnuyla elektrik alanlarını algılıyor, hem de insandan bin kat hassas."},
+      {"title": "MEMELİ AMA YUMURTA", "text": "Memeli olmasına rağmen yumurta bırakıyor, yavrusuna da puggle deniyor."},
+      {"title": "49 YIL YAŞADI", "text": "Bir hayvanat bahçesinde yaşayan birey tam kırk dokuz yıl yaşadı."}
+    ],
+    "en": {"title": "This Mammal Lays Eggs. Can You Name It?",
+           "description": "Short-beaked echidnas lay eggs, can detect electric fields about 1000 times more sensitively than humans, and one lived 49 years in a zoo. It is the short-beaked echidna!"}
+  }
+}
