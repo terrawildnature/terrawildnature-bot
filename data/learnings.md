@@ -443,3 +443,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: yeni bulgu için rapor yeniden okunmadı; kuyruklar dolu olduğu için seçim yapılmadı (memeli/sayı kancası güçlü eğilimi önceki girdilerdeki gibi).
 - Bugün uygulanan: gönderi 15/15, Reels 9/9 dolu (queue_reels içinde zz_ quokka da sayıldı); failed klasörü yok, üretim yapılmadı.
 - Sonra kontrol et: sonraki çalıştırmada kuyruklar azalmışsa önce Reels, sonra gönderi doldur.
+
+## 2026-11-25 (gece-2 çalıştırması)
+- Rapordan öğrenilen: memeli gönderi 1,20 ve gizem/sayı kancaları ortalama-üstü; böcek/balık/amfibi zayıf. Reels'te gizem (içerik 1,33) ve benzetme (1,48, veri az) iyi, süperlatif zayıf (0,69).
+- Bugün uygulanan: Reels 6→8 gerçek: boynuzlu kertenkele (sürüngen, tuhaf yetenek, Not_As_It_Seems) ve yeleli kurt (memeli, benzetme: "ne tilki ne kurt", Peaceful_Desolation). Gönderiler 13→15: büyük potu (kuş, gizem) ve kaya hiraksı (memeli, benzetme: akrabası fil). Commons yanıt vermedi (Tasmanya canavarı için iNat fotoğrafları kamera tuzağı/dışkıydı, elendi); hepsi iNat CC0.
+- Sonra kontrol et: yeleli kurt Reels'inin benzetme kancası içerik ≥1,2 mi; kaya hiraksı (memeli+benzetme) ve potu gönderilerinin içerik değeri.

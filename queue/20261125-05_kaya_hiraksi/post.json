@@ -1,0 +1,112 @@
+{
+ "name": "kaya hiraksı",
+ "group": "memeli",
+ "hook_style": "benzetme",
+ "title": [
+  [
+   [
+    "BU 4 KİLOLUK",
+    "W"
+   ]
+  ],
+  [
+   [
+    "HAYVANIN",
+    "W"
+   ],
+   [
+    "AKRABASI",
+    "R"
+   ]
+  ],
+  [
+   [
+    "BİR FİL",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "KAYA HİRAKSI",
+ "card_top": [
+  "Uzun, sivri üst kesici dişleri",
+  "fildişini andırır; fille akrabadır."
+ ],
+ "card_bottom": [
+  "Grupta yaşar, nöbetçi hiraks",
+  "yüksek bir noktadan bakar ve",
+  "tehlikede alarm çağrısı verir."
+ ],
+ "right": [
+  "Afrika ve Orta Doğu'nun kayalık",
+  "alanlarında, 4.200 m'ye kadar",
+  "yükseklikte yaşar.",
+  "10-80 bireylik gruplarla beslenir.",
+  "Bir seferde 2-4 yavru doğurur."
+ ],
+ "loc": "Afrika, Orta Doğu",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.7,
+   "cy": 0.5,
+   "zoom": 1.4
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.3,
+   "cy": 0.5,
+   "zoom": 1.2
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.7,
+   "cy": 0.45,
+   "zoom": 1.8
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "iNaturalist (bdhimes)",
+   "author": "bdhimes",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "use": "top",
+   "title": "iNaturalist (Zygy)",
+   "author": "Zygy",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "use": "inner",
+   "title": "iNaturalist (Philipp Hoenle)",
+   "author": "Philipp Hoenle",
+   "license": "CC0",
+   "public_domain": true
+  }
+ ],
+ "caption": "Yalnızca 4 kilo ağırlığındaki kaya hiraksı, fildişini andıran uzun üst kesici dişleriyle uzaktan da olsa filin akrabası sayılan, nöbetçili gruplarla yaşayan bir kaya sakini. 🐘🪨\n\n#terrawildnature #ilginçbilgiler #hiraks",
+ "quiz": {
+  "yt_title": "Bu Minik Hayvanın Uzaktan Akrabası Bir Fil. Adı Ne?",
+  "facts": [
+   {
+    "title": "FİLLE AKRABA",
+    "text": "Fildişini andıran dişleriyle, uzaktan da olsa filin akrabası."
+   },
+   {
+    "title": "NÖBETÇİ SİSTEMİ",
+    "text": "Grup yem ararken bir nöbetçi yüksekten bakıp alarm veriyor."
+   },
+   {
+    "title": "SUSUZ KALABİLİYOR",
+    "text": "Yediği bitkilerden su alarak günlerce susuz yaşayabiliyor."
+   }
+  ],
+  "en": {
+   "title": "Its Distant Cousin Is an Elephant. Can You Name It?",
+   "description": "This is the rock hyrax. It weighs only about 4 kg, yet its long tusk-like upper incisors recall the elephant, to which it is distantly related. Groups use sentries to sound the alarm, and the animals can go many days without water."
+  }
+ }
+}
