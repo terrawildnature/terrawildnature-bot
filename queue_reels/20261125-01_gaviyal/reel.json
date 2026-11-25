@@ -1,0 +1,161 @@
+{
+ "name": "gaviyal",
+ "group": "sürüngen",
+ "hook_style": "tuhaf görünüm",
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Myst_on_the_Moor.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Indian Gharial (National Chambal Sanctuary).jpg",
+  "p2.jpg": "File:Indian Gharial.jpg",
+  "p3.jpg": "File:Chitwan National Park gharial.jpg",
+  "p4.jpg": "File:Gharial (50750544666).jpg",
+  "p5.jpg": "File:Gharial (50749812048).jpg",
+  "p6.jpg": "File:Gharial male and female, NCS, India.jpg",
+  "p7.jpg": "File:A living relic from the age of dinosaurs.jpg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/623423308/original.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu timsahın burnunda çömleğe benzeyen bir çıkıntı var.",
+   "image": "p1.jpg",
+   "cx": 0.2,
+   "cy": 0.25,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Gaviyal, Hindistan alt kıtasının nehirlerinde yaşıyor.",
+   "image": "p2.jpg",
+   "cx": 0.75,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Adı, Hintçe çömlek anlamına gelen garadan geliyor.",
+   "image": "p3.jpg",
+   "cx": 0.85,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Bu çıkıntı sayesinde erkek, yetmiş beş metre öteden duyulan bir tıslama çıkarıyor.",
+   "image": "p4.jpg",
+   "cx": 0.9,
+   "cy": 0.55,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Dar çenesinde yüz on keskin diş var ve avını çiğnemeden bütün yutuyor.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.55,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Dişi, kum kıyısındaki yuvaya yirmi ila doksan beş yumurta bırakıyor.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.55,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Bugün eski yaşam alanının yalnızca yüzde ikisinde kalan tür, kritik tehlike altında.",
+   "image": "p7.jpg",
+   "cx": 0.55,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p8.jpg",
+   "cx": 0.85,
+   "cy": 0.55,
+   "motion": "pan_left"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.27,
+  "cy": 0.3,
+  "title": [
+   [
+    [
+     "BURNUNDA",
+     "R"
+    ]
+   ],
+   [
+    [
+     "ÇÖMLEK",
+     "W"
+    ]
+   ],
+   [
+    [
+     "TAŞIYAN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "TİMSAH",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "yt_title": "Burnunda Çömlek Taşıyan Timsah: Gaviyal",
+ "en": {
+  "title": "The Crocodilian With a Pot on Its Snout: Gharial",
+  "description": "The gharial's males grow a pot-like bump on the snout, called a ghara, that lets them make a hiss heard 75 meters away. With 110 sharp teeth it swallows fish whole, and the species has lost most of its range and is critically endangered."
+ },
+ "caption": "Burnundaki çömleğe benzeyen çıkıntıyla yetmiş beş metre öteden duyulan tıslama çıkaran gaviyal, bugün eski yaşam alanının yalnızca yüzde ikisinde kalmış kritik tehlike altındaki bir timsah türü. 🐊🌊\n\n#terrawildnature #gaviyal\n\n📷 Arjun Bharioke (CC BY-SA 4.0), Ad031259 (CC BY 4.0), Anuppanthi (CC BY-SA 4.0), Mike Prince (CC BY 2.0), Hari Mohan Meena (CC BY-SA 4.0), Nishant Sharma Parajuli (CC BY-SA 4.0) / Wikimedia Commons, Daniel Z (CC BY) / iNaturalist\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "File:Indian Gharial (National Chambal Sanctuary).jpg",
+   "author": "Arjun Bharioke",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Indian Gharial.jpg",
+   "author": "Ad031259",
+   "license": "CC BY 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Chitwan National Park gharial.jpg",
+   "author": "Anuppanthi",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Gharial (50750544666).jpg, (50749812048)",
+   "author": "Mike Prince",
+   "license": "CC BY 2.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:Gharial male and female, NCS, India.jpg",
+   "author": "Hari Mohan Meena",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "File:A living relic from the age of dinosaurs.jpg",
+   "author": "Nishant Sharma Parajuli",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "iNaturalist 623423308",
+   "author": "Daniel Z",
+   "license": "CC BY",
+   "public_domain": false
+  }
+ ]
+}
