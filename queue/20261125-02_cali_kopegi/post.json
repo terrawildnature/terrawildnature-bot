@@ -1,0 +1,36 @@
+{
+  "name": "çalı köpeği",
+  "group": "memeli",
+  "hook_style": "sayı",
+  "title": [
+    [["BU KÜÇÜK KÖPEKLER", "W"]],
+    [["KENDİNDEN ", "W"], ["21 KAT", "R"]],
+    [["AĞIR AVI DEVİRİYOR", "R"]]
+  ],
+  "card_title": "ÇALI KÖPEĞİ",
+  "card_top": ["Sadece 5-8 kg gelir ama", "sürüyle dev avlara dalar."],
+  "card_bottom": ["Altı köpekten oluşan bir sürü, 3", "saat boyunca bir tapiri avlamış;", "tapir bir köpekten en az 21 kat ağır."],
+  "right": ["Güney Amerika ormanlarında", "yaşar; ayak parmakları kısmen", "perdelidir, iyi yüzer. Gündüz", "avlanır, paka ve capybara", "gibi iri kemirgenleri tutar."],
+  "loc": "Güney Amerika",
+  "photos": {
+    "cover": {"file": "photo_cover.jpg", "cx": 0.7, "cy": 0.45, "zoom": 1.3},
+    "top":   {"file": "photo_top.jpg",   "cx": 0.7, "cy": 0.4, "zoom": 1.1},
+    "inner": {"file": "photo_inner.jpg", "cx": 0.35, "cy": 0.6, "zoom": 1.3}
+  },
+  "credits": [
+    {"use": "cover", "title": "iNaturalist 177484065", "author": "Fábio Olmos", "license": "CC BY", "public_domain": false},
+    {"use": "top", "title": "iNaturalist 260793478", "author": "Frank Dietze", "license": "CC BY", "public_domain": false},
+    {"use": "inner", "title": "iNaturalist 260793499", "author": "Frank Dietze", "license": "CC BY", "public_domain": false}
+  ],
+  "caption": "Güney Amerika ormanlarının sürü halinde avlanan küçük avcısı çalı köpeği, sadece 5-8 kilo olmasına rağmen kendinden en az 21 kat ağır bir tapiri bile devirebiliyor. 🐕🌿\n\n#terrawildnature #ilginçbilgiler #çalıköpeği\n\n📷 Fábio Olmos (CC BY), Frank Dietze (CC BY) / iNaturalist",
+  "quiz": {
+    "yt_title": "Bu Küçük Avcı Kendinden Çok Ağır Hayvanı Deviriyor. Adı Ne?",
+    "facts": [
+      {"title": "KÜÇÜK AMA KORKUSUZ", "text": "Ağırlığı yalnızca beş ila sekiz kilo olan küçük bir yabani köpek."},
+      {"title": "TAPİR AVI", "text": "Altı köpeklik bir sürü, üç saat boyunca bir tapiri kovalamış."},
+      {"title": "PERDELİ PARMAKLAR", "text": "Kısmen perdeli ayak parmakları sayesinde daha iyi yüzüyor."}
+    ],
+    "en": {"title": "This Small Dog Takes Down Giant Prey. Name It?",
+           "description": "This is the bush dog of South America. It weighs only 5 to 8 kg, yet a pack of six was reported hunting a tapir at least 21 times heavier than one dog. Its toes are partially webbed, helping it swim."}
+  }
+}

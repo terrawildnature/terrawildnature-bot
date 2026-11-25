@@ -428,3 +428,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: memeli gönderi skoru 2,03, sayı kancası 1,73 güçlü; tuhaf görünüm/tuhaf yetenek (0,69) ve balık/böcek/amfibi zayıf. Reels'te süperlatif kancası zayıf (0,68), Reels'te sürüngen ve kuş ortalama (~1,1).
 - Bugün uygulanan: gönderiler 13→15: Grévy zebrası (memeli, sayı: 450 kg) ve gergedan iguanası (sürüngen, sayı: 34 yumurta). Reels 7→9: kara makasgaga (kuş, tuhaf görünüm) ve kara antilop (memeli, sayı: 165 cm boynuz). Çin timsahı fotoğrafları (su mercimeği, çöp, aşırı yakın çekim) kötü olduğu için elendi.
 - Sonra kontrol et: zebra ve iguana gönderilerinin içerik değeri ≥1,0 mı; kara antilop (memeli Reels içerik 0,56 zayıf) ile makasgaga Reels'lerinin izlenme süresi.
+
+## 2026-11-25 (gece çalıştırması)
+- Rapordan öğrenilen: memeli gönderi 2,03 ve sayı kancası 1,73 güçlü; tuhaf görünüm/tuhaf yetenek, balık/böcek/amfibi zayıf. Reels'te sürüngen ~1,10, süperlatif zayıf (0,68).
+- Bugün uygulanan: gönderiler 13→15: Sunda kolugosu (memeli, sayı: 100 m süzülüş) ve çalı köpeği (memeli, sayı: 21 kat ağır av). Reels 8→9: gaviyal (sürüngen, tuhaf görünüm: burnundaki çömlek, Myst_on_the_Moor). Elenenler: boynuzlu narvhal (sadece havadan/müze fotoğrafı), solenodon (müze), Commons çalı köpeği (bulanık/illüstrasyon; iNat'a geçildi).
+- Sonra kontrol et: kolugo ve çalı köpeği gönderilerinin içerik değeri ≥1,0 mı; gaviyal Reels'inin izlenme süresi (sürüngen Reels ortalaması 12,7 sn).
