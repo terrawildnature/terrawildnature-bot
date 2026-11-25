@@ -1,0 +1,31 @@
+{
+ "name": "büyük potu",
+ "group": "kuş",
+ "hook_style": "gizem",
+ "title": [[["BU KUŞ GÜNDÜZ","W"]],[["AĞAÇ KÜTÜĞÜ","R"]],[["GİBİ DURUYOR","R"]]],
+ "card_title": "BÜYÜK POTU KUŞU",
+ "card_top": ["Gündüz dik durup bir ağaç", "gövdesinin parçası gibi görünür."],
+ "card_bottom": ["Yetişkinler gündüz yuvanın", "yanında kalır, yavruyu", "yalnızca kamuflajla korur."],
+ "right": ["Orta ve Güney Amerika'nın", "nemli ormanlarında yaşar.", "Geceleri büyük böcek avlar;", "bazen yarasa ve kuş da yer.", "Tek bir yumurta bırakır."],
+ "loc": "Orta ve Güney Amerika",
+ "photos": {
+  "cover": {"file": "photo_cover.jpg", "cx": 0.5, "cy": 0.4, "zoom": 1.0},
+  "top": {"file": "photo_top.jpg", "cx": 0.55, "cy": 0.45, "zoom": 1.3},
+  "inner": {"file": "photo_inner.jpg", "cx": 0.5, "cy": 0.22, "zoom": 2.0}
+ },
+ "credits": [
+  {"use": "cover", "title": "iNaturalist 254894006", "author": "Paulo Mascaretti", "license": "CC0", "public_domain": true},
+  {"use": "top", "title": "iNaturalist 624738410", "author": "Dan Fitzgerald (Fitz)", "license": "CC0", "public_domain": true},
+  {"use": "inner", "title": "iNaturalist 254894006", "author": "Paulo Mascaretti", "license": "CC0", "public_domain": true}
+ ],
+ "caption": "Gündüz bir ağaç gövdesinin uzantısı gibi dikilen büyük potu, kamuflajı sayesinde genellikle 12 metreden yüksek dallarda fark edilmeden günü geçiriyor. 🌳🦉\n\n#terrawildnature #ilginçbilgiler #potu",
+ "quiz": {
+  "yt_title": "Bu Kuş Gündüz Ağaç Kütüğüne Dönüşüyor. Adı Ne?",
+  "facts": [
+   {"title": "KÜTÜK TAKLİDİ", "text": "Gündüz dik durur ve ağaç gövdesinin bir parçası gibi görünür."},
+   {"title": "GECE AVCISI", "text": "Geceleri iri böcekleri, bazen de yarasaları ve kuşları avlar."},
+   {"title": "TEK YUMURTA", "text": "Yuvası dalda sığ bir çukurdur ve yalnızca tek yumurta bırakır."}
+  ],
+  "en": {"title": "This Bird Turns Into a Tree Stump. Can You Name It?", "description": "This is the great potoo. By day it perches upright and looks like part of a tree stump, then hunts large insects, and sometimes bats and birds, at night. It lays a single egg in a shallow dip on a thick branch."}
+ }
+}
