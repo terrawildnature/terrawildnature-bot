@@ -1,0 +1,133 @@
+{
+ "name": "marabu leyleği",
+ "group": "kuş",
+ "hook_style": "sayı",
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Crossing_the_Chasm.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/20783/original.jpg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/432456055/original.jpeg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/555542756/original.jpg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/326200867/original.jpeg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/338956956/original.png",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/52710312/original.jpg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/753358973/original.jpg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/551023007/original.jpg",
+  "p9.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/20783/original.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu kuşun kanat açıklığı ortalama iki buçuk metreyi buluyor.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Boyu bir buçuk metreye kadar çıkabiliyor.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Arkadan pelerinli bir cenaze görevlisine benzediği için 'cenaze kuşu' deniyor.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Başı ve boynu tüysüz, çünkü leşe daldığında tüyleri kana bulanırdı.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Çoğunlukla leşle besleniyor ve akbabaları takip ediyor.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Fırsat bulursa flamingo ve timsah yavrusu bile yiyor.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Doğu Afrika'da kentlerde ve çöplüklerin yakınında yuva yapıyor.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Vahşi doğada yirmi beş yıl yaşayabiliyor.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.42,
+  "cy": 0.45,
+  "title": [
+   [
+    [
+     "BU KUŞUN",
+     "R"
+    ]
+   ],
+   [
+    [
+     "KANADI 2,5",
+     "W"
+    ]
+   ],
+   [
+    [
+     "METREYİ",
+     "W"
+    ]
+   ],
+   [
+    [
+     "BULUYOR",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "yt_title": "Marabu Leyleği: Afrika'nın Cenaze Kuşu",
+ "en": {
+  "title": "Marabou Stork: Africa's Undertaker Bird",
+  "description": "The marabou stork has an average wingspan of about 2.6 metres. Seen from behind it looks like an undertaker in a cloak, hence its nickname. Its bare head stays clean while feeding on carrion, it follows vultures, and it even eats flamingos and crocodile hatchlings."
+ },
+ "caption": "Kanat açıklığı ortalama iki buçuk metreyi bulan marabu leyleği, pelerinli bir cenaze görevlisine benzediği için 'cenaze kuşu' diye anılıyor. 🪽🌍\n\n#terrawildnature #marabuleyleği\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "iNaturalist (CC0 photos)",
+   "author": "Scott Loarie; Bud Lensing; Лариса Артемьева; Henggang Cui; Ben Keen; lallen; Rehabilitated Zoologist; Arthur Pearson",
+   "license": "CC0",
+   "public_domain": true
+  }
+ ]
+}
