@@ -1,0 +1,112 @@
+{
+ "name": "pembe kaşıkçı",
+ "group": "kuş",
+ "hook_style": "benzetme",
+ "title": [
+  [
+   [
+    "BU KUŞUN PEMBE",
+    "W"
+   ]
+  ],
+  [
+   [
+    "RENGİ ",
+    "W"
+   ],
+   [
+    "YEDİKLERİNDEN",
+    "R"
+   ]
+  ],
+  [
+   [
+    "GELİYOR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "PEMBE KAŞIKÇI",
+ "card_top": [
+  "Pembe rengi, flamingolar gibi",
+  "yediği besinden geliyor."
+ ],
+ "card_bottom": [
+  "Gagasını suda iki yana",
+  "sallayarak çamurdan yiyecek",
+  "süzer. Gaga ucu kaşık gibi."
+ ],
+ "right": [
+  "Amerika kıtalarının sulak",
+  "alanlarında ve mangrovlarda",
+  "yaşar. Boynunu uzatıp uçar.",
+  "Tüy avı neredeyse soyunu",
+  "tüketiyordu; bugün güvende."
+ ],
+ "loc": "Amerika kıtaları",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "zoom": 1.3
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.6,
+   "cy": 0.5,
+   "zoom": 1.2
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.55,
+   "cy": 0.5,
+   "zoom": 1.0
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "iNaturalist 32053245",
+   "author": "Diego Carús",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "use": "top",
+   "title": "iNaturalist 35475101",
+   "author": "Schyler Brown",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "use": "inner",
+   "title": "iNaturalist 760554875",
+   "author": "Frank Thomas Sautter",
+   "license": "CC0",
+   "public_domain": true
+  }
+ ],
+ "caption": "Pembe rengini flamingolar gibi yediği besindeki pigmentten alan pembe kaşıkçı, gagasını suda yana sallayarak çamurdaki küçük canlıları süzüyor. 🦩🌿\n\n#terrawildnature #ilginçbilgiler #pembekaşıkçı",
+ "quiz": {
+  "yt_title": "Bu Kuşun Pembe Rengi Yediklerinden Geliyor. Adı Ne?",
+  "facts": [
+   {
+    "title": "RENGİ YEMEKTEN",
+    "text": "Pembe rengi, flamingolar gibi yediği besindeki pigmentten geliyor."
+   },
+   {
+    "title": "KAŞIK GAGA",
+    "text": "Gagasını suda yana sallayıp çamurdaki küçük canlıları süzüyor."
+   },
+   {
+    "title": "TÜY AVI",
+    "text": "Süs tüyü avı, onu neredeyse yok olmanın eşiğine getirdi."
+   }
+  ],
+  "en": {
+   "title": "This Bird's Pink Color Comes From Its Diet. Name It?",
+   "description": "This is the roseate spoonbill. Like flamingos, its pink color comes from pigments in its food. It sweeps its spoon-shaped bill side to side through shallow water to sift out small prey, and plume hunting once nearly drove it to extinction."
+  }
+ }
+}
