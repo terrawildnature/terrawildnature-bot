@@ -458,3 +458,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: yeni bulgu için rapor yeniden okunmadı; kuyruklar dolu (gönderi 15/15, Reels 9/9, zz_ klasörleri dahil), failed klasörü yok.
 - Bugün uygulanan: üretim yapılmadı.
 - Sonra kontrol et: kuyruklar azalmışsa önce Reels (<4 ise), sonra gönderi doldur; zz_ klasörleri sayıda yer kaplıyor, gerçek kuyruk 14/8.
+
+## 2026-11-26 (gece çalıştırması)
+- Rapordan öğrenilen: rapor yeniden okunmadı; kuyruklar dolu (gönderi 15/15, Reels 9/9, zz_ klasörleri dahil), failed klasörü yok.
+- Bugün uygulanan: üretim yapılmadı.
+- Sonra kontrol et: kuyruklar azalmışsa önce Reels (<4 ise), sonra gönderi doldur.
