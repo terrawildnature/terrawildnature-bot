@@ -1,0 +1,151 @@
+{
+ "name": "atlantik deniz papağanı",
+ "group": "kuş",
+ "hook_style": "sayı",
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Shores_of_Avalon.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Puffin (Fratercula arctica) head.jpg",
+  "p2.jpg": "File:02 Atlantic puffin on Treshnish Isles by Romaniviatores.jpg",
+  "p3.jpg": "File:Puffin (Fratercula arctica) in flight.jpg",
+  "p4.jpg": "File:Puffin (Fratercula arctica) in burrow.jpg",
+  "p5.jpg": "File:Fratercula arctica, Borgarfjörður eystri, Iceland, 20240717 0958 1363.jpg",
+  "p6.jpg": "File:Puffin (Fratercula arctica) with lesser sand eels (Ammodytes tobianus).jpg",
+  "p7.jpg": "File:027 Atlantic puffin in flight with mouth full of fishes Photo by Giles Laurent.jpg",
+  "p8.jpg": "File:Puffin (Fratercula arctica) outside burrow.jpg",
+  "p9.jpg": "File:Puffin (Fratercula arctica) 2.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu kuşların yüzde altmışı tek bir ülkede yaşıyor.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Atlantik deniz papağanı, kıyıya yalnızca üremek için geliyor.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Yılın büyük kısmını kuzey Atlantik'in açık sularında geçiriyor.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Yuvasını çim yamaçlarda kazdığı tünellerin içine yapıyor.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Gagasının rengarenk kısımları, üreme sezonunun sonunda dökülüyor.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Tek dalışta birkaç küçük balık yakalayıp dili ve gagasıyla tutuyor.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Kanatlarını su altında kürek gibi kullanıp bir dakikaya kadar dalabiliyor.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kış tüy değişiminde bütün uçuş tüylerini bir anda dökerek, bir iki ay uçamıyor.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  }
+ ],
+ "cover": {
+  "image": "p9.jpg",
+  "cx": 0.5,
+  "cy": 0.5,
+  "title": [
+   [
+    [
+     "BU KUŞUN",
+     "R"
+    ]
+   ],
+   [
+    [
+     "YÜZDE 60'I",
+     "W"
+    ]
+   ],
+   [
+    [
+     "TEK ÜLKEDE",
+     "W"
+    ]
+   ],
+   [
+    [
+     "YAŞIYOR",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "yt_title": "Atlantik Deniz Papağanı: Denizin Palyaçosu",
+ "en": {
+  "title": "Atlantic Puffin: The Clown of the Sea",
+  "description": "Around 60% of the world's Atlantic puffins live in Iceland alone. They come ashore only to breed, nest in burrows, shed the colorful parts of their bills after breeding season, and lose all their flight feathers at once in winter, leaving them unable to fly for a month or two."
+ },
+ "caption": "Dünya nüfusunun yaklaşık yüzde altmışı İzlanda'da yaşayan Atlantik deniz papağanı, kıyıya yalnızca üremek için gelip yuvasını çim yamaçlardaki tünellere yapıyor. 🐧🌊\n\n#terrawildnature #denizpapağanı\n\n📷 Charles J. Sharp (CC BY-SA 4.0), Romaniviatores (CC BY-SA 4.0), Jakub Hałun (CC BY 4.0), Giles Laurent (CC BY-SA 4.0) / Wikimedia Commons\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "Puffin (Fratercula arctica) head.jpg ; Puffin (Fratercula arctica) in flight.jpg ; Puffin (Fratercula arctica) in burrow.jpg ; Puffin (Fratercula arctica) with lesser sand eels (Ammodytes tobianus).jpg ; Puffin (Fratercula arctica) outside burrow.jpg ; Puffin (Fratercula arctica) 2.jpg",
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "02 Atlantic puffin on Treshnish Isles by Romaniviatores.jpg",
+   "author": "Romaniviatores",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "Fratercula arctica, Borgarfjörður eystri, Iceland, 20240717 0958 1363.jpg",
+   "author": "Jakub Hałun",
+   "license": "CC BY 4.0",
+   "public_domain": false
+  },
+  {
+   "title": "027 Atlantic puffin in flight with mouth full of fishes Photo by Giles Laurent.jpg",
+   "author": "Giles Laurent",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  }
+ ]
+}
