@@ -453,3 +453,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: memeli gönderi 1,20 (içerik 1,05) güçlü; balık/böcek/amfibi ve tuhaf yetenek kancası zayıf (0,71). Reels'te 10:00 saati skor 1,53, süperlatif zayıf (0,69).
 - Bugün uygulanan: Reels 8→9: Atlantik deniz papağanı (kuş, sayı: "yüzde 60'ı tek ülkede"). Gönderiler 13→15: potto (memeli, tuhaf görünüm: sivri boyun omurları) ve tepeli geko (sürüngen, gizem: 1994'e kadar yok sanıldı). Elenenler: kakomistle (iNat/Commons fotoğrafları kamera tuzağı/hayvanat bahçesi/küçük hayvan), kar leoparı (iNat sadece iz fotoğrafı, Commons hayvanat bahçesi).
 - Sonra kontrol et: tepeli geko (sürüngen+gizem) ve potto gönderilerinin içerik değeri ≥1,0 mı; deniz papağanı Reels'inin izlenme süresi (kuş Reels ort. 10,4 sn).
+
+## 2026-11-26 (akşam çalıştırması)
+- Rapordan öğrenilen: yeni bulgu için rapor yeniden okunmadı; kuyruklar dolu (gönderi 15/15, Reels 9/9, zz_ klasörleri dahil), failed klasörü yok.
+- Bugün uygulanan: üretim yapılmadı.
+- Sonra kontrol et: kuyruklar azalmışsa önce Reels (<4 ise), sonra gönderi doldur; zz_ klasörleri sayıda yer kaplıyor, gerçek kuyruk 14/8.
