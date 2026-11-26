@@ -1,0 +1,112 @@
+{
+ "name": "tokay gekosu",
+ "group": "sürüngen",
+ "hook_style": "gizem",
+ "title": [
+  [
+   [
+    "'GEKO' KELİMESİ",
+    "W"
+   ]
+  ],
+  [
+   [
+    "BU CANLININ ",
+    "W"
+   ],
+   [
+    "SESİNDEN",
+    "R"
+   ]
+  ],
+  [
+   [
+    "GELİYOR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "TOKAY GEKOSU",
+ "card_top": [
+  "Erkeğin çağrısı 'tokay' diye",
+  "duyulur, adı da buradan."
+ ],
+ "card_bottom": [
+  "Güçlü ısırığıyla büyük",
+  "erkekler deriyi delip kan",
+  "akıtabilir."
+ ],
+ "right": [
+  "Hindistan'dan Yeni Gine'ye",
+  "yağmur ormanlarında yaşar.",
+  "Geceleri evlerin duvarında",
+  "böcek avlamaya da gelir.",
+  "Dişi yumurtalarını bekler."
+ ],
+ "loc": "Güneydoğu Asya",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.8,
+   "cy": 0.55,
+   "zoom": 1.4
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.6,
+   "cy": 0.4,
+   "zoom": 1.0
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.82,
+   "cy": 0.55,
+   "zoom": 2.2
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "iNaturalist (georgiasteel)",
+   "author": "georgiasteel",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "use": "top",
+   "title": "iNaturalist (Arky)",
+   "author": "Arky",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "use": "inner",
+   "title": "iNaturalist (Ioannis Magouras)",
+   "author": "Ioannis Magouras",
+   "license": "CC BY",
+   "public_domain": false
+  }
+ ],
+ "caption": "İngilizcedeki 'gecko' sözcüğü, erkeğinin 'tokay' diye duyulan çağrısından türeyen tokay gekosunun adına dayanıyor; güçlü ısırığıyla deriyi bile delebiliyor. 🦎🌴\n\n#terrawildnature #ilginçbilgiler #tokaygekosu\n\n📷 Arky (CC BY), Ioannis Magouras (CC BY) / iNaturalist",
+ "quiz": {
+  "yt_title": "Bu Canlı 'Geko' Kelimesine Adını Verdi. Adı Ne?",
+  "facts": [
+   {
+    "title": "ADI SESİNDEN",
+    "text": "Erkeğin çağrısı 'tokay' diye duyulduğu için bu adı almış."
+   },
+   {
+    "title": "GEKO KELİMESİ",
+    "text": "İngilizcedeki 'gecko' sözcüğü bu türün adından türemiş."
+   },
+   {
+    "title": "GÜÇLÜ ISIRIK",
+    "text": "Büyük erkekler deriyi delip kan akıtacak kadar sert ısırabiliyor."
+   }
+  ],
+  "en": {
+   "title": "This Animal Gave the Word 'Gecko' Its Name",
+   "description": "This is the tokay gecko. Its name comes from the male's loud 'tokay' call, and the word 'gecko' itself ultimately derives from names for this species. Large males can bite hard enough to pierce skin and draw blood."
+  }
+ }
+}

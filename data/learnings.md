@@ -463,3 +463,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: rapor yeniden okunmadı; kuyruklar dolu (gönderi 15/15, Reels 9/9, zz_ klasörleri dahil), failed klasörü yok.
 - Bugün uygulanan: üretim yapılmadı.
 - Sonra kontrol et: kuyruklar azalmışsa önce Reels (<4 ise), sonra gönderi doldur.
+
+## 2026-11-26 (gece-2 çalıştırması)
+- Rapordan öğrenilen: memeli gönderi skoru 1,21 (en güçlü grup); balık/böcek/amfibi zayıf; Reels'te 10:00 saati skor 1,69, süperlatif kanca zayıf.
+- Bugün uygulanan: Reels 7→9: marabu leyleği (kuş, sayı: kanat 2,5 m) ve Himalaya tahrı (memeli, benzetme: tırnak lastik gibi). Gönderiler 12→15: pembe kaşıkçı (kuş, benzetme: flamingo gibi), büyük boynuzlu koyun (memeli, tuhaf yetenek) ve tokay gekosu (sürüngen, gizem: "geko" kelimesi adından geliyor). Balık/böcek/amfibi seçilmedi.
+- Sonra kontrol et: tahr ve marabu Reels'lerinin içerik değeri; benzetme kancalı gönderilerin (kaşıkçı) içerik ≥1,0 mı; tokay gekosu (sürüngen+gizem) performansı.
