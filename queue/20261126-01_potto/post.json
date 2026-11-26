@@ -1,0 +1,112 @@
+{
+ "name": "potto",
+ "group": "memeli",
+ "hook_style": "tuhaf görünüm",
+ "title": [
+  [
+   [
+    "BU HAYVANIN",
+    "W"
+   ]
+  ],
+  [
+   [
+    "BOYNUNDA",
+    "W"
+   ],
+   [
+    "SİVRİ",
+    "R"
+   ]
+  ],
+  [
+   [
+    "OMURLAR VAR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "POTTO",
+ "card_top": [
+  "Boynundaki omurlar sivri;",
+  "neredeyse deriyi delecek."
+ ],
+ "card_bottom": [
+  "Tehlikede yüzünü saklayıp",
+  "boynuyla toslar. Güçlü ısırır;",
+  "tükürüğü yarayı iltihaplatır."
+ ],
+ "right": [
+  "Nijerya'dan Uganda'ya uzanan",
+  "yağmur ormanlarında yaşar.",
+  "Gececidir; gündüz yapraklar",
+  "arasında uyur, nadiren iner.",
+  "Yavaş, temkinli hareket eder."
+ ],
+ "loc": "Tropik Afrika",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.47,
+   "cy": 0.4,
+   "zoom": 1.1
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.72,
+   "cy": 0.4,
+   "zoom": 1.4
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.5,
+   "cy": 0.55,
+   "zoom": 1.3
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "iNaturalist 659293582",
+   "author": "Barry Stewart",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "use": "top",
+   "title": "iNaturalist 461643779",
+   "author": "Fábio Olmos",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "use": "inner",
+   "title": "iNaturalist 635601557",
+   "author": "Philippe Hornus",
+   "license": "CC BY",
+   "public_domain": false
+  }
+ ],
+ "caption": "Boynundaki neredeyse deriyi delecek kadar sivri omurlarla tehlikede rakibine toslayan potto, Afrika yağmur ormanlarında yavaş ve temkinli hareket eden gececi bir primat. 🌳🌙\n\n#terrawildnature #ilginçbilgiler #potto\n\n📷 Barry Stewart (CC BY), Fábio Olmos (CC BY), Philippe Hornus (CC BY) / iNaturalist",
+ "quiz": {
+  "yt_title": "Boynundaki Sivri Omurlar Silah Gibi. Adını Biliyor musun?",
+  "facts": [
+   {
+    "title": "SİVRİ OMURLAR",
+    "text": "Boyun omurlarının sivri uçları neredeyse deriyi delecek kadar uzun."
+   },
+   {
+    "title": "BOYNUYLA TOSLAR",
+    "text": "Tehlikede yüzünü saklayıp rakibine boynuyla toslayabiliyor."
+   },
+   {
+    "title": "KÜRİ KOKUSU",
+    "text": "Belirgin bir kokusu var ve bazıları bunu körüye benzetiyor."
+   }
+  ],
+  "en": {
+   "title": "Its Neck Spikes Work Like Weapons. Name It?",
+   "description": "This is the potto, a nocturnal primate of African rainforests. Its neck vertebrae have sharp points that nearly pierce the skin and serve as defensive weapons. When threatened it hides its face and neck-butts its opponent, and it has a distinct odor some compare to curry."
+  }
+ }
+}

@@ -448,3 +448,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: memeli gönderi 1,20 ve gizem/sayı kancaları ortalama-üstü; böcek/balık/amfibi zayıf. Reels'te gizem (içerik 1,33) ve benzetme (1,48, veri az) iyi, süperlatif zayıf (0,69).
 - Bugün uygulanan: Reels 6→8 gerçek: boynuzlu kertenkele (sürüngen, tuhaf yetenek, Not_As_It_Seems) ve yeleli kurt (memeli, benzetme: "ne tilki ne kurt", Peaceful_Desolation). Gönderiler 13→15: büyük potu (kuş, gizem) ve kaya hiraksı (memeli, benzetme: akrabası fil). Commons yanıt vermedi (Tasmanya canavarı için iNat fotoğrafları kamera tuzağı/dışkıydı, elendi); hepsi iNat CC0.
 - Sonra kontrol et: yeleli kurt Reels'inin benzetme kancası içerik ≥1,2 mi; kaya hiraksı (memeli+benzetme) ve potu gönderilerinin içerik değeri.
+
+## 2026-11-26 (sabah çalıştırması)
+- Rapordan öğrenilen: memeli gönderi 1,20 (içerik 1,05) güçlü; balık/böcek/amfibi ve tuhaf yetenek kancası zayıf (0,71). Reels'te 10:00 saati skor 1,53, süperlatif zayıf (0,69).
+- Bugün uygulanan: Reels 8→9: Atlantik deniz papağanı (kuş, sayı: "yüzde 60'ı tek ülkede"). Gönderiler 13→15: potto (memeli, tuhaf görünüm: sivri boyun omurları) ve tepeli geko (sürüngen, gizem: 1994'e kadar yok sanıldı). Elenenler: kakomistle (iNat/Commons fotoğrafları kamera tuzağı/hayvanat bahçesi/küçük hayvan), kar leoparı (iNat sadece iz fotoğrafı, Commons hayvanat bahçesi).
+- Sonra kontrol et: tepeli geko (sürüngen+gizem) ve potto gönderilerinin içerik değeri ≥1,0 mı; deniz papağanı Reels'inin izlenme süresi (kuş Reels ort. 10,4 sn).

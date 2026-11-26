@@ -1,0 +1,112 @@
+{
+ "name": "tepeli gekko",
+ "group": "sürüngen",
+ "hook_style": "gizem",
+ "title": [
+  [
+   [
+    "BU CANLI",
+    "W"
+   ]
+  ],
+  [
+   [
+    "1994'E KADAR",
+    "W"
+   ],
+   [
+    "YOK",
+    "R"
+   ]
+  ],
+  [
+   [
+    "SANILIYORDU",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "TEPELİ GEKO",
+ "card_top": [
+  "Gözünün üstünde kirpik gibi",
+  "çıkıntılar var, adı buradan."
+ ],
+ "card_bottom": [
+  "Göz kapağı yok; gözünü",
+  "şeffaf bir pul korur ve",
+  "dilini sürerek temizler."
+ ],
+ "right": [
+  "Yeni Kaledonya'nın güneyinde",
+  "yağmur ormanlarında yaşar.",
+  "Gececi ve çoğunlukla ağaçta;",
+  "dallar arasında zıplayabilir.",
+  "Kuyruk bir kez kopunca çıkmaz."
+ ],
+ "loc": "Yeni Kaledonya",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.3,
+   "cy": 0.35,
+   "zoom": 1.2
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.4,
+   "cy": 0.45,
+   "zoom": 1.2
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.38,
+   "cy": 0.7,
+   "zoom": 2.0
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "iNaturalist 33484989",
+   "author": "Lennart Hudel",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "use": "top",
+   "title": "iNaturalist 33604286",
+   "author": "Lennart Hudel",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "use": "inner",
+   "title": "iNaturalist 33603685",
+   "author": "Lennart Hudel",
+   "license": "CC BY",
+   "public_domain": false
+  }
+ ],
+ "caption": "1994'te yeniden bulunana kadar soyunun tükendiği sanılan tepeli geko, göz kapağı olmadığı için gözlerini dilini sürerek temizliyor. 🦎🌿\n\n#terrawildnature #ilginçbilgiler #tepeligeko\n\n📷 Lennart Hudel (CC BY) / iNaturalist",
+ "quiz": {
+  "yt_title": "Yok Sanılan Bu Canlı 1994'te Geri Döndü. Adı Ne?",
+  "facts": [
+   {
+    "title": "YOK SANILDI",
+    "text": "1994'te yeniden bulunana kadar soyunun tükendiği sanılıyordu."
+   },
+   {
+    "title": "GÖZ KAPAĞI YOK",
+    "text": "Gözünü şeffaf bir pulla koruyup dilini sürerek temizliyor."
+   },
+   {
+    "title": "KOPAN KUYRUK",
+    "text": "Kuyruğunu düşürebiliyor ama yeniden çıkaramıyor, yetişkinlerin çoğunun kuyruğu yok."
+   }
+  ],
+  "en": {
+   "title": "Thought Extinct Until 1994. Can You Name It?",
+   "description": "This is the crested gecko of New Caledonia, thought extinct until it was rediscovered in 1994. It has no eyelids, so it cleans its eyes with its tongue, and it cannot regrow a tail once it drops it."
+  }
+ }
+}
