@@ -1,0 +1,108 @@
+{
+ "name": "büyük boynuzlu koyun",
+ "group": "memeli",
+ "hook_style": "tuhaf yetenek",
+ "title": [
+  [
+   [
+    "BU HAYVANIN KAFASI",
+    "W"
+   ]
+  ],
+  [
+   [
+    "KAFA TOKUŞMAYA",
+    "R"
+   ]
+  ],
+  [
+   [
+    "GÖRE YAPILMIŞ",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "BÜYÜK BOYNUZLU KOYUN",
+ "card_top": [
+  "Erkeğin kafatasındaki özel",
+  "boşluklar darbeyi emer."
+ ],
+ "card_bottom": [
+  "Koçlar uzaklaşıp dönüyor,",
+  "sonra zıplayarak birbirine",
+  "kafa atıyor."
+ ],
+ "right": [
+  "Kuzey Amerika dağlarında ve",
+  "ABD-Meksika çöllerinde yaşar.",
+  "Sarp, kayalık yamaçlarda",
+  "yırtıcılardan kaçıp tırmanır.",
+  "Sürüde tek bir lider yoktur."
+ ],
+ "loc": "Kuzey Amerika",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.4,
+   "cy": 0.4,
+   "zoom": 1.0
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.5,
+   "cy": 0.55,
+   "zoom": 1.2
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "zoom": 1.4
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "iNaturalist (Irene)",
+   "author": "Irene",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "use": "top",
+   "title": "iNaturalist 434059364",
+   "author": "John Krampl",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "use": "inner",
+   "title": "iNaturalist 108528656",
+   "author": "John Krampl",
+   "license": "CC BY",
+   "public_domain": false
+  }
+ ],
+ "caption": "Erkeklerinin kafatasındaki özel boşluklar ve boynuz çekirdekleri çarpışma darbesini emdiği için büyük boynuzlu koyun, rakibine zıplayarak kafa atabiliyor. 🐏⛰️\n\n#terrawildnature #ilginçbilgiler #büyükboynuzlukoyun\n\n📷 John Krampl (CC BY) / iNaturalist",
+ "quiz": {
+  "yt_title": "Bu Hayvan Kafa Tokuşturmak İçin Evrimleşti. Adı Ne?",
+  "facts": [
+   {
+    "title": "DARBE EMEN KAFA",
+    "text": "Erkeklerin kafatasındaki özel boşluklar çarpışmanın darbesini emip beyni koruyor."
+   },
+   {
+    "title": "ZIPLAYARAK KAFA",
+    "text": "Rakipler uzaklaşıp dönüyor, sonra zıplayarak birbirine kafa atıyor."
+   },
+   {
+    "title": "LİDERSİZ SÜRÜ",
+    "text": "Büyük sürüler tek bir lider koçun peşinden gitmiyor."
+   }
+  ],
+  "en": {
+   "title": "This Animal Headbutts With Jumps. Can You Name It?",
+   "description": "This is the bighorn sheep. Rams have special skull cavities and horn cores that absorb the impact of clashes, protecting the brain. Rivals walk apart, turn, then leap and lunge into each other, and the herd does not follow a single leader ram."
+  }
+ }
+}
