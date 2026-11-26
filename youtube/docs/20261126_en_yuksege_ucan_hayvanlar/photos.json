@@ -1,0 +1,512 @@
+{
+ "02": [
+  {
+   "file": "02_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/363425945/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Лариса Артемьева"
+  },
+  {
+   "file": "02_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/28593584/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Вячеслав Юсупов"
+  },
+  {
+   "file": "02_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/183572554/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Christoph Moning"
+  }
+ ],
+ "04": [
+  {
+   "file": "04_0.jpg",
+   "src": "File:Alauda arvensis - DSCN7413-01.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 4.0",
+   "author": "Jaana Siitonen"
+  },
+  {
+   "file": "04_1.jpg",
+   "src": "File:Alouette des champs Zaghouan001.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "El Golli Mohamed"
+  },
+  {
+   "file": "04_2.jpg",
+   "src": "File:Alauda arvensis - Skylark 01.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Zeynel Cebeci"
+  }
+ ],
+ "07": [
+  {
+   "file": "07_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/591044918/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Ruebezahl"
+  },
+  {
+   "file": "07_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/186851736/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Gavin Slater"
+  },
+  {
+   "file": "07_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/201606180/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "uusijani"
+  }
+ ],
+ "08": [
+  {
+   "file": "08_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/382327253/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Juraj Ahel"
+  },
+  {
+   "file": "08_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/220930320/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Fernando Sessegolo"
+  },
+  {
+   "file": "08_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/87797678/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Petr Neuberg"
+  }
+ ],
+ "10": [
+  {
+   "file": "10_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/172959642/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Carey_Knox_Southern_Scales"
+  },
+  {
+   "file": "10_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/384672622/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Mark Fraser"
+  },
+  {
+   "file": "10_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/176454211/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Carey_Knox_Southern_Scales"
+  }
+ ],
+ "11": [
+  {
+   "file": "11_0.jpg",
+   "src": "File:The steppe eagle (Aquila nipalensis) - 68.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Krishna Prajapati"
+  },
+  {
+   "file": "11_1.jpg",
+   "src": "File:Steppe Eagle Aquila nipalensis Bikaner Jorbeed JEG5278.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "PJeganathan"
+  },
+  {
+   "file": "11_2.jpg",
+   "src": "File:Steppe Eagle Aquila nipalensis Bikaner Jorbeed JEG4995.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "PJeganathan"
+  }
+ ],
+ "12": [
+  {
+   "file": "12_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/575342060/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "dune_ninja"
+  },
+  {
+   "file": "12_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/575342058/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "dune_ninja"
+  }
+ ],
+ "15": [
+  {
+   "file": "15_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/207682042/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Morten Ross"
+  },
+  {
+   "file": "15_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/207682113/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "Morten Ross"
+  },
+  {
+   "file": "15_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/171540773/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC BY-SA",
+   "author": "Thibaud Aronson"
+  }
+ ],
+ "16": [
+  {
+   "file": "16_0.jpg",
+   "src": "File:A White Stork Flying Over Temara, Morocco.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC0",
+   "author": "Moroccan spotter"
+  },
+  {
+   "file": "16_1.jpg",
+   "src": "File:Flying (14892809483).jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 2.0",
+   "author": "Susanne Nilsson"
+  },
+  {
+   "file": "16_2.jpg",
+   "src": "File:Ciguenas - Parque Lineal del Manzanares - Section II - Madrid 29.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Javier Perez Montes"
+  }
+ ],
+ "17": [
+  {
+   "file": "17_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/602739901/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Diego Carús"
+  },
+  {
+   "file": "17_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/594787991/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Naturalist Tours"
+  },
+  {
+   "file": "17_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/602740116/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Diego Carús"
+  }
+ ],
+ "18": [
+  {
+   "file": "18_0.jpg",
+   "src": "File:Wallcreeper (Tichodroma muraria) 2023.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 4.0",
+   "author": "TRinaud"
+  },
+  {
+   "file": "18_1.jpg",
+   "src": "File:Wallcreeper - Tichodroma muraria DSC03724.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Raman Kumar"
+  },
+  {
+   "file": "18_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/178937876/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Justin Philbois"
+  }
+ ],
+ "20": [
+  {
+   "file": "20_0.jpg",
+   "src": "File:Himalayan Griffon in Jodbeed Gadhwala Conservation Reserve November 2025 by Tisha Mukherjee 11.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Tisha Mukherjee"
+  },
+  {
+   "file": "20_1.jpg",
+   "src": "File:Himalayan Griffon in flight, Shivapuri National Park.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Shadow Ayush"
+  },
+  {
+   "file": "20_2.jpg",
+   "src": "File:Himalayan Griffon Vulture (Gyps himalayensis) Perched above the world, where silence rules the skies 01.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Shiv's fotografia"
+  }
+ ],
+ "22": [
+  {
+   "file": "22_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/451634487/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Tero Linjama"
+  },
+  {
+   "file": "22_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/451001518/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "John Cull"
+  },
+  {
+   "file": "22_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/451634548/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Tero Linjama"
+  }
+ ],
+ "23": [
+  {
+   "file": "23_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/731941821/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "steve b"
+  },
+  {
+   "file": "23_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/92751520/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Juan J. Morales-Trejo"
+  }
+ ],
+ "24": [
+  {
+   "file": "24_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/529873478/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Лариса Артемьева"
+  },
+  {
+   "file": "24_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/231457943/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC BY",
+   "author": "eloise kerroux"
+  }
+ ],
+ "25": [
+  {
+   "file": "25_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/252010235/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Sean Haight"
+  },
+  {
+   "file": "25_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/126405877/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Sean B"
+  },
+  {
+   "file": "25_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/126405965/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Sean B"
+  }
+ ],
+ "26": [
+  {
+   "file": "26_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/472549482/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Tero Linjama"
+  },
+  {
+   "file": "26_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/131304404/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Лариса Артемьева"
+  }
+ ],
+ "28": [
+  {
+   "file": "28_0.jpg",
+   "src": "File:Bar-headed Goose in Kaziranga National Park March 2025 by Tisha Mukherjee 02.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Tisha Mukherjee"
+  },
+  {
+   "file": "28_1.jpg",
+   "src": "File:Bar-headed geese (Anser indicus).jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Charles J. Sharp"
+  },
+  {
+   "file": "28_2.jpg",
+   "src": "File:Habitat shot of Bar-headed Goose (Anser indicus) DSC 8514.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 4.0",
+   "author": "Lorensonowal"
+  }
+ ],
+ "29": [
+  {
+   "file": "29_0.jpg",
+   "src": "File:010b Wild Bearded Vulture in flight at Pfyn-Finges (Switzerland) Photo by Giles Laurent.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Giles Laurent"
+  },
+  {
+   "file": "29_1.jpg",
+   "src": "File:023 Wild Bearded Vulture Switzerland Pfyn-Finges Photo by Giles Laurent.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Giles Laurent"
+  },
+  {
+   "file": "29_2.jpg",
+   "src": "File:024 Wild Bearded Vulture Swiss Alps Pfyn-Finges Photo by Giles Laurent.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Giles Laurent"
+  }
+ ],
+ "31": [
+  {
+   "file": "31_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/147054199/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Dario Taraborelli"
+  },
+  {
+   "file": "31_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/147054106/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Dario Taraborelli"
+  },
+  {
+   "file": "31_2.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/327048921/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Irene"
+  }
+ ],
+ "32": [
+  {
+   "file": "32_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/485815276/original.jpg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Tero Linjama"
+  },
+  {
+   "file": "32_1.jpg",
+   "src": "File:Cygnus cygnus Oulu 20240414 01.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC0",
+   "author": "Estormiz"
+  },
+  {
+   "file": "32_2.jpg",
+   "src": "File:Cygnus cygnus Oulu 20250307 04.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC0",
+   "author": "Estormiz"
+  }
+ ],
+ "33": [
+  {
+   "file": "33_0.jpg",
+   "src": "File:Great Snipe (Gallinago media), Åre, Jämtland, Sweden 15.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 4.0",
+   "author": "christoph_moning"
+  },
+  {
+   "file": "33_1.jpg",
+   "src": "File:Great Snipe (Gallinago media), Åre, Jämtland, Sweden 04.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY 4.0",
+   "author": "christoph_moning"
+  }
+ ],
+ "35": [
+  {
+   "file": "35_0.jpg",
+   "src": "File:Crane (Grus grus) calling).jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Andreas Weith"
+  },
+  {
+   "file": "35_1.jpg",
+   "src": "File:Cranes (Grus grus) feeding on a meadow.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Andreas Weith"
+  },
+  {
+   "file": "35_2.jpg",
+   "src": "File:Grus grus (Séligné) 07032024 01.jpg",
+   "source": "Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "author": "Gllawm"
+  }
+ ],
+ "36": [
+  {
+   "file": "36_0.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/320147265/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Henggang Cui"
+  },
+  {
+   "file": "36_1.jpg",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/42975177/original.jpeg",
+   "source": "iNaturalist",
+   "license": "CC0",
+   "author": "Adam Kranz"
+  }
+ ]
+}

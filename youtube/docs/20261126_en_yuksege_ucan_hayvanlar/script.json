@@ -1,0 +1,577 @@
+{
+ "title": "EN YÜKSEĞE UÇAN HAYVANLAR",
+ "subtitle": "Yerden 11.300 metreye",
+ "mechanic": "altimeter",
+ "journey": {
+  "meter": false,
+  "label": "İRTİFA",
+  "unit": "m",
+  "max": 11300,
+  "direction": "up",
+  "zones": [
+   [
+    0,
+    1000,
+    "ALÇAK UÇUŞ"
+   ],
+   [
+    1000,
+    4000,
+    "BULUT KATI"
+   ],
+   [
+    4000,
+    6500,
+    "DAĞ DORUKLARI"
+   ],
+   [
+    6500,
+    8000,
+    "İNCE HAVA"
+   ],
+   [
+    8000,
+    11300,
+    "ÖLÜM BÖLGESİ"
+   ]
+  ],
+  "stats": [],
+  "range_label": "İRTİFA",
+  "palette": [
+   [
+    0,
+    [
+     70,
+     140,
+     215
+    ]
+   ],
+   [
+    11300,
+    [
+     6,
+     16,
+     58
+    ]
+   ]
+  ],
+  "rays": 0,
+  "particles": null,
+  "glow": null,
+  "card": [
+   40,
+   96,
+   1232,
+   693
+  ],
+  "sub_cx": 656,
+  "clouds": [
+   1800,
+   4200,
+   8800
+  ],
+  "air": {
+   "x": [
+    0,
+    1000,
+    2000,
+    3000,
+    4000,
+    5000,
+    6000,
+    7000,
+    8000,
+    9000,
+    10000,
+    11000,
+    11300
+   ],
+   "p": [
+    1013,
+    899,
+    795,
+    701,
+    616,
+    540,
+    472,
+    411,
+    356,
+    308,
+    265,
+    227,
+    217
+   ],
+   "t": [
+    15,
+    8.5,
+    2,
+    -4.5,
+    -11,
+    -17.5,
+    -24,
+    -30.5,
+    -37,
+    -43.5,
+    -50,
+    -56.5,
+    -56.5
+   ],
+   "o2": [
+    100,
+    89,
+    78,
+    69,
+    61,
+    53,
+    47,
+    41,
+    35,
+    30,
+    26,
+    22,
+    21
+   ]
+  },
+  "music": [
+   "Floating_Cities.mp3",
+   "Stormfront.mp3"
+  ]
+ },
+ "intro_photos": [
+  "10_0",
+  "29_0",
+  "32_0",
+  "16_0"
+ ],
+ "segments": [
+  {
+   "type": "intro",
+   "depth": 0,
+   "text": "Bir kuş ne kadar yükseğe uçabilir? Göç eden kuşlar çoğu zaman yerden yalnızca birkaç yüz metre yükselir. Ama bazıları dünyanın en yüksek dağlarının üzerinden geçer, biri ise on bir kilometre yükseklikte bir yolcu uçağıyla karşılaştı. Orada hava ortalama eksi elli altı dereceye kadar soğur ve her nefeste deniz seviyesindekinin beşte biri kadar oksijen vardır. Bugün yerden kalkıp on bir bin üç yüz metreye, bir canlının uçtuğu doğrulanmış en yüksek noktaya tırmanacağız. Yol boyunca beş hava katmanından geçecek ve yirmi dört canlıyla tanışacağız. Ekranın sağındaki altimetreyi, hava göstergelerini ve uçuş defterini takip edin. Kemerlerinizi bağlayın, kalkıyoruz.",
+   "text_en": "How high can a bird fly? Migrating birds usually climb only a few hundred metres above the ground. But some cross the highest mountains on Earth, and one met an airliner eleven kilometres up. Up there the air cools to an average of minus 56 degrees and every breath holds only about a fifth of the oxygen found at sea level. Today we take off from the ground and climb to 11,300 metres, the highest confirmed altitude any living thing has flown. On the way we will pass through five layers of air and meet 24 animals. Follow the altimeter, the air gauges and the flight log on the right of the screen. Fasten your seatbelts, we are taking off."
+  },
+  {
+   "type": "zone",
+   "depth": 0,
+   "name": "ALÇAK UÇUŞ",
+   "name_en": "LOW FLIGHT",
+   "range": "0 – 1.000 m",
+   "range_en": "0 – 1,000 m",
+   "text": "İlk katmanımız yere en yakın hava. Deniz seviyesinde hava basıncı bin on üç hektopaskal civarındadır ve orta enlemlerde ortalama sıcaklık on beş derecedir. Yükseldikçe hava giderek soğur ve incelir. Kuşların büyük çoğunluğu hayatını bu katmanda geçirir. Göç eden kuşların ortalama uçuş yüksekliği bile yerden yalnızca dört yüz ile sekiz yüz metre arasındadır. Havada asılı kalan avcıların, gökyüzünde şarkı söyleyen kuşların ve rüzgâra kapılan böceklerin dünyası burasıdır.",
+   "text_en": "Our first layer is the air closest to the ground. At sea level the air pressure is about 1,013 hectopascals and the average temperature in the middle latitudes is 15 degrees. As we climb, the air grows colder and thinner. Most birds spend their lives in this layer. Even the average flight height of migrating birds is only 400 to 800 metres above the ground. This is the world of hovering hunters, birds that sing in the sky and insects carried by the wind."
+  },
+  {
+   "type": "creature",
+   "depth": 20,
+   "name": "Adi kerkenez",
+   "short": "Kerkenez",
+   "name_en": "Common kestrel",
+   "latin": "Falco tinnunculus",
+   "range": "10 – 20 m",
+   "range_en": "10 – 20 m",
+   "text": "Yerden yalnızca on ile yirmi metre yükseklikte, havada asılı duran bir kuş görüyoruz. Bu adi kerkenez. Avlanırken rüzgâra karşı kanat çırparak gökyüzünde tek bir noktada sabit kalır ve aşağıdaki otları tarar. Bu yüzden eski İngilizcede ona rüzgârda asılı duran anlamına gelen bir ad verilmişti. Kerkenezler morötesine yakın ışığı görebilir. Bir kerkenezin günde dört ile sekiz tarla faresine denk gelen besine ihtiyacı vardır. Avrupa, Asya ve Afrika'nın geniş bir bölümünde yaşar, kanat açıklığı altmış beş ile seksen iki santimetre arasındadır.",
+   "text_en": "Only ten to twenty metres above the ground, we see a bird hanging in the air. This is the common kestrel. When hunting it beats its wings into the wind, stays fixed at a single point in the sky and scans the grass below. That is why it was once called the windhover in English. Kestrels can see near-ultraviolet light. A kestrel needs the equivalent of four to eight voles a day. It lives across much of Europe, Asia and Africa, and its wingspan is 65 to 82 centimetres."
+  },
+  {
+   "type": "landmark",
+   "depth": 62.59,
+   "name": "Galata Kulesi",
+   "name_en": "Galata Tower",
+   "value": "62,59 m",
+   "icon": "tower",
+   "text": "Altmış iki buçuk metreye geldik. İstanbul'daki Galata Kulesi'nin çatısının en ucu tam bu yükseklikte. Havada asılı duran kerkenez, kulenin aşağı yukarı üçte biri yüksekliğinde avlanıyordu. Ama bu yolculukta kuleler çok kısa sürede geride kalacak.",
+   "text_en": "We have reached 62 and a half metres. The tip of the roof of the Galata Tower in Istanbul is exactly this high. The hovering kestrel was hunting at roughly a third of the tower's height. But on this journey, towers will soon be far below us.",
+   "value_en": "62.59 m"
+  },
+  {
+   "type": "creature",
+   "depth": 100,
+   "name": "Tarla kuşu",
+   "short": "Tarla kuşu",
+   "name_en": "Eurasian skylark",
+   "latin": "Alauda arvensis",
+   "range": "50 – 100 m",
+   "range_en": "50 – 100 m",
+   "text": "Bu küçük, çizgili kahverengi kuş, kuş dünyasının en ünlü şarkıcılarından biri: tarla kuşu. Erkek tarla kuşu şarkısını yerde değil, gökyüzünde söyler. Kanat çırparak elli ile yüz metre yüksekliğe çıkar ve orada havada asılı kalarak şakır. Bu yükseklikte yerden bakan biri onu yalnızca küçük bir nokta olarak görür. Şarkısı genellikle iki üç dakika sürer, ama üreme mevsiminin sonlarına doğru yirmi dakikayı aşabilir. Dişi, yuvasını ağaçlardan ve çalılardan uzakta, açık arazide yerdeki sığ bir çukura yapar. Bu kuş, Shelley ve Meredith gibi şairlere ve besteci Vaughan Williams'a ilham vermiştir.",
+   "text_en": "This small, streaky brown bird is one of the most famous singers in the bird world: the Eurasian skylark. The male does not sing on the ground but in the sky. It flutters up to 50 to 100 metres and sings while hovering there. From the ground it looks like nothing more than a dot. The song usually lasts two to three minutes, but late in the breeding season it can go on for more than 20 minutes. The female builds her nest in a shallow hollow on open ground, far from trees and bushes. The bird has inspired poets such as Shelley and Meredith and the composer Vaughan Williams."
+  },
+  {
+   "type": "landmark",
+   "depth": 330,
+   "name": "Eyfel Kulesi",
+   "name_en": "Eiffel Tower",
+   "value": "330 m",
+   "icon": "tower",
+   "text": "Üç yüz otuz metredeyiz. Paris'teki Eyfel Kulesi tam bu kadar yüksek; aşağı yukarı seksen bir katlı bir binaya denk. Kule, kırk bir yıl boyunca insan yapımı en yüksek yapı olarak kaldı. Ama göç eden kuşlar için bu yükseklik daha başlangıç.",
+   "text_en": "We are at 330 metres. The Eiffel Tower in Paris is exactly this tall, about the height of an 81-storey building. For 41 years it was the tallest human-made structure in the world. But for migrating birds this height is only the beginning."
+  },
+  {
+   "type": "landmark",
+   "depth": 828,
+   "name": "Burj Halife",
+   "name_en": "Burj Khalifa",
+   "value": "828 m",
+   "icon": "tower",
+   "text": "Sekiz yüz yirmi sekiz metre. Dubai'deki Burj Halife'nin çatı yüksekliği, yani dünyanın en yüksek yapısının tepesi burada. Göç eden kuşların çoğu bu yüksekliğin biraz altında uçar. Biz ise yolculuğumuzun henüz on üçte birini bile tamamlamadık.",
+   "text_en": "828 metres. This is the roof height of the Burj Khalifa in Dubai, the top of the tallest structure on Earth. Most migrating birds fly a little below this height. And we have not even covered a thirteenth of our journey yet.",
+   "chapter": true
+  },
+  {
+   "type": "creature",
+   "depth": 1000,
+   "name": "Yedi noktalı uğur böceği",
+   "short": "Uğur böceği",
+   "name_en": "Seven-spot ladybird",
+   "latin": "Coccinella septempunctata",
+   "range": "1.000 m",
+   "range_en": "1,000 m",
+   "text": "Bin metreye geldiğimizde karşımıza çıkan canlı belki de en beklenmedik olanı: yedi noktalı uğur böceği. Sağlıklı bir uğur böceği yaklaşık bin metre yükseklikte yüz yirmi kilometreye kadar uçabilir. Bu, Manş Denizi'ni geçmeye yeter. Kırmızı kanat kabuklarının her birinde üç siyah nokta, ikisinin birleştiği yerde de bir nokta daha vardır; toplam yedi. Asıl besini yaprak bitleridir. Tehlike anında bacak eklemlerinden kötü tatlı bir sıvı salgılar. Bin dokuz yüz yetmiş altı yılındaki sıcak dalgasında İngiltere'de sayıları birden artmış ve büyük sürüler oluşturmuşlardı.",
+   "text_en": "At 1,000 metres we meet perhaps the most unexpected flyer of all: the seven-spot ladybird. A healthy ladybird can fly up to 120 kilometres at an altitude of about 1,000 metres. That is enough to cross the English Channel. Each red wing case carries three black spots, with one more where the two meet: seven in total. Its main food is aphids. When threatened it releases a foul-tasting fluid from its leg joints. During the 1976 heatwave their numbers in England soared and they formed huge swarms."
+  },
+  {
+   "type": "creature",
+   "depth": 1000,
+   "name": "Bantlı çiçek sineği",
+   "short": "Çiçek sineği",
+   "name_en": "Marmalade hoverfly",
+   "latin": "Episyrphus balteatus",
+   "range": "300 – 1.000 m",
+   "range_en": "300 – 1,000 m",
+   "text": "Bir arıya benziyor ama arı değil. Bu bantlı çiçek sineği, İngilizcede marmelat sineği diye bilinir. Karnındaki turuncu ve siyah bantlar onu yaban arısı gibi gösterir; bu taklit kuşları ondan uzak tutar. Orta Avrupa'nın en kalabalık yerli çiçek sineğidir. Bazıları sonbaharda Kuzey Avrupa'dan Güney Avrupa'ya ve Kuzey Afrika'ya göç eder; yoğun göç sürüleri insanları arı sürüsü sanılıp telaşlandırabilir. Çoğu üç yüz metrenin altında uçar, ama birçoğu yedi yüz elli metreyi geçer, birkaçı neredeyse bin metreye çıkar. Tek bir larvası, pupa olmadan önce dört yüze yakın yaprak biti yiyebilir.",
+   "text_en": "It looks like a wasp, but it is not one. This is the marmalade hoverfly. The orange and black bands on its abdomen make it look like a wasp, a disguise that keeps birds away. It is the most abundant native hoverfly in Central Europe. Some migrate in autumn from northern Europe to southern Europe and North Africa, and their dense swarms can cause panic among people who mistake them for wasps. Most fly below 300 metres, but many go beyond 750 metres and a few reach almost 1,000 metres. A single larva can eat about 400 aphids before it pupates."
+  },
+  {
+   "type": "zone",
+   "depth": 1000,
+   "name": "BULUT KATI",
+   "name_en": "CLOUD LAYER",
+   "range": "1.000 – 4.000 m",
+   "range_en": "1,000 – 4,000 m",
+   "text": "İkinci katmana giriyoruz. Burası bulutların dünyası. Güneş yeri ısıttıkça yükselen sıcak hava, görünmez sütunlar yani termaller oluşturur. Leylekler, kartallar ve akbabalar kanat çırpmadan bu sütunlarda daire çizerek yükselir. Göç eden kuşların çoğu bu katmanın alt kısmında uçar. Dört bin metreye vardığımızda hava sıcaklığı sıfırın altına iner, basınç deniz seviyesindekinin yaklaşık yüzde altmışına düşer. Bu katmanda dağ yamaçlarında yaşayan kuşlarla ve rüzgârla sürüklenen bir böcek bulutuyla karşılaşacağız.",
+   "text_en": "We enter the second layer, the world of clouds. As the sun warms the ground, rising warm air forms invisible columns called thermals. Storks, eagles and vultures circle up these columns without flapping their wings. Most migrating birds fly in the lower part of this layer. By the time we reach 4,000 metres the air temperature drops below zero and the pressure falls to about 60 percent of its sea-level value. In this layer we will meet birds of the mountain slopes and a cloud of insects carried by the wind."
+  },
+  {
+   "type": "creature",
+   "depth": 1600,
+   "name": "Kea",
+   "short": "Kea",
+   "name_en": "Kea",
+   "latin": "Nestor notabilis",
+   "range": "1.600 m ve üstü",
+   "range_en": "1,600 m and above",
+   "text": "Karlı dağ yamaçlarında yaşayan bir papağan! Bu, Yeni Zelanda'nın Güney Adası'na özgü kea. Bin altı yüz metre ve üzerinde ürer; dünyada düzenli olarak orman sınırının üstünde vakit geçiren az sayıdaki papağan türünden biridir. Zeytin yeşili tüylerinin altında, kanatlarını açınca parlak turuncu bir renk ortaya çıkar. Son derece zeki ve meraklıdır: mantık bulmacalarını çözer, alet kullanır. Dağların palyaçosu diye anılır; sırt çantalarını, botları, kayakları, hatta arabaların lastik parçalarını kurcalar. Bir kea'nın bir turistin pasaportunu alıp uçtuğu bile bildirilmiştir.",
+   "text_en": "A parrot on snowy mountain slopes! This is the kea, found only on the South Island of New Zealand. It breeds at 1,600 metres and above, and it is one of the few parrot species in the world that regularly spends time above the tree line. Under its olive-green feathers, a brilliant orange appears when it opens its wings. It is extremely clever and curious: it solves logic puzzles and uses tools. Known as the clown of the mountains, it investigates backpacks, boots, skis and even the rubber parts of cars. One kea was even reported to have flown off with a tourist's passport."
+  },
+  {
+   "type": "creature",
+   "depth": 1600,
+   "name": "Bozkır kartalı",
+   "short": "Bozkır kartalı",
+   "name_en": "Steppe eagle",
+   "latin": "Aquila nipalensis",
+   "range": "yerden 1.600 m",
+   "range_en": "1,600 m above ground",
+   "text": "Göç yollarında binlercesi birden görülen bir kartal: bozkır kartalı. Yuvasını çoğunlukla doğrudan yere yapan tek kartal türüdür. Üreme alanlarında asıl avı yer sincaplarıdır. Neredeyse bütün nüfusu her yıl göç eder ve Süveyş, Eilat ve Bab-ül Mendeb gibi darboğazlarda kalabalık gruplar halinde geçer. İsrail üzerinden göç eden kartalların saniyede ortalama yaklaşık iki metre tırmandığı ve yerden bin altı yüz metreye kadar yükseldiği ölçüldü; ama çoğu bin metrenin altında kaldı. Nüfusu yarıdan fazla azaldığı için bugün tehlike altındaki türler arasında sayılıyor.",
+   "text_en": "An eagle seen by the thousands on its migration routes: the steppe eagle. It is the only eagle that nests mainly on the ground. On its breeding grounds its main prey is ground squirrels. Almost the entire population migrates each year, passing bottlenecks such as Suez, Eilat and Bab-el-Mandeb in large groups. Eagles migrating over Israel were measured climbing at an average of about two metres per second and rising up to 1,600 metres above the ground, though most stayed below 1,000 metres. Its population has fallen by more than half, and it is now listed as endangered."
+  },
+  {
+   "type": "creature",
+   "depth": 2000,
+   "name": "Çöl çekirgesi",
+   "short": "Çöl çekirgesi",
+   "name_en": "Desert locust",
+   "latin": "Schistocerca gregaria",
+   "range": "2.000 m",
+   "range_en": "2,000 m",
+   "text": "Rüzgârla birlikte ilerleyen bir bulut görüyoruz. Ama bu bulut canlı: bir çöl çekirgesi sürüsü. Çöl çekirgeleri deniz seviyesinden yaklaşık iki bin metreye kadar uçabilir; daha yukarıda hava onlar için fazla soğuktur. Tipik bir sürünün her kilometrekaresinde yüz elli milyon çekirge bulunabilir. Bir kilometrekarelik küçük bir sürü bile bir günde otuz beş bin insanın yiyeceği kadar besin tüketir. Normalde yalnız yaşayan bu çekirgeler, sayıları artınca görünüşlerini ve davranışlarını değiştirip sürüye dönüşür. Bin dokuz yüz seksen yedi ile seksen dokuz arasındaki salgında Afrika'dan Karayipler'e, Atlas Okyanusu'nu on günde geçtikleri bildirildi.",
+   "text_en": "We see a cloud drifting with the wind. But this cloud is alive: a swarm of desert locusts. Desert locusts can fly up to about 2,000 metres above sea level; higher up the air is too cold for them. A typical swarm can hold 150 million locusts per square kilometre. Even a small swarm of one square kilometre eats as much food in a day as about 35,000 people. Normally solitary, these locusts change their appearance and behaviour when their numbers grow and turn into swarms. During the 1987 to 1989 plague they were reported to have crossed the Atlantic Ocean from Africa to the Caribbean in ten days."
+  },
+  {
+   "type": "landmark",
+   "depth": 3917,
+   "name": "Erciyes Dağı",
+   "name_en": "Mount Erciyes",
+   "value": "3.917 m",
+   "icon": "mountain",
+   "text": "Üç bin dokuz yüz on yedi metre. Kayseri'deki Erciyes Dağı'nın zirvesi bu yükseklikte. Erciyes, Orta Anadolu'nun en yüksek dağı ve en büyük yanardağıdır. Buradan sonra tanışacağımız canlıların çoğu, Türkiye'deki dağların neredeyse hepsinden daha yüksekte yaşıyor ya da uçuyor.",
+   "text_en": "3,917 metres. The summit of Mount Erciyes near Kayseri is at this height. Erciyes is the highest mountain and the most voluminous volcano in Central Anatolia. Most of the animals we meet from now on live or fly higher than almost every mountain in Turkey.",
+   "value_en": "3,917 m"
+  },
+  {
+   "type": "zone",
+   "depth": 4000,
+   "name": "DAĞ DORUKLARI",
+   "name_en": "MOUNTAIN PEAKS",
+   "range": "4.000 – 6.500 m",
+   "range_en": "4,000 – 6,500 m",
+   "text": "Üçüncü katman, dünyanın büyük dağlarının zirveleri. Burada hava ince ve soğuktur. Beş bin metrede hava basıncı deniz seviyesindekinin ancak yarısı kadardır; her nefeste akciğerlere giren oksijen de aşağı yukarı yarıya iner. Altı bin metrede sıcaklık eksi yirmi derecenin altına düşer. Ama bazı kuşlar burada yalnızca yaşamakla kalmaz, ürer, yuva yapar ve göç eder. Bazılarının kanındaki özel hemoglobin, ince havadaki oksijeni yakalamalarına yardım eder.",
+   "text_en": "The third layer is the realm of the world's great summits. Here the air is thin and cold. At 5,000 metres the air pressure is only about half of its sea-level value, so each breath brings roughly half as much oxygen into the lungs. At 6,000 metres the temperature falls below minus 20 degrees. Yet some birds do not just survive here; they breed, build nests and migrate. In some of them, special haemoglobin in the blood helps them capture oxygen from the thin air.",
+   "music_switch": true
+  },
+  {
+   "type": "creature",
+   "depth": 4500,
+   "name": "Himalaya monalı",
+   "short": "Himalaya monalı",
+   "name_en": "Himalayan monal",
+   "latin": "Lophophorus impejanus",
+   "range": "2.100 – 4.500 m",
+   "range_en": "2,100 – 4,500 m",
+   "text": "Gökkuşağının renklerini taşıyan bu kuş Himalaya monalı. Nepal'in ulusal kuşudur ve orada danfe adıyla bilinir; Hindistan'ın Uttarakhand eyaletinin de simgesidir. Erkeğin bütün tüyleri parlak ve çok renklidir; dişi ise diğer tavuksu kuşlar gibi daha sade renklidir. Afganistan ve Pakistan'dan Nepal, Hindistan, Tibet ve Butan'a kadar Himalayaların ormanlarında ve çalılıklarında iki bin yüz ile dört bin beş yüz metre arasında yaşar. Kara dayanıklıdır; karı kazarak bitki köklerine, sürgünlere ve böceklere ulaşır. Kışın iki bin metreye kadar iner.",
+   "text_en": "This bird wearing the colours of the rainbow is the Himalayan monal. It is the national bird of Nepal, where it is called the danphe, and the state bird of Uttarakhand in India. The male's plumage is brilliantly multicoloured all over, while the female, like other landfowl, is more subdued. From Afghanistan and Pakistan to Nepal, India, Tibet and Bhutan, it lives in Himalayan forests and shrublands between 2,100 and 4,500 metres. It tolerates snow and digs through it to reach roots, shoots and insects. In winter it descends to 2,000 metres."
+  },
+  {
+   "type": "creature",
+   "depth": 4800,
+   "name": "Ak leylek",
+   "short": "Ak leylek",
+   "name_en": "White stork",
+   "latin": "Ciconia ciconia",
+   "range": "4.800 m",
+   "range_en": "4,800 m",
+   "text": "Göçmen kuşların belki de en tanıdığı: ak leylek. Ak leylekler uzun göçlerinde kanat çırpmak yerine sıcak hava sütunlarında süzülerek yükselir; göç sırasında dört bin sekiz yüz metreye kadar çıkabilirler. Termaller deniz üzerinde oluşmadığı için Akdeniz'i geçmekten kaçınırlar. Orta Avrupa'dan gelenlerin bir kısmı İstanbul Boğazı'nı aşar, Levant'tan geçip Nil vadisini izleyerek Afrika'ya iner. Kanat çırparak uçmak, aynı mesafe için süzülmekten yirmi üç kat fazla yağ yakar. Asıl sesleri gagalarını takırdatmaktır; bu ses uzaktan makineli tüfek sesine benzetilir.",
+   "text_en": "Perhaps the most familiar migrant of all: the white stork. On their long migrations, white storks rise by soaring in columns of warm air rather than flapping, and they can reach 4,800 metres while migrating. Because thermals do not form over the sea, they avoid crossing the Mediterranean. Some birds from central Europe cross the Bosphorus in Istanbul, pass through the Levant and follow the Nile valley into Africa. Flapping flight burns 23 times more body fat than soaring over the same distance. Their main sound is bill clattering, which has been likened to distant machine-gun fire."
+  },
+  {
+   "type": "creature",
+   "depth": 5000,
+   "name": "And yıldız sinekkuşu",
+   "short": "Yıldız sinekkuşu",
+   "name_en": "Andean hillstar",
+   "latin": "Oreotrochilus estella",
+   "range": "2.400 – 5.000 m",
+   "range_en": "2,400 – 5,000 m",
+   "text": "Beş bin metrede bir sinekkuşu! Bu And yıldız sinekkuşu. And Dağları'nda iki bin dört yüz ile beş bin metre arasında yaşar, en çok da üç bin beş yüz ile dört bin beş yüz metre arasında görülür. Dondurucu gecelerde hayatta kalmak için metabolizmasını kış uykusunu andıran bir duruma, yani torpora geçirir ve mağaralarda ya da derin kaya yarıklarında sabahı bekler. Enerji harcamamak için çiçeklerin önünde havada asılı kalmak yerine tünemiş olarak beslenir. Dişiler, yünü andıran büyük çanak yuvalarını kaya yüzeylerine yapıştırır.",
+   "text_en": "A hummingbird at 5,000 metres! This is the Andean hillstar. It lives in the Andes between 2,400 and 5,000 metres and is most common between 3,500 and 4,500 metres. To survive freezing nights it drops its metabolism into a hibernation-like state called torpor and waits for morning in caves and deep crevices. To save energy it perches while feeding instead of hovering in front of flowers. Females glue their large, woolly cup nests to rock faces."
+  },
+  {
+   "type": "creature",
+   "depth": 5100,
+   "name": "Duvar tırmaşıkkuşu",
+   "short": "Duvar tırmaşıkkuşu",
+   "name_en": "Wallcreeper",
+   "latin": "Tichodroma muraria",
+   "range": "1.000 – 5.100 m",
+   "range_en": "1,000 – 5,100 m",
+   "text": "Dik kaya duvarlarında yaşayan bu küçük kuş, duvar tırmaşıkkuşu. Kanatlarını kapattığında gri ve sade görünür, ama açtığında beyaz benekli, olağanüstü kırmızı kanatlar ortaya çıkar. Kaya yüzeylerinden böcekleri ve örümcekleri toplar, bazen kayadan kısa atılışlarla uçan böcekleri havada yakalar. Avrupa'da bin ile üç bin metre arasında, Tanrı Dağları'nda iki bin sekiz yüz ile dört bin metre arasında, Himalayalarda ise üç bin altı yüz ile beş bin yüz metre arasında ürer. Yuvasını derin bir kaya yarığına ya da mağaraya yapar. Kışın aşağı iner ve taş ocaklarında, hatta binaların duvarlarında görülür.",
+   "text_en": "This small bird of sheer rock walls is the wallcreeper. With its wings folded it looks grey and plain, but when it opens them, extraordinary crimson wings with white spots appear. It gleans insects and spiders from rock faces and sometimes catches flying insects in short sallies from the wall. It breeds between 1,000 and 3,000 metres in Europe, between 2,800 and 4,000 metres in the Tian Shan, and between 3,600 and 5,100 metres in the Himalayas. It nests deep in a rock crevice or cave. In winter it moves lower and can be found in quarries and even on the walls of buildings."
+  },
+  {
+   "type": "landmark",
+   "depth": 5137,
+   "name": "Ağrı Dağı",
+   "name_en": "Mount Ararat",
+   "value": "5.137 m",
+   "icon": "mountain",
+   "text": "Beş bin yüz otuz yedi metre. Türkiye'nin en yüksek noktası olan Ağrı Dağı'nın zirvesine ulaştık. Bundan sonra tanışacağımız her canlı, Türkiye'deki her noktadan daha yüksekte uçuyor ya da yaşıyor.",
+   "text_en": "5,137 metres. We have reached the summit of Mount Ararat, the highest point in Turkey. Every animal we meet from now on flies or lives higher than any point in Turkey.",
+   "chapter": true,
+   "value_en": "5,137 m"
+  },
+  {
+   "type": "creature",
+   "depth": 5500,
+   "name": "Himalaya akbabası",
+   "short": "Himalaya akbabası",
+   "name_en": "Himalayan vulture",
+   "latin": "Gyps himalayensis",
+   "range": "1.200 – 5.500 m",
+   "range_en": "1,200 – 5,500 m",
+   "text": "Himalayaların belki de en büyük ve en ağır kuşu: Himalaya akbabası. Kara akbabadan sonra Eski Dünya'nın en büyük ikinci akbabasıdır. Ağırlığı altı ile on iki buçuk kilogram arasında değişir. Himalayaların ve Tibet Platosu'nun yüksek bölgelerinde, bin iki yüz ile beş bin beş yüz metre arasında yaşar. Tibet'te yuvaları dört bin iki yüz kırk beş metreye kadar kaydedilmiştir. Leşle beslenir; Tibet Platosu'nda besininin yüzde altmış dördünü ölmüş evcil yaklar oluşturur. Leşin başında tilkilere ve küçük kedigillere üstün gelir, ama kurtlara ve kar leoparlarına yol verir.",
+   "text_en": "Perhaps the largest and heaviest bird in the Himalayas: the Himalayan vulture. After the cinereous vulture, it is the second-largest Old World vulture. It weighs between 6 and 12.5 kilograms. It lives in the high regions of the Himalayas and the Tibetan Plateau, between 1,200 and 5,500 metres. In Tibet its nests have been recorded as high as 4,245 metres. It feeds on carrion; on the Tibetan Plateau, dead domestic yaks make up 64 percent of its diet. At a carcass it dominates foxes and small cats, but gives way to wolves and snow leopards."
+  },
+  {
+   "type": "landmark",
+   "depth": 5895,
+   "name": "Kilimanjaro",
+   "name_en": "Kilimanjaro",
+   "value": "5.895 m",
+   "icon": "mountain",
+   "text": "Beş bin sekiz yüz doksan beş metre. Afrika'nın en yüksek dağı Kilimanjaro'nun zirvesi burada. Kilimanjaro, dünyanın tek başına yükselen en yüksek dağıdır. Ama birazdan tanışacağımız minik bir ötücü kuş, bu zirveden bile yükseğe çıkıyor.",
+   "text_en": "5,895 metres. This is the summit of Kilimanjaro, the highest mountain in Africa and the highest free-standing mountain on Earth. But a tiny songbird we are about to meet climbs even higher than this summit.",
+   "value_en": "5,895 m"
+  },
+  {
+   "type": "creature",
+   "depth": 6000,
+   "name": "Kıyı çamurcunu",
+   "short": "Kıyı çamurcunu",
+   "name_en": "Bar-tailed godwit",
+   "latin": "Limosa lapponica",
+   "range": "6.000 m",
+   "range_en": "6,000 m",
+   "text": "Bu uzun gagalı kıyı kuşu, kuşlar arasındaki en büyük dayanıklılık rekorunun sahibi: kıyı çamurcunu. Göç sırasında altı bin metreye kadar yükselebilir. İki bin yirmi bir yılında bir erkek çamurcun, Alaska'dan Avustralya'ya hiç durmadan en az on üç bin beş yüz altmış kilometre uçtu. Yolculuk on bir gün bir saat sürdü. Bu türün Alaska'dan Yeni Zelanda'ya Pasifik Okyanusu'nu aşan göçü, bir kuşun yaptığı bilinen en uzun kesintisiz uçuştur ve hiçbir hayvan beslenmek için durmadan bundan uzun bir yolculuk yapmaz. Bunun için göçmen kuşlar arasında en fazla yağı depolar ve yer açmak için sindirim organlarını küçültür.",
+   "text_en": "This long-billed shorebird holds the greatest endurance record among birds: the bar-tailed godwit. On migration it can climb to 6,000 metres. In 2021 a male godwit flew at least 13,560 kilometres non-stop from Alaska to Australia. The journey took 11 days and 1 hour. This species' migration across the Pacific from Alaska to New Zealand is the longest known non-stop flight of any bird and the longest journey made by any animal without stopping to feed. To fuel it, the godwit carries the largest fat load of any migratory bird studied and shrinks its digestive organs to make room."
+  },
+  {
+   "type": "creature",
+   "depth": 6200,
+   "name": "Gezgin yusufçuk",
+   "short": "Gezgin yusufçuk",
+   "name_en": "Wandering glider",
+   "latin": "Pantala flavescens",
+   "range": "6.200 m",
+   "range_en": "6,200 m",
+   "text": "Altı bin iki yüz metrede bir böcek! Bu, en yüksekte uçan yusufçuk: gezgin yusufçuk. Himalayalarda bu yükseklikte kaydedildi. Antarktika dışında her kıtada yaşar ve gezegendeki en yaygın yusufçuk kabul edilir. Nesiller boyu süren yıllık göçü yaklaşık on sekiz bin kilometredir; tek bir birey altı bin kilometreden fazla uçar. Bu, böcekler arasında bilinen en uzun göçlerden biridir. Hindistan'dan Afrika'ya Arap Denizi'ni aşarak gider, yolda Maldivler'de ve Seyşeller'de mola verir. Larvaları geçici su birikintilerinde, hatta yüzme havuzlarında bile gelişebilir.",
+   "text_en": "An insect at 6,200 metres! This is the highest-flying dragonfly: the wandering glider, also called the globe skimmer. It was recorded at this height in the Himalayas. It lives on every continent except Antarctica and is considered the most widespread dragonfly on the planet. Its yearly multigenerational migration covers about 18,000 kilometres, and a single individual flies more than 6,000 kilometres, one of the longest known insect migrations. It crosses the Arabian Sea from India to Africa, stopping over in the Maldives and the Seychelles. Its larvae can develop in temporary pools and even in swimming pools."
+  },
+  {
+   "type": "creature",
+   "depth": 6267,
+   "name": "Büyük kamışçın",
+   "short": "Büyük kamışçın",
+   "name_en": "Great reed warbler",
+   "latin": "Acrocephalus arundinaceus",
+   "range": "6.267 m",
+   "range_en": "6,267 m",
+   "text": "Sazlıklarda yaşayan, yalnızca yirmi iki ile otuz sekiz gram ağırlığındaki bir ötücü kuş, Kilimanjaro'nun zirvesinden daha yüksekte. Büyük kamışçın, kendi ailesinin en iri kuşlarından biridir. Avrupa'nın sazlıklarında ürer ve kışı Sahra'nın güneyindeki Afrika'da geçirir. İsveç'te minik veri kaydedicilerle izlenen kuşlar, Sahra Çölü'nü geçerken beş bin metreyi aştı; biri altı bin iki yüz altmış yedi metreye ulaştı. Bunlar bir ötücü kuş için kaydedilmiş en yüksek tırmanışlar. Bu yükseklik, Afrika'nın ve Avrupa'nın en yüksek dağlarının zirvelerinden bile fazladır.",
+   "text_en": "A songbird of the reed beds weighing only 22 to 38 grams, flying higher than the summit of Kilimanjaro. The great reed warbler is one of the largest birds in its family. It breeds in the reed beds of Europe and winters in Africa south of the Sahara. Birds tracked with tiny data loggers from Sweden climbed above 5,000 metres while crossing the Sahara Desert, and one reached 6,267 metres. These are the highest climbs ever recorded for a songbird, higher than the summits of the highest mountains in Africa and Europe."
+  },
+  {
+   "type": "creature",
+   "depth": 6400,
+   "name": "Yeşilbaş",
+   "short": "Yeşilbaş",
+   "name_en": "Mallard",
+   "latin": "Anas platyrhynchos",
+   "range": "6.400 m",
+   "range_en": "6,400 m",
+   "text": "Parklarda, göllerde her gün gördüğümüz ama sürprizlerle dolu bir ördek: yeşilbaş. Kuzey Amerika, Avrasya ve Kuzey Afrika'nın büyük bölümünde ürer ve evcil ördek ırklarının çoğunun atasıdır. Ağırlığı yedi yüz gram ile bir buçuk kilogram arasındadır. Kuş çarpmalarının çoğu uçakların kalkış ve iniş sırasında olur. Ama bir yeşilbaş, Nevada üzerinde seyir halindeki bir yolcu uçağına altı bin dört yüz metrede çarptı. Bu, bir yeşilbaşın uçtuğu bilinen en yüksek nokta. Erkeğin başı parlak yeşildir, dişisi ise benekli kahverengi tüylerle kamufle olur.",
+   "text_en": "A duck we see every day in parks and lakes, yet full of surprises: the mallard. It breeds across much of North America, Eurasia and North Africa, and it is the ancestor of most breeds of domestic duck. It weighs between 0.7 and 1.6 kilograms. Most bird strikes happen while aircraft take off or land. But one mallard struck an airliner cruising over Nevada at 6,400 metres. That is the highest a mallard is known to have flown. The male has a glossy green head, while the female is camouflaged in mottled brown feathers."
+  },
+  {
+   "type": "creature",
+   "depth": 6500,
+   "name": "Kara çaylak",
+   "short": "Kara çaylak",
+   "name_en": "Black kite",
+   "latin": "Milvus migrans",
+   "range": "6.500 m",
+   "range_en": "6,500 m",
+   "text": "İngilizcede ateş çaylağı diye de anılan bir yırtıcı: kara çaylak. Duman ve yangınlar onu kendine çeker; yangından kaçan avları yakalar. Kuzey Avustralya'da bu kuşların yanan dalları alıp başka yerlere bırakarak yangını yaydığı ve böylece avlarını sakladıkları yerden çıkardığı biliniyor. Atmacagiller ailesinin dünyadaki en kalabalık türü olduğu düşünülüyor ve şehirlerin üzerinde bile daire çizerek süzülür. Bin dokuz yüz altmış yedide Yeni Delhi'de yapılan bir sayımda yaklaşık iki bin iki yüz çift bulundu. Kara çaylağın altı bin beş yüz metreye kadar uçtuğu kaydedildi.",
+   "text_en": "A raptor also known as the fire kite: the black kite. Smoke and fires attract it, and it catches prey fleeing the flames. In northern Australia these birds are known to pick up burning twigs and drop them elsewhere, spreading wildfires to flush out prey. It is thought to be the most abundant species of hawk in the world, and it soars in circles even over cities. A 1967 survey in New Delhi found about 2,200 pairs. Black kites have been recorded flying as high as 6,500 metres."
+  },
+  {
+   "type": "zone",
+   "depth": 6500,
+   "name": "İNCE HAVA",
+   "name_en": "THIN AIR",
+   "range": "6.500 – 8.000 m",
+   "range_en": "6,500 – 8,000 m",
+   "text": "Dördüncü katmana geldik. Burada hava sıcaklığı eksi yirmi beş derecenin altındadır ve basınç deniz seviyesindekinin yarısının altına düşer. Yedi bin metrede her nefeste deniz seviyesindekinin ancak yüzde kırkı kadar oksijen vardır. Ama bazı kuşlar bu katmanı göç yolunun sıradan bir parçası gibi geçer.",
+   "text_en": "We have reached the fourth layer. Here the air temperature is below minus 25 degrees and the pressure falls below half of its sea-level value. At 7,000 metres each breath holds only about 40 percent of the oxygen found at sea level. Yet some birds cross this layer as an ordinary part of their migration."
+  },
+  {
+   "type": "creature",
+   "depth": 6540,
+   "name": "Hint kazı",
+   "short": "Hint kazı",
+   "name_en": "Bar-headed goose",
+   "latin": "Anser indicus",
+   "range": "6.540 m",
+   "range_en": "6,540 m",
+   "text": "Efsanelere konu olan bir kuş: Hint kazı. Bu kazların sesi, dünyanın beşinci en yüksek dağı Makalu'nun üzerinden geçerken duyuldu; Everest'in üzerinde görüldükleri de anlatılır. Ama uydu izleme cihazlarıyla yapılan çalışmalarda uzun süre altı bin beş yüz kırk metrenin üstüne çıktıkları görülmedi; bugün Himalayaların yüksek geçitlerini kullandıkları düşünülüyor. Yine de deniz seviyesinden kalkıp Himalayaları yedi saat gibi kısa bir sürede, hiç durmadan aşabiliyorlar. Kanlarındaki hemoglobin oksijene daha sıkı tutunur ve ince havada daha derin nefes alırlar. En hızlı tırmanışlarını rüzgârın dindiği gecelerde yaparlar.",
+   "text_en": "A bird of legends: the bar-headed goose. These geese have been heard flying over Makalu, the fifth-highest mountain on Earth, and are said to have been seen over Everest. But for a long time, satellite and GPS tracking never caught them flying higher than 6,540 metres, and they are now thought to use the high passes through the Himalayas. Even so, they can cross the Himalayas non-stop from sea level in as little as seven hours. Their haemoglobin holds oxygen more tightly, and they breathe more deeply in thin air. They make their fastest climbs at night, when the winds have died down."
+  },
+  {
+   "type": "creature",
+   "depth": 7300,
+   "name": "Sakallı akbaba",
+   "short": "Sakallı akbaba",
+   "name_en": "Bearded vulture",
+   "latin": "Gypaetus barbatus",
+   "range": "7.300 m",
+   "range_en": "7,300 m",
+   "text": "Kemik yiyen bir kuş: sakallı akbaba. Besininin yüzde yetmiş ile doksanı kemikten oluşur; böyle beslendiği bilinen tek omurgalıdır. Yutamayacağı kadar büyük kemikleri elli ile yüz elli metre yüksekliğe taşır ve kayaların üzerine bırakıp parçalar. Büyük kemikleri yaklaşık yirmi dört saatte sindirir. Kaplumbağaların sert kabuğunu da aynı yöntemle kırar. Genellikle iki bin metrenin üzerinde yaşar. Himalayalarda yedi bin beş yüz metrede yaşadığı görüldü ve yedi bin üç yüz metrede uçarken kaydedildi.",
+   "text_en": "A bird that eats bones: the bearded vulture. Bone makes up 70 to 90 percent of its diet, and it is the only vertebrate known to live this way. It carries bones too large to swallow up to 50 to 150 metres and drops them onto rocks to smash them. It digests large bones in about 24 hours. It cracks the hard shells of tortoises the same way. It usually lives above 2,000 metres. In the Himalayas it has been seen living at 7,500 metres and recorded flying at 7,300 metres."
+  },
+  {
+   "type": "zone",
+   "depth": 8000,
+   "name": "ÖLÜM BÖLGESİ",
+   "name_en": "DEATH ZONE",
+   "range": "8.000 – 11.300 m",
+   "range_en": "8,000 – 11,300 m",
+   "text": "Son katmana, ölüm bölgesine giriyoruz. Dağcılıkta sekiz bin metrenin üstüne bu ad verilir. Burada hava basıncı üç yüz elli altı milibarın altına düşer ve oksijen, insan hayatını uzun süre sürdürmeye yetmez. Ek oksijen olmadan bu yükseklikte uzun süre kalan bir insanın vücut işlevleri bozulur ve sonunda ölüm gelir. Sıcaklık eksi elli dereceye doğru iner. Gökyüzünün mavisi koyulaşır. Ama bu katmanda bile uçan kuşlar var.",
+   "text_en": "We enter the final layer, the death zone. In mountaineering, this is the name for altitudes above 8,000 metres. Here the air pressure drops below 356 millibars and there is not enough oxygen to sustain human life for long. A person who stays at this height for a long time without extra oxygen suffers a breakdown of bodily functions and eventually dies. The temperature falls towards minus 50 degrees and the blue of the sky deepens. Yet even in this layer there are birds in flight."
+  },
+  {
+   "type": "creature",
+   "depth": 8200,
+   "name": "Sarı gagalı dağ kargası",
+   "short": "Dağ kargası",
+   "name_en": "Alpine chough",
+   "latin": "Pyrrhocorax graculus",
+   "range": "8.200 m",
+   "range_en": "8,200 m",
+   "text": "Everest'e tırmanan dağcıları sekiz bin iki yüz metreye kadar izlediği görülen bir karga: sarı gagalı dağ kargası. Altı bin beş yüz metrede yuva yaptığı kaydedildi; bu, bütün kuş türleri arasında en yüksek yuvadır. Yumurtalarının kabuğunda alçak bölgelerdeki kuşlara göre daha az gözenek vardır; bu sayede düşük basınçta su kaybı azalır. Siyah tüyleri ve sarı gagasıyla kolayca tanınır. Uçuşu hızlı ve akrobatiktir. Kayak merkezlerinin, köylerin ve otellerin çevresinde toplanır; otel pencerelerinin önünde yiyecek bekleyen bu kargalar turistlerin sevgilisidir, otel sahiplerininse pek değil.",
+   "text_en": "A crow seen following climbers up Everest to 8,200 metres: the Alpine chough. It has been recorded nesting at 6,500 metres, higher than any other bird species. Its eggs have fewer pores than those of lowland birds, which reduces water loss at low pressure. It is easy to recognise by its black plumage and yellow bill. Its flight is swift and acrobatic. It gathers around ski resorts, villages and hotels; its habit of waiting at hotel windows for food is popular with tourists, though less so with hotel owners."
+  },
+  {
+   "type": "creature",
+   "depth": 8200,
+   "name": "Ötücü kuğu",
+   "short": "Ötücü kuğu",
+   "name_en": "Whooper swan",
+   "latin": "Cygnus cygnus",
+   "range": "8.200 m",
+   "range_en": "8,200 m",
+   "text": "Bin dokuz yüz altmış yedi yılının dokuz Aralık günü, İskoçya'nın batısında hava trafik radarı alışılmadık bir şey yakaladı. Yaklaşık otuz ötücü kuğudan oluşan bir sürü, İzlanda'dan İrlanda'ya göç ederken sekiz bin iki yüz metrede uçuyordu. Kontrol için yönlendirilen bir yolcu uçağı da onları doğruladı. Kuğular, saatte yüz seksen kilometre hızla esen bir jet akımından yararlanarak bin yüz kilometrelik yolu yaklaşık yedi saatte aldı. Ötücü kuğular uçabilen en ağır kuşlar arasındadır; kaydedilen en ağır erkek on beş buçuk kilogramdı. Bin dokuz yüz seksen birden beri Finlandiya'nın ulusal kuşudur.",
+   "text_en": "On 9 December 1967, air traffic control radar west of Scotland picked up something unusual. A flock of about 30 whooper swans migrating from Iceland to Ireland was flying at 8,200 metres. A diverted airliner confirmed the sighting. The swans rode a northerly jet stream blowing at 180 kilometres per hour and covered the 1,100-kilometre journey in about seven hours. Whooper swans are among the heaviest flying birds; the heaviest male on record weighed 15.5 kilograms. It has been the national bird of Finland since 1981."
+  },
+  {
+   "type": "creature",
+   "depth": 8700,
+   "name": "Büyük suçulluğu",
+   "short": "Büyük suçulluğu",
+   "name_en": "Great snipe",
+   "latin": "Gallinago media",
+   "range": "8.700 m",
+   "range_en": "8,700 m",
+   "text": "Bu küçük, benekli kuş, bir göçmen kuşta kaydedilmiş belki de en yüksek irtifanın sahibi: büyük suçulluğu. İsveç ile Sahra'nın güneyindeki Afrika arasındaki dört bin ile yedi bin kilometrelik yolu, altmış ile doksan saat boyunca hiç durmadan uçar. Veri kaydedicilerle izlenen kuşlar geceleri ortalama iki bin, gündüzleri dört bin metrede uçtu; çoğu düzenli olarak altı bin metreye çıktı. Bir tanesi sekiz bin yedi yüz metreye ulaştı. Saatte doksan yedi kilometre hıza ulaşabilir. Erkekler üreme mevsiminde alacakaranlıkta toplanır ve kuyruklarını yelpaze gibi açıp çeşitli sesler çıkararak gösteri yapar.",
+   "text_en": "This small, mottled bird holds what may be the highest altitude ever recorded for a migrating bird: the great snipe. Between Sweden and sub-Saharan Africa it flies 4,000 to 7,000 kilometres non-stop, for 60 to 90 hours. Birds tracked with data loggers cruised at about 2,000 metres at night and 4,000 metres by day, and most regularly climbed to 6,000 metres. One reached 8,700 metres. It can fly at up to 97 kilometres per hour. In the breeding season the males gather at dusk and display by fanning their tails and making a variety of sounds."
+  },
+  {
+   "type": "landmark",
+   "depth": 8849,
+   "name": "Everest",
+   "name_en": "Mount Everest",
+   "value": "8.849 m",
+   "icon": "mountain",
+   "text": "Sekiz bin sekiz yüz kırk dokuz metre. Dünyanın en yüksek noktası, Everest'in zirvesi. İki bin yirmi yılındaki ortak ölçümle yüksekliği sekiz bin sekiz yüz kırk sekiz virgül sekiz altı metre olarak açıklandı. Ama gökyüzündeki yolculuğumuz burada bitmiyor. İki kuş bundan da yükseğe çıkıyor.",
+   "text_en": "8,849 metres. The highest point on Earth, the summit of Everest. A joint survey in 2020 set its height at 8,848.86 metres. But our journey through the sky does not end here. Two birds climb even higher.",
+   "chapter": true,
+   "value_en": "8,849 m"
+  },
+  {
+   "type": "creature",
+   "depth": 10000,
+   "name": "Turna",
+   "short": "Turna",
+   "name_en": "Common crane",
+   "latin": "Grus grus",
+   "range": "10.000 m",
+   "range_en": "10,000 m",
+   "text": "On bin metre. Burada bir turna sürüsü var. Turnaların göç sırasında on bin metreye kadar uçtuğu biliniyor. Bu yükseklik Himalayaların üzerinde kaydedildi ve kuşlar arasında yalnızca Rüppell akbabası bunu geçebildi. Boyları yüz ile yüz otuz santimetre, kanat açıklıkları iki metreyi aşabilir. Borazan gibi yüksek sesleri çok uzaklardan duyulur. Eşler sıçrayarak, eğilerek ve dönerek dans eder. Türkiye'de de ürer; Avrupa'dakiler kışı çoğunlukla İspanya, Portekiz ve Kuzey Afrika'da geçirir.",
+   "text_en": "10,000 metres. Here we find a flock of cranes. Common cranes are known to fly at up to 10,000 metres during migration. This height was recorded over the Himalayas, and among birds only Rüppell's vulture has gone higher. They stand 100 to 130 centimetres long, and their wingspan can exceed two metres. Their loud, trumpeting call carries a long way. Pairs dance by leaping, bowing and turning. The species also breeds in Turkey, and European birds mostly winter in Spain, Portugal and North Africa."
+  },
+  {
+   "type": "creature",
+   "depth": 11300,
+   "name": "Rüppell akbabası",
+   "short": "Rüppell akbabası",
+   "name_en": "Rüppell's vulture",
+   "latin": "Gyps rueppelli",
+   "range": "11.300 m",
+   "range_en": "11,300 m",
+   "text": "Ve gökyüzünün zirvesi: on bir bin üç yüz metre. Bin dokuz yüz yetmiş üç yılının yirmi dokuz Kasım günü, Fildişi Sahili'nin Abidjan kenti üzerinde uçan bir yolcu uçağının motoruna bir Rüppell akbabası girdi. Bu, bir kuşun uçtuğu doğrulanmış en yüksek irtifa. Burada sıcaklık ortalama eksi elli altı derecedir. Rüppell akbabaları kanlarındaki özel bir hemoglobin sayesinde çok düşük basınçta bile oksijeni verimli şekilde alır. Genellikle altı bin metreye kadar yükselirler. Kanat açıklıkları iki buçuk metreyi aşabilir. Ne yazık ki bugün kritik tehlike altındadırlar.",
+   "text_en": "And the top of the sky: 11,300 metres. On 29 November 1973 a Rüppell's vulture was sucked into the engine of an airliner flying over Abidjan in Ivory Coast. This is the highest confirmed altitude for any bird. The average temperature here is about minus 56 degrees. Thanks to a special haemoglobin in their blood, Rüppell's vultures absorb oxygen efficiently even at very low pressure. They commonly fly as high as 6,000 metres. Their wingspan can exceed two and a half metres. Sadly, they are now critically endangered."
+  },
+  {
+   "type": "outro",
+   "depth": 11300,
+   "text": "Yerden on bir bin üç yüz metreye tırmandık. Havada asılı duran kerkenezden gökyüzünde şarkı söyleyen tarla kuşuna, Himalayaları aşan yusufçuktan Sahra'nın üzerinde Kilimanjaro'dan yükseğe çıkan minik kamışçına kadar yirmi dört canlıyla tanıştık. Gördük ki ince hava, dondurucu soğuk ve oksijen azlığı bu canlıları durdurmuyor. Ve unutmayın: bir canlının uçtuğu doğrulanmış en yüksek nokta, bir yolcu uçağının motoruna giren bir akbabaya ait. Bu yolculuğu beğendiyseniz kanala abone olmayı ve videoyu beğenmeyi unutmayın. Bir sonraki belgeselde görüşmek üzere.",
+   "text_en": "We have climbed from the ground to 11,300 metres. From the hovering kestrel and the skylark singing in the sky to the dragonfly crossing the Himalayas and the tiny warbler climbing higher than Kilimanjaro over the Sahara, we have met 24 animals. We have seen that thin air, freezing cold and a lack of oxygen do not stop them. And remember: the highest confirmed flight of any living thing belongs to a vulture that was sucked into an airliner's engine. If you enjoyed this journey, don't forget to subscribe to the channel and like the video. See you in the next documentary."
+  }
+ ]
+}

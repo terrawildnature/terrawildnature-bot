@@ -1,0 +1,62 @@
+{
+ "title": "Everest'ten Daha Yükseğe Uçan Hayvanlar",
+ "description": "Yerden kalkıp on bir bin üç yüz metreye, bir canlının uçtuğu doğrulanmış en yüksek noktaya tırmanıyor ve gökyüzünün beş hava katmanında uçan yirmi dört hayvanla tanışıyoruz. Gökyüzünde şarkı söyleyen tarla kuşu, bin metrede uçan uğur böceği, Himalayaları aşan gezgin yusufçuk, Kilimanjaro'dan yükseğe çıkan 38 gramlık kamışçın, kemik yiyen sakallı akbaba, 8.200 metrede radara yakalanan ötücü kuğular, on bin metrede göç eden turnalar ve bir yolcu uçağının motoruna giren Rüppell akbabası bu belgeselde. Ekrandaki altimetreyi, hava göstergelerini ve uçuş defterini takip edin.",
+ "sources": "İngilizce Wikipedia (tür sayfaları, List of birds by flight heights, Troposphere, Death zone, Galata Tower, Eiffel Tower, Burj Khalifa, Mount Erciyes, Mount Ararat, Kilimanjaro, Mount Everest) ve ilgili bilimsel yayınlar.",
+ "hashtags": [
+  "#belgesel",
+  "#hayvanlar",
+  "#kuşlar",
+  "#vahşiyaşam",
+  "#terrawildnature"
+ ],
+ "tags": [
+  "belgesel",
+  "hayvan belgeseli",
+  "en yükseğe uçan kuşlar",
+  "en yükseğe uçan hayvanlar",
+  "kuş belgeseli",
+  "kuşlar",
+  "rüppell akbabası",
+  "turna",
+  "hint kazı",
+  "sakallı akbaba",
+  "ötücü kuğu",
+  "everest",
+  "göçmen kuşlar",
+  "vahşi yaşam",
+  "türkçe belgesel",
+  "doğa belgeseli"
+ ],
+ "thumb": {
+  "lines": [
+   "11.300 METRE",
+   "YUKARIDA",
+   "KİM UÇUYOR?"
+  ],
+  "photo": "29_0",
+  "cx": 0.55,
+  "cy": 0.4,
+  "zoom": 1.0,
+  "bar_labels": [
+   "YER",
+   "ZİRVE"
+  ]
+ },
+ "story": {
+  "lines": [
+   "EN YÜKSEĞE",
+   "UÇAN",
+   "HAYVANLAR"
+  ],
+  "info": "11.300 m · 5 hava katmanı · 24 canlı"
+ },
+ "teaser": {
+  "seg": 24,
+  "title": "38 Gramlık Bu Kuş Kilimanjaro'dan Yükseğe Uçuyor"
+ },
+ "en": {
+  "title": "Animals That Fly Higher Than Mount Everest",
+  "description": "We take off from the ground and climb to 11,300 metres, the highest confirmed altitude any living thing has flown, meeting 24 animals across five layers of the sky. The skylark that sings in the sky, a ladybird flying at 1,000 metres, the globe skimmer dragonfly crossing the Himalayas, a 38-gram warbler climbing higher than Kilimanjaro, the bone-eating bearded vulture, whooper swans caught on radar at 8,200 metres, cranes migrating at 10,000 metres and the Rüppell's vulture that was sucked into an airliner's engine all feature in this documentary. Follow the altimeter, the air gauges and the flight log on screen.",
+  "sources": "English Wikipedia (species pages, List of birds by flight heights, Troposphere, Death zone, Galata Tower, Eiffel Tower, Burj Khalifa, Mount Erciyes, Mount Ararat, Kilimanjaro, Mount Everest) and related scientific publications."
+ }
+}
