@@ -1,0 +1,133 @@
+{
+ "name": "kea",
+ "group": "kuş",
+ "hook_style": "benzetme",
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Ascending_the_Vale.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/172959642/original.jpg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/166915208/original.jpg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/176454211/original.jpg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/384672622/original.jpeg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/352261250/original.jpeg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/250808549/original.jpeg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/250808584/original.jpeg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/384672634/original.jpeg",
+  "p9.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/330359513/original.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu papağana dağların palyaçosu deniyor.",
+   "image": "p1.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kea, Yeni Zelanda'nın Güney Adası'ndaki dağlarda yaşıyor ve kanat altları parlak turuncu.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Ağaç sınırının üstünde vakit geçiren nadir papağanlardan biri.",
+   "image": "p3.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Bulmacaları çözüyor, yiyeceğe ulaşmak için iş birliği yapıyor.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Gagası kırık bir kea, tüylerini temizlemek için çakıl taşı kullandı.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Çantaları, botları ve arabaları kurcalıyor; bir turistin pasaportunu bile kaptığı bildirildi.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Bir zamanlar ödül karşılığı öldürüldü, 1986'da tam koruma altına alındı.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "2017'de Yeni Zelanda'nın Yılın Kuşu seçildi.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "zoom_in"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.28,
+  "cy": 0.4,
+  "title": [
+   [
+    [
+     "DAĞLARIN",
+     "R"
+    ]
+   ],
+   [
+    [
+     "PALYAÇOSU",
+     "W"
+    ]
+   ],
+   [
+    [
+     "PASAPORT",
+     "W"
+    ]
+   ],
+   [
+    [
+     "BİLE KAPTI",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "yt_title": "Kea: Pasaport Bile Kapan Dağ Papağanı",
+ "en": {
+  "title": "Kea: The Mountain Parrot That Steals Passports",
+  "description": "The kea, the clown of New Zealand's mountains, solves puzzles, pries apart cars and has even reportedly snatched a tourist's passport."
+ },
+ "caption": "Yeni Zelanda'nın dağlarında yaşayan kea, çantaları ve arabaları kurcalayıp hatta bir turistin pasaportunu bile kaptığı bildirilen cüretkâr bir papağan. 🦜🏔️\n\n#terrawildnature #kea\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "iNaturalist (CC0 photos)",
+   "author": "Carey_Knox_Southern_Scales; Mark Fraser; Richard Hodges; Christine Braaten; mikoikoi",
+   "license": "CC0",
+   "public_domain": true
+  }
+ ]
+}

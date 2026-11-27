@@ -478,3 +478,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: rapor yeniden okunmadı; kuyruklar dolu (gönderi 15/15, Reels 9/9, zz_ klasörleri dahil), failed klasörü yok.
 - Bugün uygulanan: üretim yapılmadı.
 - Sonra kontrol et: kuyruklar azalmışsa önce Reels (<4 ise), sonra gönderi doldur.
+
+## 2026-11-27 (akşam çalıştırması)
+- Rapordan öğrenilen: memeli gönderi 1,18 güçlü; balık/böcek/amfibi ve tuhaf yetenek kancası zayıf; Reels'te sayı ve gizem içerik değeri iyi, süperlatif zayıf.
+- Bugün uygulanan: Reels 7→8: kea (kuş, benzetme kancası: "dağların palyaçosu", CC0 fotoğraflar). Gönderiler 13→15: minik yaprak bukalemunu (sürüngen, sayı: dünyanın 3. en küçük kertenkelesi) ve satir tragopan (kuş, tuhaf görünüm: mavi boynuz). Elenenler: Sibirya misk geyiği (iNat fotoğrafları gübre), balıkçı kedi (iNat gece/yansıma fotoğrafları), Kuzey Amerika kirpisi (iNat'ta iskelet fotoğrafları), Filipin kartalı (çok uzak/zayıf), kanchil (büyük fare geyiği zaten paylaşılmış).
+- Sonra kontrol et: Reels kuyruğu 9'a tamamlanmalı (1 eksik); iNat'ta hayvan fotoğrafı bol ve net olan memeli aday bul (Commons indirmeleri yavaştı). kea benzetme kancası ve bukalemun sayı kancası içerik ≥1,0 mı.
