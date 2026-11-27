@@ -1,0 +1,108 @@
+{
+ "name": "Tibet antilopu (çiru)",
+ "group": "memeli",
+ "hook_style": "sayı",
+ "title": [
+  [
+   [
+    "BU ANTİLOP",
+    "W"
+   ]
+  ],
+  [
+   [
+    "5.500 METRE",
+    "R"
+   ]
+  ],
+  [
+   [
+    "YÜKSEKTE YAŞIYOR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "TİBET ANTİLOPU",
+ "card_top": [
+  "Yetişkin olsa da kanında",
+  "fetal hemoglobin taşıyor."
+ ],
+ "card_bottom": [
+  "Bu özelliği belgelenen tek",
+  "memeli. Oksijeni daha iyi",
+  "tutarak irtifaya uyuyor."
+ ],
+ "right": [
+  "Tibet Platosu'nun açık",
+  "bozkırlarında yaşar.",
+  "Dişiler doğum için her yıl",
+  "300 km'ye kadar göç eder.",
+  "Yavru 15 dakikada ayakta."
+ ],
+ "loc": "Tibet Platosu",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.62,
+   "cy": 0.38,
+   "zoom": 1.3
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.7,
+   "cy": 0.7,
+   "zoom": 1.8
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.5,
+   "cy": 0.27,
+   "zoom": 2.4
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "iNaturalist (James Eaton)",
+   "author": "James Eaton",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "use": "top",
+   "title": "iNaturalist (Agnes Trekker)",
+   "author": "Agnes Trekker",
+   "license": "CC0",
+   "public_domain": true
+  },
+  {
+   "use": "inner",
+   "title": "iNaturalist (James Eaton)",
+   "author": "James Eaton",
+   "license": "CC0",
+   "public_domain": true
+  }
+ ],
+ "caption": "Tibet Platosu'nda 5.500 metreye kadar çıkabilen çiru, yetişkinken bile fetal hemoglobin taşıyan ve bunu belgelenmiş tek memeli olan bir yüksek irtifa antiloptur. 🏔️🦌\n\n#terrawildnature #ilginçbilgiler #çiru",
+ "quiz": {
+  "yt_title": "Bu Antilop 5.500 Metre Yükseklikte Yaşıyor. Adı Ne?",
+  "facts": [
+   {
+    "title": "YÜKSEK İRTİFA",
+    "text": "Tibet Platosu'nda beş bin beş yüz metreye kadar yükseklerde yaşıyor."
+   },
+   {
+    "title": "BEBEK HEMOGLOBİNİ",
+    "text": "Yetişkinken bile fetal hemoglobin taşıyan, belgelenmiş tek memeli."
+   },
+   {
+    "title": "UZUN GÖÇ",
+    "text": "Dişiler doğum yapmak için her yıl üç yüz kilometreye kadar göç ediyor."
+   }
+  ],
+  "en": {
+   "title": "This Antelope Lives 5,500 Meters High. Can You Name It?",
+   "description": "This is the Tibetan antelope, or chiru. It lives on the Tibetan Plateau at up to 5,500 meters, is the only mammal documented to keep fetal hemoglobin as an adult, and females migrate up to 300 km each year to calve."
+  }
+ }
+}

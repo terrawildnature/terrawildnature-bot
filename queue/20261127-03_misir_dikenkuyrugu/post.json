@@ -1,0 +1,112 @@
+{
+ "name": "dikenkuyruklu kertenkele",
+ "group": "sürüngen",
+ "hook_style": "gizem",
+ "title": [
+  [
+   [
+    "BU KERTENKELENİN",
+    "W"
+   ]
+  ],
+  [
+   [
+    "İLK YEMEĞİ ",
+    "W"
+   ],
+   [
+    "ANNESİNİN",
+    "R"
+   ]
+  ],
+  [
+   [
+    "DIŞKISI",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "DİKENKUYRUKLU",
+ "card_top": [
+  "İlk öğün annenin dışkısı;",
+  "bağırsak florasını kurar."
+ ],
+ "card_bottom": [
+  "Dikenli kuyruğunu saldırgana",
+  "savurur. Yuvasında kuyruğu",
+  "girişe dönük uyur."
+ ],
+ "right": [
+  "Kuzey Afrika'dan İran'a",
+  "kadar uzanan bölgede yaşar.",
+  "Çoğunlukla otçuldur; suyu",
+  "bitkilerden alır.",
+  "Esirken 25 yıldan uzun yaşar."
+ ],
+ "loc": "Kuzey Afrika, Orta Doğu",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.3,
+   "cy": 0.35,
+   "zoom": 1.3
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.4,
+   "cy": 0.35,
+   "zoom": 1.2
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.25,
+   "cy": 0.5,
+   "zoom": 1.8
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Uromastyx aegyptia (Kuwait).jpg",
+   "author": "Aboyahia74",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "use": "top",
+   "title": "File:Spiny-tailed Lizard.jpg",
+   "author": "Alahamali70",
+   "license": "CC BY 4.0",
+   "public_domain": false
+  },
+  {
+   "use": "inner",
+   "title": "File:PikiWiki Israel 34849 Uromastyx aegyptius in Mitzpe Ramon.JPG",
+   "author": "Dr. Avishai Teicher",
+   "license": "CC BY 2.5",
+   "public_domain": false
+  }
+ ],
+ "caption": "Dikenkuyruklu kertenkeleler, yumurtadan çıkınca ilk öğün olarak annelerinin dışkısını yiyerek sindirim için gereken bağırsak florasını kuruyor. 🦎🌵\n\n#terrawildnature #ilginçbilgiler #dikenkuyruklu\n\n📷 Aboyahia74 (CC BY-SA 4.0), Alahamali70 (CC BY 4.0), Dr. Avishai Teicher (CC BY 2.5) / Wikimedia Commons",
+ "quiz": {
+  "yt_title": "Bu Kertenkelenin İlk Yemeği Çok Tuhaf. Adı Ne?",
+  "facts": [
+   {
+    "title": "TUHAF İLK ÖĞÜN",
+    "text": "Yavrular ilk öğünde annelerinin dışkısını yiyor."
+   },
+   {
+    "title": "KUYRUK SİLAHI",
+    "text": "Dikenli kuyruğunu saldırganın üzerine büyük hızla savuruyor."
+   },
+   {
+    "title": "SUYU BİTKİDEN ALIYOR",
+    "text": "İhtiyacı olan suyun çoğunu yediği bitkilerden karşılıyor."
+   }
+  ],
+  "en": {
+   "title": "This Lizard's First Meal Is Truly Strange. Can You Name It?",
+   "description": "These are spiny-tailed lizards (Uromastyx). Hatchlings eat their mother's feces as a first meal to build gut flora, they swing a spiked tail at attackers, and they get most of their water from the plants they eat."
+  }
+ }
+}

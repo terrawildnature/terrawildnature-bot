@@ -1,0 +1,112 @@
+{
+ "name": "gökkuşağı arıkuşu",
+ "group": "kuş",
+ "hook_style": "tuhaf yetenek",
+ "title": [
+  [
+   [
+    "BU KUŞ ARI",
+    "W"
+   ]
+  ],
+  [
+   [
+    "İĞNESİNE ",
+    "W"
+   ],
+   [
+    "BAĞIŞIK",
+    "R"
+   ]
+  ],
+  [
+   [
+    "AMA GÖZÜNÜ KAPATIR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "GÖKKUŞAĞI ARIKUŞU",
+ "card_top": [
+  "Arıyı tutunca iğnesini dala",
+  "sürterek temizler."
+ ],
+ "card_bottom": [
+  "Zehir sıçramasın diye bu",
+  "sırada gözlerini kapatır.",
+  "Böceği 45 m'den fark eder."
+ ],
+ "right": [
+  "Avustralya'da yaşayan tek",
+  "arıkuşu türüdür.",
+  "Yuvasını toprağa oyar;",
+  "dişi günde 7-8 cm kazar.",
+  "Ömür boyu eş olduğu sanılır."
+ ],
+ "loc": "Avustralya",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.45,
+   "cy": 0.45,
+   "zoom": 1.3
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.55,
+   "cy": 0.55,
+   "zoom": 1.3
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.55,
+   "cy": 0.4,
+   "zoom": 1.7
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "iNaturalist (Donald Davesne)",
+   "author": "Donald Davesne",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "use": "top",
+   "title": "iNaturalist (Aalbert Rebergen)",
+   "author": "Aalbert Rebergen",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "use": "inner",
+   "title": "iNaturalist (Donald Davesne)",
+   "author": "Donald Davesne",
+   "license": "CC BY",
+   "public_domain": false
+  }
+ ],
+ "caption": "Arı ve yaban arısı iğnesine bağışık olan gökkuşağı arıkuşu, avını dala sürterek iğnesini temizlerken zehir sıçramasın diye gözlerini kapatıyor. 🐝🐦\n\n#terrawildnature #ilginçbilgiler #arıkuşu\n\n📷 Donald Davesne (CC BY), Aalbert Rebergen (CC BY) / iNaturalist",
+ "quiz": {
+  "yt_title": "Bu Kuş Arı İğnesine Bağışık. Adını Biliyor musun?",
+  "facts": [
+   {
+    "title": "İĞNEYE BAĞIŞIK",
+    "text": "Arı ve yaban arısı sokmalarına karşı bağışık."
+   },
+   {
+    "title": "GÖZ KAPATIYOR",
+    "text": "Arıyı dala sürterek iğnesini temizlerken gözlerini kapatıyor."
+   },
+   {
+    "title": "45 METREDEN GÖRÜR",
+    "text": "Uçan bir böceği kırk beş metre uzaktan fark edebiliyor."
+   }
+  ],
+  "en": {
+   "title": "This Bird Is Immune to Bee Stings. Can You Name It?",
+   "description": "This is the rainbow bee-eater. It is immune to bee and wasp stings, yet rubs a captured bee's stinger against a perch while closing its eyes to avoid the venom, and it can spot an insect from 45 meters away."
+  }
+ }
+}
