@@ -1,0 +1,112 @@
+{
+ "name": "satir tragopan",
+ "group": "kuş",
+ "hook_style": "tuhaf görünüm",
+ "title": [
+  [
+   [
+    "BU KUŞUN BAŞINDA",
+    "W"
+   ]
+  ],
+  [
+   [
+    "ŞİŞEN MAVİ ",
+    "W"
+   ],
+   [
+    "BOYNUZ",
+    "R"
+   ]
+  ],
+  [
+   [
+    "VAR",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "SATİR TRAGOPAN",
+ "card_top": [
+  "Çiftleşme mevsiminde erkeğin",
+  "başında mavi boynuzlar büyür."
+ ],
+ "card_bottom": [
+  "Gösteri için boynuzlarını",
+  "şişirir, kayanın arkasından",
+  "dişiyi bekler."
+ ],
+ "right": [
+  "Hindistan, Tibet, Nepal ve",
+  "Bhutan Himalayalarında yaşar.",
+  "Nemli meşe-ormangülü ormanı;",
+  "yazın 2400-4200 m'ye çıkar.",
+  "Erkeğin boyu yaklaşık 70 cm."
+ ],
+ "loc": "Himalayalar",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.4,
+   "cy": 0.55,
+   "zoom": 1.5
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.55,
+   "cy": 0.45,
+   "zoom": 1.0
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.42,
+   "cy": 0.25,
+   "zoom": 2.0
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "iNaturalist 487055050",
+   "author": "Luciano Massa",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "use": "top",
+   "title": "iNaturalist 305522712",
+   "author": "Jay Pruett",
+   "license": "CC BY",
+   "public_domain": false
+  },
+  {
+   "use": "inner",
+   "title": "File:Satyr tragopan (Tragopan satyra), Sikkim, India 01.jpg",
+   "author": "Shiv's fotografia",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  }
+ ],
+ "caption": "Himalayaların satir tragopanı, çiftleşme mevsiminde başında mavi boynuzlar büyütüp bunları gösteri sırasında şişiren eşsiz bir sülün. 🐦🏔️\n\n#terrawildnature #ilginçbilgiler #tragopan\n\n📷 Shiv's fotografia (CC BY-SA) / Wikimedia Commons, Luciano Massa (CC BY), Jay Pruett (CC BY) / iNaturalist",
+ "quiz": {
+  "yt_title": "Bu Kuşun Başından Mavi Boynuz Çıkıyor. Adı Ne?",
+  "facts": [
+   {
+    "title": "MAVİ BOYNUZLAR",
+    "text": "Çiftleşme mevsiminde erkeğin başında mavi boynuzlar ve gıdı büyüyor."
+   },
+   {
+    "title": "GİZLİ GÖSTERİ",
+    "text": "Boynuzlarını şişirip kayanın arkasında dişiyi bekliyor."
+   },
+   {
+    "title": "YÜKSEK DAĞLAR",
+    "text": "Yazın 4200 metre yüksekliğe kadar çıkabiliyor."
+   }
+  ],
+  "en": {
+   "title": "This Bird Grows Blue Horns. Can You Name It?",
+   "description": "The satyr tragopan, a Himalayan pheasant, grows blue horns and a wattle in the breeding season, inflating them to display to females. It lives up to 4,200 m in summer."
+  }
+ }
+}

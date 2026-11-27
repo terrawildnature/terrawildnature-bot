@@ -1,0 +1,112 @@
+{
+ "name": "minik yaprak bukalemunu",
+ "group": "sürüngen",
+ "hook_style": "sayı",
+ "title": [
+  [
+   [
+    "DÜNYANIN 3. EN",
+    "W"
+   ]
+  ],
+  [
+   [
+    "KÜÇÜK ",
+    "W"
+   ],
+   [
+    "KERTENKELESİ",
+    "R"
+   ]
+  ],
+  [
+   [
+    "SADECE 3,4 CM",
+    "R"
+   ]
+  ]
+ ],
+ "card_title": "YAPRAK BUKALEMUNU",
+ "card_top": [
+  "Dişisi en fazla 3,4 cm",
+  "boyunda, erkeği 2,8 cm."
+ ],
+ "card_bottom": [
+  "Bağımsız dönen gözleri ve",
+  "kavrayıcı kuyruğu var.",
+  "Stresli olunca benekleniyor."
+ ],
+ "right": [
+  "Madagaskar'ın Nosy Be adasına",
+  "özgü bir yağmur ormanı sakini.",
+  "Alçak dallarda ve yaprak",
+  "çöpünde dolaşır. Bir seferde",
+  "genelde 2 yumurta bırakır."
+ ],
+ "loc": "Madagaskar",
+ "photos": {
+  "cover": {
+   "file": "photo_cover.jpg",
+   "cx": 0.45,
+   "cy": 0.5,
+   "zoom": 1.15
+  },
+  "top": {
+   "file": "photo_top.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "zoom": 1.4
+  },
+  "inner": {
+   "file": "photo_inner.jpg",
+   "cx": 0.22,
+   "cy": 0.4,
+   "zoom": 2.4
+  }
+ },
+ "credits": [
+  {
+   "use": "cover",
+   "title": "File:Camaleón (Brookesia minima), Parque Nacional de Lokobe, Nosy Be, Madagascar, 2025-09-21, DD 78.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "use": "top",
+   "title": "File:Minute leaf chameleon (Brookesia minima) Lokobe.jpg",
+   "author": "Charles J. Sharp",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  },
+  {
+   "use": "inner",
+   "title": "File:Camaleón (Brookesia minima), ... DD 76.jpg",
+   "author": "Diego Delso",
+   "license": "CC BY-SA 4.0",
+   "public_domain": false
+  }
+ ],
+ "caption": "Madagaskar'ın Nosy Be adasındaki minik yaprak bukalemunu, dişisi en fazla 3,4 cm'e ulaşarak bilinen en küçük üçüncü kertenkele sayılıyor. 🦎🍃\n\n#terrawildnature #ilginçbilgiler #bukalemun\n\n📷 Diego Delso (CC BY-SA), Charles J. Sharp (CC BY-SA) / Wikimedia Commons",
+ "quiz": {
+  "yt_title": "Bu, Dünyanın En Küçük 3. Kertenkelesi. Adı Ne?",
+  "facts": [
+   {
+    "title": "ÜÇÜNCÜ EN KÜÇÜK",
+    "text": "Bilinen en küçük üçüncü kertenkele olarak kabul ediliyor."
+   },
+   {
+    "title": "DÖNEN GÖZLER",
+    "text": "Gözleri birbirinden bağımsız olarak dönebiliyor."
+   },
+   {
+    "title": "STRES BENEKLERİ",
+    "text": "Stres altındayken vücudunda koyu benekler beliriyor."
+   }
+  ],
+  "en": {
+   "title": "The World's 3rd Smallest Lizard. Can You Name It?",
+   "description": "The minute leaf chameleon from Nosy Be, Madagascar, reaches only 3.4 cm, has independently rotating eyes and shows spotted patterns when stressed. It is the third-smallest lizard ever described."
+  }
+ }
+}
