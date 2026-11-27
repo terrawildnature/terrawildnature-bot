@@ -473,3 +473,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: memeli gönderi skoru 1,21 (en güçlü); balık/böcek/amfibi ve tuhaf yetenek/tuhaf görünüm kancası zayıf; Reels'te 10:00 saati 1,69, süperlatif zayıf, gizem içerik 1,65.
 - Bugün uygulanan: Reels 8→9: Arjantin tegusu (sürüngen, kısmen sıcakkanlı; sürüngen Reels ortalama-üstü 1,10). Gönderiler 12→15: çiru (memeli, sayı: 5.500 m), gökkuşağı arıkuşu (kuş, tuhaf yetenek keşif), dikenkuyruklu kertenkele (sürüngen, gizem). Balık/böcek/amfibi seçilmedi. Mısır dikenkuyruğu iNat fotoğrafları yuva deliğiydi, Commons'a geçildi; çiru fotoğrafları uzaktan olduğundan kırpılarak kullanıldı.
 - Sonra kontrol et: çiru (memeli+sayı) içerik ≥1,0 mı; sürüngen+gizem (dikenkuyruklu) ve tegu Reels'i izlenme süresi.
+
+## 2026-11-27 (öğle çalıştırması)
+- Rapordan öğrenilen: rapor yeniden okunmadı; kuyruklar dolu (gönderi 15/15, Reels 9/9, zz_ klasörleri dahil), failed klasörü yok.
+- Bugün uygulanan: üretim yapılmadı.
+- Sonra kontrol et: kuyruklar azalmışsa önce Reels (<4 ise), sonra gönderi doldur.
