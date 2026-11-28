@@ -1,0 +1,133 @@
+{
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "name": "büyük bilbi",
+ "group": "memeli",
+ "hook_style": "sayı",
+ "music": {
+  "file": "assets/music/Gone_Beyond.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/754812518/original.jpg",
+  "p2.jpg": "File:Greater Bilby (Macrotis lagotis) (9996143106).jpg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/754812539/original.jpg",
+  "p4.jpg": "File:Greater Bilby (Macrotis lagotis) (9996456685).jpg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/754812631/original.jpg",
+  "p6.jpg": "File:Greater bilby - Macrotis lagotis.jpg",
+  "p7.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/754812538/original.jpg",
+  "p8.jpg": "File:Greater bilby at its burrow, Astrebla Downs National Park, 2024.jpg",
+  "p9.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/754812518/original.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu keselinin gebelik süresi sadece 12 ila 14 gün.",
+   "image": "p1.jpg",
+   "cx": 0.6,
+   "cy": 0.4,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Adı büyük bilbi, tavşan gibi uzun kulaklı bir hayvan.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Bilbi, Aborijin dilinde uzun burunlu sıçan demek.",
+   "image": "p3.jpg",
+   "cx": 0.55,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Kürkü mavi gri, ipek gibi yumuşak.",
+   "image": "p4.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Güçlü ön ayaklarıyla kazıyor ve bir düzineye kadar yuva yapıyor.",
+   "image": "p5.jpg",
+   "cx": 0.4,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Dişinin kesesi arkaya bakıyor, böylece kazarken toprakla dolmuyor.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Geceleri aktif, hiç su içmeden yiyeceklerinden nem alıyor.",
+   "image": "p7.jpg",
+   "cx": 0.6,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Bir zamanlar Avustralya'nın yüzde 70'ine yayılmıştı, şimdi yalnızca uzak çöllerde yaşıyor.",
+   "image": "p8.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.6,
+   "cy": 0.4,
+   "motion": "zoom_in"
+  }
+ ],
+ "cover": {
+  "image": "p2.jpg",
+  "cx": 0.5,
+  "cy": 0.3,
+  "title": [
+   [
+    [
+     "GEBELİĞİ",
+     "R"
+    ]
+   ],
+   [
+    [
+     "SADECE",
+     "W"
+    ]
+   ],
+   [
+    [
+     "12-14 GÜN",
+     "W"
+    ]
+   ],
+   [
+    [
+     "SÜRÜYOR",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "yt_title": "Büyük Bilbi: Gebeliği Sadece 12-14 Gün Süren Keseli",
+ "en": {
+  "title": "Greater Bilby: The Marsupial With a 12-Day Pregnancy",
+  "description": "The greater bilby, a long-eared Australian marsupial, has one of the shortest gestations among mammals, about 12 to 14 days, and a pouch that faces backward so it does not fill with dirt while digging."
+ },
+ "caption": "Avustralya çöllerinin uzun kulaklı keselisi büyük bilbi, sadece 12-14 günlük gebelik süresiyle memeliler arasında en kısa gebeliklerden birine sahip. 🐰🏜️\n\n#terrawildnature #büyükbilbi\n\n📷 Tom Field (CC BY) / iNaturalist, Bernard DUPONT (CC BY-SA), Mertie . (CC BY), Sean Riley (CC BY), Unknown author (CC BY) / Wikimedia Commons\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "iNaturalist + Commons photos",
+   "author": "Tom Field (CC BY); Bernard DUPONT (CC BY-SA 2.0); Mertie . (CC BY 2.0); Sean Riley (CC BY 2.0); Shiny Things (CC BY 2.0); Unknown author (CC BY 4.0)",
+   "license": "CC BY / CC BY-SA",
+   "public_domain": false
+  }
+ ]
+}
