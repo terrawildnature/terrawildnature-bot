@@ -488,3 +488,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: memeli gönderi 1,18 güçlü; balık/böcek/amfibi ve tuhaf yetenek kancası (gönderi 0,69) zayıf; Reels'te sayı/gizem içerik iyi, süperlatif zayıf (0,74).
 - Bugün uygulanan: Reels 7→9: batı Hint manatisi (memeli, tuhaf yetenek: dişleri yenileniyor) ve akbaba gine tavuğu (kuş, benzetme). Gönderiler 12→15: turkuaz kaşlı motmot (kuş, benzetme), oselot (memeli, gizem: adı "jaguar" demek), yakalı kertenkele (sürüngen, sayı: 26 km/s). Elenenler: solenodon (iNat/Commons'ta uygun foto yok), kaya damanı (zaten paylaşılmış). Manatide iNat fotoğrafları kötüydü, Commons PD (USFWS) kullanıldı.
 - Sonra kontrol et: oselot (memeli+gizem) ve motmot (kuş+benzetme) içerik ≥1,0 mı; manati/gine tavuğu Reels izlenme süresi.
+
+## 2026-11-28 (gece-2 çalıştırması)
+- Rapordan öğrenilen: rapor yeniden okunmadı; kuyruklar dolu (gönderi 15/15, Reels 9/9, zz_ klasörleri dahil), failed klasörü yok.
+- Bugün uygulanan: üretim yapılmadı.
+- Sonra kontrol et: kuyruklar azalmışsa önce Reels (<4 ise), sonra gönderi doldur.
