@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-27T22:54+00:00",
+ "checked": "2026-11-28T10:51+00:00",
  "adset_status": "PAUSED",
  "spend_try": 2217.83,
  "reach": 36924,
@@ -8,16 +8,16 @@
  "thruplays": 0,
  "followers": {
   "start": 1342,
-  "now": 1587,
-  "date": "2026-11-27",
+  "now": 1592,
+  "date": "2026-11-28",
   "organic_per_day": 6.8,
-  "gained": 245,
-  "extra_from_ad": 191,
+  "gained": 250,
+  "extra_from_ad": 189,
   "window": {
-   "since": "2026-11-24",
-   "gained": 88,
-   "spend": 953.77
+   "since": "2026-11-25",
+   "gained": 52,
+   "spend": 800.49
   }
  },
- "cost_per_extra_follower": 10.84
+ "cost_per_extra_follower": 15.39
 }
