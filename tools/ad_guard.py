@@ -25,6 +25,7 @@ MAX_COST_PER_FOLLOWER = 10.0            # TL, owner's limit
 LEARNING_SPEND = 1000.0                 # TL spent before the cost rule may pause anything
 WINDOW_DAYS = 3                         # cost rule judges the latest days, not the whole run (owner, 23 Nov)
 WINDOW_SPEND = 500.0                    # TL the window must hold before it may pause
+RESTART = dt.date(2026, 11, 29)         # new poster "Keşfet E" went live 28 Nov night; older days are not judged
 MAX_FREQUENCY = 4.0                     # average views per person; above this the video is worn out
 TOKEN = os.environ.get("META_ADS_TOKEN", "")
 
@@ -74,6 +75,11 @@ def main():
     spend = float(ins.get("spend", 0))
     f = followers()
     w = f["window"]
+    if dt.date.fromisoformat(w["since"]) < RESTART:
+        rows = {dt.date.fromisoformat(d): int(n) for d, n in csv.reader(open(ROOT / "data" / "followers.csv"))
+                if d[:1].isdigit()}
+        w["since"] = RESTART.isoformat()
+        w["gained"] = rows[dt.date.fromisoformat(f["date"])] - rows.get(RESTART, rows[max(rows)])
     until = (dt.date.fromisoformat(f["date"]) - dt.timedelta(days=1)).isoformat()
     wins = (call(f"{ACCOUNT}/insights", fields="spend",
                  time_range=json.dumps({"since": w["since"], "until": until})).get("data") or [{}])[0]
