@@ -1,0 +1,133 @@
+{
+ "name": "batı hint manatisi",
+ "group": "memeli",
+ "hook_style": "tuhaf yetenek",
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/River_of_Io.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "File:Trichechus manatus latirostris underwater manatee.jpg",
+  "p2.jpg": "File:Trichechus manatus latirostris manatee underwater animal.jpg",
+  "p3.jpg": "File:Manatee endangered species Trichechus manatus latirostris.jpg",
+  "p4.jpg": "File:Two west Indian manatee trichechus manatus foraging for food.jpg",
+  "p5.jpg": "File:Manatee with calf.PD.jpg",
+  "p6.jpg": "File:Trichechus manatus latirostris florida manatee.jpg",
+  "p7.jpg": "File:Aquatic mammals manatee trichechus manatus latirostris.jpg",
+  "p8.jpg": "File:Two west Indian manatee trichechus manatus nuzzling noses together.jpg",
+  "p9.jpg": "File:Trichechus manatus latirostris florida manatee animals.jpg"
+ },
+ "segments": [
+  {
+   "text": "Bu hayvanın dişleri hiç bitmiyor.",
+   "image": "p1.jpg",
+   "cx": 0.45,
+   "cy": 0.4,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Batı Hint manatisi, Karayipler'in sıcak kıyılarında yaşıyor.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Ağzının arkasında yeni dişler çıkıyor ve ayda bir iki milimetre öne kayıyor.",
+   "image": "p3.jpg",
+   "cx": 0.55,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Ortalama 2,7 ila 3,5 metre uzunluğunda; 200 ila 600 kilo geliyor.",
+   "image": "p4.jpg",
+   "cx": 0.35,
+   "cy": 0.5,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Kayıtlı en büyüğü 1.655 kilo çekti.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Arka bacağı yok; kürek gibi bir kuyrukla yüzüyor.",
+   "image": "p6.jpg",
+   "cx": 0.25,
+   "cy": 0.6,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Günde dört ila sekiz saat otlayıp vücut ağırlığının yüzde 5 ila 10'u kadar bitki yiyor.",
+   "image": "p7.jpg",
+   "cx": 0.5,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Hayvanat bahçesindeki Snooty adlı manati 69 yıl yaşadı.",
+   "image": "p8.jpg",
+   "cx": 0.35,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.5,
+   "cy": 0.45,
+   "motion": "zoom_in"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.45,
+  "cy": 0.4,
+  "title": [
+   [
+    [
+     "BU HAYVANIN",
+     "R"
+    ]
+   ],
+   [
+    [
+     "DİŞLERİ",
+     "W"
+    ]
+   ],
+   [
+    [
+     "HİÇ",
+     "W"
+    ]
+   ],
+   [
+    [
+     "BİTMİYOR",
+     "R"
+    ]
+   ]
+  ]
+ },
+ "yt_title": "Dişleri Hiç Bitmeyen Hayvan: Batı Hint Manatisi",
+ "en": {
+  "title": "The Manatee Whose Teeth Never Run Out",
+  "description": "The West Indian manatee of the warm Caribbean coasts keeps growing new teeth at the back of its mouth and slowly moving them forward, so its teeth never run out."
+ },
+ "caption": "Karayipler'in sıcak sularında yaşayan batı Hint manatisi, ağzının arkasında yeni dişler üretip bunları öne kaydırarak dişlerini sürekli yeniliyor. 🌊🦭\n\n#terrawildnature #manati\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "Wikimedia Commons (USFWS / NOAA public domain photos)",
+   "author": "U.S. Fish and Wildlife Service; Galen Rathbun",
+   "license": "Public domain",
+   "public_domain": true
+  }
+ ]
+}

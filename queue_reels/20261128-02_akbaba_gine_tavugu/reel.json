@@ -1,0 +1,133 @@
+{
+ "name": "akbaba gine tavuğu",
+ "group": "kuş",
+ "hook_style": "benzetme",
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+8%",
+ "music": {
+  "file": "assets/music/Earth_Prelude.mp3",
+  "start": 0,
+  "loudness": -27
+ },
+ "photos": {
+  "p1.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/402218069/original.jpeg",
+  "p2.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/589455844/original.jpg",
+  "p3.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/402218435/original.jpeg",
+  "p4.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/402218527/original.jpeg",
+  "p5.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/402218535/original.jpeg",
+  "p6.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/402218674/original.jpeg",
+  "p7.jpg": "File:Acryllium vulturinum 431568323.jpg",
+  "p8.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/402218535/original.jpeg",
+  "p9.jpg": "https://inaturalist-open-data.s3.amazonaws.com/photos/402218069/original.jpeg"
+ },
+ "segments": [
+  {
+   "text": "Bu kuş akbabaya benziyor ama aslında bir tavuk akrabası.",
+   "image": "p1.jpg",
+   "cx": 0.65,
+   "cy": 0.25,
+   "motion": "zoom_in"
+  },
+  {
+   "text": "Akbaba gine tavuğu, gine tavuklarının yaşayan en büyük türü.",
+   "image": "p2.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Boyu 61 ile 71 santim.",
+   "image": "p3.jpg",
+   "cx": 0.55,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Göğsü kobalt mavisi, boynunda mavi beyaz uzun tüylerden bir pelerin var.",
+   "image": "p4.jpg",
+   "cx": 0.7,
+   "cy": 0.3,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Etiyopya'nın güneyinden Kenya'ya ve kuzey Tanzanya'ya kadar yaşıyor.",
+   "image": "p5.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Sürüler halinde, genelde 25 kuş kadar dolaşıyor.",
+   "image": "p6.jpg",
+   "cx": 0.5,
+   "cy": 0.4,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Tehlikede uçmak yerine koşmayı tercih ediyor, geceleri ağaçlarda tüneniyor.",
+   "image": "p7.jpg",
+   "cx": 0.4,
+   "cy": 0.5,
+   "motion": "pan_left"
+  },
+  {
+   "text": "Tohum ve böceklerin yanında kemirgen ve küçük sürüngenleri bile yiyor.",
+   "image": "p8.jpg",
+   "cx": 0.7,
+   "cy": 0.3,
+   "motion": "pan_right"
+  },
+  {
+   "text": "Canlılar hakkında daha fazla bilgi alabilmek için bizi takip etmeyi unutmayın.",
+   "image": "p9.jpg",
+   "cx": 0.65,
+   "cy": 0.25,
+   "motion": "zoom_in"
+  }
+ ],
+ "cover": {
+  "image": "p1.jpg",
+  "cx": 0.65,
+  "cy": 0.25,
+  "title": [
+   [
+    [
+     "BU KUŞ",
+     "W"
+    ]
+   ],
+   [
+    [
+     "AKBABAYA",
+     "R"
+    ]
+   ],
+   [
+    [
+     "BENZİYOR",
+     "R"
+    ]
+   ],
+   [
+    [
+     "AMA TAVUK",
+     "W"
+    ]
+   ]
+  ]
+ },
+ "yt_title": "Akbaba Gine Tavuğu: Akbabaya Benzeyen Tavuk Akrabası",
+ "en": {
+  "title": "Vulturine Guineafowl: The Vulture-Like Bird",
+  "description": "The vulturine guineafowl is the largest guineafowl, with a bare vulture-like neck, a cobalt-blue breast and a cape of long blue and white feathers."
+ },
+ "caption": "Doğu Afrika'nın en büyük gine tavuğu olan akbaba gine tavuğu, çıplak boynuyla akbabaya benzese de aslında bir tavuk akrabası. 🦚🌍\n\n#terrawildnature #akbabaginetavuğu\n\n🎵 Kevin MacLeod (CC BY)",
+ "credits": [
+  {
+   "title": "iNaturalist (CC0 photos)",
+   "author": "Daniel; danielarah; other CC0 observers",
+   "license": "CC0",
+   "public_domain": true
+  }
+ ]
+}
