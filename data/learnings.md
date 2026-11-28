@@ -493,3 +493,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: rapor yeniden okunmadı; kuyruklar dolu (gönderi 15/15, Reels 9/9, zz_ klasörleri dahil), failed klasörü yok.
 - Bugün uygulanan: üretim yapılmadı.
 - Sonra kontrol et: kuyruklar azalmışsa önce Reels (<4 ise), sonra gönderi doldur.
+
+## 2026-11-28 (öğlen çalıştırması)
+- Rapordan öğrenilen: memeli gönderi 1,18 güçlü; balık/böcek/amfibi ve tuhaf yetenek kancası (gönderi 0,70) zayıf; Reels'te 10:00 saati 1,71, gizem içerik 1,94, süperlatif zayıf.
+- Bugün uygulanan: Reels 7→9: ovalık vizkaça (memeli, sayı: 9 kilo) ve büyük bilbi (memeli, sayı: 12-14 gün gebelik). Gönderiler 12→15: dev potu (kuş, benzetme), yumurta yiyen yılan (sürüngen, tuhaf yetenek, keşif), benekli kuskus (memeli, benzetme: yılan gibi gözbebeği). Elenenler: Pireneler desmanı (Commons'ta sadece doldurulmuş hayvan fotoğrafı), şinşilla (iNat'ta bitki, Commons'ta evcil/kafe).
+- Sonra kontrol et: yumurta yiyen yılan (sürüngen+tuhaf yetenek) içerik ≥1,0 mı; vizkaça/bilbi Reels'lerinde sayı kancası ve izlenme süresi; kuskus (memeli+benzetme).

@@ -1,0 +1,112 @@
+{
+  "name": "dev potu",
+  "group": "kuş",
+  "hook_style": "benzetme",
+  "title": [
+    [
+      [
+        "BU KUŞ GÜNDÜZ",
+        "W"
+      ]
+    ],
+    [
+      [
+        "AĞAÇ",
+        "W"
+      ],
+      [
+        "KÜTÜĞÜ",
+        "R"
+      ]
+    ],
+    [
+      [
+        "GİBİ DURUYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "DEV POTU",
+  "card_top": [
+    "Gündüz dik durup bir ağaç",
+    "kütüğünün parçası gibi görünüyor."
+  ],
+  "card_bottom": [
+    "Geceleri gözleri ışıkta",
+    "parlıyor; tüneğinden atılıp",
+    "iri böcekleri avlıyor."
+  ],
+  "right": [
+    "Güney Meksika'dan Bolivya ve",
+    "Brezilya'ya kadar yaşar.",
+    "Boyu 48-60 cm, ağırlığı",
+    "360-650 gram arasındadır.",
+    "Dalın üstüne tek yumurta bırakır."
+  ],
+  "loc": "Orta ve Güney Amerika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "zoom": 1.0
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "zoom": 1.0
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.35,
+      "zoom": 1.5
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Great Potoo (Nyctibius grandis).jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:Great Potoo (Nyctibius grandis) - 48163737441.jpg",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "iNaturalist photo 254894006",
+      "author": "Paulo Mascaretti",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Orta ve Güney Amerika'nın dev potusu gündüzleri dik ve hareketsiz durup bir ağaç kütüğüne dönüşerek yırtıcılardan saklanıyor. 🌳🦉\n\n#terrawildnature #ilginçbilgiler #devpotu\n\n📷 Bernard DUPONT (CC BY-SA 2.0) / Wikimedia Commons",
+  "quiz": {
+    "yt_title": "Gündüz Ağaç Kütüğüne Dönüşen Kuş. Adını Biliyor musun?",
+    "facts": [
+      {
+        "title": "KÜTÜK TAKLİDİ",
+        "text": "Gündüz dik oturup bir ağaç kütüğünün uzantısı gibi görünüyor."
+      },
+      {
+        "title": "PARLAYAN GÖZLER",
+        "text": "Geceleri gözleri ışığı yansıtıyor ve yerini ele veriyor."
+      },
+      {
+        "title": "İNLEYEN SES",
+        "text": "Gece ormanında yankılanan, inleyen bir hırıltı çıkarıyor."
+      }
+    ],
+    "en": {
+      "title": "This Bird Turns Into a Tree Stump by Day",
+      "description": "By day this bird sits upright and looks like part of a tree stump. At night its eyes reflect light, and it makes a moaning growl. It's the great potoo."
+    }
+  }
+}

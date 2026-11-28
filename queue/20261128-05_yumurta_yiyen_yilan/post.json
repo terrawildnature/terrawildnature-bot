@@ -1,0 +1,98 @@
+{
+  "name": "yumurta yiyen yılan",
+  "group": "sürüngen",
+  "hook_style": "tuhaf yetenek",
+  "title": [
+    [
+      [
+        "BU YILAN SADECE",
+        "W"
+      ]
+    ],
+    [
+      [
+        "YUMURTA",
+        "R"
+      ],
+      [
+        "YİYOR",
+        "W"
+      ]
+    ],
+    [
+      [
+        "KABUĞU KUSUYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "YUMURTA YİYEN YILAN",
+  "card_top": [
+    "Neredeyse dişsiz; yuttuğu",
+    "yumurtayı omur çıkıntıları deler."
+  ],
+  "card_bottom": [
+    "İçeriği mideye gönderiyor,",
+    "kabuğu tek parça halinde",
+    "geri kusuyor."
+  ],
+  "right": [
+    "Sahra altı Afrika'da yaşar.",
+    "Zehirsizdir; boyu 1-1,2 metre.",
+    "Tehlikede pullarını sürtüp",
+    "tıslama sesi çıkarır.",
+    "Engereği taklit ettiği sanılır."
+  ],
+  "loc": "Sahra altı Afrika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom": 1.1
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.5,
+      "cy": 0.5,
+      "zoom": 1.0
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.35,
+      "cy": 0.5,
+      "zoom": 1.8
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "iNaturalist photo",
+      "author": "Marius Burger",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Sahra altı Afrika'nın yumurta yiyen yılanı neredeyse dişsiz; yuttuğu yumurtayı omur çıkıntılarıyla kırıp içini mideye gönderiyor, kabuğu ise tek parça halinde geri kusuyor. 🐍🥚\n\n#terrawildnature #ilginçbilgiler #yumurtayiyenyılan",
+  "quiz": {
+    "yt_title": "Sadece Yumurta Yiyen Yılan. Adını Biliyor musun?",
+    "facts": [
+      {
+        "title": "DİŞSİZ AVCI",
+        "text": "Çenesi neredeyse dişsiz ve yalnızca yumurtayla besleniyor."
+      },
+      {
+        "title": "OMURLA KIRIYOR",
+        "text": "Yuttuğu yumurtayı özel omur çıkıntılarıyla delip kırıyor."
+      },
+      {
+        "title": "KABUĞU KUSUYOR",
+        "text": "Yumurtanın içini sindirip kabuğu tek parça halinde geri çıkarıyor."
+      }
+    ],
+    "en": {
+      "title": "This Snake Only Eats Eggs. Can You Name It?",
+      "description": "This nearly toothless African snake feeds only on eggs. Spines on its vertebrae crack the egg, and it spits out the shell in one piece. It's the common egg-eater."
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "name": "benekli kuskus",
+  "group": "memeli",
+  "hook_style": "benzetme",
+  "title": [
+    [
+      [
+        "BU KESELİNİN",
+        "W"
+      ]
+    ],
+    [
+      [
+        "GÖZBEBEĞİ",
+        "W"
+      ],
+      [
+        "YILAN",
+        "R"
+      ]
+    ],
+    [
+      [
+        "GİBİ DİKEY",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "BENEKLİ KUSKUS",
+  "card_top": [
+    "Gözbebekleri yılanlarınki",
+    "gibi dikey yarık biçiminde."
+  ],
+  "card_bottom": [
+    "Kuyruğu dalları kavrıyor; iç",
+    "yüzü pürüzlü pullarla kaplı.",
+    "Sadece erkeklerde benek var."
+  ],
+  "right": [
+    "Cape York ve Yeni Gine'de",
+    "yaşar; geceleri aktiftir.",
+    "Yaprak, meyve ve nektar yer.",
+    "Bir ev kedisi kadardır,",
+    "1,5-6 kg gelir."
+  ],
+  "loc": "Yeni Gine, Avustralya",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.55,
+      "cy": 0.4,
+      "zoom": 1.1
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.55,
+      "cy": 0.4,
+      "zoom": 1.1
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.5,
+      "cy": 0.4,
+      "zoom": 1.5
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "iNaturalist photo",
+      "author": "Nigel Voaden",
+      "license": "CC BY",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "iNaturalist photo",
+      "author": "Jean-Paul Boerekamps",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Yeni Gine ve Kuzey Avustralya ormanlarının benekli kuskusu, yılanlarınki gibi dikey yarık gözbebekleri ve dalları kavrayan kuyruğuyla geceleri ağaç tepelerinde dolaşıyor. 🌴🌙\n\n#terrawildnature #ilginçbilgiler #beneklikuskus\n\n📷 Nigel Voaden (CC BY) / iNaturalist",
+  "quiz": {
+    "yt_title": "Gözbebeği Yılan Gibi Olan Keseli. Adını Biliyor musun?",
+    "facts": [
+      {
+        "title": "YILAN GÖZÜ",
+        "text": "Gözbebekleri yılanlarınki gibi dikey yarık biçiminde."
+      },
+      {
+        "title": "TUTUNAN KUYRUK",
+        "text": "Kuyruğunun iç yüzü pürüzlü pullarla kaplı ve dalları kavrıyor."
+      },
+      {
+        "title": "SADECE ERKEKTE BENEK",
+        "text": "Beneklere yalnızca erkekler sahip, dişiler genelde benek taşımıyor."
+      }
+    ],
+    "en": {
+      "title": "This Marsupial Has Snake-Like Eyes",
+      "description": "This house-cat-sized marsupial has vertical slit pupils like a snake's and a prehensile tail with rough scales. Only males have spots. It's the common spotted cuscus."
+    }
+  }
+}

@@ -476,3 +476,6 @@ oselot | Leopardus pardalis
 yakalı kertenkele | Crotaphytus collaris
 ovalık vizkaça (Reels) | Lagostomus maximus
 büyük bilbi (Reels) | Macrotis lagotis
+dev potu | Nyctibius grandis
+yumurta yiyen yılan | Dasypeltis scabra
+benekli kuskus | Spilocuscus maculatus
