@@ -1,0 +1,112 @@
+{
+  "name": "oselot",
+  "group": "memeli",
+  "hook_style": "gizem",
+  "title": [
+    [
+      [
+        "BU KEDİNİN ADI",
+        "W"
+      ]
+    ],
+    [
+      [
+        "AZTEKÇEDE",
+        "W"
+      ],
+      [
+        "JAGUAR",
+        "R"
+      ]
+    ],
+    [
+      [
+        "DEMEK",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "OSELOT",
+  "card_top": [
+    "Adı, Nahuatlcada genelde",
+    "jaguar demek olan kelimeden."
+  ],
+  "card_bottom": [
+    "Kendisi 7-15 kg ağırlığında,",
+    "omuzda 40-50 cm boyunda",
+    "benekli bir yabani kedi."
+  ],
+  "right": [
+    "Teksas'tan Kuzey Arjantin'e",
+    "kadar ormanlarda yaşar.",
+    "Tırmanır, sıçrar, iyi yüzer.",
+    "Gece avlanır; zırhlıları yer.",
+    "Yavrular 2 yıla dek annesinde."
+  ],
+  "loc": "Amerika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.55,
+      "cy": 0.4,
+      "zoom": 1.2
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.3,
+      "cy": 0.45,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.3,
+      "cy": 0.35,
+      "zoom": 2.0
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:016 Ocelot in Encontro das Águas State Park Photo by Giles Laurent.jpg",
+      "author": "Giles Laurent",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "top",
+      "title": "File:082 Ocelot in Encontro das Águas State Park Photo by Giles Laurent.jpg",
+      "author": "Giles Laurent",
+      "license": "CC BY-SA 4.0",
+      "public_domain": false
+    },
+    {
+      "use": "inner",
+      "title": "File:Ocelot.jpg",
+      "author": "Tom Smylie",
+      "license": "Public domain",
+      "public_domain": true
+    }
+  ],
+  "caption": "Adı Nahuatl dilinde genellikle jaguar anlamına gelen bir kelimeden türeyen oselot, aslında omuzda 40-50 cm boyunda benekli bir yabani kedi. 🐆🌳\n\n#terrawildnature #ilginçbilgiler #oselot\n\n📷 Giles Laurent (CC BY-SA 4.0) / Wikimedia Commons",
+  "quiz": {
+    "yt_title": "Bu Benekli Kedinin Adı Aslında Jaguar Demek",
+    "facts": [
+      {
+        "title": "ADI JAGUAR DEMEK",
+        "text": "Adı, Nahuatlcada genellikle jaguar anlamına gelen bir kelimeden geliyor."
+      },
+      {
+        "title": "USTA TIRMANICI",
+        "text": "Ağaçlara tırmanmakta, sıçramakta ve yüzmekte çok başarılı."
+      },
+      {
+        "title": "GECE AVCISI",
+        "text": "Alacakaranlıkta ve geceleri avlanıyor; zırhlıları bile yiyor."
+      }
+    ],
+    "en": {
+      "title": "This Spotted Cat's Name Means 'Jaguar'",
+      "description": "This wild cat's name comes from a Nahuatl word that generally refers to the jaguar. It climbs, leaps and swims well and hunts at twilight and night. It's the ocelot."
+    }
+  }
+}

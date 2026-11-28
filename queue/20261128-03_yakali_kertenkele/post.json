@@ -1,0 +1,112 @@
+{
+  "name": "yakalı kertenkele",
+  "group": "sürüngen",
+  "hook_style": "sayı",
+  "title": [
+    [
+      [
+        "BU KERTENKELE",
+        "W"
+      ]
+    ],
+    [
+      [
+        "SAATTE",
+        "W"
+      ],
+      [
+        "26 KM",
+        "R"
+      ]
+    ],
+    [
+      [
+        "İKİ AYAKLA KOŞUYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "YAKALI KERTENKELE",
+  "card_top": [
+    "Tehlikede arka ayaklarının",
+    "üstünde dikilip koşuyor."
+  ],
+  "card_bottom": [
+    "Rekor hızı yaklaşık 26 km/s;",
+    "büyük kafası ve güçlü çenesi",
+    "erkeklerin kavgasında silah."
+  ],
+  "right": [
+    "ABD'nin güneybatısı ile",
+    "kuzey Meksika'nın kurak",
+    "kayalık yerlerinde yaşar.",
+    "Boyu kuyruğuyla 20-38 cm.",
+    "Böcek ve küçük omurgalı yer."
+  ],
+  "loc": "Kuzey Amerika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.7,
+      "cy": 0.3,
+      "zoom": 1.1
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.35,
+      "cy": 0.55,
+      "zoom": 1.3
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.65,
+      "cy": 0.3,
+      "zoom": 1.5
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "File:Crotaphytus collaris fuscus - Flickr - aspidoscelis (14).jpg",
+      "author": "Patrick Alexander",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "File:Crotaphytus collaris 70822864.jpg",
+      "author": "Craig Martin",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "inner",
+      "title": "File:Crotaphytus collaris - Flickr - aspidoscelis.jpg",
+      "author": "Patrick Alexander",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Kuzey Amerika'nın yakalı kertenkelesi, tehlikede arka bacaklarının üstünde yaklaşık 26 km/s hızla koşabiliyor. 🦎🏜️\n\n#terrawildnature #ilginçbilgiler #yakalıkertenkele",
+  "quiz": {
+    "yt_title": "İki Ayağı Üstünde Koşan Çöl Kertenkelesi. Bildin mi?",
+    "facts": [
+      {
+        "title": "İKİ AYAKLI KOŞU",
+        "text": "Kaçarken arka ayaklarının üstüne kalkıp saatte yaklaşık 26 kilometreye çıkıyor."
+      },
+      {
+        "title": "SİYAH YAKA",
+        "text": "Boynunda ve omuzlarında yaka gibi görünen iki siyah bant var."
+      },
+      {
+        "title": "GÜÇLÜ ÇENE",
+        "text": "Büyük kafası ve güçlü çenesi, erkeklerin kavgasında silah görevi görüyor."
+      }
+    ],
+    "en": {
+      "title": "This Desert Lizard Sprints on Two Legs",
+      "description": "This North American lizard rears up on its hind legs and runs at around 26 km/h, with two black bands around its neck like a collar. It's the common collared lizard."
+    }
+  }
+}

@@ -483,3 +483,8 @@ Sabah görevi her gün buraya rapordan öğrendiklerini ve uyguladıklarını ya
 - Rapordan öğrenilen: memeli gönderi 1,18 güçlü; balık/böcek/amfibi ve tuhaf yetenek kancası zayıf; Reels'te sayı ve gizem içerik değeri iyi, süperlatif zayıf.
 - Bugün uygulanan: Reels 7→8: kea (kuş, benzetme kancası: "dağların palyaçosu", CC0 fotoğraflar). Gönderiler 13→15: minik yaprak bukalemunu (sürüngen, sayı: dünyanın 3. en küçük kertenkelesi) ve satir tragopan (kuş, tuhaf görünüm: mavi boynuz). Elenenler: Sibirya misk geyiği (iNat fotoğrafları gübre), balıkçı kedi (iNat gece/yansıma fotoğrafları), Kuzey Amerika kirpisi (iNat'ta iskelet fotoğrafları), Filipin kartalı (çok uzak/zayıf), kanchil (büyük fare geyiği zaten paylaşılmış).
 - Sonra kontrol et: Reels kuyruğu 9'a tamamlanmalı (1 eksik); iNat'ta hayvan fotoğrafı bol ve net olan memeli aday bul (Commons indirmeleri yavaştı). kea benzetme kancası ve bukalemun sayı kancası içerik ≥1,0 mı.
+
+## 2026-11-28 (gece çalıştırması)
+- Rapordan öğrenilen: memeli gönderi 1,18 güçlü; balık/böcek/amfibi ve tuhaf yetenek kancası (gönderi 0,69) zayıf; Reels'te sayı/gizem içerik iyi, süperlatif zayıf (0,74).
+- Bugün uygulanan: Reels 7→9: batı Hint manatisi (memeli, tuhaf yetenek: dişleri yenileniyor) ve akbaba gine tavuğu (kuş, benzetme). Gönderiler 12→15: turkuaz kaşlı motmot (kuş, benzetme), oselot (memeli, gizem: adı "jaguar" demek), yakalı kertenkele (sürüngen, sayı: 26 km/s). Elenenler: solenodon (iNat/Commons'ta uygun foto yok), kaya damanı (zaten paylaşılmış). Manatide iNat fotoğrafları kötüydü, Commons PD (USFWS) kullanıldı.
+- Sonra kontrol et: oselot (memeli+gizem) ve motmot (kuş+benzetme) içerik ≥1,0 mı; manati/gine tavuğu Reels izlenme süresi.

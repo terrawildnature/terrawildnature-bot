@@ -1,0 +1,105 @@
+{
+  "name": "turkuaz kaşlı motmot",
+  "group": "kuş",
+  "hook_style": "benzetme",
+  "title": [
+    [
+      [
+        "BU KUŞUN KUYRUĞU",
+        "W"
+      ]
+    ],
+    [
+      [
+        "SAAT SARKACI",
+        "R"
+      ],
+      [
+        "GİBİ",
+        "W"
+      ]
+    ],
+    [
+      [
+        "SALLANIYOR",
+        "R"
+      ]
+    ]
+  ],
+  "card_title": "TURKUAZ KAŞLI MOTMOT",
+  "card_top": [
+    "Raket uçlu kuyruğunu sarkaç",
+    "gibi sağa sola sallıyor."
+  ],
+  "card_bottom": [
+    "Yırtıcıya 'seni fark ettim,",
+    "avlanmaya çalışma' diyor;",
+    "bu bir caydırma sinyali."
+  ],
+  "right": [
+    "Meksika'nın güneydoğusundan",
+    "Kosta Rika'ya kadar yaşar.",
+    "Boyu 34 cm, ağırlığı 65 g.",
+    "Böcek ve küçük sürüngenleri",
+    "tırtıklı gagasıyla yer."
+  ],
+  "loc": "Orta Amerika",
+  "photos": {
+    "cover": {
+      "file": "photo_cover.jpg",
+      "cx": 0.55,
+      "cy": 0.4,
+      "zoom": 1.1
+    },
+    "top": {
+      "file": "photo_top.jpg",
+      "cx": 0.55,
+      "cy": 0.3,
+      "zoom": 1.0
+    },
+    "inner": {
+      "file": "photo_inner.jpg",
+      "cx": 0.7,
+      "cy": 0.5,
+      "zoom": 1.7
+    }
+  },
+  "credits": [
+    {
+      "use": "cover",
+      "title": "iNaturalist photo 474802513",
+      "author": "Carter Dorscht",
+      "license": "CC0",
+      "public_domain": true
+    },
+    {
+      "use": "top",
+      "title": "iNaturalist photo 134715945",
+      "author": "Juanito Escamilla",
+      "license": "CC0",
+      "public_domain": true
+    }
+  ],
+  "caption": "Orta Amerika'nın turkuaz kaşlı motmotu, raket uçlu kuyruğunu sarkaç gibi sallayarak yırtıcılara onları fark ettiğini gösteriyor. 🐦🌿\n\n#terrawildnature #ilginçbilgiler #motmot",
+  "quiz": {
+    "yt_title": "Kuyruğu Saat Sarkacı Gibi Sallanan Kuş. Adını Biliyor musun?",
+    "facts": [
+      {
+        "title": "RAKET UÇLU KUYRUK",
+        "text": "Kuyruk tüylerinin uçları, raket şeklinde ve parlak turkuaz renkte."
+      },
+      {
+        "title": "SARKAÇ GİBİ SALLIYOR",
+        "text": "Yırtıcı görünce kuyruğunu sağa sola sallayıp onu fark ettiğini gösteriyor."
+      },
+      {
+        "title": "MAYALARIN BEKÇİSİ",
+        "text": "Maya kültüründe yeraltı dünyasının koruyucusu olarak saygı görmüş."
+      }
+    ],
+    "en": {
+      "title": "This Bird's Tail Swings Like a Clock Pendulum",
+      "description": "This Central American bird has a racket-tipped tail it swings like a pendulum to show predators they've been spotted. The Maya revered it as a guardian of the underworld. It's the turquoise-browed motmot."
+    }
+  }
+}
